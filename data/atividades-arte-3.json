@@ -1,0 +1,319 @@
+[
+  {
+    "id": "art-001-n1",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-001",
+    "unidade_titulo": "Elementos Visuais: Linha, Forma e Cor",
+    "habilidade_bncc_codigo": "EF35AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.01 — Identificação e uso dos elementos da linguagem visual em produções artísticas",
+    "objetivo": "Identificar os elementos visuais linha, forma e cor em obras e situações do cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 4,
+    "enunciado": "Para cada descrição, marque o elemento visual correto: linha, forma ou cor.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "descricao": "O traço que define o contorno de um desenho",
+          "opcoes": [
+            "Linha",
+            "Forma",
+            "Cor"
+          ],
+          "correta": 0
+        },
+        {
+          "descricao": "O azul do céu numa pintura",
+          "opcoes": [
+            "Linha",
+            "Forma",
+            "Cor"
+          ],
+          "correta": 2
+        },
+        {
+          "descricao": "Um círculo ou quadrado num quadro",
+          "opcoes": [
+            "Linha",
+            "Forma",
+            "Cor"
+          ],
+          "correta": 1
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue linha, forma e cor por definição funcional",
+      "Associa exemplos concretos a cada elemento"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Ícone visual para cada elemento (traço, figura geométrica, paleta); áudio das descrições.",
+      "resposta": "Seleção por clique.",
+      "engajamento": "Dica: exibe um exemplo visual de cada elemento ao solicitar ajuda."
+    },
+    "modo_professor": {
+      "gabarito": "Contorno → Linha; azul do céu → Cor; círculo/quadrado → Forma.",
+      "objetivo_pedagogico": "Construir vocabulário básico da linguagem visual com exemplos acessíveis.",
+      "perguntas_orientadoras": [
+        "O que você usaria para separar o céu da terra num desenho?",
+        "Uma bola é uma linha, uma forma ou uma cor?"
+      ],
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): 3 pares com 3 opções fixas, exemplos do cotidiano."
+    }
+  },
+  {
+    "id": "art-001-n2",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-001",
+    "unidade_titulo": "Elementos Visuais: Linha, Forma e Cor",
+    "habilidade_bncc_codigo": "EF35AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.01 — Identificação e uso dos elementos da linguagem visual em produções artísticas",
+    "objetivo": "Classificar tipos de linhas e formas presentes em obras de arte.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 6,
+    "enunciado": "Arraste cada exemplo para a categoria correta: Linha Reta, Linha Curva, Forma Geométrica ou Forma Orgânica.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "O horizonte numa paisagem",
+          "categoria": "Linha Reta"
+        },
+        {
+          "id": "i2",
+          "label": "O arco de um arco-íris",
+          "categoria": "Linha Curva"
+        },
+        {
+          "id": "i3",
+          "label": "Uma janela quadrada",
+          "categoria": "Forma Geométrica"
+        },
+        {
+          "id": "i4",
+          "label": "O contorno de uma folha de árvore",
+          "categoria": "Forma Orgânica"
+        },
+        {
+          "id": "i5",
+          "label": "Uma estrada reta no campo",
+          "categoria": "Linha Reta"
+        },
+        {
+          "id": "i6",
+          "label": "Uma pedra arredondada",
+          "categoria": "Forma Orgânica"
+        }
+      ],
+      "categorias": [
+        "Linha Reta",
+        "Linha Curva",
+        "Forma Geométrica",
+        "Forma Orgânica"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue linha reta de linha curva por sua trajetória",
+      "Distingue formas geométricas (regulares) de orgânicas (irregulares)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Cada item descrito verbalmente com ícone esquemático; definições das categorias visíveis.",
+      "resposta": "Arrastar item para caixa de categoria; alternativa de seleção sequencial.",
+      "engajamento": "Dica: exibe a definição da categoria ao passar o cursor sobre ela."
+    },
+    "modo_professor": {
+      "gabarito": "Linha Reta: horizonte, estrada. Linha Curva: arco-íris. Forma Geométrica: janela quadrada. Forma Orgânica: folha de árvore, pedra.",
+      "objetivo_pedagogico": "Ampliar o vocabulário visual com tipos específicos de linha e forma.",
+      "perguntas_orientadoras": [
+        "O que faz uma forma ser 'orgânica'? Ela precisa ser viva?",
+        "Numa pintura de cidade, quais tipos de linha e forma aparecem mais?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): 6 itens, 4 categorias, exige distinção dentro das categorias de linha e forma."
+    }
+  },
+  {
+    "id": "art-001-n3",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-001",
+    "unidade_titulo": "Elementos Visuais: Linha, Forma e Cor",
+    "habilidade_bncc_codigo": "EF35AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.01 — Identificação e uso dos elementos da linguagem visual em produções artísticas",
+    "objetivo": "Descrever como os elementos visuais contribuem para o efeito de uma obra de arte.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Pense em um desenho, quadro ou imagem que você conhece. Descreva como as linhas, formas e cores são usadas nessa obra e qual efeito elas causam em quem a vê.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "label": "Qual obra você escolheu:",
+          "id": "obra",
+          "max": 100
+        },
+        {
+          "label": "Como linhas, formas e cores são usadas:",
+          "id": "descricao",
+          "max": 300
+        },
+        {
+          "label": "Que sensação ou efeito esses elementos causam:",
+          "id": "efeito",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Menciona os três elementos (linha, forma, cor) com exemplos da obra",
+      "Relaciona ao menos um elemento ao efeito causado no observador"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Glossário dos elementos visuais disponível; áudio do enunciado; exemplos de obras conhecidas como ponto de partida.",
+      "resposta": "Três campos de escrita; alternativa oral.",
+      "engajamento": "Dica: sugere que o aluno comece descrevendo apenas as cores antes de passar para linhas e formas."
+    },
+    "modo_professor": {
+      "gabarito": "Respostas abertas. Critérios: uso coerente dos três termos com referência à obra escolhida; relação entre pelo menos um elemento e seu efeito (ex.: 'As linhas curvas da obra deixam a imagem suave e tranquila').",
+      "objetivo_pedagogico": "Desenvolver leitura crítica de imagens com vocabulário da linguagem visual.",
+      "perguntas_orientadoras": [
+        "Se o artista tivesse usado apenas cores frias, como vermelho e laranja, o efeito seria diferente?",
+        "As linhas da obra são tensas ou relaxadas? Como você sabe?"
+      ],
+      "tempo_estimado": "6 a 9 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): análise autônoma de obra à escolha, exige articulação dos três elementos com efeito estético."
+    }
+  },
+  {
+    "id": "art-3-u2-n1",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u2",
+    "unidade_titulo": "Fotografia e Imagem",
+    "habilidade_bncc_codigo": "EF35AR12",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.P.02 — Análise e produção de imagens fotográficas",
+    "objetivo": "Desenvolver habilidades de fotografia e imagem.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é enquadramento em uma fotografia?",
+    "conteudo_base": {
+      "opcoes": [
+        "O brilho da foto",
+        "A escolha do que entra e do que fica de fora da imagem",
+        "A velocidade do obturador",
+        "O tipo de câmera usada"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Define enquadramento fotográfico como escolha compositiva."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Quem fotografa escolhe o que vai aparecer. Isso é enquadrar."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar fotografia e imagem de forma progressiva.",
+      "gabarito": "Enquadramento é a escolha de limites da imagem — o que incluir e excluir.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "art-3-u2-n2",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u2",
+    "unidade_titulo": "Fotografia e Imagem",
+    "habilidade_bncc_codigo": "EF35AR12",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.P.02 — Análise e produção de imagens fotográficas",
+    "objetivo": "Desenvolver habilidades de fotografia e imagem.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada tipo de plano fotográfico à sua descrição.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Plano geral",
+          "nome": "Mostra o ambiente completo e a pessoa pequena"
+        },
+        {
+          "elemento": "Plano médio",
+          "nome": "Mostra a pessoa da cintura para cima"
+        },
+        {
+          "elemento": "Close",
+          "nome": "Mostra apenas o rosto ou detalhe"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa tipos de plano a seus efeitos expressivos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em como a câmera se aproxima ou se afasta do assunto."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar fotografia e imagem de forma progressiva.",
+      "gabarito": "Geral=contexto, médio=expressão, close=detalhe.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "art-3-u2-n3",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u2",
+    "unidade_titulo": "Fotografia e Imagem",
+    "habilidade_bncc_codigo": "EF35AR12",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.P.02 — Análise e produção de imagens fotográficas",
+    "objetivo": "Desenvolver habilidades de fotografia e imagem.",
+    "nivel": 3,
+    "tipo_evidencia": "desenhar",
+    "tempo_medio_min": 8,
+    "enunciado": "Cria uma composição visual como se fosse uma fotografia sua. Escolha o enquadramento: o que vai aparecer? Use perspectiva e detalhes.",
+    "conteudo_base": {
+      "prompt_desenho": "Crie uma composição visual com enquadramento fotográfico.",
+      "tema": "fotografia e composição"
+    },
+    "criterios_sucesso": [
+      "Aplica conceitos de enquadramento em produção visual."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa onde você colocaria a câmera. O que fica no centro? O que fica fora da foto?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar fotografia e imagem de forma progressiva.",
+      "gabarito": "Composição com enquadramento intencional e elementos de perspectiva.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

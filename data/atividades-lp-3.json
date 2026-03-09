@@ -1,0 +1,285 @@
+[
+  {
+    "id": "lp-001-n1",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-001",
+    "unidade_titulo": "Ideia Principal e Evidências",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
+    "objetivo": "Identificar a ideia principal de um texto informativo com suporte visual.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Leia o texto abaixo. Depois, marque a frase que melhor representa a ideia principal.",
+    "conteudo_base": {
+      "texto": "A água é fundamental para a vida. Todos os seres vivos precisam dela para sobreviver. Plantas absorvem água pelo solo. Animais bebem água de rios, lagos e chuva. Os seres humanos também precisam beber água todos os dias para manter o corpo funcionando bem.",
+      "opcoes": [
+        "A água cai do céu como chuva.",
+        "Todos os seres vivos precisam de água para viver.",
+        "As plantas crescem no solo.",
+        "Os rios têm muita água."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a frase que abrange o assunto principal do texto",
+      "Distingue ideia principal de detalhe secundário"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Texto com no máximo 5 linhas; botão de áudio disponível; opção de fonte maior.",
+      "resposta": "Seleção por clique em opção de múltipla escolha; sem digitação.",
+      "engajamento": "Dica disponível: destaca no texto a frase mais ampla para guiar a escolha."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B: 'Todos os seres vivos precisam de água para viver.'",
+      "objetivo_pedagogico": "Desenvolver a habilidade de distinguir ideia central de informações secundárias em textos curtos.",
+      "perguntas_orientadoras": [
+        "O texto fala sobre um único ser vivo ou sobre todos?",
+        "Qual das frases poderia ser o título do texto?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): texto curto, 4 opções com distratores simples, dica ativa por padrão."
+    }
+  },
+  {
+    "id": "lp-001-n2",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-001",
+    "unidade_titulo": "Ideia Principal e Evidências",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
+    "objetivo": "Identificar a ideia principal e uma evidência que a sustenta em texto informativo.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 6,
+    "enunciado": "Leia o texto. Depois, organize as frases na ordem: primeiro a ideia principal, depois as evidências que a comprovam.",
+    "conteudo_base": {
+      "texto": "A Floresta Amazônica é uma das regiões mais biodiversas do planeta. Ela abriga mais de 10% de todas as espécies de plantas e animais conhecidos. Pesquisadores estimam que há mais de 390 bilhões de árvores só na Amazônia. Além disso, milhares de espécies de insetos e pássaros ainda não foram classificados pela ciência.",
+      "itens": [
+        "A Floresta Amazônica é uma das regiões mais biodiversas do planeta.",
+        "Mais de 10% de todas as espécies conhecidas vivem lá.",
+        "Há mais de 390 bilhões de árvores na Amazônia.",
+        "Milhares de espécies ainda não foram classificadas."
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Posiciona a ideia principal como primeira frase",
+      "Reconhece as demais frases como evidências ou detalhes"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Texto com marcação de palavras-chave; botão de áudio; contraste ajustável.",
+      "resposta": "Arrastar e soltar para ordenar; alternativa de botões de reordenação por teclado.",
+      "engajamento": "Dica: realça visualmente a frase mais ampla do texto ao solicitar ajuda."
+    },
+    "modo_professor": {
+      "gabarito": "Ordem: frase 1 (ideia principal), frases 2, 3, 4 (evidências).",
+      "objetivo_pedagogico": "Compreender a relação hierárquica entre ideia central e informações de suporte.",
+      "perguntas_orientadoras": [
+        "Qual frase, se retirada, tornaria as demais sem sentido?",
+        "Qual frase mais ampla resume o assunto das outras?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): texto com mais informações, tarefa de organização exige raciocínio relacional."
+    }
+  },
+  {
+    "id": "lp-001-n3",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-001",
+    "unidade_titulo": "Ideia Principal e Evidências",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
+    "objetivo": "Formular a ideia principal de um texto com as próprias palavras e justificá-la com evidências.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Leia o texto abaixo. Escreva, com suas próprias palavras, qual é a ideia principal. Depois, escreva uma frase do texto que funcione como evidência para essa ideia.",
+    "conteudo_base": {
+      "texto": "O solo é um recurso natural vital, mas frequentemente subestimado. Ele leva centenas de anos para se formar, mas pode ser destruído em poucos anos por práticas agrícolas inadequadas. O solo saudável contém organismos vivos — bactérias, fungos, minhocas — que transformam matéria orgânica em nutrientes para as plantas. Sem solo de qualidade, a produção de alimentos se torna inviável em larga escala.",
+      "campos": [
+        {
+          "label": "Ideia principal (com suas palavras):",
+          "id": "ideia_principal",
+          "max": 150
+        },
+        {
+          "label": "Evidência do texto (copie ou parafraseie):",
+          "id": "evidencia",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Reformula a ideia central sem copiar literalmente",
+      "Identifica frase do texto que comprova a ideia indicada",
+      "Mantém coerência entre ideia e evidência escolhida"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Texto disponível para consulta durante a escrita; áudio; fonte ajustável.",
+      "resposta": "Escrita livre em campo de texto; alternativa oral disponível via gravação local.",
+      "engajamento": "Dica: sugere que o aluno releia o primeiro e o último parágrafo antes de responder."
+    },
+    "modo_professor": {
+      "gabarito": "Ideia central esperada: o solo é um recurso natural importante e frágil. Evidências válidas: qualquer frase que mencione tempo de formação, organismos ou consequências da degradação.",
+      "objetivo_pedagogico": "Desenvolver escrita argumentativa básica com apoio textual explícito.",
+      "perguntas_orientadoras": [
+        "O que o texto quer nos ensinar sobre o solo?",
+        "Qual parte do texto prova essa ideia?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): produção escrita livre, exige paráfrase e seleção crítica de evidência."
+    }
+  },
+  {
+    "id": "lp-3-u2-n1",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u2",
+    "unidade_titulo": "Produção de Texto",
+    "habilidade_bncc_codigo": "EF35LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02 — Produção de textos narrativos com começo, meio e fim",
+    "objetivo": "Desenvolver habilidades de produção de texto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual parte do texto narrativo apresenta o problema que o personagem precisa resolver?",
+    "conteudo_base": {
+      "opcoes": [
+        "Início — apresenta personagens e cenário",
+        "Meio — apresenta o conflito",
+        "Fim — mostra a resolução",
+        "Título — resume a história"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a função das partes da estrutura narrativa."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "O problema que o personagem enfrenta está no meio da história."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar produção de texto de forma progressiva.",
+      "gabarito": "O meio da narrativa é onde o conflito acontece.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "lp-3-u2-n2",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u2",
+    "unidade_titulo": "Produção de Texto",
+    "habilidade_bncc_codigo": "EF35LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02 — Produção de textos narrativos com começo, meio e fim",
+    "objetivo": "Desenvolver habilidades de produção de texto.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Organiza os parágrafos para formar uma história com começo, meio e fim.",
+    "conteudo_base": {
+      "itens": [
+        "Bia adorava passear no parque perto de casa.",
+        "Um dia, ela encontrou um cachorrinho perdido.",
+        "O cachorro estava com fome e com medo.",
+        "Bia levou o cachorrinho para casa e cuidou dele.",
+        "No dia seguinte, encontrou a dona e devolveu o animal feliz."
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena parágrafos respeitando a progressão narrativa."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Quem é a personagem principal? Onde e quando a história começa?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar produção de texto de forma progressiva.",
+      "gabarito": "Sequência: apresentação de Bia, encontro, situação problema, ação, resolução.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "lp-3-u2-n3",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u2",
+    "unidade_titulo": "Produção de Texto",
+    "habilidade_bncc_codigo": "EF35LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02 — Produção de textos narrativos com começo, meio e fim",
+    "objetivo": "Desenvolver habilidades de produção de texto.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Cria uma história curta com início, meio e fim. Use os elementos: um personagem, um lugar e um problema para resolver.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "titulo",
+          "label": "Título:",
+          "max": 60
+        },
+        {
+          "id": "historia",
+          "label": "Minha história (mínimo 4 frases):",
+          "max": 500
+        }
+      ],
+      "palavras_obrigatorias": [
+        "personagem",
+        "lugar"
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa estrutura narrativa completa.",
+      "Inclui personagem, espaço e conflito."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Inventa um nome para seu personagem. Onde ele estava? O que deu errado? Como resolveu?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar produção de texto de forma progressiva.",
+      "gabarito": "História com personagem nomeado, espaço definido, conflito e resolução.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "art-2-u1-n1",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u1",
+    "unidade_titulo": "Ritmo e Movimento na Arte",
+    "habilidade_bncc_codigo": "EF02AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.P.01 — Ritmo, movimento e expressão corporal na arte",
+    "objetivo": "Identificar ritmo e movimento em obras de arte e danças.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual das opções mostra movimento numa obra de arte?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "O que uma escultura de um atleta correndo representa?",
+      "opcoes": [
+        "Quietude e descanso",
+        "Movimento e velocidade",
+        "Tristeza e solidão",
+        "Sono e cansaço"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece que obras de arte podem representar movimento e ação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode imitar a postura de um atleta correndo para contextualizar.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Quando você vê alguém correndo, o que essa cena passa pra você? Calma ou energia?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Identificar que obras visuais e esculturas podem representar movimento.",
+      "gabarito": "Movimento e velocidade — a postura do atleta sugere ação dinâmica.",
+      "perguntas_orientadoras": [
+        "O que a posição do corpo do atleta sugere?",
+        "Como o artista mostrou que ele está em movimento?",
+        "Você já viu alguma estátua de alguém em movimento?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: contexto direto, uma opção claramente ligada ao tema movimento."
+    }
+  },
+  {
+    "id": "art-2-u1-n2",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u1",
+    "unidade_titulo": "Ritmo e Movimento na Arte",
+    "habilidade_bncc_codigo": "EF02AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.P.01 — Ritmo, movimento e expressão corporal na arte",
+    "objetivo": "Identificar ritmo e movimento em obras de arte e danças.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 8,
+    "enunciado": "Coloca os passos de uma dança na ordem certa, do começo ao fim.",
+    "conteudo_base": {
+      "tipo": "ordenacao",
+      "itens": [
+        "Ouvir a música e sentir o ritmo",
+        "Escolher os movimentos do corpo",
+        "Ensaiar os movimentos várias vezes",
+        "Apresentar a dança para outras pessoas"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Compreende que a criação artística envolve etapas sequenciais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer uma mini-demonstração de cada etapa.",
+      "resposta": "Arrasta ou use os botões cima/baixo para colocar na ordem certa.",
+      "engajamento": "Você já aprendeu uma dança ou coreografia? O que você fez primeiro?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer etapas do processo de criação e ensaio na dança.",
+      "gabarito": "Ouvir → Escolher → Ensaiar → Apresentar.",
+      "perguntas_orientadoras": [
+        "O que vem antes: ensaiar ou apresentar?",
+        "Por que é importante ouvir a música primeiro?",
+        "Quantas vezes você precisa ensaiar antes de apresentar?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: sequência lógica com quatro etapas, ordem intuitiva para quem já participou de atividade artística."
+    }
+  },
+  {
+    "id": "art-2-u1-n3",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u1",
+    "unidade_titulo": "Ritmo e Movimento na Arte",
+    "habilidade_bncc_codigo": "EF02AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.P.01 — Ritmo, movimento e expressão corporal na arte",
+    "objetivo": "Identificar ritmo e movimento em obras de arte e danças.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Pensa numa música que você gosta e descreve como ela faz você querer se mover.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Ritmo é a repetição de sons em sequência. Ele faz o nosso corpo querer se mexer.",
+      "campos": [
+        {
+          "id": "musica",
+          "label": "Qual música você escolheu e por quê gosta dela?",
+          "max": 120
+        },
+        {
+          "id": "movimento",
+          "label": "Como essa música faz seu corpo se mover? Descreve os movimentos.",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona ritmo musical ao movimento corporal.",
+      "Descreve movimentos com vocabulário próprio."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor permite que a criança ouça ou cante um trecho antes de escrever.",
+      "resposta": "Escreve sobre o que você sente e faz quando ouve a música.",
+      "engajamento": "Fecha os olhos e pensa na música. O que seu corpo quer fazer quando você a ouve?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Expressar a relação pessoal entre ritmo musical e expressão corporal.",
+      "gabarito": "Resposta variável — verificar se há conexão explícita entre a música e os movimentos descritos.",
+      "perguntas_orientadoras": [
+        "O que no ritmo dessa música faz você querer se mexer?",
+        "Essa música é rápida ou lenta? Isso muda seus movimentos?",
+        "Como você descreveria esse ritmo para alguém que nunca ouviu?"
+      ],
+      "tempo_estimado": "10 minutos",
+      "adaptacao_nivel": "Nível 3: reflexão pessoal, exige conexão entre experiência sensorial e linguagem escrita."
+    }
+  },
+  {
+    "id": "art-2-u2-n1",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u2",
+    "unidade_titulo": "Teatro e Expressão Corporal",
+    "habilidade_bncc_codigo": "EF02AR17",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.P.02 — Expressão corporal e dramatização de situações cotidianas",
+    "objetivo": "Desenvolver habilidades de teatro e expressão corporal.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é cenário numa peça de teatro?",
+    "conteudo_base": {
+      "opcoes": [
+        "A roupa dos atores",
+        "O texto que os atores falam",
+        "O ambiente visual que representa o lugar da história",
+        "A música de fundo"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica função do cenário em uma peça teatral."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Cenário vem de \"cena\". É o que você vê atrás dos atores no palco."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar teatro e expressão corporal de forma progressiva.",
+      "gabarito": "O cenário é o ambiente visual que cria o espaço da história.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "art-2-u2-n2",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u2",
+    "unidade_titulo": "Teatro e Expressão Corporal",
+    "habilidade_bncc_codigo": "EF02AR17",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.P.02 — Expressão corporal e dramatização de situações cotidianas",
+    "objetivo": "Desenvolver habilidades de teatro e expressão corporal.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Coloca as etapas de preparação de uma peça teatral na ordem lógica.",
+    "conteudo_base": {
+      "itens": [
+        "Escolher o texto",
+        "Distribuir os papéis",
+        "Ensaiar",
+        "Preparar o cenário e figurinos",
+        "Apresentar ao público"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena etapas de produção teatral em sequência lógica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em como você organiza uma apresentação na escola."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar teatro e expressão corporal de forma progressiva.",
+      "gabarito": "Texto → papéis → ensaios → cenário → apresentação.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "art-2-u2-n3",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u2",
+    "unidade_titulo": "Teatro e Expressão Corporal",
+    "habilidade_bncc_codigo": "EF02AR17",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.P.02 — Expressão corporal e dramatização de situações cotidianas",
+    "objetivo": "Desenvolver habilidades de teatro e expressão corporal.",
+    "nivel": 3,
+    "tipo_evidencia": "desenhar",
+    "tempo_medio_min": 8,
+    "enunciado": "Desenha o cenário de uma peça de teatro inventada por você. Que lugar é esse? Que história acontece ali?",
+    "conteudo_base": {
+      "prompt_desenho": "Crie o cenário de uma peça de teatro.",
+      "tema": "teatro e cenário"
+    },
+    "criterios_sucesso": [
+      "Cria representação visual de espaço cênico."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "O cenário conta a história antes mesmo dos atores entrarem. Onde se passa sua peça?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar teatro e expressão corporal de forma progressiva.",
+      "gabarito": "Cenário com elementos que situam o espectador no espaço da narrativa.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

@@ -1,0 +1,313 @@
+[
+  {
+    "id": "geo-2-u1-n1",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u1",
+    "unidade_titulo": "Paisagens Naturais e Transformadas",
+    "habilidade_bncc_codigo": "EF02GE01",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.01 — Paisagens naturais e transformadas pelo ser humano",
+    "objetivo": "Distinguir paisagens naturais de paisagens transformadas pela ação humana.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dessas paisagens foi feita pela natureza, sem a ajuda das pessoas?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Qual é uma paisagem natural?",
+      "opcoes": [
+        "Uma cidade",
+        "Uma floresta",
+        "Uma fazenda",
+        "Uma rodovia"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica uma paisagem natural como aquela não modificada pela ação humana."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar fotos de cada opção para apoio visual.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Qual desses lugares existia antes das pessoas chegarem? Qual foi construído pelas pessoas?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer paisagens naturais versus transformadas pelo ser humano.",
+      "gabarito": "Floresta — paisagem natural, não construída pelo ser humano.",
+      "perguntas_orientadoras": [
+        "Quem construiu esse lugar?",
+        "As pessoas precisaram trabalhar para esse lugar existir?",
+        "Esse lugar existia antes dos humanos?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: opções claramente distintas, uma naturalmente óbvia."
+    }
+  },
+  {
+    "id": "geo-2-u1-n2",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u1",
+    "unidade_titulo": "Paisagens Naturais e Transformadas",
+    "habilidade_bncc_codigo": "EF02GE01",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.01 — Paisagens naturais e transformadas pelo ser humano",
+    "objetivo": "Distinguir paisagens naturais de paisagens transformadas pela ação humana.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Coloca cada paisagem no grupo certo.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Praia deserta",
+          "categoria": "Natural"
+        },
+        {
+          "label": "Estrada asfaltada",
+          "categoria": "Transformada"
+        },
+        {
+          "label": "Cachoeira",
+          "categoria": "Natural"
+        },
+        {
+          "label": "Plantação de arroz",
+          "categoria": "Transformada"
+        },
+        {
+          "label": "Serra com mata",
+          "categoria": "Natural"
+        },
+        {
+          "label": "Barragem de água",
+          "categoria": "Transformada"
+        }
+      ],
+      "categorias": [
+        "Natural",
+        "Transformada"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica paisagens como naturais ou transformadas com base na ação humana."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor descreve cada paisagem e pergunta se as pessoas a construíram.",
+      "resposta": "Arrasta cada paisagem para o grupo certo.",
+      "engajamento": "As pessoas fizeram isso? Ou foi a natureza sozinha?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Classificar paisagens com base no critério de intervenção humana.",
+      "gabarito": "Natural: praia deserta, cachoeira, serra com mata. Transformada: estrada, plantação, barragem.",
+      "perguntas_orientadoras": [
+        "O ser humano modificou esse lugar?",
+        "Isso existiria sem a ação das pessoas?",
+        "Qual foi a necessidade humana que gerou essa transformação?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: seis paisagens, algumas exigem raciocínio (ex: plantação é natural mas modificada)."
+    }
+  },
+  {
+    "id": "geo-2-u1-n3",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u1",
+    "unidade_titulo": "Paisagens Naturais e Transformadas",
+    "habilidade_bncc_codigo": "EF02GE01",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.01 — Paisagens naturais e transformadas pelo ser humano",
+    "objetivo": "Distinguir paisagens naturais de paisagens transformadas pela ação humana.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Descreve uma mudança que as pessoas fizeram na natureza perto de você.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "As pessoas transformam a natureza para construir cidades, estradas, plantações e outros lugares.",
+      "campos": [
+        {
+          "id": "transformacao",
+          "label": "Que mudança as pessoas fizeram na natureza perto de você?",
+          "max": 150
+        },
+        {
+          "id": "motivo",
+          "label": "Por que você acha que fizeram essa mudança?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica uma transformação humana na paisagem local.",
+      "Apresenta uma hipótese sobre o motivo da transformação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pede que a criança pense no caminho de casa até a escola.",
+      "resposta": "Escreve o que você já viu de perto. Não precisa inventar.",
+      "engajamento": "Você já viu algum lugar que foi desmatado ou construído perto de casa?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Conectar o conceito de transformação da paisagem à realidade local do aluno.",
+      "gabarito": "Resposta variável — verificar se a transformação descrita é real e se há uma justificativa plausível.",
+      "perguntas_orientadoras": [
+        "Antes dessa mudança, o que havia nesse lugar?",
+        "Quem se beneficia dessa transformação?",
+        "Alguém foi prejudicado por essa mudança?"
+      ],
+      "tempo_estimado": "10 minutos",
+      "adaptacao_nivel": "Nível 3: conecta conteúdo à experiência local, exige inferência sobre motivação humana."
+    }
+  },
+  {
+    "id": "geo-2-u2-n1",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u2",
+    "unidade_titulo": "Meios de Transporte",
+    "habilidade_bncc_codigo": "EF02GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.02 — Meios de transporte e deslocamento de pessoas e mercadorias",
+    "objetivo": "Desenvolver habilidades de meios de transporte.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual meio de transporte é mais adequado para levar mercadorias de São Paulo ao Japão?",
+    "conteudo_base": {
+      "opcoes": [
+        "Trem",
+        "Ônibus",
+        "Navio ou avião de carga",
+        "Bicicleta"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Associa meio de transporte ao contexto geográfico (internacional/transcontinental)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "O Japão é uma ilha do outro lado do oceano. Que meios atravessam oceanos?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar meios de transporte de forma progressiva.",
+      "gabarito": "Navio ou avião de carga — únicos que cruzam oceanos.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "geo-2-u2-n2",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u2",
+    "unidade_titulo": "Meios de Transporte",
+    "habilidade_bncc_codigo": "EF02GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.02 — Meios de transporte e deslocamento de pessoas e mercadorias",
+    "objetivo": "Desenvolver habilidades de meios de transporte.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Classifica cada meio de transporte como Terrestre, Aquático ou Aéreo.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "t1",
+          "label": "Trem",
+          "categoria": "Terrestre"
+        },
+        {
+          "id": "t2",
+          "label": "Helicóptero",
+          "categoria": "Aéreo"
+        },
+        {
+          "id": "t3",
+          "label": "Barco",
+          "categoria": "Aquático"
+        },
+        {
+          "id": "t4",
+          "label": "Caminhão",
+          "categoria": "Terrestre"
+        }
+      ],
+      "categorias": [
+        "Terrestre",
+        "Aquático",
+        "Aéreo"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica meios de transporte por via de deslocamento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no elemento em que cada um se desloca: terra, água ou ar."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar meios de transporte de forma progressiva.",
+      "gabarito": "Terrestre: trem e caminhão. Aquático: barco. Aéreo: helicóptero.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "geo-2-u2-n3",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u2",
+    "unidade_titulo": "Meios de Transporte",
+    "habilidade_bncc_codigo": "EF02GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.02 — Meios de transporte e deslocamento de pessoas e mercadorias",
+    "objetivo": "Desenvolver habilidades de meios de transporte.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Descreve como você chega da sua casa até a escola. Que meios de transporte usa? E se fosse para o outro lado do Brasil?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "casa_escola",
+          "label": "Da casa à escola:",
+          "max": 150
+        },
+        {
+          "id": "brasil",
+          "label": "Se fosse para o outro lado do Brasil:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona meio de transporte à distância percorrida."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em andar a pé, ônibus, carro, avião... O que muda conforme a distância?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar meios de transporte de forma progressiva.",
+      "gabarito": "Descrição com meios de transporte adequados a cada distância.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

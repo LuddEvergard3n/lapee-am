@@ -1,0 +1,300 @@
+[
+  {
+    "id": "mat-4-u1-n1",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u1",
+    "unidade_titulo": "Multiplicação e Divisão",
+    "habilidade_bncc_codigo": "EF04MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.01 — Multiplicação e divisão: propriedades e resolução de problemas",
+    "objetivo": "Resolver problemas de multiplicação e divisão com números naturais.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Uma caixa tem 6 laranjas. Quantas laranjas têm 4 caixas iguais?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "4 × 6 = ?",
+      "opcoes": [
+        "10",
+        "18",
+        "24",
+        "28"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Resolve multiplicação simples com contexto de agrupamentos iguais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar 4 grupos de 6 bolinhas no quadro.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Pensa: 4 grupos com 6 em cada. Você pode somar 6 quatro vezes para conferir."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Multiplicação como adição de parcelas iguais, dentro da tabuada do 6.",
+      "gabarito": "24 — 4 × 6 = 24.",
+      "perguntas_orientadoras": [
+        "Quantos grupos temos?",
+        "Quantos elementos tem cada grupo?",
+        "Como a multiplicação relaciona esses dois valores?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: fato da tabuada direto, contexto concreto de objetos agrupados."
+    }
+  },
+  {
+    "id": "mat-4-u1-n2",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u1",
+    "unidade_titulo": "Multiplicação e Divisão",
+    "habilidade_bncc_codigo": "EF04MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.01 — Multiplicação e divisão: propriedades e resolução de problemas",
+    "objetivo": "Resolver problemas de multiplicação e divisão com números naturais.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Liga cada problema à operação que resolve.",
+    "conteudo_base": {
+      "tipo": "pares",
+      "pares": [
+        {
+          "elemento": "56 chocolates divididos igualmente entre 7 crianças",
+          "nome": "56 ÷ 7"
+        },
+        {
+          "elemento": "9 prateleiras com 8 livros cada",
+          "nome": "9 × 8"
+        },
+        {
+          "elemento": "72 alunos organizados em 9 grupos iguais",
+          "nome": "72 ÷ 9"
+        },
+        {
+          "elemento": "6 pacotes com 12 biscoitos cada",
+          "nome": "6 × 12"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica a operação adequada (multiplicação ou divisão) a partir da estrutura do problema."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê cada problema e pergunta: estamos juntando grupos ou repartindo?",
+      "resposta": "Arrasta cada problema para a operação certa. Ou clica no problema e depois na operação.",
+      "engajamento": "Dividir é repartir. Multiplicar é juntar grupos iguais. Qual está acontecendo aqui?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer a estrutura de problemas multiplicativos e divisivos e associá-los à operação correta.",
+      "gabarito": "56÷7: divisão de chocolates. 9×8: prateleiras com livros. 72÷9: divisão de alunos. 6×12: pacotes de biscoitos.",
+      "perguntas_orientadoras": [
+        "O problema está juntando quantidades iguais ou repartindo?",
+        "Você sabe o total ou está calculando o total?",
+        "O resultado vai ser maior ou menor que os números dados?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: quatro problemas, dois de cada operação, exige leitura interpretativa."
+    }
+  },
+  {
+    "id": "mat-4-u1-n3",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u1",
+    "unidade_titulo": "Multiplicação e Divisão",
+    "habilidade_bncc_codigo": "EF04MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.01 — Multiplicação e divisão: propriedades e resolução de problemas",
+    "objetivo": "Resolver problemas de multiplicação e divisão com números naturais.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Resolve o problema em dois passos e explica como pensou.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Uma escola tem 8 turmas. Cada turma tem 32 alunos. A escola comprou 4 livros para cada aluno.",
+      "campos": [
+        {
+          "id": "total_alunos",
+          "label": "Passo 1: Quantos alunos tem a escola no total? Escreve a conta.",
+          "max": 100
+        },
+        {
+          "id": "total_livros",
+          "label": "Passo 2: Quantos livros foram comprados no total? Escreve a conta.",
+          "max": 100
+        },
+        {
+          "id": "estrategia",
+          "label": "Como você resolveu? Explica com suas palavras.",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula corretamente o total de alunos (8 × 32 = 256).",
+      "Calcula corretamente o total de livros (256 × 4 = 1024).",
+      "Explica a estratégia de resolução com linguagem matemática."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode decompor o problema na lousa antes que o aluno resolva sozinho.",
+      "resposta": "Três campos: cada passo em separado e a explicação. Mostre as contas.",
+      "engajamento": "Quantas operações você precisa fazer? Qual vem primeiro?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Resolver problema de dois passos com multiplicação, registrar o raciocínio por escrito.",
+      "gabarito": "Passo 1: 8 × 32 = 256 alunos. Passo 2: 256 × 4 = 1024 livros.",
+      "perguntas_orientadoras": [
+        "Qual informação você já tem?",
+        "O resultado do primeiro passo vira dado para o segundo?",
+        "Como você pode conferir se o resultado faz sentido?"
+      ],
+      "tempo_estimado": "12 minutos",
+      "adaptacao_nivel": "Nível 3: dois passos encadeados, resultado de um alimenta o outro, mais registro de estratégia."
+    }
+  },
+  {
+    "id": "mat-4-u2-n1",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u2",
+    "unidade_titulo": "Números Negativos",
+    "habilidade_bncc_codigo": "EF04MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.02 — Números negativos em situações cotidianas de temperatura e saldo",
+    "objetivo": "Desenvolver habilidades de números negativos.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "A temperatura em uma cidade era de 3°C. Caiu 7 graus. Qual é a temperatura agora?",
+    "conteudo_base": {
+      "opcoes": [
+        "10°C",
+        "-4°C",
+        "4°C",
+        "-10°C"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Aplica subtração que resulta em número negativo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "3 menos 7: se você tem 3 e perde 7, vai passar do zero."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar números negativos de forma progressiva.",
+      "gabarito": "3 - 7 = -4°C.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "mat-4-u2-n2",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u2",
+    "unidade_titulo": "Números Negativos",
+    "habilidade_bncc_codigo": "EF04MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.02 — Números negativos em situações cotidianas de temperatura e saldo",
+    "objetivo": "Desenvolver habilidades de números negativos.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Coloca os números na ordem crescente (do menor para o maior).",
+    "conteudo_base": {
+      "itens": [
+        "-5",
+        "0",
+        "3",
+        "-2",
+        "1"
+      ],
+      "ordem_correta": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena inteiros negativos e positivos na reta numérica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Números negativos são menores que zero. Quanto mais negativo, menor."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar números negativos de forma progressiva.",
+      "gabarito": "-5, -2, 0, 1, 3.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "mat-4-u2-n3",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u2",
+    "unidade_titulo": "Números Negativos",
+    "habilidade_bncc_codigo": "EF04MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.02 — Números negativos em situações cotidianas de temperatura e saldo",
+    "objetivo": "Desenvolver habilidades de números negativos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Explica com suas palavras o que é um número negativo e dá dois exemplos do seu dia a dia.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "explicacao",
+          "label": "O que é número negativo:",
+          "max": 150
+        },
+        {
+          "id": "ex1",
+          "label": "Exemplo 1:",
+          "max": 100
+        },
+        {
+          "id": "ex2",
+          "label": "Exemplo 2:",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define número negativo com linguagem própria.",
+      "Contextualiza em exemplos reais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em temperatura, saldo bancário, andares abaixo do térreo..."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar números negativos de forma progressiva.",
+      "gabarito": "Definição correta e dois exemplos contextualizados (temperatura, dívida, etc.).",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

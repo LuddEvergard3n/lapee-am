@@ -1,0 +1,298 @@
+[
+  {
+    "id": "art-4-u1-n1",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u1",
+    "unidade_titulo": "Arte e Cultura Brasileira",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.P.01 — Manifestações artísticas brasileiras: contexto, forma e significado",
+    "objetivo": "Reconhecer manifestações artísticas brasileiras e seus contextos culturais.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dessas manifestações artísticas é típica do Nordeste do Brasil e une dança, música e luta?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Arte que mistura dança, música e luta, criada pelos africanos escravizados no Brasil:",
+      "opcoes": [
+        "Samba",
+        "Capoeira",
+        "Forró",
+        "Frevo"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece a capoeira como manifestação afro-brasileira que une arte, luta e resistência."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagem ou vídeo curto de capoeira antes da atividade.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Você já viu capoeira? O que chama mais atenção: a música, os movimentos ou os dois juntos?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer a capoeira como patrimônio cultural afro-brasileiro com função histórica de resistência.",
+      "gabarito": "Capoeira — criada por africanos escravizados, une luta, dança e música; é Patrimônio Cultural Imaterial da Humanidade pela UNESCO.",
+      "perguntas_orientadoras": [
+        "Por que os africanos escravizados disfarçaram a luta como dança?",
+        "Quais instrumentos são usados na capoeira?",
+        "Como a capoeira chegou até os dias de hoje?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento direto de manifestação conhecida, contexto motivador."
+    }
+  },
+  {
+    "id": "art-4-u1-n2",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u1",
+    "unidade_titulo": "Arte e Cultura Brasileira",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.P.01 — Manifestações artísticas brasileiras: contexto, forma e significado",
+    "objetivo": "Reconhecer manifestações artísticas brasileiras e seus contextos culturais.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Liga cada manifestação artística à sua região de origem no Brasil.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Frevo",
+          "categoria": "Nordeste"
+        },
+        {
+          "label": "Boi-Bumbá",
+          "categoria": "Norte"
+        },
+        {
+          "label": "Congada",
+          "categoria": "Centro-Oeste/Sudeste"
+        },
+        {
+          "label": "Bumba meu boi do Maranhão",
+          "categoria": "Nordeste"
+        },
+        {
+          "label": "Boi de mamão",
+          "categoria": "Sul"
+        },
+        {
+          "label": "Tambor de crioula",
+          "categoria": "Norte"
+        }
+      ],
+      "categorias": [
+        "Norte",
+        "Nordeste",
+        "Centro-Oeste/Sudeste",
+        "Sul"
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa manifestações artísticas folclóricas às suas regiões de origem."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode explicar brevemente cada manifestação ou tocar um trecho de cada uma.",
+      "resposta": "Arrasta cada manifestação para a região de origem.",
+      "engajamento": "Você conhece alguma festa ou dança típica da sua cidade ou estado?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Relacionar manifestações artísticas folclóricas ao contexto regional brasileiro.",
+      "gabarito": "Norte: Boi-Bumbá, Tambor de crioula. Nordeste: Frevo, Bumba meu boi do Maranhão. Sul: Boi de mamão. Centro-Oeste/Sudeste: Congada.",
+      "perguntas_orientadoras": [
+        "O que essas manifestações têm em comum?",
+        "Como a cultura local influencia as artes de cada região?",
+        "Você já participou de alguma dessas manifestações?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: seis manifestações, quatro regiões, duas para o Nordeste e duas para o Norte."
+    }
+  },
+  {
+    "id": "art-4-u1-n3",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u1",
+    "unidade_titulo": "Arte e Cultura Brasileira",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.P.01 — Manifestações artísticas brasileiras: contexto, forma e significado",
+    "objetivo": "Reconhecer manifestações artísticas brasileiras e seus contextos culturais.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Pesquisa e escreve sobre uma manifestação artística da sua região ou de uma que você admira.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "O Brasil tem uma riqueza enorme de manifestações artísticas: festas, danças, músicas, artesanato e mais.",
+      "campos": [
+        {
+          "id": "manifestacao",
+          "label": "Qual manifestação artística você escolheu? De onde ela vem?",
+          "max": 150
+        },
+        {
+          "id": "descricao",
+          "label": "Como é essa manifestação? Descreve o que acontece, o que as pessoas usam, tocam ou dançam.",
+          "max": 300
+        },
+        {
+          "id": "significado",
+          "label": "Por que essa manifestação é importante para quem a pratica?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica corretamente a origem regional da manifestação.",
+      "Descreve elementos artísticos observáveis (música, dança, figurino, etc.).",
+      "Relaciona a manifestação à sua função cultural ou histórica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor permite pesquisa no livro didático ou conversas em casa antes da aula.",
+      "resposta": "Três campos. Escreve com suas palavras.",
+      "engajamento": "Qual festa ou manifestação artística você já viu ou participou? Ou qual te deu mais curiosidade?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Descrever e contextualizar uma manifestação artística brasileira conectando forma e significado cultural.",
+      "gabarito": "Resposta variável — verificar coerência entre origem, descrição e significado cultural.",
+      "perguntas_orientadoras": [
+        "Essa manifestação ainda acontece hoje?",
+        "Ela mudou ao longo do tempo?",
+        "O que você sente quando vê ou participa dela?"
+      ],
+      "tempo_estimado": "12 minutos",
+      "adaptacao_nivel": "Nível 3: pesquisa autônoma, três dimensões, conecta forma à função cultural."
+    }
+  },
+  {
+    "id": "art-4-u2-n1",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u2",
+    "unidade_titulo": "Dança e Cultura",
+    "habilidade_bncc_codigo": "EF35AR22",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.P.02 — Danças populares brasileiras e suas origens culturais",
+    "objetivo": "Desenvolver habilidades de dança e cultura.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dança brasileira tem origem na cultura africana e combina luta e dança?",
+    "conteudo_base": {
+      "opcoes": [
+        "Forró",
+        "Samba",
+        "Capoeira",
+        "Frevo"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica a capoeira como manifestação cultural afro-brasileira."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "É praticada em roda, com músicas de berimbau. Vem da resistência cultural africana."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar dança e cultura de forma progressiva.",
+      "gabarito": "Capoeira — arte marcial afro-brasileira, reconhecida pela UNESCO.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "art-4-u2-n2",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u2",
+    "unidade_titulo": "Dança e Cultura",
+    "habilidade_bncc_codigo": "EF35AR22",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.P.02 — Danças populares brasileiras e suas origens culturais",
+    "objetivo": "Desenvolver habilidades de dança e cultura.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada dança à sua região ou origem cultural no Brasil.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Forró",
+          "nome": "Nordeste"
+        },
+        {
+          "elemento": "Carimbó",
+          "nome": "Norte (Pará)"
+        },
+        {
+          "elemento": "Gauchesca/Chimarrita",
+          "nome": "Sul"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Localiza danças populares em regiões do Brasil."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Cada região tem danças típicas que refletem sua cultura e história."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar dança e cultura de forma progressiva.",
+      "gabarito": "Forró=Nordeste, Carimbó=Norte, Chimarrita=Sul.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "art-4-u2-n3",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u2",
+    "unidade_titulo": "Dança e Cultura",
+    "habilidade_bncc_codigo": "EF35AR22",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.P.02 — Danças populares brasileiras e suas origens culturais",
+    "objetivo": "Desenvolver habilidades de dança e cultura.",
+    "nivel": 3,
+    "tipo_evidencia": "desenhar",
+    "tempo_medio_min": 8,
+    "enunciado": "Desenha uma cena de dança que represente a cultura do seu estado ou região. Inclua pessoas, trajes e elementos do lugar.",
+    "conteudo_base": {
+      "prompt_desenho": "Desenhe uma cena de dança cultural brasileira.",
+      "tema": "dança e cultura regional"
+    },
+    "criterios_sucesso": [
+      "Representa visualmente elementos da cultura regional."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa nas cores dos trajes, no ambiente, nos movimentos típicos."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar dança e cultura de forma progressiva.",
+      "gabarito": "Cena com elementos culturais identificáveis da dança escolhida.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

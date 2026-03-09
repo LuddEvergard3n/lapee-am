@@ -1,0 +1,287 @@
+[
+  {
+    "id": "lp-2-u1-n1",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u1",
+    "unidade_titulo": "Leitura e Compreensão",
+    "habilidade_bncc_codigo": "EF02LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01 — Leitura e compreensão de textos de estrutura simples",
+    "objetivo": "Ler palavras e frases com compreensão.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Lê a frase e marca a resposta certa.",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "O gato subiu na árvore.\n\nO que o gato fez?",
+      "opcoes": [
+        "Subiu na árvore",
+        "Correu no jardim",
+        "Dormiu no tapete",
+        "Bebeu água"
+      ],
+      "resposta_correta": 0
+    },
+    "criterios_sucesso": [
+      "Localiza informação explícita em uma frase simples."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê a frase em voz alta. Usa o botão Ouvir.",
+      "resposta": "Clica na resposta certa. Só tem uma.",
+      "engajamento": "Lê a frase de novo bem devagar. O que diz que o gato fez?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Localizar informação explícita em texto de estrutura simples.",
+      "gabarito": "Subiu na árvore — está escrito diretamente na frase.",
+      "perguntas_orientadoras": [
+        "Quem é o personagem da frase?",
+        "O que ele fez?",
+        "Onde está essa informação na frase?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: frase única, resposta explícita, vocabulário simples."
+    }
+  },
+  {
+    "id": "lp-2-u1-n2",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u1",
+    "unidade_titulo": "Leitura e Compreensão",
+    "habilidade_bncc_codigo": "EF02LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01 — Leitura e compreensão de textos de estrutura simples",
+    "objetivo": "Ler palavras e frases com compreensão.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloca cada frase no grupo certo: fato ou opinião.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "O sol nasce de manhã.",
+          "categoria": "Fato"
+        },
+        {
+          "label": "O verão é a melhor estação.",
+          "categoria": "Opinião"
+        },
+        {
+          "label": "A água ferve a 100°C.",
+          "categoria": "Fato"
+        },
+        {
+          "label": "Cachorro é o melhor animal.",
+          "categoria": "Opinião"
+        }
+      ],
+      "categorias": [
+        "Fato",
+        "Opinião"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue fato (verificável) de opinião (ponto de vista pessoal)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor explica: fato é algo que podemos comprovar; opinião é o que a pessoa acha.",
+      "resposta": "Arrasta cada frase para o grupo certo. Ou clica nela e depois no grupo.",
+      "engajamento": "Pergunta: isso todo mundo pode confirmar ou é o que alguém acha?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Diferenciar enunciados factuais de opiniões em textos simples.",
+      "gabarito": "Fatos: 'O sol nasce de manhã' e 'A água ferve a 100°C'. Opiniões: as outras duas.",
+      "perguntas_orientadoras": [
+        "Como você sabe se isso é verdade?",
+        "Todo mundo concordaria com essa frase?",
+        "Você consegue provar isso?"
+      ],
+      "tempo_estimado": "7 minutos",
+      "adaptacao_nivel": "Nível 2: quatro itens, dois de cada categoria."
+    }
+  },
+  {
+    "id": "lp-2-u1-n3",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u1",
+    "unidade_titulo": "Leitura e Compreensão",
+    "habilidade_bncc_codigo": "EF02LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01 — Leitura e compreensão de textos de estrutura simples",
+    "objetivo": "Ler palavras e frases com compreensão.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Lê o texto e responde com suas palavras.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "A Maria tinha um cachorro chamado Bolinha. Todo dia ela o levava para passear no parque. Um dia, Bolinha correu atrás de uma borboleta e se perdeu. Maria ficou muito triste. Ela colou cartazes pelo bairro. No dia seguinte, um vizinho encontrou Bolinha e devolveu para Maria.",
+      "campos": [
+        {
+          "id": "problema",
+          "label": "Qual foi o problema da história?",
+          "max": 150
+        },
+        {
+          "id": "solucao",
+          "label": "Como o problema foi resolvido?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica o problema central da narrativa.",
+      "Descreve a solução com palavras próprias."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê o texto em voz alta antes da atividade.",
+      "resposta": "Escreve com suas próprias palavras. Não precisa copiar do texto.",
+      "engajamento": "O que aconteceu de ruim? Como ficou no final?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Identificar elementos narrativos básicos: problema e resolução.",
+      "gabarito": "Problema: Bolinha se perdeu. Solução: o vizinho encontrou e devolveu.",
+      "perguntas_orientadoras": [
+        "O que mudou no meio da história?",
+        "Como Maria tentou resolver o problema?",
+        "Quem ajudou no final?"
+      ],
+      "tempo_estimado": "10 minutos",
+      "adaptacao_nivel": "Nível 3: escrita livre com dois campos distintos de análise narrativa."
+    }
+  },
+  {
+    "id": "lp-2-u2-n1",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u2",
+    "unidade_titulo": "Tipos de Texto",
+    "habilidade_bncc_codigo": "EF02LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.02 — Identificação de características de diferentes gêneros textuais",
+    "objetivo": "Desenvolver habilidades de tipos de texto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dessas características é de uma receita de culinária?",
+    "conteudo_base": {
+      "opcoes": [
+        "Tem personagens e diálogos",
+        "Lista ingredientes e modo de preparo",
+        "Conta um fato que aconteceu",
+        "Convence o leitor de uma ideia"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica características do gênero instrucional/receita."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no que tem dentro de um livro de receitas."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar tipos de texto de forma progressiva.",
+      "gabarito": "Lista ingredientes e modo de preparo — estrutura própria de receitas.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "lp-2-u2-n2",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u2",
+    "unidade_titulo": "Tipos de Texto",
+    "habilidade_bncc_codigo": "EF02LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.02 — Identificação de características de diferentes gêneros textuais",
+    "objetivo": "Desenvolver habilidades de tipos de texto.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada trecho ao tipo de texto correto.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "\"Era uma vez um dragão que sonhava em voar...\"",
+          "nome": "Conto"
+        },
+        {
+          "elemento": "\"Misture os ingredientes e leve ao forno por 30 minutos.\"",
+          "nome": "Receita"
+        },
+        {
+          "elemento": "\"A cidade de Curitiba fica no sul do Brasil.\"",
+          "nome": "Enciclopédia"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa trechos textuais ao gênero correspondente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Cada tipo de texto tem um jeito diferente de começar."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar tipos de texto de forma progressiva.",
+      "gabarito": "Conto: narrativa. Receita: instrução. Enciclopédia: informação.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "lp-2-u2-n3",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u2",
+    "unidade_titulo": "Tipos de Texto",
+    "habilidade_bncc_codigo": "EF02LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.02 — Identificação de características de diferentes gêneros textuais",
+    "objetivo": "Desenvolver habilidades de tipos de texto.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Escreve um bilhete para um amigo convidando-o para brincar. Um bilhete tem: quem escreve, para quem, o assunto e uma despedida.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "bilhete",
+          "label": "Meu bilhete:",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Produz bilhete com estrutura adequada ao gênero."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Começa com \"Para:\" e termina com seu nome."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar tipos de texto de forma progressiva.",
+      "gabarito": "Bilhete com destinatário, convite claro e despedida.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

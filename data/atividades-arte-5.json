@@ -1,0 +1,308 @@
+[
+  {
+    "id": "art-5-u1-n1",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u1",
+    "unidade_titulo": "Arte, Tecnologia e Contemporaneidade",
+    "habilidade_bncc_codigo": "EF15AR23",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.P.01 — Arte digital, fotografia e mídias: produção e análise crítica",
+    "objetivo": "Reconhecer e analisar produções artísticas que usam tecnologia como meio de expressão.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dessas é um exemplo de arte que usa tecnologia como ferramenta principal?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Qual exemplo usa tecnologia como meio artístico?",
+      "opcoes": [
+        "Uma escultura feita de barro.",
+        "Um desenho a lápis num caderno.",
+        "Uma fotografia editada por computador.",
+        "Uma pintura com tinta a óleo."
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica a fotografia digital editada por computador como forma de arte tecnológica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos de arte digital, fotografia e instalações interativas.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Você já tirou uma foto e editou no celular? Isso pode ser arte?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer que a tecnologia ampliou as possibilidades de expressão artística.",
+      "gabarito": "Fotografia editada por computador — usa tecnologia tanto na captura quanto na edição.",
+      "perguntas_orientadoras": [
+        "Quais ferramentas digitais podem ser usadas para criar arte?",
+        "Uma foto editada tem menos valor artístico que uma pintura?",
+        "Você já usou alguma tecnologia para criar algo?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: contraste direto entre técnicas tradicionais e digitais, uma opção claramente tecnológica."
+    }
+  },
+  {
+    "id": "art-5-u1-n2",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u1",
+    "unidade_titulo": "Arte, Tecnologia e Contemporaneidade",
+    "habilidade_bncc_codigo": "EF15AR23",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.P.01 — Arte digital, fotografia e mídias: produção e análise crítica",
+    "objetivo": "Reconhecer e analisar produções artísticas que usam tecnologia como meio de expressão.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 9,
+    "enunciado": "Classifica cada produção como arte tradicional ou arte digital/tecnológica.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Mural pintado com spray numa parede",
+          "categoria": "Tradicional"
+        },
+        {
+          "label": "Animação feita em computador",
+          "categoria": "Digital/Tecnológica"
+        },
+        {
+          "label": "Escultura talhada em madeira",
+          "categoria": "Tradicional"
+        },
+        {
+          "label": "Instalação interativa com sensores e luzes LED",
+          "categoria": "Digital/Tecnológica"
+        },
+        {
+          "label": "Xilogravura impressa em papel",
+          "categoria": "Tradicional"
+        },
+        {
+          "label": "Videoclipe com efeitos especiais digitais",
+          "categoria": "Digital/Tecnológica"
+        }
+      ],
+      "categorias": [
+        "Tradicional",
+        "Digital/Tecnológica"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica produções artísticas como tradicionais ou digitais com base nos meios utilizados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagens de cada produção antes de classificar.",
+      "resposta": "Arrasta cada produção para o grupo certo.",
+      "engajamento": "Qual ferramenta é usada para criar isso: pincel e tinta, ou computador e sensor?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Distinguir meios de produção artística tradicionais e digitais com base nos materiais e ferramentas.",
+      "gabarito": "Tradicional: mural de spray, escultura em madeira, xilogravura. Digital: animação, instalação com sensores, videoclipe.",
+      "perguntas_orientadoras": [
+        "O spray num mural é arte digital ou tradicional?",
+        "Uma instalação com luzes pode ser arte?",
+        "O que define se uma arte é digital?"
+      ],
+      "tempo_estimado": "9 minutos",
+      "adaptacao_nivel": "Nível 2: seis produções, o mural de spray e a xilogravura podem gerar reflexão sobre o limite entre os grupos."
+    }
+  },
+  {
+    "id": "art-5-u1-n3",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u1",
+    "unidade_titulo": "Arte, Tecnologia e Contemporaneidade",
+    "habilidade_bncc_codigo": "EF15AR23",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.P.01 — Arte digital, fotografia e mídias: produção e análise crítica",
+    "objetivo": "Reconhecer e analisar produções artísticas que usam tecnologia como meio de expressão.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 15,
+    "enunciado": "Analisa uma produção artística que usa tecnologia e escreve sua opinião fundamentada.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Pense em algo que você já assistiu, jogou ou usou que pode ser considerado arte tecnológica: um clipe, um jogo, uma foto artística, uma animação, um site interativo...",
+      "campos": [
+        {
+          "id": "obra",
+          "label": "Qual produção você escolheu? Descreve o que é e que tecnologia usa.",
+          "max": 200
+        },
+        {
+          "id": "analise",
+          "label": "O que o artista ou criador quis expressar? Como a tecnologia ajudou a passar essa mensagem?",
+          "max": 250
+        },
+        {
+          "id": "opiniao",
+          "label": "Você considera isso arte? Defende sua posição com pelo menos um argumento.",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica e descreve uma produção artística tecnológica real.",
+      "Analisa a intenção comunicativa da obra e o papel da tecnologia nela.",
+      "Argumenta sobre o valor artístico da produção com posição clara."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar exemplos acessíveis: abertura de jogo, clipe musical, filtro criativo no celular.",
+      "resposta": "Três campos. Escreve a partir de algo que você conhece de verdade.",
+      "engajamento": "Você já parou para pensar se um jogo pode ser arte? Ou uma foto editada com filtro?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Desenvolver análise crítica e apreciação estética de produções artísticas tecnológicas.",
+      "gabarito": "Resposta variável — verificar se a produção descrita é real, se a análise vai além da descrição e se o argumento sustenta a posição.",
+      "perguntas_orientadoras": [
+        "Como você sabe que alguém teve uma intenção artística ao criar isso?",
+        "O que essa produção provoca em você?",
+        "Ela seria diferente sem a tecnologia?"
+      ],
+      "tempo_estimado": "15 minutos",
+      "adaptacao_nivel": "Nível 3: análise crítica de obra real, três dimensões — descrição, análise e argumentação."
+    }
+  },
+  {
+    "id": "art-5-u2-n1",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u2",
+    "unidade_titulo": "Arte Urbana e Grafite",
+    "habilidade_bncc_codigo": "EF35AR28",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.P.02 — Arte urbana como manifestação cultural e espaço de expressão",
+    "objetivo": "Desenvolver habilidades de arte urbana e grafite.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que diferencia o grafite autorizado de uma pichação?",
+    "conteudo_base": {
+      "opcoes": [
+        "O grafite usa tinta spray e a pichação usa pincel",
+        "O grafite tem permissão e valor artístico intencional; a pichação é vandalism sem autorização",
+        "A pichação é feita por artistas profissionais",
+        "Não há diferença: ambos são a mesma coisa"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Distingue grafite artístico de pichação pelo critério de autorização e intencionalidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no contexto: com ou sem permissão? Com ou sem intenção artística?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar arte urbana e grafite de forma progressiva.",
+      "gabarito": "Grafite autorizado = arte com permissão. Pichação = vandalismo sem autorização.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "art-5-u2-n2",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u2",
+    "unidade_titulo": "Arte Urbana e Grafite",
+    "habilidade_bncc_codigo": "EF35AR28",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.P.02 — Arte urbana como manifestação cultural e espaço de expressão",
+    "objetivo": "Desenvolver habilidades de arte urbana e grafite.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Classifica cada elemento como típico da Arte Urbana ou Pichação.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "u1",
+          "label": "Mural com permissão da prefeitura",
+          "categoria": "Arte Urbana"
+        },
+        {
+          "id": "u2",
+          "label": "Assinatura em prédio sem permissão",
+          "categoria": "Pichação"
+        },
+        {
+          "id": "u3",
+          "label": "Pintura em painel comunitário",
+          "categoria": "Arte Urbana"
+        },
+        {
+          "id": "u4",
+          "label": "Letras em paredes de túnel sem autorização",
+          "categoria": "Pichação"
+        }
+      ],
+      "categorias": [
+        "Arte Urbana",
+        "Pichação"
+      ]
+    },
+    "criterios_sucesso": [
+      "Aplica critérios para distinguir arte urbana de pichação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Autorização e intenção artística são os critérios centrais."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar arte urbana e grafite de forma progressiva.",
+      "gabarito": "Arte urbana: murais autorizados. Pichação: inscrições não autorizadas.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "art-5-u2-n3",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u2",
+    "unidade_titulo": "Arte Urbana e Grafite",
+    "habilidade_bncc_codigo": "EF35AR28",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.P.02 — Arte urbana como manifestação cultural e espaço de expressão",
+    "objetivo": "Desenvolver habilidades de arte urbana e grafite.",
+    "nivel": 3,
+    "tipo_evidencia": "desenhar",
+    "tempo_medio_min": 8,
+    "enunciado": "Cria um painel de grafite digital com uma mensagem para a sua escola ou bairro. Use letras, formas e cores expresivas!",
+    "conteudo_base": {
+      "prompt_desenho": "Crie um painel de grafite com mensagem para a comunidade.",
+      "tema": "arte urbana e grafite"
+    },
+    "criterios_sucesso": [
+      "Produz arte urbana com mensagem e composição intencional."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Escolha uma mensagem positiva. Use letras grandes e coloridas, formas geométricas e elementos que representem sua comunidade."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar arte urbana e grafite de forma progressiva.",
+      "gabarito": "Painel com mensagem legível, composição equilibrada e uso expressivo das cores.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

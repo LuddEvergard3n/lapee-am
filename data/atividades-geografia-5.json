@@ -1,0 +1,329 @@
+[
+  {
+    "id": "geo-5-u1-n1",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u1",
+    "unidade_titulo": "Globalização e Conexões Mundiais",
+    "habilidade_bncc_codigo": "EF05GE11",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.T.01 — Globalização: fluxos de pessoas, mercadorias, informações e culturas",
+    "objetivo": "Compreender o que é globalização e como ela afeta o cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dessas situações é um exemplo de globalização no dia a dia?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "O que é um exemplo de globalização?",
+      "opcoes": [
+        "Comprar pão numa padaria do seu bairro.",
+        "Assistir a um filme produzido nos Estados Unidos pela internet.",
+        "Jogar bola com os amigos na praça.",
+        "Estudar com livros impressos na sua cidade."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece a globalização como a conexão entre pessoas e culturas de diferentes países."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar: 'Que filmes, músicas ou comidas de outros países vocês conhecem?'",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Globalização é quando algo de um país chega até você sem você precisar ir até lá. Qual das opções é assim?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Identificar a globalização como fenômeno de conexão cultural e econômica entre países.",
+      "gabarito": "Assistir filme americano pela internet — envolve produto estrangeiro, rede global de distribuição e tecnologia de comunicação.",
+      "perguntas_orientadoras": [
+        "Você come algum alimento que veio de outro país?",
+        "Que aplicativos no seu celular foram feitos no exterior?",
+        "O que você acha que seria diferente sem a globalização?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: contraste direto entre atividades locais e global, uma resposta inequívoca."
+    }
+  },
+  {
+    "id": "geo-5-u1-n2",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u1",
+    "unidade_titulo": "Globalização e Conexões Mundiais",
+    "habilidade_bncc_codigo": "EF05GE11",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.T.01 — Globalização: fluxos de pessoas, mercadorias, informações e culturas",
+    "objetivo": "Compreender o que é globalização e como ela afeta o cotidiano.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 9,
+    "enunciado": "Classifica cada exemplo como um efeito positivo ou negativo da globalização.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Acesso a músicas e culturas de todo o mundo",
+          "categoria": "Positivo"
+        },
+        {
+          "label": "Desaparecimento de línguas e culturas locais",
+          "categoria": "Negativo"
+        },
+        {
+          "label": "Comércio entre países cria mais empregos",
+          "categoria": "Positivo"
+        },
+        {
+          "label": "Poluição aumenta com o transporte global de mercadorias",
+          "categoria": "Negativo"
+        },
+        {
+          "label": "Informações sobre desastres chegam a todos rapidamente",
+          "categoria": "Positivo"
+        },
+        {
+          "label": "Grandes empresas fecham negócios locais pequenos",
+          "categoria": "Negativo"
+        }
+      ],
+      "categorias": [
+        "Positivo",
+        "Negativo"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue consequências benéficas e prejudiciais da globalização com base em critérios explícitos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode debater cada item antes da atividade, ouvindo as opiniões da turma.",
+      "resposta": "Arrasta cada exemplo para o grupo certo.",
+      "engajamento": "Esse efeito beneficia as pessoas ou prejudica? Quem se beneficia e quem é prejudicado?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Analisar a globalização de forma crítica, reconhecendo benefícios e problemas.",
+      "gabarito": "Positivo: acesso cultural, empregos pelo comércio, informação rápida. Negativo: perda cultural local, poluição, fechamento de negócios pequenos.",
+      "perguntas_orientadoras": [
+        "Todos se beneficiam igualmente da globalização?",
+        "Um mesmo fenômeno pode ser positivo para uns e negativo para outros?",
+        "Como o Brasil participa da globalização?"
+      ],
+      "tempo_estimado": "9 minutos",
+      "adaptacao_nivel": "Nível 2: seis itens, dois grupos, exige análise de consequências e pode gerar debate."
+    }
+  },
+  {
+    "id": "geo-5-u1-n3",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u1",
+    "unidade_titulo": "Globalização e Conexões Mundiais",
+    "habilidade_bncc_codigo": "EF05GE11",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.T.01 — Globalização: fluxos de pessoas, mercadorias, informações e culturas",
+    "objetivo": "Compreender o que é globalização e como ela afeta o cotidiano.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 15,
+    "enunciado": "Investiga a globalização na sua própria casa e escreve sobre o que encontrou.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Olha ao redor: roupas, aparelhos, alimentos, músicas. De onde vieram? Quais países estão representados na sua casa sem você perceber?",
+      "campos": [
+        {
+          "id": "objeto",
+          "label": "Escolhe um objeto ou produto da sua casa. De onde ele veio? Como chegou até você?",
+          "max": 200
+        },
+        {
+          "id": "caminho",
+          "label": "Descreve o caminho que esse produto percorreu até chegar na sua mão (país de origem, transporte, loja, etc.).",
+          "max": 250
+        },
+        {
+          "id": "reflexao",
+          "label": "O que essa pesquisa te fez pensar sobre a globalização? Teve algo que te surpreendeu?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica a origem geográfica de um produto do cotidiano.",
+      "Reconstrói parcialmente a cadeia de distribuição global do produto.",
+      "Elabora uma reflexão pessoal sobre a globalização a partir de evidência concreta."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que a criança observe etiquetas de produtos em casa antes da aula.",
+      "resposta": "Três campos. Escreve com base no que você observou de verdade.",
+      "engajamento": "Você tem alguma roupa com a etiqueta 'Made in Bangladesh'? Ou um aparelho feito na China? De onde vieram?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Conectar o conceito abstrato de globalização a evidências concretas do cotidiano do aluno.",
+      "gabarito": "Resposta variável — verificar se a origem geográfica está correta e se a cadeia descrita é plausível.",
+      "perguntas_orientadoras": [
+        "Por que países distantes fabricam produtos que usamos aqui?",
+        "Quem lucra ao longo dessa cadeia?",
+        "O que mudaria se esse produto fosse feito no Brasil?"
+      ],
+      "tempo_estimado": "15 minutos",
+      "adaptacao_nivel": "Nível 3: pesquisa autônoma no cotidiano, rastreamento de cadeia produtiva, reflexão crítica."
+    }
+  },
+  {
+    "id": "geo-5-u2-n1",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u2",
+    "unidade_titulo": "Comércio e Economia",
+    "habilidade_bncc_codigo": "EF05GE14",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.P.02 — Relações comerciais e circuitos produtivos no Brasil e no mundo",
+    "objetivo": "Desenvolver habilidades de comércio e economia.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é exportação?",
+    "conteudo_base": {
+      "opcoes": [
+        "Comprar produtos de outro país",
+        "Vender produtos para outro país",
+        "Produzir para consumo interno",
+        "Importar tecnologia"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Define exportação com precisão conceitual."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa: ex- significa \"para fora\". O Brasil exporta soja para a China."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar comércio e economia de forma progressiva.",
+      "gabarito": "Exportação é vender produtos para outros países.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "geo-5-u2-n2",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u2",
+    "unidade_titulo": "Comércio e Economia",
+    "habilidade_bncc_codigo": "EF05GE14",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.P.02 — Relações comerciais e circuitos produtivos no Brasil e no mundo",
+    "objetivo": "Desenvolver habilidades de comércio e economia.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Classifica cada produto como Exportação ou Importação para o Brasil.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "ec1",
+          "label": "Soja vendida para China",
+          "categoria": "Exportação"
+        },
+        {
+          "id": "ec2",
+          "label": "Smartphones comprados da Coreia",
+          "categoria": "Importação"
+        },
+        {
+          "id": "ec3",
+          "label": "Carne bovina vendida para Emirados",
+          "categoria": "Exportação"
+        },
+        {
+          "id": "ec4",
+          "label": "Petróleo comprado do Oriente Médio",
+          "categoria": "Importação"
+        }
+      ],
+      "categorias": [
+        "Exportação",
+        "Importação"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue exportação de importação com exemplos reais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "O Brasil vende = exporta. O Brasil compra de fora = importa."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar comércio e economia de forma progressiva.",
+      "gabarito": "Exportação: soja e carne. Importação: smartphones e petróleo.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "geo-5-u2-n3",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u2",
+    "unidade_titulo": "Comércio e Economia",
+    "habilidade_bncc_codigo": "EF05GE14",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.P.02 — Relações comerciais e circuitos produtivos no Brasil e no mundo",
+    "objetivo": "Desenvolver habilidades de comércio e economia.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Olha as etiquetas de 3 produtos em casa. De onde vieram? O Brasil produziu ou importou? Por que você acha que escolhemos importar esse produto?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "produto1",
+          "label": "Produto 1 e origem:",
+          "max": 100
+        },
+        {
+          "id": "produto2",
+          "label": "Produto 2 e origem:",
+          "max": 100
+        },
+        {
+          "id": "produto3",
+          "label": "Produto 3 e origem:",
+          "max": 100
+        },
+        {
+          "id": "reflexao",
+          "label": "Por que importamos? Reflexão:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica origens de produtos.",
+      "Reflete sobre divisão internacional do trabalho."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Roupas, eletrônicos, alimentos... Muitos vêm de outros países. Por quê?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar comércio e economia de forma progressiva.",
+      "gabarito": "Identificação de produtos importados e reflexão sobre vantagens comparativas.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

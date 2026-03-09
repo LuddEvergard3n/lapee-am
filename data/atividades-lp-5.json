@@ -1,0 +1,330 @@
+[
+  {
+    "id": "lp-5-u1-n1",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u1",
+    "unidade_titulo": "Argumentação e Ponto de Vista",
+    "habilidade_bncc_codigo": "EF05LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.01 — Identificação de argumentos e ponto de vista em textos opinativos",
+    "objetivo": "Identificar argumentos e ponto de vista em textos opinativos.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 6,
+    "enunciado": "Lê o trecho e marca a frase que expressa a opinião do autor.",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "\"As crianças deveriam ter mais tempo para brincar na escola. Brincar ajuda a desenvolver a criatividade, a fazer amigos e a aprender de forma mais divertida. Por isso, o recreio deveria ser mais longo.\"\n\nQual frase expressa o ponto de vista do autor?",
+      "opcoes": [
+        "Brincar ajuda a desenvolver a criatividade.",
+        "As crianças deveriam ter mais tempo para brincar na escola.",
+        "O recreio existe em todas as escolas.",
+        "Fazer amigos é importante na infância."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Distingue a tese (ponto de vista) dos argumentos que a sustentam."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê o texto em voz alta e pergunta: 'O autor quer convencer a gente de quê?'",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "A tese é a ideia principal que o autor defende. Os argumentos são as razões. Qual é a ideia central aqui?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Distinguir a tese dos argumentos num texto opinativo curto.",
+      "gabarito": "A segunda opção — é a afirmação central que o texto inteiro defende. As demais são argumentos ou fatos de apoio.",
+      "perguntas_orientadoras": [
+        "O que o autor quer que a gente faça ou acredite?",
+        "Quais são as razões que ele dá para defender isso?",
+        "Qual frase resume a ideia principal do texto?"
+      ],
+      "tempo_estimado": "6 minutos",
+      "adaptacao_nivel": "Nível 1: texto curto, tese explícita, três opções são argumentos ou neutras."
+    }
+  },
+  {
+    "id": "lp-5-u1-n2",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u1",
+    "unidade_titulo": "Argumentação e Ponto de Vista",
+    "habilidade_bncc_codigo": "EF05LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.01 — Identificação de argumentos e ponto de vista em textos opinativos",
+    "objetivo": "Identificar argumentos e ponto de vista em textos opinativos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 9,
+    "enunciado": "Separa as frases: quais são teses e quais são argumentos.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Animais não deveriam ser usados em circos.",
+          "categoria": "Tese"
+        },
+        {
+          "label": "Animais em circos vivem em jaulas pequenas e sofrem.",
+          "categoria": "Argumento"
+        },
+        {
+          "label": "O celular atrapalha o aprendizado em sala de aula.",
+          "categoria": "Tese"
+        },
+        {
+          "label": "Estudantes que usam celular prestam menos atenção ao professor.",
+          "categoria": "Argumento"
+        },
+        {
+          "label": "A leitura deveria ser obrigatória todos os dias.",
+          "categoria": "Tese"
+        },
+        {
+          "label": "Ler todos os dias aumenta o vocabulário e a concentração.",
+          "categoria": "Argumento"
+        }
+      ],
+      "categorias": [
+        "Tese",
+        "Argumento"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue sistematicamente teses de argumentos em diferentes contextos temáticos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor recapitula: tese é o que se defende; argumento é a razão que apoia a tese.",
+      "resposta": "Arrasta cada frase para o grupo certo.",
+      "engajamento": "Essa frase defende uma ideia ou explica por quê aquela ideia faz sentido?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer a estrutura argumento-tese em diferentes contextos para consolidar o conceito.",
+      "gabarito": "Teses: as três afirmações normativas (deveriam, deveria). Argumentos: as três frases que explicam o porquê.",
+      "perguntas_orientadoras": [
+        "Uma tese costuma dizer o que deveria ser feito ou acreditado?",
+        "Um argumento explica o porquê de algo?",
+        "Você consegue encontrar a tese de que cada argumento faz parte?"
+      ],
+      "tempo_estimado": "9 minutos",
+      "adaptacao_nivel": "Nível 2: três pares tese-argumento embaralhados, exige reconhecimento por função e não por tema."
+    }
+  },
+  {
+    "id": "lp-5-u1-n3",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u1",
+    "unidade_titulo": "Argumentação e Ponto de Vista",
+    "habilidade_bncc_codigo": "EF05LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.01 — Identificação de argumentos e ponto de vista em textos opinativos",
+    "objetivo": "Identificar argumentos e ponto de vista em textos opinativos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 15,
+    "enunciado": "Escreve um parágrafo opinativo completo com tese e dois argumentos.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Tema: dever de casa. Você é a favor ou contra? Defenda sua posição com argumentos.",
+      "campos": [
+        {
+          "id": "tese",
+          "label": "Escreve sua tese: você é a favor ou contra o dever de casa? (1 frase)",
+          "max": 150
+        },
+        {
+          "id": "argumento1",
+          "label": "Argumento 1: por que você defende essa ideia? (1 a 2 frases)",
+          "max": 200
+        },
+        {
+          "id": "argumento2",
+          "label": "Argumento 2: outra razão que apoia sua tese. (1 a 2 frases)",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Enuncia uma tese clara e defensável.",
+      "Apresenta dois argumentos distintos que sustentam a tese.",
+      "Usa conectivos argumentativos como 'porque', 'pois', 'além disso', 'portanto'."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer um brainstorming coletivo de argumentos prós e contra antes da escrita individual.",
+      "resposta": "Três campos separados. Cada um tem uma função diferente.",
+      "engajamento": "Você faz dever de casa? Como você se sente em relação a isso? Isso pode virar uma tese."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Produzir texto argumentativo estruturado com tese explícita e dois argumentos de suporte.",
+      "gabarito": "Resposta variável — avaliar se a tese é defendida, se os argumentos são distintos e pertinentes, e se há uso de conectivos.",
+      "perguntas_orientadoras": [
+        "Alguém poderia discordar da sua tese?",
+        "Seus argumentos são razões ou são repetições da tese com outras palavras?",
+        "Como você poderia responder a quem pensa diferente?"
+      ],
+      "tempo_estimado": "15 minutos",
+      "adaptacao_nivel": "Nível 3: produção argumentativa estruturada, tese mais dois argumentos distintos, conectivos esperados."
+    }
+  },
+  {
+    "id": "lp-5-u2-n1",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u2",
+    "unidade_titulo": "Leitura Crítica",
+    "habilidade_bncc_codigo": "EF05LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.02 — Leitura crítica e análise de textos de opinião",
+    "objetivo": "Desenvolver habilidades de leitura crítica.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Em qual trecho o autor expressa claramente uma OPINIÃO (e não um fato)?",
+    "conteudo_base": {
+      "opcoes": [
+        "A Terra tem aproximadamente 4,5 bilhões de anos.",
+        "O futebol é, sem dúvida, o esporte mais apaixonante do mundo.",
+        "O Brasil tem 26 estados e um Distrito Federal.",
+        "A água ferve a 100°C ao nível do mar."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Distingue fato de opinião em trechos textuais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Um fato pode ser verificado. Uma opinião varia de pessoa para pessoa."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar leitura crítica de forma progressiva.",
+      "gabarito": "O futebol é o esporte mais apaixonante — é um julgamento pessoal, não verificável.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "lp-5-u2-n2",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u2",
+    "unidade_titulo": "Leitura Crítica",
+    "habilidade_bncc_codigo": "EF05LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.02 — Leitura crítica e análise de textos de opinião",
+    "objetivo": "Desenvolver habilidades de leitura crítica.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Classifica cada afirmação como FATO ou OPINIÃO.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "l1",
+          "label": "A Amazônia é o maior bioma florestal do mundo.",
+          "categoria": "Fato"
+        },
+        {
+          "id": "l2",
+          "label": "Estudar é a melhor atividade para o desenvolvimento humano.",
+          "categoria": "Opinião"
+        },
+        {
+          "id": "l3",
+          "label": "A vitamina C está presente na laranja.",
+          "categoria": "Fato"
+        },
+        {
+          "id": "l4",
+          "label": "A cidade pequena é mais agradável para morar.",
+          "categoria": "Opinião"
+        }
+      ],
+      "categorias": [
+        "Fato",
+        "Opinião"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica afirmações como fato ou opinião com justificativa implícita."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Fatos são verificáveis com dados ou experiências. Opiniões expressam ponto de vista."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar leitura crítica de forma progressiva.",
+      "gabarito": "Fatos: Amazônia e vitamina C. Opiniões: estudar é melhor e cidade pequena.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "lp-5-u2-n3",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u2",
+    "unidade_titulo": "Leitura Crítica",
+    "habilidade_bncc_codigo": "EF05LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.02 — Leitura crítica e análise de textos de opinião",
+    "objetivo": "Desenvolver habilidades de leitura crítica.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Lê a afirmação e escreve um texto de opinião de 3 parágrafos concordando ou discordando: \"As crianças deveriam estudar menos e brincar mais.\"",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "posicao",
+          "label": "Concordo ou discordo? Por quê (1 frase):",
+          "max": 80
+        },
+        {
+          "id": "argumento1",
+          "label": "Argumento 1:",
+          "max": 150
+        },
+        {
+          "id": "argumento2",
+          "label": "Argumento 2:",
+          "max": 150
+        },
+        {
+          "id": "conclusao",
+          "label": "Minha conclusão:",
+          "max": 120
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define posição clara.",
+      "Apresenta dois argumentos.",
+      "Conclui de forma coerente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Defina sua posição primeiro. Depois dê dois argumentos. Termine com uma conclusão."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar leitura crítica de forma progressiva.",
+      "gabarito": "Texto com posição clara, dois argumentos desenvolvidos e conclusão coerente.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

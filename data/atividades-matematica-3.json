@@ -1,0 +1,314 @@
+[
+  {
+    "id": "mat-001-n1",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-001",
+    "unidade_titulo": "Sistema Decimal e Agrupamento",
+    "habilidade_bncc_codigo": "EF03MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
+    "objetivo": "Identificar a composição de números de três algarismos em centenas, dezenas e unidades.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 4,
+    "enunciado": "Observe o número 347. Marque a opção que mostra sua composição correta.",
+    "conteudo_base": {
+      "numero": 347,
+      "opcoes": [
+        "3 centenas, 7 dezenas e 4 unidades",
+        "3 centenas, 4 dezenas e 7 unidades",
+        "4 centenas, 3 dezenas e 7 unidades",
+        "7 centenas, 4 dezenas e 3 unidades"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o valor posicional de cada algarismo",
+      "Associa algarismo à sua posição (centena, dezena, unidade)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Número exibido em tamanho grande; cada dígito colorido por posição; áudio explica enunciado.",
+      "resposta": "Seleção por clique; sem digitação.",
+      "engajamento": "Dica: exibe o número com cada dígito numa caixinha colorida (C/D/U) para apoiar a leitura posicional."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B: 3 centenas, 4 dezenas e 7 unidades.",
+      "objetivo_pedagogico": "Consolidar a leitura posicional de números no sistema decimal.",
+      "perguntas_orientadoras": [
+        "Qual dígito está na posição das centenas?",
+        "Se eu trocar o 4 pelo 7, o número aumenta ou diminui?"
+      ],
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): número dado, 4 opções com distratores de transposição de dígitos."
+    }
+  },
+  {
+    "id": "mat-001-n2",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-001",
+    "unidade_titulo": "Sistema Decimal e Agrupamento",
+    "habilidade_bncc_codigo": "EF03MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
+    "objetivo": "Compor e decompor números de três algarismos identificando reagrupamentos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 6,
+    "enunciado": "Arraste cada grupo de blocos para a coluna correta (Centenas, Dezenas ou Unidades) para formar o número 253.",
+    "conteudo_base": {
+      "numero": 253,
+      "blocos": [
+        {
+          "id": "b1",
+          "valor": 200,
+          "label": "2 blocos de 100",
+          "posicao": "centenas"
+        },
+        {
+          "id": "b2",
+          "valor": 50,
+          "label": "5 blocos de 10",
+          "posicao": "dezenas"
+        },
+        {
+          "id": "b3",
+          "valor": 3,
+          "label": "3 blocos de 1",
+          "posicao": "unidades"
+        },
+        {
+          "id": "b4",
+          "valor": 20,
+          "label": "2 blocos de 10",
+          "posicao": "distrator"
+        },
+        {
+          "id": "b5",
+          "valor": 500,
+          "label": "5 blocos de 100",
+          "posicao": "distrator"
+        }
+      ],
+      "colunas": [
+        "centenas",
+        "dezenas",
+        "unidades"
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa cada grupo de blocos à coluna correta",
+      "Descarta blocos que não compõem o número alvo"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Blocos representados visualmente com contagem numérica; áudio descreve cada bloco.",
+      "resposta": "Arrastar e soltar; alternativa: selecionar bloco e depois selecionar coluna.",
+      "engajamento": "Dica: soma parcial exibida ao soltar cada bloco na coluna."
+    },
+    "modo_professor": {
+      "gabarito": "Centenas: '2 blocos de 100'; Dezenas: '5 blocos de 10'; Unidades: '3 blocos de 1'. Blocos distratores devem permanecer fora.",
+      "objetivo_pedagogico": "Consolidar decomposição aditiva e a ideia de agrupamento por potências de 10.",
+      "perguntas_orientadoras": [
+        "Quantas vezes o 10 cabe no 50?",
+        "Por que o bloco de 500 não pode entrar?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): blocos com distratores, exige seleção e descarte consciente."
+    }
+  },
+  {
+    "id": "mat-001-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-001",
+    "unidade_titulo": "Sistema Decimal e Agrupamento",
+    "habilidade_bncc_codigo": "EF03MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
+    "objetivo": "Resolver situação-problema que exige reagrupamento no sistema decimal.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Uma caixa tem 10 compartimentos. Cada compartimento guarda 10 bolinhas. Já temos 8 compartimentos cheios e mais 14 bolinhas soltas. Quantas bolinhas temos no total? Mostre como você pensou.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "label": "Total de bolinhas:",
+          "id": "total",
+          "max": 10
+        },
+        {
+          "label": "Como você pensou (explique com números ou palavras):",
+          "id": "raciocinio",
+          "max": 200
+        }
+      ],
+      "resposta_esperada": 94
+    },
+    "criterios_sucesso": [
+      "Calcula 8 × 10 = 80 corretamente",
+      "Soma 80 + 14 = 94",
+      "Explica o reagrupamento (14 unidades = 1 dezena + 4 unidades)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Ilustração de caixas e bolinhas disponível; enunciado em áudio.",
+      "resposta": "Dois campos: resultado numérico e explicação em texto ou oral.",
+      "engajamento": "Dica: mostra uma tabela C/D/U em branco para o aluno preencher mentalmente."
+    },
+    "modo_professor": {
+      "gabarito": "94 bolinhas. Raciocínio esperado: 8 × 10 = 80; 80 + 14 = 94. Ou: 8 grupos de 10 + 1 grupo de 10 + 4 = 9 dezenas + 4 = 94.",
+      "objetivo_pedagogico": "Aplicar reagrupamento em contexto de resolução de problemas com multiplicação e adição.",
+      "perguntas_orientadoras": [
+        "As 14 bolinhas soltas cabem num compartimento inteiro?",
+        "Quantas dezenas e unidades temos no total?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): problema contextualizado, exige cálculo e explicação do processo."
+    }
+  },
+  {
+    "id": "mat-3-u2-n1",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u2",
+    "unidade_titulo": "Multiplicação",
+    "habilidade_bncc_codigo": "EF03MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.02 — Multiplicação como adição de parcelas iguais",
+    "objetivo": "Desenvolver habilidades de multiplicação.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual das opções representa o mesmo que 3 + 3 + 3 + 3?",
+    "conteudo_base": {
+      "opcoes": [
+        "3 x 3",
+        "4 x 3",
+        "3 x 4",
+        "12 x 1"
+      ],
+      "respostas_corretas": [
+        1,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Reconhece multiplicação como adição repetida."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Conta quantas vezes o 3 aparece. Essa é a quantidade de grupos."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar multiplicação de forma progressiva.",
+      "gabarito": "4 x 3 e 3 x 4 — multiplicação é comutativa.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "mat-3-u2-n2",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u2",
+    "unidade_titulo": "Multiplicação",
+    "habilidade_bncc_codigo": "EF03MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.02 — Multiplicação como adição de parcelas iguais",
+    "objetivo": "Desenvolver habilidades de multiplicação.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada situação ao resultado correto da multiplicação.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "5 caixas com 4 maçãs cada",
+          "nome": "20"
+        },
+        {
+          "elemento": "3 fileiras de 6 cadeiras",
+          "nome": "18"
+        },
+        {
+          "elemento": "7 times com 2 jogadores",
+          "nome": "14"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Resolve situações de multiplicação em contexto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Multiplica os dois números de cada situação."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar multiplicação de forma progressiva.",
+      "gabarito": "5x4=20, 3x6=18, 7x2=14.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "mat-3-u2-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u2",
+    "unidade_titulo": "Multiplicação",
+    "habilidade_bncc_codigo": "EF03MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.02 — Multiplicação como adição de parcelas iguais",
+    "objetivo": "Desenvolver habilidades de multiplicação.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Cria uma situação do seu dia a dia que possa ser resolvida com multiplicação e resolva.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "situacao",
+          "label": "Minha situação:",
+          "max": 150
+        },
+        {
+          "id": "conta",
+          "label": "A conta de multiplicação:",
+          "max": 60
+        },
+        {
+          "id": "resposta",
+          "label": "A resposta:",
+          "max": 80
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cria situação de multiplicação com contexto.",
+      "Resolve corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em grupos iguais: pacotes de biscoito, fileiras de carteiras, sacolas..."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar multiplicação de forma progressiva.",
+      "gabarito": "Situação com grupos iguais, multiplicação correta e resposta com unidade.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

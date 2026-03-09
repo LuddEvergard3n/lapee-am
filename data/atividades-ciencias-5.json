@@ -1,0 +1,304 @@
+[
+  {
+    "id": "cie-5-u1-n1",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u1",
+    "unidade_titulo": "Sistema Solar e Movimentos da Terra",
+    "habilidade_bncc_codigo": "EF05CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.01 — Sistema Solar: astros, movimentos e consequências para a Terra",
+    "objetivo": "Identificar os astros do Sistema Solar e as consequências dos movimentos da Terra.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que causa a alternância entre dia e noite na Terra?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Por que temos dia e noite?",
+      "opcoes": [
+        "A Lua cobre o Sol durante a noite.",
+        "A Terra gira em torno do seu próprio eixo.",
+        "O Sol se afasta da Terra de noite.",
+        "A Terra para de se mover durante a noite."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Relaciona o movimento de rotação da Terra à alternância entre dia e noite."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar uma lanterna como Sol e um globo girando para demonstrar.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "O Sol fica parado ou somos nós que giramos? O que acontece com o lado da Terra que não está voltado para o Sol?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Compreender a rotação terrestre como causa do ciclo dia-noite.",
+      "gabarito": "A Terra gira em torno do próprio eixo — o lado voltado para o Sol tem dia; o lado oposto tem noite.",
+      "perguntas_orientadoras": [
+        "Quanto tempo a Terra leva para dar uma volta completa em torno do eixo?",
+        "O que seria diferente se a Terra não girasse?",
+        "A Lua tem algo a ver com o dia e a noite?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: conceito fundamental, distratores baseados em concepções alternativas comuns."
+    }
+  },
+  {
+    "id": "cie-5-u1-n2",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u1",
+    "unidade_titulo": "Sistema Solar e Movimentos da Terra",
+    "habilidade_bncc_codigo": "EF05CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.01 — Sistema Solar: astros, movimentos e consequências para a Terra",
+    "objetivo": "Identificar os astros do Sistema Solar e as consequências dos movimentos da Terra.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 9,
+    "enunciado": "Liga cada movimento ou fenômeno à sua causa.",
+    "conteudo_base": {
+      "tipo": "pares",
+      "pares": [
+        {
+          "elemento": "Alternância entre dia e noite",
+          "nome": "Rotação da Terra"
+        },
+        {
+          "elemento": "Sucessão das quatro estações do ano",
+          "nome": "Translação da Terra + inclinação do eixo"
+        },
+        {
+          "elemento": "As fases da Lua (cheia, minguante, nova, crescente)",
+          "nome": "Translação da Lua ao redor da Terra"
+        },
+        {
+          "elemento": "Eclipse solar",
+          "nome": "Lua entre o Sol e a Terra"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa cada fenômeno astronômico ao movimento celeste que o causa."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode revisar os três movimentos (rotação, translação terrestre, translação lunar) antes.",
+      "resposta": "Arrasta cada fenômeno para a causa certa.",
+      "engajamento": "Qual movimento é mais rápido: a Terra girando em torno do eixo ou em torno do Sol?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Relacionar fenômenos astronômicos observáveis aos movimentos que os causam.",
+      "gabarito": "Dia/noite → rotação. Estações → translação + inclinação do eixo. Fases da Lua → translação lunar. Eclipse → alinhamento Sol-Lua-Terra.",
+      "perguntas_orientadoras": [
+        "Qual é a diferença entre rotação e translação?",
+        "Por que a inclinação do eixo causa estações e não apenas a distância ao Sol?",
+        "O que acontece com a luz do Sol durante um eclipse?"
+      ],
+      "tempo_estimado": "9 minutos",
+      "adaptacao_nivel": "Nível 2: quatro pares, fenômenos distintos, exige distinção entre rotação e translação."
+    }
+  },
+  {
+    "id": "cie-5-u1-n3",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u1",
+    "unidade_titulo": "Sistema Solar e Movimentos da Terra",
+    "habilidade_bncc_codigo": "EF05CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.01 — Sistema Solar: astros, movimentos e consequências para a Terra",
+    "objetivo": "Identificar os astros do Sistema Solar e as consequências dos movimentos da Terra.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Explica por que as estações do ano existem e como elas afetam a vida na Terra.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "As estações do ano não são causadas pela distância da Terra ao Sol, mas pela inclinação do eixo terrestre durante a translação.",
+      "campos": [
+        {
+          "id": "causa",
+          "label": "Explica com suas palavras por que as estações do ano existem.",
+          "max": 250
+        },
+        {
+          "id": "hemisferios",
+          "label": "Por que quando é verão no Brasil é inverno na Europa? Explica.",
+          "max": 200
+        },
+        {
+          "id": "impacto",
+          "label": "Cita dois exemplos de como as estações afetam a vida dos seres vivos.",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Menciona a inclinação do eixo terrestre como causa das estações.",
+      "Explica corretamente a oposição de estações entre hemisférios.",
+      "Cita dois impactos das estações sobre seres vivos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar globo inclinado sob lâmpada para demonstrar.",
+      "resposta": "Três campos. Escreve com suas palavras.",
+      "engajamento": "Se a causa fosse a distância ao Sol, o Brasil e a Europa teriam a mesma estação. Por que isso não acontece?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Explicar as estações com base na inclinação axial, prever fenômenos hemisféricos e conectar com impactos biológicos.",
+      "gabarito": "Causa: inclinação do eixo faz um hemisfério receber mais luz em cada parte da translação. Hemisférios: quando o sul está inclinado para o Sol (verão), o norte está inclinado para longe (inverno). Impactos: migração de aves, florescimento de plantas, hibernação, etc.",
+      "perguntas_orientadoras": [
+        "Qual hemisfério está mais inclinado para o Sol quando é verão no Brasil?",
+        "O que muda nos animais com a chegada do inverno?",
+        "Se o eixo da Terra fosse reto, teríamos estações?"
+      ],
+      "tempo_estimado": "12 minutos",
+      "adaptacao_nivel": "Nível 3: explicação causal, raciocínio hemisférico e conexão com vida — três dimensões articuladas."
+    }
+  },
+  {
+    "id": "cie-5-u2-n1",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u2",
+    "unidade_titulo": "Ecossistemas Brasileiros",
+    "habilidade_bncc_codigo": "EF05CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.V.02 — Ecossistemas brasileiros: características e ameaças",
+    "objetivo": "Desenvolver habilidades de ecossistemas brasileiros.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual bioma cobre a maior parte da região Norte do Brasil e é o maior do mundo?",
+    "conteudo_base": {
+      "opcoes": [
+        "Cerrado",
+        "Caatinga",
+        "Amazônia",
+        "Pantanal"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica o bioma amazônico e sua localização."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "É o bioma famoso pela biodiversidade e pelo Rio Amazonas."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar ecossistemas brasileiros de forma progressiva.",
+      "gabarito": "Amazônia — maior floresta tropical do mundo.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "cie-5-u2-n2",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u2",
+    "unidade_titulo": "Ecossistemas Brasileiros",
+    "habilidade_bncc_codigo": "EF05CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.V.02 — Ecossistemas brasileiros: características e ameaças",
+    "objetivo": "Desenvolver habilidades de ecossistemas brasileiros.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada bioma à sua principal característica.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Amazônia",
+          "nome": "Floresta tropical úmida com enorme biodiversidade"
+        },
+        {
+          "elemento": "Caatinga",
+          "nome": "Vegetação adaptada à seca no Nordeste"
+        },
+        {
+          "elemento": "Cerrado",
+          "nome": "Savana com vegetação de raízes profundas"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa bioma às suas características principais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Cada bioma tem características únicas de clima e vegetação."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar ecossistemas brasileiros de forma progressiva.",
+      "gabarito": "Amazônia=floresta tropical, Caatinga=vegetação xerófila, Cerrado=savana.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "cie-5-u2-n3",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u2",
+    "unidade_titulo": "Ecossistemas Brasileiros",
+    "habilidade_bncc_codigo": "EF05CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.V.02 — Ecossistemas brasileiros: características e ameaças",
+    "objetivo": "Desenvolver habilidades de ecossistemas brasileiros.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Escolhe um bioma brasileiro e explica: quais são suas características, quais animais vivem lá e quais ameaças ele enfrenta.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "bioma",
+          "label": "Bioma escolhido:",
+          "max": 40
+        },
+        {
+          "id": "caracteristicas",
+          "label": "Características:",
+          "max": 150
+        },
+        {
+          "id": "animais",
+          "label": "Animais que vivem lá:",
+          "max": 100
+        },
+        {
+          "id": "ameacas",
+          "label": "Ameaças:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve bioma com três dimensões: físico, biológico e ambiental."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no clima, vegetação, animais típicos e o que os humanos fazem que prejudica."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar ecossistemas brasileiros de forma progressiva.",
+      "gabarito": "Descrição com clima, vegetação, fauna representativa e ameaças antropogênicas.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

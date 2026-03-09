@@ -1,0 +1,294 @@
+[
+  {
+    "id": "mat-5-u1-n1",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u1",
+    "unidade_titulo": "Frações e Números Decimais",
+    "habilidade_bncc_codigo": "EF05MA04",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.01 — Frações e decimais: representação, comparação e operações",
+    "objetivo": "Compreender e comparar frações e números decimais.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 6,
+    "enunciado": "Uma pizza foi dividida em 8 partes iguais. João comeu 3 partes. Que fração da pizza ele comeu?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "João comeu 3 das 8 partes. Qual fração representa isso?",
+      "opcoes": [
+        "3/4",
+        "8/3",
+        "3/8",
+        "1/3"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Representa corretamente uma situação partitiva como fração numerador/denominador."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar uma pizza dividida em 8 e colorir 3 fatias.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Na fração: o de baixo é o total de partes, o de cima é quantas partes você pegou."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Representar uma situação partitiva como fração, distinguindo numerador de denominador.",
+      "gabarito": "3/8 — 3 partes comidas de 8 totais.",
+      "perguntas_orientadoras": [
+        "Em quantas partes a pizza foi dividida?",
+        "Quantas partes o João comeu?",
+        "O que fica em cima e o que fica embaixo da fração?"
+      ],
+      "tempo_estimado": "6 minutos",
+      "adaptacao_nivel": "Nível 1: situação concreta e visual, fração simples sem simplificação."
+    }
+  },
+  {
+    "id": "mat-5-u1-n2",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u1",
+    "unidade_titulo": "Frações e Números Decimais",
+    "habilidade_bncc_codigo": "EF05MA04",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.01 — Frações e decimais: representação, comparação e operações",
+    "objetivo": "Compreender e comparar frações e números decimais.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 9,
+    "enunciado": "Coloca os números em ordem crescente, do menor para o maior.",
+    "conteudo_base": {
+      "tipo": "ordenacao",
+      "itens": [
+        "0,25",
+        "1/2",
+        "0,8",
+        "3/4"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Converte frações em decimais para comparar grandezas de representações diferentes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode lembrar: 1/2 = 0,5 e 3/4 = 0,75 antes de iniciar.",
+      "resposta": "Arrasta ou use os botões para colocar na ordem crescente.",
+      "engajamento": "Converte tudo para decimal primeiro. Qual é o menor decimal que você vê?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Comparar frações e decimais convertendo para uma representação comum.",
+      "gabarito": "0,25 é menor que 1/2 (=0,5), que é menor que 3/4 (=0,75), que é menor que 0,8.",
+      "perguntas_orientadoras": [
+        "Como você transforma 1/2 em decimal?",
+        "3/4 é maior ou menor que 0,8?",
+        "Que estratégia você usou para comparar a fração com o decimal?"
+      ],
+      "tempo_estimado": "9 minutos",
+      "adaptacao_nivel": "Nível 2: mistura de frações e decimais exige conversão, quatro elementos."
+    }
+  },
+  {
+    "id": "mat-5-u1-n3",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u1",
+    "unidade_titulo": "Frações e Números Decimais",
+    "habilidade_bncc_codigo": "EF05MA04",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.01 — Frações e decimais: representação, comparação e operações",
+    "objetivo": "Compreender e comparar frações e números decimais.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 15,
+    "enunciado": "Resolve o problema e explica cada passo.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Uma turma de 30 alunos foi ao museu. 2/5 dos alunos preferiram a exposição de ciências. Do restante, 0,5 preferiram a exposição de arte. Os demais preferiram história.",
+      "campos": [
+        {
+          "id": "ciencias",
+          "label": "Quantos alunos preferiram ciências? Mostra a conta.",
+          "max": 120
+        },
+        {
+          "id": "arte",
+          "label": "Quantos preferiram arte? Mostra a conta.",
+          "max": 120
+        },
+        {
+          "id": "historia",
+          "label": "Quantos preferiram história? Como você chegou nesse resultado?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula 2/5 de 30 corretamente (12 alunos).",
+      "Calcula 0,5 do restante (18 × 0,5 = 9 alunos).",
+      "Obtém o resultado de história por subtração (30 − 12 − 9 = 9 alunos)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode resolver o passo 1 junto antes que o aluno avance sozinho.",
+      "resposta": "Três campos. Mostra as contas, não só o resultado.",
+      "engajamento": "Quantos alunos sobraram depois que os de ciências foram separados? Metade desses vai para arte."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Resolver problema de três passos encadeados misturando fração e decimal sobre uma mesma quantidade.",
+      "gabarito": "Ciências: 2/5 × 30 = 12. Arte: 0,5 × 18 = 9. História: 30 − 12 − 9 = 9.",
+      "perguntas_orientadoras": [
+        "Qual é o total em cada passo?",
+        "O 'restante' do enunciado corresponde a quantos alunos?",
+        "Como você confere se a soma dos três grupos é 30?"
+      ],
+      "tempo_estimado": "15 minutos",
+      "adaptacao_nivel": "Nível 3: três passos encadeados, fração e decimal em operações distintas, conferência por soma."
+    }
+  },
+  {
+    "id": "mat-5-u2-n1",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u2",
+    "unidade_titulo": "Porcentagem",
+    "habilidade_bncc_codigo": "EF05MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.02 — Porcentagem: representação e uso em contextos práticos",
+    "objetivo": "Desenvolver habilidades de porcentagem.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Uma calça custava R$ 100,00 e está com 20% de desconto. Qual é o valor do desconto?",
+    "conteudo_base": {
+      "opcoes": [
+        "R$ 2,00",
+        "R$ 20,00",
+        "R$ 200,00",
+        "R$ 80,00"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Calcula porcentagem simples de valor inteiro."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "20% de 100 é como dizer: 20 de cada 100 reais."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar porcentagem de forma progressiva.",
+      "gabarito": "20% de 100 = 20. O desconto é R$ 20,00.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "mat-5-u2-n2",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u2",
+    "unidade_titulo": "Porcentagem",
+    "habilidade_bncc_codigo": "EF05MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.02 — Porcentagem: representação e uso em contextos práticos",
+    "objetivo": "Desenvolver habilidades de porcentagem.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada fração à sua representação percentual equivalente.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "1/2",
+          "nome": "50%"
+        },
+        {
+          "elemento": "1/4",
+          "nome": "25%"
+        },
+        {
+          "elemento": "1/10",
+          "nome": "10%"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Converte frações simples em porcentagem."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Porcentagem é uma fração com denominador 100."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar porcentagem de forma progressiva.",
+      "gabarito": "1/2=50%, 1/4=25%, 1/10=10%.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "mat-5-u2-n3",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u2",
+    "unidade_titulo": "Porcentagem",
+    "habilidade_bncc_codigo": "EF05MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.02 — Porcentagem: representação e uso em contextos práticos",
+    "objetivo": "Desenvolver habilidades de porcentagem.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Você tem R$ 80,00 e quer gastar 25% em lanche, 50% em livro e guardar o resto. Quanto é cada parte? Mostra os cálculos.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "lanche",
+          "label": "25% para lanche:",
+          "max": 80
+        },
+        {
+          "id": "livro",
+          "label": "50% para livro:",
+          "max": 80
+        },
+        {
+          "id": "resto",
+          "label": "O que sobra (calcule):",
+          "max": 80
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula porcentagens de valor não-centesimal.",
+      "Verifica que partes somam o total."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Calcule cada porcentagem separado. 25% de 80 = ?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar porcentagem de forma progressiva.",
+      "gabarito": "Lanche=R$20, Livro=R$40, Sobra=R$20. Total: 25+50+25=100%.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

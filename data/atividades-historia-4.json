@@ -1,0 +1,306 @@
+[
+  {
+    "id": "his-4-u1-n1",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u1",
+    "unidade_titulo": "Povos Indígenas e Africanos no Brasil",
+    "habilidade_bncc_codigo": "EF04HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.T.01 — Contribuições dos povos indígenas e africanos na formação cultural brasileira",
+    "objetivo": "Reconhecer contribuições dos povos indígenas e africanos para a cultura brasileira.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dessas palavras que usamos no dia a dia vem da língua dos povos indígenas do Brasil?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Qual palavra é de origem indígena brasileira?",
+      "opcoes": [
+        "Escola",
+        "Abacaxi",
+        "Caderno",
+        "Janela"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece a presença de palavras de origem indígena no português brasileiro."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar outras palavras de origem indígena (mandioca, pipoca, caju) para contextualizar.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Você come abacaxi? Sabia que essa palavra vem do tupi 'nanas', que significa 'fruta perfumada'?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Perceber a herança linguística indígena no vocabulário cotidiano brasileiro.",
+      "gabarito": "Abacaxi — palavra de origem tupi. As demais vieram do português europeu.",
+      "perguntas_orientadoras": [
+        "Quais outros alimentos têm nomes de origem indígena?",
+        "Por que tantas palavras brasileiras têm essa origem?",
+        "O que isso nos diz sobre a presença dos povos indígenas na formação do Brasil?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: vocabulário cotidiano, uma resposta clara, contexto motivador."
+    }
+  },
+  {
+    "id": "his-4-u1-n2",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u1",
+    "unidade_titulo": "Povos Indígenas e Africanos no Brasil",
+    "habilidade_bncc_codigo": "EF04HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.T.01 — Contribuições dos povos indígenas e africanos na formação cultural brasileira",
+    "objetivo": "Reconhecer contribuições dos povos indígenas e africanos para a cultura brasileira.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Liga cada contribuição cultural à sua origem.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Palavras como mandioca, pipoca e capivara",
+          "categoria": "Povos Indígenas"
+        },
+        {
+          "label": "O samba e o jongo",
+          "categoria": "Povos Africanos"
+        },
+        {
+          "label": "O uso de ervas medicinais como o boldo",
+          "categoria": "Povos Indígenas"
+        },
+        {
+          "label": "O acarajé e o vatapá",
+          "categoria": "Povos Africanos"
+        },
+        {
+          "label": "Técnicas de cultivo da mandioca",
+          "categoria": "Povos Indígenas"
+        },
+        {
+          "label": "O berimbau e o candomblé",
+          "categoria": "Povos Africanos"
+        }
+      ],
+      "categorias": [
+        "Povos Indígenas",
+        "Povos Africanos"
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa contribuições culturais específicas aos povos indígenas e africanos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode conversar brevemente sobre cada contribuição antes de iniciar.",
+      "resposta": "Arrasta cada contribuição para a origem certa.",
+      "engajamento": "Você come acarajé? Já ouviu berimbau? Sabe de onde vieram?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Distinguir heranças culturais indígenas e africanas presentes no cotidiano brasileiro.",
+      "gabarito": "Indígenas: palavras tupis, ervas medicinais, cultivo de mandioca. Africanos: samba/jongo, acarajé/vatapá, berimbau/candomblé.",
+      "perguntas_orientadoras": [
+        "Você conhece esses alimentos ou práticas?",
+        "Por que essas influências estão presentes no Brasil?",
+        "O que seria da cultura brasileira sem essas contribuições?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: seis itens, dois grupos, exige conhecimento cultural básico."
+    }
+  },
+  {
+    "id": "his-4-u1-n3",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u1",
+    "unidade_titulo": "Povos Indígenas e Africanos no Brasil",
+    "habilidade_bncc_codigo": "EF04HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.T.01 — Contribuições dos povos indígenas e africanos na formação cultural brasileira",
+    "objetivo": "Reconhecer contribuições dos povos indígenas e africanos para a cultura brasileira.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Escolhe uma contribuição cultural e explica sua importância.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "A cultura brasileira é uma mistura de muitas influências: indígenas, africanas, europeias e outras.",
+      "campos": [
+        {
+          "id": "contribuicao",
+          "label": "Qual contribuição indígena ou africana você escolheu? De onde ela vem?",
+          "max": 150
+        },
+        {
+          "id": "presente",
+          "label": "Como essa contribuição está presente no Brasil hoje?",
+          "max": 200
+        },
+        {
+          "id": "importancia",
+          "label": "Por que você acha importante conhecer essas contribuições?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica corretamente a origem cultural da contribuição escolhida.",
+      "Descreve uma manifestação atual dessa contribuição.",
+      "Argumenta sobre a importância do reconhecimento cultural."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos visuais ou sonoros antes de iniciar a escrita.",
+      "resposta": "Três campos. Escreve com suas palavras.",
+      "engajamento": "O que te chamou mais atenção nas contribuições que vimos? Por quê?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Refletir sobre heranças culturais e seu papel na identidade brasileira contemporânea.",
+      "gabarito": "Resposta variável — verificar coerência entre origem declarada, manifestação atual e argumentação.",
+      "perguntas_orientadoras": [
+        "Você já teve contato com essa contribuição cultural?",
+        "Ela seria diferente se não houvesse a influência desse povo?",
+        "O que o Brasil perderia se esquecesse essa herança?"
+      ],
+      "tempo_estimado": "12 minutos",
+      "adaptacao_nivel": "Nível 3: reflexão argumentativa sobre identidade cultural, três dimensões."
+    }
+  },
+  {
+    "id": "his-4-u2-n1",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u2",
+    "unidade_titulo": "Imigração no Brasil",
+    "habilidade_bncc_codigo": "EF04HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.T.02 — Contribuições de imigrantes para a formação cultural brasileira",
+    "objetivo": "Desenvolver habilidades de imigração no brasil.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual estado brasileiro recebeu muitos imigrantes alemães e italianos no século XIX?",
+    "conteudo_base": {
+      "opcoes": [
+        "Bahia",
+        "Rio Grande do Sul",
+        "Amazonas",
+        "Pará"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Localiza fluxos migratórios no espaço e tempo do Brasil."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa nas festas e comidas típicas do sul do Brasil."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar imigração no brasil de forma progressiva.",
+      "gabarito": "Rio Grande do Sul — região colonizada por alemães e italianos.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "his-4-u2-n2",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u2",
+    "unidade_titulo": "Imigração no Brasil",
+    "habilidade_bncc_codigo": "EF04HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.T.02 — Contribuições de imigrantes para a formação cultural brasileira",
+    "objetivo": "Desenvolver habilidades de imigração no brasil.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada grupo de imigrantes à sua maior contribuição cultural no Brasil.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Japoneses",
+          "nome": "Culinária: temaki, sushi, sashimi"
+        },
+        {
+          "elemento": "Italianos",
+          "nome": "Culinária: pizza, macarrão e vinho"
+        },
+        {
+          "elemento": "Africanos (escravizados)",
+          "nome": "Música, religião, culinária: acarajé, capoeira"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa grupos de imigrantes às suas contribuições culturais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa nas comidas, músicas e danças que cada grupo trouxe."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar imigração no brasil de forma progressiva.",
+      "gabarito": "Cada grupo contribuiu de forma única para a diversidade cultural brasileira.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "his-4-u2-n3",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u2",
+    "unidade_titulo": "Imigração no Brasil",
+    "habilidade_bncc_codigo": "EF04HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.T.02 — Contribuições de imigrantes para a formação cultural brasileira",
+    "objetivo": "Desenvolver habilidades de imigração no brasil.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Pesquisa ou pensa na sua própria família: de onde vieram seus antepassados? Que costumes eles trouxeram?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "origem",
+          "label": "De onde vieram meus antepassados:",
+          "max": 100
+        },
+        {
+          "id": "costumes",
+          "label": "Costumes ou tradições que trouxeram:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona história familiar à imigração e diversidade cultural."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em comidas, palavras, festas, músicas que existem na sua família."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar imigração no brasil de forma progressiva.",
+      "gabarito": "Relato pessoal com identificação de origem e contribuições culturais.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

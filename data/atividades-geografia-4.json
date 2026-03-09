@@ -1,0 +1,309 @@
+[
+  {
+    "id": "geo-4-u1-n1",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u1",
+    "unidade_titulo": "Regiões do Brasil",
+    "habilidade_bncc_codigo": "EF04GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.T.01 — Regiões brasileiras: características naturais, culturais e econômicas",
+    "objetivo": "Identificar características das regiões brasileiras.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é a maior região do Brasil em extensão territorial?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Qual região ocupa mais de 45% do território brasileiro?",
+      "opcoes": [
+        "Nordeste",
+        "Centro-Oeste",
+        "Norte",
+        "Sudeste"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica a Região Norte como a maior do Brasil em área."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar um mapa do Brasil com as regiões coloridas.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Olha num mapa: qual região você acha que parece maior? Por que a Amazônia fica lá?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer a dimensão territorial das regiões brasileiras, com destaque para a Região Norte.",
+      "gabarito": "Norte — abriga a maior parte da Floresta Amazônica e ocupa cerca de 45% do território.",
+      "perguntas_orientadoras": [
+        "O que torna a Região Norte tão extensa?",
+        "Quantos estados fazem parte da Região Norte?",
+        "O que tem lá que faz ela ser tão grande?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: dado factual, referência ao mapa facilita a resposta."
+    }
+  },
+  {
+    "id": "geo-4-u1-n2",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u1",
+    "unidade_titulo": "Regiões do Brasil",
+    "habilidade_bncc_codigo": "EF04GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.T.01 — Regiões brasileiras: características naturais, culturais e econômicas",
+    "objetivo": "Identificar características das regiões brasileiras.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Liga cada característica à região do Brasil onde ela é mais presente.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Floresta Amazônica",
+          "categoria": "Norte"
+        },
+        {
+          "label": "Carnaval de Salvador e capoeira",
+          "categoria": "Nordeste"
+        },
+        {
+          "label": "Pantanal e cerrado",
+          "categoria": "Centro-Oeste"
+        },
+        {
+          "label": "Maior polo industrial do país",
+          "categoria": "Sudeste"
+        },
+        {
+          "label": "Maior produtor de trigo e soja do país",
+          "categoria": "Sul"
+        },
+        {
+          "label": "Sertão e clima semiárido",
+          "categoria": "Nordeste"
+        }
+      ],
+      "categorias": [
+        "Norte",
+        "Nordeste",
+        "Centro-Oeste",
+        "Sudeste",
+        "Sul"
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa características naturais e culturais às regiões brasileiras correspondentes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ter um mapa do Brasil afixado na sala durante a atividade.",
+      "resposta": "Arrasta cada característica para a região certa.",
+      "engajamento": "Você sabe de onde vem a soja do seu pão? Ou onde fica a Amazônia?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Relacionar características físicas, culturais e econômicas às cinco regiões brasileiras.",
+      "gabarito": "Norte: Amazônia. Nordeste: capoeira/carnaval de Salvador e sertão semiárido. Centro-Oeste: Pantanal/cerrado. Sudeste: polo industrial. Sul: trigo e soja.",
+      "perguntas_orientadoras": [
+        "Você já foi ou conhece alguém dessas regiões?",
+        "O que o clima tem a ver com a cultura de cada região?",
+        "Por que o Sudeste é o maior polo industrial?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: seis características, cinco regiões, duas para o Nordeste exigem discriminação."
+    }
+  },
+  {
+    "id": "geo-4-u1-n3",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u1",
+    "unidade_titulo": "Regiões do Brasil",
+    "habilidade_bncc_codigo": "EF04GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.T.01 — Regiões brasileiras: características naturais, culturais e econômicas",
+    "objetivo": "Identificar características das regiões brasileiras.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Compara duas regiões do Brasil que você acha mais diferentes entre si.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "O Brasil é grande e diverso. Suas cinco regiões têm climas, paisagens, culturas e economias bem diferentes.",
+      "campos": [
+        {
+          "id": "regioes",
+          "label": "Quais duas regiões você escolheu para comparar?",
+          "max": 80
+        },
+        {
+          "id": "diferenca_natural",
+          "label": "Como o clima e a paisagem das duas regiões são diferentes?",
+          "max": 250
+        },
+        {
+          "id": "diferenca_cultural",
+          "label": "Cite uma diferença cultural ou econômica entre elas.",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica diferenças físicas entre as regiões escolhidas.",
+      "Identifica pelo menos uma diferença cultural ou econômica.",
+      "Usa vocabulário geográfico adequado (clima, paisagem, bioma, economia)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode permitir uso de livro didático ou mapa durante a atividade.",
+      "resposta": "Três campos. Escreve com suas palavras.",
+      "engajamento": "Se você pudesse visitar duas regiões bem diferentes, quais seriam? O que você esperaria ver?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Comparar regiões brasileiras articulando aspectos físicos e humanos.",
+      "gabarito": "Resposta variável — verificar se as diferenças apontadas são geograficamente corretas e se há vocabulário específico.",
+      "perguntas_orientadoras": [
+        "O que causa essas diferenças de clima?",
+        "Como a paisagem influencia o que as pessoas fazem para viver?",
+        "O que essas regiões têm em comum apesar das diferenças?"
+      ],
+      "tempo_estimado": "12 minutos",
+      "adaptacao_nivel": "Nível 3: comparação articulada, três dimensões de análise, vocabulário geográfico esperado."
+    }
+  },
+  {
+    "id": "geo-4-u2-n1",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u2",
+    "unidade_titulo": "Biomas Brasileiros",
+    "habilidade_bncc_codigo": "EF04GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.P.02 — Biomas brasileiros: características naturais e humanas",
+    "objetivo": "Desenvolver habilidades de biomas brasileiros.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual bioma ocupa a maior área do Brasil?",
+    "conteudo_base": {
+      "opcoes": [
+        "Cerrado",
+        "Amazônia",
+        "Mata Atlântica",
+        "Pantanal"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o maior bioma brasileiro por extensão territorial."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "É o bioma do norte do Brasil, famoso pela biodiversidade."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar biomas brasileiros de forma progressiva.",
+      "gabarito": "Amazônia — ocupa cerca de 49% do território nacional.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "geo-4-u2-n2",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u2",
+    "unidade_titulo": "Biomas Brasileiros",
+    "habilidade_bncc_codigo": "EF04GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.P.02 — Biomas brasileiros: características naturais e humanas",
+    "objetivo": "Desenvolver habilidades de biomas brasileiros.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Liga cada bioma à sua região principal do Brasil.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Amazônia",
+          "nome": "Norte"
+        },
+        {
+          "elemento": "Cerrado",
+          "nome": "Centro-Oeste"
+        },
+        {
+          "elemento": "Caatinga",
+          "nome": "Nordeste"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Localiza biomas brasileiros por região geográfica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no mapa do Brasil e onde cada vegetação é mais comum."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar biomas brasileiros de forma progressiva.",
+      "gabarito": "Amazônia=Norte, Cerrado=Centro-Oeste, Caatinga=Nordeste.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "geo-4-u2-n3",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u2",
+    "unidade_titulo": "Biomas Brasileiros",
+    "habilidade_bncc_codigo": "EF04GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.P.02 — Biomas brasileiros: características naturais e humanas",
+    "objetivo": "Desenvolver habilidades de biomas brasileiros.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Explica por que é importante preservar os biomas brasileiros. Dá um exemplo de consequência da destruição de um bioma.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "importancia",
+          "label": "Por que preservar os biomas:",
+          "max": 200
+        },
+        {
+          "id": "consequencia",
+          "label": "Consequência de sua destruição:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Argumenta sobre preservação ambiental com consequências concretas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em: água, clima, animais, alimento, ar... O que muda quando o bioma desaparece?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar biomas brasileiros de forma progressiva.",
+      "gabarito": "Preservação ligada à biodiversidade, ciclo da água e clima regional.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

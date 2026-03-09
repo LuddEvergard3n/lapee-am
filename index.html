@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Atividades pedagógicas para o Ensino Fundamental I. LAPEE AM — Laboratório de Práticas Educativas e Extensão Amos Comenius." />
+  <meta name="theme-color" content="#2d3a8c" />
+
+  <title>LAPEE AM — Atividades Pedagógicas</title>
+
+  <!-- Fontes: Google Fonts com fallback nativo caso offline -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'"
+  />
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </noscript>
+
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+
+  <div class="app-shell">
+
+    <!-- Topbar -->
+    <header class="topbar" role="banner">
+      <button
+        id="btn-menu"
+        type="button"
+        aria-label="Abrir menu de navegação"
+        aria-expanded="false"
+        aria-controls="sidebar"
+      >
+        Menu
+      </button>
+
+      <div class="topbar-logo" aria-label="LAPEE AM — Laboratório de Práticas Educativas e Extensão Amos Comenius">
+        LAPEE AM
+        <small>Laboratório de Práticas Educativas e Extensão Amos Comenius</small>
+      </div>
+
+      <nav id="breadcrumb" class="topbar-breadcrumb" aria-label="Localização atual">
+        <!-- Preenchido dinamicamente por ui.js -->
+      </nav>
+
+      <div class="topbar-actions">
+        <a href="#/acessibilidade" class="btn btn-secondary btn-sm" aria-label="Configurações de acessibilidade">
+          Acessibilidade
+        </a>
+      </div>
+    </header>
+
+    <!-- Sidebar de navegação -->
+    <aside id="sidebar" aria-label="Menu lateral">
+      <!-- Preenchido por ui.js -->
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main id="main-content" role="main" aria-live="polite" aria-atomic="false">
+      <!-- Renderizado dinamicamente por ui.js -->
+      <p style="padding:2rem;color:#666;font-family:Georgia,serif">Carregando...</p>
+    </main>
+
+  </div>
+
+  <!-- Entrada da aplicação como ES Module -->
+  <script type="module" src="./js/app.js"></script>
+
+  <!--
+    Nota para desenvolvedores:
+    Esta aplicação usa ES Modules nativos (import/export).
+    Ela requer um servidor HTTP para funcionar (não funciona com file://).
+    Opções rápidas:
+      - python3 -m http.server 8080
+      - npx serve .
+      - Extensão "Live Server" do VSCode
+    Veja README.md para instruções completas.
+  -->
+
+</body>
+</html>

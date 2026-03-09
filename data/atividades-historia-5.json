@@ -1,0 +1,307 @@
+[
+  {
+    "id": "his-5-u1-n1",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u1",
+    "unidade_titulo": "República e Cidadania no Brasil",
+    "habilidade_bncc_codigo": "EF05HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.T.01 — Proclamação da República e construção da cidadania brasileira",
+    "objetivo": "Compreender a Proclamação da República e o conceito de cidadania.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Em que ano o Brasil deixou de ser uma monarquia e se tornou uma república?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Quando foi proclamada a República no Brasil?",
+      "opcoes": [
+        "1822",
+        "1850",
+        "1889",
+        "1964"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Localiza cronologicamente a Proclamação da República no contexto histórico brasileiro."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar uma linha do tempo com 1822 (Independência) e 1889 (República).",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "1822 é quando o Brasil ficou independente de Portugal. 1889 é quando mudou a forma de governo. Qual foi qual?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Situar a Proclamação da República no tempo e distingui-la da Independência.",
+      "gabarito": "1889 — Proclamação da República pelo Marechal Deodoro da Fonseca em 15 de novembro.",
+      "perguntas_orientadoras": [
+        "Qual era o sistema de governo antes de 1889?",
+        "Quem era o último imperador do Brasil?",
+        "O que mudou para os brasileiros com a República?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: data factual, distratores são marcos históricos distintos."
+    }
+  },
+  {
+    "id": "his-5-u1-n2",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u1",
+    "unidade_titulo": "República e Cidadania no Brasil",
+    "habilidade_bncc_codigo": "EF05HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.T.01 — Proclamação da República e construção da cidadania brasileira",
+    "objetivo": "Compreender a Proclamação da República e o conceito de cidadania.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 9,
+    "enunciado": "Coloca esses marcos da história política do Brasil em ordem cronológica.",
+    "conteudo_base": {
+      "tipo": "ordenacao",
+      "itens": [
+        "Chegada da família real portuguesa ao Brasil (1808)",
+        "Independência do Brasil (1822)",
+        "Abolição da escravidão (1888)",
+        "Proclamação da República (1889)",
+        "Constituição Federal de 1988"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena cronologicamente cinco marcos históricos do Brasil usando as datas como referência."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "As datas estão entre parênteses. Professor pode instruir a ordenar pelos números.",
+      "resposta": "Arrasta ou use os botões para colocar na ordem correta.",
+      "engajamento": "Qual número é maior: 1808 ou 1888? Números maiores são eventos mais recentes."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Construir linha do tempo mental da história política brasileira com cinco marcos fundamentais.",
+      "gabarito": "1808 → 1822 → 1888 → 1889 → 1988.",
+      "perguntas_orientadoras": [
+        "O que aconteceu no Brasil antes da Independência?",
+        "Por que a abolição veio um ano antes da República?",
+        "O que a Constituição de 1988 garantiu para os brasileiros?"
+      ],
+      "tempo_estimado": "9 minutos",
+      "adaptacao_nivel": "Nível 2: cinco marcos, datas explícitas nos rótulos para apoio, exige noção de cronologia."
+    }
+  },
+  {
+    "id": "his-5-u1-n3",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u1",
+    "unidade_titulo": "República e Cidadania no Brasil",
+    "habilidade_bncc_codigo": "EF05HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.T.01 — Proclamação da República e construção da cidadania brasileira",
+    "objetivo": "Compreender a Proclamação da República e o conceito de cidadania.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 15,
+    "enunciado": "Escreve sobre o que significa ser cidadão no Brasil hoje.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Cidadania é o conjunto de direitos e deveres que cada pessoa tem numa sociedade. Na República, todos são iguais perante a lei.",
+      "campos": [
+        {
+          "id": "direito",
+          "label": "Cite um direito garantido pela Constituição que você considera importante. Por quê?",
+          "max": 200
+        },
+        {
+          "id": "dever",
+          "label": "Cite um dever do cidadão brasileiro. Por que ele é importante para a sociedade?",
+          "max": 200
+        },
+        {
+          "id": "conexao",
+          "label": "Como a Proclamação da República de 1889 se relaciona com os direitos que você tem hoje?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cita um direito constitucional real e justifica sua importância.",
+      "Cita um dever cívico e explica sua função social.",
+      "Estabelece conexão entre a história política e os direitos atuais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar direitos (educação, saúde, voto) e deveres (pagar impostos, votar) antes.",
+      "resposta": "Três campos. Escreve com suas palavras.",
+      "engajamento": "Que direito você já usou essa semana sem perceber? Qual dever você já cumpriu?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Relacionar o conceito de cidadania à história republicana e à experiência pessoal.",
+      "gabarito": "Resposta variável — verificar se o direito e o dever são constitucionalmente corretos e se a conexão histórica é plausível.",
+      "perguntas_orientadoras": [
+        "Você já exerceu algum direito ou dever de cidadão?",
+        "O que seria diferente se ainda vivêssemos numa monarquia?",
+        "Por que os direitos precisam estar escritos numa Constituição?"
+      ],
+      "tempo_estimado": "15 minutos",
+      "adaptacao_nivel": "Nível 3: articulação entre direito, dever e história política, três dimensões."
+    }
+  },
+  {
+    "id": "his-5-u2-n1",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u2",
+    "unidade_titulo": "Direitos e Cidadania",
+    "habilidade_bncc_codigo": "EF05HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.T.02 — Direitos das crianças e adolescentes na sociedade contemporânea",
+    "objetivo": "Desenvolver habilidades de direitos e cidadania.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é o documento brasileiro que protege os direitos das crianças?",
+    "conteudo_base": {
+      "opcoes": [
+        "Código Civil",
+        "ECA — Estatuto da Criança e do Adolescente",
+        "Constituição de 1824",
+        "Código Penal"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o principal instrumento legal de proteção à infância no Brasil."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "É um documento específico criado em 1990 para proteger crianças e adolescentes."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar direitos e cidadania de forma progressiva.",
+      "gabarito": "ECA — Estatuto da Criança e do Adolescente, criado em 1990.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "his-5-u2-n2",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u2",
+    "unidade_titulo": "Direitos e Cidadania",
+    "habilidade_bncc_codigo": "EF05HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.T.02 — Direitos das crianças e adolescentes na sociedade contemporânea",
+    "objetivo": "Desenvolver habilidades de direitos e cidadania.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Classifica cada item como Direito ou Dever de uma criança segundo o ECA.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "d1",
+          "label": "Ter acesso à educação",
+          "categoria": "Direito"
+        },
+        {
+          "id": "d2",
+          "label": "Respeitar os colegas na escola",
+          "categoria": "Dever"
+        },
+        {
+          "id": "d3",
+          "label": "Brincar e ter lazer",
+          "categoria": "Direito"
+        },
+        {
+          "id": "d4",
+          "label": "Não praticar bullying",
+          "categoria": "Dever"
+        }
+      ],
+      "categorias": [
+        "Direito",
+        "Dever"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue direitos e deveres de crianças e adolescentes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Direito é o que você pode receber. Dever é o que você precisa fazer."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar direitos e cidadania de forma progressiva.",
+      "gabarito": "Direitos: educação e lazer. Deveres: respeitar e não praticar bullying.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "his-5-u2-n3",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u2",
+    "unidade_titulo": "Direitos e Cidadania",
+    "habilidade_bncc_codigo": "EF05HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.T.02 — Direitos das crianças e adolescentes na sociedade contemporânea",
+    "objetivo": "Desenvolver habilidades de direitos e cidadania.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Escreve um texto explicando por que é importante que as crianças conheçam seus direitos.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "argumento",
+          "label": "Meu argumento principal:",
+          "max": 150
+        },
+        {
+          "id": "exemplo",
+          "label": "Um exemplo concreto:",
+          "max": 150
+        },
+        {
+          "id": "conclusao",
+          "label": "Minha conclusão:",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Argumenta sobre importância do conhecimento dos direitos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa: o que acontece quando alguém não conhece seus direitos?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar direitos e cidadania de forma progressiva.",
+      "gabarito": "Texto com argumento sobre empoderamento e exemplo de aplicação dos direitos.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

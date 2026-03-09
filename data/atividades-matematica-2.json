@@ -1,0 +1,281 @@
+[
+  {
+    "id": "mat-2-u1-n1",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u1",
+    "unidade_titulo": "Adição e Subtração",
+    "habilidade_bncc_codigo": "EF02MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.01 — Adição e subtração: situações-problema até 100",
+    "objetivo": "Resolver problemas de adição e subtração com números até 100.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Tem 8 pássaros no galho. 3 vão embora. Quantos ficam?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "8 pássaros − 3 = ?",
+      "opcoes": [
+        "4",
+        "5",
+        "6",
+        "11"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Resolve subtração simples com apoio de contexto concreto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que a criança represente com os dedos ou objetos.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Conta nos dedos: começa em 8 e tira 3. Onde para?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Subtração dentro de 10, com contexto de situação-problema.",
+      "gabarito": "5 — 8 menos 3 é 5.",
+      "perguntas_orientadoras": [
+        "Quantos tinham no começo?",
+        "Quantos foram embora?",
+        "O que a gente faz quando algo vai embora — soma ou subtrai?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: subtração com números pequenos, contexto concreto e familiar."
+    }
+  },
+  {
+    "id": "mat-2-u1-n2",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u1",
+    "unidade_titulo": "Adição e Subtração",
+    "habilidade_bncc_codigo": "EF02MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.01 — Adição e subtração: situações-problema até 100",
+    "objetivo": "Resolver problemas de adição e subtração com números até 100.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ana tem 34 figurinhas. Ela ganhou mais 25. Quantas ela tem agora?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "34 + 25 = ?",
+      "opcoes": [
+        "49",
+        "59",
+        "69",
+        "58"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Resolve adição de dois números de dois algarismos sem reagrupamento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode escrever a conta no quadro para apoio visual.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "Soma as unidades primeiro: 4 + 5. Depois as dezenas: 3 + 2."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Adição de dois números de dois algarismos, sem reagrupamento.",
+      "gabarito": "59 — 34 + 25 = 59.",
+      "perguntas_orientadoras": [
+        "Quais são as dezenas de cada número?",
+        "Quais são as unidades?",
+        "Como a gente soma cada parte?"
+      ],
+      "tempo_estimado": "7 minutos",
+      "adaptacao_nivel": "Nível 2: adição de dois algarismos sem reagrupamento, contexto narrativo."
+    }
+  },
+  {
+    "id": "mat-2-u1-n3",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u1",
+    "unidade_titulo": "Adição e Subtração",
+    "habilidade_bncc_codigo": "EF02MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.01 — Adição e subtração: situações-problema até 100",
+    "objetivo": "Resolver problemas de adição e subtração com números até 100.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Lê o problema e resolve os dois passos.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Pedro tinha 45 bolinhas de gude. Ele perdeu 18 numa brincadeira, mas depois ganhou 27 de um amigo.",
+      "campos": [
+        {
+          "id": "passo1",
+          "label": "Qual é a conta do primeiro passo? Quanto sobrou depois de perder 18?",
+          "max": 100
+        },
+        {
+          "id": "passo2",
+          "label": "Qual é a conta do segundo passo? Quantas bolinhas Pedro tem no final?",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica e resolve os dois passos do problema em sequência.",
+      "Usa subtração e depois adição corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê o problema em partes, destacando cada ação.",
+      "resposta": "Escreve a conta de cada passo. Não precisa só do resultado — mostra como pensou.",
+      "engajamento": "Quantas bolinhas ele tinha? O que aconteceu primeiro? E depois?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Resolver problema de dois passos com subtração e adição até 100.",
+      "gabarito": "Passo 1: 45 − 18 = 27. Passo 2: 27 + 27 = 54.",
+      "perguntas_orientadoras": [
+        "Quantas operações temos que fazer?",
+        "Qual operação vem primeiro?",
+        "O resultado do primeiro passo é usado no segundo?"
+      ],
+      "tempo_estimado": "10 minutos",
+      "adaptacao_nivel": "Nível 3: problema de dois passos, exige planejamento sequencial."
+    }
+  },
+  {
+    "id": "mat-2-u2-n1",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u2",
+    "unidade_titulo": "Medidas e Tempo",
+    "habilidade_bncc_codigo": "EF02MA17",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02 — Medidas de comprimento, massa e tempo no cotidiano",
+    "objetivo": "Desenvolver habilidades de medidas e tempo.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Uma criança nasceu em janeiro. Em que mês ela vai completar 6 meses?",
+    "conteudo_base": {
+      "opcoes": [
+        "Março",
+        "Junho",
+        "Julho",
+        "Agosto"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Calcula intervalos de tempo com meses do calendário."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Conta os meses a partir de janeiro: fevereiro, março..."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar medidas e tempo de forma progressiva.",
+      "gabarito": "Julho — janeiro + 6 meses = julho.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "mat-2-u2-n2",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u2",
+    "unidade_titulo": "Medidas e Tempo",
+    "habilidade_bncc_codigo": "EF02MA17",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02 — Medidas de comprimento, massa e tempo no cotidiano",
+    "objetivo": "Desenvolver habilidades de medidas e tempo.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Coloca as unidades de medida de comprimento em ordem, da menor para a maior.",
+    "conteudo_base": {
+      "itens": [
+        "Milímetro (mm)",
+        "Centímetro (cm)",
+        "Metro (m)",
+        "Quilômetro (km)"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena unidades de medida de comprimento por grandeza."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa: o que é menor — a espessura de uma folha ou o comprimento de um campo de futebol?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar medidas e tempo de forma progressiva.",
+      "gabarito": "mm é menor que cm, que é menor que m, que é menor que km.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "mat-2-u2-n3",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u2",
+    "unidade_titulo": "Medidas e Tempo",
+    "habilidade_bncc_codigo": "EF02MA17",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02 — Medidas de comprimento, massa e tempo no cotidiano",
+    "objetivo": "Desenvolver habilidades de medidas e tempo.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Descreve como você usaria medidas no seu dia. Quando você usaria metros? E centímetros? E quilômetros?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "metros",
+          "label": "Quando eu usaria metros:",
+          "max": 120
+        },
+        {
+          "id": "cm",
+          "label": "Quando eu usaria centímetros:",
+          "max": 120
+        },
+        {
+          "id": "km",
+          "label": "Quando eu usaria quilômetros:",
+          "max": 120
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa unidades de medida a situações do cotidiano."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no tamanho de um quarto, de um lápis, de uma viagem..."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar medidas e tempo de forma progressiva.",
+      "gabarito": "Metros para alturas e cômodos, centímetros para objetos pequenos, km para distâncias.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

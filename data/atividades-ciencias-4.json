@@ -1,0 +1,283 @@
+[
+  {
+    "id": "cie-4-u1-n1",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u1",
+    "unidade_titulo": "Cadeias Alimentares",
+    "habilidade_bncc_codigo": "EF04CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.01 — Cadeias alimentares: produtores, consumidores e decompositores",
+    "objetivo": "Identificar os papéis de produtores, consumidores e decompositores numa cadeia alimentar.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Numa cadeia alimentar: grama → gafanhoto → sapo → cobra. O que é a grama?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Grama → Gafanhoto → Sapo → Cobra\n\nQual é o papel da grama nessa cadeia?",
+      "opcoes": [
+        "Consumidora — ela come outros seres",
+        "Produtora — ela fabrica seu próprio alimento",
+        "Decompositora — ela decompõe matéria morta",
+        "Predadora — ela caça outros animais"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica plantas como produtoras por realizarem fotossíntese."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor desenha a cadeia na lousa com setas indicando quem come quem.",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "A grama come alguma coisa? Ou ela produz seu próprio alimento usando o sol?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Compreender que plantas são produtoras porque realizam fotossíntese para obter energia.",
+      "gabarito": "Produtora — a grama usa luz solar, água e CO₂ para produzir seu próprio alimento (fotossíntese).",
+      "perguntas_orientadoras": [
+        "O que as plantas precisam para viver?",
+        "A grama precisa comer outro ser vivo?",
+        "De onde vem a energia que a grama usa para crescer?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: cadeia explícita dada, uma seta, papel inequívoco da planta."
+    }
+  },
+  {
+    "id": "cie-4-u1-n2",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u1",
+    "unidade_titulo": "Cadeias Alimentares",
+    "habilidade_bncc_codigo": "EF04CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.01 — Cadeias alimentares: produtores, consumidores e decompositores",
+    "objetivo": "Identificar os papéis de produtores, consumidores e decompositores numa cadeia alimentar.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 8,
+    "enunciado": "Coloca os seres vivos na ordem certa da cadeia alimentar, do produtor ao consumidor final.",
+    "conteudo_base": {
+      "tipo": "ordenacao",
+      "itens": [
+        "Alga (produtora)",
+        "Camarão (consumidor primário)",
+        "Peixe pequeno (consumidor secundário)",
+        "Tubarão (consumidor terciário)"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena os elos de uma cadeia alimentar aquática do produtor ao predador de topo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar: o camarão come a alga ou o tubarão? Isso ajuda a montar a ordem.",
+      "resposta": "Arrasta ou use os botões para colocar na ordem certa.",
+      "engajamento": "Quem come quem? Comece pelo que não come ninguém — só produz."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Ordenar os níveis tróficos de uma cadeia alimentar aquática simples.",
+      "gabarito": "Alga → Camarão → Peixe pequeno → Tubarão.",
+      "perguntas_orientadoras": [
+        "O que a alga precisa para viver?",
+        "Quem depende de quem para se alimentar?",
+        "O que aconteceria se os camarões desaparecessem?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: cadeia aquática com quatro elos, papéis indicados nos rótulos para apoio."
+    }
+  },
+  {
+    "id": "cie-4-u1-n3",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u1",
+    "unidade_titulo": "Cadeias Alimentares",
+    "habilidade_bncc_codigo": "EF04CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.01 — Cadeias alimentares: produtores, consumidores e decompositores",
+    "objetivo": "Identificar os papéis de produtores, consumidores e decompositores numa cadeia alimentar.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Cria e explica uma cadeia alimentar com pelo menos 4 seres vivos.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Uma cadeia alimentar mostra quem come quem. Sempre começa num produtor (planta ou alga) e termina num consumidor de topo.",
+      "campos": [
+        {
+          "id": "cadeia",
+          "label": "Escreve sua cadeia alimentar usando setas. Ex: Capim → Vaca → Leão",
+          "max": 150
+        },
+        {
+          "id": "papeis",
+          "label": "Explica o papel de cada ser vivo da sua cadeia (produtor, consumidor primário, etc.).",
+          "max": 300
+        },
+        {
+          "id": "impacto",
+          "label": "O que aconteceria com a cadeia se um dos seres vivos sumisse?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cria uma cadeia com produtor e pelo menos dois consumidores.",
+      "Atribui corretamente o papel de cada elo.",
+      "Prevê um impacto plausível ao remover um elo da cadeia."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar animais e plantas conhecidos antes para o aluno escolher.",
+      "resposta": "Três campos. Escreve com suas palavras e use setas para a cadeia.",
+      "engajamento": "Pensa num animal que você conhece. O que ele come? E o que come esse que ele come?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Construir e analisar uma cadeia alimentar, prevendo consequências de desequilíbrio.",
+      "gabarito": "Resposta variável — verificar se começa com produtor, se os papéis estão corretos e se o impacto é biologicamente plausível.",
+      "perguntas_orientadoras": [
+        "Sua cadeia começa com um produtor?",
+        "Cada ser come o anterior?",
+        "O que acontece com a energia ao longo da cadeia?"
+      ],
+      "tempo_estimado": "12 minutos",
+      "adaptacao_nivel": "Nível 3: construção autônoma, análise de impacto, três dimensões de resposta."
+    }
+  },
+  {
+    "id": "cie-4-u2-n1",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u2",
+    "unidade_titulo": "Sistema Digestório",
+    "habilidade_bncc_codigo": "EF04CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.02 — Órgãos do sistema digestório e alimentação saudável",
+    "objetivo": "Desenvolver habilidades de sistema digestório.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual órgão produz o suco gástrico que ajuda a digerir os alimentos no estômago?",
+    "conteudo_base": {
+      "opcoes": [
+        "Intestino delgado",
+        "Pâncreas",
+        "O próprio estômago",
+        "Fígado"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Associa função digestiva ao órgão correto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "O órgão que produz o ácido para quebrar os alimentos é o mesmo onde eles ficam depois de engolir."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar sistema digestório de forma progressiva.",
+      "gabarito": "O estômago produz suco gástrico para digestão.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "cie-4-u2-n2",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u2",
+    "unidade_titulo": "Sistema Digestório",
+    "habilidade_bncc_codigo": "EF04CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.02 — Órgãos do sistema digestório e alimentação saudável",
+    "objetivo": "Desenvolver habilidades de sistema digestório.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Coloca os órgãos do sistema digestório na ordem em que o alimento passa por eles.",
+    "conteudo_base": {
+      "itens": [
+        "Boca",
+        "Esôfago",
+        "Estômago",
+        "Intestino delgado",
+        "Intestino grosso"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena os órgãos do sistema digestório pela rota do alimento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "O caminho começa quando você mastiga. O que vem depois?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar sistema digestório de forma progressiva.",
+      "gabarito": "Boca → Esôfago → Estômago → Intestino delgado → Intestino grosso.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "cie-4-u2-n3",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u2",
+    "unidade_titulo": "Sistema Digestório",
+    "habilidade_bncc_codigo": "EF04CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.02 — Órgãos do sistema digestório e alimentação saudável",
+    "objetivo": "Desenvolver habilidades de sistema digestório.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Descreve o que acontece com um pedaço de pão desde que você come até os nutrientes chegarem ao sangue.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "descricao",
+          "label": "Minha descrição do caminho do pão:",
+          "max": 350
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve o processo digestivo com termos corretos e sequência lógica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Começa na mastigação. Passa pela garganta, estômago... onde os nutrientes entram no sangue?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar sistema digestório de forma progressiva.",
+      "gabarito": "Mastigação (boca) → deglutição (esôfago) → digestão química (estômago) → absorção (intestino delgado).",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

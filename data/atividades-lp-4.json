@@ -1,0 +1,318 @@
+[
+  {
+    "id": "lp-4-u1-n1",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u1",
+    "unidade_titulo": "Tipos de Texto e Finalidade",
+    "habilidade_bncc_codigo": "EF04LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.01 — Identificação de finalidade e características de diferentes tipos de texto",
+    "objetivo": "Identificar a finalidade de diferentes tipos de texto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Lê o trecho e marca para que serve esse tipo de texto.",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "\"Misture a farinha, os ovos e o leite numa tigela. Leve ao forno por 30 minutos.\"\n\nPara que serve esse texto?",
+      "opcoes": [
+        "Contar uma história",
+        "Ensinar como fazer algo",
+        "Dar uma opinião",
+        "Informar uma notícia"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece o texto instrucional pela estrutura sequencial e verbos no imperativo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê o trecho em voz alta e pergunta: 'O que estamos sendo instruídos a fazer?'",
+      "resposta": "Clica na resposta certa. Só tem uma.",
+      "engajamento": "Esse texto manda a gente fazer alguma coisa? Como você percebeu isso?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer o texto instrucional e sua função social: orientar a execução de uma tarefa.",
+      "gabarito": "Ensinar como fazer algo — estrutura de receita com verbos no imperativo e sequência de passos.",
+      "perguntas_orientadoras": [
+        "Que palavras indicam que alguém está dando ordens ou instruções?",
+        "Você consegue seguir esse texto sem ler tudo de uma vez?",
+        "Que outros textos têm essa mesma estrutura?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: trecho curto, finalidade inequívoca, opções claramente distintas."
+    }
+  },
+  {
+    "id": "lp-4-u1-n2",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u1",
+    "unidade_titulo": "Tipos de Texto e Finalidade",
+    "habilidade_bncc_codigo": "EF04LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.01 — Identificação de finalidade e características de diferentes tipos de texto",
+    "objetivo": "Identificar a finalidade de diferentes tipos de texto.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Coloca cada trecho no tipo de texto certo.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Era uma vez uma princesa que vivia num castelo encantado.",
+          "categoria": "Narrativo"
+        },
+        {
+          "label": "Para fazer o bolo, bata os ovos com o açúcar.",
+          "categoria": "Instrucional"
+        },
+        {
+          "label": "A poluição dos rios prejudica peixes e plantas aquáticas.",
+          "categoria": "Informativo"
+        },
+        {
+          "label": "Achei o filme ótimo porque a história é emocionante.",
+          "categoria": "Opinativo"
+        },
+        {
+          "label": "Adicione sal e mexa por dois minutos.",
+          "categoria": "Instrucional"
+        },
+        {
+          "label": "O boto-cor-de-rosa é um mamífero que vive na Amazônia.",
+          "categoria": "Informativo"
+        }
+      ],
+      "categorias": [
+        "Narrativo",
+        "Instrucional",
+        "Informativo",
+        "Opinativo"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica trechos textuais pelo tipo predominante com base em características estruturais e de finalidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor explica brevemente cada tipo antes da atividade, com um exemplo oral de cada.",
+      "resposta": "Arrasta cada trecho para o tipo certo. Ou clica no trecho e depois no tipo.",
+      "engajamento": "Pergunta: esse texto conta, ensina, informa ou opina?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Distinguir quatro tipos textuais básicos com base em marcadores linguísticos e finalidade.",
+      "gabarito": "Narrativo: 'Era uma vez...'. Instrucional: os dois trechos com verbos no imperativo. Informativo: os dois com dados objetivos. Opinativo: 'Achei o filme ótimo...'.",
+      "perguntas_orientadoras": [
+        "Tem personagens? É narrativo.",
+        "Tem verbo mandando fazer algo? É instrucional.",
+        "Dá uma informação verificável? É informativo.",
+        "Expressa o que alguém acha? É opinativo."
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: seis trechos, quatro categorias, dois instrutivos e dois informativos para exigir discriminação fina."
+    }
+  },
+  {
+    "id": "lp-4-u1-n3",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u1",
+    "unidade_titulo": "Tipos de Texto e Finalidade",
+    "habilidade_bncc_codigo": "EF04LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.01 — Identificação de finalidade e características de diferentes tipos de texto",
+    "objetivo": "Identificar a finalidade de diferentes tipos de texto.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Escreve um trecho de dois tipos de texto diferentes sobre o mesmo assunto.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Assunto: cachorro como animal de estimação.",
+      "campos": [
+        {
+          "id": "informativo",
+          "label": "Escreve 2 frases informativas sobre cachorros (fatos que você pode comprovar).",
+          "max": 200
+        },
+        {
+          "id": "opinativo",
+          "label": "Escreve 2 frases opinativas sobre ter cachorro (o que você acha, sente ou prefere).",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Produz enunciados factuais verificáveis no campo informativo.",
+      "Produz enunciados que expressam ponto de vista pessoal no campo opinativo.",
+      "Usa marcadores linguísticos adequados a cada tipo (ex: 'O cachorro é...' vs 'Eu acho que...')."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor exemplifica um par informativo/opinativo sobre outro assunto antes da atividade.",
+      "resposta": "Dois campos separados. Escreve as frases no campo correto.",
+      "engajamento": "O que é um fato sobre cachorro? O que é só a sua opinião?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Produzir intencionalmente enunciados de tipos textuais distintos sobre o mesmo tema.",
+      "gabarito": "Informativo: frases com dados verificáveis (ex: 'Cachorros são mamíferos'). Opinativo: frases com 'eu acho', 'eu prefiro', 'na minha opinião'.",
+      "perguntas_orientadoras": [
+        "Alguém poderia discordar da sua frase informativa?",
+        "Sua frase opinativa mudaria se fosse outra pessoa escrevendo?",
+        "Como você poderia provar sua frase informativa?"
+      ],
+      "tempo_estimado": "12 minutos",
+      "adaptacao_nivel": "Nível 3: produção ativa de dois tipos textuais distintos sobre o mesmo tema, exige consciência metalinguística."
+    }
+  },
+  {
+    "id": "lp-4-u2-n1",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u2",
+    "unidade_titulo": "Ortografia e Gramática",
+    "habilidade_bncc_codigo": "EF04LP05",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.02 — Normas ortográficas e classes de palavras",
+    "objetivo": "Desenvolver habilidades de ortografia e gramática.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual palavra é um VERBO na frase: \"A menina comprou um livro bonito na livraria.\"?",
+    "conteudo_base": {
+      "opcoes": [
+        "menina",
+        "bonito",
+        "comprou",
+        "livraria"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica verbo em frase do cotidiano."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Verbos indicam ação, estado ou fenômeno. Qual palavra indica o que a menina fez?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar ortografia e gramática de forma progressiva.",
+      "gabarito": "comprou — indica a ação realizada pela personagem.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "lp-4-u2-n2",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u2",
+    "unidade_titulo": "Ortografia e Gramática",
+    "habilidade_bncc_codigo": "EF04LP05",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.02 — Normas ortográficas e classes de palavras",
+    "objetivo": "Desenvolver habilidades de ortografia e gramática.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Classifica cada palavra na classe gramatical correta.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "g1",
+          "label": "correr",
+          "categoria": "Verbo"
+        },
+        {
+          "id": "g2",
+          "label": "beleza",
+          "categoria": "Substantivo"
+        },
+        {
+          "id": "g3",
+          "label": "alto",
+          "categoria": "Adjetivo"
+        },
+        {
+          "id": "g4",
+          "label": "ontem",
+          "categoria": "Advérbio"
+        }
+      ],
+      "categorias": [
+        "Substantivo",
+        "Verbo",
+        "Adjetivo",
+        "Advérbio"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica quatro classes gramaticais com precisão."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Verbos indicam ação, substantivos nomeiam, adjetivos caracterizam, advérbios modificam."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar ortografia e gramática de forma progressiva.",
+      "gabarito": "correr=Verbo, beleza=Substantivo, alto=Adjetivo, ontem=Advérbio.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "lp-4-u2-n3",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u2",
+    "unidade_titulo": "Ortografia e Gramática",
+    "habilidade_bncc_codigo": "EF04LP05",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.02 — Normas ortográficas e classes de palavras",
+    "objetivo": "Desenvolver habilidades de ortografia e gramática.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Reescreve o parágrafo corrigindo TODOS os erros de ortografia e gramática encontrados.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "original",
+          "label": "Parágrafo original (copie e leia): \"ontem eu fui no mersado comprei muito coisa gostosa para minha familia\"",
+          "max": 10
+        },
+        {
+          "id": "corrigido",
+          "label": "Meu parágrafo corrigido:",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Corrige ortografia, pontuação e concordância nominal."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Atenção: maiúscula no início, pontuação, \"ao\" vs \"no\", concordância nominal."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar ortografia e gramática de forma progressiva.",
+      "gabarito": "Ontem eu fui ao mercado e comprei muitas coisas gostosas para minha família.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

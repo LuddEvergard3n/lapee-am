@@ -1,0 +1,307 @@
+[
+  {
+    "id": "lp-1-u1-n1",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u1",
+    "unidade_titulo": "Letras e Sons",
+    "habilidade_bncc_codigo": "EF01LP03",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.01 — Reconhecimento de letras e correspondência grafema-fonema",
+    "objetivo": "Reconhecer e relacionar letras ao seu som.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Olha as figuras. Marca a figura que começa com a letra A.",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Qual começa com A?",
+      "opcoes": [
+        "Abelha",
+        "Bola",
+        "Casa",
+        "Dado"
+      ],
+      "resposta_correta": 0
+    },
+    "criterios_sucesso": [
+      "Identifica a letra A no início de uma palavra."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê as opções em voz alta. Usa o botão Ouvir para ajudar.",
+      "resposta": "Clica na resposta. Só tem uma certa.",
+      "engajamento": "Pensa no som da letra A. Como ela faz? Aaa... Qual palavra começa assim?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Relacionar grafema (A) ao fonema inicial de palavras conhecidas.",
+      "gabarito": "Abelha — começa com o som /a/.",
+      "perguntas_orientadoras": [
+        "Como faz o som da letra A?",
+        "Qual dessas palavras começa com esse som?",
+        "Vamos falar as quatro palavras juntos?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: apenas uma opção correta, palavras simples e conhecidas pelas crianças."
+    }
+  },
+  {
+    "id": "lp-1-u1-n2",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u1",
+    "unidade_titulo": "Letras e Sons",
+    "habilidade_bncc_codigo": "EF01LP03",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.01 — Reconhecimento de letras e correspondência grafema-fonema",
+    "objetivo": "Identificar palavras que começam com a mesma letra.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Arrasta cada palavra para o grupo certo: começa com A ou começa com B.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Anel",
+          "categoria": "A"
+        },
+        {
+          "label": "Bolo",
+          "categoria": "B"
+        },
+        {
+          "label": "Avião",
+          "categoria": "A"
+        },
+        {
+          "label": "Bexiga",
+          "categoria": "B"
+        },
+        {
+          "label": "Água",
+          "categoria": "A"
+        },
+        {
+          "label": "Borboleta",
+          "categoria": "B"
+        }
+      ],
+      "categorias": [
+        "A",
+        "B"
+      ]
+    },
+    "criterios_sucesso": [
+      "Separa corretamente palavras iniciadas por A e por B.",
+      "Reconhece o som inicial das palavras."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê cada palavra antes da criança arrastar. Usa o botão Ouvir.",
+      "resposta": "Arrasta a palavra para o grupo. Pode também clicar na palavra e depois no grupo.",
+      "engajamento": "Fala a palavra em voz alta antes de arrastar. O primeiro som te dá a dica!"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Classificar palavras pelo fonema inicial, reforçando a consciência fonológica.",
+      "gabarito": "A: Anel, Avião, Água. B: Bolo, Bexiga, Borboleta.",
+      "perguntas_orientadoras": [
+        "Vamos falar a palavra bem devagar. Qual é o primeiro som?",
+        "Esse som é de A ou de B?",
+        "Você conhece outras palavras que começam assim?"
+      ],
+      "tempo_estimado": "7 minutos",
+      "adaptacao_nivel": "Nível 2: duas categorias, seis palavras, som inicial bem diferenciado."
+    }
+  },
+  {
+    "id": "lp-1-u1-n3",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u1",
+    "unidade_titulo": "Letras e Sons",
+    "habilidade_bncc_codigo": "EF01LP03",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.01 — Reconhecimento de letras e correspondência grafema-fonema",
+    "objetivo": "Escrever palavras simples identificando as letras do seu nome.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Pensa numa coisa que você gosta. Escreve o nome dessa coisa. Depois conta: quantas letras tem?",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Escreve o nome de uma coisa que você gosta.",
+      "campos": [
+        {
+          "id": "palavra",
+          "label": "O nome da coisa:",
+          "max": 30
+        },
+        {
+          "id": "contagem",
+          "label": "Quantas letras tem?",
+          "max": 3
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escreve pelo menos uma palavra com grafias reconhecíveis.",
+      "Tenta contar as letras da palavra escrita."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sugerir palavras caso a criança não consiga pensar. Ex.: bola, gato, casa.",
+      "resposta": "Escreve no campo de texto. Pode usar letras maiúsculas.",
+      "engajamento": "Pensa numa coisa que você gosta muito. Como se escreve o nome dela? Tenta!"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Mobilizar conhecimentos sobre o sistema alfabético na produção escrita inicial.",
+      "gabarito": "Produção pessoal. Avalie se a criança usa letras com correspondência ao som, mesmo que parcial.",
+      "perguntas_orientadoras": [
+        "Que coisa você escolheu?",
+        "Como começa o nome dessa coisa?",
+        "Vamos falar devagar: que letras você ouve?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3 (desafio): produção escrita autônoma com metacognição sobre a contagem de letras."
+    }
+  },
+  {
+    "id": "lp-1-u2-n1",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u2",
+    "unidade_titulo": "Palavras e Frases",
+    "habilidade_bncc_codigo": "EF01LP08",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Leitura de palavras simples e formação de frases",
+    "objetivo": "Desenvolver habilidades de palavras e frases.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dessas sequências forma uma palavra?",
+    "conteudo_base": {
+      "opcoes": [
+        "C-A-S-A",
+        "A-S-C-A",
+        "S-C-A-S",
+        "C-S-A-A"
+      ],
+      "resposta_correta": 0
+    },
+    "criterios_sucesso": [
+      "Reconhece sequências de letras que formam palavras reais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Tenta falar cada uma em voz alta. Qual você reconhece?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar palavras e frases de forma progressiva.",
+      "gabarito": "C-A-S-A forma a palavra CASA.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "lp-1-u2-n2",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u2",
+    "unidade_titulo": "Palavras e Frases",
+    "habilidade_bncc_codigo": "EF01LP08",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Leitura de palavras simples e formação de frases",
+    "objetivo": "Desenvolver habilidades de palavras e frases.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Coloca as palavras em ordem para formar uma frase que faz sentido.",
+    "conteudo_base": {
+      "itens": [
+        "O",
+        "menino",
+        "brinca",
+        "no",
+        "parque"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena palavras para formar frase com sujeito e predicado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Toda frase começa com letra maiúscula. Qual palavra está assim?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar palavras e frases de forma progressiva.",
+      "gabarito": "O menino brinca no parque.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "lp-1-u2-n3",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u2",
+    "unidade_titulo": "Palavras e Frases",
+    "habilidade_bncc_codigo": "EF01LP08",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Leitura de palavras simples e formação de frases",
+    "objetivo": "Desenvolver habilidades de palavras e frases.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Escreve três frases sobre o que você fez hoje, usando pelo menos uma cor e um animal.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "f1",
+          "label": "Frase 1:",
+          "max": 100
+        },
+        {
+          "id": "f2",
+          "label": "Frase 2:",
+          "max": 100
+        },
+        {
+          "id": "f3",
+          "label": "Frase 3:",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Produz três frases com sentido.",
+      "Inclui cor e animal nas frases."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no seu dia: acordar, almoçar, brincar... Qual animal você viu ou imaginou?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar palavras e frases de forma progressiva.",
+      "gabarito": "Três frases com sentido, usando cor e animal como solicitado.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

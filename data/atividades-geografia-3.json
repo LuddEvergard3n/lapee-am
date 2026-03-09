@@ -1,0 +1,294 @@
+[
+  {
+    "id": "geo-001-n1",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-001",
+    "unidade_titulo": "Orientação e Elementos do Mapa",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
+    "objetivo": "Identificar os pontos cardeais e usá-los para indicar direções simples.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 4,
+    "enunciado": "Observe a rosa dos ventos. Marque a opção que completa corretamente a frase: 'Se estou de frente para o Norte, o Sul está ___.'",
+    "conteudo_base": {
+      "opcoes": [
+        "À minha esquerda",
+        "Atrás de mim",
+        "À minha direita",
+        "Na minha frente também"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Compreende que Norte e Sul são opostos",
+      "Aplica orientação relativa ao corpo"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Rosa dos ventos ilustrada exibida acima do enunciado; áudio disponível.",
+      "resposta": "Seleção por clique.",
+      "engajamento": "Dica: destaca na rosa dos ventos a posição de Norte e Sul com setas opostas."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B: Atrás de mim.",
+      "objetivo_pedagogico": "Construir a noção de orientação relativa com base nos pontos cardeais.",
+      "perguntas_orientadoras": [
+        "Se o Norte está na sua frente, para onde você precisa virar para ver o Sul?",
+        "Quais pontos cardeais ficam opostos entre si?"
+      ],
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): rosa dos ventos como suporte visual, questão de orientação relativa simples."
+    }
+  },
+  {
+    "id": "geo-001-n2",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-001",
+    "unidade_titulo": "Orientação e Elementos do Mapa",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
+    "objetivo": "Interpretar elementos de um mapa simples: título, legenda e rosa dos ventos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 6,
+    "enunciado": "Arraste cada elemento do mapa para o seu nome correto.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Quadro com cores e seus significados",
+          "nome": "Legenda"
+        },
+        {
+          "elemento": "Figura com setas indicando N, S, L, O",
+          "nome": "Rosa dos ventos"
+        },
+        {
+          "elemento": "Frase que diz do que trata o mapa",
+          "nome": "Título"
+        },
+        {
+          "elemento": "Barra que mostra quanto representa a distância no mapa",
+          "nome": "Escala"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa cada descrição ao nome correto do elemento cartográfico",
+      "Reconhece a função de cada elemento"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Cada elemento descrito em linguagem simples; ícone esquemático ao lado da descrição; áudio.",
+      "resposta": "Arrastar descrição para o nome; alternativa de seleção sequencial.",
+      "engajamento": "Dica: exibe a função de cada elemento ao solicitar ajuda, sem revelar o par."
+    },
+    "modo_professor": {
+      "gabarito": "Cores/significados → Legenda; N/S/L/O → Rosa dos ventos; frase do tema → Título; distância real → Escala.",
+      "objetivo_pedagogico": "Reconhecer e nomear os elementos formais de representação cartográfica.",
+      "perguntas_orientadoras": [
+        "Para que serve a legenda? E se um mapa não tiver legenda?",
+        "O que acontece se um mapa não tiver título?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): 4 pares, descrições funcionais, sem referência visual de mapa real."
+    }
+  },
+  {
+    "id": "geo-001-n3",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-001",
+    "unidade_titulo": "Orientação e Elementos do Mapa",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
+    "objetivo": "Descrever a localização de um lugar usando pontos cardeais e elementos do mapa.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Imagine um mapa simples da sua escola. Descreva onde fica a biblioteca em relação à entrada principal, usando pelo menos dois pontos cardeais. Explique também qual elemento do mapa você usaria para mostrar onde é cada sala.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "label": "Localização da biblioteca (use pontos cardeais):",
+          "id": "localizacao",
+          "max": 150
+        },
+        {
+          "label": "Elemento do mapa que usaria e por quê:",
+          "id": "elemento",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa dois ou mais pontos cardeais de forma coerente",
+      "Nomeia e justifica o elemento cartográfico adequado (ex.: legenda)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Rosa dos ventos de referência disponível; glossário de elementos do mapa; áudio do enunciado.",
+      "resposta": "Dois campos de escrita; alternativa oral.",
+      "engajamento": "Dica: sugere que o aluno pense no caminho que faz da entrada até a biblioteca e em qual direção vai."
+    },
+    "modo_professor": {
+      "gabarito": "Localização aceita qualquer resposta coerente com uso de 2+ pontos cardeais (ex.: 'A biblioteca fica ao Norte da entrada e a Leste do pátio'). Elemento: legenda, justificada pela necessidade de representar cada tipo de sala com uma cor ou símbolo diferente.",
+      "objetivo_pedagogico": "Aplicar orientação e vocabulário cartográfico na descrição de espaço conhecido.",
+      "perguntas_orientadoras": [
+        "Se a entrada fica ao Sul, para onde você vai quando entra na escola?",
+        "Como uma pessoa que nunca foi à escola saberia onde fica a biblioteca olhando para o mapa?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): aplicação em espaço vivido, exige articulação de conceitos."
+    }
+  },
+  {
+    "id": "geo-3-u2-n1",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u2",
+    "unidade_titulo": "Campo e Cidade",
+    "habilidade_bncc_codigo": "EF03GE03",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.02 — Vida no campo e na cidade: semelhanças e diferenças",
+    "objetivo": "Desenvolver habilidades de campo e cidade.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é uma característica típica da vida no campo (zona rural)?",
+    "conteudo_base": {
+      "opcoes": [
+        "Muitos prédios altos",
+        "Trânsito intenso de carros",
+        "Produção de alimentos e contato com a natureza",
+        "Grande quantidade de shoppings"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica características do espaço rural."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa no que você veria olhando pela janela se estivesse numa fazenda."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar campo e cidade de forma progressiva.",
+      "gabarito": "Produção de alimentos e contato com a natureza são traços da vida rural.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "geo-3-u2-n2",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u2",
+    "unidade_titulo": "Campo e Cidade",
+    "habilidade_bncc_codigo": "EF03GE03",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.02 — Vida no campo e na cidade: semelhanças e diferenças",
+    "objetivo": "Desenvolver habilidades de campo e cidade.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 5,
+    "enunciado": "Classifica cada característica como típica do Campo ou da Cidade.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "cc1",
+          "label": "Plantações e criação de animais",
+          "categoria": "Campo"
+        },
+        {
+          "id": "cc2",
+          "label": "Metrô e ônibus urbano",
+          "categoria": "Cidade"
+        },
+        {
+          "id": "cc3",
+          "label": "Silêncio e ar puro",
+          "categoria": "Campo"
+        },
+        {
+          "id": "cc4",
+          "label": "Hospitais especializados",
+          "categoria": "Cidade"
+        }
+      ],
+      "categorias": [
+        "Campo",
+        "Cidade"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue características dos espaços rural e urbano."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Campo: natureza, produção. Cidade: serviços, tecnologia, aglomeração."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar campo e cidade de forma progressiva.",
+      "gabarito": "Campo: plantações e silêncio. Cidade: transporte urbano e hospitais.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "geo-3-u2-n3",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u2",
+    "unidade_titulo": "Campo e Cidade",
+    "habilidade_bncc_codigo": "EF03GE03",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.02 — Vida no campo e na cidade: semelhanças e diferenças",
+    "objetivo": "Desenvolver habilidades de campo e cidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Imagina que você mora no campo e vai visitar uma grande cidade (ou o contrário). O que você veria de diferente? O que seria difícil de se adaptar?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "diferente",
+          "label": "O que seria diferente:",
+          "max": 200
+        },
+        {
+          "id": "dificil",
+          "label": "O que seria difícil de se adaptar:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Compara espaços rural e urbano por múltiplos aspectos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa em: ritmo de vida, barulho, natureza, serviços, distâncias..."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar campo e cidade de forma progressiva.",
+      "gabarito": "Comparação com aspectos concretos das diferenças campo-cidade.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]

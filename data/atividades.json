@@ -1,0 +1,758 @@
+[
+  {
+    "id": "lp-001-n1",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-001",
+    "unidade_titulo": "Ideia Principal e Evidências",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
+    "objetivo": "Identificar a ideia principal de um texto informativo com suporte visual.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Leia o texto abaixo. Depois, marque a frase que melhor representa a ideia principal.",
+    "conteudo_base": {
+      "texto": "A água é fundamental para a vida. Todos os seres vivos precisam dela para sobreviver. Plantas absorvem água pelo solo. Animais bebem água de rios, lagos e chuva. Os seres humanos também precisam beber água todos os dias para manter o corpo funcionando bem.",
+      "opcoes": [
+        "A água cai do céu como chuva.",
+        "Todos os seres vivos precisam de água para viver.",
+        "As plantas crescem no solo.",
+        "Os rios têm muita água."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a frase que abrange o assunto principal do texto",
+      "Distingue ideia principal de detalhe secundário"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Texto com no máximo 5 linhas; botão de áudio disponível; opção de fonte maior.",
+      "resposta": "Seleção por clique em opção de múltipla escolha; sem digitação.",
+      "engajamento": "Dica disponível: destaca no texto a frase mais ampla para guiar a escolha."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B: 'Todos os seres vivos precisam de água para viver.'",
+      "objetivo_pedagogico": "Desenvolver a habilidade de distinguir ideia central de informações secundárias em textos curtos.",
+      "perguntas_orientadoras": [
+        "O texto fala sobre um único ser vivo ou sobre todos?",
+        "Qual das frases poderia ser o título do texto?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): texto curto, 4 opções com distratores simples, dica ativa por padrão."
+    }
+  },
+  {
+    "id": "lp-001-n2",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-001",
+    "unidade_titulo": "Ideia Principal e Evidências",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
+    "objetivo": "Identificar a ideia principal e uma evidência que a sustenta em texto informativo.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 6,
+    "enunciado": "Leia o texto. Depois, organize as frases na ordem: primeiro a ideia principal, depois as evidências que a comprovam.",
+    "conteudo_base": {
+      "texto": "A Floresta Amazônica é uma das regiões mais biodiversas do planeta. Ela abriga mais de 10% de todas as espécies de plantas e animais conhecidos. Pesquisadores estimam que há mais de 390 bilhões de árvores só na Amazônia. Além disso, milhares de espécies de insetos e pássaros ainda não foram classificados pela ciência.",
+      "itens": [
+        "A Floresta Amazônica é uma das regiões mais biodiversas do planeta.",
+        "Mais de 10% de todas as espécies conhecidas vivem lá.",
+        "Há mais de 390 bilhões de árvores na Amazônia.",
+        "Milhares de espécies ainda não foram classificadas."
+      ],
+      "ordem_correta": [0, 1, 2, 3]
+    },
+    "criterios_sucesso": [
+      "Posiciona a ideia principal como primeira frase",
+      "Reconhece as demais frases como evidências ou detalhes"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Texto com marcação de palavras-chave; botão de áudio; contraste ajustável.",
+      "resposta": "Arrastar e soltar para ordenar; alternativa de botões de reordenação por teclado.",
+      "engajamento": "Dica: realça visualmente a frase mais ampla do texto ao solicitar ajuda."
+    },
+    "modo_professor": {
+      "gabarito": "Ordem: frase 1 (ideia principal), frases 2, 3, 4 (evidências).",
+      "objetivo_pedagogico": "Compreender a relação hierárquica entre ideia central e informações de suporte.",
+      "perguntas_orientadoras": [
+        "Qual frase, se retirada, tornaria as demais sem sentido?",
+        "Qual frase mais ampla resume o assunto das outras?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): texto com mais informações, tarefa de organização exige raciocínio relacional."
+    }
+  },
+  {
+    "id": "lp-001-n3",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-001",
+    "unidade_titulo": "Ideia Principal e Evidências",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
+    "objetivo": "Formular a ideia principal de um texto com as próprias palavras e justificá-la com evidências.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Leia o texto abaixo. Escreva, com suas próprias palavras, qual é a ideia principal. Depois, escreva uma frase do texto que funcione como evidência para essa ideia.",
+    "conteudo_base": {
+      "texto": "O solo é um recurso natural vital, mas frequentemente subestimado. Ele leva centenas de anos para se formar, mas pode ser destruído em poucos anos por práticas agrícolas inadequadas. O solo saudável contém organismos vivos — bactérias, fungos, minhocas — que transformam matéria orgânica em nutrientes para as plantas. Sem solo de qualidade, a produção de alimentos se torna inviável em larga escala.",
+      "campos": [
+        { "label": "Ideia principal (com suas palavras):", "id": "ideia_principal", "max": 150 },
+        { "label": "Evidência do texto (copie ou parafraseie):", "id": "evidencia", "max": 150 }
+      ]
+    },
+    "criterios_sucesso": [
+      "Reformula a ideia central sem copiar literalmente",
+      "Identifica frase do texto que comprova a ideia indicada",
+      "Mantém coerência entre ideia e evidência escolhida"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Texto disponível para consulta durante a escrita; áudio; fonte ajustável.",
+      "resposta": "Escrita livre em campo de texto; alternativa oral disponível via gravação local.",
+      "engajamento": "Dica: sugere que o aluno releia o primeiro e o último parágrafo antes de responder."
+    },
+    "modo_professor": {
+      "gabarito": "Ideia central esperada: o solo é um recurso natural importante e frágil. Evidências válidas: qualquer frase que mencione tempo de formação, organismos ou consequências da degradação.",
+      "objetivo_pedagogico": "Desenvolver escrita argumentativa básica com apoio textual explícito.",
+      "perguntas_orientadoras": [
+        "O que o texto quer nos ensinar sobre o solo?",
+        "Qual parte do texto prova essa ideia?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): produção escrita livre, exige paráfrase e seleção crítica de evidência."
+    }
+  },
+  {
+    "id": "mat-001-n1",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-001",
+    "unidade_titulo": "Sistema Decimal e Agrupamento",
+    "habilidade_bncc_codigo": "EF03MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
+    "objetivo": "Identificar a composição de números de três algarismos em centenas, dezenas e unidades.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 4,
+    "enunciado": "Observe o número 347. Marque a opção que mostra sua composição correta.",
+    "conteudo_base": {
+      "numero": 347,
+      "opcoes": [
+        "3 centenas, 7 dezenas e 4 unidades",
+        "3 centenas, 4 dezenas e 7 unidades",
+        "4 centenas, 3 dezenas e 7 unidades",
+        "7 centenas, 4 dezenas e 3 unidades"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o valor posicional de cada algarismo",
+      "Associa algarismo à sua posição (centena, dezena, unidade)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Número exibido em tamanho grande; cada dígito colorido por posição; áudio explica enunciado.",
+      "resposta": "Seleção por clique; sem digitação.",
+      "engajamento": "Dica: exibe o número com cada dígito numa caixinha colorida (C/D/U) para apoiar a leitura posicional."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B: 3 centenas, 4 dezenas e 7 unidades.",
+      "objetivo_pedagogico": "Consolidar a leitura posicional de números no sistema decimal.",
+      "perguntas_orientadoras": [
+        "Qual dígito está na posição das centenas?",
+        "Se eu trocar o 4 pelo 7, o número aumenta ou diminui?"
+      ],
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): número dado, 4 opções com distratores de transposição de dígitos."
+    }
+  },
+  {
+    "id": "mat-001-n2",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-001",
+    "unidade_titulo": "Sistema Decimal e Agrupamento",
+    "habilidade_bncc_codigo": "EF03MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
+    "objetivo": "Compor e decompor números de três algarismos identificando reagrupamentos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 6,
+    "enunciado": "Arraste cada grupo de blocos para a coluna correta (Centenas, Dezenas ou Unidades) para formar o número 253.",
+    "conteudo_base": {
+      "numero": 253,
+      "blocos": [
+        { "id": "b1", "valor": 200, "label": "2 blocos de 100", "posicao": "centenas" },
+        { "id": "b2", "valor": 50,  "label": "5 blocos de 10",  "posicao": "dezenas" },
+        { "id": "b3", "valor": 3,   "label": "3 blocos de 1",   "posicao": "unidades" },
+        { "id": "b4", "valor": 20,  "label": "2 blocos de 10",  "posicao": "distrator" },
+        { "id": "b5", "valor": 500, "label": "5 blocos de 100", "posicao": "distrator" }
+      ],
+      "colunas": ["centenas", "dezenas", "unidades"]
+    },
+    "criterios_sucesso": [
+      "Associa cada grupo de blocos à coluna correta",
+      "Descarta blocos que não compõem o número alvo"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Blocos representados visualmente com contagem numérica; áudio descreve cada bloco.",
+      "resposta": "Arrastar e soltar; alternativa: selecionar bloco e depois selecionar coluna.",
+      "engajamento": "Dica: soma parcial exibida ao soltar cada bloco na coluna."
+    },
+    "modo_professor": {
+      "gabarito": "Centenas: '2 blocos de 100'; Dezenas: '5 blocos de 10'; Unidades: '3 blocos de 1'. Blocos distratores devem permanecer fora.",
+      "objetivo_pedagogico": "Consolidar decomposição aditiva e a ideia de agrupamento por potências de 10.",
+      "perguntas_orientadoras": [
+        "Quantas vezes o 10 cabe no 50?",
+        "Por que o bloco de 500 não pode entrar?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): blocos com distratores, exige seleção e descarte consciente."
+    }
+  },
+  {
+    "id": "mat-001-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-001",
+    "unidade_titulo": "Sistema Decimal e Agrupamento",
+    "habilidade_bncc_codigo": "EF03MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
+    "objetivo": "Resolver situação-problema que exige reagrupamento no sistema decimal.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Uma caixa tem 10 compartimentos. Cada compartimento guarda 10 bolinhas. Já temos 8 compartimentos cheios e mais 14 bolinhas soltas. Quantas bolinhas temos no total? Mostre como você pensou.",
+    "conteudo_base": {
+      "campos": [
+        { "label": "Total de bolinhas:", "id": "total", "max": 10 },
+        { "label": "Como você pensou (explique com números ou palavras):", "id": "raciocinio", "max": 200 }
+      ],
+      "resposta_esperada": 94
+    },
+    "criterios_sucesso": [
+      "Calcula 8 × 10 = 80 corretamente",
+      "Soma 80 + 14 = 94",
+      "Explica o reagrupamento (14 unidades = 1 dezena + 4 unidades)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Ilustração de caixas e bolinhas disponível; enunciado em áudio.",
+      "resposta": "Dois campos: resultado numérico e explicação em texto ou oral.",
+      "engajamento": "Dica: mostra uma tabela C/D/U em branco para o aluno preencher mentalmente."
+    },
+    "modo_professor": {
+      "gabarito": "94 bolinhas. Raciocínio esperado: 8 × 10 = 80; 80 + 14 = 94. Ou: 8 grupos de 10 + 1 grupo de 10 + 4 = 9 dezenas + 4 = 94.",
+      "objetivo_pedagogico": "Aplicar reagrupamento em contexto de resolução de problemas com multiplicação e adição.",
+      "perguntas_orientadoras": [
+        "As 14 bolinhas soltas cabem num compartimento inteiro?",
+        "Quantas dezenas e unidades temos no total?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): problema contextualizado, exige cálculo e explicação do processo."
+    }
+  },
+  {
+    "id": "cie-001-n1",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-001",
+    "unidade_titulo": "Ciclo da Água e Estados Físicos",
+    "habilidade_bncc_codigo": "EF03CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.01 — Estados físicos da água e transformações no ciclo hidrológico",
+    "objetivo": "Identificar os estados físicos da água e associá-los a situações do cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 4,
+    "enunciado": "Marque o estado físico correto da água em cada situação.",
+    "conteudo_base": {
+      "pares": [
+        { "situacao": "Água na chaleira fervendo", "opcoes": ["Sólido", "Líquido", "Gasoso"], "correta": 2 },
+        { "situacao": "Cubo de gelo na geladeira", "opcoes": ["Sólido", "Líquido", "Gasoso"], "correta": 0 },
+        { "situacao": "Água num copo de suco",   "opcoes": ["Sólido", "Líquido", "Gasoso"], "correta": 1 }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa vapor ao estado gasoso",
+      "Associa gelo ao estado sólido",
+      "Associa água líquida ao estado líquido"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Cada situação acompanhada de ícone ilustrativo; áudio disponível.",
+      "resposta": "Seleção por clique em botão de opção; sem digitação.",
+      "engajamento": "Dica: exibe definição resumida de cada estado ao passar o cursor sobre o nome."
+    },
+    "modo_professor": {
+      "gabarito": "Chaleira fervendo → Gasoso; Cubo de gelo → Sólido; Copo de suco → Líquido.",
+      "objetivo_pedagogico": "Reconhecer os três estados físicos da água em contextos familiares.",
+      "perguntas_orientadoras": [
+        "O vapor é visível ou invisível? O que você vê é vapor ou gotículas?",
+        "O que acontece com o gelo quando fica fora da geladeira?"
+      ],
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): situações do cotidiano, 3 opções por par, ícones de apoio."
+    }
+  },
+  {
+    "id": "cie-001-n2",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-001",
+    "unidade_titulo": "Ciclo da Água e Estados Físicos",
+    "habilidade_bncc_codigo": "EF03CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.01 — Estados físicos da água e transformações no ciclo hidrológico",
+    "objetivo": "Ordenar as etapas do ciclo da água na sequência correta.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 6,
+    "enunciado": "Organize as etapas do ciclo da água na ordem em que acontecem, começando pela evaporação.",
+    "conteudo_base": {
+      "itens": [
+        "A água dos rios e mares evapora com o calor do sol.",
+        "O vapor sobe e forma nuvens ao esfriar.",
+        "As nuvens ficam pesadas e a água cai como chuva ou neve.",
+        "A água escoa pelos rios ou infiltra no solo.",
+        "A água volta aos mares e o ciclo recomeça."
+      ],
+      "ordem_correta": [0, 1, 2, 3, 4]
+    },
+    "criterios_sucesso": [
+      "Posiciona evaporação como primeira etapa",
+      "Reconhece condensação antes da precipitação",
+      "Compreende que o ciclo é contínuo"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Cada etapa em card; áudio de cada card disponível; diagrama esquemático de apoio.",
+      "resposta": "Arrastar cards para ordenar; alternativa de botões de seta para reordenar.",
+      "engajamento": "Dica: revela o nome técnico de cada etapa (evaporação, condensação, precipitação) ao pedir ajuda."
+    },
+    "modo_professor": {
+      "gabarito": "Ordem: evaporação → condensação → precipitação → escoamento → retorno aos reservatórios.",
+      "objetivo_pedagogico": "Compreender o ciclo hidrológico como processo contínuo e interdependente.",
+      "perguntas_orientadoras": [
+        "O que acontece com o vapor quando ele sobe e encontra ar frio?",
+        "Por que chamamos isso de ciclo e não de linha?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): 5 etapas, sem inversões arbitrárias, foco na sequência lógica."
+    }
+  },
+  {
+    "id": "cie-001-n3",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-001",
+    "unidade_titulo": "Ciclo da Água e Estados Físicos",
+    "habilidade_bncc_codigo": "EF03CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.01 — Estados físicos da água e transformações no ciclo hidrológico",
+    "objetivo": "Relacionar mudanças de estado físico da água a variações de temperatura e ao ciclo hidrológico.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Explique por que a água desaparece de uma poça após um dia de sol quente. Use as palavras: evaporação, vapor e estado gasoso na sua resposta.",
+    "conteudo_base": {
+      "campos": [
+        { "label": "Sua explicação:", "id": "explicacao", "max": 250 }
+      ],
+      "palavras_obrigatorias": ["evaporação", "vapor", "estado gasoso"]
+    },
+    "criterios_sucesso": [
+      "Usa as três palavras indicadas de forma coerente",
+      "Explica que o calor transforma água líquida em vapor",
+      "Indica que o vapor se mistura ao ar e não é visível"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Palavras obrigatórias destacadas; glossário rápido de cada termo ao clicar; áudio do enunciado.",
+      "resposta": "Campo de texto; alternativa de gravação oral local.",
+      "engajamento": "Dica: exibe um modelo de frase incompleta — 'O sol aquece a poça e a água sofre ___, transformando-se em ___.'"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta esperada: o calor do sol faz a água líquida sofrer evaporação, transformando-se em vapor (estado gasoso), que se mistura ao ar. Por isso a poça some sem que a água 'vá para lugar nenhum visível'.",
+      "objetivo_pedagogico": "Articular vocabulário científico com explicação causal de fenômeno observável.",
+      "perguntas_orientadoras": [
+        "A água sumiu mesmo ou foi para outro lugar?",
+        "Como você saberia que há vapor no ar mesmo sem vê-lo?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): escrita argumentativa com vocabulário técnico obrigatório."
+    }
+  },
+  {
+    "id": "his-001-n1",
+    "ano": 3,
+    "componente": "História",
+    "unidade_id": "his-001",
+    "unidade_titulo": "Tempo Histórico e Simultaneidade",
+    "habilidade_bncc_codigo": "EF03HI01",
+    "referencia_cbtc": "CBTC-SC: HIS.EF3.T.01 — Noções de tempo histórico: antes, durante e depois; simultaneidade",
+    "objetivo": "Ordenar eventos históricos em linha do tempo simples usando referências temporais.",
+    "nivel": 1,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Coloque os eventos na ordem em que aconteceram, do mais antigo ao mais recente.",
+    "conteudo_base": {
+      "itens": [
+        "Os primeiros habitantes chegam à América há milhares de anos.",
+        "Os portugueses chegam ao Brasil em 1500.",
+        "O Brasil proclama a República em 1889.",
+        "O Brasil adota a Constituição atual em 1988."
+      ],
+      "ordem_correta": [0, 1, 2, 3]
+    },
+    "criterios_sucesso": [
+      "Posiciona os eventos em ordem cronológica correta",
+      "Compreende que datas maiores indicam eventos mais recentes"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Cada evento com a data em destaque; linha do tempo visual de apoio; áudio de cada card.",
+      "resposta": "Arrastar cards; alternativa de botões de reordenação.",
+      "engajamento": "Dica: exibe as datas dos eventos em ordem numérica crescente para apoiar a organização."
+    },
+    "modo_professor": {
+      "gabarito": "Ordem: primeiros habitantes → chegada dos portugueses (1500) → República (1889) → Constituição (1988).",
+      "objetivo_pedagogico": "Desenvolver noção de cronologia e sequência histórica com marcos conhecidos.",
+      "perguntas_orientadoras": [
+        "Qual número de ano é maior: 1500 ou 1889?",
+        "O que significa dizer que algo aconteceu 'antes' de outro evento?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): eventos com datas explícitas, 4 itens, sem ambiguidade."
+    }
+  },
+  {
+    "id": "his-001-n2",
+    "ano": 3,
+    "componente": "História",
+    "unidade_id": "his-001",
+    "unidade_titulo": "Tempo Histórico e Simultaneidade",
+    "habilidade_bncc_codigo": "EF03HI01",
+    "referencia_cbtc": "CBTC-SC: HIS.EF3.T.01 — Noções de tempo histórico: antes, durante e depois; simultaneidade",
+    "objetivo": "Identificar eventos que aconteceram ao mesmo tempo em lugares diferentes (simultaneidade).",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 6,
+    "enunciado": "Leia as informações abaixo e marque os dois eventos que aconteceram na mesma época, em lugares diferentes.",
+    "conteudo_base": {
+      "contexto": "Em torno do ano 1500, muitas coisas aconteciam ao mesmo tempo no mundo.",
+      "opcoes": [
+        "Os portugueses chegavam ao Brasil (1500).",
+        "Os astecas construíam Tenochtitlan, no México (por volta de 1500).",
+        "O Brasil adotava a Constituição (1988).",
+        "Getúlio Vargas assumia o governo do Brasil (1930)."
+      ],
+      "respostas_corretas": [0, 1]
+    },
+    "criterios_sucesso": [
+      "Seleciona dois eventos próximos temporalmente",
+      "Compreende que eventos simultâneos ocorrem em lugares distintos"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Datas destacadas em negrito; áudio do contexto e das opções.",
+      "resposta": "Seleção múltipla por clique (marcar dois); contagem de seleções visível.",
+      "engajamento": "Dica: exibe uma mini linha do tempo com as datas das 4 opções para comparação visual."
+    },
+    "modo_professor": {
+      "gabarito": "Opções A e B: ambas por volta de 1500, em continentes diferentes.",
+      "objetivo_pedagogico": "Desenvolver o conceito de simultaneidade histórica — eventos distantes no espaço mas próximos no tempo.",
+      "perguntas_orientadoras": [
+        "Duas coisas podem acontecer ao mesmo tempo em lugares diferentes?",
+        "O que estava acontecendo no mundo enquanto os portugueses chegavam aqui?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): exige comparação de datas e compreensão de simultaneidade, não apenas sequência."
+    }
+  },
+  {
+    "id": "his-001-n3",
+    "ano": 3,
+    "componente": "História",
+    "unidade_id": "his-001",
+    "unidade_titulo": "Tempo Histórico e Simultaneidade",
+    "habilidade_bncc_codigo": "EF03HI01",
+    "referencia_cbtc": "CBTC-SC: HIS.EF3.T.01 — Noções de tempo histórico: antes, durante e depois; simultaneidade",
+    "objetivo": "Explicar o conceito de simultaneidade histórica com exemplo próprio.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Escolha dois eventos de épocas diferentes e explique por que eles NÃO são simultâneos. Depois, crie um exemplo de dois eventos que SÃO simultâneos.",
+    "conteudo_base": {
+      "banco_eventos": [
+        "Chegada dos portugueses ao Brasil (1500)",
+        "Proclamação da República (1889)",
+        "Constituição Brasileira (1988)",
+        "Copa do Mundo no Brasil (2014)"
+      ],
+      "campos": [
+        { "label": "Dois eventos que NÃO são simultâneos e por quê:", "id": "nao_simult", "max": 200 },
+        { "label": "Dois eventos que SÃO simultâneos (crie um exemplo):", "id": "simult", "max": 200 }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica a não-simultaneidade com referência a datas",
+      "Cria exemplo coerente de simultaneidade com dois lugares diferentes"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Banco de eventos disponível para consulta; áudio do enunciado; glossário de 'simultâneo'.",
+      "resposta": "Dois campos de escrita; alternativa oral.",
+      "engajamento": "Dica: sugere pensar em duas coisas que aconteceram 'hoje' em locais diferentes como ponto de partida."
+    },
+    "modo_professor": {
+      "gabarito": "Não-simultâneos: qualquer par de eventos do banco com datas distintas, justificado pelas datas. Simultâneos válidos: qualquer dois eventos contemporâneos em lugares distintos (ex.: 'Enquanto a Copa era no Brasil em 2014, a Rússia sediava os Jogos Olímpicos de Inverno').",
+      "objetivo_pedagogico": "Operar com o conceito de simultaneidade de forma criativa e justificada.",
+      "perguntas_orientadoras": [
+        "O que torna dois eventos simultâneos — o lugar ou o tempo?",
+        "Hoje, enquanto você estuda aqui, o que está acontecendo em outro país?"
+      ],
+      "tempo_estimado": "6 a 9 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): criação de exemplo próprio, exige abstração e aplicação do conceito."
+    }
+  },
+  {
+    "id": "geo-001-n1",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-001",
+    "unidade_titulo": "Orientação e Elementos do Mapa",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
+    "objetivo": "Identificar os pontos cardeais e usá-los para indicar direções simples.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 4,
+    "enunciado": "Observe a rosa dos ventos. Marque a opção que completa corretamente a frase: 'Se estou de frente para o Norte, o Sul está ___.'",
+    "conteudo_base": {
+      "opcoes": [
+        "À minha esquerda",
+        "Atrás de mim",
+        "À minha direita",
+        "Na minha frente também"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Compreende que Norte e Sul são opostos",
+      "Aplica orientação relativa ao corpo"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Rosa dos ventos ilustrada exibida acima do enunciado; áudio disponível.",
+      "resposta": "Seleção por clique.",
+      "engajamento": "Dica: destaca na rosa dos ventos a posição de Norte e Sul com setas opostas."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B: Atrás de mim.",
+      "objetivo_pedagogico": "Construir a noção de orientação relativa com base nos pontos cardeais.",
+      "perguntas_orientadoras": [
+        "Se o Norte está na sua frente, para onde você precisa virar para ver o Sul?",
+        "Quais pontos cardeais ficam opostos entre si?"
+      ],
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): rosa dos ventos como suporte visual, questão de orientação relativa simples."
+    }
+  },
+  {
+    "id": "geo-001-n2",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-001",
+    "unidade_titulo": "Orientação e Elementos do Mapa",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
+    "objetivo": "Interpretar elementos de um mapa simples: título, legenda e rosa dos ventos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 6,
+    "enunciado": "Arraste cada elemento do mapa para o seu nome correto.",
+    "conteudo_base": {
+      "pares": [
+        { "elemento": "Quadro com cores e seus significados", "nome": "Legenda" },
+        { "elemento": "Figura com setas indicando N, S, L, O", "nome": "Rosa dos ventos" },
+        { "elemento": "Frase que diz do que trata o mapa", "nome": "Título" },
+        { "elemento": "Barra que mostra quanto representa a distância no mapa", "nome": "Escala" }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa cada descrição ao nome correto do elemento cartográfico",
+      "Reconhece a função de cada elemento"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Cada elemento descrito em linguagem simples; ícone esquemático ao lado da descrição; áudio.",
+      "resposta": "Arrastar descrição para o nome; alternativa de seleção sequencial.",
+      "engajamento": "Dica: exibe a função de cada elemento ao solicitar ajuda, sem revelar o par."
+    },
+    "modo_professor": {
+      "gabarito": "Cores/significados → Legenda; N/S/L/O → Rosa dos ventos; frase do tema → Título; distância real → Escala.",
+      "objetivo_pedagogico": "Reconhecer e nomear os elementos formais de representação cartográfica.",
+      "perguntas_orientadoras": [
+        "Para que serve a legenda? E se um mapa não tiver legenda?",
+        "O que acontece se um mapa não tiver título?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): 4 pares, descrições funcionais, sem referência visual de mapa real."
+    }
+  },
+  {
+    "id": "geo-001-n3",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-001",
+    "unidade_titulo": "Orientação e Elementos do Mapa",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
+    "objetivo": "Descrever a localização de um lugar usando pontos cardeais e elementos do mapa.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Imagine um mapa simples da sua escola. Descreva onde fica a biblioteca em relação à entrada principal, usando pelo menos dois pontos cardeais. Explique também qual elemento do mapa você usaria para mostrar onde é cada sala.",
+    "conteudo_base": {
+      "campos": [
+        { "label": "Localização da biblioteca (use pontos cardeais):", "id": "localizacao", "max": 150 },
+        { "label": "Elemento do mapa que usaria e por quê:", "id": "elemento", "max": 150 }
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa dois ou mais pontos cardeais de forma coerente",
+      "Nomeia e justifica o elemento cartográfico adequado (ex.: legenda)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Rosa dos ventos de referência disponível; glossário de elementos do mapa; áudio do enunciado.",
+      "resposta": "Dois campos de escrita; alternativa oral.",
+      "engajamento": "Dica: sugere que o aluno pense no caminho que faz da entrada até a biblioteca e em qual direção vai."
+    },
+    "modo_professor": {
+      "gabarito": "Localização aceita qualquer resposta coerente com uso de 2+ pontos cardeais (ex.: 'A biblioteca fica ao Norte da entrada e a Leste do pátio'). Elemento: legenda, justificada pela necessidade de representar cada tipo de sala com uma cor ou símbolo diferente.",
+      "objetivo_pedagogico": "Aplicar orientação e vocabulário cartográfico na descrição de espaço conhecido.",
+      "perguntas_orientadoras": [
+        "Se a entrada fica ao Sul, para onde você vai quando entra na escola?",
+        "Como uma pessoa que nunca foi à escola saberia onde fica a biblioteca olhando para o mapa?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): aplicação em espaço vivido, exige articulação de conceitos."
+    }
+  },
+  {
+    "id": "art-001-n1",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-001",
+    "unidade_titulo": "Elementos Visuais: Linha, Forma e Cor",
+    "habilidade_bncc_codigo": "EF35AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.01 — Identificação e uso dos elementos da linguagem visual em produções artísticas",
+    "objetivo": "Identificar os elementos visuais linha, forma e cor em obras e situações do cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 4,
+    "enunciado": "Para cada descrição, marque o elemento visual correto: linha, forma ou cor.",
+    "conteudo_base": {
+      "pares": [
+        { "descricao": "O traço que define o contorno de um desenho", "opcoes": ["Linha", "Forma", "Cor"], "correta": 0 },
+        { "descricao": "O azul do céu numa pintura", "opcoes": ["Linha", "Forma", "Cor"], "correta": 2 },
+        { "descricao": "Um círculo ou quadrado num quadro", "opcoes": ["Linha", "Forma", "Cor"], "correta": 1 }
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue linha, forma e cor por definição funcional",
+      "Associa exemplos concretos a cada elemento"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Ícone visual para cada elemento (traço, figura geométrica, paleta); áudio das descrições.",
+      "resposta": "Seleção por clique.",
+      "engajamento": "Dica: exibe um exemplo visual de cada elemento ao solicitar ajuda."
+    },
+    "modo_professor": {
+      "gabarito": "Contorno → Linha; azul do céu → Cor; círculo/quadrado → Forma.",
+      "objetivo_pedagogico": "Construir vocabulário básico da linguagem visual com exemplos acessíveis.",
+      "perguntas_orientadoras": [
+        "O que você usaria para separar o céu da terra num desenho?",
+        "Uma bola é uma linha, uma forma ou uma cor?"
+      ],
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1 (Apoio): 3 pares com 3 opções fixas, exemplos do cotidiano."
+    }
+  },
+  {
+    "id": "art-001-n2",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-001",
+    "unidade_titulo": "Elementos Visuais: Linha, Forma e Cor",
+    "habilidade_bncc_codigo": "EF35AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.01 — Identificação e uso dos elementos da linguagem visual em produções artísticas",
+    "objetivo": "Classificar tipos de linhas e formas presentes em obras de arte.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 6,
+    "enunciado": "Arraste cada exemplo para a categoria correta: Linha Reta, Linha Curva, Forma Geométrica ou Forma Orgânica.",
+    "conteudo_base": {
+      "itens": [
+        { "id": "i1", "label": "O horizonte numa paisagem", "categoria": "Linha Reta" },
+        { "id": "i2", "label": "O arco de um arco-íris", "categoria": "Linha Curva" },
+        { "id": "i3", "label": "Uma janela quadrada", "categoria": "Forma Geométrica" },
+        { "id": "i4", "label": "O contorno de uma folha de árvore", "categoria": "Forma Orgânica" },
+        { "id": "i5", "label": "Uma estrada reta no campo", "categoria": "Linha Reta" },
+        { "id": "i6", "label": "Uma pedra arredondada", "categoria": "Forma Orgânica" }
+      ],
+      "categorias": ["Linha Reta", "Linha Curva", "Forma Geométrica", "Forma Orgânica"]
+    },
+    "criterios_sucesso": [
+      "Distingue linha reta de linha curva por sua trajetória",
+      "Distingue formas geométricas (regulares) de orgânicas (irregulares)"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Cada item descrito verbalmente com ícone esquemático; definições das categorias visíveis.",
+      "resposta": "Arrastar item para caixa de categoria; alternativa de seleção sequencial.",
+      "engajamento": "Dica: exibe a definição da categoria ao passar o cursor sobre ela."
+    },
+    "modo_professor": {
+      "gabarito": "Linha Reta: horizonte, estrada. Linha Curva: arco-íris. Forma Geométrica: janela quadrada. Forma Orgânica: folha de árvore, pedra.",
+      "objetivo_pedagogico": "Ampliar o vocabulário visual com tipos específicos de linha e forma.",
+      "perguntas_orientadoras": [
+        "O que faz uma forma ser 'orgânica'? Ela precisa ser viva?",
+        "Numa pintura de cidade, quais tipos de linha e forma aparecem mais?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2 (Básico): 6 itens, 4 categorias, exige distinção dentro das categorias de linha e forma."
+    }
+  },
+  {
+    "id": "art-001-n3",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-001",
+    "unidade_titulo": "Elementos Visuais: Linha, Forma e Cor",
+    "habilidade_bncc_codigo": "EF35AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.01 — Identificação e uso dos elementos da linguagem visual em produções artísticas",
+    "objetivo": "Descrever como os elementos visuais contribuem para o efeito de uma obra de arte.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 7,
+    "enunciado": "Pense em um desenho, quadro ou imagem que você conhece. Descreva como as linhas, formas e cores são usadas nessa obra e qual efeito elas causam em quem a vê.",
+    "conteudo_base": {
+      "campos": [
+        { "label": "Qual obra você escolheu:", "id": "obra", "max": 100 },
+        { "label": "Como linhas, formas e cores são usadas:", "id": "descricao", "max": 300 },
+        { "label": "Que sensação ou efeito esses elementos causam:", "id": "efeito", "max": 150 }
+      ]
+    },
+    "criterios_sucesso": [
+      "Menciona os três elementos (linha, forma, cor) com exemplos da obra",
+      "Relaciona ao menos um elemento ao efeito causado no observador"
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Glossário dos elementos visuais disponível; áudio do enunciado; exemplos de obras conhecidas como ponto de partida.",
+      "resposta": "Três campos de escrita; alternativa oral.",
+      "engajamento": "Dica: sugere que o aluno comece descrevendo apenas as cores antes de passar para linhas e formas."
+    },
+    "modo_professor": {
+      "gabarito": "Respostas abertas. Critérios: uso coerente dos três termos com referência à obra escolhida; relação entre pelo menos um elemento e seu efeito (ex.: 'As linhas curvas da obra deixam a imagem suave e tranquila').",
+      "objetivo_pedagogico": "Desenvolver leitura crítica de imagens com vocabulário da linguagem visual.",
+      "perguntas_orientadoras": [
+        "Se o artista tivesse usado apenas cores frias, como vermelho e laranja, o efeito seria diferente?",
+        "As linhas da obra são tensas ou relaxadas? Como você sabe?"
+      ],
+      "tempo_estimado": "6 a 9 minutos",
+      "adaptacao_nivel": "Nível 3 (Ampliação): análise autônoma de obra à escolha, exige articulação dos três elementos com efeito estético."
+    }
+  }
+]

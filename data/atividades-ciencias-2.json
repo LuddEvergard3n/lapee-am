@@ -1,0 +1,303 @@
+[
+  {
+    "id": "cie-2-u1-n1",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u1",
+    "unidade_titulo": "Seres Vivos e Ambiente",
+    "habilidade_bncc_codigo": "EF02CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01 — Seres vivos: características e habitats",
+    "objetivo": "Identificar características de seres vivos e seus ambientes.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual desses é um ser vivo?",
+    "conteudo_base": {
+      "tipo": "escolha_simples",
+      "texto": "Qual desses seres precisa de comida, água e ar para viver?",
+      "opcoes": [
+        "Pedra",
+        "Cachorro",
+        "Carro",
+        "Cadeira"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Distingue seres vivos de objetos inanimados pela necessidade de alimento, água e ar."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pergunta sobre cada opção: isso come? Respira? Cresce?",
+      "resposta": "Clica na resposta certa.",
+      "engajamento": "O que um cachorro precisa para sobreviver? E uma pedra precisa de alguma coisa?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Reconhecer características básicas que definem os seres vivos.",
+      "gabarito": "Cachorro — ser vivo que come, respira e cresce.",
+      "perguntas_orientadoras": [
+        "Isso cresce?",
+        "Isso precisa comer?",
+        "Isso respira?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: opções contrastantes e claras, uma obviamente correta."
+    }
+  },
+  {
+    "id": "cie-2-u1-n2",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u1",
+    "unidade_titulo": "Seres Vivos e Ambiente",
+    "habilidade_bncc_codigo": "EF02CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01 — Seres vivos: características e habitats",
+    "objetivo": "Identificar características de seres vivos e seus ambientes.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Coloca cada ser vivo no lugar onde ele vive.",
+    "conteudo_base": {
+      "tipo": "categorias",
+      "itens": [
+        {
+          "label": "Peixe",
+          "categoria": "Água"
+        },
+        {
+          "label": "Minhoca",
+          "categoria": "Terra"
+        },
+        {
+          "label": "Tubarão",
+          "categoria": "Água"
+        },
+        {
+          "label": "Tatu",
+          "categoria": "Terra"
+        },
+        {
+          "label": "Boto",
+          "categoria": "Água"
+        },
+        {
+          "label": "Toupeira",
+          "categoria": "Terra"
+        }
+      ],
+      "categorias": [
+        "Água",
+        "Terra"
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa animais ao ambiente em que vivem (aquático ou terrestre)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagens dos animais antes da atividade.",
+      "resposta": "Arrasta cada animal para o lugar onde ele vive. Ou clica e depois clica no lugar.",
+      "engajamento": "Você já viu esse animal? Onde ele costuma ficar?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Relacionar animais ao seu habitat natural — aquático ou terrestre.",
+      "gabarito": "Água: Peixe, Tubarão, Boto. Terra: Minhoca, Tatu, Toupeira.",
+      "perguntas_orientadoras": [
+        "Esse animal consegue respirar embaixo d'água?",
+        "Onde você encontraria esse animal na natureza?",
+        "Qual é a diferença entre os animais da água e os da terra?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 2: seis animais, dois grupos, sem distratores."
+    }
+  },
+  {
+    "id": "cie-2-u1-n3",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u1",
+    "unidade_titulo": "Seres Vivos e Ambiente",
+    "habilidade_bncc_codigo": "EF02CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01 — Seres vivos: características e habitats",
+    "objetivo": "Identificar características de seres vivos e seus ambientes.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolhe um animal e escreve sobre ele.",
+    "conteudo_base": {
+      "tipo": "escrita_livre",
+      "texto": "Pense num animal que você gosta: cachorro, gato, pássaro, peixe, formiga...",
+      "campos": [
+        {
+          "id": "animal",
+          "label": "Qual animal você escolheu e onde ele vive?",
+          "max": 100
+        },
+        {
+          "id": "caracteristicas",
+          "label": "Escreve 2 características desse animal (o que ele come, como se move, etc.).",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Nomeia corretamente o habitat do animal escolhido.",
+      "Descreve pelo menos duas características observáveis do animal."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor permite que a criança desenhe o animal antes de escrever.",
+      "resposta": "Escreve com suas palavras. Pode ser simples.",
+      "engajamento": "Que animal você gostaria de estudar? O que você já sabe sobre ele?"
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Descrever um ser vivo com base em características observáveis e habitat.",
+      "gabarito": "Resposta variável — avaliar se o habitat está correto e se as características são observáveis.",
+      "perguntas_orientadoras": [
+        "Como você descobriu onde esse animal vive?",
+        "O que esse animal precisa para sobreviver?",
+        "Você consegue ver essas características com os próprios olhos?"
+      ],
+      "tempo_estimado": "10 minutos",
+      "adaptacao_nivel": "Nível 3: escrita livre, escolha autônoma de animal, exige dois campos distintos."
+    }
+  },
+  {
+    "id": "cie-2-u2-n1",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u2",
+    "unidade_titulo": "Água e Saúde",
+    "habilidade_bncc_codigo": "EF02CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.02 — Importância da água e hábitos de higiene e saúde",
+    "objetivo": "Desenvolver habilidades de água e saúde.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual hábito de higiene é importante para evitar doenças transmitidas pelas mãos?",
+    "conteudo_base": {
+      "opcoes": [
+        "Escovar o cabelo",
+        "Lavar as mãos com água e sabão",
+        "Usar chapéu",
+        "Tomar banho frio"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica hábito de higiene preventivo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Muitas doenças entram no corpo pela boca depois de tocar coisas contaminadas."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar água e saúde de forma progressiva.",
+      "gabarito": "Lavar as mãos com água e sabão elimina germes.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+    }
+  },
+  {
+    "id": "cie-2-u2-n2",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u2",
+    "unidade_titulo": "Água e Saúde",
+    "habilidade_bncc_codigo": "EF02CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.02 — Importância da água e hábitos de higiene e saúde",
+    "objetivo": "Desenvolver habilidades de água e saúde.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 5,
+    "enunciado": "Coloca os passos da lavagem correta das mãos na ordem certa.",
+    "conteudo_base": {
+      "itens": [
+        "Molhar as mãos com água",
+        "Passar sabão e esfregar bem por 20 segundos",
+        "Enxaguar completamente",
+        "Secar com toalha limpa"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena etapas de higiene de mãos corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa na sequência: primeiro a água, depois o sabão..."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar água e saúde de forma progressiva.",
+      "gabarito": "Molhar → esfregar com sabão → enxaguar → secar.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "5 minutos",
+      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+    }
+  },
+  {
+    "id": "cie-2-u2-n3",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u2",
+    "unidade_titulo": "Água e Saúde",
+    "habilidade_bncc_codigo": "EF02CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.02 — Importância da água e hábitos de higiene e saúde",
+    "objetivo": "Desenvolver habilidades de água e saúde.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 8,
+    "enunciado": "Por que a água limpa é essencial para a saúde? Dá três razões e explica cada uma.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "r1",
+          "label": "Razão 1:",
+          "max": 120
+        },
+        {
+          "id": "r2",
+          "label": "Razão 2:",
+          "max": 120
+        },
+        {
+          "id": "r3",
+          "label": "Razão 3:",
+          "max": 120
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica a importância da água com três argumentos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
+      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
+      "engajamento": "Pensa: beber água, cozinhar, lavar alimentos, higiene pessoal..."
+    },
+    "modo_professor": {
+      "objetivo_pedagogico": "Trabalhar água e saúde de forma progressiva.",
+      "gabarito": "Hidratação, prevenção de doenças, higiene de alimentos, cozimento seguro.",
+      "perguntas_orientadoras": [
+        "O que você entendeu do enunciado?",
+        "Qual estratégia você usou?",
+        "Você consegue explicar sua resposta?"
+      ],
+      "tempo_estimado": "8 minutos",
+      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+    }
+  }
+]
