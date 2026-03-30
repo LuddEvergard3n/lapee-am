@@ -243,6 +243,7 @@ function _buildConfirm(atv_id, container, onConcluida, onAcerto, onErro, checkFn
     if (result === true) {
       feedback.innerHTML = '<div class="feedback feedback-ok" role="alert">Isso aí! Acertou!</div>';
       setProgress(atv_id, 'concluida');
+      btn.disabled = true;
       _disableAll(container);
       if (typeof onAcerto    === 'function') onAcerto();
       if (typeof onConcluida === 'function') onConcluida();

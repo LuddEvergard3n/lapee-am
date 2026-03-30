@@ -1,24 +1,28 @@
 /**
  * activities/arrastar.js
  * Motor de atividade do tipo "arrastar": associar itens a colunas/categorias.
- * Suporta pares (blocos → coluna) e categorias abertas.
+ * Suporta pares (chips → slot nomeado) e categorias (múltiplos chips por grupo).
  * Acessível: alternativa de clique sequencial para teclado/mobile.
+ *
+ * Comportamento de erro: ao clicar "Pronto!" com resposta errada,
+ * todos os chips são devolvidos para a zona de fontes e podem ser
+ * recolocados. O usuário nunca fica preso após um erro.
+ *
+ * Deselecionar: clicar no chip já selecionado cancela a seleção.
  */
 
 import { setProgress } from '../store.js';
 
 /**
- * Renderiza atividade de arrastar dentro do container.
  * @param {HTMLElement} container
  * @param {object} atividade
+ * @param {object} opts
  */
 function render(container, atividade, opts = {}) {
-  const { conteudo_base, id: atv_id } = atividade;
-  const { onConcluida, onAcerto, onErro } = opts;
+  const { conteudo_base } = atividade;
 
   container.innerHTML = '';
 
-  /* Detecta subtipo — passa opts completo para que onAcerto/onErro cheguem ao _appendValidation */
   if (conteudo_base.pares && !conteudo_base.categorias) {
     _renderPares(container, atividade, opts);
   } else if (conteudo_base.categorias) {
@@ -28,7 +32,7 @@ function render(container, atividade, opts = {}) {
   }
 }
 
-/* ---- Pares: arrastar descrição para nome (ex.: geo-001-n2) ---- */
+/* ---- Pares: cada chip vai para exatamente um slot nomeado ---- */
 
 function _renderPares(container, atividade, opts = {}) {
   const { onConcluida, onAcerto, onErro } = opts;
@@ -40,28 +44,23 @@ function _renderPares(container, atividade, opts = {}) {
   instrucao.textContent = 'Arrasta cada palavra para o lugar certo. Ou clica na palavra e depois no lugar.';
   container.appendChild(instrucao);
 
-  /* Estado de seleção (alternativa de clique) */
-  let selected = null;
+  /* selRef: referência compartilhada com _appendValidation para reset no erro */
+  const selRef = { value: null };
 
-  /* Zona de destinos */
-  const targets = document.createElement('div');
-  targets.className = 'drag-targets';
-
-  /* Zona de fontes */
   const sources = document.createElement('div');
   sources.className = 'drag-sources';
 
-  /* Mapa: nome → elemento de destino */
-  const targetMap = new Map();
-  /* Mapa: id do chip → nome esperado */
-  const expectedMap = new Map();
+  const targets = document.createElement('div');
+  targets.className = 'drag-targets';
+
+  const targetMap  = new Map(); /* nome → slot element */
+  const expectedMap = new Map(); /* chip-id → nome esperado */
 
   pares.forEach((par, i) => {
     const chip = document.createElement('div');
     chip.className = 'drag-chip';
     chip.draggable = true;
     chip.dataset.id = `chip-${i}`;
-    chip.dataset.target = par.nome;
     chip.textContent = par.elemento;
     chip.setAttribute('tabindex', '0');
     chip.setAttribute('role', 'button');
@@ -69,29 +68,31 @@ function _renderPares(container, atividade, opts = {}) {
     expectedMap.set(`chip-${i}`, par.nome);
     sources.appendChild(chip);
 
-    /* Drag source events */
     chip.addEventListener('dragstart', (e) => {
       e.dataTransfer.setData('text/plain', `chip-${i}`);
       chip.classList.add('dragging');
     });
     chip.addEventListener('dragend', () => chip.classList.remove('dragging'));
 
-    /* Alternativa clique */
     chip.addEventListener('click', () => {
       if (chip.classList.contains('placed')) return;
+      /* Toggle: segundo clique no mesmo chip deseleciona */
+      if (selRef.value === chip) {
+        chip.classList.remove('sel-source');
+        selRef.value = null;
+        return;
+      }
       sources.querySelectorAll('.drag-chip').forEach(c => c.classList.remove('sel-source'));
       chip.classList.add('sel-source');
-      selected = chip;
+      selRef.value = chip;
     });
     chip.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); chip.click(); }
     });
   });
 
-  /* Embaralha os targets para não dar a ordem direta */
-  const shuffledPares = _shuffle([...pares]);
-
-  shuffledPares.forEach((par) => {
+  /* Embaralha targets para não entregar a ordem */
+  _shuffle([...pares]).forEach((par) => {
     const zone = document.createElement('div');
     zone.className = 'drag-zone';
     zone.dataset.name = par.nome;
@@ -110,14 +111,12 @@ function _renderPares(container, atividade, opts = {}) {
     targets.appendChild(zone);
     targetMap.set(par.nome, slot);
 
-    /* Drop events */
     zone.addEventListener('dragover', (e) => { e.preventDefault(); zone.classList.add('drag-over'); });
     zone.addEventListener('dragleave', () => zone.classList.remove('drag-over'));
     zone.addEventListener('drop', (e) => {
       e.preventDefault();
       zone.classList.remove('drag-over');
-      /* Slot de pares aceita apenas 1 chip */
-      if (slot.children.length > 0) return;
+      if (slot.children.length > 0) return; /* slot de pares aceita 1 chip */
       const chipId = e.dataTransfer.getData('text/plain');
       const chip = sources.querySelector(`[data-id="${chipId}"]`)
                 ?? container.querySelector(`[data-id="${chipId}"]`);
@@ -125,20 +124,20 @@ function _renderPares(container, atividade, opts = {}) {
       _placeChip(chip, slot);
     });
 
-    /* Alternativa clique no destino */
     zone.addEventListener('click', () => {
-      if (!selected || slot.children.length > 0) return;
-      _placeChip(selected, slot);
-      selected = null;
+      if (!selRef.value || slot.children.length > 0) return;
+      _placeChip(selRef.value, slot);
+      selRef.value = null;
     });
   });
 
   container.appendChild(sources);
   container.appendChild(targets);
-  _appendValidation(container, atv_id, expectedMap, targetMap, onConcluida, onAcerto, onErro);
+  _appendValidation(container, atv_id, expectedMap, targetMap, sources, selRef,
+                    onConcluida, onAcerto, onErro);
 }
 
-/* ---- Categorias: múltiplos itens → categorias (ex.: art-001-n2) ---- */
+/* ---- Categorias: múltiplos chips → categorias (slots aceitam vários) ---- */
 
 function _renderCategorias(container, atividade, opts = {}) {
   const { onConcluida, onAcerto, onErro } = opts;
@@ -150,25 +149,28 @@ function _renderCategorias(container, atividade, opts = {}) {
   instrucao.textContent = 'Arrasta cada coisa para o grupo certo. Ou clica nela e depois no grupo.';
   container.appendChild(instrucao);
 
-  let selected = null;
+  const selRef = { value: null };
   const expectedMap = new Map();
   const targetMap   = new Map();
 
   const sources = document.createElement('div');
   sources.className = 'drag-sources';
 
-  /* Atribui IDs estáveis antes de embaralhar */
-  const itensComId = itens.map((item, i) => ({ ...item, id: item.id != null ? item.id : 'cat-item-' + i }));
+  /* IDs estáveis antes de embaralhar */
+  const itensComId = itens.map((item, i) => ({
+    ...item,
+    id: item.id != null ? String(item.id) : `cat-item-${i}`,
+  }));
 
   _shuffle(itensComId).forEach((item) => {
     const chip = document.createElement('div');
     chip.className = 'drag-chip';
     chip.draggable = true;
     chip.dataset.id = item.id;
-    chip.dataset.expected = item.categoria;
     chip.textContent = item.label;
     chip.setAttribute('tabindex', '0');
     chip.setAttribute('role', 'button');
+    chip.setAttribute('aria-label', item.label);
     expectedMap.set(item.id, item.categoria);
     sources.appendChild(chip);
 
@@ -180,9 +182,14 @@ function _renderCategorias(container, atividade, opts = {}) {
 
     chip.addEventListener('click', () => {
       if (chip.classList.contains('placed')) return;
+      if (selRef.value === chip) {
+        chip.classList.remove('sel-source');
+        selRef.value = null;
+        return;
+      }
       sources.querySelectorAll('.drag-chip').forEach(c => c.classList.remove('sel-source'));
       chip.classList.add('sel-source');
-      selected = chip;
+      selRef.value = chip;
     });
     chip.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); chip.click(); }
@@ -217,24 +224,26 @@ function _renderCategorias(container, atividade, opts = {}) {
       e.preventDefault();
       zone.classList.remove('drag-over');
       const chipId = e.dataTransfer.getData('text/plain');
-      const chip = sources.querySelector(`[data-id="${chipId}"]`);
+      const chip = sources.querySelector(`[data-id="${chipId}"]`)
+                ?? container.querySelector(`[data-id="${chipId}"]`);
       if (!chip || chip.classList.contains('placed')) return;
       _placeChip(chip, slot);
     });
 
     zone.addEventListener('click', () => {
-      if (!selected) return;
-      _placeChip(selected, slot);
-      selected = null;
+      if (!selRef.value) return;
+      _placeChip(selRef.value, slot);
+      selRef.value = null;
     });
   });
 
   container.appendChild(sources);
   container.appendChild(targetsEl);
-  _appendValidation(container, atv_id, expectedMap, targetMap, onConcluida, onAcerto, onErro);
+  _appendValidation(container, atv_id, expectedMap, targetMap, sources, selRef,
+                    onConcluida, onAcerto, onErro);
 }
 
-/* ---- Blocos: numéricos (ex.: mat-001-n2) ---- */
+/* ---- Blocos: numéricos com colunas e distratorores opcionais ---- */
 
 function _renderBlocos(container, atividade, opts = {}) {
   const { onConcluida, onAcerto, onErro } = opts;
@@ -246,7 +255,7 @@ function _renderBlocos(container, atividade, opts = {}) {
   instrucao.textContent = 'Arrasta cada grupo para o lugar certo.';
   container.appendChild(instrucao);
 
-  let selected = null;
+  const selRef = { value: null };
   const expectedMap = new Map();
   const targetMap   = new Map();
 
@@ -254,17 +263,14 @@ function _renderBlocos(container, atividade, opts = {}) {
   sources.className = 'drag-sources';
 
   _shuffle([...blocos]).forEach((bloco) => {
-    if (bloco.posicao === 'distrator') {
-      /* Distratores ficam nas fontes mas não devem ir para nenhuma coluna real */
-    }
     const chip = document.createElement('div');
     chip.className = 'drag-chip';
     chip.draggable = true;
     chip.dataset.id = bloco.id;
-    chip.dataset.expected = bloco.posicao;
     chip.textContent = bloco.label;
     chip.setAttribute('tabindex', '0');
     chip.setAttribute('role', 'button');
+    chip.setAttribute('aria-label', bloco.label);
     expectedMap.set(bloco.id, bloco.posicao);
     sources.appendChild(chip);
 
@@ -276,9 +282,14 @@ function _renderBlocos(container, atividade, opts = {}) {
 
     chip.addEventListener('click', () => {
       if (chip.classList.contains('placed')) return;
+      if (selRef.value === chip) {
+        chip.classList.remove('sel-source');
+        selRef.value = null;
+        return;
+      }
       sources.querySelectorAll('.drag-chip').forEach(c => c.classList.remove('sel-source'));
       chip.classList.add('sel-source');
-      selected = chip;
+      selRef.value = chip;
     });
     chip.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); chip.click(); }
@@ -312,24 +323,26 @@ function _renderBlocos(container, atividade, opts = {}) {
       e.preventDefault();
       zone.classList.remove('drag-over');
       const chipId = e.dataTransfer.getData('text/plain');
-      const chip = sources.querySelector(`[data-id="${chipId}"]`);
+      const chip = sources.querySelector(`[data-id="${chipId}"]`)
+                ?? container.querySelector(`[data-id="${chipId}"]`);
       if (!chip || chip.classList.contains('placed')) return;
       _placeChip(chip, slot);
     });
 
     zone.addEventListener('click', () => {
-      if (!selected) return;
-      _placeChip(selected, slot);
-      selected = null;
+      if (!selRef.value) return;
+      _placeChip(selRef.value, slot);
+      selRef.value = null;
     });
   });
 
   container.appendChild(sources);
   container.appendChild(targetsEl);
-  _appendValidation(container, atv_id, expectedMap, targetMap, onConcluida, onAcerto, onErro);
+  _appendValidation(container, atv_id, expectedMap, targetMap, sources, selRef,
+                    onConcluida, onAcerto, onErro);
 }
 
-/* ---- Shared helpers ---- */
+/* ---- Helpers compartilhados ---- */
 
 function _placeChip(chip, slot) {
   chip.classList.add('placed');
@@ -338,7 +351,28 @@ function _placeChip(chip, slot) {
   slot.appendChild(chip);
 }
 
-function _appendValidation(container, atv_id, expectedMap, targetMap, onConcluida, onAcerto, onErro) {
+/**
+ * Devolve todos os chips colocados de volta para a zona de fontes.
+ * Restaura draggable e remove a classe 'placed'.
+ * Chamado quando o aluno erra para permitir nova tentativa.
+ */
+function _returnAllChips(container, sources, selRef) {
+  container.querySelectorAll('.drag-chip.placed').forEach(chip => {
+    chip.classList.remove('placed', 'sel-source');
+    chip.draggable = true;
+    sources.appendChild(chip);
+  });
+  /* Limpa seleção pendente */
+  sources.querySelectorAll('.drag-chip').forEach(c => c.classList.remove('sel-source'));
+  selRef.value = null;
+}
+
+/**
+ * Monta o botão "Pronto!" e a área de feedback.
+ * Em caso de erro, devolve todos os chips para sources antes de exibir o feedback.
+ */
+function _appendValidation(container, atv_id, expectedMap, targetMap, sources, selRef,
+                            onConcluida, onAcerto, onErro) {
   const feedback = document.createElement('div');
   feedback.className = 'feedback-area';
   feedback.setAttribute('aria-live', 'polite');
@@ -353,16 +387,17 @@ function _appendValidation(container, atv_id, expectedMap, targetMap, onConcluid
 
     expectedMap.forEach((expectedCat, chipId) => {
       total++;
-      /* Procura o chip dentro dos targets */
+
+      /* Verifica se o chip está no slot correto */
       for (const [catName, slot] of targetMap) {
         if (slot.querySelector(`[data-id="${chipId}"]`)) {
           if (catName === expectedCat) corretos++;
           break;
         }
       }
-      /* Chips distratores que ficam nas sources sem categoria real são OK */
+
+      /* Distratorres que ficam nas sources (sem colocar em nenhum slot) = correto */
       if (expectedCat === 'distrator') {
-        /* Verifica se o chip foi parar em algum slot — se não foi, está na fonte (correto) */
         let emSlot = false;
         for (const [, slot] of targetMap) {
           if (slot.querySelector(`[data-id="${chipId}"]`)) { emSlot = true; break; }
@@ -372,6 +407,7 @@ function _appendValidation(container, atv_id, expectedMap, targetMap, onConcluid
     });
 
     feedback.innerHTML = '';
+
     if (corretos === total) {
       feedback.innerHTML = `<div class="feedback feedback-ok" role="alert">Isso aí! Tudo no lugar certo!</div>`;
       setProgress(atv_id, 'concluida');
@@ -379,6 +415,8 @@ function _appendValidation(container, atv_id, expectedMap, targetMap, onConcluid
       if (typeof onAcerto    === 'function') onAcerto();
       if (typeof onConcluida === 'function') onConcluida();
     } else {
+      /* Devolve chips para sources antes de exibir feedback — permite nova tentativa */
+      _returnAllChips(container, sources, selRef);
       feedback.innerHTML = `<div class="feedback feedback-err" role="alert">${corretos} de ${total} certos. Quase! Tenta de novo.</div>`;
       setProgress(atv_id, 'tentativa');
       if (typeof onErro === 'function') onErro();
