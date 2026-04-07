@@ -9,6 +9,8 @@ import { renderHome }           from './home.js';
 import { renderNavegador }      from './navegador.js';
 import { renderAtividade }      from './atividade.js';
 import { renderSobre, renderAcessibilidade } from './paginas.js';
+import { renderPlanos }         from './planos.js';
+import { renderGuia }           from './guia.js';
 import {
   renderSidebar,
   setupMenuToggle,
@@ -55,6 +57,12 @@ async function renderPage(state) {
       break;
     case 'acessibilidade':
       renderAcessibilidade(main, state);
+      break;
+    case 'planos':
+      renderPlanos(main);
+      break;
+    case 'guia':
+      renderGuia(main);
       break;
     default:
       renderHome(main);

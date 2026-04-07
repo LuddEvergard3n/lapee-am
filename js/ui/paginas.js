@@ -7,6 +7,7 @@
 
 import { $ } from './componentes.js';
 import { clearProgress } from '../store.js';
+import { notificar } from '../notificacoes.js';
 
 /**
  * Renderiza a página Sobre.
@@ -304,13 +305,11 @@ export function renderAcessibilidade(main, state) {
     if (btn.dataset.confirming === 'true') {
       /* Segunda vez: executa o reset */
       clearProgress();
-      btn.textContent = 'Progresso apagado!';
-      btn.disabled = true;
+      notificar('Progresso apagado com sucesso.', 'sucesso');
+      btn.textContent = 'Apagar progresso';
+      btn.disabled = false;
       btn.dataset.confirming = 'false';
-      setTimeout(() => {
-        btn.textContent = 'Apagar progresso';
-        btn.disabled = false;
-      }, 3000);
+      btn.classList.remove('btn-danger-confirm');
     } else {
       /* Primeira vez: pede confirmação */
       btn.dataset.confirming = 'true';

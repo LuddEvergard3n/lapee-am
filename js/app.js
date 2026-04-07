@@ -93,6 +93,14 @@ async function main() {
     store.setState({ pagina: 'acessibilidade' });
   });
 
+  router.on('/planos', () => {
+    store.setState({ pagina: 'planos' });
+  });
+
+  router.on('/guia', () => {
+    store.setState({ pagina: 'guia' });
+  });
+
   /* 7. Iniciar roteador */
   router.start();
 }

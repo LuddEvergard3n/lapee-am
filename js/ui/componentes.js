@@ -52,6 +52,8 @@ export function renderSidebar() {
       <ul class="nav-list" role="list">
         <li><a href="#/home"          class="nav-link" data-page="home">Início</a></li>
         <li><a href="#/navegador"     class="nav-link" data-page="navegador">Atividades</a></li>
+        <li><a href="#/guia"          class="nav-link" data-page="guia">Guia do Professor</a></li>
+        <li><a href="#/planos"        class="nav-link" data-page="planos">Plano de Aula</a></li>
         <li><a href="#/sobre"         class="nav-link" data-page="sobre">Sobre</a></li>
         <li><a href="#/acessibilidade" class="nav-link" data-page="acessibilidade">Acessibilidade</a></li>
       </ul>
