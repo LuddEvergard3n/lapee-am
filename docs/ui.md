@@ -1,16 +1,18 @@
 # ui/
 
-M�dulo de renderização da interface. Cada arquivo de página é independente e exporta uma função de render.
+M�dulo de renderização da interface. Cada arquivo de página exporta uma função de render independente.
 
 ## Estrutura
 
 ```
 ui/
 ├── index.js        Orquestrador (init, renderPage)
-├── componentes.js  Utilitários compartilhados
+├── componentes.js  Utilitários e constantes compartilhadas
 ├── home.js         Página inicial
 ├── navegador.js    Navegador de conteúdo
-├── atividade.js    Tela de atividade
+├── atividade.js    Tela de atividade interativa
+├── guia.js         Guia do Professor
+├── planos.js       Gerador de Planos de Aula
 └── paginas.js      Páginas estáticas (Sobre, Acessibilidade)
 ```
 
@@ -23,15 +25,15 @@ import { init, renderPage } from './ui/index.js';
 - `init()` — monta sidebar e menu toggle. Chamado uma vez.
 - `renderPage(state)` — delega para o módulo correto com base em `state.pagina`. É `async` por causa de `renderNavegador`.
 
-## componentes.js
+Páginas registradas: `home`, `navegador`, `atividade`, `guia`, `planos`, `sobre`, `acessibilidade`.
 
-Utilitários e constantes compartilhadas por todas as páginas.
+## componentes.js
 
 | Export | Tipo | Descrição |
 |--------|------|-----------|
 | `$` | `(id) → Element` | Atalho para `getElementById` |
 | `esc(str)` | `string → string` | Escapa `& < > " '` para uso em `innerHTML` |
-| `COMPONENTE_LABEL` | `object` | Mapa `{ LP: 'Língua Portuguesa', ... }` |
+| `COMPONENTE_LABEL` | `object` | `{ LP: 'Língua Portuguesa', ... }` |
 | `NIVEL_LABEL` | `object` | `{ 1: 'Mais fácil', 2: 'Normal', 3: 'Desafio' }` |
 | `NIVEL_ABBR` | `object` | `{ 1: 'N1', 2: 'N2', 3: 'N3' }` |
 | `renderSidebar()` | `void` | Injeta links de navegação na sidebar |
@@ -39,37 +41,59 @@ Utilitários e constantes compartilhadas por todas as páginas.
 | `setupMenuToggle()` | `void` | Registra eventos do menu mobile |
 | `updateBreadcrumb(state)` | `void` | Atualiza a trilha de localização na topbar |
 
-**`esc()` deve ser aplicado a todo campo JSON interpolado via `innerHTML`.** Nunca interpolar diretamente.
+**`esc()` deve ser aplicado a todo campo JSON interpolado via `innerHTML`.**
 
 ## home.js
 
-Renderiza a página inicial. Componentes:
-
-- **Hero** com mascote Lua (animada com base no progresso)
-- **Cards de matéria** — clique navega para o navegador com componente pré-selecionado via `navigate('/navegador')` (registra no histórico do browser)
-- **Seção de conquistas** — grade de emblemas para o ano atual, com badge de contagem no hero
+- **Hero** com mascote Lua animada com base no progresso do ano atual
+- **Cards de matéria** — clique usa `navigate('/navegador')` (registra no histórico do browser)
+- **Seção de conquistas** — grade de emblemas por componente
 - **Seção "Como funciona"**
 
 ## navegador.js
 
-Renderiza seletor de ano/componente e lista de unidades.
-
 - Async: faz `load(componente, ano)` se necessário antes de renderizar
-- `_cardUnidade()` gera a trilha de estrelas lendo o progresso via `getProgress`
 - Mudança de `sel-ano`: `setState({ano, componente: null})` + `navigate('/navegador')`
 - Mudança de `sel-comp`: `await load(comp, ano)` + `setState({componente})` + `navigate('/navegador')`
+- navKey garante que o segundo navigate não cause duplo render
+- `_cardUnidade()` gera a trilha de estrelas lendo o progresso via `getProgress`
 
 ## atividade.js
 
-Renderiza a tela completa de atividade: tabs de nível, metadados, controles DUA, motor e painel do professor.
-
 - `_despacharMotor()` cria a área com mascote e chama o motor correto com `opts = { onConcluida, onAcerto, onErro }`
 - Botão "Para o professor" manipula DOM diretamente (sem `setState`) para não destruir o motor
-- `_mostrarBannerConcluida()` exibe banner com link para o navegador; checa duplicatas antes de inserir
+- Botão "Ouvir" alterna entre "Ouvir" e "Ouvindo..." com `isSpeaking()` + `opts.onEnd`; cancela ao clicar de novo ou ao navegar (`hashchange { once: true }`)
+- `_mostrarBannerConcluida()` checa duplicatas antes de inserir
+
+## guia.js
+
+Layout flexbox: sidebar de 200px (`flex-shrink: 0`, `position: sticky`) + conteúdo (`flex: 1`, `min-width: 0`). Sidebar com grupos de seção não-clicáveis e links de âncora interna.
+
+`IntersectionObserver` marca o link ativo conforme o professor rola a página (`rootMargin: '-20% 0px -70% 0px'`). O observer é desconectado no `hashchange { once: true }` para não acumular entre visitas à página.
+
+Scroll suave para âncoras via `scrollIntoView({ behavior: 'smooth' })` no listener dos links, com `e.preventDefault()` para não deixar o browser fazer scroll nativo sem suavização.
+
+Conteúdo: contextualização, tabela de níveis, tabela de inclusão, três cards de modo de uso, cinco atividades prontas para sala com meta-tags e variantes, seção BNCC, limitações.
+
+## planos.js
+
+Gerador de planos de aula 100% client-side. Zero fetch, zero API, funciona offline.
+
+**Dados embutidos como literais JS:**
+- 445 habilidades BNCC reais (EF I, 1º ao 5º ano), 6 componentes
+- Objetos de Conhecimento por componente/ano
+- Presets pedagógicos de Objetivos, Metodologia, Recursos e Avaliação
+
+**Formulário:** identificação (escola, professor, turma, componente, ano, bimestre, nº aulas, duração) + checkboxes filtrados por componente/ano + textareas livres por seção + referências e observações.
+
+**Carga horária** calculada automaticamente via closure local (`calcCarga`) — sem poluição do namespace `window`. Listeners registrados via JS puro (`addEventListener`), sem `onchange` inline no HTML.
+
+**Preview ao vivo:** `_gerar()` é chamada no `input` e `change` do form inteiro. Constrói o HTML do documento proceduralmente, incluindo tabela de metadados, seções com título em fundo preto, lista de habilidades com código BNCC destacado, assinatura.
+
+**Exportação:** `window.print()`. O `@media print` no CSS esconde o painel do formulário e formata o documento em A4 (`padding: 1.5cm 2cm`, `font-size: 10pt`).
 
 ## paginas.js
 
-Páginas estáticas. Importa `clearProgress` de `store.js`.
-
-- `renderSobre()` — documentação técnica e pedagógica (linguagem técnica)
+- `renderSobre()` — duas seções novas: "Inclusão total" (princípio de design universal) e "Sobre o Nome: Amos Comenius" (histórico e justificativa do nome)
 - `renderAcessibilidade(main, state)` — toggles de prefs + botão de reset de progresso com confirmação em dois cliques
+- Importa `notificar` de `notificacoes.js` para toast após reset

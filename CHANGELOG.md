@@ -7,7 +7,38 @@ Versionamento: [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ---
 
-## [1.8.1] — 2026-03-09
+## [1.12.0] — 2026-04-07
+
+### Corrigido
+
+- **`ui/planos.js`** — `window._calcCarga` poluía o namespace global (`window`) a cada render da página. Substituído por closure local `calcCarga` registrada via `addEventListener` nos selects de nº de aulas e duração. Atributos `onchange` inline no HTML removidos.
+- **`ui/guia.js`** — `IntersectionObserver` não era desconectado ao navegar para outra página, acumulando observers a cada visita ao guia. Adicionado `window.addEventListener('hashchange', () => observer.disconnect(), { once: true })`.
+
+### Documentação
+
+- **`docs/`** — Todos os 11 arquivos de documentação técnica reescritos para refletir o estado atual da plataforma: `ui.md` (inclui `guia.js` e `planos.js`), `app.md` (7 rotas), `store.md` (inclui `somAtivado`), `activities.md` (comportamento de reset no arrastar), `dataLoader.md`, `tts.md`, `a11y.md` (inclui `toggleSom`), `router.md`, `recorder.md`, `notificacoes.md` (novo), `sound.md` (novo), `css.md` (seções atualizadas).
+
+---
+
+## [1.11.0] — 2026-04-07
+
+### Adicionado
+
+- **`js/ui/guia.js`** — Guia do Professor: layout flexbox com sidebar sticky de 200px e área de conteúdo `flex: 1`. Sidebar com grupos de seção não-clicáveis e links de âncora interna. `IntersectionObserver` marca link ativo conforme o scroll (desconectado no `hashchange`). Conteúdo: contextualização, tabela de níveis N1/N2/N3, tabela de inclusão por situação real do aluno, três cards de modo de uso, cinco atividades prontas para sala com meta-tags e variantes, seção BNCC, limitações conhecidas.
+- **Rota `/guia`** e link "Guia do Professor" na sidebar (entre Atividades e Plano de Aula).
+- **CSS** — seção `.guia-*`: sidebar sticky, grupos de navegação, cards de atividade com header colorido, meta-tags, callouts de dois níveis (aviso em ocre, nota em índigo), responsivo em 860px.
+
+---
+
+## [1.10.1] — 2026-04-07
+
+### Alterado
+
+- **`js/ui/planos.js`** — Gerador de planos de aula completamente refeito. Abordagem anterior: chamada à API Anthropic. Abordagem atual: 100% client-side, zero fetch, funciona offline. Dados embutidos: 445 habilidades BNCC reais extraídas do PDF oficial do MEC (1º ao 5º ano, 6 componentes), Objetos de Conhecimento por componente/ano, presets pedagógicos de Objetivos/Metodologia/Recursos/Avaliação. Checkboxes filtrados por componente e ano. Preview ao vivo em dois painéis. Carga horária calculada automaticamente. Exportação via `window.print()` com CSS de impressão formatado em A4.
+
+---
+
+## [1.10.0] — 2026-04-06
 
 ### Corrigido
 

@@ -6,41 +6,38 @@
     "unidade_id": "his-1-u1",
     "unidade_titulo": "Eu e Minha Família",
     "habilidade_bncc_codigo": "EF01HI01",
-    "referencia_cbtc": "CBTC-SC: HIS.EF1.T.01 — Identidade pessoal e história familiar",
-    "objetivo": "Identificar pessoas da família e seus papéis.",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.H.01",
+    "objetivo": "Reconhecer diferentes tipos de família.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Quem é a pessoa que cuida de você em casa e te leva para a escola?",
+    "tempo_medio_min": 4,
+    "enunciado": "Quem faz parte de uma família?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "Quem cuida de você e te leva para a escola?",
       "opcoes": [
-        "Um familiar — como pai, mãe, avó ou responsável",
-        "O diretor da escola",
-        "O médico",
-        "O vizinho"
+        "Só pai e mãe",
+        "Pessoas que se amam e vivem juntas",
+        "Apenas parentes com o mesmo sobrenome",
+        "Somente pessoas que moram na mesma casa"
       ],
-      "resposta_correta": 0
+      "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Reconhece o papel dos familiares e responsáveis no cotidiano."
+      "Compreende que família é definida por afeto e convivência."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode adaptar para a realidade da criança: quem te traz para a escola?",
-      "resposta": "Clica na resposta certa.",
-      "engajamento": "Pensa: quem te acorda de manhã? Quem te leva para a escola? Quem é essa pessoa?"
+      "apresentacao": "Perguntar quem mora com o aluno antes da atividade.",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Pensa na sua família. Ela é igual à do seu amigo?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Reconhecer a família como grupo social de convívio e cuidado.",
-      "gabarito": "Um familiar ou responsável. Respeite a diversidade de arranjos familiares da turma.",
+      "gabarito": "Pessoas que se amam e vivem juntas.",
+      "objetivo_pedagogico": "Ampliar o conceito de família para além do modelo nuclear.",
       "perguntas_orientadoras": [
-        "Quem mora com você?",
-        "Quem te cuida quando você está doente?",
-        "Toda família é igual? Por que não?"
+        "Sua família é igual à do seu colega?",
+        "Uma vovó que cria os netos é uma família?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: questão próxima da realidade vivida, sem abstração temporal."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de conceito amplo."
     }
   },
   {
@@ -50,19 +47,18 @@
     "unidade_id": "his-1-u1",
     "unidade_titulo": "Eu e Minha Família",
     "habilidade_bncc_codigo": "EF01HI01",
-    "referencia_cbtc": "CBTC-SC: HIS.EF1.T.01 — Identidade pessoal e história familiar",
-    "objetivo": "Ordenar eventos da rotina familiar ao longo do dia.",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.H.01",
+    "objetivo": "Ordenar momentos de uma rotina familiar.",
     "nivel": 2,
     "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 7,
-    "enunciado": "Coloca essas coisas na ordem em que acontecem num dia normal na sua casa.",
+    "tempo_medio_min": 6,
+    "enunciado": "Coloca os momentos do dia de uma família na ordem certa.",
     "conteudo_base": {
-      "tipo": "ordenacao",
       "itens": [
         "Acordar e tomar café da manhã",
-        "Ir para a escola",
-        "Almoçar em família",
-        "Brincar ou fazer tarefa",
+        "Ir para a escola ou trabalho",
+        "Almoçar juntos",
+        "Brincar ou descansar à tarde",
         "Jantar e ir dormir"
       ],
       "ordem_correta": [
@@ -74,24 +70,21 @@
       ]
     },
     "criterios_sucesso": [
-      "Ordena os eventos respeitando a sequência lógica do dia.",
-      "Demonstra noção de antes e depois."
+      "Ordena rotina doméstica com lógica temporal."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor lê cada evento em voz alta. Pergunta: isso acontece de manhã ou de noite?",
-      "resposta": "Arrasta os eventos para colocar na ordem certa. Pode usar as setinhas.",
-      "engajamento": "Pensa no seu dia de hoje. O que aconteceu primeiro? E depois?"
+      "apresentacao": "Perguntar o que o aluno faz logo que acorda.",
+      "resposta": "Arrastar os itens na ordem certa.",
+      "engajamento": "O que vem primeiro: o café ou o jantar?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Construir noção de sequência temporal a partir da rotina familiar.",
-      "gabarito": "Ordem sugerida baseada na rotina típica. Aceite variações justificadas pelo aluno.",
+      "gabarito": "Acordar → Escola → Almoço → Tarde → Jantar.",
+      "objetivo_pedagogico": "Desenvolver noção de temporalidade e rotina.",
       "perguntas_orientadoras": [
-        "O que acontece antes de ir para a escola?",
-        "Você janta antes ou depois de ir dormir?",
-        "O que acontece primeiro no seu dia: acordar ou almoçar?"
+        "O que muda na rotina nos fins de semana?"
       ],
-      "tempo_estimado": "7 minutos",
-      "adaptacao_nivel": "Nível 2: sequência temporal com 5 eventos cotidianos, base para noção de cronologia."
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "N2: cinco etapas cronológicas."
     }
   },
   {
@@ -101,47 +94,48 @@
     "unidade_id": "his-1-u1",
     "unidade_titulo": "Eu e Minha Família",
     "habilidade_bncc_codigo": "EF01HI01",
-    "referencia_cbtc": "CBTC-SC: HIS.EF1.T.01 — Identidade pessoal e história familiar",
-    "objetivo": "Descrever uma tradição ou costume da própria família.",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.H.01",
+    "objetivo": "Descrever um costume da própria família.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
-    "enunciado": "Toda família tem seus costumes — coisas que faz sempre. Escreve sobre um costume da sua família. O que vocês fazem juntos sempre?",
+    "enunciado": "Toda família tem seus costumes. Escreve sobre um costume especial da sua família.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "Um costume da minha família.",
       "campos": [
         {
-          "id": "costume",
-          "label": "O que a minha família faz sempre juntos:",
-          "max": 200
+          "id": "cos",
+          "label": "Um costume da minha família:",
+          "max": 100
         },
         {
-          "id": "sentimento",
-          "label": "Como você se sente quando isso acontece:",
-          "max": 100
+          "id": "qdo",
+          "label": "Quando isso acontece:",
+          "max": 80
+        },
+        {
+          "id": "sen",
+          "label": "Como me sinto quando isso acontece:",
+          "max": 80
         }
       ]
     },
     "criterios_sucesso": [
-      "Descreve um costume ou tradição familiar com algum detalhe.",
-      "Expressa sentimento relacionado ao convívio familiar."
+      "Descreve um costume familiar com contexto temporal e emocional."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode dar exemplos: almoço de domingo, rezar antes de dormir, ver um filme juntos.",
-      "resposta": "Escreve nos dois campos.",
-      "engajamento": "Tem alguma coisa especial que a sua família faz todo fim de semana, ou todo aniversário?"
+      "apresentacao": "Dar exemplos: almoço de domingo, festa de aniversário.",
+      "resposta": "Escrever em frases simples.",
+      "engajamento": "Sua família tem algo especial que faz sempre?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Valorizar a memória e identidade familiar como fonte histórica pessoal.",
-      "gabarito": "Resposta pessoal. Valorize qualquer tradição mencionada, respeitando a diversidade familiar.",
+      "gabarito": "Resposta pessoal. Valorizar qualquer costume com contexto e sentimento.",
+      "objetivo_pedagogico": "Desenvolver identidade cultural pelo registro de memórias familiares.",
       "perguntas_orientadoras": [
-        "Tem alguma comida que só a sua avó faz?",
-        "O que vocês fazem nas festas de aniversário?",
-        "Tem algo que sua família faz que você acha que é só da sua família?"
+        "De onde veio esse costume?",
+        "Como você se sente quando a família está reunida?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3 (desafio): narrativa pessoal com expressão de afeto, conecta história pessoal à história coletiva."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita pessoal com três dimensões."
     }
   },
   {
@@ -150,13 +144,13 @@
     "componente": "História",
     "unidade_id": "his-1-u2",
     "unidade_titulo": "O Tempo e a Memória",
-    "habilidade_bncc_codigo": "EF01HI03",
-    "referencia_cbtc": "CBTC-SC: HIS.EF1.T.02 — Noção de tempo: antes, agora, depois",
-    "objetivo": "Desenvolver habilidades de o tempo e a memória.",
+    "habilidade_bncc_codigo": "EF01HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.H.02",
+    "objetivo": "Distinguir passado, presente e futuro.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual palavra indica que algo aconteceu no passado?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual palavra indica uma coisa que já aconteceu?",
     "conteudo_base": {
       "opcoes": [
         "Amanhã",
@@ -167,23 +161,21 @@
       "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Distingue marcadores temporais de passado, presente e futuro."
+      "Identifica 'ontem' como referência ao passado."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa: qual dessas palavras indica um tempo que já passou?"
+      "apresentacao": "Escrever ONTEM — HOJE — AMANHÃ na lousa e explicar cada um.",
+      "resposta": "Clique na palavra que indica o passado.",
+      "engajamento": "O que você fez ontem? Isso já passou?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar o tempo e a memória de forma progressiva.",
-      "gabarito": "Ontem — indica o dia anterior, portanto passado.",
+      "gabarito": "Ontem — refere-se ao dia anterior, ao passado.",
+      "objetivo_pedagogico": "Compreender marcadores temporais básicos.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que você vai fazer amanhã? Isso já aconteceu?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de marcador temporal."
     }
   },
   {
@@ -192,20 +184,20 @@
     "componente": "História",
     "unidade_id": "his-1-u2",
     "unidade_titulo": "O Tempo e a Memória",
-    "habilidade_bncc_codigo": "EF01HI03",
-    "referencia_cbtc": "CBTC-SC: HIS.EF1.T.02 — Noção de tempo: antes, agora, depois",
-    "objetivo": "Desenvolver habilidades de o tempo e a memória.",
+    "habilidade_bncc_codigo": "EF01HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.H.02",
+    "objetivo": "Ordenar eventos pessoais no tempo.",
     "nivel": 2,
     "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 5,
-    "enunciado": "Coloca os momentos do dia na ordem certa, do começo ao fim.",
+    "tempo_medio_min": 6,
+    "enunciado": "Coloca esses momentos da vida de uma criança na ordem em que acontecem.",
     "conteudo_base": {
       "itens": [
-        "Acordar e tomar café",
-        "Ir para a escola",
-        "Almoçar",
-        "Brincar à tarde",
-        "Dormir"
+        "Nascer",
+        "Aprender a engatinhar",
+        "Dar os primeiros passos",
+        "Começar a falar",
+        "Ir para a escola"
       ],
       "ordem_correta": [
         0,
@@ -216,23 +208,21 @@
       ]
     },
     "criterios_sucesso": [
-      "Ordena eventos cotidianos em sequência temporal."
+      "Ordena eventos do desenvolvimento infantil em sequência cronológica."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa em como é o seu dia, do começo ao fim."
+      "apresentacao": "Mostrar fotos ou desenhos de cada etapa.",
+      "resposta": "Arrastar os itens na ordem certa.",
+      "engajamento": "Você nasceu antes ou depois de aprender a andar?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar o tempo e a memória de forma progressiva.",
-      "gabarito": "Manhã → escola → almoço → tarde → noite.",
+      "gabarito": "Nascer → Engatinhar → Primeiros passos → Falar → Escola.",
+      "objetivo_pedagogico": "Construir noção de sequência temporal pessoal.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Quem te contou essas histórias da sua vida?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "N2: cinco etapas biologicamente ordenadas."
     }
   },
   {
@@ -241,46 +231,43 @@
     "componente": "História",
     "unidade_id": "his-1-u2",
     "unidade_titulo": "O Tempo e a Memória",
-    "habilidade_bncc_codigo": "EF01HI03",
-    "referencia_cbtc": "CBTC-SC: HIS.EF1.T.02 — Noção de tempo: antes, agora, depois",
-    "objetivo": "Desenvolver habilidades de o tempo e a memória.",
+    "habilidade_bncc_codigo": "EF01HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.H.02",
+    "objetivo": "Registrar uma memória e refletir sobre mudança no tempo.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Escreve uma memória que você tem de quando era menor. O que era diferente? O que mudou?",
+    "tempo_medio_min": 10,
+    "enunciado": "Pensa em algo que você fazia quando era menor e já não faz mais. Escreve sobre essa memória.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "memoria",
-          "label": "Minha memória:",
-          "max": 200
+          "id": "mem",
+          "label": "O que eu fazia quando era menor:",
+          "max": 120
         },
         {
-          "id": "mudanca",
+          "id": "mud",
           "label": "O que mudou desde então:",
-          "max": 150
+          "max": 120
         }
       ]
     },
     "criterios_sucesso": [
-      "Narra memória pessoal com marcadores temporais.",
-      "Reflete sobre mudança no tempo."
+      "Descreve memória com referência temporal. Identifica mudança passado/presente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa num brinquedo antigo, numa roupa, numa casa... O que era diferente?"
+      "apresentacao": "Exemplo: quando era bebê usava fralda, agora não usa mais.",
+      "resposta": "Escrever em frases simples.",
+      "engajamento": "Você se lembra de algo que fazia de bebê?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar o tempo e a memória de forma progressiva.",
-      "gabarito": "Memória com indicadores temporais e reflexão sobre mudança.",
+      "gabarito": "Resposta pessoal. Exemplos: chupeta, cama dos pais, não sabia escrever.",
+      "objetivo_pedagogico": "Desenvolver consciência de si no tempo.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Como você sabe que isso aconteceu no passado?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre mudança temporal pessoal."
     }
   }
 ]

@@ -1,167 +1,126 @@
 [
   {
-    "id": "mat-001-n1",
+    "id": "mat-3-u1-n1",
     "ano": 3,
     "componente": "Matemática",
-    "unidade_id": "mat-001",
-    "unidade_titulo": "Sistema Decimal e Agrupamento",
-    "habilidade_bncc_codigo": "EF03MA03",
-    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
-    "objetivo": "Identificar a composição de números de três algarismos em centenas, dezenas e unidades.",
+    "unidade_id": "mat-3-u1",
+    "unidade_titulo": "Multiplicação",
+    "habilidade_bncc_codigo": "EF03MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Multiplicação como adição repetida e tabuada",
+    "objetivo": "Calcular o resultado de uma multiplicação simples da tabuada.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 4,
-    "enunciado": "Observe o número 347. Marque a opção que mostra sua composição correta.",
+    "enunciado": "Qual é o resultado de 6 × 4?",
     "conteudo_base": {
-      "numero": 347,
-      "opcoes": [
-        "3 centenas, 7 dezenas e 4 unidades",
-        "3 centenas, 4 dezenas e 7 unidades",
-        "4 centenas, 3 dezenas e 7 unidades",
-        "7 centenas, 4 dezenas e 3 unidades"
-      ],
-      "resposta_correta": 1
+      "opcoes": ["20", "22", "24", "26"],
+      "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Identifica o valor posicional de cada algarismo",
-      "Associa algarismo à sua posição (centena, dezena, unidade)"
+      "Calcula 6 × 4 = 24 corretamente.",
+      "Reconhece a multiplicação como adição repetida como estratégia de verificação."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Número exibido em tamanho grande; cada dígito colorido por posição; áudio explica enunciado.",
-      "resposta": "Seleção por clique; sem digitação.",
-      "engajamento": "Dica: exibe o número com cada dígito numa caixinha colorida (C/D/U) para apoiar a leitura posicional."
+      "apresentacao": "Professor pode ter a tabuada exposta na sala como referência.",
+      "resposta": "Clique no resultado correto.",
+      "engajamento": "Dica: 6 × 4 é o mesmo que somar 6 quatro vezes. 6 + 6 + 6 + 6 = ?"
     },
     "modo_professor": {
-      "gabarito": "Opção B: 3 centenas, 4 dezenas e 7 unidades.",
-      "objetivo_pedagogico": "Consolidar a leitura posicional de números no sistema decimal.",
+      "gabarito": "Opção C: 24.",
+      "objetivo_pedagogico": "Consolidar memorização da tabuada e a compreensão de multiplicação como adição repetida.",
       "perguntas_orientadoras": [
-        "Qual dígito está na posição das centenas?",
-        "Se eu trocar o 4 pelo 7, o número aumenta ou diminui?"
+        "Qual outra tabuada também dá 24?",
+        "6 × 4 é diferente de 4 × 6? Por quê?",
+        "Como a adição repetida ajuda a verificar a resposta?"
       ],
       "tempo_estimado": "3 a 5 minutos",
-      "adaptacao_nivel": "Nível 1 (Apoio): número dado, 4 opções com distratores de transposição de dígitos."
+      "adaptacao_nivel": "Nível 1: tabuada direta, distratores próximos (±2)."
     }
   },
   {
-    "id": "mat-001-n2",
+    "id": "mat-3-u1-n2",
     "ano": 3,
     "componente": "Matemática",
-    "unidade_id": "mat-001",
-    "unidade_titulo": "Sistema Decimal e Agrupamento",
-    "habilidade_bncc_codigo": "EF03MA03",
-    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
-    "objetivo": "Compor e decompor números de três algarismos identificando reagrupamentos.",
+    "unidade_id": "mat-3-u1",
+    "unidade_titulo": "Multiplicação",
+    "habilidade_bncc_codigo": "EF03MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.02 — Processo de resolução de problemas multiplicativos",
+    "objetivo": "Ordenar os passos de resolução de um problema de multiplicação.",
     "nivel": 2,
-    "tipo_evidencia": "arrastar",
+    "tipo_evidencia": "ordenar",
     "tempo_medio_min": 6,
-    "enunciado": "Arraste cada grupo de blocos para a coluna correta (Centenas, Dezenas ou Unidades) para formar o número 253.",
+    "enunciado": "Coloca os passos para resolver 'Uma caixa tem 8 laranjas. Há 5 caixas. Quantas laranjas no total?' na ordem correta.",
     "conteudo_base": {
-      "numero": 253,
-      "blocos": [
-        {
-          "id": "b1",
-          "valor": 200,
-          "label": "2 blocos de 100",
-          "posicao": "centenas"
-        },
-        {
-          "id": "b2",
-          "valor": 50,
-          "label": "5 blocos de 10",
-          "posicao": "dezenas"
-        },
-        {
-          "id": "b3",
-          "valor": 3,
-          "label": "3 blocos de 1",
-          "posicao": "unidades"
-        },
-        {
-          "id": "b4",
-          "valor": 20,
-          "label": "2 blocos de 10",
-          "posicao": "distrator"
-        },
-        {
-          "id": "b5",
-          "valor": 500,
-          "label": "5 blocos de 100",
-          "posicao": "distrator"
-        }
+      "itens": [
+        "Resposta: há 40 laranjas no total.",
+        "Identificar a operação adequada: multiplicação.",
+        "Montar a conta: 8 × 5.",
+        "Ler e entender o problema."
       ],
-      "colunas": [
-        "centenas",
-        "dezenas",
-        "unidades"
+      "ordem_correta": [3, 1, 2, 0]
+    },
+    "criterios_sucesso": [
+      "Ordena os passos: leitura → operação → conta → resposta.",
+      "Compreende o processo metódico de resolução de problemas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode discutir os quatro passos gerais de resolução de problemas antes.",
+      "resposta": "Arrasta os blocos para a ordem correta.",
+      "engajamento": "Dica: antes de resolver qualquer conta, o que você precisa fazer primeiro? E o que vem depois de calcular?"
+    },
+    "modo_professor": {
+      "gabarito": "Ler o problema → identificar a operação → montar a conta → escrever a resposta.",
+      "objetivo_pedagogico": "Desenvolver processo sistemático de resolução de problemas matemáticos.",
+      "perguntas_orientadoras": [
+        "Por que identificar a operação vem antes de montar a conta?",
+        "O que acontece se você pular a leitura do problema?",
+        "Você usa esses passos quando resolve problemas?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2: quatro passos metodológicos com justificativa procedimental."
+    }
+  },
+  {
+    "id": "mat-3-u1-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u1",
+    "unidade_titulo": "Multiplicação",
+    "habilidade_bncc_codigo": "EF03MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.03 — Criação e resolução de problemas multiplicativos",
+    "objetivo": "Criar e resolver um problema de multiplicação.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Cria um problema que use a multiplicação 7 × 9. Depois resolve e explica o seu raciocínio.",
+    "conteudo_base": {
+      "campos": [
+        { "id": "problema", "label": "Meu problema:", "max": 200 },
+        { "id": "conta",    "label": "A conta:",      "max": 40  },
+        { "id": "resultado","label": "Resultado:",    "max": 40  },
+        { "id": "raciocinio","label": "Como pensei:", "max": 150 }
       ]
     },
     "criterios_sucesso": [
-      "Associa cada grupo de blocos à coluna correta",
-      "Descarta blocos que não compõem o número alvo"
+      "Cria problema coerente usando a multiplicação 7 × 9.",
+      "Calcula 7 × 9 = 63 corretamente.",
+      "Explica o raciocínio com clareza."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Blocos representados visualmente com contagem numérica; áudio descreve cada bloco.",
-      "resposta": "Arrastar e soltar; alternativa: selecionar bloco e depois selecionar coluna.",
-      "engajamento": "Dica: soma parcial exibida ao soltar cada bloco na coluna."
+      "apresentacao": "Professor pode sugerir contextos: turmas de alunos, prateleiras de produtos, fileiras de assentos.",
+      "resposta": "Preenche os quatro campos.",
+      "engajamento": "Dica: pensa em algo que vem em grupos de 7. Quantos grupos você vai usar? 9!"
     },
     "modo_professor": {
-      "gabarito": "Centenas: '2 blocos de 100'; Dezenas: '5 blocos de 10'; Unidades: '3 blocos de 1'. Blocos distratores devem permanecer fora.",
-      "objetivo_pedagogico": "Consolidar decomposição aditiva e a ideia de agrupamento por potências de 10.",
+      "gabarito": "7 × 9 = 63. Qualquer problema coerente. Ex.: 7 alunos em cada fileira, 9 fileiras = 63 alunos.",
+      "objetivo_pedagogico": "Desenvolver criação de contextos multiplicativos e comunicação matemática.",
       "perguntas_orientadoras": [
-        "Quantas vezes o 10 cabe no 50?",
-        "Por que o bloco de 500 não pode entrar?"
+        "Como você escolheu o contexto?",
+        "Seu problema está claro o suficiente para outra pessoa resolver?",
+        "7 × 9 é igual a 9 × 7? Como você sabe?"
       ],
-      "tempo_estimado": "5 a 7 minutos",
-      "adaptacao_nivel": "Nível 2 (Básico): blocos com distratores, exige seleção e descarte consciente."
-    }
-  },
-  {
-    "id": "mat-001-n3",
-    "ano": 3,
-    "componente": "Matemática",
-    "unidade_id": "mat-001",
-    "unidade_titulo": "Sistema Decimal e Agrupamento",
-    "habilidade_bncc_codigo": "EF03MA03",
-    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01 — Números naturais: leitura, escrita e composição no sistema decimal",
-    "objetivo": "Resolver situação-problema que exige reagrupamento no sistema decimal.",
-    "nivel": 3,
-    "tipo_evidencia": "escrever",
-    "tempo_medio_min": 7,
-    "enunciado": "Uma caixa tem 10 compartimentos. Cada compartimento guarda 10 bolinhas. Já temos 8 compartimentos cheios e mais 14 bolinhas soltas. Quantas bolinhas temos no total? Mostre como você pensou.",
-    "conteudo_base": {
-      "campos": [
-        {
-          "label": "Total de bolinhas:",
-          "id": "total",
-          "max": 10
-        },
-        {
-          "label": "Como você pensou (explique com números ou palavras):",
-          "id": "raciocinio",
-          "max": 200
-        }
-      ],
-      "resposta_esperada": 94
-    },
-    "criterios_sucesso": [
-      "Calcula 8 × 10 = 80 corretamente",
-      "Soma 80 + 14 = 94",
-      "Explica o reagrupamento (14 unidades = 1 dezena + 4 unidades)"
-    ],
-    "adaptacoes_dua": {
-      "apresentacao": "Ilustração de caixas e bolinhas disponível; enunciado em áudio.",
-      "resposta": "Dois campos: resultado numérico e explicação em texto ou oral.",
-      "engajamento": "Dica: mostra uma tabela C/D/U em branco para o aluno preencher mentalmente."
-    },
-    "modo_professor": {
-      "gabarito": "94 bolinhas. Raciocínio esperado: 8 × 10 = 80; 80 + 14 = 94. Ou: 8 grupos de 10 + 1 grupo de 10 + 4 = 9 dezenas + 4 = 94.",
-      "objetivo_pedagogico": "Aplicar reagrupamento em contexto de resolução de problemas com multiplicação e adição.",
-      "perguntas_orientadoras": [
-        "As 14 bolinhas soltas cabem num compartimento inteiro?",
-        "Quantas dezenas e unidades temos no total?"
-      ],
-      "tempo_estimado": "6 a 8 minutos",
-      "adaptacao_nivel": "Nível 3 (Ampliação): problema contextualizado, exige cálculo e explicação do processo."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "Nível 3: criação de problema + resolução + explicação do raciocínio."
     }
   },
   {
@@ -169,44 +128,37 @@
     "ano": 3,
     "componente": "Matemática",
     "unidade_id": "mat-3-u2",
-    "unidade_titulo": "Multiplicação",
-    "habilidade_bncc_codigo": "EF03MA07",
-    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.02 — Multiplicação como adição de parcelas iguais",
-    "objetivo": "Desenvolver habilidades de multiplicação.",
+    "unidade_titulo": "Introdução às Frações",
+    "habilidade_bncc_codigo": "EF03MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.04 — Fração como parte de um inteiro",
+    "objetivo": "Identificar a fração que representa uma parte de um inteiro dividido em partes iguais.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 5,
-    "enunciado": "Qual das opções representa o mesmo que 3 + 3 + 3 + 3?",
+    "enunciado": "Uma pizza foi dividida em 4 partes iguais. João comeu 1 parte. Que fração da pizza ele comeu?",
     "conteudo_base": {
-      "opcoes": [
-        "3 x 3",
-        "4 x 3",
-        "3 x 4",
-        "12 x 1"
-      ],
-      "respostas_corretas": [
-        1,
-        2
-      ]
+      "opcoes": ["1/2", "1/3", "1/4", "2/4"],
+      "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Reconhece multiplicação como adição repetida."
+      "Identifica que 1 parte de 4 = 1/4.",
+      "Compreende o papel do numerador e do denominador no contexto."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Conta quantas vezes o 3 aparece. Essa é a quantidade de grupos."
+      "apresentacao": "Professor pode desenhar a pizza dividida em 4 partes no quadro.",
+      "resposta": "Clique na fração correta.",
+      "engajamento": "Dica: o número de baixo mostra em quantas partes foi dividida. O de cima, quantas partes foram comidas."
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar multiplicação de forma progressiva.",
-      "gabarito": "4 x 3 e 3 x 4 — multiplicação é comutativa.",
+      "gabarito": "Opção C: 1/4 — 1 parte de 4 iguais.",
+      "objetivo_pedagogico": "Introduzir fração como parte de um inteiro em contexto concreto e familiar.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que o número 4 representa na fração?",
+        "Se João comesse 2 partes, qual seria a fração?",
+        "1/4 é mais ou menos que 1/2?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "Nível 1: fração unitária simples, contexto familiar, distrator 2/4 como pegadinha."
     }
   },
   {
@@ -214,48 +166,41 @@
     "ano": 3,
     "componente": "Matemática",
     "unidade_id": "mat-3-u2",
-    "unidade_titulo": "Multiplicação",
-    "habilidade_bncc_codigo": "EF03MA07",
-    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.02 — Multiplicação como adição de parcelas iguais",
-    "objetivo": "Desenvolver habilidades de multiplicação.",
+    "unidade_titulo": "Introdução às Frações",
+    "habilidade_bncc_codigo": "EF03MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.05 — Associação entre linguagem verbal e notação fracionária",
+    "objetivo": "Associar descrições verbais às frações correspondentes.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Liga cada situação ao resultado correto da multiplicação.",
+    "tempo_medio_min": 7,
+    "enunciado": "Arrasta cada descrição para a fração correta.",
     "conteudo_base": {
       "pares": [
-        {
-          "elemento": "5 caixas com 4 maçãs cada",
-          "nome": "20"
-        },
-        {
-          "elemento": "3 fileiras de 6 cadeiras",
-          "nome": "18"
-        },
-        {
-          "elemento": "7 times com 2 jogadores",
-          "nome": "14"
-        }
+        { "elemento": "Metade de um inteiro",          "nome": "1/2" },
+        { "elemento": "Um terço de um inteiro",         "nome": "1/3" },
+        { "elemento": "Três quartos de um inteiro",     "nome": "3/4" },
+        { "elemento": "Dois quintos de um inteiro",     "nome": "2/5" }
       ]
     },
     "criterios_sucesso": [
-      "Resolve situações de multiplicação em contexto."
+      "Associa corretamente os quatro pares descrição-fração.",
+      "Demonstra compreensão de numerador e denominador."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Multiplica os dois números de cada situação."
+      "apresentacao": "Professor pode ter retângulos divididos em partes coloridas como referência visual.",
+      "resposta": "Arrasta cada descrição para o destino certo.",
+      "engajamento": "Dica: 'terço' vem de três; 'quarto' vem de quatro. Isso já revela o denominador!"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar multiplicação de forma progressiva.",
-      "gabarito": "5x4=20, 3x6=18, 7x2=14.",
+      "gabarito": "Metade = 1/2; terço = 1/3; três quartos = 3/4; dois quintos = 2/5.",
+      "objetivo_pedagogico": "Consolidar associação entre linguagem verbal e notação fracionária.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que 3/4 tem o 3 no numerador?",
+        "Qual dessas frações é a maior? Como você sabe?",
+        "O que muda no significado quando o numerador aumenta?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "5 a 8 minutos",
+      "adaptacao_nivel": "Nível 2: quatro pares, inclui fração não-unitária (3/4 e 2/5)."
     }
   },
   {
@@ -263,52 +208,41 @@
     "ano": 3,
     "componente": "Matemática",
     "unidade_id": "mat-3-u2",
-    "unidade_titulo": "Multiplicação",
-    "habilidade_bncc_codigo": "EF03MA07",
-    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.02 — Multiplicação como adição de parcelas iguais",
-    "objetivo": "Desenvolver habilidades de multiplicação.",
+    "unidade_titulo": "Introdução às Frações",
+    "habilidade_bncc_codigo": "EF03MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.06 — Frações complementares em contexto",
+    "objetivo": "Calcular frações complementares e explicar o raciocínio.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Cria uma situação do seu dia a dia que possa ser resolvida com multiplicação e resolva.",
+    "tempo_medio_min": 10,
+    "enunciado": "Uma barra de chocolate tem 8 pedaços. Carla comeu 3 pedaços. Que fração ela comeu? Que fração sobrou? Explica como você pensou.",
     "conteudo_base": {
       "campos": [
-        {
-          "id": "situacao",
-          "label": "Minha situação:",
-          "max": 150
-        },
-        {
-          "id": "conta",
-          "label": "A conta de multiplicação:",
-          "max": 60
-        },
-        {
-          "id": "resposta",
-          "label": "A resposta:",
-          "max": 80
-        }
+        { "id": "fracao_comeu",  "label": "Fração que Carla comeu:",  "max": 30  },
+        { "id": "fracao_sobrou", "label": "Fração que sobrou:",       "max": 30  },
+        { "id": "explicacao",    "label": "Como você pensou:",        "max": 200 }
       ]
     },
     "criterios_sucesso": [
-      "Cria situação de multiplicação com contexto.",
-      "Resolve corretamente."
+      "Calcula 3/8 (comeu) e 5/8 (sobrou) corretamente.",
+      "Demonstra que as duas frações somam o inteiro (8/8 = 1).",
+      "Explica o raciocínio com clareza."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa em grupos iguais: pacotes de biscoito, fileiras de carteiras, sacolas..."
+      "apresentacao": "Professor pode desenhar a barra dividida em 8 partes no quadro.",
+      "resposta": "Preenche os três campos.",
+      "engajamento": "Dica: o denominador é o total de pedaços. O numerador é quantos foram comidos — ou quantos sobraram."
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar multiplicação de forma progressiva.",
-      "gabarito": "Situação com grupos iguais, multiplicação correta e resposta com unidade.",
+      "gabarito": "Comeu: 3/8. Sobrou: 5/8. Verificação: 3/8 + 5/8 = 8/8 = 1 inteiro.",
+      "objetivo_pedagogico": "Desenvolver resolução de problemas com frações complementares.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Como você sabe que 3/8 + 5/8 = 1?",
+        "Se Carla tivesse comido mais um pedaço, qual seria a fração restante?",
+        "O denominador muda quando calculamos a fração que sobrou?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "Nível 3: duas frações complementares + justificativa do raciocínio."
     }
   }
 ]

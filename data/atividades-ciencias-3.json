@@ -1,165 +1,124 @@
 [
   {
-    "id": "cie-001-n1",
+    "id": "cie-3-u1-n1",
     "ano": 3,
     "componente": "Ciências",
-    "unidade_id": "cie-001",
-    "unidade_titulo": "Ciclo da Água e Estados Físicos",
-    "habilidade_bncc_codigo": "EF03CI02",
-    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.01 — Estados físicos da água e transformações no ciclo hidrológico",
-    "objetivo": "Identificar os estados físicos da água e associá-los a situações do cotidiano.",
+    "unidade_id": "cie-3-u1",
+    "unidade_titulo": "Estados Físicos da Matéria",
+    "habilidade_bncc_codigo": "EF03CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.M.01 — Estados físicos da matéria e exemplos cotidianos",
+    "objetivo": "Identificar o estado físico de uma substância em uma situação cotidiana.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 4,
-    "enunciado": "Marque o estado físico correto da água em cada situação.",
+    "enunciado": "Quando você ferve água em uma panela e vê o vapor saindo, esse vapor está em qual estado físico?",
     "conteudo_base": {
-      "pares": [
-        {
-          "situacao": "Água na chaleira fervendo",
-          "opcoes": [
-            "Sólido",
-            "Líquido",
-            "Gasoso"
-          ],
-          "correta": 2
-        },
-        {
-          "situacao": "Cubo de gelo na geladeira",
-          "opcoes": [
-            "Sólido",
-            "Líquido",
-            "Gasoso"
-          ],
-          "correta": 0
-        },
-        {
-          "situacao": "Água num copo de suco",
-          "opcoes": [
-            "Sólido",
-            "Líquido",
-            "Gasoso"
-          ],
-          "correta": 1
-        }
-      ]
+      "opcoes": ["Sólido", "Líquido", "Gasoso", "Pastoso"],
+      "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Associa vapor ao estado gasoso",
-      "Associa gelo ao estado sólido",
-      "Associa água líquida ao estado líquido"
+      "Identifica o vapor como estado gasoso.",
+      "Distingue sólido, líquido e gasoso com exemplos do cotidiano."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Cada situação acompanhada de ícone ilustrativo; áudio disponível.",
-      "resposta": "Seleção por clique em botão de opção; sem digitação.",
-      "engajamento": "Dica: exibe definição resumida de cada estado ao passar o cursor sobre o nome."
+      "apresentacao": "Professor pode fazer demonstração segura com água aquecida.",
+      "resposta": "Clique no estado correto.",
+      "engajamento": "Dica: o vapor é a água que se transformou. Ela se espalha pelo ar. Isso é líquido ou gás?"
     },
     "modo_professor": {
-      "gabarito": "Chaleira fervendo → Gasoso; Cubo de gelo → Sólido; Copo de suco → Líquido.",
-      "objetivo_pedagogico": "Reconhecer os três estados físicos da água em contextos familiares.",
+      "gabarito": "Opção C: gasoso.",
+      "objetivo_pedagogico": "Introduzir os três estados físicos da matéria com contexto cotidiano acessível.",
       "perguntas_orientadoras": [
-        "O vapor é visível ou invisível? O que você vê é vapor ou gotículas?",
-        "O que acontece com o gelo quando fica fora da geladeira?"
+        "Em que estado está o gelo? E a água da torneira?",
+        "O que muda na água para ela virar vapor?",
+        "O vapor pode virar água novamente? Como?"
       ],
       "tempo_estimado": "3 a 5 minutos",
-      "adaptacao_nivel": "Nível 1 (Apoio): situações do cotidiano, 3 opções por par, ícones de apoio."
+      "adaptacao_nivel": "Nível 1: contexto familiar, três estados distintos, distrator 'pastoso' como pegadinha."
     }
   },
   {
-    "id": "cie-001-n2",
+    "id": "cie-3-u1-n2",
     "ano": 3,
     "componente": "Ciências",
-    "unidade_id": "cie-001",
-    "unidade_titulo": "Ciclo da Água e Estados Físicos",
-    "habilidade_bncc_codigo": "EF03CI02",
-    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.01 — Estados físicos da água e transformações no ciclo hidrológico",
-    "objetivo": "Ordenar as etapas do ciclo da água na sequência correta.",
+    "unidade_id": "cie-3-u1",
+    "unidade_titulo": "Estados Físicos da Matéria",
+    "habilidade_bncc_codigo": "EF03CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.M.02 — Mudanças de estado físico e suas denominações",
+    "objetivo": "Associar processos de mudança de estado físico às suas denominações científicas.",
     "nivel": 2,
-    "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 6,
-    "enunciado": "Organize as etapas do ciclo da água na ordem em que acontecem, começando pela evaporação.",
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Arrasta cada processo para o par de estados correspondente.",
     "conteudo_base": {
-      "itens": [
-        "A água dos rios e mares evapora com o calor do sol.",
-        "O vapor sobe e forma nuvens ao esfriar.",
-        "As nuvens ficam pesadas e a água cai como chuva ou neve.",
-        "A água escoa pelos rios ou infiltra no solo.",
-        "A água volta aos mares e o ciclo recomeça."
-      ],
-      "ordem_correta": [
-        0,
-        1,
-        2,
-        3,
-        4
+      "pares": [
+        { "elemento": "Sólido → Líquido",  "nome": "Fusão"          },
+        { "elemento": "Líquido → Gasoso",  "nome": "Vaporização"    },
+        { "elemento": "Gasoso → Líquido",  "nome": "Condensação"    },
+        { "elemento": "Líquido → Sólido",  "nome": "Solidificação"  }
       ]
     },
     "criterios_sucesso": [
-      "Posiciona evaporação como primeira etapa",
-      "Reconhece condensação antes da precipitação",
-      "Compreende que o ciclo é contínuo"
+      "Associa corretamente os quatro processos às transições de estado.",
+      "Compreende que cada mudança tem um nome científico específico."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Cada etapa em card; áudio de cada card disponível; diagrama esquemático de apoio.",
-      "resposta": "Arrastar cards para ordenar; alternativa de botões de seta para reordenar.",
-      "engajamento": "Dica: revela o nome técnico de cada etapa (evaporação, condensação, precipitação) ao pedir ajuda."
+      "apresentacao": "Professor pode usar a água em seus três estados como exemplo central na explicação.",
+      "resposta": "Arrasta cada processo para o nome correto.",
+      "engajamento": "Dica: gelo derretendo é sólido virando líquido. Esse processo tem nome. Qual é?"
     },
     "modo_professor": {
-      "gabarito": "Ordem: evaporação → condensação → precipitação → escoamento → retorno aos reservatórios.",
-      "objetivo_pedagogico": "Compreender o ciclo hidrológico como processo contínuo e interdependente.",
+      "gabarito": "Fusão: sólido→líquido. Vaporização: líquido→gasoso. Condensação: gasoso→líquido. Solidificação: líquido→sólido.",
+      "objetivo_pedagogico": "Consolidar a nomenclatura científica das mudanças de estado físico.",
       "perguntas_orientadoras": [
-        "O que acontece com o vapor quando ele sobe e encontra ar frio?",
-        "Por que chamamos isso de ciclo e não de linha?"
+        "Quando você coloca água no freezer, que processo ocorre?",
+        "E quando um copo gelado 'sua' por fora?",
+        "Qual processo é o inverso da fusão?"
       ],
-      "tempo_estimado": "5 a 7 minutos",
-      "adaptacao_nivel": "Nível 2 (Básico): 5 etapas, sem inversões arbitrárias, foco na sequência lógica."
+      "tempo_estimado": "5 a 8 minutos",
+      "adaptacao_nivel": "Nível 2: quatro processos com nomenclatura técnica, exige memorização associativa."
     }
   },
   {
-    "id": "cie-001-n3",
+    "id": "cie-3-u1-n3",
     "ano": 3,
     "componente": "Ciências",
-    "unidade_id": "cie-001",
-    "unidade_titulo": "Ciclo da Água e Estados Físicos",
-    "habilidade_bncc_codigo": "EF03CI02",
-    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.01 — Estados físicos da água e transformações no ciclo hidrológico",
-    "objetivo": "Relacionar mudanças de estado físico da água a variações de temperatura e ao ciclo hidrológico.",
+    "unidade_id": "cie-3-u1",
+    "unidade_titulo": "Estados Físicos da Matéria",
+    "habilidade_bncc_codigo": "EF03CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.E.01 — Registro e análise de experimento sobre mudança de estado",
+    "objetivo": "Descrever e explicar as observações de um experimento sobre mudança de estado físico.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 7,
-    "enunciado": "Explique por que a água desaparece de uma poça após um dia de sol quente. Use as palavras: evaporação, vapor e estado gasoso na sua resposta.",
+    "tempo_medio_min": 10,
+    "enunciado": "Você deixou um cubo de gelo em um copo em temperatura ambiente por 30 minutos. Descreva o que aconteceu, nomeie a mudança de estado e explique por que ela ocorreu.",
     "conteudo_base": {
       "campos": [
-        {
-          "label": "Sua explicação:",
-          "id": "explicacao",
-          "max": 250
-        }
-      ],
-      "palavras_obrigatorias": [
-        "evaporação",
-        "vapor",
-        "estado gasoso"
+        { "id": "observacao", "label": "O que você observou?",           "max": 150 },
+        { "id": "mudanca",    "label": "Qual mudança de estado ocorreu?", "max": 100 },
+        { "id": "por_que",    "label": "Por que isso aconteceu?",         "max": 200 }
       ]
     },
     "criterios_sucesso": [
-      "Usa as três palavras indicadas de forma coerente",
-      "Explica que o calor transforma água líquida em vapor",
-      "Indica que o vapor se mistura ao ar e não é visível"
+      "Descreve o derretimento do gelo com vocabulário adequado.",
+      "Nomeia o processo corretamente (fusão).",
+      "Explica o papel do calor ambiente como causa."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Palavras obrigatórias destacadas; glossário rápido de cada termo ao clicar; áudio do enunciado.",
-      "resposta": "Campo de texto; alternativa de gravação oral local.",
-      "engajamento": "Dica: exibe um modelo de frase incompleta — 'O sol aquece a poça e a água sofre ___, transformando-se em ___.'"
+      "apresentacao": "Professor pode realizar o experimento antes da aula e registrar o resultado em foto.",
+      "resposta": "Preenche os três campos.",
+      "engajamento": "Dica: o que você viu acontecer com o gelo? O que estava em volta do cubo que causou isso?"
     },
     "modo_professor": {
-      "gabarito": "Resposta esperada: o calor do sol faz a água líquida sofrer evaporação, transformando-se em vapor (estado gasoso), que se mistura ao ar. Por isso a poça some sem que a água 'vá para lugar nenhum visível'.",
-      "objetivo_pedagogico": "Articular vocabulário científico com explicação causal de fenômeno observável.",
+      "gabarito": "O gelo derreteu (fusão): o calor do ambiente aqueceu o sólido até sua temperatura de fusão, transformando-o em líquido.",
+      "objetivo_pedagogico": "Desenvolver registro científico de experimento com explicação causal.",
       "perguntas_orientadoras": [
-        "A água sumiu mesmo ou foi para outro lugar?",
-        "Como você saberia que há vapor no ar mesmo sem vê-lo?"
+        "O que seria diferente se o copo estivesse dentro da geladeira?",
+        "A água do gelo derretido tem a mesma quantidade que o gelo original?",
+        "Que experimento você faria para observar condensação?"
       ],
-      "tempo_estimado": "6 a 8 minutos",
-      "adaptacao_nivel": "Nível 3 (Ampliação): escrita argumentativa com vocabulário técnico obrigatório."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "Nível 3: observação experimental + explicação causal + vocabulário científico."
     }
   },
   {
@@ -167,41 +126,37 @@
     "ano": 3,
     "componente": "Ciências",
     "unidade_id": "cie-3-u2",
-    "unidade_titulo": "Matéria e Energia",
-    "habilidade_bncc_codigo": "EF03CI03",
-    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.02 — Transformações de materiais e fontes de energia",
-    "objetivo": "Desenvolver habilidades de matéria e energia.",
+    "unidade_titulo": "Ecossistemas e Cadeias Alimentares",
+    "habilidade_bncc_codigo": "EF03CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.01 — Componentes bióticos e abióticos do ecossistema",
+    "objetivo": "Identificar um componente biótico de um ecossistema.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual dessas é uma fonte de energia RENOVÁVEL?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual desses elementos é um componente BIÓTICO (ser vivo) de um ecossistema?",
     "conteudo_base": {
-      "opcoes": [
-        "Carvão mineral",
-        "Petróleo",
-        "Energia solar",
-        "Gás natural"
-      ],
+      "opcoes": ["Solo", "Água", "Árvore", "Temperatura"],
       "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Distingue fontes de energia renováveis e não renováveis."
+      "Identifica a árvore como componente biótico.",
+      "Distingue biótico (ser vivo) de abiótico (elemento não vivo)."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Energias renováveis vêm de fontes que não se esgotam."
+      "apresentacao": "Professor pode escrever 'biótico = bio = vida' no quadro como âncora.",
+      "resposta": "Clique no componente biótico.",
+      "engajamento": "Dica: 'bio' vem do grego e significa vida. O que nessa lista está vivo?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar matéria e energia de forma progressiva.",
-      "gabarito": "Energia solar — o sol sempre existe e não se esgota com o uso.",
+      "gabarito": "Opção C: árvore — único ser vivo da lista.",
+      "objetivo_pedagogico": "Introduzir a distinção entre componentes bióticos e abióticos nos ecossistemas.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que são componentes abióticos?",
+        "Um ecossistema pode existir sem componentes abióticos?",
+        "Liste cinco componentes bióticos de um jardim."
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1: um ser vivo entre três elementos não vivos — contraste evidente."
     }
   },
   {
@@ -209,60 +164,42 @@
     "ano": 3,
     "componente": "Ciências",
     "unidade_id": "cie-3-u2",
-    "unidade_titulo": "Matéria e Energia",
-    "habilidade_bncc_codigo": "EF03CI03",
-    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.02 — Transformações de materiais e fontes de energia",
-    "objetivo": "Desenvolver habilidades de matéria e energia.",
+    "unidade_titulo": "Ecossistemas e Cadeias Alimentares",
+    "habilidade_bncc_codigo": "EF03CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.02 — Cadeia alimentar: sequência e fluxo de energia",
+    "objetivo": "Ordenar os elos de uma cadeia alimentar do produtor ao consumidor final.",
     "nivel": 2,
-    "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Classifica cada fonte como Energia Renovável ou Não Renovável.",
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloca os elos desta cadeia alimentar na ordem correta, do produtor ao consumidor final.",
     "conteudo_base": {
       "itens": [
-        {
-          "id": "e1",
-          "label": "Energia eólica (vento)",
-          "categoria": "Renovável"
-        },
-        {
-          "id": "e2",
-          "label": "Petróleo",
-          "categoria": "Não Renovável"
-        },
-        {
-          "id": "e3",
-          "label": "Energia hidrelétrica",
-          "categoria": "Renovável"
-        },
-        {
-          "id": "e4",
-          "label": "Carvão mineral",
-          "categoria": "Não Renovável"
-        }
+        "Cobra",
+        "Capim",
+        "Gavião",
+        "Gafanhoto"
       ],
-      "categorias": [
-        "Renovável",
-        "Não Renovável"
-      ]
+      "ordem_correta": [1, 3, 0, 2]
     },
     "criterios_sucesso": [
-      "Classifica fontes de energia por tipo."
+      "Ordena corretamente: capim → gafanhoto → cobra → gavião.",
+      "Compreende o fluxo de energia ao longo da cadeia alimentar."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Renováveis são aquelas que a natureza repõe. As outras se esgotam."
+      "apresentacao": "Professor pode perguntar: 'O que um gafanhoto come? E o que come o gafanhoto?'",
+      "resposta": "Arrasta os itens ou usa os botões para reordená-los.",
+      "engajamento": "Dica: começa pela planta, que produz o próprio alimento. Depois pensa: quem come quem?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar matéria e energia de forma progressiva.",
-      "gabarito": "Renováveis: eólica e hidrelétrica. Não renováveis: petróleo e carvão.",
+      "gabarito": "Capim (produtor) → gafanhoto (1º consumidor) → cobra (2º consumidor) → gavião (3º consumidor).",
+      "objetivo_pedagogico": "Desenvolver compreensão do fluxo de energia em cadeias alimentares.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que a planta é chamada de produtor?",
+        "O que acontece com a cobra se os gafanhotos desaparecerem?",
+        "Quem seria o decomposto nessa cadeia?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "5 a 8 minutos",
+      "adaptacao_nivel": "Nível 2: quatro elos, sequência não trivial sem contexto óbvio."
     }
   },
   {
@@ -270,41 +207,43 @@
     "ano": 3,
     "componente": "Ciências",
     "unidade_id": "cie-3-u2",
-    "unidade_titulo": "Matéria e Energia",
-    "habilidade_bncc_codigo": "EF03CI03",
-    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.02 — Transformações de materiais e fontes de energia",
-    "objetivo": "Desenvolver habilidades de matéria e energia.",
+    "unidade_titulo": "Ecossistemas e Cadeias Alimentares",
+    "habilidade_bncc_codigo": "EF03CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.E.02 — Análise de desequilíbrio em cadeias alimentares",
+    "objetivo": "Analisar o impacto da remoção de um elo em uma cadeia alimentar.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Explica o que acontece com a energia quando você liga um ventilador elétrico: de onde vem e em que se transforma.",
+    "tempo_medio_min": 10,
+    "enunciado": "Na cadeia capim → gafanhoto → cobra → gavião, o que aconteceria se as cobras desaparecessem? Explica os efeitos para cada elo da cadeia.",
     "conteudo_base": {
       "campos": [
-        {
-          "id": "explicacao",
-          "label": "Minha explicação:",
-          "max": 250
-        }
+        { "id": "gafanhotos", "label": "O que aconteceria com os gafanhotos?",         "max": 150 },
+        { "id": "capim",      "label": "O que aconteceria com o capim?",                "max": 150 },
+        { "id": "gavioes",    "label": "O que aconteceria com os gaviões?",             "max": 150 },
+        { "id": "conclusao",  "label": "O que isso nos ensina sobre os ecossistemas?", "max": 200 }
       ]
     },
     "criterios_sucesso": [
-      "Descreve transformação de energia com linguagem científica adequada."
+      "Prevê aumento da população de gafanhotos sem predador.",
+      "Prevê diminuição do capim pela superpopulação de gafanhotos.",
+      "Prevê problema alimentar para os gaviões.",
+      "Generaliza sobre equilíbrio ecológico."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "A energia elétrica vem da tomada. O ventilador transforma ela em... o quê?"
+      "apresentacao": "Professor pode desenhar a cadeia no quadro e simular o 'apagamento' das cobras.",
+      "resposta": "Preenche os quatro campos.",
+      "engajamento": "Dica: se a cobra some, quem fica sem predador? E se essa população crescer muito, o que acontece com o que ela come?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar matéria e energia de forma progressiva.",
-      "gabarito": "Energia elétrica → energia mecânica (movimento das pás) + calor (motor).",
+      "gabarito": "Gafanhotos: aumentam sem predador. Capim: diminui drasticamente. Gaviões: perdem alimento, população cai. Conclusão: os ecossistemas dependem do equilíbrio entre todos os elos.",
+      "objetivo_pedagogico": "Desenvolver raciocínio ecológico sistêmico e compreensão de equilíbrio.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que a ausência de um ser pode afetar todos os outros?",
+        "O que é equilíbrio ecológico?",
+        "Você conhece algum caso real de desequilíbrio ecológico?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "Nível 3: análise sistêmica com inferência causal em cadeia."
     }
   }
 ]

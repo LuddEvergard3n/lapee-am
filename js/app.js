@@ -101,6 +101,10 @@ async function main() {
     store.setState({ pagina: 'guia' });
   });
 
+  router.on('/gerador', () => {
+    store.setState({ pagina: 'gerador' });
+  });
+
   /* 7. Iniciar roteador */
   router.start();
 }

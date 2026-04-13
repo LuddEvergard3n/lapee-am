@@ -12,6 +12,7 @@
 
 import { esc, $ } from './componentes.js';
 import { notificar } from '../notificacoes.js';
+import { exportarDocx, exportarPDF, gerarDocPlano } from '../exportar.js';
 
 /* --------------------------------------------------------------------------
    Dados BNCC — habilidades EF I por componente e ano.
@@ -267,7 +268,7 @@ export function renderPlanos(main) {
               <div class="plano-grid-3">
                 <div class="plano-field">
                   <label class="plano-label" for="f-naulas">Nº de aulas</label>
-                  <select id="f-naulas" class="plano-select" onchange="window._calcCarga()">
+                  <select id="f-naulas" class="plano-select">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -277,7 +278,7 @@ export function renderPlanos(main) {
                 </div>
                 <div class="plano-field">
                   <label class="plano-label" for="f-dur">Duração</label>
-                  <select id="f-dur" class="plano-select" onchange="window._calcCarga()">
+                  <select id="f-dur" class="plano-select">
                     <option value="45">45 min</option>
                     <option value="50" selected>50 min</option>
                     <option value="60">60 min</option>
@@ -370,7 +371,10 @@ export function renderPlanos(main) {
                 Atualizar plano
               </button>
               <button type="button" id="btn-imprimir" class="btn btn-secondary">
-                Imprimir / PDF
+                Exportar PDF
+              </button>
+              <button type="button" id="btn-docx-plano" class="btn btn-secondary">
+                Exportar DOCX
               </button>
             </div>
           </form>
@@ -391,8 +395,8 @@ export function renderPlanos(main) {
   const dataInput = $('f-data');
   if (dataInput) dataInput.valueAsDate = new Date();
 
-  /* Carga horária calculada */
-  window._calcCarga = () => {
+  /* Carga horária calculada — closure local, sem poluir window */
+  const calcCarga = () => {
     const n   = parseInt($('f-naulas')?.value || '1');
     const dur = parseInt($('f-dur')?.value || '50');
     const tot = n * dur;
@@ -406,7 +410,9 @@ export function renderPlanos(main) {
     const el = $('f-carga');
     if (el) el.value = txt;
   };
-  window._calcCarga();
+  $('f-naulas')?.addEventListener('change', calcCarga);
+  $('f-dur')?.addEventListener('change',   calcCarga);
+  calcCarga();
 
   /* Render dos presets fixos */
   _rp('box-obt', POBJ, 'obt');
@@ -438,7 +444,12 @@ export function renderPlanos(main) {
 
   /* Botões */
   $('btn-gerar')?.addEventListener('click', _gerar);
-  $('btn-imprimir')?.addEventListener('click', () => window.print());
+  $('btn-imprimir')?.addEventListener('click', () => exportarPDF());
+  $('btn-docx-plano')?.addEventListener('click', () => {
+    const dadosDocx = _coletarDadosDocx();
+    const nome = `plano-${(_v('f-comp') || 'lapee').toLowerCase().replace(/\s/g,'-')}-${_v('f-ano')}ano`;
+    exportarDocx(gerarDocPlano(dadosDocx), nome);
+  });
 }
 
 /* --------------------------------------------------------------------------
@@ -495,6 +506,31 @@ function _clearBox(boxId) {
 /* --------------------------------------------------------------------------
    Coleta de dados e geração do documento
    -------------------------------------------------------------------------- */
+
+function _coletarDadosDocx() {
+  const dur = _v('f-dur');
+  return {
+    escola:    _v('f-escola'),
+    professor: _v('f-professor'),
+    turma:     _v('f-turma'),
+    componente: _v('f-comp'),
+    anoLabel:  _v('f-ano') ? `${_v('f-ano')}º Ano — Ensino Fundamental I` : '',
+    bimestre:  _v('f-bim'),
+    naulas:    _v('f-naulas'),
+    durLabel:  dur === '90' ? '1h30 (aula dupla)' : dur ? `${dur} min` : '',
+    carga:     _v('f-carga'),
+    data:      (() => { const d = $('f-data')?.value; if (!d) return ''; const [y,m,day]=d.split('-'); return `${day}/${m}/${y}`; })(),
+    tema:      _v('f-tema'),
+    obj:  _gc('obj',  'xa-obj'),
+    bncc: _gc('bncc', 'xa-bncc'),
+    obt:  _gc('obt',  'xa-obt'),
+    met:  _gc('met',  'xa-met'),
+    rec:  _gc('rec',  'xa-rec'),
+    ava:  _gc('ava',  'xa-ava'),
+    ref:  _v('f-ref'),
+    obs:  _v('f-obs'),
+  };
+}
 
 function _gc(pfx, xaId) {
   const checked = [...document.querySelectorAll(`.${pfx}-ck:checked`)]

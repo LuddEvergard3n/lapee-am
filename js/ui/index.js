@@ -11,6 +11,7 @@ import { renderAtividade }      from './atividade.js';
 import { renderSobre, renderAcessibilidade } from './paginas.js';
 import { renderPlanos }         from './planos.js';
 import { renderGuia }           from './guia.js';
+import { renderGerador }        from './gerador.js';
 import {
   renderSidebar,
   setupMenuToggle,
@@ -63,6 +64,9 @@ async function renderPage(state) {
       break;
     case 'guia':
       renderGuia(main);
+      break;
+    case 'gerador':
+      renderGerador(main);
       break;
     default:
       renderHome(main);

@@ -208,16 +208,19 @@ lapee/
 ├── index.html
 ├── css/
 │   └── main.css                Sistema de design completo (tokens, layout,
-│                               componentes, temas, mascote, conquistas, Paint)
+│                               componentes, temas, mascote, conquistas,
+│                               Paint, toasts, planos, guia)
 ├── js/
-│   ├── app.js                  Inicialização, rotas, subscriber do store
+│   ├── app.js                  Inicialização, 7 rotas, subscriber do store
 │   ├── router.js               Roteamento por hash (#/rota)
 │   ├── store.js                Estado global + persistência em localStorage
 │   ├── tts.js                  Síntese de fala (Web Speech API)
 │   ├── recorder.js             Gravação de áudio (MediaRecorder)
-│   ├── a11y.js                 Controles de acessibilidade
+│   ├── a11y.js                 Acessibilidade: prefs visuais + som + atalhos
 │   ├── mascote.js              Lua — coruja SVG animada com 4 estados
 │   ├── conquistas.js           Emblemas por componente derivados do progresso
+│   ├── notificacoes.js         Sistema de toasts (4 tipos, auto-dismiss)
+│   ├── sound.js                Efeitos sonoros via Web Audio API
 │   ├── activities/
 │   │   ├── marcar.js           Motor: múltipla escolha (simples, múltipla, pares)
 │   │   ├── ordenar.js          Motor: ordenação drag-and-drop + teclado
@@ -235,7 +238,9 @@ lapee/
 │       ├── home.js             Página inicial com mascote e emblemas
 │       ├── navegador.js        Seletor de ano/matéria + trilha de estrelas
 │       ├── atividade.js        Tela de atividade + despacho de motores
-│       └── paginas.js          Páginas Sobre e Acessibilidade (+ reset de progresso)
+│       ├── guia.js             Guia do Professor (sidebar + cards de atividade)
+│       ├── planos.js           Gerador de planos de aula (client-side, dados BNCC embutidos)
+│       └── paginas.js          Páginas Sobre e Acessibilidade
 ├── data/
 │   ├── atividades-lp-{1..5}.json
 │   ├── atividades-matematica-{1..5}.json
@@ -246,7 +251,7 @@ lapee/
 ├── assets/
 │   ├── icons/
 │   └── fonts/
-├── docs/                       Documentação técnica de cada módulo
+├── docs/                       Documentação técnica de cada módulo (11 arquivos)
 ├── CHANGELOG.md
 ├── LICENSE
 ├── .nojekyll                   Desativa Jekyll no GitHub Pages (obrigatório)
@@ -398,7 +403,11 @@ Em **Acessibilidade → Dados e progresso**, o botão "Apagar progresso" exige c
 
 **`store.getState()` não expõe `_listeners`.** O snapshot retornado é uma cópia explícita dos campos públicos, sem spread do estado interno inteiro.
 
-**Listeners de teclado do motor Paint são removidos no `hashchange` com `{ once: true }`.** Evita acumulação de listeners ao navegar entre atividades de desenho.
+**Gerador de planos de aula 100% client-side.** Dados BNCC embutidos diretamente no JS (`planos.js`) — zero fetch, funciona offline, sem chave de API. 445 habilidades reais extraídas do PDF oficial do MEC. A alternativa (chamar uma API de LLM) exigiria chave exposta no frontend ou um backend.
+
+**Efeitos sonoros via Web Audio API.** Síntese procedural — sem arquivos de áudio externos. `AudioContext` criado lazily após interação do usuário (obrigação dos browsers modernos). Mute controlado por `store.prefs.somAtivado` e aplicado via `a11y.applyAll()`.
+
+**Listeners descartados no `hashchange { once: true }`.** Teclado (Ctrl+Z no Paint), TTS (`isSpeaking`), microfone (`recClean`), `IntersectionObserver` do guia — todos liberados ao navegar para outra página. Evita acumulação entre visitas à mesma página.
 
 ---
 

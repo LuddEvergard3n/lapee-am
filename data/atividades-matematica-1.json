@@ -4,43 +4,40 @@
     "ano": 1,
     "componente": "Matemática",
     "unidade_id": "mat-1-u1",
-    "unidade_titulo": "Contar e Comparar",
+    "unidade_titulo": "Números até 20",
     "habilidade_bncc_codigo": "EF01MA01",
-    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.01 — Contagem, comparação e representação de quantidades",
-    "objetivo": "Contar objetos até 10.",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.01 — Números naturais: contagem e representação",
+    "objetivo": "Contar e reconhecer quantidades até 10.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Olha os pontinhos. Quantos são? Marca o número certo.",
+    "tempo_medio_min": 4,
+    "enunciado": "Tem quantas estrelas? ★ ★ ★ ★ ★ ★",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "• • • • • • •   Quantos pontinhos?",
       "opcoes": [
+        "4",
         "5",
-        "7",
-        "9",
-        "6"
+        "6",
+        "7"
       ],
-      "resposta_correta": 1
+      "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Conta corretamente uma coleção de até 10 objetos."
+      "Conta corretamente 6 objetos e associa à representação numérica."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode apontar cada pontinho enquanto conta junto com a criança.",
-      "resposta": "Clica no número certo.",
-      "engajamento": "Conta os pontinhos um por um com o dedo. Vai devagar!"
+      "apresentacao": "Professor pode apontar para cada estrela enquanto conta em voz alta junto com os alunos.",
+      "resposta": "Clique no número que indica a quantidade de estrelas.",
+      "engajamento": "Conta as estrelas uma por uma com o dedo. Vai devagar!"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Desenvolver a contagem oral e a correspondência um a um.",
-      "gabarito": "7 pontinhos.",
+      "gabarito": "6 estrelas.",
+      "objetivo_pedagogico": "Desenvolver a contagem estável e a cardinalidade do número como indicador de quantidade.",
       "perguntas_orientadoras": [
-        "Vamos contar juntos apontando cada pontinho?",
-        "Você já contou? Quantos deu?",
-        "Vamos conferir contando de novo?"
+        "Como você contou? Fez um por um?",
+        "Se você tirar uma estrela, quantas ficam?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: coleção pequena (até 10), representação visual simples com pontinhos."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: seis objetos em linha, contagem direta."
     }
   },
   {
@@ -48,44 +45,40 @@
     "ano": 1,
     "componente": "Matemática",
     "unidade_id": "mat-1-u1",
-    "unidade_titulo": "Contar e Comparar",
-    "habilidade_bncc_codigo": "EF01MA01",
-    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.01 — Contagem, comparação e representação de quantidades",
-    "objetivo": "Comparar quantidades e usar os termos maior, menor e igual.",
+    "unidade_titulo": "Números até 20",
+    "habilidade_bncc_codigo": "EF01MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.02 — Comparação e ordenação de números",
+    "objetivo": "Comparar quantidades e usar 'maior' e 'menor'.",
     "nivel": 2,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 6,
-    "enunciado": "Tem 8 maçãs e 5 laranjas. Qual afirmação está certa?",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual grupo tem mais objetos? Grupo A tem 8 bolinhas. Grupo B tem 12 bolinhas.",
     "conteudo_base": {
-      "tipo": "multipla_escolha",
-      "texto": "8 maçãs e 5 laranjas. O que é verdade?",
       "opcoes": [
-        "Tem mais maçãs do que laranjas.",
-        "Tem mais laranjas do que maçãs.",
-        "Tem a mesma quantidade dos dois.",
-        "Não dá para comparar."
+        "O Grupo A tem mais",
+        "O Grupo B tem mais",
+        "Os dois têm a mesma quantidade",
+        "Não dá para saber"
       ],
-      "resposta_correta": 0
+      "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Compara duas quantidades corretamente.",
-      "Usa os termos mais, menos ou igual adequadamente."
+      "Compara quantidades e identifica o maior valor entre dois grupos."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode desenhar ou usar objetos reais para representar as frutas.",
-      "resposta": "Clica na frase que está certa.",
-      "engajamento": "Conta as maçãs. Conta as laranjas. Qual número é maior?"
+      "apresentacao": "Escrever os números 8 e 12 na lousa para apoiar a comparação.",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "8 ou 12 — qual número você fala mais tarde quando está contando?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Comparar quantidades usando linguagem matemática básica.",
-      "gabarito": "Tem mais maçãs do que laranjas (8 é maior que 5).",
+      "gabarito": "O Grupo B tem mais — 12 é maior que 8.",
+      "objetivo_pedagogico": "Desenvolver a comparação de quantidades usando a sequência numérica como referência.",
       "perguntas_orientadoras": [
-        "Qual número é maior: 8 ou 5?",
-        "Se 8 é maior que 5, o que isso quer dizer sobre as frutas?",
-        "Como poderíamos deixar igual? Precisaria pegar mais laranjas ou tirar maçãs?"
+        "Se você conta 1, 2, 3... o 8 ou o 12 aparece primeiro?",
+        "O que 'maior' quer dizer em matemática?"
       ],
-      "tempo_estimado": "6 minutos",
-      "adaptacao_nivel": "Nível 2: comparação entre dois grupos, introduz linguagem de comparação."
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N2: comparação de dois grupos com números até 20, sem material concreto."
     }
   },
   {
@@ -93,49 +86,46 @@
     "ano": 1,
     "componente": "Matemática",
     "unidade_id": "mat-1-u1",
-    "unidade_titulo": "Contar e Comparar",
-    "habilidade_bncc_codigo": "EF01MA01",
-    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.01 — Contagem, comparação e representação de quantidades",
-    "objetivo": "Resolver um problema simples de adição com objetos do cotidiano.",
+    "unidade_titulo": "Números até 20",
+    "habilidade_bncc_codigo": "EF01MA06",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.03 — Adição e subtração com significado",
+    "objetivo": "Resolver um problema simples de adição.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 8,
-    "enunciado": "João tem 4 balas. Ele ganhou mais 3 balas. Quantas balas João tem agora? Escreve a resposta e explica como você pensou.",
+    "enunciado": "Ana tem 5 lápis. Ganhou mais 4 lápis. Quantos lápis ela tem agora? Escreve a resposta e como você pensou.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "João tinha 4 balas e ganhou mais 3.",
       "campos": [
         {
-          "id": "resposta",
-          "label": "Quantas balas João tem agora?",
-          "max": 5
+          "id": "res",
+          "label": "Ana tem agora:",
+          "max": 50
         },
         {
-          "id": "explicacao",
-          "label": "Como você pensou para chegar nessa resposta?",
-          "max": 200
+          "id": "exp",
+          "label": "Como você pensou:",
+          "max": 150
         }
       ]
     },
     "criterios_sucesso": [
-      "Obtém o resultado correto (7 balas).",
-      "Usa alguma estratégia de contagem ou cálculo para justificar."
+      "Calcula 5 + 4 = 9 corretamente.",
+      "Explica o raciocínio com palavras ou desenho."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode usar balas ou objetos reais para contar junto.",
-      "resposta": "Escreve o número no primeiro campo. Explica no segundo.",
-      "engajamento": "Conta as 4 balas que João já tem. Agora junta mais 3. Conta tudo junto!"
+      "apresentacao": "Professor pode representar o problema com objetos concretos antes da atividade.",
+      "resposta": "Escrever a resposta e a explicação em palavras simples.",
+      "engajamento": "Conta os 5 lápis na sua mão. Agora junta mais 4. Quantos ficaram?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Resolver problema aditivo simples, registrando raciocínio matemático.",
-      "gabarito": "7 balas. A criança pode usar contagem nos dedos, desenho ou operação 4+3.",
+      "gabarito": "9 lápis. 5 + 4 = 9.",
+      "objetivo_pedagogico": "Resolver situações aditivas com objetos do cotidiano e registrar o raciocínio.",
       "perguntas_orientadoras": [
-        "Quantas balas João tinha no começo?",
-        "Quantas ele ganhou?",
-        "Quando juntamos tudo, quanto fica?"
+        "Como você pode usar os dedos para resolver?",
+        "O que a palavra 'ganhou mais' indica na matemática?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3 (desafio): problema contextualizado com registro escrito da estratégia."
+      "tempo_estimado": "6 a 10 minutos",
+      "adaptacao_nivel": "N3: problema contextualizado, exige operação e justificativa."
     }
   },
   {
@@ -144,40 +134,39 @@
     "componente": "Matemática",
     "unidade_id": "mat-1-u2",
     "unidade_titulo": "Formas Geométricas",
-    "habilidade_bncc_codigo": "EF01MA15",
-    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.02 — Reconhecimento e descrição de figuras planas e espaciais",
-    "objetivo": "Desenvolver habilidades de formas geométricas.",
+    "habilidade_bncc_codigo": "EF01MA12",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.G.01 — Figuras geométricas planas: identificação e características",
+    "objetivo": "Reconhecer figuras geométricas planas.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual dessas figuras tem QUATRO lados iguais?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual figura tem três lados?",
     "conteudo_base": {
       "opcoes": [
-        "Triângulo",
         "Quadrado",
+        "Triângulo",
         "Círculo",
         "Retângulo"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Reconhece e nomeia figuras geométricas planas."
+      "Identifica o triângulo pela característica de ter três lados."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Conta os lados e vê quais são do mesmo tamanho."
+      "apresentacao": "Mostrar as quatro figuras desenhadas na lousa com a contagem de lados.",
+      "resposta": "Clique no nome da figura com três lados.",
+      "engajamento": "Conta os lados de cada figura com o dedo. Qual tem três?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar formas geométricas de forma progressiva.",
-      "gabarito": "Quadrado — 4 lados iguais e 4 ângulos retos.",
+      "gabarito": "Triângulo — tem exatamente três lados e três vértices.",
+      "objetivo_pedagogico": "Identificar figuras planas por suas propriedades básicas (número de lados).",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que é um lado de uma figura?",
+        "Quadrado tem quantos lados?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação direta pela propriedade mais evidente."
     }
   },
   {
@@ -186,47 +175,50 @@
     "componente": "Matemática",
     "unidade_id": "mat-1-u2",
     "unidade_titulo": "Formas Geométricas",
-    "habilidade_bncc_codigo": "EF01MA15",
-    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.02 — Reconhecimento e descrição de figuras planas e espaciais",
-    "objetivo": "Desenvolver habilidades de formas geométricas.",
+    "habilidade_bncc_codigo": "EF01MA12",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.G.01 — Figuras geométricas planas: identificação e características",
+    "objetivo": "Associar objetos do cotidiano a figuras geométricas.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Liga cada objeto do dia a dia com a forma geométrica que ele tem.",
+    "tempo_medio_min": 7,
+    "enunciado": "Liga cada objeto à forma geométrica que tem.",
     "conteudo_base": {
       "pares": [
         {
-          "elemento": "Porta",
-          "nome": "Retângulo"
-        },
-        {
-          "elemento": "Prato",
+          "elemento": "Relógio redondo",
           "nome": "Círculo"
         },
         {
-          "elemento": "Fatia de pizza",
+          "elemento": "Janela da sala",
+          "nome": "Retângulo"
+        },
+        {
+          "elemento": "Placa de trânsito triangular",
           "nome": "Triângulo"
+        },
+        {
+          "elemento": "Lenço dobrado igual dos quatro lados",
+          "nome": "Quadrado"
         }
       ]
     },
     "criterios_sucesso": [
-      "Associa objetos do cotidiano a figuras geométricas."
+      "Reconhece a forma geométrica presente em objetos do cotidiano."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no formato desse objeto quando você olha de frente para ele."
+      "apresentacao": "Professor pode mostrar os objetos reais ou fotos antes da atividade.",
+      "resposta": "Arrastar ou clicar no objeto e depois na forma.",
+      "engajamento": "Que figura tem o relógio? Pensa no contorno dele."
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar formas geométricas de forma progressiva.",
-      "gabarito": "Porta=Retângulo, Prato=Círculo, Fatia de pizza=Triângulo.",
+      "gabarito": "Relógio → Círculo; Janela → Retângulo; Placa triangular → Triângulo; Lenço → Quadrado.",
+      "objetivo_pedagogico": "Transferir o reconhecimento de figuras abstratas para objetos do contexto real.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Como você sabe que a janela é um retângulo?",
+        "Tem algum objeto aqui na sala que é um triângulo?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: correspondência entre objetos e formas, quatro pares."
     }
   },
   {
@@ -235,50 +227,50 @@
     "componente": "Matemática",
     "unidade_id": "mat-1-u2",
     "unidade_titulo": "Formas Geométricas",
-    "habilidade_bncc_codigo": "EF01MA15",
-    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.02 — Reconhecimento e descrição de figuras planas e espaciais",
-    "objetivo": "Desenvolver habilidades de formas geométricas.",
+    "habilidade_bncc_codigo": "EF01MA12",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.G.01 — Figuras geométricas planas: identificação e características",
+    "objetivo": "Descrever figuras geométricas e encontrá-las no entorno.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Olha em volta da sala. Escreve o nome de 3 objetos e qual forma geométrica cada um tem.",
+    "tempo_medio_min": 10,
+    "enunciado": "Olha em volta da sala. Encontra um objeto para cada forma e escreve o nome.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "obj1",
-          "label": "Objeto 1 e sua forma:",
-          "max": 80
+          "id": "cir",
+          "label": "Um objeto que tem formato de círculo:",
+          "max": 60
         },
         {
-          "id": "obj2",
-          "label": "Objeto 2 e sua forma:",
-          "max": 80
+          "id": "ret",
+          "label": "Um objeto que tem formato de retângulo:",
+          "max": 60
         },
         {
-          "id": "obj3",
-          "label": "Objeto 3 e sua forma:",
-          "max": 80
+          "id": "tri",
+          "label": "Um objeto que tem formato de triângulo:",
+          "max": 60
         }
       ]
     },
     "criterios_sucesso": [
-      "Relaciona objetos concretos a formas geométricas com justificativa."
+      "Identifica objetos reais que correspondem às formas pedidas.",
+      "Registra o nome do objeto por escrito."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no contorno do objeto. Tem lados retos? Curvas? Quantos lados?"
+      "apresentacao": "Deixar as formas desenhadas visíveis enquanto o aluno procura os objetos.",
+      "resposta": "Escrever o nome do objeto encontrado.",
+      "engajamento": "Olha ao redor. Consegue ver algo redondo? E algo com quatro lados compridos?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar formas geométricas de forma progressiva.",
-      "gabarito": "Três objetos reais com forma geométrica corretamente identificada.",
+      "gabarito": "Resposta aberta. Exemplos: círculo = relógio, porta da tomada; retângulo = lousa, livro, porta; triângulo = régua triangular, brinquedo. Aceitar qualquer objeto válido.",
+      "objetivo_pedagogico": "Integrar o conceito geométrico ao espaço vivido, desenvolvendo percepção espacial.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Como você sabe que esse objeto tem esse formato?",
+        "Você contou os lados?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: observação e produção escrita a partir da realidade."
     }
   }
 ]

@@ -4,43 +4,40 @@
     "ano": 1,
     "componente": "LP",
     "unidade_id": "lp-1-u1",
-    "unidade_titulo": "Letras e Sons",
-    "habilidade_bncc_codigo": "EF01LP03",
-    "referencia_cbtc": "CBTC-SC: LP.EF1.L.01 — Reconhecimento de letras e correspondência grafema-fonema",
-    "objetivo": "Reconhecer e relacionar letras ao seu som.",
+    "unidade_titulo": "Consciência Fonológica",
+    "habilidade_bncc_codigo": "EF01LP02",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.O.01 — Consciência fonológica e fonêmica",
+    "objetivo": "Identificar o som inicial de palavras.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 5,
-    "enunciado": "Olha as figuras. Marca a figura que começa com a letra A.",
+    "enunciado": "Qual dessas palavras começa com o som de B?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "Qual começa com A?",
       "opcoes": [
-        "Abelha",
         "Bola",
-        "Casa",
-        "Dado"
+        "Sapo",
+        "Pato",
+        "Navio"
       ],
       "resposta_correta": 0
     },
     "criterios_sucesso": [
-      "Identifica a letra A no início de uma palavra."
+      "Reconhece o fonema /b/ como som inicial de 'bola'."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor lê as opções em voz alta. Usa o botão Ouvir para ajudar.",
-      "resposta": "Clica na resposta. Só tem uma certa.",
-      "engajamento": "Pensa no som da letra A. Como ela faz? Aaa... Qual palavra começa assim?"
+      "apresentacao": "Professor pode bater palma ao falar o som inicial de cada palavra em voz alta.",
+      "resposta": "Clique na opção correta e depois em Pronto!",
+      "engajamento": "Fala cada palavra bem devagar. Qual começa com Bbb?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Relacionar grafema (A) ao fonema inicial de palavras conhecidas.",
-      "gabarito": "Abelha — começa com o som /a/.",
+      "gabarito": "Bola — começa com B.",
+      "objetivo_pedagogico": "Desenvolver a consciência fonêmica identificando o fonema inicial de palavras.",
       "perguntas_orientadoras": [
-        "Como faz o som da letra A?",
-        "Qual dessas palavras começa com esse som?",
-        "Vamos falar as quatro palavras juntos?"
+        "Como começa a palavra Bola? E Sapo?",
+        "Você consegue pensar em mais palavras que começam com B?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: apenas uma opção correta, palavras simples e conhecidas pelas crianças."
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: uma palavra-alvo clara, distratores com sons bem distintos."
     }
   },
   {
@@ -48,66 +45,69 @@
     "ano": 1,
     "componente": "LP",
     "unidade_id": "lp-1-u1",
-    "unidade_titulo": "Letras e Sons",
-    "habilidade_bncc_codigo": "EF01LP03",
-    "referencia_cbtc": "CBTC-SC: LP.EF1.L.01 — Reconhecimento de letras e correspondência grafema-fonema",
-    "objetivo": "Identificar palavras que começam com a mesma letra.",
+    "unidade_titulo": "Consciência Fonológica",
+    "habilidade_bncc_codigo": "EF01LP02",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.O.01 — Consciência fonológica e fonêmica",
+    "objetivo": "Agrupar palavras pelo som inicial.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
     "tempo_medio_min": 7,
-    "enunciado": "Arrasta cada palavra para o grupo certo: começa com A ou começa com B.",
+    "enunciado": "Separa as palavras pelo som com que começam: M ou P.",
     "conteudo_base": {
-      "tipo": "categorias",
       "itens": [
         {
-          "label": "Anel",
-          "categoria": "A"
+          "id": "i1",
+          "label": "Mão",
+          "categoria": "M"
         },
         {
-          "label": "Bolo",
-          "categoria": "B"
+          "id": "i2",
+          "label": "Pato",
+          "categoria": "P"
         },
         {
-          "label": "Avião",
-          "categoria": "A"
+          "id": "i3",
+          "label": "Mesa",
+          "categoria": "M"
         },
         {
-          "label": "Bexiga",
-          "categoria": "B"
+          "id": "i4",
+          "label": "Pipa",
+          "categoria": "P"
         },
         {
-          "label": "Água",
-          "categoria": "A"
+          "id": "i5",
+          "label": "Mala",
+          "categoria": "M"
         },
         {
-          "label": "Borboleta",
-          "categoria": "B"
+          "id": "i6",
+          "label": "Pé",
+          "categoria": "P"
         }
       ],
       "categorias": [
-        "A",
-        "B"
+        "M",
+        "P"
       ]
     },
     "criterios_sucesso": [
-      "Separa corretamente palavras iniciadas por A e por B.",
-      "Reconhece o som inicial das palavras."
+      "Agrupa corretamente palavras pelo fonema inicial /m/ e /p/."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor lê cada palavra antes da criança arrastar. Usa o botão Ouvir.",
-      "resposta": "Arrasta a palavra para o grupo. Pode também clicar na palavra e depois no grupo.",
-      "engajamento": "Fala a palavra em voz alta antes de arrastar. O primeiro som te dá a dica!"
+      "apresentacao": "Falar cada palavra em voz alta antes de classificar.",
+      "resposta": "Arrastar ou clicar na palavra e depois no grupo.",
+      "engajamento": "Fala a palavra bem devagarzinho. Qual é o primeiro som que você ouve?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Classificar palavras pelo fonema inicial, reforçando a consciência fonológica.",
-      "gabarito": "A: Anel, Avião, Água. B: Bolo, Bexiga, Borboleta.",
+      "gabarito": "M: Mão, Mesa, Mala. P: Pato, Pipa, Pé.",
+      "objetivo_pedagogico": "Categorizar palavras por fonema inicial, consolidando a percepção auditiva dos sons.",
       "perguntas_orientadoras": [
-        "Vamos falar a palavra bem devagar. Qual é o primeiro som?",
-        "Esse som é de A ou de B?",
-        "Você conhece outras palavras que começam assim?"
+        "Pato começa igual a Mão ou igual a Pipa?",
+        "Você consegue falar mais palavras que começam com M?"
       ],
-      "tempo_estimado": "7 minutos",
-      "adaptacao_nivel": "Nível 2: duas categorias, seis palavras, som inicial bem diferenciado."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis palavras, dois fonemas distintos."
     }
   },
   {
@@ -115,49 +115,51 @@
     "ano": 1,
     "componente": "LP",
     "unidade_id": "lp-1-u1",
-    "unidade_titulo": "Letras e Sons",
-    "habilidade_bncc_codigo": "EF01LP03",
-    "referencia_cbtc": "CBTC-SC: LP.EF1.L.01 — Reconhecimento de letras e correspondência grafema-fonema",
-    "objetivo": "Escrever palavras simples identificando as letras do seu nome.",
+    "unidade_titulo": "Consciência Fonológica",
+    "habilidade_bncc_codigo": "EF01LP02",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.O.01 — Consciência fonológica e fonêmica",
+    "objetivo": "Produzir palavras a partir de um som dado.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 8,
-    "enunciado": "Pensa numa coisa que você gosta. Escreve o nome dessa coisa. Depois conta: quantas letras tem?",
+    "enunciado": "Pensa em palavras que começam com a letra S. Escreve três palavras com S.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "Escreve o nome de uma coisa que você gosta.",
       "campos": [
         {
-          "id": "palavra",
-          "label": "O nome da coisa:",
+          "id": "p1",
+          "label": "Palavra 1 com S:",
           "max": 30
         },
         {
-          "id": "contagem",
-          "label": "Quantas letras tem?",
-          "max": 3
+          "id": "p2",
+          "label": "Palavra 2 com S:",
+          "max": 30
+        },
+        {
+          "id": "p3",
+          "label": "Palavra 3 com S:",
+          "max": 30
         }
       ]
     },
     "criterios_sucesso": [
-      "Escreve pelo menos uma palavra com grafias reconhecíveis.",
-      "Tenta contar as letras da palavra escrita."
+      "Produz palavras iniciadas com o fonema /s/.",
+      "Registra as palavras em escrita aproximada ou convencional."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode sugerir palavras caso a criança não consiga pensar. Ex.: bola, gato, casa.",
-      "resposta": "Escreve no campo de texto. Pode usar letras maiúsculas.",
-      "engajamento": "Pensa numa coisa que você gosta muito. Como se escreve o nome dela? Tenta!"
+      "apresentacao": "Professor pode dizer exemplos sem escrever: 'Sol começa com S'. Aluno produz outros.",
+      "resposta": "Escrever as palavras, mesmo com escrita aproximada — valorizar a tentativa.",
+      "engajamento": "Sapo começa com S! E sapato? Consegue pensar em mais?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Mobilizar conhecimentos sobre o sistema alfabético na produção escrita inicial.",
-      "gabarito": "Produção pessoal. Avalie se a criança usa letras com correspondência ao som, mesmo que parcial.",
+      "gabarito": "Resposta aberta — qualquer palavra que comece com S é válida. Exemplos: sol, sapo, sapato, sino, sopa.",
+      "objetivo_pedagogico": "Mobilizar o repertório lexical e associá-lo à representação escrita do fonema.",
       "perguntas_orientadoras": [
-        "Que coisa você escolheu?",
-        "Como começa o nome dessa coisa?",
-        "Vamos falar devagar: que letras você ouve?"
+        "Como você sabe que essa palavra começa com S?",
+        "Qual som você ouve no começo de Sopa?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3 (desafio): produção escrita autônoma com metacognição sobre a contagem de letras."
+      "tempo_estimado": "7 a 10 minutos",
+      "adaptacao_nivel": "N3: produção livre, sem modelo dado."
     }
   },
   {
@@ -165,41 +167,40 @@
     "ano": 1,
     "componente": "LP",
     "unidade_id": "lp-1-u2",
-    "unidade_titulo": "Palavras e Frases",
-    "habilidade_bncc_codigo": "EF01LP08",
-    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Leitura de palavras simples e formação de frases",
-    "objetivo": "Desenvolver habilidades de palavras e frases.",
+    "unidade_titulo": "Sistema de Escrita Alfabética",
+    "habilidade_bncc_codigo": "EF01LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.E.01 — Compreensão do sistema de escrita alfabética",
+    "objetivo": "Reconhecer a correspondência entre letra e som.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 5,
-    "enunciado": "Qual dessas sequências forma uma palavra?",
+    "enunciado": "Qual letra representa o som que você ouve no começo de 'Faca'?",
     "conteudo_base": {
       "opcoes": [
-        "C-A-S-A",
-        "A-S-C-A",
-        "S-C-A-S",
-        "C-S-A-A"
+        "F",
+        "B",
+        "V",
+        "P"
       ],
       "resposta_correta": 0
     },
     "criterios_sucesso": [
-      "Reconhece sequências de letras que formam palavras reais."
+      "Associa o fonema /f/ à letra F."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Tenta falar cada uma em voz alta. Qual você reconhece?"
+      "apresentacao": "Falar a palavra 'Faca' enfatizando o som inicial: Fffff-aca.",
+      "resposta": "Clique na letra correta.",
+      "engajamento": "Fffff... Que letra faz esse som?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar palavras e frases de forma progressiva.",
-      "gabarito": "C-A-S-A forma a palavra CASA.",
+      "gabarito": "F — representa o som /f/ de Faca.",
+      "objetivo_pedagogico": "Consolidar a relação grafema-fonema para consoantes fricativas.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que acontece na sua boca quando você fala /f/?",
+        "Você consegue pensar em outra palavra que começa com F?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "4 a 5 minutos",
+      "adaptacao_nivel": "N1: uma letra-alvo, distratores com sons bem distintos."
     }
   },
   {
@@ -207,48 +208,45 @@
     "ano": 1,
     "componente": "LP",
     "unidade_id": "lp-1-u2",
-    "unidade_titulo": "Palavras e Frases",
-    "habilidade_bncc_codigo": "EF01LP08",
-    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Leitura de palavras simples e formação de frases",
-    "objetivo": "Desenvolver habilidades de palavras e frases.",
+    "unidade_titulo": "Sistema de Escrita Alfabética",
+    "habilidade_bncc_codigo": "EF01LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.E.01 — Compreensão do sistema de escrita alfabética",
+    "objetivo": "Ordenar as sílabas para formar palavras.",
     "nivel": 2,
     "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 5,
-    "enunciado": "Coloca as palavras em ordem para formar uma frase que faz sentido.",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloca as sílabas na ordem certa para formar a palavra GATO.",
     "conteudo_base": {
       "itens": [
-        "O",
-        "menino",
-        "brinca",
-        "no",
-        "parque"
+        "GA",
+        "TO",
+        "XU",
+        "BI"
       ],
       "ordem_correta": [
         0,
         1,
         2,
-        3,
-        4
+        3
       ]
     },
     "criterios_sucesso": [
-      "Ordena palavras para formar frase com sujeito e predicado."
+      "Identifica as sílabas que formam a palavra GATO e as ordena corretamente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Toda frase começa com letra maiúscula. Qual palavra está assim?"
+      "apresentacao": "Falar GA-TO em voz alta, batendo palma em cada sílaba.",
+      "resposta": "Arrastar as sílabas ou usar os botões para reordenar.",
+      "engajamento": "Fala GA-TO batendo palma. Qual sílaba vem primeiro?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar palavras e frases de forma progressiva.",
-      "gabarito": "O menino brinca no parque.",
+      "gabarito": "GA → TO. As sílabas XU e BI são distratores.",
+      "objetivo_pedagogico": "Desenvolver consciência silábica e reconhecimento de sílabas como unidades da escrita.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Quantas sílabas tem a palavra GATO?",
+        "GA-TO ou TO-GA — qual faz sentido?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: palavra dissílaba, dois distratores."
     }
   },
   {
@@ -256,52 +254,51 @@
     "ano": 1,
     "componente": "LP",
     "unidade_id": "lp-1-u2",
-    "unidade_titulo": "Palavras e Frases",
-    "habilidade_bncc_codigo": "EF01LP08",
-    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Leitura de palavras simples e formação de frases",
-    "objetivo": "Desenvolver habilidades de palavras e frases.",
+    "unidade_titulo": "Sistema de Escrita Alfabética",
+    "habilidade_bncc_codigo": "EF01LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.E.01 — Compreensão do sistema de escrita alfabética",
+    "objetivo": "Escrever palavras simples de forma alfabética.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Escreve três frases sobre o que você fez hoje, usando pelo menos uma cor e um animal.",
+    "tempo_medio_min": 10,
+    "enunciado": "Olha os desenhos que o professor mostrou. Escreve o nome de cada um do seu jeito.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "f1",
-          "label": "Frase 1:",
-          "max": 100
+          "id": "d1",
+          "label": "Como se escreve BOLO?",
+          "max": 20
         },
         {
-          "id": "f2",
-          "label": "Frase 2:",
-          "max": 100
+          "id": "d2",
+          "label": "Como se escreve TATU?",
+          "max": 20
         },
         {
-          "id": "f3",
-          "label": "Frase 3:",
-          "max": 100
+          "id": "d3",
+          "label": "Como se escreve FADA?",
+          "max": 20
         }
       ]
     },
     "criterios_sucesso": [
-      "Produz três frases com sentido.",
-      "Inclui cor e animal nas frases."
+      "Registra as palavras com correspondência grafema-fonema adequada ao nível de alfabetização.",
+      "Demonstra entender que cada som corresponde a uma letra."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no seu dia: acordar, almoçar, brincar... Qual animal você viu ou imaginou?"
+      "apresentacao": "Falar cada palavra devagar, sílaba por sílaba, antes de pedir que escrevam.",
+      "resposta": "Escrever livremente — aceitar escrita aproximada (BOLO, BOLU, BOLO são todos válidos).",
+      "engajamento": "Fala BÔ-LO devagarinho. Que letra você ouve em BO? E em LO?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar palavras e frases de forma progressiva.",
-      "gabarito": "Três frases com sentido, usando cor e animal como solicitado.",
+      "gabarito": "BOLO, TATU, FADA. Valorizar qualquer registro com correspondência sonora (ex.: BOLU, TATU, FADA são aceitáveis).",
+      "objetivo_pedagogico": "Avaliar o nível de hipótese de escrita do aluno e promover avanço para a hipótese alfabética.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Como você pensou para escrever essa palavra?",
+        "Tem alguma letra que você não sabia? Como você tentou?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: palavras com sílabas canônicas CV, adequadas à fase de alfabetização do 1º ano."
     }
   }
 ]

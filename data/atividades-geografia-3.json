@@ -1,144 +1,132 @@
 [
   {
-    "id": "geo-001-n1",
+    "id": "geo-3-u1-n1",
     "ano": 3,
     "componente": "Geografia",
-    "unidade_id": "geo-001",
-    "unidade_titulo": "Orientação e Elementos do Mapa",
-    "habilidade_bncc_codigo": "EF03GE07",
-    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
-    "objetivo": "Identificar os pontos cardeais e usá-los para indicar direções simples.",
+    "unidade_id": "geo-3-u1",
+    "unidade_titulo": "Paisagem e Lugar",
+    "habilidade_bncc_codigo": "EF03GE01",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.01 — Identificação de elementos naturais e humanos na paisagem",
+    "objetivo": "Distinguir elementos naturais de elementos construídos pelo ser humano em uma paisagem.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 4,
-    "enunciado": "Observe a rosa dos ventos. Marque a opção que completa corretamente a frase: 'Se estou de frente para o Norte, o Sul está ___.'",
+    "enunciado": "Qual desses elementos é um elemento NATURAL de uma paisagem?",
     "conteudo_base": {
       "opcoes": [
-        "À minha esquerda",
-        "Atrás de mim",
-        "À minha direita",
-        "Na minha frente também"
+        "Uma ponte de concreto",
+        "Um prédio residencial",
+        "Um rio",
+        "Uma estrada de asfalto"
       ],
-      "resposta_correta": 1
+      "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Compreende que Norte e Sul são opostos",
-      "Aplica orientação relativa ao corpo"
+      "Identifica o rio como elemento natural.",
+      "Distingue elementos naturais de construções humanas."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Rosa dos ventos ilustrada exibida acima do enunciado; áudio disponível.",
-      "resposta": "Seleção por clique.",
-      "engajamento": "Dica: destaca na rosa dos ventos a posição de Norte e Sul com setas opostas."
+      "apresentacao": "Professor pode mostrar uma foto de paisagem mista e pedir que identifiquem o que existe sem interferência humana.",
+      "resposta": "Clique no elemento natural.",
+      "engajamento": "Dica: elemento natural é aquele que existe sem que nenhum ser humano precise construir. O rio apareceu sozinho?"
     },
     "modo_professor": {
-      "gabarito": "Opção B: Atrás de mim.",
-      "objetivo_pedagogico": "Construir a noção de orientação relativa com base nos pontos cardeais.",
+      "gabarito": "Opção C: rio — elemento natural, formado sem intervenção humana.",
+      "objetivo_pedagogico": "Desenvolver leitura básica da paisagem com distinção natural/cultural.",
       "perguntas_orientadoras": [
-        "Se o Norte está na sua frente, para onde você precisa virar para ver o Sul?",
-        "Quais pontos cardeais ficam opostos entre si?"
+        "O que os outros três elementos têm em comum?",
+        "Existem rios que foram modificados pelo ser humano? Isso os torna artificiais?",
+        "Liste três elementos naturais de uma paisagem de floresta."
       ],
       "tempo_estimado": "3 a 5 minutos",
-      "adaptacao_nivel": "Nível 1 (Apoio): rosa dos ventos como suporte visual, questão de orientação relativa simples."
+      "adaptacao_nivel": "Nível 1: três construções humanas evidentes e um elemento natural."
     }
   },
   {
-    "id": "geo-001-n2",
+    "id": "geo-3-u1-n2",
     "ano": 3,
     "componente": "Geografia",
-    "unidade_id": "geo-001",
-    "unidade_titulo": "Orientação e Elementos do Mapa",
-    "habilidade_bncc_codigo": "EF03GE07",
-    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
-    "objetivo": "Interpretar elementos de um mapa simples: título, legenda e rosa dos ventos.",
+    "unidade_id": "geo-3-u1",
+    "unidade_titulo": "Paisagem e Lugar",
+    "habilidade_bncc_codigo": "EF03GE02",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.02 — Classificação de paisagens urbanas e rurais",
+    "objetivo": "Classificar elementos de paisagem como típicos do campo ou da cidade.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 6,
-    "enunciado": "Arraste cada elemento do mapa para o seu nome correto.",
+    "tempo_medio_min": 7,
+    "enunciado": "Arrasta cada elemento para a paisagem em que ele é mais típico.",
     "conteudo_base": {
-      "pares": [
-        {
-          "elemento": "Quadro com cores e seus significados",
-          "nome": "Legenda"
-        },
-        {
-          "elemento": "Figura com setas indicando N, S, L, O",
-          "nome": "Rosa dos ventos"
-        },
-        {
-          "elemento": "Frase que diz do que trata o mapa",
-          "nome": "Título"
-        },
-        {
-          "elemento": "Barra que mostra quanto representa a distância no mapa",
-          "nome": "Escala"
-        }
-      ]
+      "itens": [
+        { "id": "i1", "label": "Plantação de soja",           "categoria": "Campo" },
+        { "id": "i2", "label": "Semáforo e faixa de pedestre", "categoria": "Cidade" },
+        { "id": "i3", "label": "Curral com animais",           "categoria": "Campo" },
+        { "id": "i4", "label": "Shopping center",              "categoria": "Cidade" },
+        { "id": "i5", "label": "Silo de armazenamento de grãos","categoria": "Campo" },
+        { "id": "i6", "label": "Metrô subterrâneo",            "categoria": "Cidade" }
+      ],
+      "categorias": ["Campo", "Cidade"]
     },
     "criterios_sucesso": [
-      "Associa cada descrição ao nome correto do elemento cartográfico",
-      "Reconhece a função de cada elemento"
+      "Classifica corretamente os seis elementos em campo e cidade.",
+      "Demonstra compreensão das características de cada paisagem."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Cada elemento descrito em linguagem simples; ícone esquemático ao lado da descrição; áudio.",
-      "resposta": "Arrastar descrição para o nome; alternativa de seleção sequencial.",
-      "engajamento": "Dica: exibe a função de cada elemento ao solicitar ajuda, sem revelar o par."
+      "apresentacao": "Professor pode mostrar fotos contrastando paisagem urbana e rural.",
+      "resposta": "Arrasta cada elemento para a coluna correta.",
+      "engajamento": "Dica: no campo, as atividades são ligadas à natureza e produção agrícola. Na cidade, à indústria, serviços e grande densidade de pessoas."
     },
     "modo_professor": {
-      "gabarito": "Cores/significados → Legenda; N/S/L/O → Rosa dos ventos; frase do tema → Título; distância real → Escala.",
-      "objetivo_pedagogico": "Reconhecer e nomear os elementos formais de representação cartográfica.",
+      "gabarito": "Campo: plantação, curral, silo. Cidade: semáforo, shopping, metrô.",
+      "objetivo_pedagogico": "Consolidar distinção entre paisagem urbana e rural por elementos típicos.",
       "perguntas_orientadoras": [
-        "Para que serve a legenda? E se um mapa não tiver legenda?",
-        "O que acontece se um mapa não tiver título?"
+        "Um silo poderia existir na cidade? Por quê está no campo?",
+        "Você mora em área urbana ou rural?",
+        "O que existia no lugar da sua cidade antes de ela ser construída?"
       ],
-      "tempo_estimado": "5 a 7 minutos",
-      "adaptacao_nivel": "Nível 2 (Básico): 4 pares, descrições funcionais, sem referência visual de mapa real."
+      "tempo_estimado": "5 a 8 minutos",
+      "adaptacao_nivel": "Nível 2: seis elementos, silo como item que exige conhecimento específico."
     }
   },
   {
-    "id": "geo-001-n3",
+    "id": "geo-3-u1-n3",
     "ano": 3,
     "componente": "Geografia",
-    "unidade_id": "geo-001",
-    "unidade_titulo": "Orientação e Elementos do Mapa",
-    "habilidade_bncc_codigo": "EF03GE07",
-    "referencia_cbtc": "CBTC-SC: GEO.EF3.L.01 — Elementos básicos de representação do espaço: legenda, orientação e escala",
-    "objetivo": "Descrever a localização de um lugar usando pontos cardeais e elementos do mapa.",
+    "unidade_id": "geo-3-u1",
+    "unidade_titulo": "Paisagem e Lugar",
+    "habilidade_bncc_codigo": "EF03GE03",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.03 — Leitura e descrição de paisagens",
+    "objetivo": "Descrever uma paisagem local identificando elementos naturais e humanos.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 7,
-    "enunciado": "Imagine um mapa simples da sua escola. Descreva onde fica a biblioteca em relação à entrada principal, usando pelo menos dois pontos cardeais. Explique também qual elemento do mapa você usaria para mostrar onde é cada sala.",
+    "tempo_medio_min": 10,
+    "enunciado": "Pense na paisagem que você vê ao sair da escola ou da sua casa. Descreva essa paisagem identificando pelo menos dois elementos naturais e dois elementos construídos pelo ser humano.",
     "conteudo_base": {
       "campos": [
-        {
-          "label": "Localização da biblioteca (use pontos cardeais):",
-          "id": "localizacao",
-          "max": 150
-        },
-        {
-          "label": "Elemento do mapa que usaria e por quê:",
-          "id": "elemento",
-          "max": 150
-        }
+        { "id": "naturais",    "label": "Dois elementos naturais que você vê:",          "max": 200 },
+        { "id": "construidos", "label": "Dois elementos construídos que você vê:",       "max": 200 },
+        { "id": "caracteriza", "label": "Essa paisagem é mais urbana ou rural? Por quê?","max": 150 }
       ]
     },
     "criterios_sucesso": [
-      "Usa dois ou mais pontos cardeais de forma coerente",
-      "Nomeia e justifica o elemento cartográfico adequado (ex.: legenda)"
+      "Identifica dois elementos naturais pertinentes.",
+      "Identifica dois elementos construídos pertinentes.",
+      "Classifica a paisagem com justificativa coerente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Rosa dos ventos de referência disponível; glossário de elementos do mapa; áudio do enunciado.",
-      "resposta": "Dois campos de escrita; alternativa oral.",
-      "engajamento": "Dica: sugere que o aluno pense no caminho que faz da entrada até a biblioteca e em qual direção vai."
+      "apresentacao": "Professor pode levar a turma para olhar pela janela antes da atividade.",
+      "resposta": "Preenche os três campos.",
+      "engajamento": "Dica: olha ao redor. O que foi colocado lá pela natureza? O que foi feito por pessoas?"
     },
     "modo_professor": {
-      "gabarito": "Localização aceita qualquer resposta coerente com uso de 2+ pontos cardeais (ex.: 'A biblioteca fica ao Norte da entrada e a Leste do pátio'). Elemento: legenda, justificada pela necessidade de representar cada tipo de sala com uma cor ou símbolo diferente.",
-      "objetivo_pedagogico": "Aplicar orientação e vocabulário cartográfico na descrição de espaço conhecido.",
+      "gabarito": "Aceitar qualquer paisagem real descrita coerentemente. Avaliar se a classificação urbana/rural está justificada com elementos concretos.",
+      "objetivo_pedagogico": "Desenvolver leitura geográfica da paisagem cotidiana.",
       "perguntas_orientadoras": [
-        "Se a entrada fica ao Sul, para onde você vai quando entra na escola?",
-        "Como uma pessoa que nunca foi à escola saberia onde fica a biblioteca olhando para o mapa?"
+        "O que mudaria nessa paisagem se não houvesse nenhuma construção humana?",
+        "Essa paisagem era a mesma há 50 anos?",
+        "O que você gostaria que fosse diferente nessa paisagem?"
       ],
-      "tempo_estimado": "6 a 8 minutos",
-      "adaptacao_nivel": "Nível 3 (Ampliação): aplicação em espaço vivido, exige articulação de conceitos."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "Nível 3: observação real do entorno com análise e classificação."
     }
   },
   {
@@ -146,41 +134,42 @@
     "ano": 3,
     "componente": "Geografia",
     "unidade_id": "geo-3-u2",
-    "unidade_titulo": "Campo e Cidade",
-    "habilidade_bncc_codigo": "EF03GE03",
-    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.02 — Vida no campo e na cidade: semelhanças e diferenças",
-    "objetivo": "Desenvolver habilidades de campo e cidade.",
+    "unidade_titulo": "Cartografia e Representação",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.C.01 — Leitura básica de mapas e seus elementos",
+    "objetivo": "Identificar um elemento obrigatório de um mapa.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual é uma característica típica da vida no campo (zona rural)?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual desses elementos NÃO é um elemento básico de um mapa?",
     "conteudo_base": {
       "opcoes": [
-        "Muitos prédios altos",
-        "Trânsito intenso de carros",
-        "Produção de alimentos e contato com a natureza",
-        "Grande quantidade de shoppings"
+        "Título",
+        "Legenda",
+        "Foto do autor",
+        "Escala"
       ],
       "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Identifica características do espaço rural."
+      "Identifica título, legenda e escala como elementos básicos de mapas.",
+      "Reconhece que a foto do autor não faz parte dos elementos cartográficos."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no que você veria olhando pela janela se estivesse numa fazenda."
+      "apresentacao": "Professor pode exibir um mapa simples no quadro e apontar cada elemento.",
+      "resposta": "Clique no elemento que não pertence ao mapa.",
+      "engajamento": "Dica: pensa em um mapa que você já viu. O que ele sempre tem para você entender o que está representado?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar campo e cidade de forma progressiva.",
-      "gabarito": "Produção de alimentos e contato com a natureza são traços da vida rural.",
+      "gabarito": "Opção C: foto do autor — não é elemento cartográfico.",
+      "objetivo_pedagogico": "Introduzir os elementos básicos da linguagem cartográfica.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Para que serve a legenda de um mapa?",
+        "O que a escala indica?",
+        "O que acontece se um mapa não tiver título?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1: três elementos cartográficos reais e um intruso evidente."
     }
   },
   {
@@ -188,60 +177,41 @@
     "ano": 3,
     "componente": "Geografia",
     "unidade_id": "geo-3-u2",
-    "unidade_titulo": "Campo e Cidade",
-    "habilidade_bncc_codigo": "EF03GE03",
-    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.02 — Vida no campo e na cidade: semelhanças e diferenças",
-    "objetivo": "Desenvolver habilidades de campo e cidade.",
+    "unidade_titulo": "Cartografia e Representação",
+    "habilidade_bncc_codigo": "EF03GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.C.02 — Pontos cardeais e orientação espacial",
+    "objetivo": "Associar pontos cardeais às suas posições na rosa dos ventos.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Classifica cada característica como típica do Campo ou da Cidade.",
+    "tempo_medio_min": 6,
+    "enunciado": "Arrasta cada ponto cardeal para a posição correta na rosa dos ventos.",
     "conteudo_base": {
-      "itens": [
-        {
-          "id": "cc1",
-          "label": "Plantações e criação de animais",
-          "categoria": "Campo"
-        },
-        {
-          "id": "cc2",
-          "label": "Metrô e ônibus urbano",
-          "categoria": "Cidade"
-        },
-        {
-          "id": "cc3",
-          "label": "Silêncio e ar puro",
-          "categoria": "Campo"
-        },
-        {
-          "id": "cc4",
-          "label": "Hospitais especializados",
-          "categoria": "Cidade"
-        }
-      ],
-      "categorias": [
-        "Campo",
-        "Cidade"
+      "pares": [
+        { "elemento": "Onde o sol nasce",     "nome": "Leste"  },
+        { "elemento": "Oposto ao Leste",      "nome": "Oeste"  },
+        { "elemento": "Polo Norte aponta aqui","nome": "Norte" },
+        { "elemento": "Oposto ao Norte",      "nome": "Sul"    }
       ]
     },
     "criterios_sucesso": [
-      "Distingue características dos espaços rural e urbano."
+      "Associa os quatro pontos cardeais às suas posições/descrições.",
+      "Compreende o leste como referência do nascer do sol."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Campo: natureza, produção. Cidade: serviços, tecnologia, aglomeração."
+      "apresentacao": "Professor pode usar a posição do sol durante a aula como referência real.",
+      "resposta": "Arrasta cada descrição para o ponto cardeal correto.",
+      "engajamento": "Dica: o sol nasce no Leste. Se você olhar para o Leste, o Norte fica à sua esquerda ou à direita?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar campo e cidade de forma progressiva.",
-      "gabarito": "Campo: plantações e silêncio. Cidade: transporte urbano e hospitais.",
+      "gabarito": "Leste: nascer do sol. Oeste: oposto ao leste. Norte: polo norte. Sul: oposto ao norte.",
+      "objetivo_pedagogico": "Consolidar os pontos cardeais como sistema de orientação espacial.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Se você está olhando para o Norte, qual ponto fica atrás de você?",
+        "Por que o sol é uma boa referência para encontrar o Leste?",
+        "Onde fica o Sul do Brasil em relação ao Norte do país?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "Nível 2: quatro pontos, descrições exigem raciocínio espacial."
     }
   },
   {
@@ -249,46 +219,40 @@
     "ano": 3,
     "componente": "Geografia",
     "unidade_id": "geo-3-u2",
-    "unidade_titulo": "Campo e Cidade",
-    "habilidade_bncc_codigo": "EF03GE03",
-    "referencia_cbtc": "CBTC-SC: GEO.EF3.P.02 — Vida no campo e na cidade: semelhanças e diferenças",
-    "objetivo": "Desenvolver habilidades de campo e cidade.",
+    "unidade_titulo": "Cartografia e Representação",
+    "habilidade_bncc_codigo": "EF03GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.C.03 — Elaboração e leitura de croquis e mapas simples",
+    "objetivo": "Descrever um trajeto usando pontos de referência e orientação espacial.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Imagina que você mora no campo e vai visitar uma grande cidade (ou o contrário). O que você veria de diferente? O que seria difícil de se adaptar?",
+    "tempo_medio_min": 10,
+    "enunciado": "Descreva o caminho de sua casa até a escola usando pelo menos dois pontos de referência (ex.: padaria, semáforo, praça) e mencione as direções (direita, esquerda, reto).",
     "conteudo_base": {
       "campos": [
-        {
-          "id": "diferente",
-          "label": "O que seria diferente:",
-          "max": 200
-        },
-        {
-          "id": "dificil",
-          "label": "O que seria difícil de se adaptar:",
-          "max": 200
-        }
+        { "id": "trajeto",     "label": "Descreva o trajeto passo a passo:",           "max": 350 },
+        { "id": "referencias", "label": "Quais pontos de referência você usou e por quê?","max": 200 }
       ]
     },
     "criterios_sucesso": [
-      "Compara espaços rural e urbano por múltiplos aspectos."
+      "Descreve o trajeto com sequência lógica.",
+      "Usa ao menos dois pontos de referência.",
+      "Menciona direções (direita, esquerda, reto)."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa em: ritmo de vida, barulho, natureza, serviços, distâncias..."
+      "apresentacao": "Professor pode demonstrar um trajeto fictício no quadro como exemplo.",
+      "resposta": "Preenche os dois campos.",
+      "engajamento": "Dica: imagina que você está explicando o caminho para alguém que nunca foi até sua casa. Como você contaria?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar campo e cidade de forma progressiva.",
-      "gabarito": "Comparação com aspectos concretos das diferenças campo-cidade.",
+      "gabarito": "Aceitar qualquer trajeto coerente com pontos de referência identificados e direções mencionadas.",
+      "objetivo_pedagogico": "Desenvolver orientação espacial e linguagem cartográfica informal.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que pontos de referência ajudam quem não conhece o caminho?",
+        "Qual ponto de referência você considera o mais importante? Por quê?",
+        "Como um mapa seria diferente de uma descrição em palavras?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "Nível 3: produção de descrição espacial com linguagem de orientação."
     }
   }
 ]

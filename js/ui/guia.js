@@ -313,4 +313,7 @@ export function renderGuia(main) {
   }, { rootMargin: '-20% 0px -70% 0px' });
 
   headings.forEach(h => observer.observe(h));
+
+  /* Desconectar observer ao navegar para outra página */
+  window.addEventListener('hashchange', () => observer.disconnect(), { once: true });
 }

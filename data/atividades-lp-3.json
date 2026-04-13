@@ -1,142 +1,127 @@
 [
   {
-    "id": "lp-001-n1",
+    "id": "lp-3-u1-n1",
     "ano": 3,
     "componente": "LP",
-    "unidade_id": "lp-001",
+    "unidade_id": "lp-3-u1",
     "unidade_titulo": "Ideia Principal e Evidências",
     "habilidade_bncc_codigo": "EF35LP06",
-    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
-    "objetivo": "Identificar a ideia principal de um texto informativo com suporte visual.",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02 — Localização de informações explícitas em textos",
+    "objetivo": "Identificar a ideia principal de um parágrafo curto.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 5,
-    "enunciado": "Leia o texto abaixo. Depois, marque a frase que melhor representa a ideia principal.",
+    "enunciado": "Leia o parágrafo e marque a frase que melhor resume o assunto principal.\n\nAs abelhas vivem em colmeias. Cada abelha tem uma função: a rainha põe ovos, as operárias coletam néctar e os zangões ajudam na reprodução. Juntas, elas produzem o mel.",
     "conteudo_base": {
-      "texto": "A água é fundamental para a vida. Todos os seres vivos precisam dela para sobreviver. Plantas absorvem água pelo solo. Animais bebem água de rios, lagos e chuva. Os seres humanos também precisam beber água todos os dias para manter o corpo funcionando bem.",
       "opcoes": [
-        "A água cai do céu como chuva.",
-        "Todos os seres vivos precisam de água para viver.",
-        "As plantas crescem no solo.",
-        "Os rios têm muita água."
+        "As abelhas produzem mel usando flores.",
+        "Cada abelha tem uma função dentro da colmeia.",
+        "A rainha é a mais importante da colmeia.",
+        "As operárias trabalham mais do que as outras."
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica a frase que abrange o assunto principal do texto",
-      "Distingue ideia principal de detalhe secundário"
+      "Identifica a frase que resume o tema do parágrafo inteiro.",
+      "Distingue ideia principal de detalhe."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Texto com no máximo 5 linhas; botão de áudio disponível; opção de fonte maior.",
-      "resposta": "Seleção por clique em opção de múltipla escolha; sem digitação.",
-      "engajamento": "Dica disponível: destaca no texto a frase mais ampla para guiar a escolha."
+      "apresentacao": "Texto curto; professor pode ler em voz alta. Botão Ouvir disponível.",
+      "resposta": "Clique na opção correta e depois em Pronto!.",
+      "engajamento": "Dica: a ideia principal fala sobre o parágrafo todo, não só uma parte dele. Qual frase faz isso?"
     },
     "modo_professor": {
-      "gabarito": "Opção B: 'Todos os seres vivos precisam de água para viver.'",
-      "objetivo_pedagogico": "Desenvolver a habilidade de distinguir ideia central de informações secundárias em textos curtos.",
+      "gabarito": "Opção B: 'Cada abelha tem uma função dentro da colmeia.'",
+      "objetivo_pedagogico": "Desenvolver a habilidade de localizar e formular a ideia principal de um texto informativo.",
       "perguntas_orientadoras": [
-        "O texto fala sobre um único ser vivo ou sobre todos?",
-        "Qual das frases poderia ser o título do texto?"
+        "O parágrafo fala só sobre mel ou sobre como as abelhas se organizam?",
+        "A frase A é um detalhe ou um resumo?",
+        "Qual frase poderia ser o título desse parágrafo?"
       ],
       "tempo_estimado": "4 a 6 minutos",
-      "adaptacao_nivel": "Nível 1 (Apoio): texto curto, 4 opções com distratores simples, dica ativa por padrão."
+      "adaptacao_nivel": "Nível 1 (Apoio): parágrafo curto, distratores baseados em detalhes explícitos do texto."
     }
   },
   {
-    "id": "lp-001-n2",
+    "id": "lp-3-u1-n2",
     "ano": 3,
     "componente": "LP",
-    "unidade_id": "lp-001",
+    "unidade_id": "lp-3-u1",
     "unidade_titulo": "Ideia Principal e Evidências",
     "habilidade_bncc_codigo": "EF35LP06",
-    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
-    "objetivo": "Identificar a ideia principal e uma evidência que a sustenta em texto informativo.",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.03 — Hierarquia informacional em textos expositivos",
+    "objetivo": "Ordenar parágrafos do mais geral (ideia principal) para o mais específico (detalhe).",
     "nivel": 2,
     "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 6,
-    "enunciado": "Leia o texto. Depois, organize as frases na ordem: primeiro a ideia principal, depois as evidências que a comprovam.",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloca esses trechos na ordem lógica: do mais geral para o mais específico.",
     "conteudo_base": {
-      "texto": "A Floresta Amazônica é uma das regiões mais biodiversas do planeta. Ela abriga mais de 10% de todas as espécies de plantas e animais conhecidos. Pesquisadores estimam que há mais de 390 bilhões de árvores só na Amazônia. Além disso, milhares de espécies de insetos e pássaros ainda não foram classificados pela ciência.",
       "itens": [
-        "A Floresta Amazônica é uma das regiões mais biodiversas do planeta.",
-        "Mais de 10% de todas as espécies conhecidas vivem lá.",
-        "Há mais de 390 bilhões de árvores na Amazônia.",
-        "Milhares de espécies ainda não foram classificadas."
+        "As operárias chegam a voar 3 km para coletar néctar de uma única flor.",
+        "As abelhas têm funções bem divididas dentro da colmeia.",
+        "A rainha pode botar até 2 000 ovos por dia."
       ],
-      "ordem_correta": [
-        0,
-        1,
-        2,
-        3
-      ]
+      "ordem_correta": [1, 2, 0]
     },
     "criterios_sucesso": [
-      "Posiciona a ideia principal como primeira frase",
-      "Reconhece as demais frases como evidências ou detalhes"
+      "Identifica o parágrafo geral (ideia principal) e os detalhes.",
+      "Ordena do mais amplo para o mais específico."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Texto com marcação de palavras-chave; botão de áudio; contraste ajustável.",
-      "resposta": "Arrastar e soltar para ordenar; alternativa de botões de reordenação por teclado.",
-      "engajamento": "Dica: realça visualmente a frase mais ampla do texto ao solicitar ajuda."
+      "apresentacao": "Professor pode explicar 'geral' vs. 'específico' com exemplos do cotidiano antes.",
+      "resposta": "Arrasta os blocos ou usa os botões cima/baixo para reordená-los.",
+      "engajamento": "Dica: qual frase poderia ser o título? Ela é a mais geral. As outras contam detalhes sobre ela."
     },
     "modo_professor": {
-      "gabarito": "Ordem: frase 1 (ideia principal), frases 2, 3, 4 (evidências).",
-      "objetivo_pedagogico": "Compreender a relação hierárquica entre ideia central e informações de suporte.",
+      "gabarito": "Funções divididas (geral) → rainha (detalhe 1) → operárias (detalhe 2).",
+      "objetivo_pedagogico": "Desenvolver compreensão da hierarquia informacional em textos expositivos.",
       "perguntas_orientadoras": [
-        "Qual frase, se retirada, tornaria as demais sem sentido?",
-        "Qual frase mais ampla resume o assunto das outras?"
+        "Qual parágrafo fala sobre todas as abelhas? Qual fala só de uma?",
+        "Se você tirasse a frase geral, o texto ainda faria sentido?",
+        "Qual detalhe você acha mais surpreendente?"
       ],
-      "tempo_estimado": "5 a 7 minutos",
-      "adaptacao_nivel": "Nível 2 (Básico): texto com mais informações, tarefa de organização exige raciocínio relacional."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "Nível 2: três unidades, distinção geral-específico exige inferência."
     }
   },
   {
-    "id": "lp-001-n3",
+    "id": "lp-3-u1-n3",
     "ano": 3,
     "componente": "LP",
-    "unidade_id": "lp-001",
+    "unidade_id": "lp-3-u1",
     "unidade_titulo": "Ideia Principal e Evidências",
-    "habilidade_bncc_codigo": "EF35LP06",
-    "referencia_cbtc": "CBTC-SC: LP.EF3.L.01 — Leitura e compreensão de textos informativos curtos",
-    "objetivo": "Formular a ideia principal de um texto com as próprias palavras e justificá-la com evidências.",
+    "habilidade_bncc_codigo": "EF35LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.04 — Identificação de tese e evidências em textos",
+    "objetivo": "Identificar a ideia principal de um texto e escrever uma evidência que a apoia.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 7,
-    "enunciado": "Leia o texto abaixo. Escreva, com suas próprias palavras, qual é a ideia principal. Depois, escreva uma frase do texto que funcione como evidência para essa ideia.",
+    "tempo_medio_min": 10,
+    "enunciado": "Leia o texto e responda nos campos abaixo.\n\nAs abelhas são insetos fundamentais para o equilíbrio da natureza. Elas polinizam flores e plantas, permitindo que frutos se formem. Sem as abelhas, grande parte dos alimentos que consumimos deixaria de existir. Por isso, proteger as abelhas é proteger a nossa alimentação.",
     "conteudo_base": {
-      "texto": "O solo é um recurso natural vital, mas frequentemente subestimado. Ele leva centenas de anos para se formar, mas pode ser destruído em poucos anos por práticas agrícolas inadequadas. O solo saudável contém organismos vivos — bactérias, fungos, minhocas — que transformam matéria orgânica em nutrientes para as plantas. Sem solo de qualidade, a produção de alimentos se torna inviável em larga escala.",
       "campos": [
-        {
-          "label": "Ideia principal (com suas palavras):",
-          "id": "ideia_principal",
-          "max": 150
-        },
-        {
-          "label": "Evidência do texto (copie ou parafraseie):",
-          "id": "evidencia",
-          "max": 150
-        }
+        { "id": "ideia_principal", "label": "Qual é a ideia principal do texto?", "max": 150 },
+        { "id": "evidencia", "label": "Escreve uma evidência do texto que apoia essa ideia:", "max": 200 }
       ]
     },
     "criterios_sucesso": [
-      "Reformula a ideia central sem copiar literalmente",
-      "Identifica frase do texto que comprova a ideia indicada",
-      "Mantém coerência entre ideia e evidência escolhida"
+      "Formula a ideia principal com as próprias palavras.",
+      "Seleciona uma evidência textual pertinente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Texto disponível para consulta durante a escrita; áudio; fonte ajustável.",
-      "resposta": "Escrita livre em campo de texto; alternativa oral disponível via gravação local.",
-      "engajamento": "Dica: sugere que o aluno releia o primeiro e o último parágrafo antes de responder."
+      "apresentacao": "Professor pode explicar o conceito de 'evidência' antes da atividade.",
+      "resposta": "Preenche os dois campos.",
+      "engajamento": "Dica: a ideia principal responde 'O que o texto quer me dizer?'. A evidência responde 'Como o texto prova isso?'."
     },
     "modo_professor": {
-      "gabarito": "Ideia central esperada: o solo é um recurso natural importante e frágil. Evidências válidas: qualquer frase que mencione tempo de formação, organismos ou consequências da degradação.",
-      "objetivo_pedagogico": "Desenvolver escrita argumentativa básica com apoio textual explícito.",
+      "gabarito": "Ideia principal: as abelhas são fundamentais para a natureza e para a alimentação humana. Evidências válidas: polinização, formação de frutos, impacto na cadeia alimentar.",
+      "objetivo_pedagogico": "Desenvolver leitura analítica com distinção entre tese e evidência.",
       "perguntas_orientadoras": [
-        "O que o texto quer nos ensinar sobre o solo?",
-        "Qual parte do texto prova essa ideia?"
+        "Qual frase do texto resume o argumento central?",
+        "O que o autor usa para convencer o leitor?",
+        "Por que a polinização é uma evidência importante?"
       ],
-      "tempo_estimado": "6 a 8 minutos",
-      "adaptacao_nivel": "Nível 3 (Ampliação): produção escrita livre, exige paráfrase e seleção crítica de evidência."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "Nível 3: análise crítica com distinção tese-evidência."
     }
   },
   {
@@ -145,40 +130,41 @@
     "componente": "LP",
     "unidade_id": "lp-3-u2",
     "unidade_titulo": "Produção de Texto",
-    "habilidade_bncc_codigo": "EF35LP07",
-    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02 — Produção de textos narrativos com começo, meio e fim",
-    "objetivo": "Desenvolver habilidades de produção de texto.",
+    "habilidade_bncc_codigo": "EF35LP16",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.E.01 — Elementos da narrativa",
+    "objetivo": "Identificar os elementos básicos de uma narrativa.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual parte do texto narrativo apresenta o problema que o personagem precisa resolver?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual desses elementos NÃO faz parte da estrutura de uma história?",
     "conteudo_base": {
       "opcoes": [
-        "Início — apresenta personagens e cenário",
-        "Meio — apresenta o conflito",
-        "Fim — mostra a resolução",
-        "Título — resume a história"
+        "Personagens",
+        "Enredo",
+        "Ingredientes",
+        "Lugar onde acontece"
       ],
-      "resposta_correta": 1
+      "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Identifica a função das partes da estrutura narrativa."
+      "Reconhece que 'ingredientes' é elemento de receita, não de narrativa.",
+      "Identifica os demais como elementos da narrativa."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "O problema que o personagem enfrenta está no meio da história."
+      "apresentacao": "Professor pode listar os elementos narrativos no quadro antes de iniciar.",
+      "resposta": "Clique no elemento que não pertence.",
+      "engajamento": "Dica: pensa em uma história que você conhece. O que ela tem? Personagens? Um lugar? O que ela não teria nunca?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar produção de texto de forma progressiva.",
-      "gabarito": "O meio da narrativa é onde o conflito acontece.",
+      "gabarito": "Opção C: 'Ingredientes' — elemento de receita, não de narrativa.",
+      "objetivo_pedagogico": "Consolidar vocabulário dos elementos narrativos.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que são personagens numa história?",
+        "O que é enredo?",
+        "Em que tipo de texto aparecem ingredientes?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "Nível 1: reconhecimento direto, distrator de outro gênero textual."
     }
   },
   {
@@ -187,47 +173,40 @@
     "componente": "LP",
     "unidade_id": "lp-3-u2",
     "unidade_titulo": "Produção de Texto",
-    "habilidade_bncc_codigo": "EF35LP07",
-    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02 — Produção de textos narrativos com começo, meio e fim",
-    "objetivo": "Desenvolver habilidades de produção de texto.",
+    "habilidade_bncc_codigo": "EF35LP16",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.E.02 — Estrutura narrativa: partes e funções",
+    "objetivo": "Associar partes da estrutura narrativa às suas descrições.",
     "nivel": 2,
-    "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 5,
-    "enunciado": "Organiza os parágrafos para formar uma história com começo, meio e fim.",
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Arrasta cada descrição para a parte da história a que ela pertence.",
     "conteudo_base": {
-      "itens": [
-        "Bia adorava passear no parque perto de casa.",
-        "Um dia, ela encontrou um cachorrinho perdido.",
-        "O cachorro estava com fome e com medo.",
-        "Bia levou o cachorrinho para casa e cuidou dele.",
-        "No dia seguinte, encontrou a dona e devolveu o animal feliz."
-      ],
-      "ordem_correta": [
-        0,
-        1,
-        2,
-        3,
-        4
+      "pares": [
+        { "elemento": "Apresentação dos personagens e do lugar", "nome": "Início" },
+        { "elemento": "O problema que os personagens precisam resolver", "nome": "Conflito" },
+        { "elemento": "Momento de maior tensão da história", "nome": "Clímax" },
+        { "elemento": "Como o problema foi resolvido", "nome": "Desfecho" }
       ]
     },
     "criterios_sucesso": [
-      "Ordena parágrafos respeitando a progressão narrativa."
+      "Associa corretamente as quatro descrições às partes da narrativa.",
+      "Distingue clímax de conflito."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Quem é a personagem principal? Onde e quando a história começa?"
+      "apresentacao": "Professor pode usar Chapeuzinho Vermelho para exemplificar cada parte.",
+      "resposta": "Arrasta cada descrição para o destino correto.",
+      "engajamento": "Dica: em Chapeuzinho, em que parte aparece o lobo pela primeira vez? E quando ela chega na casa da vovó?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar produção de texto de forma progressiva.",
-      "gabarito": "Sequência: apresentação de Bia, encontro, situação problema, ação, resolução.",
+      "gabarito": "Início: apresentação. Conflito: o problema. Clímax: maior tensão. Desfecho: resolução.",
+      "objetivo_pedagogico": "Desenvolver compreensão estrutural do texto narrativo.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Em qual parte da história você fica mais ansioso?",
+        "Uma história pode ter mais de um conflito?",
+        "O que acontece se uma história não tiver desfecho?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "5 a 8 minutos",
+      "adaptacao_nivel": "Nível 2: quatro partes, exige distinguir clímax de conflito."
     }
   },
   {
@@ -236,50 +215,40 @@
     "componente": "LP",
     "unidade_id": "lp-3-u2",
     "unidade_titulo": "Produção de Texto",
-    "habilidade_bncc_codigo": "EF35LP07",
-    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02 — Produção de textos narrativos com começo, meio e fim",
-    "objetivo": "Desenvolver habilidades de produção de texto.",
+    "habilidade_bncc_codigo": "EF35LP16",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.E.03 — Produção de texto narrativo com início, meio e fim",
+    "objetivo": "Produzir um texto narrativo curto com estrutura completa.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Cria uma história curta com início, meio e fim. Use os elementos: um personagem, um lugar e um problema para resolver.",
+    "tempo_medio_min": 12,
+    "enunciado": "Cria uma história curta sobre um animal que encontrou algo inesperado na floresta. Sua história deve ter início, conflito e desfecho.",
     "conteudo_base": {
       "campos": [
-        {
-          "id": "titulo",
-          "label": "Título:",
-          "max": 60
-        },
-        {
-          "id": "historia",
-          "label": "Minha história (mínimo 4 frases):",
-          "max": 500
-        }
-      ],
-      "palavras_obrigatorias": [
-        "personagem",
-        "lugar"
+        { "id": "inicio", "label": "Início — apresente o personagem e o lugar:", "max": 200 },
+        { "id": "conflito", "label": "Conflito — o que aconteceu de inesperado?", "max": 200 },
+        { "id": "desfecho", "label": "Desfecho — como terminou?", "max": 200 }
       ]
     },
     "criterios_sucesso": [
-      "Usa estrutura narrativa completa.",
-      "Inclui personagem, espaço e conflito."
+      "Cria narrativa com os três momentos estruturais.",
+      "Mantém coerência entre as partes.",
+      "Usa vocabulário adequado para o 3º ano."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Inventa um nome para seu personagem. Onde ele estava? O que deu errado? Como resolveu?"
+      "apresentacao": "Professor pode fazer brainstorm coletivo de animais e situações antes.",
+      "resposta": "Preenche os três campos em ordem.",
+      "engajamento": "Dica: escolha um animal que você gosta. Agora pensa — o que de inesperado poderia acontecer com ele na floresta?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar produção de texto de forma progressiva.",
-      "gabarito": "História com personagem nomeado, espaço definido, conflito e resolução.",
+      "gabarito": "Qualquer história com animal, evento inesperado coerente e resolução. Avaliar coesão entre as partes.",
+      "objetivo_pedagogico": "Desenvolver produção narrativa com planejamento estrutural.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Seu personagem tem um nome?",
+        "O conflito é realmente inesperado ou previsível?",
+        "O desfecho combina com o conflito criado?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "10 a 15 minutos",
+      "adaptacao_nivel": "Nível 3: produção criativa estruturada em três partes."
     }
   }
 ]

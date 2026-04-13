@@ -4,43 +4,40 @@
     "ano": 1,
     "componente": "Ciências",
     "unidade_id": "cie-1-u1",
-    "unidade_titulo": "O Corpo Humano",
-    "habilidade_bncc_codigo": "EF01CI01",
-    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.01 — Partes do corpo humano e suas funções básicas",
-    "objetivo": "Identificar as partes do corpo humano.",
+    "unidade_titulo": "Sentidos e Corpo",
+    "habilidade_bncc_codigo": "EF01CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.01 — Corpo humano: partes e sentidos",
+    "objetivo": "Identificar os órgãos dos sentidos e suas funções.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Com qual parte do corpo você cheira as flores?",
+    "tempo_medio_min": 4,
+    "enunciado": "Com qual parte do corpo ouvimos os sons?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "Com qual parte do corpo você cheira?",
       "opcoes": [
+        "Olhos",
+        "Orelhas",
         "Nariz",
-        "Orelha",
-        "Olho",
         "Boca"
       ],
-      "resposta_correta": 0
+      "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Associa o órgão do sentido à sua função corretamente."
+      "Associa a audição às orelhas como órgão do sentido correspondente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode perguntar: o que você usa para sentir cheiro?",
-      "resposta": "Clica na parte do corpo certa.",
-      "engajamento": "Pensa: quando você cheira um bolo quentinho, qual parte do seu rosto sente o cheiro?"
+      "apresentacao": "Fazer um som e perguntar: 'Que parte do corpo usou para ouvir isso?'",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Fecha os olhos e escuta. Que parte do seu corpo está trabalhando agora?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Reconhecer as funções básicas das partes do corpo e dos órgãos dos sentidos.",
-      "gabarito": "Nariz — órgão responsável pelo olfato.",
+      "gabarito": "Orelhas — órgão responsável pela audição.",
+      "objetivo_pedagogico": "Reconhecer os cinco sentidos e associar cada um ao órgão correspondente.",
       "perguntas_orientadoras": [
         "Quais são os cinco sentidos?",
-        "Cada sentido tem um órgão. Qual é o do cheiro?",
-        "O que aconteceria se você tampasse o nariz?"
+        "Que órgão usamos para enxergar?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: questão direta sobre função de um órgão, vocabulário familiar."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação direta de um órgão e sua função."
     }
   },
   {
@@ -48,16 +45,15 @@
     "ano": 1,
     "componente": "Ciências",
     "unidade_id": "cie-1-u1",
-    "unidade_titulo": "O Corpo Humano",
-    "habilidade_bncc_codigo": "EF01CI01",
-    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.01 — Partes do corpo humano e suas funções básicas",
-    "objetivo": "Relacionar cada sentido ao seu órgão.",
+    "unidade_titulo": "Sentidos e Corpo",
+    "habilidade_bncc_codigo": "EF01CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.01 — Corpo humano: partes e sentidos",
+    "objetivo": "Associar cada sentido ao seu órgão.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
     "tempo_medio_min": 7,
-    "enunciado": "Arrasta cada sentido para o órgão certo.",
+    "enunciado": "Liga cada sentido ao órgão que o faz funcionar.",
     "conteudo_base": {
-      "tipo": "pares",
       "pares": [
         {
           "elemento": "Ver",
@@ -72,34 +68,32 @@
           "nome": "Nariz"
         },
         {
-          "elemento": "Tocar",
+          "elemento": "Sentir textura",
           "nome": "Pele"
         },
         {
-          "elemento": "Provar",
+          "elemento": "Provar sabor",
           "nome": "Língua"
         }
       ]
     },
     "criterios_sucesso": [
-      "Liga corretamente os cinco sentidos aos seus órgãos.",
-      "Demonstra compreensão da função de cada órgão."
+      "Associa corretamente os cinco sentidos aos seus órgãos."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor lê cada par em voz alta antes da criança arrastar.",
-      "resposta": "Arrasta o sentido para o órgão. Ou clica no sentido e depois no órgão.",
-      "engajamento": "Pensa em cada sentido: o que você usa para fazer isso? Qual parte do corpo?"
+      "apresentacao": "Tocar o nariz, a pele e a língua enquanto fala cada sentido.",
+      "resposta": "Arrastar ou clicar em cada sentido e depois no órgão.",
+      "engajamento": "Quando você sente frio ou calor, qual parte do seu corpo percebe isso?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Sistematizar o conhecimento sobre os cinco sentidos e seus órgãos.",
-      "gabarito": "Ver→Olhos, Ouvir→Orelhas, Cheirar→Nariz, Tocar→Pele, Provar→Língua.",
+      "gabarito": "Ver→Olhos, Ouvir→Orelhas, Cheirar→Nariz, Sentir textura→Pele, Provar sabor→Língua.",
+      "objetivo_pedagogico": "Sistematizar o conhecimento dos cinco sentidos e seus órgãos receptores.",
       "perguntas_orientadoras": [
-        "Com o que você vê? E ouve?",
-        "Quando você come algo saboroso, qual parte da boca sente o gosto?",
-        "Se você fecha os olhos e toca algo, você ainda consegue sentir? Com o quê?"
+        "O que aconteceria se você tapasse o nariz enquanto come?",
+        "Por que temos dois olhos e duas orelhas?"
       ],
-      "tempo_estimado": "7 minutos",
-      "adaptacao_nivel": "Nível 2: cinco pares, exige correspondência completa dos sentidos."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: cinco pares, requer distinção entre todos os sentidos."
     }
   },
   {
@@ -107,54 +101,51 @@
     "ano": 1,
     "componente": "Ciências",
     "unidade_id": "cie-1-u1",
-    "unidade_titulo": "O Corpo Humano",
-    "habilidade_bncc_codigo": "EF01CI01",
-    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.01 — Partes do corpo humano e suas funções básicas",
-    "objetivo": "Descrever como usamos os sentidos no dia a dia.",
+    "unidade_titulo": "Sentidos e Corpo",
+    "habilidade_bncc_codigo": "EF01CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.01 — Corpo humano: partes e sentidos",
+    "objetivo": "Descrever como os sentidos ajudam no cotidiano.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Pensa no seu dia de hoje. Escreve uma coisa que você viu, uma que você ouviu e uma que você cheirou.",
+    "tempo_medio_min": 10,
+    "enunciado": "Pensa em como você usa seus sentidos. Escreve um exemplo de cada um.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "O que seus sentidos perceberam hoje?",
       "campos": [
         {
-          "id": "viu",
-          "label": "Uma coisa que eu vi hoje:",
-          "max": 100
+          "id": "ver",
+          "label": "Com os olhos, eu consigo:",
+          "max": 80
         },
         {
-          "id": "ouviu",
-          "label": "Uma coisa que eu ouvi hoje:",
-          "max": 100
+          "id": "ouvir",
+          "label": "Com as orelhas, eu consigo:",
+          "max": 80
         },
         {
-          "id": "cheirou",
-          "label": "Uma coisa que eu cheirei hoje:",
-          "max": 100
+          "id": "cheirar",
+          "label": "Com o nariz, eu consigo:",
+          "max": 80
         }
       ]
     },
     "criterios_sucesso": [
-      "Cita exemplos coerentes para cada sentido.",
-      "Associa a experiência ao sentido correto."
+      "Exemplifica situações cotidianas que envolvem diferentes sentidos.",
+      "Registra a experiência com os sentidos em texto simples."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode estimular lembrando: o que aconteceu na sua manhã? No recreio?",
-      "resposta": "Escreve uma coisa em cada campo.",
-      "engajamento": "Fecha os olhos um segundo e lembra do seu dia. O que você notou com cada sentido?"
+      "apresentacao": "Professor pode dar um exemplo oral antes de pedir o escrito.",
+      "resposta": "Escrever exemplos do dia a dia em frases curtas.",
+      "engajamento": "O que você faz com os olhos toda manhã? E o que você ouve antes de dormir?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Conectar o conhecimento sobre sentidos a experiências reais e pessoais.",
-      "gabarito": "Resposta pessoal. Avalie se a criança associa a experiência ao sentido correto.",
+      "gabarito": "Respostas pessoais e variadas. Exemplos: ver → ler livros, assistir televisão; ouvir → escutar música, conversar; cheirar → sentir o perfume da comida, flores.",
+      "objetivo_pedagogico": "Conectar conhecimento sobre sentidos à experiência vivida, desenvolvendo linguagem científica básica.",
       "perguntas_orientadoras": [
-        "O que você fez essa manhã? O que seus olhos viram?",
-        "Você comeu alguma coisa gostosa? O que você provou?",
-        "Tem algum cheiro que você lembra bem?"
+        "Você usa mais de um sentido ao mesmo tempo? Quando?",
+        "Imagine que não pudesse usar um sentido. O que mudaria?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3 (desafio): produção escrita que exige memória e associação com vivências."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita a partir de experiência pessoal."
     }
   },
   {
@@ -162,41 +153,40 @@
     "ano": 1,
     "componente": "Ciências",
     "unidade_id": "cie-1-u2",
-    "unidade_titulo": "Animais e Plantas",
-    "habilidade_bncc_codigo": "EF01CI02",
-    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.02 — Características e necessidades dos seres vivos",
-    "objetivo": "Desenvolver habilidades de animais e plantas.",
+    "unidade_titulo": "Seres Vivos",
+    "habilidade_bncc_codigo": "EF01CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.02 — Seres vivos: características e necessidades",
+    "objetivo": "Reconhecer características dos seres vivos.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "O que plantas e animais têm em comum?",
+    "tempo_medio_min": 4,
+    "enunciado": "O que todos os seres vivos precisam para viver?",
     "conteudo_base": {
       "opcoes": [
-        "Ambos andam",
-        "Ambos precisam de água para viver",
-        "Ambos fazem fotossíntese",
-        "Ambos têm patas"
+        "Televisão e celular",
+        "Água, comida e ar",
+        "Tinta e papel",
+        "Carro e ônibus"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica necessidade vital comum a animais e plantas."
+      "Identifica as necessidades básicas comuns aos seres vivos."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no que todos os seres vivos precisam para sobreviver."
+      "apresentacao": "Perguntar: 'O que você precisa para viver?' e conectar à pergunta da atividade.",
+      "resposta": "Clique na resposta correta.",
+      "engajamento": "Pensa: o que você precisa todo dia para ficar saudável?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar animais e plantas de forma progressiva.",
-      "gabarito": "Todos os seres vivos precisam de água.",
+      "gabarito": "Água, comida e ar — necessidades básicas de todos os seres vivos.",
+      "objetivo_pedagogico": "Compreender que todos os seres vivos compartilham necessidades básicas essenciais.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Uma planta também precisa de água?",
+        "Um cachorro precisa das mesmas coisas que você?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de necessidades básicas, distratores claramente inadequados."
     }
   },
   {
@@ -204,35 +194,45 @@
     "ano": 1,
     "componente": "Ciências",
     "unidade_id": "cie-1-u2",
-    "unidade_titulo": "Animais e Plantas",
-    "habilidade_bncc_codigo": "EF01CI02",
-    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.02 — Características e necessidades dos seres vivos",
-    "objetivo": "Desenvolver habilidades de animais e plantas.",
+    "unidade_titulo": "Seres Vivos",
+    "habilidade_bncc_codigo": "EF01CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.02 — Seres vivos: características e necessidades",
+    "objetivo": "Classificar seres vivos em animais ou plantas.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Classifica cada ser vivo como Animal ou Planta.",
+    "tempo_medio_min": 7,
+    "enunciado": "Separa os seres vivos em Animal ou Planta.",
     "conteudo_base": {
       "itens": [
         {
-          "id": "v1",
-          "label": "Girassol",
-          "categoria": "Planta"
-        },
-        {
-          "id": "v2",
-          "label": "Cachorro",
-          "categoria": "Animal"
-        },
-        {
-          "id": "v3",
-          "label": "Samambaia",
-          "categoria": "Planta"
-        },
-        {
-          "id": "v4",
+          "id": "i1",
           "label": "Borboleta",
           "categoria": "Animal"
+        },
+        {
+          "id": "i2",
+          "label": "Roseira",
+          "categoria": "Planta"
+        },
+        {
+          "id": "i3",
+          "label": "Elefante",
+          "categoria": "Animal"
+        },
+        {
+          "id": "i4",
+          "label": "Pinheiro",
+          "categoria": "Planta"
+        },
+        {
+          "id": "i5",
+          "label": "Peixe",
+          "categoria": "Animal"
+        },
+        {
+          "id": "i6",
+          "label": "Capim",
+          "categoria": "Planta"
         }
       ],
       "categorias": [
@@ -241,23 +241,22 @@
       ]
     },
     "criterios_sucesso": [
-      "Classifica seres vivos em animais e plantas."
+      "Classifica corretamente seres vivos em animais e plantas."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Plantas ficam fixas no chão. Animais se movem."
+      "apresentacao": "Mostrar imagens de cada ser vivo antes de classificar.",
+      "resposta": "Arrastar ou clicar em cada ser vivo e depois no grupo.",
+      "engajamento": "A borboleta anda e come? Ou fica parada e faz fotossíntese?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar animais e plantas de forma progressiva.",
-      "gabarito": "Plantas: girassol e samambaia. Animais: cachorro e borboleta.",
+      "gabarito": "Animal: Borboleta, Elefante, Peixe. Planta: Roseira, Pinheiro, Capim.",
+      "objetivo_pedagogico": "Desenvolver a classificação de seres vivos com base em critérios observáveis.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Como você sabe que a borboleta é um animal e não uma planta?",
+        "Todos os animais andam? E as plantas se movem de algum jeito?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis seres vivos, duas categorias, casos claros."
     }
   },
   {
@@ -265,51 +264,51 @@
     "ano": 1,
     "componente": "Ciências",
     "unidade_id": "cie-1-u2",
-    "unidade_titulo": "Animais e Plantas",
-    "habilidade_bncc_codigo": "EF01CI02",
-    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.02 — Características e necessidades dos seres vivos",
-    "objetivo": "Desenvolver habilidades de animais e plantas.",
+    "unidade_titulo": "Seres Vivos",
+    "habilidade_bncc_codigo": "EF01CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.02 — Seres vivos: características e necessidades",
+    "objetivo": "Descrever as necessidades de um animal ou planta que conhece.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Escreve 3 diferenças entre um animal e uma planta que você conhece.",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolhe um animal ou planta que você conhece. Escreve o nome e o que ele precisa para viver.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "d1",
-          "label": "Diferença 1:",
-          "max": 100
+          "id": "nome",
+          "label": "O ser vivo que escolhi:",
+          "max": 50
         },
         {
-          "id": "d2",
-          "label": "Diferença 2:",
-          "max": 100
+          "id": "tipo",
+          "label": "É um animal ou uma planta?",
+          "max": 30
         },
         {
-          "id": "d3",
-          "label": "Diferença 3:",
-          "max": 100
+          "id": "nec",
+          "label": "O que ele precisa para viver:",
+          "max": 150
         }
       ]
     },
     "criterios_sucesso": [
-      "Distingue animais e plantas por três características."
+      "Nomeia um ser vivo conhecido.",
+      "Lista pelo menos duas necessidades básicas do ser vivo escolhido."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa em: onde vivem, como se alimentam, como se movem."
+      "apresentacao": "Permitir que o aluno fale primeiro antes de escrever — o professor pode ajudar a registrar.",
+      "resposta": "Escrever em frases simples, aceitando escrita aproximada.",
+      "engajamento": "Pensa num bicho ou planta que você já viu. O que ele come? O que ele precisa?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar animais e plantas de forma progressiva.",
-      "gabarito": "Exemplos: plantas fazem fotossíntese, animais se movem, plantas ficam fixas...",
+      "gabarito": "Resposta variada. Exemplo: Cachorro — animal — precisa de água, comida, carinho e um lugar para dormir. Pé de feijão — planta — precisa de água, luz solar e terra.",
+      "objetivo_pedagogico": "Aplicar o conceito de necessidades dos seres vivos a casos concretos do cotidiano.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que acontece com a planta se você esquecer de regar?",
+        "Que outros animais têm as mesmas necessidades que o seu?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita a partir de escolha pessoal, sem modelo dado."
     }
   }
 ]

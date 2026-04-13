@@ -6,15 +6,13 @@
     "unidade_id": "art-1-u1",
     "unidade_titulo": "Cores e Formas",
     "habilidade_bncc_codigo": "EF01AR01",
-    "referencia_cbtc": "CBTC-SC: ART.EF1.P.01 — Cores, formas e elementos visuais básicos",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.P.01",
     "objetivo": "Identificar as cores primárias.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
+    "tempo_medio_min": 4,
     "enunciado": "Quais são as três cores primárias? Marca as três.",
     "conteudo_base": {
-      "tipo": "multipla_escolha",
-      "texto": "Quais são as cores primárias? Marca as três.",
       "opcoes": [
         "Vermelho",
         "Verde",
@@ -30,23 +28,22 @@
       ]
     },
     "criterios_sucesso": [
-      "Identifica corretamente as três cores primárias."
+      "Identifica vermelho, azul e amarelo como cores primárias."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode mostrar tinta ou papel colorido. Cores primárias são as que não se fazem misturando outras.",
-      "resposta": "Marca as três cores. Você vai marcar três opções.",
-      "engajamento": "As cores primárias são especiais: não dá para fazer elas misturando outras cores. Quais seriam?"
+      "apresentacao": "Mostrar as cores reais antes da atividade.",
+      "resposta": "Marque as três cores primárias.",
+      "engajamento": "As cores primárias não se fazem misturando outras. Quais seriam?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Reconhecer as cores primárias como base para a compreensão da mistura de cores.",
       "gabarito": "Vermelho, Azul e Amarelo.",
+      "objetivo_pedagogico": "Reconhecer as cores primárias como base do sistema cromático.",
       "perguntas_orientadoras": [
         "O que acontece quando misturamos vermelho e amarelo?",
-        "Você consegue fazer vermelho misturando outras cores?",
-        "Por que essas três cores são chamadas de primárias?"
+        "Você consegue fazer vermelho misturando outras cores?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: identificação direta das cores primárias, conteúdo introdutório."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação das três primárias entre seis opções."
     }
   },
   {
@@ -56,14 +53,13 @@
     "unidade_id": "art-1-u1",
     "unidade_titulo": "Cores e Formas",
     "habilidade_bncc_codigo": "EF01AR01",
-    "referencia_cbtc": "CBTC-SC: ART.EF1.P.01 — Cores, formas e elementos visuais básicos",
-    "objetivo": "Relacionar a mistura de cores primárias às cores secundárias.",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.P.01",
+    "objetivo": "Relacionar misturas de cores às cores secundárias.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
     "tempo_medio_min": 7,
-    "enunciado": "Quando misturamos duas cores, nasce uma cor nova. Arrasta cada mistura para a cor que ela forma.",
+    "enunciado": "Quando misturamos duas cores, nasce uma cor nova. Liga cada mistura à cor que ela forma.",
     "conteudo_base": {
-      "tipo": "pares",
       "pares": [
         {
           "elemento": "Vermelho + Azul",
@@ -80,24 +76,21 @@
       ]
     },
     "criterios_sucesso": [
-      "Associa corretamente cada par de cores primárias à sua cor secundária.",
-      "Demonstra compreensão do conceito de mistura de cores."
+      "Associa cada mistura de primárias à cor secundária resultante."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Se possível, professor faz a mistura real com tinta ou guache antes da atividade.",
-      "resposta": "Arrasta a mistura para a cor que ela forma.",
-      "engajamento": "Você já misturou tinta alguma vez? O que aconteceu? Tenta lembrar!"
+      "apresentacao": "Realizar a mistura com tinta diante dos alunos.",
+      "resposta": "Arrastar a mistura para a cor que ela forma.",
+      "engajamento": "Você já misturou tinta? O que aconteceu?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Compreender a formação das cores secundárias pela mistura das primárias.",
       "gabarito": "Vermelho+Azul→Roxo, Vermelho+Amarelo→Laranja, Azul+Amarelo→Verde.",
+      "objetivo_pedagogico": "Compreender a formação das cores secundárias.",
       "perguntas_orientadoras": [
-        "Se você misturar tinta vermelha com azul, o que aparece?",
-        "Como você faria a cor verde sem ter tinta verde?",
-        "O que é uma cor secundária?"
+        "Como você faria a cor verde sem ter tinta verde?"
       ],
-      "tempo_estimado": "7 minutos",
-      "adaptacao_nivel": "Nível 2: três pares, relaciona teoria à prática artística."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três pares, teoria e prática artística."
     }
   },
   {
@@ -107,57 +100,47 @@
     "unidade_id": "art-1-u1",
     "unidade_titulo": "Cores e Formas",
     "habilidade_bncc_codigo": "EF01AR01",
-    "referencia_cbtc": "CBTC-SC: ART.EF1.P.01 — Cores, formas e elementos visuais básicos",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.P.01",
     "objetivo": "Expressar sentimentos usando cores.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
-    "enunciado": "Muitos artistas usam cores para mostrar sentimentos. Pensa: se alegria fosse uma cor, qual seria? E tristeza? E raiva? Escreve e explica por quê.",
+    "enunciado": "Artistas usam cores para mostrar sentimentos. Se alegria fosse uma cor, qual seria? E tristeza? Escreve e explica.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "Sentimentos e cores.",
       "campos": [
         {
           "id": "alegria",
           "label": "Alegria seria a cor:",
-          "max": 100
+          "max": 60
         },
         {
           "id": "tristeza",
           "label": "Tristeza seria a cor:",
-          "max": 100
-        },
-        {
-          "id": "raiva",
-          "label": "Raiva seria a cor:",
-          "max": 100
+          "max": 60
         },
         {
           "id": "porque",
           "label": "Por que você escolheu essas cores?",
-          "max": 200
+          "max": 150
         }
       ]
     },
     "criterios_sucesso": [
-      "Associa cores a sentimentos com alguma justificativa.",
-      "Demonstra pensamento simbólico e criativo."
+      "Associa cores a sentimentos com justificativa pessoal."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode mostrar obras de arte que usam cores expressivas, como as de Kandinsky ou Tarsila do Amaral.",
-      "resposta": "Escreve uma cor para cada sentimento e explica sua escolha.",
-      "engajamento": "Quando você está feliz, que cor você pensa? E quando está triste? Não tem resposta errada!"
+      "apresentacao": "Mostrar obras de arte expressivas antes da atividade.",
+      "resposta": "Escrever uma cor para cada sentimento e explicar.",
+      "engajamento": "Quando você está feliz, que cor você pensa? Não tem resposta errada!"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Desenvolver pensamento simbólico e expressão emocional através da linguagem das artes visuais.",
-      "gabarito": "Resposta pessoal e criativa. Valorize a justificativa, não a cor escolhida.",
+      "gabarito": "Resposta pessoal e criativa. Valorizar a justificativa, não a cor.",
+      "objetivo_pedagogico": "Desenvolver pensamento simbólico e expressão emocional pela arte.",
       "perguntas_orientadoras": [
-        "Por que você acha que amarelo pode ser alegria?",
-        "Artistas famosos usam cores para contar histórias. Você sabia disso?",
-        "Se você fosse pintar como está se sentindo hoje, que cor usaria?"
+        "Por que você acha que amarelo pode ser alegria?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3 (desafio): expressão subjetiva e criativa com justificativa, conecta arte e emoção."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: expressão subjetiva com justificativa."
     }
   },
   {
@@ -167,39 +150,37 @@
     "unidade_id": "art-1-u2",
     "unidade_titulo": "Música e Sons",
     "habilidade_bncc_codigo": "EF01AR13",
-    "referencia_cbtc": "CBTC-SC: ART.EF1.P.02 — Percepção e produção sonora: ritmo, altura e intensidade",
-    "objetivo": "Desenvolver habilidades de música e sons.",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.P.02",
+    "objetivo": "Reconhecer elementos básicos da música.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual das opções descreve o ritmo de uma música?",
+    "tempo_medio_min": 4,
+    "enunciado": "O que é ritmo em uma música?",
     "conteudo_base": {
       "opcoes": [
-        "A melodia cantada pelo cantor",
+        "A letra da música",
         "O pulso regular que faz você bater o pé",
-        "A letra das palavras",
-        "O volume do som"
+        "O volume do som",
+        "O nome do cantor"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica ritmo como elemento musical."
+      "Identifica ritmo como o pulso regular da música."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Ritmo é o que faz você querer bater palma ou mexer o corpo. É regular."
+      "apresentacao": "Tocar música e bater palma no ritmo antes da pergunta.",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Ritmo é o que faz você querer bater palma. É regular, como um relógio."
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar música e sons de forma progressiva.",
-      "gabarito": "O pulso regular — base de toda música que faz o ouvinte se mover.",
+      "gabarito": "O pulso regular que faz você bater o pé.",
+      "objetivo_pedagogico": "Introduzir o conceito de ritmo como elemento musical estrutural.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Ritmo é a mesma coisa que melodia?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de conceito musical com distratores claros."
     }
   },
   {
@@ -208,47 +189,68 @@
     "componente": "Arte",
     "unidade_id": "art-1-u2",
     "unidade_titulo": "Música e Sons",
-    "habilidade_bncc_codigo": "EF01AR13",
-    "referencia_cbtc": "CBTC-SC: ART.EF1.P.02 — Percepção e produção sonora: ritmo, altura e intensidade",
-    "objetivo": "Desenvolver habilidades de música e sons.",
+    "habilidade_bncc_codigo": "EF01AR14",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.P.02",
+    "objetivo": "Classificar sons por intensidade.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Liga cada som à sua característica principal.",
+    "tempo_medio_min": 7,
+    "enunciado": "Separa os sons em Forte ou Fraco.",
     "conteudo_base": {
-      "pares": [
+      "itens": [
         {
-          "elemento": "Tambor grave e forte",
-          "nome": "Volume alto, som baixo"
+          "id": "i1",
+          "label": "Trovão",
+          "categoria": "Forte"
         },
         {
-          "elemento": "Flauta suave e aguda",
-          "nome": "Volume baixo, som alto"
+          "id": "i2",
+          "label": "Sussurro",
+          "categoria": "Fraco"
         },
         {
-          "elemento": "Palmas em ritmo acelerado",
-          "nome": "Ritmo rápido"
+          "id": "i3",
+          "label": "Buzina de caminhão",
+          "categoria": "Forte"
+        },
+        {
+          "id": "i4",
+          "label": "Farfalhar de folhas",
+          "categoria": "Fraco"
+        },
+        {
+          "id": "i5",
+          "label": "Palmas numa festa",
+          "categoria": "Forte"
+        },
+        {
+          "id": "i6",
+          "label": "Coração batendo devagar",
+          "categoria": "Fraco"
         }
+      ],
+      "categorias": [
+        "Forte",
+        "Fraco"
       ]
     },
     "criterios_sucesso": [
-      "Associa sons a suas características acústicas."
+      "Classifica sons por intensidade usando referências do cotidiano."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa em altura (grave/agudo), intensidade (fraco/forte) e velocidade."
+      "apresentacao": "Imitar cada som com a voz antes de classificar.",
+      "resposta": "Arrastar cada som para o grupo correto.",
+      "engajamento": "Você já ouviu um trovão? Era forte ou fraco?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar música e sons de forma progressiva.",
-      "gabarito": "Altura=grave ou agudo, intensidade=fraco ou forte, andamento=lento ou rápido.",
+      "gabarito": "Forte: trovão, buzina, palmas. Fraco: sussurro, farfalhar de folhas, coração devagar.",
+      "objetivo_pedagogico": "Desenvolver percepção auditiva e vocabulário sobre intensidade sonora.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Como você sabe que o trovão é forte?",
+        "Um sussurro pode se tornar forte?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis sons, dois grupos, exemplos cotidianos."
     }
   },
   {
@@ -258,34 +260,33 @@
     "unidade_id": "art-1-u2",
     "unidade_titulo": "Música e Sons",
     "habilidade_bncc_codigo": "EF01AR13",
-    "referencia_cbtc": "CBTC-SC: ART.EF1.P.02 — Percepção e produção sonora: ritmo, altura e intensidade",
-    "objetivo": "Desenvolver habilidades de música e sons.",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.P.02",
+    "objetivo": "Expressar visualmente o que a música evoca.",
     "nivel": 3,
     "tipo_evidencia": "desenhar",
-    "tempo_medio_min": 8,
-    "enunciado": "Desenha livremente o que você imagina quando escuta sua música favorita. Use as cores e pincéis que quiser!",
+    "tempo_medio_min": 10,
+    "enunciado": "Escuta a música que o professor vai tocar. Depois desenha livremente o que você imaginou ou sentiu.",
     "conteudo_base": {
-      "prompt_desenho": "Desenhe o que a música faz você sentir ou imaginar.",
-      "tema": "música e sentimentos"
+      "prompt_desenho": "Desenhe o que a música fez você imaginar ou sentir.",
+      "tema": "música e imaginação"
     },
     "criterios_sucesso": [
-      "Expressa percepção musical através de linguagem visual."
+      "Expressa percepção musical por meio de linguagem visual."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Não precisa desenhar notas musicais. Pode ser uma paisagem, uma dança, cores que representam o som."
+      "apresentacao": "Tocar trecho de 1-2 minutos de música instrumental.",
+      "resposta": "Desenhar livremente usando cores e pincéis.",
+      "engajamento": "Não precisa desenhar notas. Pode ser uma paisagem, uma cor, uma sensação."
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar música e sons de forma progressiva.",
-      "gabarito": "Produção visual livre com expressão de sentimentos musicais.",
+      "gabarito": "Produção visual livre. Valorizar qualquer representação relacionada à música.",
+      "objetivo_pedagogico": "Integrar percepção sonora e expressão visual.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que você imaginou enquanto ouvia?",
+        "Por que você escolheu essas cores?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3 Arte U2: sempre desenhar — produção livre."
     }
   }
 ]

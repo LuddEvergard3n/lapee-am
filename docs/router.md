@@ -1,65 +1,33 @@
-# router.js — Documentação Técnica
+# router.js
 
-**Localização:** `js/router.js`
-
-## Responsabilidade
-
-Roteamento client-side baseado em hash (`window.location.hash`) sem dependências externas.
-Permite navegação entre páginas sem recarregar o documento HTML.
-
-## Por que hash routing?
-
-- Funciona sem servidor (sem reescrita de URL).
-- Compatível com GitHub Pages e abertura via `python3 -m http.server`.
-- Não requer configuração de servidor.
-- O `#` nunca é enviado ao servidor, então não há requisições 404.
-
-## Formato dos hashes suportados
-
-| Hash | Página |
-|---|---|
-| `#/home` | Página inicial |
-| `#/navegador` | Navegador de conteúdo |
-| `#/atividade/lp-001-n1` | Tela de atividade com id `lp-001-n1` |
-| `#/sobre` | Sobre o produto |
-| `#/acessibilidade` | Controles de acessibilidade |
+Roteamento hash-based para SPA estática. Sem dependência de servidor. Compatível com GitHub Pages e `file://` (com ressalva: ES Modules exigem HTTP).
 
 ## API pública
 
-### `on(path, handler)`
-Registra um handler para um padrão de rota.
-`path` pode conter segmentos dinâmicos prefixados com `:` (ex.: `/atividade/:id`).
+```js
+import { on, start, navigate } from './router.js';
 
-```javascript
-router.on('/atividade/:id', ({ id }) => {
-  // id === 'lp-001-n1'
-});
+on('/atividade/:id', ({ id }) => { /* handler */ });
+start();          // registra hashchange e resolve rota inicial
+navigate('/home');
 ```
+
+### `on(path, handler)`
+
+Registra um handler para um padrão de rota. Parâmetros de URL (`:id`) são extraídos e passados como objeto ao handler.
 
 ### `start()`
-Registra o ouvinte de `hashchange` e resolve a rota atual imediatamente.
-Deve ser chamado após todos os handlers terem sido registrados.
+
+Registra `window.addEventListener('hashchange', _resolve)` e chama `_resolve()` imediatamente para a rota inicial.
 
 ### `navigate(path)`
-Navega para um caminho programaticamente, alterando `window.location.hash`.
 
-## Algoritmo de casamento de rota
+Define `window.location.hash = path`. Grava entrada no histórico do browser — o botão Voltar funciona corretamente.
 
-```
-_match(pattern, path):
-  divide pattern e path em segmentos por '/'
-  se comprimentos divergem → null
-  para cada segmento do pattern:
-    se começa com ':' → extrai como parâmetro nomeado
-    se diferente do segmento correspondente em path → null
-  retorna objeto com parâmetros extraídos
-```
+## Resolução de rotas
 
-## Comportamento com hash vazio
+`_match(pattern, path)` compara segmentos: segmentos que começam com `:` são capturados como parâmetros, demais devem ser iguais. Rota não encontrada → redirect para `/home`.
 
-Se o hash estiver vazio ou ausente, o router redireciona para `#/home`.
+## Rotas registradas (em app.js)
 
-## Integração com store
-
-`_resolve()` chama `setState({ pagina })` antes de despachar o handler da rota.
-Isso garante que o store sempre reflete a página atual, mesmo que o handler falhe.
+`/home`, `/navegador`, `/atividade/:id`, `/sobre`, `/acessibilidade`, `/planos`, `/guia`

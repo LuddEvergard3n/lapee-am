@@ -6,41 +6,37 @@
     "unidade_id": "geo-1-u1",
     "unidade_titulo": "Meu Lugar no Mundo",
     "habilidade_bncc_codigo": "EF01GE01",
-    "referencia_cbtc": "CBTC-SC: GEO.EF1.P.01 — Localização no espaço: casa, escola e bairro",
-    "objetivo": "Identificar os espaços de convívio: casa, escola, rua.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.L.01",
+    "objetivo": "Identificar o lugar onde mora.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Onde você está agora, aprendendo e fazendo atividades com a professora?",
+    "tempo_medio_min": 4,
+    "enunciado": "O lugar onde você mora, dorme e fica com sua família se chama:",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "Onde você está fazendo essa atividade?",
       "opcoes": [
-        "Na escola",
-        "No mercado",
-        "No parque",
-        "No hospital"
+        "Escola",
+        "Casa",
+        "Praça",
+        "Supermercado"
       ],
-      "resposta_correta": 0
+      "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica a escola como espaço de aprendizado e convívio."
+      "Identifica a casa como lugar de moradia."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode olhar ao redor e perguntar: onde estamos agora?",
-      "resposta": "Clica na resposta certa.",
-      "engajamento": "Olha ao redor. Tem lousa, carteiras, colegas... Que lugar é esse?"
+      "apresentacao": "Perguntar onde o aluno dorme todo dia.",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Onde você está quando acorda de manhã?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Reconhecer a escola como espaço social e de pertencimento.",
-      "gabarito": "Na escola.",
+      "gabarito": "Casa.",
+      "objetivo_pedagogico": "Construir noção de lugar a partir do espaço mais próximo.",
       "perguntas_orientadoras": [
-        "O que tem aqui que só tem na escola?",
-        "A escola é diferente da sua casa? Como?",
-        "Para que serve a escola?"
+        "O que tem na sua casa?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: identificação do espaço imediato e concreto."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação direta do lugar de moradia."
     }
   },
   {
@@ -50,64 +46,67 @@
     "unidade_id": "geo-1-u1",
     "unidade_titulo": "Meu Lugar no Mundo",
     "habilidade_bncc_codigo": "EF01GE01",
-    "referencia_cbtc": "CBTC-SC: GEO.EF1.P.01 — Localização no espaço: casa, escola e bairro",
-    "objetivo": "Classificar lugares como públicos ou privados.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.L.01",
+    "objetivo": "Distinguir espaços públicos e privados.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
     "tempo_medio_min": 7,
-    "enunciado": "Alguns lugares são de todo mundo, outros são só de algumas pessoas. Arrasta cada lugar para o grupo certo.",
+    "enunciado": "Separa cada lugar: Da minha família (privado) ou De todo mundo (público).",
     "conteudo_base": {
-      "tipo": "categorias",
       "itens": [
         {
-          "label": "Praça",
-          "categoria": "De todo mundo"
-        },
-        {
+          "id": "i1",
           "label": "Minha casa",
-          "categoria": "Só da minha família"
+          "categoria": "Da minha família"
         },
         {
-          "label": "Parque",
+          "id": "i2",
+          "label": "Praça do bairro",
           "categoria": "De todo mundo"
         },
         {
-          "label": "Quarto",
-          "categoria": "Só da minha família"
+          "id": "i3",
+          "label": "Meu quarto",
+          "categoria": "Da minha família"
         },
         {
-          "label": "Escola",
+          "id": "i4",
+          "label": "Calçada da rua",
           "categoria": "De todo mundo"
         },
         {
-          "label": "Quintal de casa",
-          "categoria": "Só da minha família"
+          "id": "i5",
+          "label": "Cozinha da casa",
+          "categoria": "Da minha família"
+        },
+        {
+          "id": "i6",
+          "label": "Parque público",
+          "categoria": "De todo mundo"
         }
       ],
       "categorias": [
-        "De todo mundo",
-        "Só da minha família"
+        "Da minha família",
+        "De todo mundo"
       ]
     },
     "criterios_sucesso": [
-      "Distingue espaços públicos de espaços privados.",
-      "Associa exemplos corretos a cada categoria."
+      "Distingue espaços privados de públicos com base em exemplos cotidianos."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor explica: lugares públicos qualquer pessoa pode entrar. Privados são só para quem mora lá.",
-      "resposta": "Arrasta cada lugar para o grupo certo.",
-      "engajamento": "Você pode entrar na praça sem pedir licença? E no quarto da casa de alguém?"
+      "apresentacao": "Perguntar se qualquer pessoa pode entrar na casa do aluno sem ser convidada.",
+      "resposta": "Arrastar cada lugar para o grupo correto.",
+      "engajamento": "A praça é de quem? Só da sua família ou de todos do bairro?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Distinguir espaços públicos e privados como conceito geográfico inicial.",
-      "gabarito": "Público: Praça, Parque, Escola. Privado: Minha casa, Quarto, Quintal de casa.",
+      "gabarito": "Da minha família: casa, quarto, cozinha. De todo mundo: praça, calçada, parque.",
+      "objetivo_pedagogico": "Introduzir distinção público/privado como base para cidadania.",
       "perguntas_orientadoras": [
-        "Você precisa de permissão para entrar numa praça? E numa casa?",
-        "Quem cuida dos lugares públicos?",
-        "Por que é importante respeitar os espaços das outras pessoas?"
+        "Por que a praça é pública?",
+        "Tem regras diferentes para lugares públicos?"
       ],
-      "tempo_estimado": "7 minutos",
-      "adaptacao_nivel": "Nível 2: dois grupos, vocabulário concreto e familiar."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis lugares, dois grupos."
     }
   },
   {
@@ -117,47 +116,42 @@
     "unidade_id": "geo-1-u1",
     "unidade_titulo": "Meu Lugar no Mundo",
     "habilidade_bncc_codigo": "EF01GE01",
-    "referencia_cbtc": "CBTC-SC: GEO.EF1.P.01 — Localização no espaço: casa, escola e bairro",
-    "objetivo": "Descrever o caminho de casa até a escola.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.L.01",
+    "objetivo": "Descrever o trajeto de casa até a escola.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
-    "enunciado": "Pensa no caminho que você faz todo dia de casa até a escola. Escreve o que você vê nesse caminho. O que tem lá?",
+    "enunciado": "Como você vai da sua casa até a escola? Escreve o que você vê no caminho.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "O caminho da minha casa até a escola.",
       "campos": [
         {
-          "id": "caminho",
-          "label": "O que eu vejo no caminho:",
-          "max": 250
+          "id": "como",
+          "label": "Como você vai para a escola (a pé, de ônibus, de carro...):",
+          "max": 80
         },
         {
-          "id": "favorito",
-          "label": "O que eu mais gosto de ver nesse caminho:",
-          "max": 100
+          "id": "ver",
+          "label": "O que você vê no caminho:",
+          "max": 150
         }
       ]
     },
     "criterios_sucesso": [
-      "Descreve pelo menos dois elementos do trajeto.",
-      "Demonstra noção de sequência espacial (perto, longe, na esquina)."
+      "Descreve modo de deslocamento e elementos do trajeto."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode pedir que a criança feche os olhos e imagine o caminho antes de escrever.",
-      "resposta": "Escreve o que lembra do caminho.",
-      "engajamento": "Fecha os olhos. Você saiu de casa... Que rua você pega? O que tem na esquina?"
+      "apresentacao": "Pedir um desenho do caminho antes de escrever.",
+      "resposta": "Escrever em frases simples sobre o trajeto.",
+      "engajamento": "O que você vê quando vai para a escola? Árvores? Lojas?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Desenvolver percepção espacial e capacidade de representar trajectos vivenciados.",
-      "gabarito": "Resposta pessoal. Avalie a presença de referências espaciais e elementos do ambiente.",
+      "gabarito": "Resposta pessoal. Valorizar descrição de deslocamento e observação do entorno.",
+      "objetivo_pedagogico": "Desenvolver percepção do espaço geográfico pelo deslocamento cotidiano.",
       "perguntas_orientadoras": [
-        "Você vai a pé ou de carro?",
-        "Tem semáforo, padaria, árvore no caminho?",
-        "O que fica perto da escola? E longe?"
+        "Você passa por alguma praça ou loja no caminho?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3 (desafio): descrição de trajeto real, base para cartografia e orientação espacial."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção descritiva sobre espaço vivido."
     }
   },
   {
@@ -165,41 +159,39 @@
     "ano": 1,
     "componente": "Geografia",
     "unidade_id": "geo-1-u2",
-    "unidade_titulo": "Vizinhança e Cidade",
+    "unidade_titulo": "A Escola e o Bairro",
     "habilidade_bncc_codigo": "EF01GE03",
-    "referencia_cbtc": "CBTC-SC: GEO.EF1.P.02 — Espaços próximos: vizinhança, rua e cidade",
-    "objetivo": "Desenvolver habilidades de vizinhança e cidade.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.L.02",
+    "objetivo": "Identificar espaços e funções da escola.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual desses lugares NÃO é um serviço público da cidade?",
+    "tempo_medio_min": 4,
+    "enunciado": "Para que serve a sala de aula na escola?",
     "conteudo_base": {
       "opcoes": [
-        "Hospital",
-        "Escola",
-        "Shopping center",
-        "Biblioteca pública"
+        "Para comer o lanche",
+        "Para aprender com o professor",
+        "Para fazer exercícios físicos",
+        "Para guardar livros"
       ],
-      "resposta_correta": 2
+      "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Distingue espaços públicos de privados na cidade."
+      "Identifica a função da sala de aula como espaço de aprendizagem."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Serviços públicos são pagos com impostos e abertos a todos. Qual desses é privado?"
+      "apresentacao": "Perguntar o que o aluno faz na sala todos os dias.",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "O que você faz aqui dentro com a professora?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar vizinhança e cidade de forma progressiva.",
-      "gabarito": "Shopping center — é privado, pertence a empresas, não ao governo.",
+      "gabarito": "Para aprender com o professor.",
+      "objetivo_pedagogico": "Reconhecer a escola como espaço social organizado por funções.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Onde vocês fazem educação física?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de função de espaço escolar."
     }
   },
   {
@@ -207,48 +199,50 @@
     "ano": 1,
     "componente": "Geografia",
     "unidade_id": "geo-1-u2",
-    "unidade_titulo": "Vizinhança e Cidade",
+    "unidade_titulo": "A Escola e o Bairro",
     "habilidade_bncc_codigo": "EF01GE03",
-    "referencia_cbtc": "CBTC-SC: GEO.EF1.P.02 — Espaços próximos: vizinhança, rua e cidade",
-    "objetivo": "Desenvolver habilidades de vizinhança e cidade.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.L.02",
+    "objetivo": "Associar espaços da escola às suas funções.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Liga cada necessidade ao lugar da cidade onde você vai buscá-la.",
+    "tempo_medio_min": 7,
+    "enunciado": "Liga cada espaço da escola ao que você faz nele.",
     "conteudo_base": {
       "pares": [
         {
-          "elemento": "Consultar um médico",
-          "nome": "Hospital/UBS"
+          "elemento": "Biblioteca",
+          "nome": "Ler livros e pesquisar"
         },
         {
-          "elemento": "Aprender a ler",
-          "nome": "Escola"
+          "elemento": "Refeitório",
+          "nome": "Comer o lanche e o almoço"
         },
         {
-          "elemento": "Pegar um livro emprestado",
-          "nome": "Biblioteca"
+          "elemento": "Quadra",
+          "nome": "Fazer educação física e brincar"
+        },
+        {
+          "elemento": "Sala de aula",
+          "nome": "Estudar com o professor"
         }
       ]
     },
     "criterios_sucesso": [
-      "Associa necessidades humanas a equipamentos urbanos."
+      "Associa cada espaço da escola à sua função principal."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa nos serviços que cada prédio oferece para a comunidade."
+      "apresentacao": "Fazer um passeio pela escola antes da atividade.",
+      "resposta": "Arrastar cada espaço para a função correspondente.",
+      "engajamento": "Onde você vai quando quer pegar um livro para ler?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar vizinhança e cidade de forma progressiva.",
-      "gabarito": "Saúde=hospital, educação=escola, cultura=biblioteca.",
+      "gabarito": "Biblioteca→Ler; Refeitório→Comer; Quadra→Educação física; Sala→Estudar.",
+      "objetivo_pedagogico": "Compreender a organização funcional do espaço escolar.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que a escola tem espaços separados para cada coisa?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro pares, espaços e funções do cotidiano escolar."
     }
   },
   {
@@ -256,52 +250,44 @@
     "ano": 1,
     "componente": "Geografia",
     "unidade_id": "geo-1-u2",
-    "unidade_titulo": "Vizinhança e Cidade",
+    "unidade_titulo": "A Escola e o Bairro",
     "habilidade_bncc_codigo": "EF01GE03",
-    "referencia_cbtc": "CBTC-SC: GEO.EF1.P.02 — Espaços próximos: vizinhança, rua e cidade",
-    "objetivo": "Desenvolver habilidades de vizinhança e cidade.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.L.02",
+    "objetivo": "Descrever o bairro e seus lugares importantes.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Descreve a rua ou bairro onde você mora: o que tem ali? O que falta? O que você mudaria?",
+    "tempo_medio_min": 10,
+    "enunciado": "Pensa no seu bairro. Escreve sobre dois lugares importantes que existem por perto.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "tem",
-          "label": "O que tem no meu bairro:",
-          "max": 150
+          "id": "l1",
+          "label": "Lugar 1 — nome e para que serve:",
+          "max": 120
         },
         {
-          "id": "falta",
-          "label": "O que falta:",
-          "max": 150
-        },
-        {
-          "id": "mudaria",
-          "label": "O que eu mudaria:",
-          "max": 150
+          "id": "l2",
+          "label": "Lugar 2 — nome e para que serve:",
+          "max": 120
         }
       ]
     },
     "criterios_sucesso": [
-      "Descreve o espaço vivido.",
-      "Identifica necessidades e propõe melhorias."
+      "Nomeia dois lugares do bairro e descreve sua função social."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa em praças, escolas, postos de saúde, calçadas, iluminação..."
+      "apresentacao": "Listar coletivamente lugares do bairro na lousa.",
+      "resposta": "Escrever sobre dois lugares em frases simples.",
+      "engajamento": "Tem algum lugar no seu bairro que você vai sempre? Uma padaria, um parque?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar vizinhança e cidade de forma progressiva.",
-      "gabarito": "Descrição com identificação de equipamentos presentes e ausentes, com proposta.",
+      "gabarito": "Resposta variada. Mercado, praça, posto de saúde — qualquer lugar com função identificada.",
+      "objetivo_pedagogico": "Desenvolver percepção do bairro como espaço social com funções diversas.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Esse lugar existe para ajudar quem?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção descritiva sobre o espaço do bairro."
     }
   }
 ]

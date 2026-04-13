@@ -1,6 +1,6 @@
 # dataLoader/
 
-M�dulo responsável por carregar, cachear e consultar os arquivos JSON de atividades.
+Carregamento, cache e consulta dos 30 arquivos JSON de atividades.
 
 ## Estrutura
 
@@ -8,8 +8,8 @@ M�dulo responsável por carregar, cachear e consultar os arquivos JSON de ativid
 dataLoader/
 ├── index.js     API pública
 ├── resolver.js  (componente, ano) → caminho do arquivo JSON
-├── cache.js     cache em memória (Map<path, atividade[]>)
-└── queries.js   funções de consulta sobre o cache
+├── cache.js     Map em memória
+└── queries.js   Funções de consulta sobre o cache
 ```
 
 ## API pública (`index.js`)
@@ -23,47 +23,23 @@ import {
 } from './dataLoader/index.js';
 ```
 
-### `load(componente, ano) → Promise<void>`
-
-Carrega o JSON de um par (componente, ano) se ainda não estiver em cache. Arquivo inexistente é tratado como lista vazia (sem erro fatal).
-
-### `loadAll() → Promise<void>`
-
-Carrega todos os 30 arquivos conhecidos (6 componentes × 5 anos) em paralelo via `Promise.all`. Chamado uma única vez na inicialização.
-
-### Funções de consulta
-
-Todas são síncronas e operam sobre o cache já carregado.
-
 | Função | Retorno |
 |--------|---------|
+| `load(componente, ano)` | `Promise<void>` — arquivo inexistente é tratado como lista vazia |
+| `loadAll()` | `Promise<void>` — carrega todos os 30 arquivos em paralelo |
 | `getAnos()` | `number[]` — anos presentes no cache, ordenados |
-| `getComponentes(ano)` | `string[]` — componentes do ano, em ordem canônica |
+| `getComponentes(ano)` | `string[]` — em ordem canônica |
 | `getUnidades(ano, componente)` | `{ unidade_id, unidade_titulo }[]` — sem duplicatas |
-| `getAtividadesDaUnidade(unidade_id)` | `object[]` — todos os níveis da unidade |
-| `getAtividade(id)` | `object | null` |
-| `getAtividadePorNivel(unidade_id, nivel)` | `object | null` |
-| `getAllAtividades()` | `object[]` — todas as atividades do cache |
+| `getAtividadesDaUnidade(unidade_id)` | `object[]` |
+| `getAtividade(id)` | `object \| null` |
+| `getAllAtividades()` | `object[]` — todas do cache |
 
 ## resolver.js
 
-Mapa explícito de componente → slug de arquivo:
+Mapa explícito `COMPONENTE_SLUG` → `./data/atividades-{slug}-{ano}.json`.
 
-```js
-const COMPONENTE_SLUG = {
-  'LP': 'lp', 'Matemática': 'matematica', 'Ciências': 'ciencias',
-  'História': 'historia', 'Geografia': 'geografia', 'Arte': 'arte',
-};
-// → './data/atividades-{slug}-{ano}.json'
-```
-
-Para adicionar um novo componente: adicione a entrada neste mapa **e** em `COMPONENTE_LABEL` em `ui/componentes.js`.
-
-## cache.js
-
-Map em memória com chave = caminho do arquivo. Métodos: `has`, `get`, `set`, `getAll`, `clear`.  
-`getAll()` concatena todos os arrays do cache em um único array.
+Para adicionar um componente: adicionar entrada aqui **e** em `COMPONENTE_LABEL` em `ui/componentes.js`.
 
 ## queries.js
 
-`_COMP_ORDER` define a ordem canônica dos componentes para render determinístico, independente da ordem em que os fetches paralelos completaram.
+`_COMP_ORDER` define ordem canônica dos componentes para render determinístico, independente da ordem de conclusão dos fetches paralelos.
