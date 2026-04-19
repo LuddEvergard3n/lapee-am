@@ -6,41 +6,38 @@
     "unidade_id": "geo-2-u1",
     "unidade_titulo": "Paisagens Naturais e Transformadas",
     "habilidade_bncc_codigo": "EF02GE01",
-    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.01 — Paisagens naturais e transformadas pelo ser humano",
-    "objetivo": "Distinguir paisagens naturais de paisagens transformadas pela ação humana.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.L.01",
+    "objetivo": "Distinguir paisagem natural de paisagem transformada pela ação humana.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
+    "tempo_medio_min": 4,
     "enunciado": "Qual dessas paisagens foi feita pela natureza, sem a ajuda das pessoas?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "Qual é uma paisagem natural?",
       "opcoes": [
-        "Uma cidade",
-        "Uma floresta",
-        "Uma fazenda",
-        "Uma rodovia"
+        "Uma cidade com prédios e ruas",
+        "Uma floresta com rios e animais",
+        "Uma fazenda com plantações",
+        "Uma praça com bancos e fontes"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica uma paisagem natural como aquela não modificada pela ação humana."
+      "Identifica a floresta como paisagem natural, não modificada pela ação humana."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode mostrar fotos de cada opção para apoio visual.",
-      "resposta": "Clica na resposta certa.",
-      "engajamento": "Qual desses lugares existia antes das pessoas chegarem? Qual foi construído pelas pessoas?"
+      "apresentacao": "Mostrar fotos de floresta e de cidade e perguntar qual foi feita pelas pessoas.",
+      "resposta": "Clique na paisagem natural.",
+      "engajamento": "Quem construiu os prédios? E quem fez a floresta crescer?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Reconhecer paisagens naturais versus transformadas pelo ser humano.",
-      "gabarito": "Floresta — paisagem natural, não construída pelo ser humano.",
+      "gabarito": "Floresta com rios e animais — paisagem natural.",
+      "objetivo_pedagogico": "Diferenciar paisagens naturais de paisagens humanizadas como base para estudos geográficos.",
       "perguntas_orientadoras": [
-        "Quem construiu esse lugar?",
-        "As pessoas precisaram trabalhar para esse lugar existir?",
-        "Esse lugar existia antes dos humanos?"
+        "Uma fazenda com plantações é natural ou transformada?",
+        "A cidade surgiu do nada?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: opções claramente distintas, uma naturalmente óbvia."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: quatro opções com contraste claro entre natural e humanizado."
     }
   },
   {
@@ -50,37 +47,42 @@
     "unidade_id": "geo-2-u1",
     "unidade_titulo": "Paisagens Naturais e Transformadas",
     "habilidade_bncc_codigo": "EF02GE01",
-    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.01 — Paisagens naturais e transformadas pelo ser humano",
-    "objetivo": "Distinguir paisagens naturais de paisagens transformadas pela ação humana.",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.L.01",
+    "objetivo": "Classificar paisagens como naturais ou transformadas.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 8,
-    "enunciado": "Coloca cada paisagem no grupo certo.",
+    "tempo_medio_min": 7,
+    "enunciado": "Separa as paisagens: Natural ou Transformada pelas pessoas.",
     "conteudo_base": {
-      "tipo": "categorias",
       "itens": [
         {
-          "label": "Praia deserta",
+          "id": "p1",
+          "label": "Praia com areia e ondas do mar",
           "categoria": "Natural"
         },
         {
-          "label": "Estrada asfaltada",
+          "id": "p2",
+          "label": "Estrada de asfalto cortando a floresta",
           "categoria": "Transformada"
         },
         {
-          "label": "Cachoeira",
+          "id": "p3",
+          "label": "Serra com cachoeira",
           "categoria": "Natural"
         },
         {
-          "label": "Plantação de arroz",
+          "id": "p4",
+          "label": "Porto com navios e guindastes",
           "categoria": "Transformada"
         },
         {
-          "label": "Serra com mata",
+          "id": "p5",
+          "label": "Dunas no deserto",
           "categoria": "Natural"
         },
         {
-          "label": "Barragem de água",
+          "id": "p6",
+          "label": "Reservatório de água (barragem)",
           "categoria": "Transformada"
         }
       ],
@@ -90,23 +92,22 @@
       ]
     },
     "criterios_sucesso": [
-      "Classifica paisagens como naturais ou transformadas com base na ação humana."
+      "Classifica seis paisagens corretamente entre natural e transformada."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor descreve cada paisagem e pergunta se as pessoas a construíram.",
-      "resposta": "Arrasta cada paisagem para o grupo certo.",
-      "engajamento": "As pessoas fizeram isso? Ou foi a natureza sozinha?"
+      "apresentacao": "Mostrar imagens de cada paisagem antes de classificar.",
+      "resposta": "Arrastar cada paisagem para o grupo correto.",
+      "engajamento": "A praia foi construída ou existe por causa da natureza?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Classificar paisagens com base no critério de intervenção humana.",
-      "gabarito": "Natural: praia deserta, cachoeira, serra com mata. Transformada: estrada, plantação, barragem.",
+      "gabarito": "Natural: praia, serra/cachoeira, dunas. Transformada: estrada, porto, barragem.",
+      "objetivo_pedagogico": "Reconhecer marcas da ação humana nas paisagens como processo histórico-geográfico.",
       "perguntas_orientadoras": [
-        "O ser humano modificou esse lugar?",
-        "Isso existiria sem a ação das pessoas?",
-        "Qual foi a necessidade humana que gerou essa transformação?"
+        "A barragem usa o rio. Isso a torna natural?",
+        "O que existia onde agora tem uma estrada?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 2: seis paisagens, algumas exigem raciocínio (ex: plantação é natural mas modificada)."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis paisagens, casos que exigem análise da presença humana."
     }
   },
   {
@@ -115,48 +116,49 @@
     "componente": "Geografia",
     "unidade_id": "geo-2-u1",
     "unidade_titulo": "Paisagens Naturais e Transformadas",
-    "habilidade_bncc_codigo": "EF02GE01",
-    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.01 — Paisagens naturais e transformadas pelo ser humano",
-    "objetivo": "Distinguir paisagens naturais de paisagens transformadas pela ação humana.",
+    "habilidade_bncc_codigo": "EF02GE02",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.L.02",
+    "objetivo": "Descrever uma mudança que as pessoas fizeram na paisagem próxima.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
-    "enunciado": "Descreve uma mudança que as pessoas fizeram na natureza perto de você.",
+    "enunciado": "Pensa em um lugar perto da sua casa que mudou por causa das pessoas. Escreve sobre essa mudança.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "As pessoas transformam a natureza para construir cidades, estradas, plantações e outros lugares.",
       "campos": [
         {
-          "id": "transformacao",
-          "label": "Que mudança as pessoas fizeram na natureza perto de você?",
-          "max": 150
+          "id": "lugar",
+          "label": "Qual lugar mudou (rua, terreno, rio...):",
+          "max": 80
         },
         {
-          "id": "motivo",
-          "label": "Por que você acha que fizeram essa mudança?",
-          "max": 150
+          "id": "antes",
+          "label": "Como era antes (se você sabe):",
+          "max": 120
+        },
+        {
+          "id": "agora",
+          "label": "Como é agora:",
+          "max": 120
         }
       ]
     },
     "criterios_sucesso": [
-      "Identifica uma transformação humana na paisagem local.",
-      "Apresenta uma hipótese sobre o motivo da transformação."
+      "Identifica uma transformação na paisagem local e descreve antes/depois."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pede que a criança pense no caminho de casa até a escola.",
-      "resposta": "Escreve o que você já viu de perto. Não precisa inventar.",
-      "engajamento": "Você já viu algum lugar que foi desmatado ou construído perto de casa?"
+      "apresentacao": "Professor pode sugerir exemplos: uma obra na rua, um prédio novo, um terreno que virou parque.",
+      "resposta": "Escrever em frases simples sobre a transformação percebida.",
+      "engajamento": "Tem alguma obra ou mudança perto da sua casa? Isso estava lá quando você era menor?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Conectar o conceito de transformação da paisagem à realidade local do aluno.",
-      "gabarito": "Resposta variável — verificar se a transformação descrita é real e se há uma justificativa plausível.",
+      "gabarito": "Resposta pessoal. Valorizar qualquer transformação com contraste antes/depois identificado.",
+      "objetivo_pedagogico": "Desenvolver observação crítica da paisagem e percepção das transformações humanas no espaço.",
       "perguntas_orientadoras": [
-        "Antes dessa mudança, o que havia nesse lugar?",
-        "Quem se beneficia dessa transformação?",
-        "Alguém foi prejudicado por essa mudança?"
+        "Por que as pessoas fizeram essa mudança?",
+        "A mudança foi boa ou ruim para quem mora ali?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3: conecta conteúdo à experiência local, exige inferência sobre motivação humana."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: observação da paisagem local, registro de transformação."
     }
   },
   {
@@ -165,40 +167,39 @@
     "componente": "Geografia",
     "unidade_id": "geo-2-u2",
     "unidade_titulo": "Meios de Transporte",
-    "habilidade_bncc_codigo": "EF02GE07",
-    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.02 — Meios de transporte e deslocamento de pessoas e mercadorias",
-    "objetivo": "Desenvolver habilidades de meios de transporte.",
+    "habilidade_bncc_codigo": "EF02GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.L.03",
+    "objetivo": "Classificar meios de transporte por tipo de via.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual meio de transporte é mais adequado para levar mercadorias de São Paulo ao Japão?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual meio de transporte anda nas estradas e ruas?",
     "conteudo_base": {
       "opcoes": [
-        "Trem",
+        "Barco",
+        "Avião",
         "Ônibus",
-        "Navio ou avião de carga",
-        "Bicicleta"
+        "Submarino"
       ],
       "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Associa meio de transporte ao contexto geográfico (internacional/transcontinental)."
+      "Identifica ônibus como transporte terrestre que usa ruas e estradas."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "O Japão é uma ilha do outro lado do oceano. Que meios atravessam oceanos?"
+      "apresentacao": "Mostrar imagens dos quatro transportes e perguntar onde cada um anda.",
+      "resposta": "Clique no transporte que anda na rua.",
+      "engajamento": "Você veio de ônibus para a escola? Ele andava no chão, no ar ou na água?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar meios de transporte de forma progressiva.",
-      "gabarito": "Navio ou avião de carga — únicos que cruzam oceanos.",
+      "gabarito": "Ônibus — transporte terrestre.",
+      "objetivo_pedagogico": "Reconhecer meios de transporte e classificá-los por tipo de via de deslocamento.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O avião anda em que tipo de via?",
+        "Um barco pode andar na rua?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de transporte terrestre entre quatro opções com vias bem distintas."
     }
   },
   {
@@ -207,13 +208,13 @@
     "componente": "Geografia",
     "unidade_id": "geo-2-u2",
     "unidade_titulo": "Meios de Transporte",
-    "habilidade_bncc_codigo": "EF02GE07",
-    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.02 — Meios de transporte e deslocamento de pessoas e mercadorias",
-    "objetivo": "Desenvolver habilidades de meios de transporte.",
+    "habilidade_bncc_codigo": "EF02GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.L.03",
+    "objetivo": "Classificar meios de transporte como terrestre, aquático ou aéreo.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Classifica cada meio de transporte como Terrestre, Aquático ou Aéreo.",
+    "tempo_medio_min": 7,
+    "enunciado": "Separa os meios de transporte: Terrestre, Aquático ou Aéreo.",
     "conteudo_base": {
       "itens": [
         {
@@ -228,13 +229,23 @@
         },
         {
           "id": "t3",
-          "label": "Barco",
+          "label": "Navio",
           "categoria": "Aquático"
         },
         {
           "id": "t4",
-          "label": "Caminhão",
+          "label": "Bicicleta",
           "categoria": "Terrestre"
+        },
+        {
+          "id": "t5",
+          "label": "Avião",
+          "categoria": "Aéreo"
+        },
+        {
+          "id": "t6",
+          "label": "Canoa",
+          "categoria": "Aquático"
         }
       ],
       "categorias": [
@@ -244,23 +255,22 @@
       ]
     },
     "criterios_sucesso": [
-      "Classifica meios de transporte por via de deslocamento."
+      "Classifica seis meios de transporte nas três categorias por tipo de via."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no elemento em que cada um se desloca: terra, água ou ar."
+      "apresentacao": "Mostrar imagens de cada transporte em seu ambiente antes da classificação.",
+      "resposta": "Arrastar cada transporte para o grupo correto.",
+      "engajamento": "O helicóptero anda no chão, na água ou no ar?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar meios de transporte de forma progressiva.",
-      "gabarito": "Terrestre: trem e caminhão. Aquático: barco. Aéreo: helicóptero.",
+      "gabarito": "Terrestre: trem, bicicleta. Aquático: navio, canoa. Aéreo: helicóptero, avião.",
+      "objetivo_pedagogico": "Sistematizar a classificação de transportes por via de deslocamento.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Um hidroavião, que pousa na água, seria aéreo ou aquático?",
+        "Qual transporte você usa mais?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis transportes, três categorias, exemplos menos e mais óbvios."
     }
   },
   {
@@ -269,45 +279,213 @@
     "componente": "Geografia",
     "unidade_id": "geo-2-u2",
     "unidade_titulo": "Meios de Transporte",
-    "habilidade_bncc_codigo": "EF02GE07",
-    "referencia_cbtc": "CBTC-SC: GEO.EF2.P.02 — Meios de transporte e deslocamento de pessoas e mercadorias",
-    "objetivo": "Desenvolver habilidades de meios de transporte.",
+    "habilidade_bncc_codigo": "EF02GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.L.03",
+    "objetivo": "Descrever como diferentes transportes atendem necessidades diferentes.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Descreve como você chega da sua casa até a escola. Que meios de transporte usa? E se fosse para o outro lado do Brasil?",
+    "tempo_medio_min": 10,
+    "enunciado": "Pensa: para ir de São Paulo até o Japão, qual transporte seria necessário? E para ir da escola até a padaria? Explica.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "casa_escola",
-          "label": "Da casa à escola:",
-          "max": 150
+          "id": "longe",
+          "label": "Para ir ao Japão, eu usaria: (e por quê)",
+          "max": 120
         },
         {
-          "id": "brasil",
-          "label": "Se fosse para o outro lado do Brasil:",
+          "id": "perto",
+          "label": "Para ir à padaria do bairro, eu usaria: (e por quê)",
+          "max": 120
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escolhe transporte adequado à distância e justifica a escolha."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar no mapa a distância entre São Paulo e o Japão vs. a distância até a padaria.",
+      "resposta": "Escrever o transporte escolhido e a razão.",
+      "engajamento": "Você usaria bicicleta para ir ao Japão? Por quê não?"
+    },
+    "modo_professor": {
+      "gabarito": "Japão: avião (único transporte para essa distância). Padaria: a pé, bicicleta, ônibus — qualquer terrestre próximo com justificativa.",
+      "objetivo_pedagogico": "Compreender que a escolha do transporte depende da distância, do custo e da disponibilidade.",
+      "perguntas_orientadoras": [
+        "Por que o avião é mais rápido?",
+        "Ir a pé até a padaria é prático?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise de adequação do transporte à situação, justificativa escrita."
+    }
+  },
+  {
+    "id": "geo-2-u3-n1",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u3",
+    "unidade_titulo": "Campo e Cidade",
+    "habilidade_bncc_codigo": "EF02GE03",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.S.02 — Espaço rural e espaço urbano",
+    "objetivo": "Reconhecer diferenças entre o campo e a cidade.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que você encontra no campo mas geralmente não encontra na cidade?",
+    "conteudo_base": {
+      "opcoes": [
+        "Semáforos e ônibus",
+        "Plantações e animais criados para alimento",
+        "Shoppings e cinemas",
+        "Apartamentos altos"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica agricultura e pecuária como característicos do campo.",
+      "Distingue espaço rural do urbano."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar fotos de campo e cidade lado a lado.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o campo é onde a maioria dos alimentos que você come é produzida."
+    },
+    "modo_professor": {
+      "gabarito": "Plantações e animais — características do espaço rural.",
+      "objetivo_pedagogico": "Diferenciar espaço rural de espaço urbano por suas atividades.",
+      "perguntas_orientadoras": [
+        "Você já foi ao campo?",
+        "De onde vem o leite que você bebe?",
+        "Por que as pessoas moram no campo?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste claro com exemplos do cotidiano."
+    }
+  },
+  {
+    "id": "geo-2-u3-n2",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u3",
+    "unidade_titulo": "Campo e Cidade",
+    "habilidade_bncc_codigo": "EF02GE03",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.S.02 — Espaço rural e espaço urbano",
+    "objetivo": "Classificar serviços e atividades como típicos do campo ou da cidade.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada atividade ou serviço: é mais típico do campo ou da cidade?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Colheita de soja",
+          "categoria": "Campo"
+        },
+        {
+          "id": "i2",
+          "label": "Trabalhar numa fábrica",
+          "categoria": "Cidade"
+        },
+        {
+          "id": "i3",
+          "label": "Criar gado para leite",
+          "categoria": "Campo"
+        },
+        {
+          "id": "i4",
+          "label": "Usar o metrô para ir trabalhar",
+          "categoria": "Cidade"
+        },
+        {
+          "id": "i5",
+          "label": "Plantar milho",
+          "categoria": "Campo"
+        },
+        {
+          "id": "i6",
+          "label": "Trabalhar num hospital grande",
+          "categoria": "Cidade"
+        }
+      ],
+      "categorias": [
+        "Campo",
+        "Cidade"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica atividades agropecuárias no campo.",
+      "Classifica indústria e serviços urbanos na cidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar sobre experiências com campo ou cidade.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: o campo produz alimentos e matéria-prima. A cidade processa, vende e oferece serviços."
+    },
+    "modo_professor": {
+      "gabarito": "Campo: colheita, gado, plantar. Cidade: fábrica, metrô, hospital.",
+      "objetivo_pedagogico": "Relacionar atividades econômicas ao espaço geográfico.",
+      "perguntas_orientadoras": [
+        "As cidades dependem do campo?",
+        "E o campo depende da cidade?",
+        "O que aconteceria se não houvesse campo?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de atividades econômicas por espaço."
+    }
+  },
+  {
+    "id": "geo-2-u3-n3",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u3",
+    "unidade_titulo": "Campo e Cidade",
+    "habilidade_bncc_codigo": "EF02GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.S.03 — Relação campo-cidade",
+    "objetivo": "Explicar a relação de dependência entre campo e cidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que o campo e a cidade precisam um do outro? Dê exemplos do que cada um oferece ao outro.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "campo_oferece",
+          "label": "O que o campo oferece para a cidade?",
+          "max": 200
+        },
+        {
+          "id": "cidade_oferece",
+          "label": "O que a cidade oferece para o campo?",
+          "max": 200
+        },
+        {
+          "id": "exemplo",
+          "label": "Dê um exemplo concreto dessa troca:",
           "max": 150
         }
       ]
     },
     "criterios_sucesso": [
-      "Relaciona meio de transporte à distância percorrida."
+      "Menciona alimentos como contribuição do campo.",
+      "Menciona máquinas ou serviços como contribuição da cidade.",
+      "Dá exemplo concreto de troca."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa em andar a pé, ônibus, carro, avião... O que muda conforme a distância?"
+      "apresentacao": "Professor pode traçar diagrama de setas no quadro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: sem o campo, o que você comeria? Sem a cidade, quem fabricaria os tratores do campo?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar meios de transporte de forma progressiva.",
-      "gabarito": "Descrição com meios de transporte adequados a cada distância.",
+      "gabarito": "Campo: alimentos, matéria-prima. Cidade: máquinas, serviços, industrializados. Exemplo: agricultor vende soja, compra trator fabricado na cidade.",
+      "objetivo_pedagogico": "Compreender a interdependência entre espaços rural e urbano.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Uma cidade poderia sobreviver sem alimentos?",
+        "Um agricultor poderia trabalhar sem máquinas?",
+        "Esse intercâmbio sempre foi igual?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: relação de interdependência com exemplos concretos."
     }
   }
 ]

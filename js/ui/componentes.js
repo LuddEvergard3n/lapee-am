@@ -54,6 +54,7 @@ export function renderSidebar() {
         <li><a href="#/navegador"     class="nav-link" data-page="navegador">Atividades</a></li>
         <li><a href="#/gerador"       class="nav-link" data-page="gerador">Gerar Atividades</a></li>
         <li><a href="#/guia"          class="nav-link" data-page="guia">Guia do Professor</a></li>
+        <li><a href="#/jogos"         class="nav-link" data-page="jogos">Jogos de Palavras</a></li>
         <li><a href="#/planos"        class="nav-link" data-page="planos">Plano de Aula</a></li>
         <li><a href="#/sobre"         class="nav-link" data-page="sobre">Sobre</a></li>
         <li><a href="#/acessibilidade" class="nav-link" data-page="acessibilidade">Acessibilidade</a></li>

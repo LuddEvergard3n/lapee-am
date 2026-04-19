@@ -326,5 +326,175 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "lp-5-u3-n1",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u3",
+    "unidade_titulo": "Gêneros Digitais e Multimodais",
+    "habilidade_bncc_codigo": "EF15LP10",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.06 — Leitura de textos multimodais e digitais",
+    "objetivo": "Reconhecer características dos gêneros digitais.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual desses gêneros textuais é exclusivo da internet?",
+    "conteudo_base": {
+      "opcoes": [
+        "Carta pessoal",
+        "Post em rede social",
+        "Poema",
+        "Notícia de jornal impresso"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o post como gênero digital nativo.",
+      "Distingue gêneros tradicionais de gêneros digitais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos em tela.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: qual desses textos você só consegue ver num celular ou computador?"
+    },
+    "modo_professor": {
+      "gabarito": "Post em rede social — gênero que só existe em plataformas digitais.",
+      "objetivo_pedagogico": "Introduzir conceito de gêneros digitais nativos.",
+      "perguntas_orientadoras": [
+        "A carta existe desde antes da internet?",
+        "Uma notícia pode aparecer tanto impressa quanto digital?",
+        "O que é exclusivo das redes sociais?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste claro entre gênero digital nativo e tradicionais."
+    }
+  },
+  {
+    "id": "lp-5-u3-n2",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u3",
+    "unidade_titulo": "Gêneros Digitais e Multimodais",
+    "habilidade_bncc_codigo": "EF15LP10",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.06 — Leitura de textos multimodais e digitais",
+    "objetivo": "Identificar elementos que compõem um texto multimodal.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada elemento: faz parte de um texto escrito, de uma imagem, ou de ambos?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Título em letras grandes e coloridas",
+          "categoria": "Ambos"
+        },
+        {
+          "id": "i2",
+          "label": "Parágrafo explicativo",
+          "categoria": "Texto escrito"
+        },
+        {
+          "id": "i3",
+          "label": "Fotografia do evento",
+          "categoria": "Imagem"
+        },
+        {
+          "id": "i4",
+          "label": "Legenda abaixo da foto",
+          "categoria": "Ambos"
+        },
+        {
+          "id": "i5",
+          "label": "Gráfico com dados",
+          "categoria": "Ambos"
+        },
+        {
+          "id": "i6",
+          "label": "Ícone de localização",
+          "categoria": "Imagem"
+        }
+      ],
+      "categorias": [
+        "Texto escrito",
+        "Imagem",
+        "Ambos"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica imagens e textos corretamente.",
+      "Reconhece que alguns elementos mesclam texto e imagem."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar uma notícia com imagem como exemplo.",
+      "resposta": "Arrastar cada item para a categoria correta.",
+      "engajamento": "Dica: 'ambos' significa que o elemento tem parte escrita e parte visual ao mesmo tempo."
+    },
+    "modo_professor": {
+      "gabarito": "Parágrafo → texto | Fotografia e ícone → imagem | Título colorido, legenda e gráfico → ambos.",
+      "objetivo_pedagogico": "Desenvolver leitura de textos multimodais identificando elementos verbais e não-verbais.",
+      "perguntas_orientadoras": [
+        "Um gráfico tem números escritos e também forma visual — como você classifica?",
+        "A legenda é só texto ou depende da imagem?",
+        "Por que títulos coloridos estão na categoria 'ambos'?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: categorização exige análise de elementos, não apenas reconhecimento."
+    }
+  },
+  {
+    "id": "lp-5-u3-n3",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u3",
+    "unidade_titulo": "Gêneros Digitais e Multimodais",
+    "habilidade_bncc_codigo": "EF15LP11",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.P.05 — Produção de textos para circulação digital",
+    "objetivo": "Produzir um post informativo sobre um assunto de interesse.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Crie um post para uma rede social sobre um assunto que você acha importante. O post deve informar e chamar a atenção das pessoas.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "assunto",
+          "label": "Qual assunto você quer divulgar?",
+          "max": 80
+        },
+        {
+          "id": "texto",
+          "label": "Escreva o texto do post (curto e direto):",
+          "max": 200
+        },
+        {
+          "id": "hashtag",
+          "label": "Que hashtag você usaria? (ex: #meioambiente)",
+          "max": 80
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define assunto relevante.",
+      "Escreve texto conciso e informativo.",
+      "Usa hashtag relacionada ao assunto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos de posts educativos.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: posts nas redes são curtos — use frases diretas e escolha um assunto que você conhece bem!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: assunto definido, texto conciso (menos de 200 caracteres), hashtag pertinente.",
+      "objetivo_pedagogico": "Produzir gênero digital com características linguísticas específicas (brevidade, hashtag, apelo ao leitor).",
+      "perguntas_orientadoras": [
+        "Seu post chamaria atenção de quem passa pela tela?",
+        "Você conseguiu ser breve e informativo ao mesmo tempo?",
+        "A hashtag ajuda a encontrar seu post?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção de gênero digital com restrições formais."
+    }
   }
 ]

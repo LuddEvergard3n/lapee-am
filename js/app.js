@@ -105,6 +105,10 @@ async function main() {
     store.setState({ pagina: 'gerador' });
   });
 
+  router.on('/jogos', () => {
+    store.setState({ pagina: 'jogos' });
+  });
+
   /* 7. Iniciar roteador */
   router.start();
 }

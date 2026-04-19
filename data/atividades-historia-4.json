@@ -302,5 +302,150 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "his-4-u3-n1",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u3",
+    "unidade_titulo": "Industrialização e Urbanização",
+    "habilidade_bncc_codigo": "EF04HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.03 — Industrialização e transformações sociais",
+    "objetivo": "Reconhecer a industrialização como processo que transformou o trabalho e as cidades.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que mudou no trabalho das pessoas com o surgimento das fábricas?",
+    "conteudo_base": {
+      "opcoes": [
+        "Todos passaram a trabalhar no campo",
+        "As pessoas passaram a trabalhar em fábricas, com máquinas, por horas fixas",
+        "O trabalho ficou menos importante",
+        "Ninguém mais precisou trabalhar"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica mudança do trabalho artesanal/agrícola para o fabril.",
+      "Reconhece máquinas e horas fixas como características do trabalho industrial."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de fábrica antiga vs. trabalho artesanal.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: antes das fábricas, como as pessoas produziam roupas, ferramentas e alimentos?"
+    },
+    "modo_professor": {
+      "gabarito": "Trabalho em fábricas com máquinas e horas fixas — Revolução Industrial.",
+      "objetivo_pedagogico": "Compreender a transformação do trabalho com a industrialização.",
+      "perguntas_orientadoras": [
+        "O que é trabalho artesanal?",
+        "Por que as pessoas foram para as cidades trabalhar nas fábricas?",
+        "As condições de trabalho nas fábricas antigas eram boas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: mudança clara e direta com distratores absurdos."
+    }
+  },
+  {
+    "id": "his-4-u3-n2",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u3",
+    "unidade_titulo": "Industrialização e Urbanização",
+    "habilidade_bncc_codigo": "EF04HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.03 — Industrialização e transformações sociais",
+    "objetivo": "Ordenar as consequências da industrialização no Brasil.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque em ordem as transformações que a industrialização trouxe para o Brasil.",
+    "conteudo_base": {
+      "itens": [
+        "Crescimento das cidades (urbanização)",
+        "Surgimento das primeiras fábricas",
+        "Trabalhadores organizam sindicatos e reivindicam direitos",
+        "Migração do campo para a cidade em busca de trabalho"
+      ],
+      "ordem_correta": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: fábricas → migração → urbanização → sindicatos.",
+      "Compreende a cadeia causal do processo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode apresentar linha do tempo da industrialização brasileira.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: o que vem primeiro — as fábricas ou as pessoas que vão trabalhar nelas?"
+    },
+    "modo_professor": {
+      "gabarito": "Fábricas surgem → pessoas migram → cidades crescem → trabalhadores se organizam.",
+      "objetivo_pedagogico": "Compreender industrialização como processo com causas e consequências encadeadas.",
+      "perguntas_orientadoras": [
+        "Por que os trabalhadores criaram sindicatos?",
+        "O que é urbanização?",
+        "Esse processo ainda está acontecendo no Brasil?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: cadeia causal com 4 etapas históricas."
+    }
+  },
+  {
+    "id": "his-4-u3-n3",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u3",
+    "unidade_titulo": "Industrialização e Urbanização",
+    "habilidade_bncc_codigo": "EF04HI07",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.04 — Trabalho, direitos e movimentos sociais",
+    "objetivo": "Explicar por que os trabalhadores lutaram por direitos durante a industrialização.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Nas primeiras fábricas, adultos e crianças trabalhavam 14 horas por dia, sem férias e com salários muito baixos. Por que isso era injusto? O que os trabalhadores fizeram para mudar isso?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "injustica",
+          "label": "Por que essa situação era injusta?",
+          "max": 250
+        },
+        {
+          "id": "mudanca",
+          "label": "O que os trabalhadores fizeram para mudar?",
+          "max": 250
+        },
+        {
+          "id": "hoje",
+          "label": "Quais direitos conquistados ainda existem hoje?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica injustiça com ao menos um argumento concreto.",
+      "Menciona greves, sindicatos ou leis trabalhistas.",
+      "Cita ao menos um direito atual."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler trecho histórico sobre condições nas primeiras fábricas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como você se sentiria trabalhando 14 horas por dia sem descanso. Seria justo?"
+    },
+    "modo_professor": {
+      "gabarito": "Injusto: exploração do trabalho infantil, jornadas excessivas, sem direitos. Mudança: greves, sindicatos, pressão política. Hoje: férias, 8h, 13º salário.",
+      "objetivo_pedagogico": "Compreender a origem dos direitos trabalhistas a partir das lutas históricas.",
+      "perguntas_orientadoras": [
+        "O que é uma greve?",
+        "Quando foi abolido o trabalho infantil no Brasil?",
+        "Por que os sindicatos ainda existem hoje?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise crítica de condições históricas e conquistas sociais."
+    }
   }
 ]

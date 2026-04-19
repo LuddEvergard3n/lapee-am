@@ -62,7 +62,12 @@
         "Instalação de comércio e serviços básicos",
         "Escolha e ocupação do território"
       ],
-      "ordem_correta": [3, 1, 2, 0]
+      "ordem_correta": [
+        3,
+        1,
+        2,
+        0
+      ]
     },
     "criterios_sucesso": [
       "Ordena as etapas em sequência lógica de formação de comunidade.",
@@ -100,9 +105,21 @@
     "enunciado": "Pense em uma festa, tradição ou costume do seu bairro ou cidade. Descreva o que é, quando acontece e por que é importante para as pessoas da comunidade.",
     "conteudo_base": {
       "campos": [
-        { "id": "tradicao",   "label": "Qual tradição ou costume você escolheu?",              "max": 100 },
-        { "id": "descricao",  "label": "Descreva como acontece:",                              "max": 200 },
-        { "id": "importancia","label": "Por que essa tradição é importante para a comunidade?", "max": 200 }
+        {
+          "id": "tradicao",
+          "label": "Qual tradição ou costume você escolheu?",
+          "max": 100
+        },
+        {
+          "id": "descricao",
+          "label": "Descreva como acontece:",
+          "max": 200
+        },
+        {
+          "id": "importancia",
+          "label": "Por que essa tradição é importante para a comunidade?",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -184,14 +201,41 @@
     "enunciado": "Arrasta cada forma de trabalho para o período em que ela era mais comum.",
     "conteudo_base": {
       "itens": [
-        { "id": "i1", "label": "Arar a terra com boi e arado",      "categoria": "Passado"  },
-        { "id": "i2", "label": "Operar máquinas em fábricas",        "categoria": "Passado"  },
-        { "id": "i3", "label": "Trabalhar como programador remoto",  "categoria": "Presente" },
-        { "id": "i4", "label": "Artesanato feito à mão",             "categoria": "Passado"  },
-        { "id": "i5", "label": "Usar aplicativos para entregar comida", "categoria": "Presente" },
-        { "id": "i6", "label": "Atender videochamadas de clientes",  "categoria": "Presente" }
+        {
+          "id": "i1",
+          "label": "Arar a terra com boi e arado",
+          "categoria": "Passado"
+        },
+        {
+          "id": "i2",
+          "label": "Operar máquinas em fábricas",
+          "categoria": "Passado"
+        },
+        {
+          "id": "i3",
+          "label": "Trabalhar como programador remoto",
+          "categoria": "Presente"
+        },
+        {
+          "id": "i4",
+          "label": "Artesanato feito à mão",
+          "categoria": "Passado"
+        },
+        {
+          "id": "i5",
+          "label": "Usar aplicativos para entregar comida",
+          "categoria": "Presente"
+        },
+        {
+          "id": "i6",
+          "label": "Atender videochamadas de clientes",
+          "categoria": "Presente"
+        }
       ],
-      "categorias": ["Passado", "Presente"]
+      "categorias": [
+        "Passado",
+        "Presente"
+      ]
     },
     "criterios_sucesso": [
       "Classifica formas de trabalho conforme o período histórico.",
@@ -229,9 +273,21 @@
     "enunciado": "Compare o trabalho de um carteiro no passado (levando cartas a cavalo ou a pé) com o de hoje (usando moto, carro ou aplicativo). O que mudou? O que ficou igual? O que melhorou ou piorou?",
     "conteudo_base": {
       "campos": [
-        { "id": "mudou",    "label": "O que mudou no trabalho do carteiro?",               "max": 200 },
-        { "id": "igual",    "label": "O que ficou igual?",                                 "max": 150 },
-        { "id": "avaliacao","label": "O que você acha que melhorou ou piorou? Por quê?",   "max": 200 }
+        {
+          "id": "mudou",
+          "label": "O que mudou no trabalho do carteiro?",
+          "max": 200
+        },
+        {
+          "id": "igual",
+          "label": "O que ficou igual?",
+          "max": 150
+        },
+        {
+          "id": "avaliacao",
+          "label": "O que você acha que melhorou ou piorou? Por quê?",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -254,6 +310,169 @@
       ],
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "Nível 3: análise comparativa com eixo mudança-permanência e avaliação crítica."
+    }
+  },
+  {
+    "id": "his-3-u3-n1",
+    "ano": 3,
+    "componente": "História",
+    "unidade_id": "his-3-u3",
+    "unidade_titulo": "Povos Originários do Brasil",
+    "habilidade_bncc_codigo": "EF03HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF3.C.03 — Povos indígenas e diversidade cultural",
+    "objetivo": "Reconhecer que o Brasil tinha povos originários antes da chegada dos europeus.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Quem habitava o Brasil antes de 1500?",
+    "conteudo_base": {
+      "opcoes": [
+        "Ninguém — o Brasil estava vazio",
+        "Povos indígenas com culturas e línguas próprias",
+        "Somente portugueses",
+        "Africanos trazidos pelos portugueses"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece presença dos povos indígenas antes de 1500.",
+      "Identifica culturas e línguas como atributos desses povos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar mapa do Brasil com localização de povos originários.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o Brasil foi 'descoberto' pelos europeus — mas será que estava vazio antes?"
+    },
+    "modo_professor": {
+      "gabarito": "Povos indígenas com culturas e línguas próprias — estima-se que havia entre 1 e 8 milhões de indígenas.",
+      "objetivo_pedagogico": "Desmistificar a ideia de 'terra sem povo' e valorizar os povos originários.",
+      "perguntas_orientadoras": [
+        "O que significa 'descobrimento' do Brasil?",
+        "Quantos povos indígenas existem hoje no Brasil?",
+        "Por que é importante conhecer a história dos povos originários?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: questão factual com distratores históricos comuns."
+    }
+  },
+  {
+    "id": "his-3-u3-n2",
+    "ano": 3,
+    "componente": "História",
+    "unidade_id": "his-3-u3",
+    "unidade_titulo": "Povos Originários do Brasil",
+    "habilidade_bncc_codigo": "EF03HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF3.C.03 — Povos indígenas e diversidade cultural",
+    "objetivo": "Identificar contribuições dos povos originários para a cultura brasileira.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada item: é uma contribuição indígena para a cultura brasileira ou não?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Palavras como 'abacaxi', 'mandioca' e 'piranha'",
+          "categoria": "Contribuição indígena"
+        },
+        {
+          "id": "i2",
+          "label": "O uso de hamburger e pizza",
+          "categoria": "Não é contribuição indígena"
+        },
+        {
+          "id": "i3",
+          "label": "Técnicas de cultivo da mandioca",
+          "categoria": "Contribuição indígena"
+        },
+        {
+          "id": "i4",
+          "label": "O futebol",
+          "categoria": "Não é contribuição indígena"
+        },
+        {
+          "id": "i5",
+          "label": "Conhecimento sobre plantas medicinais da floresta",
+          "categoria": "Contribuição indígena"
+        },
+        {
+          "id": "i6",
+          "label": "O carnaval europeu",
+          "categoria": "Não é contribuição indígena"
+        }
+      ],
+      "categorias": [
+        "Contribuição indígena",
+        "Não é contribuição indígena"
+      ]
+    },
+    "criterios_sucesso": [
+      "Reconhece palavras de origem tupi como contribuição indígena.",
+      "Distingue contribuições indígenas de influências europeias e globais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar palavras de origem tupi no quadro.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: muito do que temos no Brasil veio dos povos que já estavam aqui — língua, alimentos, técnicas."
+    },
+    "modo_professor": {
+      "gabarito": "Indígena: palavras tupi, cultivo da mandioca, plantas medicinais. Não indígena: hamburguer, futebol, carnaval europeu.",
+      "objetivo_pedagogico": "Valorizar a contribuição cultural dos povos originários no Brasil.",
+      "perguntas_orientadoras": [
+        "Quantas palavras da nossa língua vêm do tupi?",
+        "Por que a mandioca é tão importante na alimentação brasileira?",
+        "O que é etnocentrismo?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com critério cultural e histórico."
+    }
+  },
+  {
+    "id": "his-3-u3-n3",
+    "ano": 3,
+    "componente": "História",
+    "unidade_id": "his-3-u3",
+    "unidade_titulo": "Povos Originários do Brasil",
+    "habilidade_bncc_codigo": "EF03HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF3.C.04 — Direitos dos povos indígenas",
+    "objetivo": "Refletir sobre a situação atual dos povos indígenas e seus direitos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Os povos indígenas têm direito à terra e à sua cultura. Por que isso é importante? O que acontece quando esses direitos não são respeitados?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "importancia",
+          "label": "Por que os povos indígenas têm direito à terra e à cultura?",
+          "max": 250
+        },
+        {
+          "id": "consequencias",
+          "label": "O que acontece quando esses direitos são desrespeitados?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica os direitos com ao menos um argumento.",
+      "Menciona consequência concreta (perda da cultura, violência, extinção de povos)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contar um caso real de comunidade indígena.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense no que aconteceria com sua família se alguém expulsasse vocês de casa e proibisse de falar sua língua."
+    },
+    "modo_professor": {
+      "gabarito": "Direito à terra: sobrevivência física e cultural. Quando desrespeitado: perda da língua, doenças, violência, extinção de povos.",
+      "objetivo_pedagogico": "Desenvolver empatia e consciência sobre direitos dos povos originários.",
+      "perguntas_orientadoras": [
+        "A Constituição garante terras indígenas — você sabia disso?",
+        "O que é genocídio cultural?",
+        "Como você pode respeitar e valorizar os povos indígenas no cotidiano?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão crítica sobre direitos e cidadania."
     }
   }
 ]

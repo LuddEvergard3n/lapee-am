@@ -207,54 +207,78 @@ Crie os arquivos `data/atividades-{slug}-{ano}.json` para todos os componentes d
 lapee/
 ├── index.html
 ├── css/
-│   └── main.css                Sistema de design completo (tokens, layout,
-│                               componentes, temas, mascote, conquistas,
-│                               Paint, toasts, planos, guia)
+│   └── main.css                Sistema de design completo — 3659 linhas
+│                               (tokens, layout, motores, temas, print,
+│                               planos, guia, gerador, caca-palavras, cruzadas)
 ├── js/
-│   ├── app.js                  Inicialização, 7 rotas, subscriber do store
+│   ├── app.js                  Inicializacao, 8 rotas, subscriber do store
 │   ├── router.js               Roteamento por hash (#/rota)
-│   ├── store.js                Estado global + persistência em localStorage
-│   ├── tts.js                  Síntese de fala (Web Speech API)
-│   ├── recorder.js             Gravação de áudio (MediaRecorder)
+│   ├── store.js                Estado global + persistencia em localStorage
+│   ├── tts.js                  Sintese de fala (Web Speech API)
+│   ├── recorder.js             Gravacao de audio (MediaRecorder)
 │   ├── a11y.js                 Acessibilidade: prefs visuais + som + atalhos
 │   ├── mascote.js              Lua — coruja SVG animada com 4 estados
 │   ├── conquistas.js           Emblemas por componente derivados do progresso
 │   ├── notificacoes.js         Sistema de toasts (4 tipos, auto-dismiss)
 │   ├── sound.js                Efeitos sonoros via Web Audio API
+│   ├── exportar.js             Exportacao DOCX/PDF compartilhada (planos + gerador)
 │   ├── activities/
-│   │   ├── marcar.js           Motor: múltipla escolha (simples, múltipla, pares)
-│   │   ├── ordenar.js          Motor: ordenação drag-and-drop + teclado
+│   │   ├── marcar.js           Motor: multipla escolha (simples, multipla, pares)
+│   │   ├── ordenar.js          Motor: ordenacao drag-and-drop + teclado
 │   │   ├── arrastar.js         Motor: arrastar (pares, categorias, blocos)
 │   │   ├── escrever.js         Motor: escrita livre + resposta oral
-│   │   └── desenhar.js         Motor: Paint (24 cores, 6 pincéis, undo, PNG)
+│   │   ├── desenhar.js         Motor: Paint (24 cores, 6 pinceis, undo, PNG)
+│   │   ├── cacapalavras.js     Motor: caca-palavras interativo (wordfind.js)
+│   │   └── cruzadas.js         Motor: palavras cruzadas interativo (crossword.js)
 │   ├── dataLoader/
-│   │   ├── index.js            API pública (load, loadAll, re-exporta queries)
+│   │   ├── index.js            API publica (load, loadAll, re-exporta queries)
 │   │   ├── resolver.js         (componente, ano) → caminho do arquivo JSON
-│   │   ├── cache.js            Cache em memória dos JSONs carregados
-│   │   └── queries.js          Funções de consulta sobre o cache
+│   │   ├── cache.js            Cache em memoria dos JSONs carregados
+│   │   └── queries.js          Funcoes de consulta sobre o cache
 │   └── ui/
 │       ├── index.js            Orquestrador da UI (init, renderPage)
 │       ├── componentes.js      Sidebar, breadcrumb, constantes, esc()
-│       ├── home.js             Página inicial com mascote e emblemas
-│       ├── navegador.js        Seletor de ano/matéria + trilha de estrelas
-│       ├── atividade.js        Tela de atividade + despacho de motores
-│       ├── guia.js             Guia do Professor (sidebar + cards de atividade)
-│       ├── planos.js           Gerador de planos de aula (client-side, dados BNCC embutidos)
-│       └── paginas.js          Páginas Sobre e Acessibilidade
+│       ├── home.js             Pagina inicial com mascote e emblemas
+│       ├── navegador.js        Seletor de ano/materia + trilha de estrelas
+│       ├── atividade.js        Tela de atividade + despacho de 7 motores
+│       ├── guia.js             Guia do Professor (sidebar sticky + cards)
+│       ├── gerador.js          Gerador de folhas de atividades para impressao
+│       ├── planos.js           Gerador de planos de aula (445 habilidades BNCC)
+│       └── paginas.js          Paginas Sobre e Acessibilidade
+├── assets/
+│   ├── js/
+│   │   ├── docx.umd.js         Bundle UMD do pacote docx (exportacao Word)
+│   │   ├── wordfind.js         Gerador de caca-palavras (algoritmo proprio)
+│   │   └── crossword.js        Gerador de palavras cruzadas (algoritmo proprio)
+│   ├── icons/
+│   └── fonts/
 ├── data/
-│   ├── atividades-lp-{1..5}.json
+│   ├── atividades-lp-{1..5}.json           (30 arquivos, 180 atividades)
 │   ├── atividades-matematica-{1..5}.json
 │   ├── atividades-ciencias-{1..5}.json
 │   ├── atividades-historia-{1..5}.json
 │   ├── atividades-geografia-{1..5}.json
-│   └── atividades-arte-{1..5}.json         (30 arquivos, 180 atividades)
-├── assets/
-│   ├── icons/
-│   └── fonts/
-├── docs/                       Documentação técnica de cada módulo (11 arquivos)
+│   ├── atividades-arte-{1..5}.json
+│   └── atividades-extras-3.json            (3 atividades demo: caca/cruzadas)
+├── docs/
+│   ├── pendencias.md           LEIA PRIMEIRO — estado atual e proximos passos
+│   ├── dados.md                Schema completo dos JSONs de atividades
+│   ├── activities.md           Documentacao dos 7 motores
+│   ├── ui.md                   Documentacao dos modulos de UI
+│   ├── app.md                  Inicializacao e rotas
+│   ├── store.md                Estado global e persistencia
+│   ├── css.md                  Guia do CSS (tokens, secoes, breakpoints)
+│   ├── dataLoader.md           API de carregamento de dados
+│   ├── a11y.md                 Acessibilidade
+│   ├── tts.md                  Sintese de fala
+│   ├── sound.md                Efeitos sonoros
+│   ├── notificacoes.md         Sistema de toasts
+│   ├── recorder.md             Gravacao de audio
+│   ├── router.md               Roteamento por hash
+│   └── instrucao-geracao-atividades.md   Instrucao para LLM gerar JSONs
 ├── CHANGELOG.md
 ├── LICENSE
-├── .nojekyll                   Desativa Jekyll no GitHub Pages (obrigatório)
+├── .nojekyll                   Desativa Jekyll no GitHub Pages (obrigatorio)
 └── README.md
 ```
 

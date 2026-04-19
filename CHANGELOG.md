@@ -7,6 +7,60 @@ Versionamento: [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [1.17.1] — 2026-04-19
+
+### Adicionado
+
+- **`data/banco-palavras.json`** — banco de palavras curado com 15-17 entradas por par (componente × ano), totalizando 30 pares e 462 palavras. Formato: `{ "palavra": "VOGAL", "dica": "A, E, I, O e U são exemplos" }`. Palavras sem acento (normalizadas), dicas em português natural.
+- **`js/ui/jogos.js`** — página `/jogos` completa. Seletor de componente (6 opções), ano (1º–5º) e tipo de jogo (caça-palavras ou palavras cruzadas). Palavras sorteadas aleatoriamente do banco a cada partida. Botão "Novo jogo" re-sorteia sem recarregar a página. Reutiliza `renderCacaPalavras` e `renderCruzadas` com atividades sintéticas — zero duplicação de lógica. Cache do banco em variável de módulo (fetch único por sessão).
+- **Rota `/jogos`** em `js/app.js`.
+- **Link "Jogos de Palavras"** na sidebar em `js/ui/componentes.js` (entre Guia do Professor e Plano de Aula).
+- **CSS `.jogos-*`** em `css/main.css` — seção 34: cabeçalho, painel de seleção, botões pill toggle com estado `.ativa`, arena com animação fade-in, cabeçalho da arena, responsivo em 540px.
+- **Despacho `case 'jogos'`** em `js/ui/index.js` com `await renderJogos(main)`.
+- **Cases `caca_palavras` e `cruzadas` em `_converter()`** de `js/ui/gerador.js`. Na folha impressa: lista de palavras/pistas + área em grade (`.gatv-caixa-grid`) para o aluno resolver. Não gera a grade proceduralmente — isso requereria rodar wordfind/crossword no contexto de impressão, o que não é compatível com o fluxo de exportação DOCX.
+- **CSS `.gatv-caixa-grid`** em `css/main.css` — área com linhas de guia em papel quadriculado.
+
+### Removido
+
+- **`data/atividades-extras-3.json`** — arquivo de demonstração dos tipos `caca_palavras` e `cruzadas`, agora desnecessário. O banco de palavras (`banco-palavras.json`) supre a função de dados para esses tipos na página `/jogos`. O arquivo nunca foi carregado pelo `loadAll()` (slug `extras` não registrado no `resolver.js`).
+
+### Auditado
+
+- **IDs de atividades do 4º e 5º ano** — todos os 180 IDs estão no formato canônico (`componente-ano-unidade-nivel`). Nenhum ID legado encontrado.
+
+## [1.17.0] — 2026-04-19
+
+### Adicionado
+
+- **`assets/js/wordfind.js`** — gerador de caca-palavras em JS puro, sem dependencias externas. Backtracking com embaralhamento de direcoes e posicoes. Normalizacao de caracteres portugueses. Registrado em `window.WordFind`.
+- **`assets/js/crossword.js`** — gerador de palavras cruzadas em JS puro. Encaixe por maximo de intersecoes. Numeracao automatica de celulas. Registrado em `window.Crossword`.
+- **`js/activities/cacapalavras.js`** — motor interativo do caca-palavras. Selecao por dois cliques (primeira + ultima letra). Apenas horizontal e vertical para EF I.
+- **`js/activities/cruzadas.js`** — motor interativo de palavras cruzadas. Inputs por celula, verificacao com cor, pistas clicaveis que destacam a palavra, navegacao por teclado.
+- **`data/atividades-extras-3.json`** — tres atividades de demonstracao dos novos tipos (caca_palavras em LP e Matematica, cruzadas em Ciencias do 3o ano).
+- Dois novos casos no despachante de `ui/atividade.js`: `caca_palavras` e `cruzadas`.
+- CSS `.caca-*` e `.cruzadas-*` em `main.css`.
+
+### Documentacao
+
+- **`docs/pendencias.md`** (novo) — estado atual do projeto e roadmap detalhado para proxima sessao.
+- **`docs/dados.md`** (novo) — documentacao completa do schema de atividades JSON, convencoes de ID, erros que quebram o motor.
+- **`docs/activities.md`** — atualizado com cacapalavras.js e cruzadas.js, incluindo API do wordfind.js e crossword.js.
+- **`docs/ui.md`** — reescrito (arquivo tinha encoding corrompido) com estado atual de todos os 8 modulos de UI.
+- **`docs/app.md`** — atualizado para 8 rotas.
+- **`docs/css.md`** — atualizado com secoes 32 (caca-palavras) e 33 (cruzadas), e nota sobre o bug historico do alto-contraste+tema-escuro.
+- **`README.md`** — estrutura de arquivos atualizada com todos os novos modulos e nota sobre docs/pendencias.md como primeiro arquivo a ler.
+
+---
+
+## [1.16.0] — 2026-04-13
+
+### Adicionado
+
+- 36 atividades do 2o ano geradas com curadoria: LP (leitura/producao), Matematica (adicao/subtracao/medidas), Ciencias (seres vivos/saude), Historia (escola/tradicoes), Geografia (paisagens/transportes), Arte (ritmo/teatro).
+- Todos os enunciados em linguagem infantil direta. N3 com campos curtos (max 80-150 chars).
+
+---
+
 ## [1.12.0] — 2026-04-07
 
 ### Corrigido

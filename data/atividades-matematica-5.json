@@ -290,5 +290,145 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "mat-5-u3-n1",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u3",
+    "unidade_titulo": "Geometria e Medidas",
+    "habilidade_bncc_codigo": "EF05MA17",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.G.02 — Classificação de polígonos e cálculo de área",
+    "objetivo": "Reconhecer e classificar figuras planas pelo número de lados.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual figura tem exatamente 5 lados?",
+    "conteudo_base": {
+      "opcoes": [
+        "Triângulo",
+        "Quadrado",
+        "Pentágono",
+        "Hexágono"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica pentágono como figura de 5 lados.",
+      "Distingue figuras planas pelo número de lados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar cada figura no quadro com os lados numerados.",
+      "resposta": "Marcar a figura correta.",
+      "engajamento": "Dica: 'penta' em grego significa cinco."
+    },
+    "modo_professor": {
+      "gabarito": "Pentágono — 5 lados.",
+      "objetivo_pedagogico": "Classificar polígonos pelo número de lados.",
+      "perguntas_orientadoras": [
+        "Quantos lados tem um hexágono?",
+        "Tri significa quantos?",
+        "Qual figura tem todos os lados iguais E todos os ângulos iguais?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento direto com pista na etimologia."
+    }
+  },
+  {
+    "id": "mat-5-u3-n2",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u3",
+    "unidade_titulo": "Geometria e Medidas",
+    "habilidade_bncc_codigo": "EF05MA18",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.G.03 — Cálculo de área e perímetro",
+    "objetivo": "Calcular área e perímetro de retângulos.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Um retângulo tem 6 cm de comprimento e 4 cm de largura. Marque a opção com a área CORRETA.",
+    "conteudo_base": {
+      "opcoes": [
+        "20 cm²",
+        "24 cm²",
+        "10 cm",
+        "24 cm"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Calcula área = comprimento × largura = 24 cm².",
+      "Distingue área (cm²) de perímetro (cm)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar o retângulo com medidas no quadro.",
+      "resposta": "Marcar a opção correta.",
+      "engajamento": "Dica: área é o espaço dentro da figura. Use a fórmula: comprimento × largura."
+    },
+    "modo_professor": {
+      "gabarito": "24 cm² (6×4=24). A opção 20 cm é o perímetro (2×(6+4)=20 cm).",
+      "objetivo_pedagogico": "Calcular e distinguir área de perímetro.",
+      "perguntas_orientadoras": [
+        "Por que a área tem cm² e não cm?",
+        "Como você calcularia o perímetro?",
+        "O resultado 20 cm aparece — onde ele entra?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: distingue área de perímetro com unidades como pista."
+    }
+  },
+  {
+    "id": "mat-5-u3-n3",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u3",
+    "unidade_titulo": "Geometria e Medidas",
+    "habilidade_bncc_codigo": "EF05MA19",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.G.04 — Resolução de problemas com área e perímetro",
+    "objetivo": "Resolver problema envolvendo área e perímetro com justificativa.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Você vai cercar um jardim retangular de 8m por 5m. Quantos metros de cerca precisa? E qual é a área do jardim? Explique.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "perimetro",
+          "label": "Perímetro (metros de cerca):",
+          "max": 80
+        },
+        {
+          "id": "area",
+          "label": "Área do jardim (m²):",
+          "max": 80
+        },
+        {
+          "id": "diferenca",
+          "label": "Qual é a diferença entre perímetro e área? Explique com suas palavras.",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula perímetro = 2×(8+5) = 26m.",
+      "Calcula área = 8×5 = 40m².",
+      "Explica a diferença conceitualmente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar o jardim no caderno antes de calcular.",
+      "resposta": "Digitar os valores e a explicação.",
+      "engajamento": "Dica: a cerca vai em volta — isso é o perímetro. O chão dentro é a área."
+    },
+    "modo_professor": {
+      "gabarito": "Perímetro: 2×(8+5)=26m. Área: 8×5=40m². Diferença: perímetro é a borda, área é o interior.",
+      "objetivo_pedagogico": "Resolver problema real com área e perímetro, e distinguir os conceitos.",
+      "perguntas_orientadoras": [
+        "Se o jardim fosse maior mas com mesmo perímetro, a área seria igual?",
+        "Por que usamos metros para perímetro e metros quadrados para área?",
+        "Como você verifica o perímetro?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: resolução de problema real com explicação conceitual."
+    }
   }
 ]

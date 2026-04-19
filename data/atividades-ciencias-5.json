@@ -300,5 +300,174 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "cie-5-u3-n1",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u3",
+    "unidade_titulo": "Saúde e Qualidade de Vida",
+    "habilidade_bncc_codigo": "EF05CI08",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.V.03 — Doenças e prevenção",
+    "objetivo": "Reconhecer formas de prevenção de doenças transmissíveis.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual medida previne a transmissão de doenças como gripe e COVID?",
+    "conteudo_base": {
+      "opcoes": [
+        "Comer mais doces",
+        "Lavar as mãos e usar máscara quando necessário",
+        "Ficar em locais fechados com muitas pessoas",
+        "Não tomar água"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica higiene e uso de máscara como medidas preventivas.",
+      "Reconhece que locais fechados facilitam a transmissão."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar com experiências da pandemia.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: doenças como gripe se espalham pelo ar e pelo toque — o que você pode fazer para se proteger?"
+    },
+    "modo_professor": {
+      "gabarito": "Lavar as mãos e usar máscara — medidas de barreira física contra transmissão.",
+      "objetivo_pedagogico": "Desenvolver consciência sobre prevenção de doenças transmissíveis.",
+      "perguntas_orientadoras": [
+        "Por que locais fechados facilitam a transmissão?",
+        "A vacinação também previne? Como?",
+        "O que você pode fazer na escola para proteger os colegas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: prevenção com medidas concretas do cotidiano."
+    }
+  },
+  {
+    "id": "cie-5-u3-n2",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u3",
+    "unidade_titulo": "Saúde e Qualidade de Vida",
+    "habilidade_bncc_codigo": "EF05CI08",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.V.03 — Doenças e prevenção",
+    "objetivo": "Classificar fatores que contribuem ou prejudicam a qualidade de vida.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada fator: contribui para a qualidade de vida ou prejudica?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Dormir 8 horas por noite",
+          "categoria": "Contribui"
+        },
+        {
+          "id": "i2",
+          "label": "Consumir álcool frequentemente",
+          "categoria": "Prejudica"
+        },
+        {
+          "id": "i3",
+          "label": "Praticar esporte regularmente",
+          "categoria": "Contribui"
+        },
+        {
+          "id": "i4",
+          "label": "Ficar sedentário o dia todo",
+          "categoria": "Prejudica"
+        },
+        {
+          "id": "i5",
+          "label": "Ter relações sociais positivas",
+          "categoria": "Contribui"
+        },
+        {
+          "id": "i6",
+          "label": "Alimentação rica em ultraprocessados",
+          "categoria": "Prejudica"
+        }
+      ],
+      "categorias": [
+        "Contribui",
+        "Prejudica"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente ao menos 5 dos 6 fatores.",
+      "Reconhece fatores físicos e sociais de bem-estar."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar como cada hábito afeta o dia a dia.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: pense em como cada hábito te faz sentir — mais ou menos saudável?"
+    },
+    "modo_professor": {
+      "gabarito": "Contribui: dormir, esporte, relações sociais. Prejudica: álcool, sedentarismo, ultraprocessados.",
+      "objetivo_pedagogico": "Ampliar conceito de saúde para além da ausência de doença.",
+      "perguntas_orientadoras": [
+        "Saúde é só não estar doente?",
+        "Como as relações sociais afetam a saúde?",
+        "Que mudanças você poderia fazer para melhorar sua qualidade de vida?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com fatores físicos e sociais."
+    }
+  },
+  {
+    "id": "cie-5-u3-n3",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u3",
+    "unidade_titulo": "Saúde e Qualidade de Vida",
+    "habilidade_bncc_codigo": "EF05CI09",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.V.04 — Saúde mental e bem-estar",
+    "objetivo": "Explicar a relação entre saúde mental e qualidade de vida.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O que é saúde mental? Por que ela é tão importante quanto a saúde física? Dê um exemplo do dia a dia.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "definicao",
+          "label": "O que você entende por saúde mental?",
+          "max": 200
+        },
+        {
+          "id": "importancia",
+          "label": "Por que ela é importante?",
+          "max": 250
+        },
+        {
+          "id": "exemplo",
+          "label": "Dê um exemplo do dia a dia:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Apresenta conceito de saúde mental relacionado ao bem-estar emocional.",
+      "Justifica importância com argumento.",
+      "Dá exemplo concreto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode falar sobre emoções e como elas afetam o corpo.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como você se sente quando está triste, estressado ou feliz — isso afeta seu corpo?"
+    },
+    "modo_professor": {
+      "gabarito": "Saúde mental: estado de bem-estar emocional, capacidade de lidar com desafios. Importância: afeta corpo, relações, aprendizagem. Exemplo: ansiedade antes de prova, alegria que dá energia.",
+      "objetivo_pedagogico": "Ampliar conceito de saúde para incluir dimensão mental e emocional.",
+      "perguntas_orientadoras": [
+        "Você já sentiu algo emocional que afetou seu corpo?",
+        "O que ajuda a manter a saúde mental?",
+        "Pedir ajuda quando se está mal é sinal de fraqueza ou de cuidado?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão crítica sobre conceito ampliado de saúde."
+    }
   }
 ]

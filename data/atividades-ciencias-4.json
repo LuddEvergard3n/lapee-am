@@ -279,5 +279,144 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "cie-4-u3-n1",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u3",
+    "unidade_titulo": "Sistemas Respiratório e Circulatório",
+    "habilidade_bncc_codigo": "EF04CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.03 — Sistemas do corpo humano",
+    "objetivo": "Identificar os órgãos do sistema respiratório e suas funções.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é a função principal dos pulmões?",
+    "conteudo_base": {
+      "opcoes": [
+        "Bombear o sangue pelo corpo",
+        "Trocar oxigênio por gás carbônico com o sangue",
+        "Digerir os alimentos",
+        "Filtrar o sangue"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a troca gasosa como função dos pulmões.",
+      "Não confunde pulmão com coração, estômago ou rim."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar diagrama do sistema respiratório.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando você inspira, o que entra no seu corpo? E quando expira, o que sai?"
+    },
+    "modo_professor": {
+      "gabarito": "Troca oxigênio por gás carbônico — hematose pulmonar.",
+      "objetivo_pedagogico": "Conhecer a função do pulmão na hematose.",
+      "perguntas_orientadoras": [
+        "O que é hematose?",
+        "Por que precisamos de oxigênio?",
+        "Qual órgão bombeia o sangue até os pulmões?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: função do pulmão com distratores de outros sistemas."
+    }
+  },
+  {
+    "id": "cie-4-u3-n2",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u3",
+    "unidade_titulo": "Sistemas Respiratório e Circulatório",
+    "habilidade_bncc_codigo": "EF04CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.03 — Sistemas do corpo humano",
+    "objetivo": "Ordenar o percurso do sangue no corpo.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque em ordem o caminho do sangue: do coração até o pulmão e de volta.",
+    "conteudo_base": {
+      "itens": [
+        "Sangue rico em oxigênio volta ao coração esquerdo",
+        "Coração direito bombeia sangue aos pulmões",
+        "Sangue oxigenado é bombeado para o corpo todo",
+        "Pulmões trocam gás carbônico por oxigênio"
+      ],
+      "ordem_correta": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: coração direito → pulmões → coração esquerdo → corpo.",
+      "Compreende o circuito pulmonar."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar o circuito no quadro com setas.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: começa com o lado direito do coração mandando o sangue para o pulmão."
+    },
+    "modo_professor": {
+      "gabarito": "Coração direito → pulmões → coração esquerdo → corpo.",
+      "objetivo_pedagogico": "Compreender o circuito pulmonar da circulação.",
+      "perguntas_orientadoras": [
+        "Por que o sangue precisa ir aos pulmões?",
+        "O que torna o sangue 'rico em oxigênio'?",
+        "O que acontece depois que o corpo usa o oxigênio?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação do circuito pulmonar com 4 etapas."
+    }
+  },
+  {
+    "id": "cie-4-u3-n3",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u3",
+    "unidade_titulo": "Sistemas Respiratório e Circulatório",
+    "habilidade_bncc_codigo": "EF04CI08",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.04 — Saúde do sistema cardiovascular",
+    "objetivo": "Explicar como hábitos de vida afetam os sistemas respiratório e circulatório.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que praticar exercícios faz bem para o coração e os pulmões? E por que fumar faz mal? Explique.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "exercicio",
+          "label": "Por que o exercício faz bem ao coração e pulmões?",
+          "max": 250
+        },
+        {
+          "id": "fumo",
+          "label": "Por que fumar prejudica esses órgãos?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona exercício a fortalecimento do coração e capacidade pulmonar.",
+      "Associa fumo a danos nos pulmões e ao sistema circulatório."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar como a respiração muda durante a atividade física.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como sua respiração e batimento cardíaco mudam quando você corre."
+    },
+    "modo_professor": {
+      "gabarito": "Exercício: fortalece o coração, aumenta capacidade pulmonar, melhora circulação. Fumo: destrói alvéolos, reduz oxigenação, causa doenças cardiovasculares.",
+      "objetivo_pedagogico": "Relacionar hábitos de vida à saúde cardiovascular e respiratória.",
+      "perguntas_orientadoras": [
+        "Por que o coração bate mais rápido durante o exercício?",
+        "O que o cigarro faz com os alvéolos?",
+        "Que outros hábitos afetam o coração?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão crítica sobre hábitos e impacto nos sistemas."
+    }
   }
 ]

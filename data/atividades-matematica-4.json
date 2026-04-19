@@ -296,5 +296,150 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "mat-4-u3-n1",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u3",
+    "unidade_titulo": "Frações e Números Decimais",
+    "habilidade_bncc_codigo": "EF04MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.04 — Representação de frações e decimais",
+    "objetivo": "Reconhecer frações simples como partes de um inteiro.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Uma pizza foi dividida em 8 fatias. Pedro comeu 3 fatias. Que fração representa o que Pedro comeu?",
+    "conteudo_base": {
+      "opcoes": [
+        "3/4",
+        "3/8",
+        "5/8",
+        "1/3"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica denominador como número total de partes.",
+      "Identifica numerador como partes consumidas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar pizza dividida em 8 partes e colorir 3.",
+      "resposta": "Marcar a fração correta.",
+      "engajamento": "Dica: o número de baixo é quantas partes tem no total, o de cima é quantas você usou."
+    },
+    "modo_professor": {
+      "gabarito": "3/8 — numerador 3 (partes comidas) e denominador 8 (total de fatias).",
+      "objetivo_pedagogico": "Introduzir notação fracionária com contexto concreto.",
+      "perguntas_orientadoras": [
+        "O que significa o 8 na fração?",
+        "E o 3?",
+        "Quantas fatias sobram? Como seria essa fração?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: fração com contexto visual claro e denominador explícito."
+    }
+  },
+  {
+    "id": "mat-4-u3-n2",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u3",
+    "unidade_titulo": "Frações e Números Decimais",
+    "habilidade_bncc_codigo": "EF04MA10",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.05 — Comparação e ordenação de frações",
+    "objetivo": "Comparar frações com mesmo denominador e ordenar do menor ao maior.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as frações em ordem do menor para o maior.",
+    "conteudo_base": {
+      "itens": [
+        "5/8",
+        "1/8",
+        "7/8",
+        "3/8"
+      ],
+      "ordem_correta": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena corretamente: 1/8 < 3/8 < 5/8 < 7/8.",
+      "Compreende que com mesmo denominador, maior numerador = maior fração."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar retângulos divididos em 8 partes com quantidades diferentes coloridas.",
+      "resposta": "Arrastar para ordenar.",
+      "engajamento": "Dica: todas têm 8 partes iguais. A que tem mais partes coloridas é maior."
+    },
+    "modo_professor": {
+      "gabarito": "1/8 < 3/8 < 5/8 < 7/8.",
+      "objetivo_pedagogico": "Comparar e ordenar frações com denominador comum.",
+      "perguntas_orientadoras": [
+        "Por que 7/8 é maior que 3/8 se o 8 é igual?",
+        "Qual fração está mais perto de 1 inteiro?",
+        "O que seria 8/8?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação com mesmo denominador, exige comparar numeradores."
+    }
+  },
+  {
+    "id": "mat-4-u3-n3",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u3",
+    "unidade_titulo": "Frações e Números Decimais",
+    "habilidade_bncc_codigo": "EF04MA11",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.06 — Relação entre fração e número decimal",
+    "objetivo": "Converter frações simples em números decimais e explicar a relação.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "1/2 de um real é quanto em dinheiro? E 1/4? Explique como você pensou.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "metade",
+          "label": "1/2 de R$1,00 =",
+          "max": 60
+        },
+        {
+          "id": "quarto",
+          "label": "1/4 de R$1,00 =",
+          "max": 60
+        },
+        {
+          "id": "explicacao",
+          "label": "Explique como você chegou nesses valores:",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula 1/2 = R$0,50.",
+      "Calcula 1/4 = R$0,25.",
+      "Explica dividindo 100 centavos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar uma moeda de R$1,00 e pedir para 'dividir' em partes.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em 1 real como 100 centavos. Dividir por 2 e por 4 fica mais fácil."
+    },
+    "modo_professor": {
+      "gabarito": "1/2 = R$0,50; 1/4 = R$0,25. Explicação: 100÷2=50 e 100÷4=25.",
+      "objetivo_pedagogico": "Relacionar fração a número decimal em contexto monetário.",
+      "perguntas_orientadoras": [
+        "Quanto é 2/4? É igual a 1/2?",
+        "Se juntasse 4 pedaços de 1/4, voltaria a R$1,00?",
+        "Como escreveria 1/10 de real em centavos?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: conversão com justificativa em contexto de dinheiro."
+    }
   }
 ]

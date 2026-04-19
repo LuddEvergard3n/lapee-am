@@ -3257,6 +3257,22 @@ html.tema-escuro .paint-swatch.active {
   margin-top: var(--space-2);
 }
 
+/* Área em branco para o aluno resolver caça-palavras e cruzadas na folha impressa.
+   Maior que o caixaDesenho porque o aluno precisa de espaço para a grade. */
+.gatv-caixa-grid {
+  border: 1px dashed var(--color-border);
+  height: 180px;
+  border-radius: var(--radius);
+  margin-top: var(--space-2);
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 23px,
+    var(--color-border) 23px,
+    var(--color-border) 24px
+  );
+}
+
 .gatv-instrucao-q {
   font-family: var(--font-ui);
   font-size: var(--text-xs);
@@ -3413,5 +3429,391 @@ html.tema-escuro .paint-swatch.active {
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+  }
+}
+
+/* ==========================================================================
+   CAÇA-PALAVRAS
+   ========================================================================== */
+
+.caca-wrapper {
+  display: flex;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.caca-grid-area { flex-shrink: 0; }
+
+.caca-grid {
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: var(--text-base);
+  line-height: 1;
+  user-select: none;
+}
+
+.caca-cel {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-ink);
+  background: var(--color-surface);
+  transition: background 0.1s;
+}
+
+.caca-cel:hover { background: var(--color-primary-lt); }
+.caca-cel.selecionada { background: var(--color-accent-lt); color: var(--color-accent); }
+.caca-cel.encontrada  { background: var(--color-ok-bg);     color: var(--color-ok); font-weight: 700; }
+.caca-cel.erro-flash  { background: var(--color-err-bg); }
+
+.caca-instrucao {
+  margin-top: var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  font-style: italic;
+}
+
+.caca-lista-area { flex: 1; min-width: 180px; }
+
+.caca-lista-titulo {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3);
+}
+
+.caca-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.caca-item {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  transition: background 0.2s;
+}
+
+.caca-item.achada {
+  background: var(--color-ok-bg);
+  border-color: var(--color-ok);
+}
+
+.caca-item.achada .caca-palavra {
+  text-decoration: line-through;
+  color: var(--color-ok);
+}
+
+.caca-palavra {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.caca-dica {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  margin-top: 2px;
+}
+
+.caca-contagem {
+  margin-top: var(--space-4);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* ==========================================================================
+   PALAVRAS CRUZADAS
+   ========================================================================== */
+
+.cruzadas-wrapper {
+  display: flex;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.cruzadas-grid-area { flex-shrink: 0; }
+
+.cruzadas-grid {
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+}
+
+.cruzadas-bloqueada {
+  width: 36px;
+  height: 36px;
+  background: var(--color-ink);
+}
+
+.cruzadas-cel {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--color-border);
+  padding: 0;
+  position: relative;
+  background: var(--color-surface);
+}
+
+.cruzadas-cel.destacada { background: var(--color-primary-lt); }
+
+.cruzadas-num {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  font-size: 9px;
+  font-family: var(--font-ui);
+  color: var(--color-ink-muted);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.cruzadas-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-ink);
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  padding-top: 8px; /* espaço para o número */
+}
+
+.cruzadas-input:focus { background: var(--color-accent-lt); }
+.cruzadas-input.cruzadas-certa  { color: var(--color-ok);  background: var(--color-ok-bg); }
+.cruzadas-input.cruzadas-errada { color: var(--color-err); background: var(--color-err-bg); }
+
+.cruzadas-pistas-area {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.cruzadas-pistas-bloco {}
+
+.cruzadas-pistas-titulo {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--space-2);
+}
+
+.cruzadas-pistas-lista {
+  list-style: decimal;
+  padding-left: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.cruzadas-pista {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  padding: 2px var(--space-1);
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+}
+
+.cruzadas-pista:hover { background: var(--color-primary-lt); color: var(--color-primary); }
+
+.cruzadas-acoes {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.cruzadas-feedback {
+  margin-top: var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius);
+}
+
+.cruzadas-feedback.ok   { background: var(--color-ok-bg);  color: var(--color-ok); }
+.cruzadas-feedback.erro { background: var(--color-err-bg); color: var(--color-err); }
+
+.atv-carregando, .atv-erro {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+  padding: var(--space-6);
+  text-align: center;
+}
+
+/* ==========================================================================
+   JOGOS DE PALAVRAS
+   ========================================================================== */
+
+.jogos-page {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-4);
+}
+
+.jogos-cabecalho {
+  margin-bottom: var(--space-8);
+}
+
+.jogos-titulo {
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
+  color: var(--color-ink);
+  margin-bottom: var(--space-2);
+}
+
+.jogos-subtitulo {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+  max-width: 540px;
+}
+
+/* ---- Painel de seleção ---- */
+
+.jogos-selecao {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  margin-bottom: var(--space-8);
+  box-shadow: var(--shadow-sm);
+}
+
+.jogos-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.jogos-grupo-rotulo {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--color-ink-muted);
+}
+
+.jogos-opcoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+/* Botão de opção — estilo pill toggle */
+.jogos-opcao {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  padding: var(--space-2) var(--space-4);
+  border: 1.5px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-bg-alt);
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+  white-space: nowrap;
+}
+
+.jogos-opcao:hover {
+  background: var(--color-primary-lt);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.jogos-opcao.ativa {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+html.tema-escuro .jogos-opcao.ativa {
+  color: var(--color-bg);
+}
+
+.jogos-acao {
+  padding-top: var(--space-2);
+}
+
+/* ---- Arena do jogo ---- */
+
+.jogos-arena {
+  animation: jogos-fade-in 0.25s ease;
+}
+
+@keyframes jogos-fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.jogos-arena-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.jogos-arena-info {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* ---- Responsivo ---- */
+
+@media (max-width: 540px) {
+  .jogos-selecao {
+    padding: var(--space-4);
+  }
+
+  .jogos-opcao {
+    font-size: var(--text-xs);
+    padding: var(--space-1) var(--space-3);
+  }
+
+  .jogos-titulo {
+    font-size: var(--text-xl);
   }
 }

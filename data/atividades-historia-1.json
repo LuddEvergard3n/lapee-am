@@ -269,5 +269,174 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: reflexão sobre mudança temporal pessoal."
     }
+  },
+  {
+    "id": "his-1-u3-n1",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u3",
+    "unidade_titulo": "Brincadeiras e Costumes",
+    "habilidade_bncc_codigo": "EF01HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.02 — Brincadeiras e tradições culturais",
+    "objetivo": "Reconhecer brincadeiras como manifestações culturais transmitidas entre gerações.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é uma brincadeira tradicional?",
+    "conteudo_base": {
+      "opcoes": [
+        "Uma brincadeira inventada hoje no computador",
+        "Uma brincadeira que as crianças aprendem com pais e avós há muitos anos",
+        "Uma brincadeira só para adultos",
+        "Uma brincadeira que ninguém mais conhece"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica transmissão entre gerações como característica do tradicional.",
+      "Relaciona brincadeiras a herança cultural."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar que brincadeiras os pais e avós ensinaram.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: brincadeiras tradicionais são aquelas que existem há muito tempo e continuam sendo passadas para as crianças."
+    },
+    "modo_professor": {
+      "gabarito": "Brincadeiras aprendidas com pais e avós — tradição transmitida entre gerações.",
+      "objetivo_pedagogico": "Introduzir conceito de tradição cultural no contexto das brincadeiras.",
+      "perguntas_orientadoras": [
+        "Você conhece alguma brincadeira que seu avô também brincava?",
+        "O que torna uma brincadeira 'tradicional'?",
+        "As brincadeiras mudam com o tempo?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição direta com contraste claro."
+    }
+  },
+  {
+    "id": "his-1-u3-n2",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u3",
+    "unidade_titulo": "Brincadeiras e Costumes",
+    "habilidade_bncc_codigo": "EF01HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.02 — Brincadeiras e tradições culturais",
+    "objetivo": "Classificar brincadeiras em tradicionais e modernas.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Separe as brincadeiras: tradicionais (existem há muito tempo) e modernas (apareceram com a tecnologia).",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Pular corda",
+          "categoria": "Tradicional"
+        },
+        {
+          "id": "i2",
+          "label": "Jogar videogame online",
+          "categoria": "Moderna"
+        },
+        {
+          "id": "i3",
+          "label": "Jogar bola de gude",
+          "categoria": "Tradicional"
+        },
+        {
+          "id": "i4",
+          "label": "Brincar com aplicativo no celular",
+          "categoria": "Moderna"
+        },
+        {
+          "id": "i5",
+          "label": "Amarelinha",
+          "categoria": "Tradicional"
+        },
+        {
+          "id": "i6",
+          "label": "Ver vídeos no YouTube",
+          "categoria": "Moderna"
+        }
+      ],
+      "categorias": [
+        "Tradicional",
+        "Moderna"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente brincadeiras sem tecnologia como tradicionais.",
+      "Reconhece tecnologia como marca das brincadeiras modernas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar quais brincadeiras os alunos conhecem.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: as brincadeiras tradicionais não precisam de eletricidade. As modernas precisam de aparelhos."
+    },
+    "modo_professor": {
+      "gabarito": "Tradicionais: pular corda, bola de gude, amarelinha. Modernas: videogame, app, YouTube.",
+      "objetivo_pedagogico": "Comparar brincadeiras de diferentes épocas e identificar mudanças culturais.",
+      "perguntas_orientadoras": [
+        "Por que as crianças de antigamente não podiam jogar videogame?",
+        "Quais brincadeiras tradicionais você conhece que não estão aqui?",
+        "Uma brincadeira pode ser ao mesmo tempo tradicional e usar tecnologia?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com critério de época/tecnologia."
+    }
+  },
+  {
+    "id": "his-1-u3-n3",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u3",
+    "unidade_titulo": "Brincadeiras e Costumes",
+    "habilidade_bncc_codigo": "EF01HI04",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.03 — Patrimônio imaterial e costumes",
+    "objetivo": "Descrever uma brincadeira ou costume da sua família e sua origem.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Pergunte a um familiar sobre uma brincadeira ou costume que ele tinha quando era criança e escreva sobre isso.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "costume",
+          "label": "Qual brincadeira ou costume você descobriu?",
+          "max": 150
+        },
+        {
+          "id": "quem",
+          "label": "Quem te contou e como era?",
+          "max": 200
+        },
+        {
+          "id": "diferenca",
+          "label": "Isso é diferente do que você faz hoje?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve uma prática cultural específica.",
+      "Identifica quem transmitiu essa prática.",
+      "Compara com o presente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que o aluno converse com um familiar antes da aula.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pergunte a seus pais, avós ou tios sobre brincadeiras que eles brincavam quando tinham sua idade."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: prática cultural descrita, informante identificado, comparação presente-passado.",
+      "objetivo_pedagogico": "Valorizar memória familiar como fonte histórica.",
+      "perguntas_orientadoras": [
+        "O que mudou entre a brincadeira de antigamente e as de hoje?",
+        "Por que é importante guardar esses costumes?",
+        "Você vai transmitir isso para seus filhos um dia?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: pesquisa familiar e reflexão sobre mudanças culturais."
+    }
   }
 ]

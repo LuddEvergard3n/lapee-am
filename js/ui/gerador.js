@@ -133,6 +133,36 @@ function _converter(atv, num) {
       };
     }
 
+    case 'caca_palavras': {
+      /* Na folha impressa: lista de palavras + dicas, área em branco para a grade. */
+      const palavras = cb.palavras ?? [];
+      const dicas    = cb.dicas   ?? [];
+      return {
+        numero:    num,
+        enunciado: atv.enunciado,
+        instrucao: 'Encontre as palavras abaixo escondidas na grade (horizontal ou vertical).',
+        /* Cada alternativa = "PALAVRA — dica" para exibição na folha */
+        alternativas: palavras.map((p, i) =>
+          dicas[i] ? `${p}  —  ${dicas[i]}` : p
+        ),
+        caixaGrid: true,
+        resposta:  gab || palavras.join('  |  '),
+      };
+    }
+
+    case 'cruzadas': {
+      /* Na folha impressa: pistas numeradas sequencialmente, área em branco para a grade. */
+      const entradas = cb.entradas ?? [];
+      return {
+        numero:    num,
+        enunciado: atv.enunciado,
+        instrucao: 'Resolva as palavras cruzadas usando as pistas abaixo.',
+        alternativas: entradas.map((e, i) => `${i + 1}. ${e.dica}`),
+        caixaGrid: true,
+        resposta:  gab || entradas.map((e, i) => `${i + 1}. ${e.palavra}`).join('  |  '),
+      };
+    }
+
     default:
       return { numero: num, enunciado: atv.enunciado, alternativas: [], resposta: gab };
   }
@@ -326,11 +356,12 @@ export function renderGerador(main) {
         corpo += q.linhasEscrever.map(lbl =>
           `<div class="gatv-campo-escrever"><span class="gatv-campo-label">${esc(lbl)}</span><div class="gatv-linha"></div><div class="gatv-linha"></div></div>`
         ).join('');
-      } else if (!q.tipoPares && !q.alternativas?.length && !q.caixaDesenho) {
+      } else if (!q.tipoPares && !q.alternativas?.length && !q.caixaDesenho && !q.caixaGrid) {
         corpo += `<div class="gatv-linha"></div><div class="gatv-linha"></div><div class="gatv-linha"></div>`;
       }
 
       if (q.caixaDesenho) corpo += `<div class="gatv-caixa-desenho"></div>`;
+      if (q.caixaGrid)    corpo += `<div class="gatv-caixa-grid"></div>`;
 
       return `<div class="gatv-questao"><p class="gatv-enunciado"><strong>${q.numero}.</strong> ${esc(q.enunciado)}</p>${corpo}</div>`;
     }).join('');

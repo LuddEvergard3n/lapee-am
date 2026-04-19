@@ -289,5 +289,179 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: produção descritiva sobre o espaço do bairro."
     }
+  },
+  {
+    "id": "geo-1-u3-n1",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u3",
+    "unidade_titulo": "Natureza e Ambiente",
+    "habilidade_bncc_codigo": "EF01GE02",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.N.02 — Elementos naturais e construídos",
+    "objetivo": "Distinguir elementos naturais de elementos construídos pelo ser humano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual desses é um elemento natural da paisagem?",
+    "conteudo_base": {
+      "opcoes": [
+        "Uma casa",
+        "Um rio",
+        "Uma rua",
+        "Uma ponte"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica rio como elemento natural.",
+      "Distingue o que existe na natureza do que é construído."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar foto de paisagem com elementos naturais e construídos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: elementos naturais existem sem que as pessoas os construam."
+    },
+    "modo_professor": {
+      "gabarito": "Rio — elemento natural que existe independentemente do ser humano.",
+      "objetivo_pedagogico": "Diferenciar paisagem natural de paisagem cultural.",
+      "perguntas_orientadoras": [
+        "O que você vê lá fora que foi feito pela natureza?",
+        "E o que foi feito pelas pessoas?",
+        "Tem lugares onde só existem coisas naturais?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste claro entre natural e artificial."
+    }
+  },
+  {
+    "id": "geo-1-u3-n2",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u3",
+    "unidade_titulo": "Natureza e Ambiente",
+    "habilidade_bncc_codigo": "EF01GE02",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.N.02 — Elementos naturais e construídos",
+    "objetivo": "Classificar elementos da paisagem em naturais e construídos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Separe os elementos: naturais ou construídos pelos seres humanos?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Montanha",
+          "categoria": "Natural"
+        },
+        {
+          "id": "i2",
+          "label": "Estrada de asfalto",
+          "categoria": "Construído"
+        },
+        {
+          "id": "i3",
+          "label": "Floresta",
+          "categoria": "Natural"
+        },
+        {
+          "id": "i4",
+          "label": "Prédio",
+          "categoria": "Construído"
+        },
+        {
+          "id": "i5",
+          "label": "Rio",
+          "categoria": "Natural"
+        },
+        {
+          "id": "i6",
+          "label": "Represa",
+          "categoria": "Construído"
+        }
+      ],
+      "categorias": [
+        "Natural",
+        "Construído"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica montanha, floresta e rio como naturais.",
+      "Reconhece estrada, prédio e represa como construídos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de cada elemento.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: se existia antes de qualquer pessoa construir, é natural. Se alguém teve que fazer, é construído."
+    },
+    "modo_professor": {
+      "gabarito": "Natural: montanha, floresta, rio. Construído: estrada, prédio, represa.",
+      "objetivo_pedagogico": "Identificar transformações humanas na paisagem.",
+      "perguntas_orientadoras": [
+        "A represa é construída, mas usa o quê da natureza?",
+        "Existe alguma coisa que é natural E construída ao mesmo tempo?",
+        "Por que as pessoas transformam a natureza?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com casos menos óbvios como represa."
+    }
+  },
+  {
+    "id": "geo-1-u3-n3",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u3",
+    "unidade_titulo": "Natureza e Ambiente",
+    "habilidade_bncc_codigo": "EF01GE03",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.N.03 — Observação e descrição de paisagens",
+    "objetivo": "Descrever a paisagem de um lugar que você conhece.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Pense em um lugar ao ar livre que você gosta. Descreva o que você vê lá.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "lugar",
+          "label": "Qual é o lugar?",
+          "max": 80
+        },
+        {
+          "id": "natural",
+          "label": "O que tem de natural nesse lugar?",
+          "max": 150
+        },
+        {
+          "id": "construido",
+          "label": "O que tem de construído nesse lugar?",
+          "max": 150
+        },
+        {
+          "id": "sentimento",
+          "label": "Como você se sente nesse lugar?",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica o lugar.",
+      "Menciona ao menos um elemento natural e um construído.",
+      "Expressa sentimento ou impressão pessoal."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que os alunos fechem os olhos e imaginem o lugar.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: uma praça tem árvores (natural) e bancos (construído). O que o seu lugar tem?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: lugar identificado, elemento natural, elemento construído, expressão pessoal.",
+      "objetivo_pedagogico": "Desenvolver leitura da paisagem com categorias natural/construído.",
+      "perguntas_orientadoras": [
+        "A paisagem mudou ao longo dos anos?",
+        "Tem mais elementos naturais ou construídos?",
+        "O que você mais gosta nesse lugar?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: observação e descrição pessoal da paisagem."
+    }
   }
 ]

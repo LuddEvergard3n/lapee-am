@@ -1,0 +1,174 @@
+[
+  {
+    "id": "lp-3-u1-caca",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u1",
+    "unidade_titulo": "Ideia Principal e Evidências",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.02",
+    "objetivo": "Reconhecer palavras do campo semântico da leitura e escrita.",
+    "nivel": 2,
+    "tipo_evidencia": "caca_palavras",
+    "tempo_medio_min": 8,
+    "enunciado": "Encontra as palavras escondidas relacionadas à leitura e escrita.",
+    "conteudo_base": {
+      "palavras": [
+        "TEXTO",
+        "FRASE",
+        "LETRA",
+        "VOGAL",
+        "VERSO",
+        "LIVRO",
+        "AUTOR",
+        "CONTO"
+      ],
+      "dicas": [
+        "Conjunto de frases com sentido",
+        "Grupo de palavras com sentido",
+        "Cada símbolo do alfabeto",
+        "A, E, I, O, U",
+        "Linha de um poema",
+        "Conjunto de páginas encadernadas",
+        "Quem escreve a obra",
+        "História curta"
+      ]
+    },
+    "criterios_sucesso": [
+      "Encontra as 8 palavras do campo semântico da leitura."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Ler as dicas em voz alta antes de procurar.",
+      "resposta": "Clique na primeira e na última letra de cada palavra encontrada.",
+      "engajamento": "Procura letra por letra, de um lado para o outro. Começa pelas menores!"
+    },
+    "modo_professor": {
+      "gabarito": "TEXTO, FRASE, LETRA, VOGAL, VERSO, LIVRO, AUTOR, CONTO.",
+      "objetivo_pedagogico": "Ampliar o vocabulário do campo semântico de língua e literatura.",
+      "perguntas_orientadoras": [
+        "Você consegue usar cada palavra em uma frase?",
+        "Quais dessas palavras você usa mais?"
+      ],
+      "tempo_estimado": "7 a 10 minutos",
+      "adaptacao_nivel": "N2: oito palavras de 4 a 5 letras, horizontal e vertical."
+    }
+  },
+  {
+    "id": "cie-3-u1-cruzadas",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u1",
+    "unidade_titulo": "Ciclo da Água e Estados Físicos",
+    "habilidade_bncc_codigo": "EF03CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.01",
+    "objetivo": "Reconhecer vocabulário do ciclo da água e estados da matéria.",
+    "nivel": 2,
+    "tipo_evidencia": "cruzadas",
+    "tempo_medio_min": 10,
+    "enunciado": "Complete as palavras cruzadas sobre a água e seus estados.",
+    "conteudo_base": {
+      "entradas": [
+        {
+          "palavra": "VAPOR",
+          "dica": "Estado gasoso da água"
+        },
+        {
+          "palavra": "GELO",
+          "dica": "Estado sólido da água"
+        },
+        {
+          "palavra": "CHUVA",
+          "dica": "Precipitação de água da nuvem"
+        },
+        {
+          "palavra": "NUVEM",
+          "dica": "Aglomerado de vapor d'água no céu"
+        },
+        {
+          "palavra": "RIO",
+          "dica": "Curso de água doce"
+        },
+        {
+          "palavra": "EVAPORAR",
+          "dica": "Transformar água líquida em vapor"
+        },
+        {
+          "palavra": "MAR",
+          "dica": "Grande massa de água salgada"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Completa o cruzadinha com vocabulário do ciclo da água."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Revisar o ciclo da água na lousa antes da atividade.",
+      "resposta": "Digitar uma letra por quadrado. Clicar nas pistas para destacar a palavra.",
+      "engajamento": "Começa pelas palavras mais curtas! RIO tem só 3 letras."
+    },
+    "modo_professor": {
+      "gabarito": "VAPOR, GELO, CHUVA, NUVEM, RIO, EVAPORAR, MAR.",
+      "objetivo_pedagogico": "Consolidar vocabulário científico do ciclo da água de forma lúdica.",
+      "perguntas_orientadoras": [
+        "O que acontece com a água do mar quando o sol bate?",
+        "De onde vem a chuva?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N2: sete palavras de 3 a 8 letras, cruzadas interativas."
+    }
+  },
+  {
+    "id": "mat-3-u1-caca",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u1",
+    "unidade_titulo": "Sistema Decimal e Agrupamento",
+    "habilidade_bncc_codigo": "EF03MA03",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.01",
+    "objetivo": "Reconhecer vocabulário do sistema de numeração decimal.",
+    "nivel": 1,
+    "tipo_evidencia": "caca_palavras",
+    "tempo_medio_min": 7,
+    "enunciado": "Encontra as palavras escondidas sobre números e matemática.",
+    "conteudo_base": {
+      "palavras": [
+        "DEZENA",
+        "UNIDADE",
+        "SOMA",
+        "RESTO",
+        "ÍMPAR",
+        "PAR",
+        "ZERO",
+        "NÚMERO"
+      ],
+      "dicas": [
+        "Grupo de 10 unidades",
+        "A menor parte de um número",
+        "Resultado da adição",
+        "O que sobra na divisão",
+        "Número não divisível por 2",
+        "Número divisível por 2",
+        "O número 0",
+        "Símbolo que representa uma quantidade"
+      ]
+    },
+    "criterios_sucesso": [
+      "Encontra as 8 palavras do vocabulário matemático."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Revisar cada conceito antes de procurar a palavra.",
+      "resposta": "Clique na primeira e na última letra de cada palavra.",
+      "engajamento": "PAR é fácil — tem só 3 letras! Começa por ela."
+    },
+    "modo_professor": {
+      "gabarito": "DEZENA, UNIDADE, SOMA, RESTO, ÍMPAR, PAR, ZERO, NÚMERO.",
+      "objetivo_pedagogico": "Consolidar vocabulário matemático de forma lúdica e visual.",
+      "perguntas_orientadoras": [
+        "O que é uma dezena?",
+        "Você consegue dar um exemplo de número ímpar?"
+      ],
+      "tempo_estimado": "6 a 9 minutos",
+      "adaptacao_nivel": "N1: palavras do vocabulário matemático básico do 3º ano."
+    }
+  }
+]

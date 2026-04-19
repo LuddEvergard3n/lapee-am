@@ -325,5 +325,156 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "geo-5-u3-n1",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u3",
+    "unidade_titulo": "Desigualdades e Sustentabilidade Global",
+    "habilidade_bncc_codigo": "EF05GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.03 — Desigualdades socioespaciais e desenvolvimento sustentável",
+    "objetivo": "Reconhecer desigualdades entre países ricos e pobres.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que caracteriza um país em desenvolvimento?",
+    "conteudo_base": {
+      "opcoes": [
+        "Alta renda e muita tecnologia",
+        "Baixo IDH, acesso limitado a saúde e educação",
+        "Muitas fábricas e exportações",
+        "Ter um grande exército"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa país em desenvolvimento a indicadores sociais baixos.",
+      "Distingue desenvolvimento econômico de humano."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar mapa de IDH mundial.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: IDH mede saúde, educação e renda — não só dinheiro."
+    },
+    "modo_professor": {
+      "gabarito": "Baixo IDH com acesso limitado a saúde e educação.",
+      "objetivo_pedagogico": "Introduzir conceito de desenvolvimento humano e desigualdade global.",
+      "perguntas_orientadoras": [
+        "O que é IDH?",
+        "O Brasil é desenvolvido ou em desenvolvimento?",
+        "Por que alguns países são mais ricos que outros?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: conceito de desenvolvimento com indicadores concretos."
+    }
+  },
+  {
+    "id": "geo-5-u3-n2",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u3",
+    "unidade_titulo": "Desigualdades e Sustentabilidade Global",
+    "habilidade_bncc_codigo": "EF05GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.03 — Desigualdades socioespaciais e desenvolvimento sustentável",
+    "objetivo": "Relacionar causas e consequências das desigualdades globais.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada causa à sua consequência nas desigualdades globais.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Falta de acesso à água limpa",
+          "nome": "Doenças e mortalidade infantil"
+        },
+        {
+          "elemento": "Analfabetismo",
+          "nome": "Dificuldade de acesso ao mercado de trabalho"
+        },
+        {
+          "elemento": "Conflitos armados",
+          "nome": "Refugiados e deslocamentos forçados"
+        },
+        {
+          "elemento": "Desmatamento",
+          "nome": "Aquecimento global e perda de biodiversidade"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona corretamente ao menos 3 dos 4 pares.",
+      "Compreende cadeia causal em problemas globais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar com notícias recentes.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: pense: se isso acontece, o que muda na vida das pessoas?"
+    },
+    "modo_professor": {
+      "gabarito": "Água → doenças | Analfabetismo → trabalho | Conflitos → refugiados | Desmatamento → aquecimento.",
+      "objetivo_pedagogico": "Compreender problemas globais como cadeias causais interligadas.",
+      "perguntas_orientadoras": [
+        "O que é um refugiado?",
+        "Como o analfabetismo afeta o desenvolvimento de um país?",
+        "O que você pode fazer diante de problemas tão grandes?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: cadeia causal com 4 pares globais."
+    }
+  },
+  {
+    "id": "geo-5-u3-n3",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u3",
+    "unidade_titulo": "Desigualdades e Sustentabilidade Global",
+    "habilidade_bncc_codigo": "EF05GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.04 — ODS e cidadania global",
+    "objetivo": "Refletir sobre o papel do cidadão diante das desigualdades e da crise ambiental.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "A ONU criou os Objetivos de Desenvolvimento Sustentável (ODS) para um mundo mais justo. O que você, como estudante, pode fazer para contribuir com pelo menos um desses objetivos?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "objetivo",
+          "label": "Qual ODS você escolheu e por quê?",
+          "max": 150
+        },
+        {
+          "id": "acao_local",
+          "label": "O que você pode fazer na sua vida/escola/comunidade?",
+          "max": 250
+        },
+        {
+          "id": "impacto",
+          "label": "Como sua ação ajudaria a atingir esse objetivo?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cita um ODS real ou tema relacionado.",
+      "Propõe ação concreta e viável.",
+      "Explica o impacto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar os 17 ODS em cartaz colorido.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: exemplos de ODS: fome zero, educação de qualidade, água limpa, ação climática."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: ODS identificado, ação concreta, impacto explicado.",
+      "objetivo_pedagogico": "Desenvolver cidadania global e senso de responsabilidade coletiva.",
+      "perguntas_orientadoras": [
+        "Você conhecia os ODS antes?",
+        "Uma ação pequena pode fazer diferença?",
+        "Como você convenceria amigos a participar?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre agência pessoal em problema global."
+    }
   }
 ]

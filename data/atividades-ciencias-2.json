@@ -6,41 +6,38 @@
     "unidade_id": "cie-2-u1",
     "unidade_titulo": "Seres Vivos e Ambiente",
     "habilidade_bncc_codigo": "EF02CI04",
-    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01 — Seres vivos: características e habitats",
-    "objetivo": "Identificar características de seres vivos e seus ambientes.",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01",
+    "objetivo": "Identificar características que diferenciam seres vivos de não vivos.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual desses é um ser vivo?",
+    "tempo_medio_min": 4,
+    "enunciado": "O que faz uma planta ser um ser vivo?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "Qual desses seres precisa de comida, água e ar para viver?",
       "opcoes": [
-        "Pedra",
-        "Cachorro",
-        "Carro",
-        "Cadeira"
+        "Ela tem cor verde",
+        "Ela cresce, se alimenta e se reproduz",
+        "Ela é feita de células plásticas",
+        "Ela pode ser movida de lugar"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Distingue seres vivos de objetos inanimados pela necessidade de alimento, água e ar."
+      "Identifica crescimento, nutrição e reprodução como características dos seres vivos."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pergunta sobre cada opção: isso come? Respira? Cresce?",
-      "resposta": "Clica na resposta certa.",
-      "engajamento": "O que um cachorro precisa para sobreviver? E uma pedra precisa de alguma coisa?"
+      "apresentacao": "Comparar uma planta real com uma planta de plástico antes da atividade.",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Uma planta de plástico é um ser vivo? Por quê não?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Reconhecer características básicas que definem os seres vivos.",
-      "gabarito": "Cachorro — ser vivo que come, respira e cresce.",
+      "gabarito": "'Ela cresce, se alimenta e se reproduz' — critérios de vida.",
+      "objetivo_pedagogico": "Compreender que ser vivo é definido por funções biológicas, não por aparência.",
       "perguntas_orientadoras": [
-        "Isso cresce?",
-        "Isso precisa comer?",
-        "Isso respira?"
+        "Uma pedra é verde. Ela é viva?",
+        "O que a planta real faz que a de plástico não faz?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: opções contrastantes e claras, uma obviamente correta."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de critério de vida, distratores superficiais."
     }
   },
   {
@@ -50,63 +47,49 @@
     "unidade_id": "cie-2-u1",
     "unidade_titulo": "Seres Vivos e Ambiente",
     "habilidade_bncc_codigo": "EF02CI04",
-    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01 — Seres vivos: características e habitats",
-    "objetivo": "Identificar características de seres vivos e seus ambientes.",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01",
+    "objetivo": "Associar animais ao ambiente onde vivem.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 8,
-    "enunciado": "Coloca cada ser vivo no lugar onde ele vive.",
+    "tempo_medio_min": 7,
+    "enunciado": "Liga cada animal ao ambiente onde ele vive.",
     "conteudo_base": {
-      "tipo": "categorias",
-      "itens": [
+      "pares": [
         {
-          "label": "Peixe",
-          "categoria": "Água"
+          "elemento": "Peixe",
+          "nome": "Rio ou mar"
         },
         {
-          "label": "Minhoca",
-          "categoria": "Terra"
+          "elemento": "Minhoca",
+          "nome": "Solo"
         },
         {
-          "label": "Tubarão",
-          "categoria": "Água"
+          "elemento": "Arara",
+          "nome": "Floresta"
         },
         {
-          "label": "Tatu",
-          "categoria": "Terra"
-        },
-        {
-          "label": "Boto",
-          "categoria": "Água"
-        },
-        {
-          "label": "Toupeira",
-          "categoria": "Terra"
+          "elemento": "Camelo",
+          "nome": "Deserto"
         }
-      ],
-      "categorias": [
-        "Água",
-        "Terra"
       ]
     },
     "criterios_sucesso": [
-      "Associa animais ao ambiente em que vivem (aquático ou terrestre)."
+      "Associa corretamente cada animal ao seu habitat natural."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode mostrar imagens dos animais antes da atividade.",
-      "resposta": "Arrasta cada animal para o lugar onde ele vive. Ou clica e depois clica no lugar.",
-      "engajamento": "Você já viu esse animal? Onde ele costuma ficar?"
+      "apresentacao": "Mostrar imagens de cada animal e do seu habitat antes da atividade.",
+      "resposta": "Arrastar cada animal para o ambiente correto.",
+      "engajamento": "Um peixe sobrevive na terra? E a minhoca no mar? Por quê?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Relacionar animais ao seu habitat natural — aquático ou terrestre.",
-      "gabarito": "Água: Peixe, Tubarão, Boto. Terra: Minhoca, Tatu, Toupeira.",
+      "gabarito": "Peixe→Rio/mar, Minhoca→Solo, Arara→Floresta, Camelo→Deserto.",
+      "objetivo_pedagogico": "Compreender que cada animal possui adaptações ao seu habitat natural.",
       "perguntas_orientadoras": [
-        "Esse animal consegue respirar embaixo d'água?",
-        "Onde você encontraria esse animal na natureza?",
-        "Qual é a diferença entre os animais da água e os da terra?"
+        "Por que o camelo consegue viver no deserto?",
+        "O que aconteceria com o peixe fora da água?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 2: seis animais, dois grupos, sem distratores."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro pares, habitats distintos e contrastantes."
     }
   },
   {
@@ -116,47 +99,53 @@
     "unidade_id": "cie-2-u1",
     "unidade_titulo": "Seres Vivos e Ambiente",
     "habilidade_bncc_codigo": "EF02CI04",
-    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01 — Seres vivos: características e habitats",
-    "objetivo": "Identificar características de seres vivos e seus ambientes.",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.01",
+    "objetivo": "Descrever as características e o habitat de um animal escolhido.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
-    "enunciado": "Escolhe um animal e escreve sobre ele.",
+    "enunciado": "Escolhe um animal que você gosta. Escreve sobre ele.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "Pense num animal que você gosta: cachorro, gato, pássaro, peixe, formiga...",
       "campos": [
         {
-          "id": "animal",
-          "label": "Qual animal você escolheu e onde ele vive?",
-          "max": 100
+          "id": "nome",
+          "label": "Nome do animal:",
+          "max": 40
         },
         {
-          "id": "caracteristicas",
-          "label": "Escreve 2 características desse animal (o que ele come, como se move, etc.).",
-          "max": 200
+          "id": "onde",
+          "label": "Onde ele vive:",
+          "max": 80
+        },
+        {
+          "id": "come",
+          "label": "O que ele come:",
+          "max": 80
+        },
+        {
+          "id": "curioso",
+          "label": "Uma coisa curiosa sobre esse animal:",
+          "max": 120
         }
       ]
     },
     "criterios_sucesso": [
-      "Nomeia corretamente o habitat do animal escolhido.",
-      "Descreve pelo menos duas características observáveis do animal."
+      "Nomeia um animal e descreve habitat, alimentação e uma característica."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor permite que a criança desenhe o animal antes de escrever.",
-      "resposta": "Escreve com suas palavras. Pode ser simples.",
-      "engajamento": "Que animal você gostaria de estudar? O que você já sabe sobre ele?"
+      "apresentacao": "Deixar o aluno olhar livros ou imagens do animal antes de escrever.",
+      "resposta": "Escrever em frases simples sobre o animal escolhido.",
+      "engajamento": "Qual animal você acha mais legal? O que você já sabe sobre ele?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Descrever um ser vivo com base em características observáveis e habitat.",
-      "gabarito": "Resposta variável — avaliar se o habitat está correto e se as características são observáveis.",
+      "gabarito": "Resposta pessoal. Valorizar qualquer descrição com informações básicas corretas sobre o animal.",
+      "objetivo_pedagogico": "Mobilizar conhecimento prévio e desenvolver linguagem científica básica na escrita.",
       "perguntas_orientadoras": [
-        "Como você descobriu onde esse animal vive?",
-        "O que esse animal precisa para sobreviver?",
-        "Você consegue ver essas características com os próprios olhos?"
+        "Como você descobriu essa curiosidade?",
+        "O habitat do animal combina com o que ele come?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3: escrita livre, escolha autônoma de animal, exige dois campos distintos."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita sobre tema de escolha, quatro dimensões de descrição."
     }
   },
   {
@@ -165,40 +154,39 @@
     "componente": "Ciências",
     "unidade_id": "cie-2-u2",
     "unidade_titulo": "Água e Saúde",
-    "habilidade_bncc_codigo": "EF02CI03",
-    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.02 — Importância da água e hábitos de higiene e saúde",
-    "objetivo": "Desenvolver habilidades de água e saúde.",
+    "habilidade_bncc_codigo": "EF02CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.S.01",
+    "objetivo": "Reconhecer a importância de lavar as mãos para a saúde.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual hábito de higiene é importante para evitar doenças transmitidas pelas mãos?",
+    "tempo_medio_min": 4,
+    "enunciado": "Por que devemos lavar as mãos antes de comer?",
     "conteudo_base": {
       "opcoes": [
-        "Escovar o cabelo",
-        "Lavar as mãos com água e sabão",
-        "Usar chapéu",
-        "Tomar banho frio"
+        "Para as mãos ficarem macias",
+        "Para tirar germes que podem causar doenças",
+        "Porque as mãos ficam quentes",
+        "Para o sabonete não acabar"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica hábito de higiene preventivo."
+      "Identifica a higiene das mãos como proteção contra doenças."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Muitas doenças entram no corpo pela boca depois de tocar coisas contaminadas."
+      "apresentacao": "Perguntar quantas coisas os alunos tocaram antes de chegar à escola.",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Você tocou em maçanetas, mesinhas, dinheiro hoje? O que pode ter nessas superfícies?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar água e saúde de forma progressiva.",
-      "gabarito": "Lavar as mãos com água e sabão elimina germes.",
+      "gabarito": "'Para tirar germes que podem causar doenças' — função higiênica da lavagem.",
+      "objetivo_pedagogico": "Relacionar higiene das mãos à prevenção de doenças infecciosas.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Quando mais devemos lavar as mãos além de antes de comer?",
+        "Qual a diferença de lavar só com água e lavar com sabão?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de função higiênica, distratores sem relação com saúde."
     }
   },
   {
@@ -207,18 +195,18 @@
     "componente": "Ciências",
     "unidade_id": "cie-2-u2",
     "unidade_titulo": "Água e Saúde",
-    "habilidade_bncc_codigo": "EF02CI03",
-    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.02 — Importância da água e hábitos de higiene e saúde",
-    "objetivo": "Desenvolver habilidades de água e saúde.",
+    "habilidade_bncc_codigo": "EF02CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.S.01",
+    "objetivo": "Ordenar os passos corretos da lavagem das mãos.",
     "nivel": 2,
     "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 5,
+    "tempo_medio_min": 6,
     "enunciado": "Coloca os passos da lavagem correta das mãos na ordem certa.",
     "conteudo_base": {
       "itens": [
         "Molhar as mãos com água",
-        "Passar sabão e esfregar bem por 20 segundos",
-        "Enxaguar completamente",
+        "Colocar sabão e esfregar por 20 segundos",
+        "Enxaguar bem com água",
         "Secar com toalha limpa"
       ],
       "ordem_correta": [
@@ -229,23 +217,22 @@
       ]
     },
     "criterios_sucesso": [
-      "Ordena etapas de higiene de mãos corretamente."
+      "Ordena os quatro passos da lavagem de mãos corretamente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa na sequência: primeiro a água, depois o sabão..."
+      "apresentacao": "Demonstrar a lavagem das mãos passo a passo antes da atividade.",
+      "resposta": "Arrastar os passos na ordem certa.",
+      "engajamento": "O que acontece se você secar antes de enxaguar?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar água e saúde de forma progressiva.",
-      "gabarito": "Molhar → esfregar com sabão → enxaguar → secar.",
+      "gabarito": "Molhar → Sabão e esfregar → Enxaguar → Secar.",
+      "objetivo_pedagogico": "Internalizar o procedimento correto de lavagem das mãos como hábito de saúde.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que é importante esfregar por 20 segundos?",
+        "Por que usar toalha limpa?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "N2: quatro passos com ordem procedural obrigatória."
     }
   },
   {
@@ -254,50 +241,199 @@
     "componente": "Ciências",
     "unidade_id": "cie-2-u2",
     "unidade_titulo": "Água e Saúde",
-    "habilidade_bncc_codigo": "EF02CI03",
-    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.02 — Importância da água e hábitos de higiene e saúde",
-    "objetivo": "Desenvolver habilidades de água e saúde.",
+    "habilidade_bncc_codigo": "EF02CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.S.02",
+    "objetivo": "Explicar por que a água limpa é essencial para a saúde.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Por que a água limpa é essencial para a saúde? Dá três razões e explica cada uma.",
+    "tempo_medio_min": 10,
+    "enunciado": "A água limpa é muito importante para a nossa saúde. Escreve três motivos pelos quais precisamos de água limpa.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "r1",
-          "label": "Razão 1:",
-          "max": 120
+          "id": "m1",
+          "label": "Motivo 1:",
+          "max": 100
         },
         {
-          "id": "r2",
-          "label": "Razão 2:",
-          "max": 120
+          "id": "m2",
+          "label": "Motivo 2:",
+          "max": 100
         },
         {
-          "id": "r3",
-          "label": "Razão 3:",
-          "max": 120
+          "id": "m3",
+          "label": "Motivo 3:",
+          "max": 100
         }
       ]
     },
     "criterios_sucesso": [
-      "Justifica a importância da água com três argumentos."
+      "Lista três usos ou funções da água limpa relacionados à saúde."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa: beber água, cozinhar, lavar alimentos, higiene pessoal..."
+      "apresentacao": "Discutir coletivamente: 'Para que usamos água no dia a dia?' antes de escrever.",
+      "resposta": "Escrever um motivo em cada campo.",
+      "engajamento": "Você bebe água, toma banho, lava as mãos... Qual a diferença se a água fosse suja?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar água e saúde de forma progressiva.",
-      "gabarito": "Hidratação, prevenção de doenças, higiene de alimentos, cozimento seguro.",
+      "gabarito": "Exemplos: beber sem adoecer, lavar alimentos, tomar banho, cozinhar, lavar ferimentos. Aceitar qualquer motivo relacionado a saúde.",
+      "objetivo_pedagogico": "Compreender a relação entre água potável, higiene e saúde.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que pode acontecer se você beber água suja?",
+        "Em lugares sem água limpa, quais doenças aparecem mais?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita argumentativa básica com três razões."
+    }
+  },
+  {
+    "id": "cie-2-u3-n1",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u3",
+    "unidade_titulo": "Plantas e Animais do Nosso Ambiente",
+    "habilidade_bncc_codigo": "EF02CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.03 — Relação entre plantas, animais e ambiente",
+    "objetivo": "Reconhecer a dependência entre animais e plantas no ambiente.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Por que as abelhas são importantes para as flores?",
+    "conteudo_base": {
+      "opcoes": [
+        "Elas comem as pétalas das flores",
+        "Elas ajudam na polinização, levando o pólen de flor em flor",
+        "Elas produzem o solo onde as flores crescem",
+        "Elas regam as flores com mel"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o papel das abelhas na polinização.",
+      "Compreende a relação de dependência entre abelhas e flores."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagem de abelha em uma flor.",
+      "resposta": "Marcar a opção e confirmar.",
+      "engajamento": "Dica: quando a abelha entra na flor para pegar néctar, o que ela acaba carregando preso no corpo?"
+    },
+    "modo_professor": {
+      "gabarito": "Polinização — a abelha carrega pólen de flor em flor, permitindo a reprodução.",
+      "objetivo_pedagogico": "Compreender relação de mutualismo entre abelhas e plantas.",
+      "perguntas_orientadoras": [
+        "O que a abelha ganha com a flor?",
+        "O que a flor ganha com a abelha?",
+        "O que aconteceria com as flores se não houvesse abelhas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: relação ecológica direta e conhecida."
+    }
+  },
+  {
+    "id": "cie-2-u3-n2",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u3",
+    "unidade_titulo": "Plantas e Animais do Nosso Ambiente",
+    "habilidade_bncc_codigo": "EF02CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.03 — Relação entre plantas, animais e ambiente",
+    "objetivo": "Ordenar as etapas do ciclo de vida de uma planta.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as etapas do ciclo de vida de uma planta na ordem correta.",
+    "conteudo_base": {
+      "itens": [
+        "A flor produz frutos com sementes",
+        "A semente germina e brota",
+        "A planta adulta floresce",
+        "A semente é espalhada pelo vento ou animal"
+      ],
+      "ordem_correta": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena corretamente: germinação → espalhamento → florescimento → fruto.",
+      "Compreende o ciclo como processo contínuo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar fotos de cada etapa.",
+      "resposta": "Ordenar arrastando ou com botões.",
+      "engajamento": "Dica: tudo começa com a semente. O que acontece com ela primeiro?"
+    },
+    "modo_professor": {
+      "gabarito": "A semente germina → é espalhada → planta floresce → forma fruto com sementes.",
+      "objetivo_pedagogico": "Compreender o ciclo de vida das plantas como processo sequencial.",
+      "perguntas_orientadoras": [
+        "Como a semente chega ao solo?",
+        "O que acontece depois que a planta floresce?",
+        "Por que o fruto protege a semente?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de ciclo biológico com 4 etapas."
+    }
+  },
+  {
+    "id": "cie-2-u3-n3",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u3",
+    "unidade_titulo": "Plantas e Animais do Nosso Ambiente",
+    "habilidade_bncc_codigo": "EF02CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.04 — Observação e registro de características de seres vivos",
+    "objetivo": "Observar e registrar características de uma planta ou animal do ambiente.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha uma planta ou animal que você conhece bem e descreva-o.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "nome",
+          "label": "Nome do ser vivo:",
+          "max": 80
+        },
+        {
+          "id": "aparencia",
+          "label": "Como ele é? (cor, tamanho, forma):",
+          "max": 200
+        },
+        {
+          "id": "habitat",
+          "label": "Onde ele vive?",
+          "max": 150
+        },
+        {
+          "id": "curiosidade",
+          "label": "Uma coisa interessante sobre ele:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve características físicas.",
+      "Indica o habitat.",
+      "Apresenta pelo menos uma informação específica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode deixar o aluno escolher qualquer ser vivo conhecido.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: escolha algo que você já observou de perto — um animal de estimação, uma flor do jardim, uma árvore da escola."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: ser vivo identificado, pelo menos duas características físicas, habitat.",
+      "objetivo_pedagogico": "Desenvolver observação científica e registro descritivo.",
+      "perguntas_orientadoras": [
+        "Sua descrição é específica o suficiente para alguém adivinhar o ser vivo?",
+        "Você já observou esse ser vivo de perto?",
+        "O que mais te surpreende nele?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: observação e registro científico a partir de escolha pessoal."
     }
   }
 ]

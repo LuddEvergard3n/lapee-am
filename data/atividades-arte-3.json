@@ -57,14 +57,43 @@
     "enunciado": "Arrasta cada descrição para o elemento visual ao qual ela se refere.",
     "conteudo_base": {
       "itens": [
-        { "id": "i1", "label": "Define o contorno de uma figura",          "categoria": "Linha"   },
-        { "id": "i2", "label": "Sensação de rugoso ou liso na superfície", "categoria": "Textura" },
-        { "id": "i3", "label": "Área fechada por um contorno",             "categoria": "Forma"   },
-        { "id": "i4", "label": "O azul do céu numa paisagem",              "categoria": "Cor"     },
-        { "id": "i5", "label": "Traço curvo que imita uma onda",           "categoria": "Linha"   },
-        { "id": "i6", "label": "Círculo pintado de vermelho",              "categoria": "Forma"   }
+        {
+          "id": "i1",
+          "label": "Define o contorno de uma figura",
+          "categoria": "Linha"
+        },
+        {
+          "id": "i2",
+          "label": "Sensação de rugoso ou liso na superfície",
+          "categoria": "Textura"
+        },
+        {
+          "id": "i3",
+          "label": "Área fechada por um contorno",
+          "categoria": "Forma"
+        },
+        {
+          "id": "i4",
+          "label": "O azul do céu numa paisagem",
+          "categoria": "Cor"
+        },
+        {
+          "id": "i5",
+          "label": "Traço curvo que imita uma onda",
+          "categoria": "Linha"
+        },
+        {
+          "id": "i6",
+          "label": "Círculo pintado de vermelho",
+          "categoria": "Forma"
+        }
       ],
-      "categorias": ["Linha", "Textura", "Forma", "Cor"]
+      "categorias": [
+        "Linha",
+        "Textura",
+        "Forma",
+        "Cor"
+      ]
     },
     "criterios_sucesso": [
       "Associa corretamente as seis descrições aos elementos visuais.",
@@ -102,10 +131,26 @@
     "enunciado": "Observe uma obra de arte que seu professor mostrar. Identifique e descreva os elementos visuais que você encontra: linhas, formas, cores e texturas.",
     "conteudo_base": {
       "campos": [
-        { "id": "linhas",   "label": "Que linhas você percebe na obra? Como elas são?",       "max": 150 },
-        { "id": "formas",   "label": "Que formas aparecem? Geométricas ou orgânicas?",        "max": 150 },
-        { "id": "cores",    "label": "Que cores o artista usou? O que elas transmitem?",      "max": 150 },
-        { "id": "sensacao", "label": "Qual sensação ou ideia essa obra transmite para você?", "max": 200 }
+        {
+          "id": "linhas",
+          "label": "Que linhas você percebe na obra? Como elas são?",
+          "max": 150
+        },
+        {
+          "id": "formas",
+          "label": "Que formas aparecem? Geométricas ou orgânicas?",
+          "max": 150
+        },
+        {
+          "id": "cores",
+          "label": "Que cores o artista usou? O que elas transmitem?",
+          "max": 150
+        },
+        {
+          "id": "sensacao",
+          "label": "Qual sensação ou ideia essa obra transmite para você?",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -193,7 +238,12 @@
         "Selecionar e recortar os materiais",
         "Finalizar com detalhes e expor a obra"
       ],
-      "ordem_correta": [1, 2, 0, 3]
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
     },
     "criterios_sucesso": [
       "Ordena as etapas do processo criativo com lógica procedimental.",
@@ -253,6 +303,162 @@
       ],
       "tempo_estimado": "10 a 15 minutos",
       "adaptacao_nivel": "Nível 3 / Unidade 2: criação livre com canvas, foco na expressão e não na representação realista."
+    }
+  },
+  {
+    "id": "art-3-u3-n1",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u3",
+    "unidade_titulo": "Música: Elementos e Cultura",
+    "habilidade_bncc_codigo": "EF15AR13",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.M.02 — Elementos da música: ritmo, melodia, timbre",
+    "objetivo": "Reconhecer os elementos básicos da música.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é o ritmo em uma música?",
+    "conteudo_base": {
+      "opcoes": [
+        "A letra da música",
+        "A organização dos sons no tempo, criando uma batida regular",
+        "O volume do som",
+        "A cor do instrumento"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica ritmo como organização temporal dos sons.",
+      "Distingue ritmo de melodia, letra e timbre."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode bater palmas em ritmo e pedir para os alunos repetirem.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: bata palmas assim: pá-pá-pá-pá. Essa repetição organizada é o ritmo."
+    },
+    "modo_professor": {
+      "gabarito": "Organização dos sons no tempo — ritmo é o esqueleto temporal da música.",
+      "objetivo_pedagogico": "Introduzir o conceito de ritmo como elemento musical.",
+      "perguntas_orientadoras": [
+        "O que é melodia?",
+        "E timbre?",
+        "Uma música pode existir só com ritmo, sem melodia?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição direta de ritmo com distratores de outros elementos."
+    }
+  },
+  {
+    "id": "art-3-u3-n2",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u3",
+    "unidade_titulo": "Música: Elementos e Cultura",
+    "habilidade_bncc_codigo": "EF15AR13",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.M.02 — Elementos da música: ritmo, melodia, timbre",
+    "objetivo": "Associar elementos musicais às suas definições.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada elemento musical à sua definição.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Ritmo",
+          "nome": "Organização dos sons no tempo"
+        },
+        {
+          "elemento": "Melodia",
+          "nome": "Sequência de notas que forma a 'música' principal"
+        },
+        {
+          "elemento": "Timbre",
+          "nome": "Qualidade que diferencia a voz de uma guitarra"
+        },
+        {
+          "elemento": "Harmonia",
+          "nome": "Sons tocados ao mesmo tempo que se combinam"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 elementos às definições.",
+      "Distingue ritmo de melodia e timbre."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode reproduzir exemplos de cada elemento com instrumento ou voz.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: timbre é o que faz uma flauta soar diferente de um violino, mesmo tocando a mesma nota."
+    },
+    "modo_professor": {
+      "gabarito": "Ritmo→tempo | Melodia→notas sequenciais | Timbre→qualidade do som | Harmonia→sons simultâneos.",
+      "objetivo_pedagogico": "Consolidar vocabulário dos elementos musicais.",
+      "perguntas_orientadoras": [
+        "Você consegue identificar esses elementos em uma música que conhece?",
+        "Uma bateria tem timbre?",
+        "Por que a voz de cada pessoa é diferente?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de 4 elementos com definições técnicas."
+    }
+  },
+  {
+    "id": "art-3-u3-n3",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u3",
+    "unidade_titulo": "Música: Elementos e Cultura",
+    "habilidade_bncc_codigo": "EF15AR14",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.M.03 — Música e identidade cultural",
+    "objetivo": "Relacionar um estilo musical a uma cultura ou região.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha um ritmo musical brasileiro (forró, samba, funk, axé, pagode, gauchesco, etc.) e explique suas origens e onde é mais tocado.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "ritmo",
+          "label": "Qual ritmo você escolheu?",
+          "max": 80
+        },
+        {
+          "id": "origem",
+          "label": "De onde veio esse ritmo?",
+          "max": 200
+        },
+        {
+          "id": "regiao",
+          "label": "Em qual região do Brasil é mais presente?",
+          "max": 150
+        },
+        {
+          "id": "sentimento",
+          "label": "O que esse ritmo representa para as pessoas que o ouvem?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica ritmo brasileiro real.",
+      "Apresenta alguma informação sobre origem.",
+      "Relaciona a uma região ou cultura."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode tocar amostras de diferentes ritmos brasileiros.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o samba vem do Sudeste com raízes africanas. O forró é do Nordeste. Qual você conhece?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: ritmo real, origem mencionada, região identificada.",
+      "objetivo_pedagogico": "Valorizar a diversidade musical brasileira como expressão cultural regional.",
+      "perguntas_orientadoras": [
+        "Você já dançou esse ritmo?",
+        "Por que diferentes regiões têm ritmos diferentes?",
+        "A música de uma região pode ensinar algo sobre a história daquele povo?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: pesquisa e reflexão sobre música como identidade cultural."
     }
   }
 ]

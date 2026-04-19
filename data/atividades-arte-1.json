@@ -288,5 +288,175 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3 Arte U2: sempre desenhar — produção livre."
     }
+  },
+  {
+    "id": "art-1-u3-n1",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u3",
+    "unidade_titulo": "Textura e Volume",
+    "habilidade_bncc_codigo": "EF15AR04",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.03 — Elementos visuais: textura",
+    "objetivo": "Reconhecer texturas diferentes em objetos do cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual objeto tem uma textura áspera?",
+    "conteudo_base": {
+      "opcoes": [
+        "Uma folha de papel liso",
+        "Uma pedra de calçada",
+        "Um espelho",
+        "Uma seda"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica textura áspera em contraste com superfícies lisas.",
+      "Relaciona textura a sensação tátil."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer objetos para os alunos tocarem.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando você passa a mão numa casca de árvore, o que sente? Isso é a textura."
+    },
+    "modo_professor": {
+      "gabarito": "Pedra de calçada — superfície irregular e áspera.",
+      "objetivo_pedagogico": "Desenvolver percepção tátil e vocabulário sobre textura.",
+      "perguntas_orientadoras": [
+        "Você consegue sentir texturas diferentes sem ver?",
+        "Que texturas você encontra na sala de aula?",
+        "Qual textura você mais gosta de tocar?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: distinção direta de textura com quatro opções contrastantes."
+    }
+  },
+  {
+    "id": "art-1-u3-n2",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u3",
+    "unidade_titulo": "Textura e Volume",
+    "habilidade_bncc_codigo": "EF15AR04",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.03 — Elementos visuais: textura",
+    "objetivo": "Classificar texturas em lisas, ásperas e macias.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada material pela sua textura.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Algodão",
+          "categoria": "Macia"
+        },
+        {
+          "id": "i2",
+          "label": "Lixa de parede",
+          "categoria": "Áspera"
+        },
+        {
+          "id": "i3",
+          "label": "Espelho",
+          "categoria": "Lisa"
+        },
+        {
+          "id": "i4",
+          "label": "Casca de árvore",
+          "categoria": "Áspera"
+        },
+        {
+          "id": "i5",
+          "label": "Plástico polido",
+          "categoria": "Lisa"
+        },
+        {
+          "id": "i6",
+          "label": "Pelúcia",
+          "categoria": "Macia"
+        }
+      ],
+      "categorias": [
+        "Lisa",
+        "Áspera",
+        "Macia"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 materiais.",
+      "Usa vocabulário de textura adequado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Trazer amostras dos materiais para os alunos tocarem antes de classificar.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: feche os olhos e imagine tocar cada um. Liso é sem rugosidades. Áspero raspa. Macio afunda."
+    },
+    "modo_professor": {
+      "gabarito": "Lisa: espelho, plástico. Áspera: lixa, casca. Macia: algodão, pelúcia.",
+      "objetivo_pedagogico": "Ampliar vocabulário sensorial e categorização de texturas.",
+      "perguntas_orientadoras": [
+        "Algum material poderia estar em duas categorias?",
+        "Textura muda quando o material fica molhado?",
+        "Artistas usam texturas em suas obras?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias de textura com materiais do cotidiano."
+    }
+  },
+  {
+    "id": "art-1-u3-n3",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u3",
+    "unidade_titulo": "Textura e Volume",
+    "habilidade_bncc_codigo": "EF15AR05",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.04 — Criação com diferentes texturas",
+    "objetivo": "Descrever como texturas e volumes podem ser usados na criação artística.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Imagine que você vai criar uma escultura ou colagem usando três materiais com texturas diferentes. Descreva sua criação.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "materiais",
+          "label": "Quais três materiais você usaria?",
+          "max": 150
+        },
+        {
+          "id": "texturas",
+          "label": "Quais texturas cada um tem?",
+          "max": 150
+        },
+        {
+          "id": "obra",
+          "label": "O que sua obra representaria?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escolhe 3 materiais com texturas diferentes.",
+      "Descreve as texturas usando vocabulário adequado.",
+      "Define um tema ou representação para a obra."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar obras de arte que usam texturas (Burri, Miró em relevo).",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: você pode usar papel amassado, palitos, areia, tecido — qualquer coisa que tenha textura diferente!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 3 materiais com texturas distintas, descrição tátil, tema definido.",
+      "objetivo_pedagogico": "Desenvolver criação artística com consciência das qualidades sensoriais dos materiais.",
+      "perguntas_orientadoras": [
+        "Por que misturar texturas diferentes torna a obra mais interessante?",
+        "Você já viu uma escultura que dá vontade de tocar?",
+        "Como a textura muda a mensagem de uma obra?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação artística imaginada com reflexão sobre material e tema."
+    }
   }
 ]

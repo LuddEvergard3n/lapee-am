@@ -4,43 +4,41 @@
     "ano": 2,
     "componente": "LP",
     "unidade_id": "lp-2-u1",
-    "unidade_titulo": "Leitura e Compreensão",
-    "habilidade_bncc_codigo": "EF02LP01",
-    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01 — Leitura e compreensão de textos de estrutura simples",
-    "objetivo": "Ler palavras e frases com compreensão.",
+    "unidade_titulo": "Leitura e Compreensão de Texto",
+    "habilidade_bncc_codigo": "EF02LP28",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01",
+    "objetivo": "Localizar informação explícita em texto curto.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 5,
-    "enunciado": "Lê a frase e marca a resposta certa.",
+    "enunciado": "Lê o texto e marca a resposta certa.",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "O gato subiu na árvore.\n\nO que o gato fez?",
+      "texto": "Pedro foi ao mercado com a avó. Eles compraram pão, leite e ovos. Na saída, a avó comprou uma bala para Pedro.",
       "opcoes": [
-        "Subiu na árvore",
-        "Correu no jardim",
-        "Dormiu no tapete",
-        "Bebeu água"
+        "Pedro foi sozinho ao mercado",
+        "Pedro e a avó compraram pão, leite e ovos",
+        "Pedro comprou apenas a bala",
+        "A avó foi ao mercado sem Pedro"
       ],
-      "resposta_correta": 0
+      "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Localiza informação explícita em uma frase simples."
+      "Localiza informação explícita no texto."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor lê a frase em voz alta. Usa o botão Ouvir.",
-      "resposta": "Clica na resposta certa. Só tem uma.",
-      "engajamento": "Lê a frase de novo bem devagar. O que diz que o gato fez?"
+      "apresentacao": "Professor pode ler o texto em voz alta antes da atividade.",
+      "resposta": "Clique na opção que responde o que o texto diz.",
+      "engajamento": "Lê o texto de novo e procura a resposta. Ela está escrita lá!"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Localizar informação explícita em texto de estrutura simples.",
-      "gabarito": "Subiu na árvore — está escrito diretamente na frase.",
+      "gabarito": "'Pedro e a avó compraram pão, leite e ovos' — informação direta do segundo período.",
+      "objetivo_pedagogico": "Desenvolver localização de informação explícita como estratégia básica de leitura.",
       "perguntas_orientadoras": [
-        "Quem é o personagem da frase?",
-        "O que ele fez?",
-        "Onde está essa informação na frase?"
+        "Qual parte do texto fala sobre o que compraram?",
+        "A resposta está no texto ou você precisou imaginar?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: frase única, resposta explícita, vocabulário simples."
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: texto curto, informação explícita, distratores baseados em detalhes do próprio texto."
     }
   },
   {
@@ -48,57 +46,45 @@
     "ano": 2,
     "componente": "LP",
     "unidade_id": "lp-2-u1",
-    "unidade_titulo": "Leitura e Compreensão",
-    "habilidade_bncc_codigo": "EF02LP01",
-    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01 — Leitura e compreensão de textos de estrutura simples",
-    "objetivo": "Ler palavras e frases com compreensão.",
+    "unidade_titulo": "Leitura e Compreensão de Texto",
+    "habilidade_bncc_codigo": "EF02LP28",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01",
+    "objetivo": "Ordenar os eventos de uma história em sequência.",
     "nivel": 2,
-    "tipo_evidencia": "arrastar",
+    "tipo_evidencia": "ordenar",
     "tempo_medio_min": 7,
-    "enunciado": "Coloca cada frase no grupo certo: fato ou opinião.",
+    "enunciado": "Lê os trechos da história da Carochinha e coloca-os na ordem certa.",
     "conteudo_base": {
-      "tipo": "categorias",
       "itens": [
-        {
-          "label": "O sol nasce de manhã.",
-          "categoria": "Fato"
-        },
-        {
-          "label": "O verão é a melhor estação.",
-          "categoria": "Opinião"
-        },
-        {
-          "label": "A água ferve a 100°C.",
-          "categoria": "Fato"
-        },
-        {
-          "label": "Cachorro é o melhor animal.",
-          "categoria": "Opinião"
-        }
+        "A Carochinha encontrou uma moeda no chão",
+        "Ela foi ao mercado comprar pão",
+        "Voltou para casa e preparou um bolo",
+        "Convidou os amigos para comer"
       ],
-      "categorias": [
-        "Fato",
-        "Opinião"
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3
       ]
     },
     "criterios_sucesso": [
-      "Distingue fato (verificável) de opinião (ponto de vista pessoal)."
+      "Ordena eventos narrativos em sequência cronológica."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor explica: fato é algo que podemos comprovar; opinião é o que a pessoa acha.",
-      "resposta": "Arrasta cada frase para o grupo certo. Ou clica nela e depois no grupo.",
-      "engajamento": "Pergunta: isso todo mundo pode confirmar ou é o que alguém acha?"
+      "apresentacao": "Ler ou contar a história antes da atividade, se os alunos não a conhecerem.",
+      "resposta": "Arrastar os trechos ou usar os botões para ordenar.",
+      "engajamento": "O que acontece primeiro numa história: o começo ou o fim?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Diferenciar enunciados factuais de opiniões em textos simples.",
-      "gabarito": "Fatos: 'O sol nasce de manhã' e 'A água ferve a 100°C'. Opiniões: as outras duas.",
+      "gabarito": "Encontrou moeda → Mercado → Fez bolo → Convidou amigos.",
+      "objetivo_pedagogico": "Compreender a estrutura narrativa (início, meio, fim) e a causalidade dos eventos.",
       "perguntas_orientadoras": [
-        "Como você sabe se isso é verdade?",
-        "Todo mundo concordaria com essa frase?",
-        "Você consegue provar isso?"
+        "O que precisou acontecer antes de ela preparar o bolo?",
+        "Faz sentido convidar os amigos antes de fazer o bolo?"
       ],
-      "tempo_estimado": "7 minutos",
-      "adaptacao_nivel": "Nível 2: quatro itens, dois de cada categoria."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro eventos com relação causal clara."
     }
   },
   {
@@ -106,49 +92,47 @@
     "ano": 2,
     "componente": "LP",
     "unidade_id": "lp-2-u1",
-    "unidade_titulo": "Leitura e Compreensão",
-    "habilidade_bncc_codigo": "EF02LP01",
-    "referencia_cbtc": "CBTC-SC: LP.EF2.L.01 — Leitura e compreensão de textos de estrutura simples",
-    "objetivo": "Ler palavras e frases com compreensão.",
+    "unidade_titulo": "Leitura e Compreensão de Texto",
+    "habilidade_bncc_codigo": "EF02LP29",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.02",
+    "objetivo": "Escrever a ideia principal de um texto com as próprias palavras.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
     "enunciado": "Lê o texto e responde com suas palavras.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "A Maria tinha um cachorro chamado Bolinha. Todo dia ela o levava para passear no parque. Um dia, Bolinha correu atrás de uma borboleta e se perdeu. Maria ficou muito triste. Ela colou cartazes pelo bairro. No dia seguinte, um vizinho encontrou Bolinha e devolveu para Maria.",
+      "texto": "Os golfinhos são animais muito inteligentes. Eles vivem em grupos chamados bandos e se comunicam com sons. Os golfinhos ajudam uns aos outros quando algum está machucado.",
       "campos": [
         {
-          "id": "problema",
-          "label": "Qual foi o problema da história?",
-          "max": 150
+          "id": "assunto",
+          "label": "Sobre o que fala esse texto?",
+          "max": 100
         },
         {
-          "id": "solucao",
-          "label": "Como o problema foi resolvido?",
+          "id": "gosta",
+          "label": "Qual informação você achou mais interessante? Por quê?",
           "max": 150
         }
       ]
     },
     "criterios_sucesso": [
-      "Identifica o problema central da narrativa.",
-      "Descreve a solução com palavras próprias."
+      "Identifica o assunto central do texto.",
+      "Seleciona e justifica uma informação relevante."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor lê o texto em voz alta antes da atividade.",
-      "resposta": "Escreve com suas próprias palavras. Não precisa copiar do texto.",
-      "engajamento": "O que aconteceu de ruim? Como ficou no final?"
+      "apresentacao": "Ler o texto em voz alta uma vez antes de pedir a escrita.",
+      "resposta": "Escrever em frases simples com as próprias palavras.",
+      "engajamento": "O texto fala de animais ou de pessoas? O que você aprendeu de novo?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Identificar elementos narrativos básicos: problema e resolução.",
-      "gabarito": "Problema: Bolinha se perdeu. Solução: o vizinho encontrou e devolveu.",
+      "gabarito": "Assunto: os golfinhos e suas características (inteligência, vida em grupo, comunicação). Informação interessante: resposta pessoal, valorizar qualquer justificativa.",
+      "objetivo_pedagogico": "Desenvolver compreensão global e expressão escrita a partir de texto informativo.",
       "perguntas_orientadoras": [
-        "O que mudou no meio da história?",
-        "Como Maria tentou resolver o problema?",
-        "Quem ajudou no final?"
+        "Qual é o animal principal do texto?",
+        "Você já sabia que golfinhos se comunicam?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3: escrita livre com dois campos distintos de análise narrativa."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: texto informativo, escrita de síntese e opinião fundamentada."
     }
   },
   {
@@ -156,41 +140,40 @@
     "ano": 2,
     "componente": "LP",
     "unidade_id": "lp-2-u2",
-    "unidade_titulo": "Tipos de Texto",
-    "habilidade_bncc_codigo": "EF02LP07",
-    "referencia_cbtc": "CBTC-SC: LP.EF2.L.02 — Identificação de características de diferentes gêneros textuais",
-    "objetivo": "Desenvolver habilidades de tipos de texto.",
+    "unidade_titulo": "Produção Escrita",
+    "habilidade_bncc_codigo": "EF02LP19",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.E.01",
+    "objetivo": "Identificar as características de uma lista.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual dessas características é de uma receita de culinária?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual das opções é uma lista de compras?",
     "conteudo_base": {
       "opcoes": [
-        "Tem personagens e diálogos",
-        "Lista ingredientes e modo de preparo",
-        "Conta um fato que aconteceu",
-        "Convence o leitor de uma ideia"
+        "Era uma vez um menino que foi ao mercado.",
+        "Arroz, feijão, óleo, sal e farinha.",
+        "O mercado fica na Rua das Flores, número 10.",
+        "Comprar no mercado é muito importante."
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica características do gênero instrucional/receita."
+      "Reconhece a lista como gênero textual pela sua estrutura de itens."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no que tem dentro de um livro de receitas."
+      "apresentacao": "Mostrar uma lista de compras real (ou desenhada na lousa) antes da atividade.",
+      "resposta": "Clique na opção que é uma lista.",
+      "engajamento": "Uma lista de compras é uma história ou tem palavras separadas por vírgula?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar tipos de texto de forma progressiva.",
-      "gabarito": "Lista ingredientes e modo de preparo — estrutura própria de receitas.",
+      "gabarito": "'Arroz, feijão, óleo, sal e farinha' — estrutura de lista de itens.",
+      "objetivo_pedagogico": "Reconhecer listas como gênero textual funcional com estrutura específica.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "O que diferencia a lista das outras opções?",
+        "Onde você já viu uma lista na sua vida?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação de gênero por estrutura, quatro opções contrastantes."
     }
   },
   {
@@ -198,48 +181,45 @@
     "ano": 2,
     "componente": "LP",
     "unidade_id": "lp-2-u2",
-    "unidade_titulo": "Tipos de Texto",
-    "habilidade_bncc_codigo": "EF02LP07",
-    "referencia_cbtc": "CBTC-SC: LP.EF2.L.02 — Identificação de características de diferentes gêneros textuais",
-    "objetivo": "Desenvolver habilidades de tipos de texto.",
+    "unidade_titulo": "Produção Escrita",
+    "habilidade_bncc_codigo": "EF02LP19",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.E.01",
+    "objetivo": "Ordenar as partes de um bilhete.",
     "nivel": 2,
-    "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Liga cada trecho ao tipo de texto correto.",
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Um bilhete tem partes em ordem certa. Coloca as partes desse bilhete na ordem correta.",
     "conteudo_base": {
-      "pares": [
-        {
-          "elemento": "\"Era uma vez um dragão que sonhava em voar...\"",
-          "nome": "Conto"
-        },
-        {
-          "elemento": "\"Misture os ingredientes e leve ao forno por 30 minutos.\"",
-          "nome": "Receita"
-        },
-        {
-          "elemento": "\"A cidade de Curitiba fica no sul do Brasil.\"",
-          "nome": "Enciclopédia"
-        }
+      "itens": [
+        "Querida Ana,",
+        "Você quer brincar na minha casa amanhã depois da escola?",
+        "Espero sua resposta!",
+        "Beijos, Bia"
+      ],
+      "ordem_correta": [
+        0,
+        1,
+        2,
+        3
       ]
     },
     "criterios_sucesso": [
-      "Associa trechos textuais ao gênero correspondente."
+      "Reconhece a estrutura do bilhete: saudação, mensagem, despedida e assinatura."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Cada tipo de texto tem um jeito diferente de começar."
+      "apresentacao": "Mostrar um bilhete real ou escrito na lousa antes da atividade.",
+      "resposta": "Arrastar as partes na ordem certa.",
+      "engajamento": "Todo bilhete começa chamando alguém pelo nome. Qual parte faz isso?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar tipos de texto de forma progressiva.",
-      "gabarito": "Conto: narrativa. Receita: instrução. Enciclopédia: informação.",
+      "gabarito": "Saudação → Mensagem → Fecho → Assinatura.",
+      "objetivo_pedagogico": "Aprender a estrutura do bilhete como gênero textual de comunicação cotidiana.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que a assinatura fica no final?",
+        "O que seria esquisito se a assinatura viesse antes da mensagem?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "N2: quatro partes com função clara, ordem social convencionada."
     }
   },
   {
@@ -247,41 +227,196 @@
     "ano": 2,
     "componente": "LP",
     "unidade_id": "lp-2-u2",
-    "unidade_titulo": "Tipos de Texto",
-    "habilidade_bncc_codigo": "EF02LP07",
-    "referencia_cbtc": "CBTC-SC: LP.EF2.L.02 — Identificação de características de diferentes gêneros textuais",
-    "objetivo": "Desenvolver habilidades de tipos de texto.",
+    "unidade_titulo": "Produção Escrita",
+    "habilidade_bncc_codigo": "EF02LP19",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.E.01",
+    "objetivo": "Escrever um bilhete completo com todas as partes.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Escreve um bilhete para um amigo convidando-o para brincar. Um bilhete tem: quem escreve, para quem, o assunto e uma despedida.",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreve um bilhete para um colega convidando-o para brincar na sua casa.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "bilhete",
-          "label": "Meu bilhete:",
+          "id": "saudacao",
+          "label": "Saudação (ex.: Querido/a...):",
+          "max": 40
+        },
+        {
+          "id": "mensagem",
+          "label": "Mensagem (convite):",
+          "max": 200
+        },
+        {
+          "id": "despedida",
+          "label": "Despedida e seu nome:",
+          "max": 50
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Produz bilhete com saudação, mensagem e despedida.",
+      "Usa linguagem adequada ao gênero (direto, pessoal, convite claro)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Deixar o modelo de bilhete da atividade anterior visível como referência.",
+      "resposta": "Escrever cada parte nos campos indicados.",
+      "engajamento": "Imagina que você quer chamar um amigo para brincar. O que você diria?"
+    },
+    "modo_professor": {
+      "gabarito": "Produção pessoal. Verificar se há saudação, mensagem com o convite e despedida com assinatura.",
+      "objetivo_pedagogico": "Produzir bilhete autônomo como prática de escrita funcional e social.",
+      "perguntas_orientadoras": [
+        "Você escreveu para quem o bilhete é?",
+        "O colega saberia o que fazer ao ler seu bilhete?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção completa e autônoma do gênero textual."
+    }
+  },
+  {
+    "id": "lp-2-u3-n1",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u3",
+    "unidade_titulo": "Conto e Notícia",
+    "habilidade_bncc_codigo": "EF02LP26",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.06 — Diferenciação de gêneros narrativos e informativos",
+    "objetivo": "Distinguir texto narrativo (conto) de texto informativo (notícia).",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Leia os dois trechos e marque qual é uma notícia.",
+    "conteudo_base": {
+      "opcoes": [
+        "Era uma vez um sapo que queria ser cantor.",
+        "Ontem, alunos da escola plantaram 50 árvores no parque.",
+        "O dragão voou sobre o castelo encantado.",
+        "A fada concedeu três desejos ao menino."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica notícia pelo tom informativo e dados concretos.",
+      "Distingue narrativa fictícia de texto informativo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê os trechos em voz alta.",
+      "resposta": "Marcar a opção e confirmar.",
+      "engajamento": "Dica: a notícia fala de algo que realmente aconteceu, com lugar e tempo."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B — contém informação real com dados (ontem, 50 árvores, parque).",
+      "objetivo_pedagogico": "Desenvolver capacidade de diferenciar ficção de informação.",
+      "perguntas_orientadoras": [
+        "Qual trecho poderia estar num jornal?",
+        "Como você sabe que os outros são histórias inventadas?",
+        "Uma notícia pode ter dragões?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste claro entre ficção e informação real."
+    }
+  },
+  {
+    "id": "lp-2-u3-n2",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u3",
+    "unidade_titulo": "Conto e Notícia",
+    "habilidade_bncc_codigo": "EF02LP26",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.06 — Diferenciação de gêneros narrativos e informativos",
+    "objetivo": "Identificar as partes de uma notícia.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as partes da notícia na ordem correta: do mais importante para os detalhes.",
+    "conteudo_base": {
+      "itens": [
+        "Quando e onde aconteceu",
+        "Título chamativo",
+        "O que aconteceu (fato principal)",
+        "Por que e como aconteceu"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Coloca título em primeiro lugar.",
+      "Reconhece que o fato principal vem antes dos detalhes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar uma notícia impressa e apontar cada parte.",
+      "resposta": "Arrastar ou usar botões para reordenar.",
+      "engajamento": "Dica: o título é o que chama atenção. O mais importante vem logo depois."
+    },
+    "modo_professor": {
+      "gabarito": "Título → O que aconteceu → Quando e onde → Por que e como.",
+      "objetivo_pedagogico": "Compreender a estrutura da pirâmide invertida das notícias.",
+      "perguntas_orientadoras": [
+        "O que você lê primeiro num jornal?",
+        "Por que o mais importante vem antes?",
+        "E os detalhes, ficam onde?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de estrutura textual, exige conhecimento do gênero."
+    }
+  },
+  {
+    "id": "lp-2-u3-n3",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u3",
+    "unidade_titulo": "Conto e Notícia",
+    "habilidade_bncc_codigo": "EF15LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.P.03 — Produção de textos narrativos curtos",
+    "objetivo": "Escrever o início de um conto com apresentação do personagem e do lugar.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreva o começo de um conto inventado por você.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "personagem",
+          "label": "Quem é o personagem principal?",
+          "max": 100
+        },
+        {
+          "id": "lugar",
+          "label": "Onde a história acontece?",
+          "max": 100
+        },
+        {
+          "id": "inicio",
+          "label": "Como a história começa? Escreva as primeiras frases.",
           "max": 250
         }
       ]
     },
     "criterios_sucesso": [
-      "Produz bilhete com estrutura adequada ao gênero."
+      "Cria um personagem.",
+      "Define o lugar da história.",
+      "Inicia a narrativa com pelo menos uma frase completa."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Começa com \"Para:\" e termina com seu nome."
+      "apresentacao": "Professor pode sugerir elementos (ex: um animal, uma floresta).",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: muitos contos começam com 'Era uma vez'. Você pode usar isso ou inventar outro começo!"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar tipos de texto de forma progressiva.",
-      "gabarito": "Bilhete com destinatário, convite claro e despedida.",
+      "gabarito": "Resposta pessoal. Verificar: personagem nomeado, lugar definido, início narrativo coerente.",
+      "objetivo_pedagogico": "Desenvolver imaginação e estrutura narrativa inicial.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Seu personagem tem um nome?",
+        "O leitor vai saber onde a história acontece?",
+        "O que vai acontecer depois com o seu personagem?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção criativa com estrutura orientada por campos."
     }
   }
 ]

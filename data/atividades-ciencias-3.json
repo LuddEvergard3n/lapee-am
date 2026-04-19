@@ -13,7 +13,12 @@
     "tempo_medio_min": 4,
     "enunciado": "Quando você ferve água em uma panela e vê o vapor saindo, esse vapor está em qual estado físico?",
     "conteudo_base": {
-      "opcoes": ["Sólido", "Líquido", "Gasoso", "Pastoso"],
+      "opcoes": [
+        "Sólido",
+        "Líquido",
+        "Gasoso",
+        "Pastoso"
+      ],
       "resposta_correta": 2
     },
     "criterios_sucesso": [
@@ -52,10 +57,22 @@
     "enunciado": "Arrasta cada processo para o par de estados correspondente.",
     "conteudo_base": {
       "pares": [
-        { "elemento": "Sólido → Líquido",  "nome": "Fusão"          },
-        { "elemento": "Líquido → Gasoso",  "nome": "Vaporização"    },
-        { "elemento": "Gasoso → Líquido",  "nome": "Condensação"    },
-        { "elemento": "Líquido → Sólido",  "nome": "Solidificação"  }
+        {
+          "elemento": "Sólido → Líquido",
+          "nome": "Fusão"
+        },
+        {
+          "elemento": "Líquido → Gasoso",
+          "nome": "Vaporização"
+        },
+        {
+          "elemento": "Gasoso → Líquido",
+          "nome": "Condensação"
+        },
+        {
+          "elemento": "Líquido → Sólido",
+          "nome": "Solidificação"
+        }
       ]
     },
     "criterios_sucesso": [
@@ -94,9 +111,21 @@
     "enunciado": "Você deixou um cubo de gelo em um copo em temperatura ambiente por 30 minutos. Descreva o que aconteceu, nomeie a mudança de estado e explique por que ela ocorreu.",
     "conteudo_base": {
       "campos": [
-        { "id": "observacao", "label": "O que você observou?",           "max": 150 },
-        { "id": "mudanca",    "label": "Qual mudança de estado ocorreu?", "max": 100 },
-        { "id": "por_que",    "label": "Por que isso aconteceu?",         "max": 200 }
+        {
+          "id": "observacao",
+          "label": "O que você observou?",
+          "max": 150
+        },
+        {
+          "id": "mudanca",
+          "label": "Qual mudança de estado ocorreu?",
+          "max": 100
+        },
+        {
+          "id": "por_que",
+          "label": "Por que isso aconteceu?",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -135,7 +164,12 @@
     "tempo_medio_min": 4,
     "enunciado": "Qual desses elementos é um componente BIÓTICO (ser vivo) de um ecossistema?",
     "conteudo_base": {
-      "opcoes": ["Solo", "Água", "Árvore", "Temperatura"],
+      "opcoes": [
+        "Solo",
+        "Água",
+        "Árvore",
+        "Temperatura"
+      ],
       "resposta_correta": 2
     },
     "criterios_sucesso": [
@@ -179,7 +213,12 @@
         "Gavião",
         "Gafanhoto"
       ],
-      "ordem_correta": [1, 3, 0, 2]
+      "ordem_correta": [
+        1,
+        3,
+        0,
+        2
+      ]
     },
     "criterios_sucesso": [
       "Ordena corretamente: capim → gafanhoto → cobra → gavião.",
@@ -217,10 +256,26 @@
     "enunciado": "Na cadeia capim → gafanhoto → cobra → gavião, o que aconteceria se as cobras desaparecessem? Explica os efeitos para cada elo da cadeia.",
     "conteudo_base": {
       "campos": [
-        { "id": "gafanhotos", "label": "O que aconteceria com os gafanhotos?",         "max": 150 },
-        { "id": "capim",      "label": "O que aconteceria com o capim?",                "max": 150 },
-        { "id": "gavioes",    "label": "O que aconteceria com os gaviões?",             "max": 150 },
-        { "id": "conclusao",  "label": "O que isso nos ensina sobre os ecossistemas?", "max": 200 }
+        {
+          "id": "gafanhotos",
+          "label": "O que aconteceria com os gafanhotos?",
+          "max": 150
+        },
+        {
+          "id": "capim",
+          "label": "O que aconteceria com o capim?",
+          "max": 150
+        },
+        {
+          "id": "gavioes",
+          "label": "O que aconteceria com os gaviões?",
+          "max": 150
+        },
+        {
+          "id": "conclusao",
+          "label": "O que isso nos ensina sobre os ecossistemas?",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -244,6 +299,176 @@
       ],
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "Nível 3: análise sistêmica com inferência causal em cadeia."
+    }
+  },
+  {
+    "id": "cie-3-u3-n1",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u3",
+    "unidade_titulo": "Solos e Rochas",
+    "habilidade_bncc_codigo": "EF03CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.02 — Composição e tipos de solo",
+    "objetivo": "Reconhecer a composição básica do solo.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O solo é formado por:",
+    "conteudo_base": {
+      "opcoes": [
+        "Apenas areia",
+        "Minerais, água, ar e matéria orgânica",
+        "Somente pedras e barro",
+        "Água e sal"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica os quatro componentes básicos do solo.",
+      "Descarta composições incompletas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer uma amostra de terra para observar.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o solo tem partes que dão para ver, outras que são muito pequenas, e até o ar que fica entre os grãos."
+    },
+    "modo_professor": {
+      "gabarito": "Minerais, água, ar e matéria orgânica.",
+      "objetivo_pedagogico": "Conhecer a composição heterogênea do solo.",
+      "perguntas_orientadoras": [
+        "Se o solo não tivesse ar, o que aconteceria com as raízes?",
+        "O que é matéria orgânica no solo?",
+        "Como a água chega ao solo?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento direto de composição com distratores incompletos."
+    }
+  },
+  {
+    "id": "cie-3-u3-n2",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u3",
+    "unidade_titulo": "Solos e Rochas",
+    "habilidade_bncc_codigo": "EF03CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.02 — Composição e tipos de solo",
+    "objetivo": "Classificar tipos de solo pelas suas características.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada característica no tipo de solo correto.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Grãos grandes, não retém água",
+          "categoria": "Arenoso"
+        },
+        {
+          "id": "i2",
+          "label": "Muito fértil, rico em nutrientes",
+          "categoria": "Humoso"
+        },
+        {
+          "id": "i3",
+          "label": "Retém muita água, difícil de escavar",
+          "categoria": "Argiloso"
+        },
+        {
+          "id": "i4",
+          "label": "Escuro, cheio de matéria orgânica",
+          "categoria": "Humoso"
+        },
+        {
+          "id": "i5",
+          "label": "Grãos finos, endurece quando seco",
+          "categoria": "Argiloso"
+        },
+        {
+          "id": "i6",
+          "label": "Bom para construção, ruim para plantas",
+          "categoria": "Arenoso"
+        }
+      ],
+      "categorias": [
+        "Arenoso",
+        "Argiloso",
+        "Humoso"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica arenoso, argiloso e humoso pelas características dadas.",
+      "Reconhece fertilidade como característica do húmus."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar amostras dos três tipos.",
+      "resposta": "Arrastar cada característica ao tipo correto.",
+      "engajamento": "Dica: pense no tamanho dos grãos e na capacidade de reter água — isso distingue os tipos."
+    },
+    "modo_professor": {
+      "gabarito": "Arenoso: grãos grandes, bom para construção. Argiloso: retém água, endurece. Humoso: fértil, escuro.",
+      "objetivo_pedagogico": "Caracterizar e diferenciar os principais tipos de solo.",
+      "perguntas_orientadoras": [
+        "Qual solo é melhor para plantar alimentos? Por quê?",
+        "Por que o solo arenoso não é bom para plantas?",
+        "O que é húmus e de onde vem?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de tipos com três categorias."
+    }
+  },
+  {
+    "id": "cie-3-u3-n3",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u3",
+    "unidade_titulo": "Solos e Rochas",
+    "habilidade_bncc_codigo": "EF03CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.03 — Erosão e conservação do solo",
+    "objetivo": "Descrever o que é erosão e como preveni-la.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O que é erosão do solo? Como ela acontece? O que podemos fazer para evitá-la?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "definicao",
+          "label": "O que é erosão?",
+          "max": 150
+        },
+        {
+          "id": "causas",
+          "label": "Como ela acontece?",
+          "max": 200
+        },
+        {
+          "id": "prevencao",
+          "label": "Como podemos evitar?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define erosão como desgaste/remoção do solo.",
+      "Cita chuva ou vento como causas.",
+      "Menciona ao menos uma forma de prevenção (plantio, terraço, mata ciliar)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagem de solo erodido vs. conservado.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense no que acontece com a terra quando chove muito em um morro sem árvores."
+    },
+    "modo_professor": {
+      "gabarito": "Erosão: remoção do solo por água ou vento. Causas: chuva intensa, desmatamento. Prevenção: reflorestamento, terraços, vegetação.",
+      "objetivo_pedagogico": "Compreender erosão como problema ambiental e suas soluções.",
+      "perguntas_orientadoras": [
+        "Por que as raízes das plantas ajudam a segurar o solo?",
+        "O que acontece com o solo depois de muito tempo sendo erodido?",
+        "Que atividade humana acelera a erosão?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: conceito ambiental com causas e soluções."
     }
   }
 ]

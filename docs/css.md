@@ -1,54 +1,65 @@
 # css/main.css
 
-Arquivo único de estilos. Tokens → reset → layout → componentes → páginas → acessibilidade.
+Arquivo unico de estilos. 3659 linhas. Tokens → reset → layout → componentes → paginas → a11y.
 
-## Estrutura de seções
+## Secoes
 
-| Seção | Conteúdo |
+| Secao | Conteudo |
 |---|---|
-| 1. Tokens | Variáveis CSS: cores, tipografia, espaçamento, sombras, layout |
-| 2. Reset | Normalização cross-browser |
-| 3. Layout | App shell (topbar + sidebar + main), grid principal |
-| 4. Topbar e Sidebar | Navegação persistente |
-| 5. Componentes base | `.btn`, `.badge`, `.card`, `.feedback-*`, `.meta-tag` |
-| 6. Home | `.page-home`, hero, cards de matéria, seção conquistas |
-| 7. Navegador | `.page-navegador`, seletores, trilha de estrelas |
-| 8. Atividade | `.page-atividade`, motor, dica, painel professor |
-| 9. Motores | Marcar, ordenar, arrastar, escrever, Paint (canvas) |
-| 10. Mascote Lua | SVG + animações CSS dos 4 estados |
-| 11. Conquistas | Emblemas e sistema de engajamento |
-| 12. Acessibilidade | Temas escuro e alto contraste, fonte grande |
-| 13. Toasts | `#toast-container`, `.toast-*`, animação slide-in |
-| 14. Planos de aula | Dois painéis, formulário, preview do documento, `@media print` |
-| 15. Guia do professor | Sidebar sticky, cards de atividade, meta-tags, callouts |
+| 1. Tokens | Variaveis CSS: cores, tipografia, espacamento, sombras, layout |
+| 2. Tema escuro | `.tema-escuro` — paleta escura completa |
+| 3. Alto contraste | `.alto-contraste` — WCAG AA/AAA |
+| 4. Combinado | `.alto-contraste.tema-escuro` — TODAS as variaveis redefinidas (fundo preto, texto branco) |
+| 5. Fonte grande | `.fonte-grande` — escala 120% |
+| 6. Reset e base | Normalizacao cross-browser |
+| 7. Layout | App shell (topbar + sidebar + main), grid principal |
+| 8–11 | Topbar, sidebar, navegacao, breadcrumb |
+| 12–14 | Componentes base: botoes, badges, cards, feedback |
+| 15–18 | Paginas: home, navegador, atividade |
+| 19–25 | Motores: marcar, ordenar, arrastar, escrever, Paint |
+| 26 | Mascote Lua (SVG + 4 estados CSS) |
+| 27 | Conquistas e emblemas |
+| 28 | Toasts (notificacoes) |
+| 29 | Planos de aula (dois paineis, formulario, preview, @media print) |
+| 30 | Guia do Professor (sidebar sticky, cards de atividade) |
+| 31 | Gerador de atividades (layout dois paineis, folha imprimivel) |
+| 32 | Caca-palavras (.caca-*) |
+| 33 | Palavras cruzadas (.cruzadas-*) |
 
 ## Tokens principais
 
 ```css
---color-primary:  #2d3a8c   /* indigo — ação principal */
---color-accent:   #b5742a   /* ocre — destaques secundários */
+--color-primary:  #2d3a8c   /* indigo — acao principal */
+--color-accent:   #b5742a   /* ocre — destaques */
 --color-ok:       #1a6b3a   /* verde — acerto */
 --color-err:      #8c1a1a   /* vermelho — erro */
---color-warn:     #7a5a00   /* âmbar — aviso */
 --font-serif:     'Playfair Display'
 --font-body:      'Source Serif 4'
 --font-ui:        'DM Sans'
 --font-mono:      'JetBrains Mono'
 --sidebar-w:      220px
+--topbar-h:       56px
 ```
 
-## Temas de acessibilidade
+## BUG HISTORICO CORRIGIDO: alto-contraste + tema-escuro
 
-Aplicados como classes no `<html>` por `a11y.applyAll()`:
+O bloco `.alto-contraste.tema-escuro` deve redefinir TODAS as variaveis de cor,
+nao apenas um subconjunto. Se redefinir so algumas, as demais herdam do
+`.alto-contraste` (fundo branco + texto preto) e o resultado e texto preto sobre
+fundo preto. O bloco atual esta correto e completo.
 
-- `.fonte-grande` — aumenta escala de tipo base
-- `.alto-contraste` — inverte fundos, aumenta contraste de bordas e texto
-- `.tema-escuro` — paleta escura completa
+## @media print
 
-## Print
-
-`@media print` na seção de Planos esconde formulário e topbar, formata `.plano-doc` em A4. `print-color-adjust: exact` preserva fundos coloridos (ex.: título de seção preto).
+Esconde formulario, sidebar, topbar e toasts. Formata `.plano-doc` e `.gerador-doc`
+em A4 (padding 1.5cm 2cm, font-size 10pt). `print-color-adjust: exact` preserva
+fundos coloridos.
 
 ## Responsividade
 
-Breakpoints principais: `960px` (planos: coluna única), `860px` (guia: sidebar horizontal), `768px` (layout geral), `480px` (toasts full-width).
+| Breakpoint | O que muda |
+|---|---|
+| 960px | Planos: coluna unica |
+| 900px | Gerador: coluna unica |
+| 860px | Guia: sidebar horizontal |
+| 768px | Layout geral |
+| 480px | Toasts full-width |

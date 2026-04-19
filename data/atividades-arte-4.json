@@ -294,5 +294,174 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "art-4-u3-n1",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u3",
+    "unidade_titulo": "Arte Indígena e Patrimônio",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.03 — Arte indígena e patrimônio cultural",
+    "objetivo": "Reconhecer características da arte indígena brasileira.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que caracteriza a arte indígena brasileira?",
+    "conteudo_base": {
+      "opcoes": [
+        "Uso de tinta a óleo e tela",
+        "Padrões geométricos, grafismos e materiais da natureza",
+        "Apenas fotografias e vídeos",
+        "Esculturas de bronze e mármore"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica grafismos e materiais naturais como características da arte indígena.",
+      "Distingue de técnicas europeias ocidentais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de arte indígena brasileira (grafismos kayapó, artesanato guarani).",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: os povos indígenas criam arte com o que a natureza oferece — sementes, penas, argila."
+    },
+    "modo_professor": {
+      "gabarito": "Grafismos geométricos e materiais da natureza — pilares da arte indígena.",
+      "objetivo_pedagogico": "Conhecer e valorizar a arte indígena como expressão cultural.",
+      "perguntas_orientadoras": [
+        "Você já viu arte indígena?",
+        "O que é um grafismo?",
+        "Por que preservar a arte indígena é importante?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: características marcantes contrastando com arte europeia."
+    }
+  },
+  {
+    "id": "art-4-u3-n2",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u3",
+    "unidade_titulo": "Arte Indígena e Patrimônio",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.03 — Arte indígena e patrimônio cultural",
+    "objetivo": "Classificar manifestações artísticas como patrimônio material ou imaterial.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: é patrimônio material (objeto físico) ou imaterial (prática, tradição, saber)?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Cocar de penas de arara",
+          "categoria": "Material"
+        },
+        {
+          "id": "i2",
+          "label": "Ritual de canto indígena",
+          "categoria": "Imaterial"
+        },
+        {
+          "id": "i3",
+          "label": "Cerâmica marajoara",
+          "categoria": "Material"
+        },
+        {
+          "id": "i4",
+          "label": "Técnica de tecer redes",
+          "categoria": "Imaterial"
+        },
+        {
+          "id": "i5",
+          "label": "Máscara cerimonial",
+          "categoria": "Material"
+        },
+        {
+          "id": "i6",
+          "label": "Dança da chuva",
+          "categoria": "Imaterial"
+        }
+      ],
+      "categorias": [
+        "Material",
+        "Imaterial"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica objetos físicos como material.",
+      "Classifica práticas e saberes como imaterial."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos de listas da UNESCO de patrimônio.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: patrimônio material você pode segurar. Imaterial é um saber ou prática que existe nas pessoas."
+    },
+    "modo_professor": {
+      "gabarito": "Material: cocar, cerâmica, máscara. Imaterial: canto ritual, tecer redes, dança.",
+      "objetivo_pedagogico": "Compreender as duas formas de patrimônio cultural.",
+      "perguntas_orientadoras": [
+        "O que acontece quando o patrimônio imaterial se perde?",
+        "A cerâmica pode ser ao mesmo tempo material e imaterial (técnica + objeto)?",
+        "O caruru de São Cosme é patrimônio de que tipo?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de patrimônio com exemplos indígenas."
+    }
+  },
+  {
+    "id": "art-4-u3-n3",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u3",
+    "unidade_titulo": "Arte Indígena e Patrimônio",
+    "habilidade_bncc_codigo": "EF15AR26",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.04 — Valorização do patrimônio cultural",
+    "objetivo": "Refletir sobre a importância de preservar o patrimônio cultural.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que é importante preservar a arte e as tradições dos povos indígenas? O que se perde quando uma cultura desaparece?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "importancia",
+          "label": "Por que preservar é importante?",
+          "max": 250
+        },
+        {
+          "id": "perda",
+          "label": "O que se perde quando uma cultura desaparece?",
+          "max": 250
+        },
+        {
+          "id": "acao",
+          "label": "O que você pode fazer para valorizar o patrimônio cultural?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica preservação com ao menos um argumento.",
+      "Menciona perda concreta (língua, saberes, arte).",
+      "Propõe ação viável."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode apresentar caso de língua indígena que está desaparecendo.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: quando um idioma morre, vai junto toda uma forma de ver o mundo que só aquele povo tinha."
+    },
+    "modo_professor": {
+      "gabarito": "Preservar: identidade, diversidade, saberes sobre natureza. Perda: língua, técnicas, cosmovisão. Ação: estudar, respeitar, consumir arte indígena.",
+      "objetivo_pedagogico": "Desenvolver consciência sobre patrimônio cultural e responsabilidade cidadã.",
+      "perguntas_orientadoras": [
+        "Você consegue pensar em algo que foi perdido e não volta mais?",
+        "A arte indígena tem algo a ensinar para o mundo moderno?",
+        "Como a escola pode valorizar o patrimônio indígena?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão ética sobre patrimônio e cidadania cultural."
+    }
   }
 ]

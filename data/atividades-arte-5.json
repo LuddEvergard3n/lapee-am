@@ -304,5 +304,156 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "art-5-u3-n1",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u3",
+    "unidade_titulo": "Arte e Identidade Cultural",
+    "habilidade_bncc_codigo": "EF15AR24",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.03 — Arte e identidade pessoal e cultural",
+    "objetivo": "Reconhecer que a arte reflete a identidade e a cultura de quem a cria.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Por que artistas de países diferentes produzem obras tão diferentes entre si?",
+    "conteudo_base": {
+      "opcoes": [
+        "Porque usam pincéis de qualidades diferentes",
+        "Porque cada cultura tem suas próprias histórias, valores e visões de mundo",
+        "Porque alguns países têm mais dinheiro para arte",
+        "Porque nem todo mundo sabe desenhar igual"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica cultura como fator que influencia a produção artística.",
+      "Distingue influência cultural de fatores técnicos ou econômicos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar duas obras de culturas distintas (ex: arte japonesa e arte africana).",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: um artista japonês e um artista africano cresceram em mundos diferentes — como isso aparece nas obras deles?"
+    },
+    "modo_professor": {
+      "gabarito": "Cada cultura tem histórias, valores e visões de mundo próprios que se expressam na arte.",
+      "objetivo_pedagogico": "Compreender a arte como expressão cultural.",
+      "perguntas_orientadoras": [
+        "O que é identidade cultural?",
+        "Você consegue reconhecer de onde é uma obra só olhando para ela?",
+        "Sua arte também revela sua identidade?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: relação direta entre cultura e produção artística."
+    }
+  },
+  {
+    "id": "art-5-u3-n2",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u3",
+    "unidade_titulo": "Arte e Identidade Cultural",
+    "habilidade_bncc_codigo": "EF15AR24",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.03 — Arte e identidade pessoal e cultural",
+    "objetivo": "Relacionar obras artísticas a elementos de identidade cultural.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada elemento artístico ao aspecto de identidade que ele expressa.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Uma pintura com cores da bandeira nacional",
+          "nome": "Identidade nacional"
+        },
+        {
+          "elemento": "Uma música cantada na língua materna",
+          "nome": "Identidade linguística"
+        },
+        {
+          "elemento": "Uma dança com movimentos da tradição familiar",
+          "nome": "Identidade familiar e étnica"
+        },
+        {
+          "elemento": "Um grafite com símbolo do bairro",
+          "nome": "Identidade local e comunitária"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 pares.",
+      "Reconhece diferentes dimensões da identidade cultural."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos reais de cada tipo.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: identidade é o que nos define — pode ser local, familiar, nacional ou linguística."
+    },
+    "modo_professor": {
+      "gabarito": "Bandeira→nacional | Língua materna→linguística | Dança familiar→étnica | Grafite do bairro→local.",
+      "objetivo_pedagogico": "Compreender as múltiplas dimensões da identidade cultural expressa na arte.",
+      "perguntas_orientadoras": [
+        "Você tem mais de uma identidade cultural?",
+        "Como um imigrante expressaria sua identidade na arte?",
+        "A arte pode mudar a identidade de alguém?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de obra à dimensão de identidade."
+    }
+  },
+  {
+    "id": "art-5-u3-n3",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u3",
+    "unidade_titulo": "Arte e Identidade Cultural",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.04 — Criação artística com intencionalidade",
+    "objetivo": "Criar e descrever uma obra que expresse aspectos da própria identidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Projete uma obra de arte que represente quem você é. Que técnica, cores, sons ou formas você usaria? O que ela contaria sobre você?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "tecnica",
+          "label": "Que tipo de obra você criaria? (pintura, música, dança, escultura...)",
+          "max": 100
+        },
+        {
+          "id": "elementos",
+          "label": "Que cores, sons, formas ou materiais usaria?",
+          "max": 200
+        },
+        {
+          "id": "mensagem",
+          "label": "O que a obra contaria sobre você?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define linguagem artística.",
+      "Relaciona elementos visuais/sonoros a aspectos pessoais.",
+      "Articula mensagem identitária com clareza."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que o aluno liste 3 coisas que o definem antes de escrever.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: que cor representa você? Que som? Que forma? A arte pode dizer quem você é sem usar palavras."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: linguagem definida, elementos com intenção, mensagem identitária articulada.",
+      "objetivo_pedagogico": "Desenvolver autorrepresentação artística com intenção estética.",
+      "perguntas_orientadoras": [
+        "Por que você escolheu essa técnica?",
+        "Alguém que não te conhece entenderia algo sobre você olhando para essa obra?",
+        "O que você não consegue dizer em palavras, mas conseguiria dizer em arte?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: projeto artístico autobiográfico com reflexão sobre identidade."
+    }
   }
 ]

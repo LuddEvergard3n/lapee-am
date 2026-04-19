@@ -300,5 +300,157 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: palavras com sílabas canônicas CV, adequadas à fase de alfabetização do 1º ano."
     }
+  },
+  {
+    "id": "lp-1-u3-n1",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u3",
+    "unidade_titulo": "Tipos de Texto no Cotidiano",
+    "habilidade_bncc_codigo": "EF01LP25",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.07 — Reconhecimento de diferentes gêneros textuais",
+    "objetivo": "Reconhecer diferentes tipos de texto presentes no dia a dia.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual desses textos serve para lembrar o que precisamos comprar?",
+    "conteudo_base": {
+      "opcoes": [
+        "Uma história",
+        "Uma lista de compras",
+        "Um bilhete de parabéns",
+        "Um poema"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a função do texto lista.",
+      "Relaciona tipo de texto com sua finalidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos físicos de cada tipo.",
+      "resposta": "Clique na opção e confirme.",
+      "engajamento": "Dica: quando sua família vai ao mercado, o que escreve antes de sair?"
+    },
+    "modo_professor": {
+      "gabarito": "Lista de compras.",
+      "objetivo_pedagogico": "Desenvolver reconhecimento da função social dos gêneros textuais.",
+      "perguntas_orientadoras": [
+        "Para que serve uma lista?",
+        "Quando você usaria um bilhete?",
+        "Todos os textos servem para a mesma coisa?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: escolha com função cotidiana óbvia, distratores claramente distintos."
+    }
+  },
+  {
+    "id": "lp-1-u3-n2",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u3",
+    "unidade_titulo": "Tipos de Texto no Cotidiano",
+    "habilidade_bncc_codigo": "EF01LP25",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.07 — Reconhecimento de diferentes gêneros textuais",
+    "objetivo": "Associar cada tipo de texto à sua função social.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada texto ao que ele serve.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Era uma vez uma princesa...",
+          "nome": "Contar uma história"
+        },
+        {
+          "elemento": "Querida vovó, saudades suas!",
+          "nome": "Mandar um recado"
+        },
+        {
+          "elemento": "Leite, pão, frutas, queijo",
+          "nome": "Lembrar o que comprar"
+        },
+        {
+          "elemento": "Não jogue lixo no chão.",
+          "nome": "Dar um aviso"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa texto narrativo à função de contar.",
+      "Associa bilhete à função de comunicar.",
+      "Associa lista à função de registrar."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Trechos de texto curtos, professor pode ler em voz alta.",
+      "resposta": "Arrastar chip para o destino correto.",
+      "engajamento": "Dica: leia o começo de cada texto e pense — por que alguém escreveria isso?"
+    },
+    "modo_professor": {
+      "gabarito": "Era uma vez → contar história | Querida vovó → recado | Leite, pão → compras | Não jogue lixo → aviso.",
+      "objetivo_pedagogico": "Relacionar características linguísticas de um texto à sua função social.",
+      "perguntas_orientadoras": [
+        "Como você sabe que 'Era uma vez' é o começo de uma história?",
+        "Qual desses textos você escreveria para um amigo?",
+        "O aviso e o bilhete têm a mesma função?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: exige relacionar trecho à função, sem o texto completo."
+    }
+  },
+  {
+    "id": "lp-1-u3-n3",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u3",
+    "unidade_titulo": "Tipos de Texto no Cotidiano",
+    "habilidade_bncc_codigo": "EF01LP25",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.07 — Reconhecimento de diferentes gêneros textuais",
+    "objetivo": "Produzir um bilhete simples com destinatário e mensagem clara.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreva um bilhete para um colega convidando para brincar.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "para",
+          "label": "Para quem é o bilhete?",
+          "max": 50
+        },
+        {
+          "id": "mensagem",
+          "label": "O que você quer dizer?",
+          "max": 150
+        },
+        {
+          "id": "de",
+          "label": "De quem?",
+          "max": 50
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Indica destinatário.",
+      "Escreve mensagem com sentido.",
+      "Assina o bilhete."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar um bilhete de exemplo antes.",
+      "resposta": "Digitar nos campos indicados.",
+      "engajamento": "Dica: um bilhete precisa dizer para quem é, o que você quer contar, e quem escreveu."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: presença de destinatário, mensagem de convite, assinatura.",
+      "objetivo_pedagogico": "Produzir texto funcional com estrutura de bilhete.",
+      "perguntas_orientadoras": [
+        "Seu bilhete diz para quem é?",
+        "O seu colega vai entender o convite?",
+        "Você assinou?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita com estrutura definida mas conteúdo livre."
+    }
   }
 ]

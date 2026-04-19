@@ -272,5 +272,145 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: observação e produção escrita a partir da realidade."
     }
+  },
+  {
+    "id": "mat-1-u3-n1",
+    "ano": 1,
+    "componente": "Matemática",
+    "unidade_id": "mat-1-u3",
+    "unidade_titulo": "Adição e Subtração até 10",
+    "habilidade_bncc_codigo": "EF01MA06",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.03 — Adição e subtração com números até 10",
+    "objetivo": "Resolver adições simples com resultado até 10.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Pedro tinha 3 balas e ganhou mais 4. Quantas balas ele tem agora?",
+    "conteudo_base": {
+      "opcoes": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Calcula 3+4=7 corretamente.",
+      "Identifica a operação adequada à situação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar objetos concretos para representar.",
+      "resposta": "Marcar o número correto.",
+      "engajamento": "Dica: use os dedos ou risquinhos para contar."
+    },
+    "modo_professor": {
+      "gabarito": "7 balas (3+4=7).",
+      "objetivo_pedagogico": "Desenvolver cálculo aditivo em situação-problema.",
+      "perguntas_orientadoras": [
+        "Você somou ou subtraiu? Por quê?",
+        "3 mais 4 é mais ou menos que 6?",
+        "Como você verificou sua resposta?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: situação concreta com números pequenos e resultado direto."
+    }
+  },
+  {
+    "id": "mat-1-u3-n2",
+    "ano": 1,
+    "componente": "Matemática",
+    "unidade_id": "mat-1-u3",
+    "unidade_titulo": "Adição e Subtração até 10",
+    "habilidade_bncc_codigo": "EF01MA06",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.03 — Adição e subtração com números até 10",
+    "objetivo": "Resolver subtrações em situação de comparação.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 6,
+    "enunciado": "Ana tem 9 figurinhas e João tem 5. Quantas figurinhas Ana tem a mais do que João?",
+    "conteudo_base": {
+      "opcoes": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a subtração como operação de comparação.",
+      "Calcula 9-5=4 corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar os dois grupos no quadro.",
+      "resposta": "Marcar o número correto.",
+      "engajamento": "Dica: para saber quantas a mais, você pode tirar o menor do maior."
+    },
+    "modo_professor": {
+      "gabarito": "4 figurinhas (9−5=4).",
+      "objetivo_pedagogico": "Compreender subtração como comparação, não apenas retirada.",
+      "perguntas_orientadoras": [
+        "Você vai somar ou subtrair para saber 'quantas a mais'?",
+        "O resultado deve ser menor ou maior que os dois números?",
+        "Como você confere?"
+      ],
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "N2: subtração como comparação, contexto menos direto que N1."
+    }
+  },
+  {
+    "id": "mat-1-u3-n3",
+    "ano": 1,
+    "componente": "Matemática",
+    "unidade_id": "mat-1-u3",
+    "unidade_titulo": "Adição e Subtração até 10",
+    "habilidade_bncc_codigo": "EF01MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF1.N.04 — Problemas com adição e subtração",
+    "objetivo": "Criar e registrar uma situação-problema de adição ou subtração.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Invente um problema de matemática usando os números 8 e 3. Escreva o problema e a resposta.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "problema",
+          "label": "Escreva seu problema:",
+          "max": 200
+        },
+        {
+          "id": "conta",
+          "label": "A conta:",
+          "max": 50
+        },
+        {
+          "id": "resposta",
+          "label": "A resposta:",
+          "max": 50
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cria situação que envolve 8 e 3.",
+      "Escreve operação correta.",
+      "Apresenta resultado coerente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar um exemplo de problema criado por um aluno.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense numa história com personagens. Eles podem ter, ganhar ou perder coisas."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: números 8 e 3 usados, operação registrada, resultado correto.",
+      "objetivo_pedagogico": "Desenvolver criação de situação-problema e registro matemático.",
+      "perguntas_orientadoras": [
+        "Seu problema faz sentido?",
+        "A operação que você escolheu bate com a história?",
+        "Alguém conseguiria resolver seu problema?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação livre de problema com números dados."
+    }
   }
 ]

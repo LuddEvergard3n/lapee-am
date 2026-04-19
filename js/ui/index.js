@@ -12,6 +12,7 @@ import { renderSobre, renderAcessibilidade } from './paginas.js';
 import { renderPlanos }         from './planos.js';
 import { renderGuia }           from './guia.js';
 import { renderGerador }        from './gerador.js';
+import { renderJogos }          from './jogos.js';
 import {
   renderSidebar,
   setupMenuToggle,
@@ -67,6 +68,9 @@ async function renderPage(state) {
       break;
     case 'gerador':
       renderGerador(main);
+      break;
+    case 'jogos':
+      await renderJogos(main);
       break;
     default:
       renderHome(main);

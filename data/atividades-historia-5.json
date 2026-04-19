@@ -303,5 +303,174 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "his-5-u3-n1",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u3",
+    "unidade_titulo": "Democracia e Participação",
+    "habilidade_bncc_codigo": "EF05HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.03 — Democracia, eleições e participação cidadã",
+    "objetivo": "Reconhecer as características básicas de um regime democrático.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que define uma democracia?",
+    "conteudo_base": {
+      "opcoes": [
+        "Um rei governa para sempre",
+        "O povo escolhe seus representantes por meio de eleições",
+        "Uma única pessoa decide tudo sem consultar ninguém",
+        "Apenas os ricos podem votar"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica eleições livres como característica da democracia.",
+      "Distingue democracia de monarquia e ditadura."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar quem vota na família dos alunos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: 'demo' vem do grego e significa 'povo'. Democracia é o poder do povo."
+    },
+    "modo_professor": {
+      "gabarito": "O povo escolhe seus representantes por eleições — essência da democracia representativa.",
+      "objetivo_pedagogico": "Introduzir conceito de democracia representativa.",
+      "perguntas_orientadoras": [
+        "Quem pode votar no Brasil?",
+        "O que é um mandato?",
+        "Que tipo de governo não tem eleições?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição direta com distratores de outros regimes."
+    }
+  },
+  {
+    "id": "his-5-u3-n2",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u3",
+    "unidade_titulo": "Democracia e Participação",
+    "habilidade_bncc_codigo": "EF05HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.03 — Democracia, eleições e participação cidadã",
+    "objetivo": "Classificar formas de participação cidadã em democracia.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada ação: é uma forma de participação democrática ou não?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Votar nas eleições",
+          "categoria": "Participação democrática"
+        },
+        {
+          "id": "i2",
+          "label": "Ignorar as notícias e não se informar",
+          "categoria": "Não é participação"
+        },
+        {
+          "id": "i3",
+          "label": "Assinar uma petição por uma causa",
+          "categoria": "Participação democrática"
+        },
+        {
+          "id": "i4",
+          "label": "Aceitar tudo sem questionar",
+          "categoria": "Não é participação"
+        },
+        {
+          "id": "i5",
+          "label": "Participar de conselho escolar",
+          "categoria": "Participação democrática"
+        },
+        {
+          "id": "i6",
+          "label": "Deixar só os políticos decidirem tudo",
+          "categoria": "Não é participação"
+        }
+      ],
+      "categorias": [
+        "Participação democrática",
+        "Não é participação"
+      ]
+    },
+    "criterios_sucesso": [
+      "Reconhece formas de participação além do voto.",
+      "Identifica passividade como problema para a democracia."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar se os alunos conhecem o grêmio ou conselho escolar.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: participar da democracia não é só votar — é se informar, opinar e agir."
+    },
+    "modo_professor": {
+      "gabarito": "Participação: votar, petição, conselho escolar. Não participação: ignorar notícias, aceitar tudo, delegar tudo.",
+      "objetivo_pedagogico": "Ampliar conceito de participação cidadã para além do voto.",
+      "perguntas_orientadoras": [
+        "Um estudante pode participar da democracia antes de votar?",
+        "O que é uma petição?",
+        "Por que informar-se é um ato democrático?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com formas variadas de participação."
+    }
+  },
+  {
+    "id": "his-5-u3-n3",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u3",
+    "unidade_titulo": "Democracia e Participação",
+    "habilidade_bncc_codigo": "EF05HI07",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.04 — Ditadura e redemocratização no Brasil",
+    "objetivo": "Comparar a vida sob ditadura com a vida em democracia.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O Brasil viveu uma ditadura entre 1964 e 1985. O que é diferente numa ditadura em relação a uma democracia? Por que a democracia é importante?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "ditadura",
+          "label": "O que caracteriza uma ditadura?",
+          "max": 200
+        },
+        {
+          "id": "diferenca",
+          "label": "O que muda quando se vive em democracia?",
+          "max": 250
+        },
+        {
+          "id": "importancia",
+          "label": "Por que é importante defender a democracia?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica ao menos duas características da ditadura.",
+      "Compara liberdades em cada regime.",
+      "Justifica importância da democracia."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler depoimento de quem viveu a ditadura brasileira.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: numa ditadura, você poderia escrever o que quiser num jornal? E criticar o governo?"
+    },
+    "modo_professor": {
+      "gabarito": "Ditadura: censura, sem eleições, perseguição política, sem liberdade. Democracia: liberdade de expressão, eleições, direitos. Importância: protege liberdades fundamentais.",
+      "objetivo_pedagogico": "Compreender o valor da democracia a partir do contraste com a ditadura.",
+      "perguntas_orientadoras": [
+        "O que é censura?",
+        "Quem eram os 'cassados' durante a ditadura?",
+        "Por que o Brasil voltou a ser democrático em 1985?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise comparativa entre regimes políticos."
+    }
   }
 ]

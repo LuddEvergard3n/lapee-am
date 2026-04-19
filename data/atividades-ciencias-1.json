@@ -310,5 +310,173 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: produção escrita a partir de escolha pessoal, sem modelo dado."
     }
+  },
+  {
+    "id": "cie-1-u3-n1",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u3",
+    "unidade_titulo": "Corpo e Saúde",
+    "habilidade_bncc_codigo": "EF01CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.03 — Hábitos saudáveis e cuidados com o corpo",
+    "objetivo": "Reconhecer hábitos saudáveis para o cuidado do corpo.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual desses hábitos ajuda a manter o corpo saudável?",
+    "conteudo_base": {
+      "opcoes": [
+        "Ficar sem dormir para brincar mais",
+        "Lavar as mãos antes de comer",
+        "Comer muitos doces todo dia",
+        "Ficar no sol sem proteção"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica lavagem das mãos como hábito saudável.",
+      "Reconhece práticas prejudiciais à saúde."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar cartazes sobre higiene.",
+      "resposta": "Marcar a opção correta.",
+      "engajamento": "Dica: pense em como cada hábito afeta seu corpo. Qual deixa você mais saudável?"
+    },
+    "modo_professor": {
+      "gabarito": "Lavar as mãos antes de comer — hábito de higiene que previne doenças.",
+      "objetivo_pedagogico": "Desenvolver consciência sobre hábitos de saúde e higiene.",
+      "perguntas_orientadoras": [
+        "Por que lavamos as mãos?",
+        "Que outras coisas você faz para cuidar do corpo?",
+        "O que acontece quando não dormimos bem?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: escolha direta entre hábito saudável e não saudáveis óbvios."
+    }
+  },
+  {
+    "id": "cie-1-u3-n2",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u3",
+    "unidade_titulo": "Corpo e Saúde",
+    "habilidade_bncc_codigo": "EF01CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.03 — Hábitos saudáveis e cuidados com o corpo",
+    "objetivo": "Classificar alimentos em saudáveis e não saudáveis.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Separe os alimentos: saudáveis para comer todo dia e os que devem ser consumidos com moderação.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Maçã",
+          "categoria": "Todo dia"
+        },
+        {
+          "id": "i2",
+          "label": "Refrigerante",
+          "categoria": "Moderação"
+        },
+        {
+          "id": "i3",
+          "label": "Cenoura",
+          "categoria": "Todo dia"
+        },
+        {
+          "id": "i4",
+          "label": "Bolo de chocolate",
+          "categoria": "Moderação"
+        },
+        {
+          "id": "i5",
+          "label": "Arroz e feijão",
+          "categoria": "Todo dia"
+        },
+        {
+          "id": "i6",
+          "label": "Salgadinho de pacote",
+          "categoria": "Moderação"
+        }
+      ],
+      "categorias": [
+        "Todo dia",
+        "Moderação"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica frutas e alimentos naturais como do dia a dia.",
+      "Classifica ultraprocessados como de consumo moderado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens ou embalagens reais dos alimentos.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: alimentos naturais, como frutas e verduras, você pode comer todo dia. Doces e salgadinhos, só de vez em quando."
+    },
+    "modo_professor": {
+      "gabarito": "Todo dia: maçã, cenoura, arroz e feijão. Moderação: refrigerante, bolo, salgadinho.",
+      "objetivo_pedagogico": "Desenvolver educação alimentar básica.",
+      "perguntas_orientadoras": [
+        "Por que não comer refrigerante todo dia?",
+        "Quais alimentos dão energia sem fazer mal?",
+        "O que muda na sua saúde com uma alimentação equilibrada?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: categorização com alimentos do cotidiano da criança."
+    }
+  },
+  {
+    "id": "cie-1-u3-n3",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u3",
+    "unidade_titulo": "Corpo e Saúde",
+    "habilidade_bncc_codigo": "EF01CI05",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.03 — Hábitos saudáveis e cuidados com o corpo",
+    "objetivo": "Descrever hábitos saudáveis praticados no cotidiano.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Descreva um dia saudável seu: o que você come, faz e como cuida do seu corpo?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "manha",
+          "label": "O que você faz de saudável pela manhã?",
+          "max": 150
+        },
+        {
+          "id": "alimentacao",
+          "label": "O que você gosta de comer que é saudável?",
+          "max": 150
+        },
+        {
+          "id": "atividade",
+          "label": "Que atividade física você pratica?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Menciona ao menos 2 hábitos saudáveis.",
+      "Relaciona alimentação e atividade à saúde."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer perguntas oralmente antes.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense no que você faz da hora que acorda até a hora de dormir. Escova os dentes? Come frutas? Brinca?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: menção de higiene, alimentação e atividade física.",
+      "objetivo_pedagogico": "Relacionar práticas cotidianas a conceitos de saúde.",
+      "perguntas_orientadoras": [
+        "O que você faz todos os dias para cuidar do corpo?",
+        "Tem algum hábito saudável que gostaria de ter mas ainda não tem?",
+        "Por que dormir bem é importante?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão pessoal sobre práticas de saúde."
+    }
   }
 ]

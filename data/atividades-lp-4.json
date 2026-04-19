@@ -314,5 +314,140 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "lp-4-u3-n1",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u3",
+    "unidade_titulo": "Leitura e Inferência",
+    "habilidade_bncc_codigo": "EF04LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.03 — Inferência de informações implícitas em textos",
+    "objetivo": "Inferir o significado de palavra desconhecida pelo contexto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Leia o trecho e marque o significado da palavra em negrito: 'A criança estava tão exausta que mal conseguia manter os olhos abertos.'",
+    "conteudo_base": {
+      "opcoes": [
+        "Animada",
+        "Cansada",
+        "Faminta",
+        "Distraída"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Usa o contexto ('mal conseguia manter os olhos abertos') para inferir o significado.",
+      "Elimina distratores que não se encaixam no contexto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê o trecho em voz alta e ressalta a palavra em negrito.",
+      "resposta": "Marcar a opção e confirmar.",
+      "engajamento": "Dica: substitua a palavra por cada opção e veja qual faz sentido na frase."
+    },
+    "modo_professor": {
+      "gabarito": "Cansada — o contexto 'mal conseguia manter os olhos abertos' indica exaustão.",
+      "objetivo_pedagogico": "Desenvolver estratégia de inferência lexical pelo contexto.",
+      "perguntas_orientadoras": [
+        "Quais palavras no trecho ajudam a entender 'exausta'?",
+        "Alguma outra opção faria sentido na frase?",
+        "Você consegue pensar numa situação em que ficaria exausto?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: inferência com pistas contextuais explícitas e próximas da palavra."
+    }
+  },
+  {
+    "id": "lp-4-u3-n2",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u3",
+    "unidade_titulo": "Leitura e Inferência",
+    "habilidade_bncc_codigo": "EF04LP01",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.03 — Inferência de informações implícitas em textos",
+    "objetivo": "Relacionar informações implícitas do texto com conhecimento prévio para concluir algo.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Leia e marque a conclusão que se pode tirar do texto: 'Quando Marta chegou em casa, as luzes estavam apagadas, a porta estava trancada e o prato ainda estava na mesa.'",
+    "conteudo_base": {
+      "opcoes": [
+        "Marta chegou antes de todos em casa.",
+        "Alguém havia jantado e lavado a louça.",
+        "Marta mora sozinha e esqueceu a luz acesa.",
+        "A família de Marta ainda não havia chegado em casa."
+      ],
+      "resposta_correta": 3
+    },
+    "criterios_sucesso": [
+      "Integra três informações do texto para chegar à conclusão.",
+      "Elimina opções que contradizem o texto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que o aluno sublinha as pistas no texto.",
+      "resposta": "Marcar a opção e confirmar.",
+      "engajamento": "Dica: luzes apagadas + porta trancada + prato na mesa — o que isso diz sobre a família de Marta?"
+    },
+    "modo_professor": {
+      "gabarito": "A família ainda não havia chegado — as três pistas indicam que ninguém estava em casa.",
+      "objetivo_pedagogico": "Treinar integração de múltiplas pistas textuais para inferência.",
+      "perguntas_orientadoras": [
+        "Por que as luzes apagadas e a porta trancada são pistas?",
+        "O prato na mesa contradiz ou confirma sua conclusão?",
+        "Por que a opção A está errada?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: inferência exige integrar três pistas, não apenas uma."
+    }
+  },
+  {
+    "id": "lp-4-u3-n3",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u3",
+    "unidade_titulo": "Leitura e Inferência",
+    "habilidade_bncc_codigo": "EF04LP02",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.04 — Posicionamento crítico sobre texto lido",
+    "objetivo": "Expressar opinião fundamentada sobre um texto lido.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Leia e responda: 'Um menino encontrou uma carteira com dinheiro na rua. Ele ficou com o dinheiro e não contou para ninguém.' O que você acha que ele deveria ter feito? Por quê?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "opiniao",
+          "label": "O que você acha que ele deveria ter feito?",
+          "max": 150
+        },
+        {
+          "id": "justificativa",
+          "label": "Por que você pensa assim?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Apresenta uma posição clara.",
+      "Justifica com pelo menos um argumento.",
+      "Relaciona a situação a valores como honestidade ou empatia."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar oralmente antes de escrever.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como você se sentiria se fosse o dono da carteira. Isso ajuda a justificar sua opinião."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: opinião clara, justificativa com argumento (não apenas 'porque sim').",
+      "objetivo_pedagogico": "Desenvolver leitura crítica e argumentação escrita a partir de situação-problema.",
+      "perguntas_orientadoras": [
+        "Sua resposta está bem justificada ou apenas opina?",
+        "Você considerou o ponto de vista de quem perdeu a carteira?",
+        "O que é mais difícil: saber o certo ou fazer o certo?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: leitura crítica com produção de opinião argumentada."
+    }
   }
 ]

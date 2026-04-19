@@ -61,7 +61,11 @@
         "As abelhas têm funções bem divididas dentro da colmeia.",
         "A rainha pode botar até 2 000 ovos por dia."
       ],
-      "ordem_correta": [1, 2, 0]
+      "ordem_correta": [
+        1,
+        2,
+        0
+      ]
     },
     "criterios_sucesso": [
       "Identifica o parágrafo geral (ideia principal) e os detalhes.",
@@ -99,8 +103,16 @@
     "enunciado": "Leia o texto e responda nos campos abaixo.\n\nAs abelhas são insetos fundamentais para o equilíbrio da natureza. Elas polinizam flores e plantas, permitindo que frutos se formem. Sem as abelhas, grande parte dos alimentos que consumimos deixaria de existir. Por isso, proteger as abelhas é proteger a nossa alimentação.",
     "conteudo_base": {
       "campos": [
-        { "id": "ideia_principal", "label": "Qual é a ideia principal do texto?", "max": 150 },
-        { "id": "evidencia", "label": "Escreve uma evidência do texto que apoia essa ideia:", "max": 200 }
+        {
+          "id": "ideia_principal",
+          "label": "Qual é a ideia principal do texto?",
+          "max": 150
+        },
+        {
+          "id": "evidencia",
+          "label": "Escreve uma evidência do texto que apoia essa ideia:",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -182,10 +194,22 @@
     "enunciado": "Arrasta cada descrição para a parte da história a que ela pertence.",
     "conteudo_base": {
       "pares": [
-        { "elemento": "Apresentação dos personagens e do lugar", "nome": "Início" },
-        { "elemento": "O problema que os personagens precisam resolver", "nome": "Conflito" },
-        { "elemento": "Momento de maior tensão da história", "nome": "Clímax" },
-        { "elemento": "Como o problema foi resolvido", "nome": "Desfecho" }
+        {
+          "elemento": "Apresentação dos personagens e do lugar",
+          "nome": "Início"
+        },
+        {
+          "elemento": "O problema que os personagens precisam resolver",
+          "nome": "Conflito"
+        },
+        {
+          "elemento": "Momento de maior tensão da história",
+          "nome": "Clímax"
+        },
+        {
+          "elemento": "Como o problema foi resolvido",
+          "nome": "Desfecho"
+        }
       ]
     },
     "criterios_sucesso": [
@@ -224,9 +248,21 @@
     "enunciado": "Cria uma história curta sobre um animal que encontrou algo inesperado na floresta. Sua história deve ter início, conflito e desfecho.",
     "conteudo_base": {
       "campos": [
-        { "id": "inicio", "label": "Início — apresente o personagem e o lugar:", "max": 200 },
-        { "id": "conflito", "label": "Conflito — o que aconteceu de inesperado?", "max": 200 },
-        { "id": "desfecho", "label": "Desfecho — como terminou?", "max": 200 }
+        {
+          "id": "inicio",
+          "label": "Início — apresente o personagem e o lugar:",
+          "max": 200
+        },
+        {
+          "id": "conflito",
+          "label": "Conflito — o que aconteceu de inesperado?",
+          "max": 200
+        },
+        {
+          "id": "desfecho",
+          "label": "Desfecho — como terminou?",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -249,6 +285,158 @@
       ],
       "tempo_estimado": "10 a 15 minutos",
       "adaptacao_nivel": "Nível 3: produção criativa estruturada em três partes."
+    }
+  },
+  {
+    "id": "lp-3-u3-n1",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u3",
+    "unidade_titulo": "Gêneros do Cotidiano",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.05 — Reconhecimento de gêneros instrucionais e informativos",
+    "objetivo": "Identificar gêneros textuais do cotidiano e suas finalidades.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Marque o texto que serve para ensinar como fazer alguma coisa.",
+    "conteudo_base": {
+      "opcoes": [
+        "O leão e o ratinho foram grandes amigos.",
+        "Ingredientes: 2 ovos, 1 xícara de leite. Modo de fazer: misture tudo e leve ao forno.",
+        "Ontem o time ganhou o campeonato por 3 a 0.",
+        "Minha cidade tem ruas largas e muitas árvores."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece texto instrucional pela estrutura (ingredientes, modo de fazer).",
+      "Distingue instrução de narração, notícia e descrição."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer receitas reais como exemplo.",
+      "resposta": "Marcar a opção correta.",
+      "engajamento": "Dica: textos que ensinam a fazer algo geralmente listam materiais e passos."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B — receita culinária, texto instrucional.",
+      "objetivo_pedagogico": "Reconhecer características formais dos gêneros instrucionais.",
+      "perguntas_orientadoras": [
+        "O que você faz com uma receita?",
+        "Como é diferente de uma história?",
+        "Onde você costuma encontrar textos assim?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: distratores de gêneros claramente distintos."
+    }
+  },
+  {
+    "id": "lp-3-u3-n2",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u3",
+    "unidade_titulo": "Gêneros do Cotidiano",
+    "habilidade_bncc_codigo": "EF35LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.05 — Reconhecimento de gêneros instrucionais e informativos",
+    "objetivo": "Associar cada gênero textual ao local onde costuma ser encontrado.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada texto ao lugar onde você costuma encontrá-lo.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Receita de bolo",
+          "nome": "Livro de culinária"
+        },
+        {
+          "elemento": "Manchete: Chuva causa alagamento",
+          "nome": "Jornal ou site de notícias"
+        },
+        {
+          "elemento": "Não entre — área restrita",
+          "nome": "Placa na rua ou prédio"
+        },
+        {
+          "elemento": "Prezado cliente, seu pedido chegou",
+          "nome": "E-mail ou carta"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa receita ao livro de culinária.",
+      "Associa manchete a jornal.",
+      "Associa placa ao espaço físico."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos físicos ou imagens.",
+      "resposta": "Arrastar cada chip para o destino correto.",
+      "engajamento": "Dica: pense em onde você já viu cada tipo de texto na sua vida."
+    },
+    "modo_professor": {
+      "gabarito": "Receita → livro culinário | Manchete → jornal | Placa → rua | E-mail → comunicação digital.",
+      "objetivo_pedagogico": "Situar os gêneros em seu contexto de circulação.",
+      "perguntas_orientadoras": [
+        "Você já recebeu um e-mail ou carta?",
+        "Onde você lê manchetes?",
+        "Por que as placas ficam em locais públicos?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: relaciona gênero a contexto de circulação, não apenas à função."
+    }
+  },
+  {
+    "id": "lp-3-u3-n3",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u3",
+    "unidade_titulo": "Gêneros do Cotidiano",
+    "habilidade_bncc_codigo": "EF35LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.P.04 — Produção de textos instrucionais simples",
+    "objetivo": "Produzir um texto instrucional com passos numerados e claros.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreva as instruções para ensinar alguém a fazer uma atividade que você sabe fazer bem.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "titulo",
+          "label": "Título (o que você vai ensinar):",
+          "max": 80
+        },
+        {
+          "id": "materiais",
+          "label": "O que é preciso ter:",
+          "max": 150
+        },
+        {
+          "id": "passos",
+          "label": "Passo a passo (escreva pelo menos 3 passos):",
+          "max": 300
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define o que vai ensinar.",
+      "Lista materiais necessários.",
+      "Escreve pelo menos 3 passos em ordem lógica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sugerir temas: como fazer uma pipa, como jogar amarelinha, como plantar uma semente.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: use palavras como 'primeiro', 'depois', 'em seguida' para organizar os passos."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: título definido, materiais listados, 3+ passos em sequência lógica com conectivos.",
+      "objetivo_pedagogico": "Produzir texto instrucional funcional com organização sequencial.",
+      "perguntas_orientadoras": [
+        "Alguém que nunca fez isso conseguiria seguir seus passos?",
+        "Você usou palavras de ordem como 'primeiro' e 'depois'?",
+        "Listou tudo que é preciso?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção de gênero instrucional com estrutura formal."
     }
   }
 ]

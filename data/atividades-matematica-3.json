@@ -13,7 +13,12 @@
     "tempo_medio_min": 4,
     "enunciado": "Qual é o resultado de 6 × 4?",
     "conteudo_base": {
-      "opcoes": ["20", "22", "24", "26"],
+      "opcoes": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
       "resposta_correta": 2
     },
     "criterios_sucesso": [
@@ -57,7 +62,12 @@
         "Montar a conta: 8 × 5.",
         "Ler e entender o problema."
       ],
-      "ordem_correta": [3, 1, 2, 0]
+      "ordem_correta": [
+        3,
+        1,
+        2,
+        0
+      ]
     },
     "criterios_sucesso": [
       "Ordena os passos: leitura → operação → conta → resposta.",
@@ -95,10 +105,26 @@
     "enunciado": "Cria um problema que use a multiplicação 7 × 9. Depois resolve e explica o seu raciocínio.",
     "conteudo_base": {
       "campos": [
-        { "id": "problema", "label": "Meu problema:", "max": 200 },
-        { "id": "conta",    "label": "A conta:",      "max": 40  },
-        { "id": "resultado","label": "Resultado:",    "max": 40  },
-        { "id": "raciocinio","label": "Como pensei:", "max": 150 }
+        {
+          "id": "problema",
+          "label": "Meu problema:",
+          "max": 200
+        },
+        {
+          "id": "conta",
+          "label": "A conta:",
+          "max": 40
+        },
+        {
+          "id": "resultado",
+          "label": "Resultado:",
+          "max": 40
+        },
+        {
+          "id": "raciocinio",
+          "label": "Como pensei:",
+          "max": 150
+        }
       ]
     },
     "criterios_sucesso": [
@@ -137,7 +163,12 @@
     "tempo_medio_min": 5,
     "enunciado": "Uma pizza foi dividida em 4 partes iguais. João comeu 1 parte. Que fração da pizza ele comeu?",
     "conteudo_base": {
-      "opcoes": ["1/2", "1/3", "1/4", "2/4"],
+      "opcoes": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "2/4"
+      ],
       "resposta_correta": 2
     },
     "criterios_sucesso": [
@@ -176,10 +207,22 @@
     "enunciado": "Arrasta cada descrição para a fração correta.",
     "conteudo_base": {
       "pares": [
-        { "elemento": "Metade de um inteiro",          "nome": "1/2" },
-        { "elemento": "Um terço de um inteiro",         "nome": "1/3" },
-        { "elemento": "Três quartos de um inteiro",     "nome": "3/4" },
-        { "elemento": "Dois quintos de um inteiro",     "nome": "2/5" }
+        {
+          "elemento": "Metade de um inteiro",
+          "nome": "1/2"
+        },
+        {
+          "elemento": "Um terço de um inteiro",
+          "nome": "1/3"
+        },
+        {
+          "elemento": "Três quartos de um inteiro",
+          "nome": "3/4"
+        },
+        {
+          "elemento": "Dois quintos de um inteiro",
+          "nome": "2/5"
+        }
       ]
     },
     "criterios_sucesso": [
@@ -218,9 +261,21 @@
     "enunciado": "Uma barra de chocolate tem 8 pedaços. Carla comeu 3 pedaços. Que fração ela comeu? Que fração sobrou? Explica como você pensou.",
     "conteudo_base": {
       "campos": [
-        { "id": "fracao_comeu",  "label": "Fração que Carla comeu:",  "max": 30  },
-        { "id": "fracao_sobrou", "label": "Fração que sobrou:",       "max": 30  },
-        { "id": "explicacao",    "label": "Como você pensou:",        "max": 200 }
+        {
+          "id": "fracao_comeu",
+          "label": "Fração que Carla comeu:",
+          "max": 30
+        },
+        {
+          "id": "fracao_sobrou",
+          "label": "Fração que sobrou:",
+          "max": 30
+        },
+        {
+          "id": "explicacao",
+          "label": "Como você pensou:",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -243,6 +298,164 @@
       ],
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "Nível 3: duas frações complementares + justificativa do raciocínio."
+    }
+  },
+  {
+    "id": "mat-3-u3-n1",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u3",
+    "unidade_titulo": "Divisão",
+    "habilidade_bncc_codigo": "EF03MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.04 — Divisão exata e com resto",
+    "objetivo": "Reconhecer a divisão como repartição em partes iguais.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "12 balas divididas igualmente entre 4 crianças. Quantas balas cada uma recebe?",
+    "conteudo_base": {
+      "opcoes": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Calcula 12÷4=3 corretamente.",
+      "Reconhece a situação como divisão."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar bolinhas no quadro para representar.",
+      "resposta": "Marcar o número correto.",
+      "engajamento": "Dica: distribua as 12 balas de uma em uma para cada criança, até acabar."
+    },
+    "modo_professor": {
+      "gabarito": "3 balas (12÷4=3).",
+      "objetivo_pedagogico": "Introduzir divisão como partição equitativa.",
+      "perguntas_orientadoras": [
+        "Como você sabe que é divisão e não subtração?",
+        "O que aconteceria se fossem 13 balas?",
+        "Como você verifica: 3×4=?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: divisão exata com números pequenos e contexto concreto."
+    }
+  },
+  {
+    "id": "mat-3-u3-n2",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u3",
+    "unidade_titulo": "Divisão",
+    "habilidade_bncc_codigo": "EF03MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.04 — Divisão exata e com resto",
+    "objetivo": "Realizar divisões com resto e interpretar o resultado.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "25 alunos precisam se sentar em mesas de 4. Quantas mesas completas formam e quantos alunos ficam sobrando?",
+    "conteudo_base": {
+      "pares": [
+        {
+          "situacao": "Mesas completas",
+          "opcoes": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correta": 2
+        },
+        {
+          "situacao": "Alunos que sobram",
+          "opcoes": [
+            "0",
+            "1",
+            "2"
+          ],
+          "correta": 1
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula 25÷4=6 com resto 1.",
+      "Interpreta o quociente e o resto na situação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer a divisão no quadro passo a passo.",
+      "resposta": "Marcar a resposta para cada situação.",
+      "engajamento": "Dica: primeiro descubra quantas vezes 4 cabe em 25, depois veja o que sobra."
+    },
+    "modo_professor": {
+      "gabarito": "6 mesas completas, 1 aluno sobrando (25÷4=6 resto 1).",
+      "objetivo_pedagogico": "Interpretar divisão com resto em situação real.",
+      "perguntas_orientadoras": [
+        "O que o resto 1 significa na situação das mesas?",
+        "Seriam necessárias 7 mesas para acomodar todos? Por quê?",
+        "Como você verificou com multiplicação?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: divisão com resto exige interpretar quociente E resto."
+    }
+  },
+  {
+    "id": "mat-3-u3-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u3",
+    "unidade_titulo": "Divisão",
+    "habilidade_bncc_codigo": "EF03MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.05 — Problemas com as quatro operações",
+    "objetivo": "Criar e resolver um problema que envolva divisão.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Invente um problema de divisão usando os números 24 e 6. Resolva e explique.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "problema",
+          "label": "Seu problema:",
+          "max": 200
+        },
+        {
+          "id": "conta",
+          "label": "A conta:",
+          "max": 60
+        },
+        {
+          "id": "resultado",
+          "label": "Resultado:",
+          "max": 80
+        },
+        {
+          "id": "verificacao",
+          "label": "Como verificar com multiplicação:",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa 24 e 6 no problema.",
+      "A divisão está correta.",
+      "Verifica com multiplicação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode dar exemplos de contextos: alunos em grupos, frutas em caixas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: você pode criar uma situação de repartir, distribuir ou agrupar."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: divisão 24÷6=4 ou equivalente, verificação por multiplicação (4×6=24).",
+      "objetivo_pedagogico": "Criar problema de divisão e usar multiplicação como verificação.",
+      "perguntas_orientadoras": [
+        "Seu problema faz sentido no mundo real?",
+        "Como você sabe que a divisão estava certa?",
+        "Poderia criar outro problema com os mesmos números?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação de problema com verificação por operação inversa."
     }
   }
 ]

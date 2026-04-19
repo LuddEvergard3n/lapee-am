@@ -6,41 +6,38 @@
     "unidade_id": "his-2-u1",
     "unidade_titulo": "Escola e Comunidade",
     "habilidade_bncc_codigo": "EF02HI01",
-    "referencia_cbtc": "CBTC-SC: HIS.EF2.T.01 — Espaços de convivência: escola e comunidade",
-    "objetivo": "Identificar e descrever espaços da escola e da comunidade.",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.H.01",
+    "objetivo": "Reconhecer a escola como espaço coletivo e histórico.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Qual é o lugar da escola onde a gente aprende a ler e escrever?",
+    "tempo_medio_min": 4,
+    "enunciado": "Por que a escola é um lugar importante para a comunidade?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "Onde os alunos ficam com o professor para estudar?",
       "opcoes": [
-        "Quadra de esportes",
-        "Sala de aula",
-        "Refeitório",
-        "Banheiro"
+        "Porque tem cadeiras e mesas",
+        "Porque é onde as crianças aprendem e fazem amizades",
+        "Porque é o lugar mais bonito do bairro",
+        "Porque tem muitos livros guardados"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Identifica a função da sala de aula no espaço escolar."
+      "Identifica a escola pelo seu papel social de aprendizagem e convivência."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode fazer um passeio mental pela escola antes da atividade.",
-      "resposta": "Clica na resposta certa.",
-      "engajamento": "Pensa nos lugares da sua escola. Onde você fica com o professor para aprender?"
+      "apresentacao": "Perguntar: 'O que você aprendeu na escola que não sabia antes?'",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Imagine se não existisse escola. O que seria diferente na sua vida?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Reconhecer e nomear espaços da escola e suas funções.",
-      "gabarito": "Sala de aula — espaço principal de aprendizagem com o professor.",
+      "gabarito": "'Onde as crianças aprendem e fazem amizades' — função social e cultural.",
+      "objetivo_pedagogico": "Reconhecer a escola como instituição social com papel na formação das pessoas.",
       "perguntas_orientadoras": [
-        "O que acontece em cada lugar da escola?",
-        "Qual lugar é só para comer?",
-        "Onde vocês ficam na maior parte do tempo escolar?"
+        "A escola de hoje é igual à de antigamente?",
+        "Por que você acha que a escola foi inventada?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: opções familiares, uma claramente relacionada ao estudo."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: identificação da função social da escola."
     }
   },
   {
@@ -50,37 +47,42 @@
     "unidade_id": "his-2-u1",
     "unidade_titulo": "Escola e Comunidade",
     "habilidade_bncc_codigo": "EF02HI01",
-    "referencia_cbtc": "CBTC-SC: HIS.EF2.T.01 — Espaços de convivência: escola e comunidade",
-    "objetivo": "Identificar e descrever espaços da escola e da comunidade.",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.H.01",
+    "objetivo": "Classificar espaços como pertencentes à escola ou à comunidade.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 8,
-    "enunciado": "Coloca cada lugar no grupo certo: escola ou comunidade.",
+    "tempo_medio_min": 7,
+    "enunciado": "Separa os lugares: da escola ou da comunidade do bairro.",
     "conteudo_base": {
-      "tipo": "categorias",
       "itens": [
         {
+          "id": "e1",
           "label": "Sala de aula",
           "categoria": "Escola"
         },
         {
-          "label": "Mercado",
+          "id": "e2",
+          "label": "Praça do bairro",
           "categoria": "Comunidade"
         },
         {
-          "label": "Biblioteca escolar",
+          "id": "e3",
+          "label": "Biblioteca da escola",
           "categoria": "Escola"
         },
         {
-          "label": "Praça",
-          "categoria": "Comunidade"
-        },
-        {
-          "label": "Quadra",
-          "categoria": "Escola"
-        },
-        {
+          "id": "e4",
           "label": "Posto de saúde",
+          "categoria": "Comunidade"
+        },
+        {
+          "id": "e5",
+          "label": "Quadra esportiva da escola",
+          "categoria": "Escola"
+        },
+        {
+          "id": "e6",
+          "label": "Igreja ou templo religioso",
           "categoria": "Comunidade"
         }
       ],
@@ -90,23 +92,22 @@
       ]
     },
     "criterios_sucesso": [
-      "Distingue espaços escolares de espaços comunitários."
+      "Classifica espaços do cotidiano como pertencentes à escola ou à comunidade."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pergunta se a criança já esteve em cada lugar.",
-      "resposta": "Arrasta cada lugar para o grupo certo. Ou clica e depois clica no grupo.",
-      "engajamento": "Esse lugar fica dentro da escola ou fora, no bairro?"
+      "apresentacao": "Listar coletivamente lugares que os alunos conhecem antes de classificar.",
+      "resposta": "Arrastar cada lugar para o grupo correto.",
+      "engajamento": "A praça pertence à escola ou a todos do bairro?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Diferenciar espaços escolares de espaços comunitários e reconhecer suas funções.",
-      "gabarito": "Escola: sala de aula, biblioteca escolar, quadra. Comunidade: mercado, praça, posto de saúde.",
+      "gabarito": "Escola: sala de aula, biblioteca, quadra. Comunidade: praça, posto de saúde, templo.",
+      "objetivo_pedagogico": "Compreender que escola e comunidade são espaços complementares na vida social.",
       "perguntas_orientadoras": [
-        "Para usar esse lugar, você precisa ser aluno?",
-        "Qualquer pessoa do bairro pode ir a esse lugar?",
-        "Qual é a função desse espaço?"
+        "A escola faz parte da comunidade ou é separada?",
+        "Quem pode entrar na praça? E na sala de aula?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 2: seis lugares, dois grupos, todos familiares para a criança."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis lugares, dois grupos, pertencimento institucional."
     }
   },
   {
@@ -116,47 +117,48 @@
     "unidade_id": "his-2-u1",
     "unidade_titulo": "Escola e Comunidade",
     "habilidade_bncc_codigo": "EF02HI01",
-    "referencia_cbtc": "CBTC-SC: HIS.EF2.T.01 — Espaços de convivência: escola e comunidade",
-    "objetivo": "Identificar e descrever espaços da escola e da comunidade.",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.H.01",
+    "objetivo": "Descrever um lugar da comunidade e sua importância.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
-    "enunciado": "Escreve sobre um lugar da sua comunidade.",
+    "enunciado": "Escolhe um lugar da sua comunidade e escreve sobre ele.",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "Pensa no bairro onde você mora. Tem praça, mercado, parque, escola, posto de saúde, igreja...?",
       "campos": [
         {
-          "id": "lugar",
-          "label": "Qual lugar da sua comunidade você vai descrever?",
-          "max": 80
+          "id": "nome",
+          "label": "Nome do lugar:",
+          "max": 50
         },
         {
-          "id": "funcao",
-          "label": "Para que serve esse lugar? Quem usa?",
-          "max": 200
+          "id": "para",
+          "label": "Para que esse lugar serve:",
+          "max": 120
+        },
+        {
+          "id": "imp",
+          "label": "Por que ele é importante para as pessoas do bairro:",
+          "max": 150
         }
       ]
     },
     "criterios_sucesso": [
-      "Nomeia um lugar real da própria comunidade.",
-      "Descreve a função do lugar e quem o utiliza."
+      "Nomeia um lugar e descreve sua função e importância social."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor permite que a criança desenhe o lugar antes de escrever.",
-      "resposta": "Escreve com suas palavras sobre um lugar que você conhece.",
-      "engajamento": "Qual lugar do seu bairro você gosta de ir? Por que as pessoas vão lá?"
+      "apresentacao": "Fazer lista coletiva de lugares do bairro antes de pedir a escrita individual.",
+      "resposta": "Escrever em frases simples sobre o lugar escolhido.",
+      "engajamento": "Tem um lugar no bairro que você vai com frequência? O que você faz lá?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Descrever a função de espaços comunitários a partir da experiência pessoal.",
-      "gabarito": "Resposta variável — avaliar se o lugar descrito é real e se a função está correta.",
+      "gabarito": "Resposta pessoal. Mercado, praça, posto, igreja, biblioteca pública. Valorizar a identificação de função social.",
+      "objetivo_pedagogico": "Desenvolver noção de comunidade e pertencimento por meio de observação do espaço vivido.",
       "perguntas_orientadoras": [
-        "Você já foi a esse lugar?",
-        "Quem trabalha lá?",
-        "Por que esse lugar é importante para a comunidade?"
+        "O que aconteceria no bairro se esse lugar fechasse?",
+        "Outras pessoas além de você frequentam esse lugar?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3: escrita a partir da experiência própria, dois aspectos distintos a descrever."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita sobre espaço vivido com função social identificada."
     }
   },
   {
@@ -165,40 +167,39 @@
     "componente": "História",
     "unidade_id": "his-2-u2",
     "unidade_titulo": "Festas e Tradições",
-    "habilidade_bncc_codigo": "EF02HI04",
-    "referencia_cbtc": "CBTC-SC: HIS.EF2.T.02 — Festas, brincadeiras e tradições culturais da comunidade",
-    "objetivo": "Desenvolver habilidades de festas e tradições.",
+    "habilidade_bncc_codigo": "EF02HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.H.02",
+    "objetivo": "Reconhecer o conceito de tradição cultural.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
+    "tempo_medio_min": 4,
     "enunciado": "O que é uma tradição cultural?",
     "conteudo_base": {
       "opcoes": [
-        "Uma lei nova",
-        "Um costume passado de geração em geração",
-        "Uma invenção recente",
-        "Uma regra escolar"
+        "Uma moda que todo mundo segue por pouco tempo",
+        "Um costume que é passado de geração em geração",
+        "Uma lei criada pelo governo",
+        "Uma invenção tecnológica recente"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Define tradição cultural com suas características essenciais."
+      "Define tradição como prática cultural transmitida entre gerações."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Tradição vem de \"passar para frente\". Quem te ensinou algum costume?"
+      "apresentacao": "Perguntar: 'O que sua família faz todo ano no Natal ou em outra data especial?'",
+      "resposta": "Clique na opção correta.",
+      "engajamento": "Sua família faz algo especial todo ano? De onde veio esse costume?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar festas e tradições de forma progressiva.",
-      "gabarito": "Tradição é um costume transmitido entre gerações.",
+      "gabarito": "'Costume passado de geração em geração' — definição de tradição.",
+      "objetivo_pedagogico": "Compreender tradição como elemento de identidade cultural transmitida no tempo.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Sua família tem alguma tradição? Quem ensinou?",
+        "Uma tradição pode mudar com o tempo?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: definição de conceito, distratores com duração ou origem diferentes."
     }
   },
   {
@@ -207,55 +208,50 @@
     "componente": "História",
     "unidade_id": "his-2-u2",
     "unidade_titulo": "Festas e Tradições",
-    "habilidade_bncc_codigo": "EF02HI04",
-    "referencia_cbtc": "CBTC-SC: HIS.EF2.T.02 — Festas, brincadeiras e tradições culturais da comunidade",
-    "objetivo": "Desenvolver habilidades de festas e tradições.",
+    "habilidade_bncc_codigo": "EF02HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.H.02",
+    "objetivo": "Associar festas brasileiras às suas regiões de origem.",
     "nivel": 2,
     "tipo_evidencia": "arrastar",
-    "tempo_medio_min": 5,
-    "enunciado": "Classifica cada festa como típica do Sul, Nordeste ou Nacional.",
+    "tempo_medio_min": 7,
+    "enunciado": "Liga cada festa à região do Brasil onde ela é mais famosa.",
     "conteudo_base": {
-      "itens": [
+      "pares": [
         {
-          "id": "f1",
-          "label": "Festa Junina",
-          "categoria": "Nordeste"
+          "elemento": "Festa Junina",
+          "nome": "Nordeste"
         },
         {
-          "id": "f2",
-          "label": "Oktoberfest",
-          "categoria": "Sul"
+          "elemento": "Oktoberfest",
+          "nome": "Sul"
         },
         {
-          "id": "f3",
-          "label": "Carnaval",
-          "categoria": "Nacional"
+          "elemento": "Parintins (Boi-Bumbá)",
+          "nome": "Norte"
+        },
+        {
+          "elemento": "Carnaval do Rio",
+          "nome": "Sudeste"
         }
-      ],
-      "categorias": [
-        "Sul",
-        "Nordeste",
-        "Nacional"
       ]
     },
     "criterios_sucesso": [
-      "Associa manifestações culturais a regiões do Brasil."
+      "Associa festas populares às regiões onde são mais tradicionais."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa na origem e no estado onde cada festa é mais famosa."
+      "apresentacao": "Mostrar imagens das festas antes de pedir a associação.",
+      "resposta": "Arrastar cada festa para a região correspondente.",
+      "engajamento": "Você já ouviu falar de festa junina? Em qual parte do Brasil ela é muito famosa?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar festas e tradições de forma progressiva.",
-      "gabarito": "Festa Junina=Nordeste, Oktoberfest=Sul (herança alemã), Carnaval=Nacional.",
+      "gabarito": "Festa Junina→Nordeste, Oktoberfest→Sul, Boi-Bumbá→Norte, Carnaval Rio→Sudeste.",
+      "objetivo_pedagogico": "Reconhecer a diversidade cultural das regiões brasileiras por meio de suas festas tradicionais.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que a Oktoberfest é do Sul?",
+        "A Festa Junina existe em outros estados também?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro festas e quatro regiões, casos mais emblemáticos."
     }
   },
   {
@@ -264,13 +260,13 @@
     "componente": "História",
     "unidade_id": "his-2-u2",
     "unidade_titulo": "Festas e Tradições",
-    "habilidade_bncc_codigo": "EF02HI04",
-    "referencia_cbtc": "CBTC-SC: HIS.EF2.T.02 — Festas, brincadeiras e tradições culturais da comunidade",
-    "objetivo": "Desenvolver habilidades de festas e tradições.",
+    "habilidade_bncc_codigo": "EF02HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.H.02",
+    "objetivo": "Descrever uma festa ou tradição da própria família ou comunidade.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Descreve uma festa ou tradição da sua família ou comunidade. O que acontece? Quem participa?",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreve sobre uma festa ou tradição da sua família ou comunidade.",
     "conteudo_base": {
       "campos": [
         {
@@ -279,35 +275,179 @@
           "max": 60
         },
         {
-          "id": "descricao",
-          "label": "O que acontece:",
-          "max": 200
+          "id": "oque",
+          "label": "O que acontece nessa festa:",
+          "max": 150
         },
         {
-          "id": "participantes",
+          "id": "quem",
           "label": "Quem participa:",
-          "max": 100
+          "max": 80
         }
       ]
     },
     "criterios_sucesso": [
-      "Descreve tradição cultural com detalhes específicos."
+      "Descreve uma celebração com informações sobre o que acontece e quem participa."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa nas festas de família, festas da cidade, tradições religiosas ou culturais."
+      "apresentacao": "Pedir que alunos mencionem festas que conhecem antes de escrever individualmente.",
+      "resposta": "Escrever sobre uma festa em três aspectos: nome, o que acontece, quem participa.",
+      "engajamento": "Tem alguma festa que você espera o ano todo? O que você faz nela?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar festas e tradições de forma progressiva.",
-      "gabarito": "Descrição com nome, características e participantes da tradição.",
+      "gabarito": "Resposta pessoal. Valorizar qualquer descrição com os três elementos pedidos.",
+      "objetivo_pedagogico": "Registrar patrimônio cultural vivido como forma de valorização da diversidade.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Essa festa acontece todo ano? De onde veio essa tradição?",
+        "O que você mais gosta nessa festa?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção escrita sobre cultura vivida com três dimensões."
+    }
+  },
+  {
+    "id": "his-2-u3-n1",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u3",
+    "unidade_titulo": "História da Nossa Cidade",
+    "habilidade_bncc_codigo": "EF02HI04",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.03 — Fundação e transformação das cidades",
+    "objetivo": "Reconhecer que as cidades têm uma história e passam por transformações.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Como as cidades eram há muitos anos atrás, comparadas com as de hoje?",
+    "conteudo_base": {
+      "opcoes": [
+        "Exatamente iguais às de hoje",
+        "Menores, sem carros, com poucas construções",
+        "Maiores e mais modernas do que hoje",
+        "Não existiam cidades antes"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica que cidades existiam antes e eram menores e diferentes.",
+      "Reconhece transformação histórica das cidades."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar foto antiga e atual da mesma cidade.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: pense em como era a vida sem carros, asfalto ou prédios altos."
+    },
+    "modo_professor": {
+      "gabarito": "Menores, sem carros, com poucas construções — as cidades cresceram com o tempo.",
+      "objetivo_pedagogico": "Introduzir noção de transformação histórica do espaço urbano.",
+      "perguntas_orientadoras": [
+        "Como você acha que era a sua cidade há 100 anos?",
+        "O que fez as cidades crescerem?",
+        "O que ainda existe da cidade antiga?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: comparação simples passado/presente com opções claras."
+    }
+  },
+  {
+    "id": "his-2-u3-n2",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u3",
+    "unidade_titulo": "História da Nossa Cidade",
+    "habilidade_bncc_codigo": "EF02HI04",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.03 — Fundação e transformação das cidades",
+    "objetivo": "Ordenar etapas do crescimento de uma cidade ao longo do tempo.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque em ordem as etapas do crescimento de uma cidade.",
+    "conteudo_base": {
+      "itens": [
+        "Chegada de muitas pessoas e construção de prédios",
+        "Pequeno grupo de pessoas se instala num lugar",
+        "Formação de ruas, comércio e escola",
+        "A cidade cresce e ganha transporte público"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: instalação → ruas/comércio → crescimento populacional → transporte.",
+      "Compreende crescimento urbano como processo gradual."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar linha do tempo visual no quadro.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: tudo começa com as primeiras pessoas que chegam. O que vem depois?"
+    },
+    "modo_professor": {
+      "gabarito": "Grupo instala-se → ruas e comércio → chegada de mais pessoas → transporte público.",
+      "objetivo_pedagogico": "Compreender urbanização como processo histórico gradual.",
+      "perguntas_orientadoras": [
+        "O que uma cidade precisa ter para crescer?",
+        "Por que o transporte vem depois do comércio?",
+        "O que acontece com as cidades quando crescem demais?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de processo histórico com 4 etapas."
+    }
+  },
+  {
+    "id": "his-2-u3-n3",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u3",
+    "unidade_titulo": "História da Nossa Cidade",
+    "habilidade_bncc_codigo": "EF02HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.04 — Patrimônio histórico local",
+    "objetivo": "Identificar um lugar histórico da sua cidade e explicar sua importância.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha um lugar antigo da sua cidade ou bairro e escreva sobre ele.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "lugar",
+          "label": "Qual lugar você escolheu?",
+          "max": 100
+        },
+        {
+          "id": "historia",
+          "label": "O que você sabe sobre a história desse lugar?",
+          "max": 250
+        },
+        {
+          "id": "importancia",
+          "label": "Por que esse lugar é importante para a comunidade?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica lugar histórico local.",
+      "Descreve algum aspecto de sua história.",
+      "Justifica a importância comunitária."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sugerir lugares históricos da cidade.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pode ser uma praça, uma igreja, um mercado, uma escola antiga — qualquer lugar com história!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: lugar identificado, alguma informação histórica, justificativa de importância.",
+      "objetivo_pedagogico": "Valorizar patrimônio histórico local como memória coletiva.",
+      "perguntas_orientadoras": [
+        "Você já visitou esse lugar?",
+        "Como você ficou sabendo dessa história?",
+        "O que aconteceria se esse lugar fosse demolido?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: pesquisa local e valorização do patrimônio."
     }
   }
 ]

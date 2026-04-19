@@ -16,6 +16,8 @@ import { render as renderArrastar } from '../activities/arrastar.js';
 import { render as renderEscrever } from '../activities/escrever.js';
 import { renderMascote, setEstado as mascoteEstado } from '../mascote.js';
 import { render as renderDesenhar } from '../activities/desenhar.js';
+import { renderCacaPalavras }       from '../activities/cacapalavras.js';
+import { renderCruzadas }           from '../activities/cruzadas.js';
 import { play as playSound } from '../sound.js';
 
 /**
@@ -223,11 +225,13 @@ function _despacharMotor(container, atividade) {
     onErro:   () => { playSound('erro');   mascoteEstado('erro',   2000); },
   };
   switch (atividade.tipo_evidencia) {
-    case 'marcar':   renderMarcar(engineInner, atividade, opts);   break;
-    case 'ordenar':  renderOrdenar(engineInner, atividade, opts);  break;
-    case 'arrastar': renderArrastar(engineInner, atividade, opts); break;
-    case 'escrever':  renderEscrever(engineInner, atividade, opts);  break;
-    case 'desenhar':  renderDesenhar(engineInner, atividade, opts);  break;
+    case 'marcar':        renderMarcar(engineInner, atividade, opts);          break;
+    case 'ordenar':       renderOrdenar(engineInner, atividade, opts);         break;
+    case 'arrastar':      renderArrastar(engineInner, atividade, opts);        break;
+    case 'escrever':      renderEscrever(engineInner, atividade, opts);        break;
+    case 'desenhar':      renderDesenhar(engineInner, atividade, opts);        break;
+    case 'caca_palavras': renderCacaPalavras(engineInner, atividade, opts);    break;
+    case 'cruzadas':      renderCruzadas(engineInner, atividade, opts);        break;
     default:
       engineInner.textContent = `Tipo de atividade "${atividade.tipo_evidencia}" ainda não disponível.`;
   }

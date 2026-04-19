@@ -57,14 +57,41 @@
     "enunciado": "Arrasta cada elemento para a paisagem em que ele é mais típico.",
     "conteudo_base": {
       "itens": [
-        { "id": "i1", "label": "Plantação de soja",           "categoria": "Campo" },
-        { "id": "i2", "label": "Semáforo e faixa de pedestre", "categoria": "Cidade" },
-        { "id": "i3", "label": "Curral com animais",           "categoria": "Campo" },
-        { "id": "i4", "label": "Shopping center",              "categoria": "Cidade" },
-        { "id": "i5", "label": "Silo de armazenamento de grãos","categoria": "Campo" },
-        { "id": "i6", "label": "Metrô subterrâneo",            "categoria": "Cidade" }
+        {
+          "id": "i1",
+          "label": "Plantação de soja",
+          "categoria": "Campo"
+        },
+        {
+          "id": "i2",
+          "label": "Semáforo e faixa de pedestre",
+          "categoria": "Cidade"
+        },
+        {
+          "id": "i3",
+          "label": "Curral com animais",
+          "categoria": "Campo"
+        },
+        {
+          "id": "i4",
+          "label": "Shopping center",
+          "categoria": "Cidade"
+        },
+        {
+          "id": "i5",
+          "label": "Silo de armazenamento de grãos",
+          "categoria": "Campo"
+        },
+        {
+          "id": "i6",
+          "label": "Metrô subterrâneo",
+          "categoria": "Cidade"
+        }
       ],
-      "categorias": ["Campo", "Cidade"]
+      "categorias": [
+        "Campo",
+        "Cidade"
+      ]
     },
     "criterios_sucesso": [
       "Classifica corretamente os seis elementos em campo e cidade.",
@@ -102,9 +129,21 @@
     "enunciado": "Pense na paisagem que você vê ao sair da escola ou da sua casa. Descreva essa paisagem identificando pelo menos dois elementos naturais e dois elementos construídos pelo ser humano.",
     "conteudo_base": {
       "campos": [
-        { "id": "naturais",    "label": "Dois elementos naturais que você vê:",          "max": 200 },
-        { "id": "construidos", "label": "Dois elementos construídos que você vê:",       "max": 200 },
-        { "id": "caracteriza", "label": "Essa paisagem é mais urbana ou rural? Por quê?","max": 150 }
+        {
+          "id": "naturais",
+          "label": "Dois elementos naturais que você vê:",
+          "max": 200
+        },
+        {
+          "id": "construidos",
+          "label": "Dois elementos construídos que você vê:",
+          "max": 200
+        },
+        {
+          "id": "caracteriza",
+          "label": "Essa paisagem é mais urbana ou rural? Por quê?",
+          "max": 150
+        }
       ]
     },
     "criterios_sucesso": [
@@ -187,10 +226,22 @@
     "enunciado": "Arrasta cada ponto cardeal para a posição correta na rosa dos ventos.",
     "conteudo_base": {
       "pares": [
-        { "elemento": "Onde o sol nasce",     "nome": "Leste"  },
-        { "elemento": "Oposto ao Leste",      "nome": "Oeste"  },
-        { "elemento": "Polo Norte aponta aqui","nome": "Norte" },
-        { "elemento": "Oposto ao Norte",      "nome": "Sul"    }
+        {
+          "elemento": "Onde o sol nasce",
+          "nome": "Leste"
+        },
+        {
+          "elemento": "Oposto ao Leste",
+          "nome": "Oeste"
+        },
+        {
+          "elemento": "Polo Norte aponta aqui",
+          "nome": "Norte"
+        },
+        {
+          "elemento": "Oposto ao Norte",
+          "nome": "Sul"
+        }
       ]
     },
     "criterios_sucesso": [
@@ -229,8 +280,16 @@
     "enunciado": "Descreva o caminho de sua casa até a escola usando pelo menos dois pontos de referência (ex.: padaria, semáforo, praça) e mencione as direções (direita, esquerda, reto).",
     "conteudo_base": {
       "campos": [
-        { "id": "trajeto",     "label": "Descreva o trajeto passo a passo:",           "max": 350 },
-        { "id": "referencias", "label": "Quais pontos de referência você usou e por quê?","max": 200 }
+        {
+          "id": "trajeto",
+          "label": "Descreva o trajeto passo a passo:",
+          "max": 350
+        },
+        {
+          "id": "referencias",
+          "label": "Quais pontos de referência você usou e por quê?",
+          "max": 200
+        }
       ]
     },
     "criterios_sucesso": [
@@ -253,6 +312,166 @@
       ],
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "Nível 3: produção de descrição espacial com linguagem de orientação."
+    }
+  },
+  {
+    "id": "geo-3-u3-n1",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u3",
+    "unidade_titulo": "Regiões e Diversidade do Brasil",
+    "habilidade_bncc_codigo": "EF03GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.S.02 — Regiões do Brasil e suas características",
+    "objetivo": "Reconhecer as cinco regiões do Brasil e uma característica de cada uma.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual região do Brasil é conhecida pelo semiárido e a caatinga?",
+    "conteudo_base": {
+      "opcoes": [
+        "Norte",
+        "Sudeste",
+        "Nordeste",
+        "Sul"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Associa Nordeste ao semiárido e caatinga.",
+      "Distingue Nordeste das outras regiões."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar mapa do Brasil com as 5 regiões destacadas.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o Nordeste tem um clima muito seco em boa parte, com uma vegetação chamada caatinga."
+    },
+    "modo_professor": {
+      "gabarito": "Nordeste — caracterizado pelo semiárido, caatinga e São Francisco.",
+      "objetivo_pedagogico": "Reconhecer características físicas de cada região.",
+      "perguntas_orientadoras": [
+        "Qual região tem a maior floresta tropical?",
+        "O Sul é mais quente ou mais frio que o Norte?",
+        "Qual região tem São Paulo e Rio de Janeiro?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: associação direta de uma região a uma característica marcante."
+    }
+  },
+  {
+    "id": "geo-3-u3-n2",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u3",
+    "unidade_titulo": "Regiões e Diversidade do Brasil",
+    "habilidade_bncc_codigo": "EF03GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.S.02 — Regiões do Brasil e suas características",
+    "objetivo": "Associar cada região do Brasil a uma de suas principais características.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada região à sua característica principal.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Norte",
+          "nome": "Maior floresta tropical do mundo"
+        },
+        {
+          "elemento": "Nordeste",
+          "nome": "Semiárido e caatinga"
+        },
+        {
+          "elemento": "Centro-Oeste",
+          "nome": "Cerrado e pantanal"
+        },
+        {
+          "elemento": "Sudeste",
+          "nome": "Região mais populosa e industrializada"
+        },
+        {
+          "elemento": "Sul",
+          "nome": "Clima temperado e cultura europeia"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa todas as regiões às suas características corretamente.",
+      "Reconhece diversidade regional brasileira."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mapa colorido das regiões com imagens representativas.",
+      "resposta": "Arrastar chip para o destino correto.",
+      "engajamento": "Dica: pense no que é mais famoso em cada região — clima, vegetação, população."
+    },
+    "modo_professor": {
+      "gabarito": "Norte→floresta | Nordeste→caatinga | Centro-Oeste→cerrado | Sudeste→mais populoso | Sul→europeu.",
+      "objetivo_pedagogico": "Reconhecer a diversidade física e cultural das regiões brasileiras.",
+      "perguntas_orientadoras": [
+        "Você mora em qual região?",
+        "Por que o Sudeste é mais industrializado?",
+        "A cultura europeia chegou ao Sul por qual processo histórico?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de 5 regiões a características múltiplas."
+    }
+  },
+  {
+    "id": "geo-3-u3-n3",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u3",
+    "unidade_titulo": "Regiões e Diversidade do Brasil",
+    "habilidade_bncc_codigo": "EF03GE05",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.S.03 — Diversidade cultural regional",
+    "objetivo": "Descrever características culturais da região em que vive.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Qual é a região do Brasil onde você mora? Descreva o clima, a cultura e algo que torna sua região especial.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "regiao",
+          "label": "Em qual região você mora?",
+          "max": 80
+        },
+        {
+          "id": "clima",
+          "label": "Como é o clima?",
+          "max": 150
+        },
+        {
+          "id": "cultura",
+          "label": "Quais são as tradições ou costumes da sua região?",
+          "max": 200
+        },
+        {
+          "id": "especial",
+          "label": "O que torna sua região especial para você?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica a região corretamente.",
+      "Descreve algum aspecto do clima.",
+      "Menciona ao menos uma tradição ou costume regional."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar com características de Santa Catarina / Sul.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense nas festas, comidas, músicas e jeito de falar das pessoas da sua região."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Sul: clima temperado, festas alemãs/italianas, churrasco, sotaque. Verificar: região, clima e tradição.",
+      "objetivo_pedagogico": "Desenvolver identidade regional e valorização da diversidade cultural.",
+      "perguntas_orientadoras": [
+        "O que é diferente na sua região em relação às outras?",
+        "Você já visitou outra região? O que achou diferente?",
+        "Por que é importante valorizar a cultura regional?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre identidade e cultura regional."
     }
   }
 ]

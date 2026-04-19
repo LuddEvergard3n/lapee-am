@@ -305,5 +305,174 @@
       "tempo_estimado": "8 minutos",
       "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
     }
+  },
+  {
+    "id": "geo-4-u3-n1",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u3",
+    "unidade_titulo": "Recursos Naturais e Sustentabilidade",
+    "habilidade_bncc_codigo": "EF04GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.N.02 — Recursos naturais e uso sustentável",
+    "objetivo": "Distinguir recursos naturais renováveis de não renováveis.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual recurso natural se renova naturalmente?",
+    "conteudo_base": {
+      "opcoes": [
+        "Petróleo",
+        "Carvão mineral",
+        "Energia solar",
+        "Gás natural"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica energia solar como renovável.",
+      "Reconhece combustíveis fósseis como não renováveis."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de usina solar e poço de petróleo.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: renovável é o que nunca acaba — o sol vai brilhar por bilhões de anos ainda!"
+    },
+    "modo_professor": {
+      "gabarito": "Energia solar — inesgotável enquanto o sol existir.",
+      "objetivo_pedagogico": "Introduzir distinção entre recursos renováveis e não renováveis.",
+      "perguntas_orientadoras": [
+        "Por que o petróleo vai acabar?",
+        "Quais outros recursos são renováveis?",
+        "O que acontece quando um recurso não renovável acaba?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste claro com exemplos do cotidiano."
+    }
+  },
+  {
+    "id": "geo-4-u3-n2",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u3",
+    "unidade_titulo": "Recursos Naturais e Sustentabilidade",
+    "habilidade_bncc_codigo": "EF04GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.N.02 — Recursos naturais e uso sustentável",
+    "objetivo": "Classificar ações humanas como sustentáveis ou insustentáveis.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada ação: sustentável ou insustentável?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Reciclar o lixo doméstico",
+          "categoria": "Sustentável"
+        },
+        {
+          "id": "i2",
+          "label": "Desmatar para plantar soja",
+          "categoria": "Insustentável"
+        },
+        {
+          "id": "i3",
+          "label": "Usar energia solar na casa",
+          "categoria": "Sustentável"
+        },
+        {
+          "id": "i4",
+          "label": "Jogar lixo no rio",
+          "categoria": "Insustentável"
+        },
+        {
+          "id": "i5",
+          "label": "Plantar árvores nas cidades",
+          "categoria": "Sustentável"
+        },
+        {
+          "id": "i6",
+          "label": "Usar agrotóxico em excesso",
+          "categoria": "Insustentável"
+        }
+      ],
+      "categorias": [
+        "Sustentável",
+        "Insustentável"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica reciclagem, energia solar e plantio de árvores como sustentáveis.",
+      "Reconhece desmatamento, poluição e agrotóxico como insustentáveis."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar o que os alunos fazem em casa para cuidar do ambiente.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: sustentável é o que pode continuar sem destruir o ambiente para as próximas gerações."
+    },
+    "modo_professor": {
+      "gabarito": "Sustentável: reciclar, solar, plantar árvores. Insustentável: desmatamento, lixo no rio, agrotóxico.",
+      "objetivo_pedagogico": "Desenvolver consciência ambiental aplicada ao conceito de sustentabilidade.",
+      "perguntas_orientadoras": [
+        "O que significa 'sustentável'?",
+        "Que ação sustentável você já pratica?",
+        "Por que agrotóxico em excesso é problema?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com ações do cotidiano."
+    }
+  },
+  {
+    "id": "geo-4-u3-n3",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u3",
+    "unidade_titulo": "Recursos Naturais e Sustentabilidade",
+    "habilidade_bncc_codigo": "EF04GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.N.03 — Preservação ambiental e consumo consciente",
+    "objetivo": "Propor ações sustentáveis para a escola ou comunidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Sua escola quer ser mais sustentável. Proponha 3 ações e explique por que elas ajudariam.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "acao1",
+          "label": "Ação 1 e por quê:",
+          "max": 200
+        },
+        {
+          "id": "acao2",
+          "label": "Ação 2 e por quê:",
+          "max": 200
+        },
+        {
+          "id": "acao3",
+          "label": "Ação 3 e por quê:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Propõe 3 ações diferentes.",
+      "Justifica cada ação com argumento ambiental.",
+      "As ações são viáveis no contexto escolar."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer um diagnóstico ambiental da escola junto à turma.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em água, energia, lixo — o que a escola poderia fazer diferente em cada um desses?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Exemplos: torneiras com sensor (água), painéis solares (energia), composteira (lixo orgânico). Verificar: 3 ações com justificativa.",
+      "objetivo_pedagogico": "Desenvolver pensamento propositivo e responsabilidade ambiental.",
+      "perguntas_orientadoras": [
+        "Qual ação seria mais fácil de implementar?",
+        "Você já conversou com a direção sobre sustentabilidade na escola?",
+        "Como convenceria colegas a participar?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: proposta de ação com justificativa — pensamento projetivo."
+    }
   }
 ]

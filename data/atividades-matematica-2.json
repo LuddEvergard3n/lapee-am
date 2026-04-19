@@ -4,43 +4,40 @@
     "ano": 2,
     "componente": "Matemática",
     "unidade_id": "mat-2-u1",
-    "unidade_titulo": "Adição e Subtração",
-    "habilidade_bncc_codigo": "EF02MA03",
-    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.01 — Adição e subtração: situações-problema até 100",
-    "objetivo": "Resolver problemas de adição e subtração com números até 100.",
+    "unidade_titulo": "Adição e Subtração até 100",
+    "habilidade_bncc_codigo": "EF02MA04",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.01",
+    "objetivo": "Resolver adição simples até 100.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
     "tempo_medio_min": 5,
-    "enunciado": "Tem 8 pássaros no galho. 3 vão embora. Quantos ficam?",
+    "enunciado": "Tem 23 crianças na sala. Chegaram mais 14. Quantas crianças ficaram na sala?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "8 pássaros − 3 = ?",
       "opcoes": [
-        "4",
-        "5",
-        "6",
-        "11"
+        "27",
+        "36",
+        "37",
+        "38"
       ],
-      "resposta_correta": 1
+      "resposta_correta": 2
     },
     "criterios_sucesso": [
-      "Resolve subtração simples com apoio de contexto concreto."
+      "Calcula 23 + 14 = 37 corretamente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode pedir que a criança represente com os dedos ou objetos.",
-      "resposta": "Clica na resposta certa.",
-      "engajamento": "Conta nos dedos: começa em 8 e tira 3. Onde para?"
+      "apresentacao": "Representar a situação com palitos ou dedos antes de calcular.",
+      "resposta": "Clique no resultado correto.",
+      "engajamento": "23 crianças mais 14 — você pode juntar as dezenas e depois as unidades!"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Subtração dentro de 10, com contexto de situação-problema.",
-      "gabarito": "5 — 8 menos 3 é 5.",
+      "gabarito": "37 — 23 + 14 = 37.",
+      "objetivo_pedagogico": "Resolver adições com dois termos de dois algarismos sem reagrupamento.",
       "perguntas_orientadoras": [
-        "Quantos tinham no começo?",
-        "Quantos foram embora?",
-        "O que a gente faz quando algo vai embora — soma ou subtrai?"
+        "Como você calculou?",
+        "Você somou as dezenas separado das unidades?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: subtração com números pequenos, contexto concreto e familiar."
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: adição sem reagrupamento, contexto de sala de aula."
     }
   },
   {
@@ -48,43 +45,40 @@
     "ano": 2,
     "componente": "Matemática",
     "unidade_id": "mat-2-u1",
-    "unidade_titulo": "Adição e Subtração",
-    "habilidade_bncc_codigo": "EF02MA03",
-    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.01 — Adição e subtração: situações-problema até 100",
-    "objetivo": "Resolver problemas de adição e subtração com números até 100.",
+    "unidade_titulo": "Adição e Subtração até 100",
+    "habilidade_bncc_codigo": "EF02MA05",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02",
+    "objetivo": "Resolver subtração com contexto.",
     "nivel": 2,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 7,
-    "enunciado": "Ana tem 34 figurinhas. Ela ganhou mais 25. Quantas ela tem agora?",
+    "tempo_medio_min": 6,
+    "enunciado": "A padaria tinha 50 pães. Vendeu 28. Quantos pães sobraram?",
     "conteudo_base": {
-      "tipo": "escolha_simples",
-      "texto": "34 + 25 = ?",
       "opcoes": [
-        "49",
-        "59",
-        "69",
-        "58"
+        "12",
+        "22",
+        "32",
+        "78"
       ],
       "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Resolve adição de dois números de dois algarismos sem reagrupamento."
+      "Calcula 50 − 28 = 22 e interpreta a situação de subtração corretamente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode escrever a conta no quadro para apoio visual.",
-      "resposta": "Clica na resposta certa.",
-      "engajamento": "Soma as unidades primeiro: 4 + 5. Depois as dezenas: 3 + 2."
+      "apresentacao": "Usar material dourado ou palitos para representar 50 e retirar 28.",
+      "resposta": "Clique no resultado correto.",
+      "engajamento": "Se tinham 50 e venderam 28, sobrou mais ou menos que 50?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Adição de dois números de dois algarismos, sem reagrupamento.",
-      "gabarito": "59 — 34 + 25 = 59.",
+      "gabarito": "22 — 50 − 28 = 22.",
+      "objetivo_pedagogico": "Resolver subtração com reagrupamento em contexto de situação-problema.",
       "perguntas_orientadoras": [
-        "Quais são as dezenas de cada número?",
-        "Quais são as unidades?",
-        "Como a gente soma cada parte?"
+        "Como você sabia que era subtração?",
+        "Pode conferir somando 22 + 28?"
       ],
-      "tempo_estimado": "7 minutos",
-      "adaptacao_nivel": "Nível 2: adição de dois algarismos sem reagrupamento, contexto narrativo."
+      "tempo_estimado": "5 a 7 minutos",
+      "adaptacao_nivel": "N2: subtração com reagrupamento, exige identificação da operação."
     }
   },
   {
@@ -92,49 +86,47 @@
     "ano": 2,
     "componente": "Matemática",
     "unidade_id": "mat-2-u1",
-    "unidade_titulo": "Adição e Subtração",
-    "habilidade_bncc_codigo": "EF02MA03",
-    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.01 — Adição e subtração: situações-problema até 100",
-    "objetivo": "Resolver problemas de adição e subtração com números até 100.",
+    "unidade_titulo": "Adição e Subtração até 100",
+    "habilidade_bncc_codigo": "EF02MA05",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02",
+    "objetivo": "Resolver problema de dois passos com adição e subtração.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
     "tempo_medio_min": 10,
-    "enunciado": "Lê o problema e resolve os dois passos.",
+    "enunciado": "Carla tinha 45 figurinhas. Ganhou 20 de presente e deu 13 para a amiga. Com quantas ficou?",
     "conteudo_base": {
-      "tipo": "escrita_livre",
-      "texto": "Pedro tinha 45 bolinhas de gude. Ele perdeu 18 numa brincadeira, mas depois ganhou 27 de um amigo.",
       "campos": [
         {
-          "id": "passo1",
-          "label": "Qual é a conta do primeiro passo? Quanto sobrou depois de perder 18?",
-          "max": 100
+          "id": "p1",
+          "label": "Passo 1 — depois do presente (conta e resultado):",
+          "max": 80
         },
         {
-          "id": "passo2",
-          "label": "Qual é a conta do segundo passo? Quantas bolinhas Pedro tem no final?",
-          "max": 100
+          "id": "p2",
+          "label": "Passo 2 — depois de dar para a amiga (conta e resultado):",
+          "max": 80
         }
       ]
     },
     "criterios_sucesso": [
-      "Identifica e resolve os dois passos do problema em sequência.",
-      "Usa subtração e depois adição corretamente."
+      "Resolve 45 + 20 = 65 e 65 − 13 = 52 em sequência.",
+      "Registra as operações com clareza."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor lê o problema em partes, destacando cada ação.",
-      "resposta": "Escreve a conta de cada passo. Não precisa só do resultado — mostra como pensou.",
-      "engajamento": "Quantas bolinhas ele tinha? O que aconteceu primeiro? E depois?"
+      "apresentacao": "Ler o problema em voz alta pausando em cada evento. Desenhar na lousa se necessário.",
+      "resposta": "Escrever a conta e o resultado de cada passo.",
+      "engajamento": "Quantas figurinhas Carla tem após ganhar o presente? Agora tira 13 desse resultado."
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Resolver problema de dois passos com subtração e adição até 100.",
-      "gabarito": "Passo 1: 45 − 18 = 27. Passo 2: 27 + 27 = 54.",
+      "gabarito": "P1: 45+20=65. P2: 65−13=52. Carla ficou com 52 figurinhas.",
+      "objetivo_pedagogico": "Resolver situação-problema de dois passos com operações combinadas.",
       "perguntas_orientadoras": [
-        "Quantas operações temos que fazer?",
-        "Qual operação vem primeiro?",
-        "O resultado do primeiro passo é usado no segundo?"
+        "Por que você somou no passo 1?",
+        "Por que subtraiu no passo 2?",
+        "Como você verifica se está certo?"
       ],
-      "tempo_estimado": "10 minutos",
-      "adaptacao_nivel": "Nível 3: problema de dois passos, exige planejamento sequencial."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: dois passos, operações distintas, registro do raciocínio."
     }
   },
   {
@@ -142,41 +134,40 @@
     "ano": 2,
     "componente": "Matemática",
     "unidade_id": "mat-2-u2",
-    "unidade_titulo": "Medidas e Tempo",
-    "habilidade_bncc_codigo": "EF02MA17",
-    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02 — Medidas de comprimento, massa e tempo no cotidiano",
-    "objetivo": "Desenvolver habilidades de medidas e tempo.",
+    "unidade_titulo": "Medidas de Comprimento e Tempo",
+    "habilidade_bncc_codigo": "EF02MA20",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.M.01",
+    "objetivo": "Identificar unidades de comprimento no cotidiano.",
     "nivel": 1,
     "tipo_evidencia": "marcar",
-    "tempo_medio_min": 5,
-    "enunciado": "Uma criança nasceu em janeiro. Em que mês ela vai completar 6 meses?",
+    "tempo_medio_min": 4,
+    "enunciado": "Qual unidade usamos para medir a altura de uma pessoa?",
     "conteudo_base": {
       "opcoes": [
-        "Março",
-        "Junho",
-        "Julho",
-        "Agosto"
+        "Quilômetro",
+        "Metro",
+        "Litro",
+        "Grama"
       ],
-      "resposta_correta": 2
+      "resposta_correta": 1
     },
     "criterios_sucesso": [
-      "Calcula intervalos de tempo com meses do calendário."
+      "Associa metro à medida de altura de pessoas."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Conta os meses a partir de janeiro: fevereiro, março..."
+      "apresentacao": "Mostrar uma fita métrica e medir a altura de um aluno antes da atividade.",
+      "resposta": "Clique na unidade correta.",
+      "engajamento": "Quanto você mede? Seu professor usaria km ou m para dizer sua altura?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar medidas e tempo de forma progressiva.",
-      "gabarito": "Julho — janeiro + 6 meses = julho.",
+      "gabarito": "Metro — unidade usada para alturas de pessoas e móveis.",
+      "objetivo_pedagogico": "Reconhecer unidades de comprimento e associá-las a usos cotidianos adequados.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Quando usamos quilômetro?",
+        "Para medir um lápis, qual unidade usamos?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 1: reconhecimento com apoio."
+      "tempo_estimado": "3 a 5 minutos",
+      "adaptacao_nivel": "N1: escolha de unidade para contexto específico, distratores incluem unidades de outras grandezas."
     }
   },
   {
@@ -184,46 +175,45 @@
     "ano": 2,
     "componente": "Matemática",
     "unidade_id": "mat-2-u2",
-    "unidade_titulo": "Medidas e Tempo",
-    "habilidade_bncc_codigo": "EF02MA17",
-    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02 — Medidas de comprimento, massa e tempo no cotidiano",
-    "objetivo": "Desenvolver habilidades de medidas e tempo.",
+    "unidade_titulo": "Medidas de Comprimento e Tempo",
+    "habilidade_bncc_codigo": "EF02MA21",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.M.02",
+    "objetivo": "Ordenar medidas de comprimento da menor para a maior.",
     "nivel": 2,
     "tipo_evidencia": "ordenar",
-    "tempo_medio_min": 5,
-    "enunciado": "Coloca as unidades de medida de comprimento em ordem, da menor para a maior.",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloca as medidas de comprimento em ordem, da menor para a maior.",
     "conteudo_base": {
       "itens": [
-        "Milímetro (mm)",
-        "Centímetro (cm)",
-        "Metro (m)",
-        "Quilômetro (km)"
+        "1 centímetro",
+        "1 metro",
+        "1 decímetro",
+        "1 quilômetro"
       ],
       "ordem_correta": [
         0,
-        1,
         2,
+        1,
         3
       ]
     },
     "criterios_sucesso": [
-      "Ordena unidades de medida de comprimento por grandeza."
+      "Ordena cm < dm < m < km corretamente."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa: o que é menor — a espessura de uma folha ou o comprimento de um campo de futebol?"
+      "apresentacao": "Mostrar objetos ou exemplos de cada medida: 1 cm (comprimento de uma unha), 1 dm (um palmo), 1 m (porta), 1 km (distância para a escola).",
+      "resposta": "Arrastar as medidas na ordem crescente.",
+      "engajamento": "Qual é menor: o tamanho de uma formiga ou o tamanho de uma porta?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar medidas e tempo de forma progressiva.",
-      "gabarito": "mm é menor que cm, que é menor que m, que é menor que km.",
+      "gabarito": "cm → dm → m → km.",
+      "objetivo_pedagogico": "Compreender a hierarquia das unidades métricas de comprimento.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Quantos centímetros têm um metro?",
+        "1 km é mais ou menos que 1000 m?"
       ],
-      "tempo_estimado": "5 minutos",
-      "adaptacao_nivel": "Nível 2: aplicação com complexidade crescente."
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro unidades, ordem não trivial (inclui decímetro)."
     }
   },
   {
@@ -231,51 +221,202 @@
     "ano": 2,
     "componente": "Matemática",
     "unidade_id": "mat-2-u2",
-    "unidade_titulo": "Medidas e Tempo",
-    "habilidade_bncc_codigo": "EF02MA17",
-    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.02 — Medidas de comprimento, massa e tempo no cotidiano",
-    "objetivo": "Desenvolver habilidades de medidas e tempo.",
+    "unidade_titulo": "Medidas de Comprimento e Tempo",
+    "habilidade_bncc_codigo": "EF02MA20",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.M.01",
+    "objetivo": "Aplicar medidas de comprimento em situação real.",
     "nivel": 3,
     "tipo_evidencia": "escrever",
-    "tempo_medio_min": 8,
-    "enunciado": "Descreve como você usaria medidas no seu dia. Quando você usaria metros? E centímetros? E quilômetros?",
+    "tempo_medio_min": 10,
+    "enunciado": "Pensa em três coisas que você mediria com unidades diferentes. Escreve o que mediria e com qual unidade.",
     "conteudo_base": {
       "campos": [
         {
-          "id": "metros",
-          "label": "Quando eu usaria metros:",
-          "max": 120
+          "id": "m1",
+          "label": "Coisa 1 e a unidade que usaria (cm, m ou km):",
+          "max": 80
         },
         {
-          "id": "cm",
-          "label": "Quando eu usaria centímetros:",
-          "max": 120
+          "id": "m2",
+          "label": "Coisa 2 e a unidade que usaria:",
+          "max": 80
         },
         {
-          "id": "km",
-          "label": "Quando eu usaria quilômetros:",
-          "max": 120
+          "id": "m3",
+          "label": "Coisa 3 e a unidade que usaria:",
+          "max": 80
         }
       ]
     },
     "criterios_sucesso": [
-      "Associa unidades de medida a situações do cotidiano."
+      "Associa objetos ou distâncias a unidades de comprimento adequadas.",
+      "Justifica implicitamente a escolha pela escala do objeto."
     ],
     "adaptacoes_dua": {
-      "apresentacao": "Professor pode ler o enunciado em voz alta. Use o botão Ouvir.",
-      "resposta": "Responda clicando, arrastando ou escrevendo conforme o tipo da atividade.",
-      "engajamento": "Pensa no tamanho de um quarto, de um lápis, de uma viagem..."
+      "apresentacao": "Deixar uma lista de objetos visível na lousa para o aluno escolher.",
+      "resposta": "Escrever o nome da coisa e a unidade.",
+      "engajamento": "A distância da sua casa à escola usaria cm ou km? E o seu pé?"
     },
     "modo_professor": {
-      "objetivo_pedagogico": "Trabalhar medidas e tempo de forma progressiva.",
-      "gabarito": "Metros para alturas e cômodos, centímetros para objetos pequenos, km para distâncias.",
+      "gabarito": "Resposta variada. Exemplos adequados: lápis→cm, porta→m, viagem→km. Discutir qualquer resposta com justificativa.",
+      "objetivo_pedagogico": "Transferir o conhecimento de unidades para situações do cotidiano real.",
       "perguntas_orientadoras": [
-        "O que você entendeu do enunciado?",
-        "Qual estratégia você usou?",
-        "Você consegue explicar sua resposta?"
+        "Por que você não usaria km para medir o lápis?",
+        "E se você errasse a unidade, o que aconteceria na medida?"
       ],
-      "tempo_estimado": "8 minutos",
-      "adaptacao_nivel": "Nível 3: produção ou análise autônoma."
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção livre, escolha e justificativa implícita de unidade."
+    }
+  },
+  {
+    "id": "mat-2-u3-n1",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u3",
+    "unidade_titulo": "Introdução à Multiplicação",
+    "habilidade_bncc_codigo": "EF02MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.04 — Multiplicação como adição de parcelas iguais",
+    "objetivo": "Reconhecer multiplicação como adição de parcelas iguais.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Tem 3 caixas com 4 lápis cada. Qual conta representa isso?",
+    "conteudo_base": {
+      "opcoes": [
+        "3+4",
+        "3×4",
+        "4+3+4",
+        "4÷3"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece 3×4 como representação de 3 grupos de 4.",
+      "Distingue multiplicação de adição simples."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar 3 caixas com 4 pontinhos.",
+      "resposta": "Marcar a conta correta.",
+      "engajamento": "Dica: 3 grupos iguais de 4 — quando temos grupos iguais, usamos a multiplicação."
+    },
+    "modo_professor": {
+      "gabarito": "3×4 — três grupos de quatro.",
+      "objetivo_pedagogico": "Introduzir o conceito de multiplicação como agrupamento.",
+      "perguntas_orientadoras": [
+        "3+4 e 3×4 dão o mesmo resultado?",
+        "Se as caixas tivessem quantidades diferentes, poderia usar multiplicação?",
+        "Como você lê 3×4 em palavras?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: situação concreta com agrupamento visual."
+    }
+  },
+  {
+    "id": "mat-2-u3-n2",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u3",
+    "unidade_titulo": "Introdução à Multiplicação",
+    "habilidade_bncc_codigo": "EF02MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.04 — Multiplicação como adição de parcelas iguais",
+    "objetivo": "Calcular multiplicações simples usando a tabuada do 2, 5 e 10.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Marque todas as contas cujo resultado é 20. (Marque todas que se aplicam.)",
+    "conteudo_base": {
+      "opcoes": [
+        "2×10",
+        "4×5",
+        "10×2",
+        "3×6",
+        "5×4"
+      ],
+      "respostas_corretas": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica todas as multiplicações com resultado 20.",
+      "Calcula corretamente ao menos 3 das 4."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode escrever a tabuada do 2, 5 e 10 no quadro.",
+      "resposta": "Marcar todas as opções corretas.",
+      "engajamento": "Dica: calcule cada uma separadamente e veja quais chegam a 20."
+    },
+    "modo_professor": {
+      "gabarito": "2×10=20, 4×5=20, 10×2=20, 5×4=20. 3×6=18, não é 20.",
+      "objetivo_pedagogico": "Fixar tabuada do 2, 5 e 10 e a propriedade comutativa.",
+      "perguntas_orientadoras": [
+        "2×10 e 10×2 dão o mesmo resultado? Por quê?",
+        "Como você calculou 4×5 sem a tabuada?",
+        "O que 3×6 dá?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: múltipla escolha exige calcular cada opção separadamente."
+    }
+  },
+  {
+    "id": "mat-2-u3-n3",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u3",
+    "unidade_titulo": "Introdução à Multiplicação",
+    "habilidade_bncc_codigo": "EF02MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.05 — Resolução de problemas com multiplicação",
+    "objetivo": "Resolver problema com multiplicação e explicar o raciocínio.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Uma caixa tem 5 laranjas. Se você comprar 4 caixas, quantas laranjas terá? Resolve e explica.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "operacao",
+          "label": "Qual operação você usou?",
+          "max": 100
+        },
+        {
+          "id": "conta",
+          "label": "Escreva a conta:",
+          "max": 60
+        },
+        {
+          "id": "resultado",
+          "label": "Resultado:",
+          "max": 50
+        },
+        {
+          "id": "verificacao",
+          "label": "Como você verificou?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica multiplicação como operação.",
+      "Calcula 5×4=20 ou 4×5=20.",
+      "Explica o raciocínio."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que o aluno desenhe as caixas antes de calcular.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: se cada caixa tem 5, você pode somar 5+5+5+5 ou usar a multiplicação."
+    },
+    "modo_professor": {
+      "gabarito": "4×5=20 laranjas. Verificação: 5+5+5+5=20 ou 20÷4=5.",
+      "objetivo_pedagogico": "Resolver problema de multiplicação com explicação do raciocínio.",
+      "perguntas_orientadoras": [
+        "Por que você multiplicou em vez de somar?",
+        "Você pode verificar dividindo?",
+        "Se fossem 6 caixas, como ficaria a conta?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: resolução de problema com registro e justificativa."
     }
   }
 ]
