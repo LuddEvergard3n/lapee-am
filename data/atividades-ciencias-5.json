@@ -469,5 +469,520 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: reflexão crítica sobre conceito ampliado de saúde."
     }
+  },
+  {
+    "id": "cie-5-u4-n1",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u4",
+    "unidade_titulo": "Tecnologia e Inovação",
+    "habilidade_bncc_codigo": "EF05CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.03 — Ciência, tecnologia e sociedade",
+    "objetivo": "Reconhecer que a tecnologia transforma a vida em sociedade.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual invenção tecnológica transformou a forma como as pessoas se comunicam à distância?",
+    "conteudo_base": {
+      "opcoes": [
+        "A roda",
+        "A internet",
+        "O martelo",
+        "O fogão"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a internet como revolução na comunicação.",
+      "Distingue tecnologias de comunicação das demais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar como os bisavós se comunicavam.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: antes da internet, como uma pessoa no Brasil falaria com alguém no Japão?"
+    },
+    "modo_professor": {
+      "gabarito": "A internet — transformou radicalmente a comunicação global.",
+      "objetivo_pedagogico": "Reconhecer o impacto da tecnologia na comunicação humana.",
+      "perguntas_orientadoras": [
+        "Como sua família se comunicava antes da internet?",
+        "Quais problemas a internet também trouxe?",
+        "O que vem depois da internet?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: tecnologia com impacto evidente e cotidiano."
+    }
+  },
+  {
+    "id": "cie-5-u4-n2",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u4",
+    "unidade_titulo": "Tecnologia e Inovação",
+    "habilidade_bncc_codigo": "EF05CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.03 — Ciência, tecnologia e sociedade",
+    "objetivo": "Classificar inovações tecnológicas pelos setores que impactam.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada inovação pelo setor que ela transformou principalmente.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Vacinas e antibióticos",
+          "categoria": "Saúde"
+        },
+        {
+          "id": "i2",
+          "label": "Computadores e internet",
+          "categoria": "Comunicação e informação"
+        },
+        {
+          "id": "i3",
+          "label": "Trator e irrigação",
+          "categoria": "Agricultura"
+        },
+        {
+          "id": "i4",
+          "label": "Painéis solares",
+          "categoria": "Energia"
+        },
+        {
+          "id": "i5",
+          "label": "Tomografia e ultrassom",
+          "categoria": "Saúde"
+        },
+        {
+          "id": "i6",
+          "label": "Satélites de GPS",
+          "categoria": "Comunicação e informação"
+        }
+      ],
+      "categorias": [
+        "Saúde",
+        "Comunicação e informação",
+        "Agricultura",
+        "Energia"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica vacinas e tomografia na saúde.",
+      "Classifica internet e GPS em comunicação.",
+      "Classifica trator na agricultura."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar cada inovação com impacto real.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: pensa em qual área da vida humana cada invenção mais mudou."
+    },
+    "modo_professor": {
+      "gabarito": "Saúde: vacinas, tomografia. Comunicação: computador, GPS. Agricultura: trator. Energia: solar.",
+      "objetivo_pedagogico": "Reconhecer o impacto multissetorial da inovação tecnológica.",
+      "perguntas_orientadoras": [
+        "Uma mesma tecnologia pode impactar vários setores?",
+        "Qual dessas inovações você considera mais importante?",
+        "O que é inovação disruptiva?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de inovações por setor."
+    }
+  },
+  {
+    "id": "cie-5-u4-n3",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u4",
+    "unidade_titulo": "Tecnologia e Inovação",
+    "habilidade_bncc_codigo": "EF05CI11",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.04 — Impactos positivos e negativos da tecnologia",
+    "objetivo": "Analisar impactos positivos e negativos de uma tecnologia.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha uma tecnologia que você usa no dia a dia e analise seus benefícios e problemas.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "tecnologia",
+          "label": "Qual tecnologia você escolheu?",
+          "max": 80
+        },
+        {
+          "id": "beneficios",
+          "label": "Quais são os benefícios?",
+          "max": 200
+        },
+        {
+          "id": "problemas",
+          "label": "Quais são os problemas ou riscos?",
+          "max": 200
+        },
+        {
+          "id": "conclusao",
+          "label": "No geral, ela faz mais bem ou mal? Por quê?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica tecnologia do cotidiano.",
+      "Lista ao menos 2 benefícios e 2 problemas.",
+      "Apresenta conclusão fundamentada."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sugerir: celular, carro, ar-condicionado.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: nenhuma tecnologia é só boa ou só ruim — tudo tem dois lados."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Ex: celular — benefícios: comunicação, acesso à informação. Problemas: dependência, privacidade, sedentarismo.",
+      "objetivo_pedagogico": "Desenvolver pensamento crítico sobre tecnologia e seus impactos.",
+      "perguntas_orientadoras": [
+        "Você conseguiria passar um dia sem essa tecnologia?",
+        "Os problemas podem ser minimizados?",
+        "Quem decide que tecnologias desenvolvemos?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise crítica de impactos tecnológicos."
+    }
+  },
+  {
+    "id": "cie-5-u4-n1",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u4",
+    "unidade_titulo": "Sistema Solar e Astronomia",
+    "habilidade_bncc_codigo": "EF05CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.01 — Sistema Solar e movimentos da Terra",
+    "objetivo": "Reconhecer a posição da Terra no Sistema Solar.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Em qual posição a Terra se encontra entre os planetas do Sistema Solar?",
+    "conteudo_base": {
+      "opcoes": [
+        "1º (mais próximo do Sol)",
+        "3º",
+        "5º",
+        "8º (mais distante)"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a Terra como 3º planeta do Sistema Solar.",
+      "Demonstra conhecimento da ordem dos planetas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar diagrama do Sistema Solar com planetas ordenados.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: Mercúrio, Vênus, Terra — conte a partir do Sol."
+    },
+    "modo_professor": {
+      "gabarito": "3º planeta: Mercúrio, Vênus, Terra.",
+      "objetivo_pedagogico": "Localizar a Terra no Sistema Solar.",
+      "perguntas_orientadoras": [
+        "Qual é o maior planeta?",
+        "Qual planeta é mais quente — Mercúrio ou Vênus? Por quê?",
+        "O que é a zona habitável?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: posição ordinal da Terra com sequência."
+    }
+  },
+  {
+    "id": "cie-5-u4-n2",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u4",
+    "unidade_titulo": "Sistema Solar e Astronomia",
+    "habilidade_bncc_codigo": "EF05CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.01 — Sistema Solar e movimentos da Terra",
+    "objetivo": "Distinguir rotação de translação e seus efeitos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada fenômeno: causado pela rotação ou pela translação da Terra?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Dia e noite",
+          "categoria": "Rotação"
+        },
+        {
+          "id": "i2",
+          "label": "Estações do ano",
+          "categoria": "Translação"
+        },
+        {
+          "id": "i3",
+          "label": "O sol 'nasce' a cada 24 horas",
+          "categoria": "Rotação"
+        },
+        {
+          "id": "i4",
+          "label": "Um ano ter 365 dias",
+          "categoria": "Translação"
+        },
+        {
+          "id": "i5",
+          "label": "Verão e inverno",
+          "categoria": "Translação"
+        },
+        {
+          "id": "i6",
+          "label": "Fuso horário",
+          "categoria": "Rotação"
+        }
+      ],
+      "categorias": [
+        "Rotação",
+        "Translação"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 fenômenos.",
+      "Distingue o ciclo de 24h (rotação) do ciclo anual (translação)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Demonstrar com bola e lanterna: girar=rotação, órbita=translação.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: rotação = a Terra gira em torno de si (24h). Translação = a Terra orbita o Sol (365 dias)."
+    },
+    "modo_professor": {
+      "gabarito": "Rotação: dia/noite, sol a cada 24h, fuso. Translação: estações, 365 dias, verão/inverno.",
+      "objetivo_pedagogico": "Distinguir os dois movimentos da Terra e seus efeitos.",
+      "perguntas_orientadoras": [
+        "Quanto tempo dura uma rotação completa?",
+        "E uma translação?",
+        "Por que o eixo inclinado da Terra causa as estações?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis fenômenos distribuídos entre dois movimentos."
+    }
+  },
+  {
+    "id": "cie-5-u4-n3",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u4",
+    "unidade_titulo": "Sistema Solar e Astronomia",
+    "habilidade_bncc_codigo": "EF05CI11",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.02 — Lua, marés e eclipses",
+    "objetivo": "Explicar como a Lua influencia as marés e os eclipses.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Como a Lua causa as marés? E o que é um eclipse solar? Explique os dois fenômenos.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "mare",
+          "label": "Como a Lua causa as marés?",
+          "max": 200
+        },
+        {
+          "id": "eclipse",
+          "label": "O que é um eclipse solar e como ocorre?",
+          "max": 200
+        },
+        {
+          "id": "curiosidade",
+          "label": "Qual fenômeno você acha mais fascinante e por quê?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona marés à força gravitacional da Lua sobre a água dos oceanos.",
+      "Explica eclipse solar como alinhamento Lua-Terra-Sol.",
+      "Expressa opinião fundamentada."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar diagrama de eclipse e animação de marés.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: a Lua puxa a água dos oceanos com gravidade. No eclipse, a Lua 'tampa' o Sol quando vista da Terra."
+    },
+    "modo_professor": {
+      "gabarito": "Marés: atração gravitacional lunar sobre oceanos. Eclipse solar: Lua entre Terra e Sol bloqueia a luz solar. Ambos dependem do alinhamento dos três astros.",
+      "objetivo_pedagogico": "Compreender fenômenos astronômicos envolvendo Lua, Terra e Sol.",
+      "perguntas_orientadoras": [
+        "Por que as marés sobem e descem?",
+        "O que é eclipse lunar?",
+        "O eclipse solar pode ser visto a olho nu com segurança?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: dois fenômenos explicados com relação gravitacional."
+    }
+  },
+  {
+    "id": "cie-5-u5-n1",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u5",
+    "unidade_titulo": "Tecnologia e Inovação",
+    "habilidade_bncc_codigo": "EF05CI12",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.03 — Ciência e tecnologia: impactos e ética",
+    "objetivo": "Reconhecer que a tecnologia resolve problemas mas também traz desafios.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é um DESAFIO causado pelo avanço tecnológico?",
+    "conteudo_base": {
+      "opcoes": [
+        "Comunicação mais rápida",
+        "Lixo eletrônico e poluição digital",
+        "Acesso a informações",
+        "Cirurgias mais precisas"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica lixo eletrônico como problema associado à tecnologia.",
+      "Distingue benefícios de desafios tecnológicos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer imagem de depósito de lixo eletrônico.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: celulares e computadores antigos — onde eles vão quando são descartados?"
+    },
+    "modo_professor": {
+      "gabarito": "Lixo eletrônico — problema ambiental crescente com o descarte de tecnologia.",
+      "objetivo_pedagogico": "Desenvolver visão crítica sobre impactos da tecnologia.",
+      "perguntas_orientadoras": [
+        "O que acontece com um celular quando você joga fora?",
+        "Quais substâncias tóxicas têm nos eletrônicos?",
+        "O que é reciclagem de eletrônicos?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação de desafio tecnológico com opções claras."
+    }
+  },
+  {
+    "id": "cie-5-u5-n2",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u5",
+    "unidade_titulo": "Tecnologia e Inovação",
+    "habilidade_bncc_codigo": "EF05CI12",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.03 — Ciência e tecnologia: impactos e ética",
+    "objetivo": "Classificar avanços tecnológicos por seus impactos positivos e negativos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: esse impacto da tecnologia é predominantemente positivo ou negativo?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Vacinas produzidas em laboratório",
+          "categoria": "Positivo"
+        },
+        {
+          "id": "i2",
+          "label": "Acúmulo de lixo eletrônico",
+          "categoria": "Negativo"
+        },
+        {
+          "id": "i3",
+          "label": "Energia solar cada vez mais barata",
+          "categoria": "Positivo"
+        },
+        {
+          "id": "i4",
+          "label": "Fake news espalhadas nas redes",
+          "categoria": "Negativo"
+        },
+        {
+          "id": "i5",
+          "label": "Diagnóstico por imagem (tomografia)",
+          "categoria": "Positivo"
+        },
+        {
+          "id": "i6",
+          "label": "Dependência excessiva de telas",
+          "categoria": "Negativo"
+        }
+      ],
+      "categorias": [
+        "Positivo",
+        "Negativo"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 impactos.",
+      "Reconhece que a mesma tecnologia pode ter faces positivas e negativas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode discutir cada item antes da classificação.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: pense nos efeitos de cada avanço na saúde, no ambiente e nas relações humanas."
+    },
+    "modo_professor": {
+      "gabarito": "Positivo: vacinas, solar, tomografia. Negativo: lixo, fake news, dependência.",
+      "objetivo_pedagogico": "Analisar criticamente os impactos da tecnologia.",
+      "perguntas_orientadoras": [
+        "Pode um avanço ser ao mesmo tempo positivo e negativo?",
+        "As redes sociais — só positivas ou só negativas?",
+        "Quem decide se uma tecnologia é boa ou ruim?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação crítica com impactos variados."
+    }
+  },
+  {
+    "id": "cie-5-u5-n3",
+    "ano": 5,
+    "componente": "Ciências",
+    "unidade_id": "cie-5-u5",
+    "unidade_titulo": "Tecnologia e Inovação",
+    "habilidade_bncc_codigo": "EF05CI13",
+    "referencia_cbtc": "CBTC-SC: CIE.EF5.T.04 — Ética na ciência e tecnologia",
+    "objetivo": "Refletir sobre ética no uso da tecnologia e da ciência.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Cientistas criaram a tecnologia de edição genética (CRISPR) que pode eliminar doenças hereditárias, mas também pode ser usada para 'projetar' bebês com características escolhidas. Você acha isso ético? Por quê?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "posicao",
+          "label": "Você acha ético usar a tecnologia para escolher características dos bebês?",
+          "max": 80
+        },
+        {
+          "id": "argumento",
+          "label": "Seu principal argumento:",
+          "max": 250
+        },
+        {
+          "id": "limite",
+          "label": "Onde você traçaria o limite do uso dessa tecnologia?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Apresenta posição clara.",
+      "Argumenta com base em valores éticos.",
+      "Propõe limite de uso coerente com o argumento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode explicar CRISPR de forma simples.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: eliminar uma doença que mata crianças é diferente de escolher a cor dos olhos — por quê?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: posição argumentada, distinção entre uso terapêutico e cosmético, limite proposto.",
+      "objetivo_pedagogico": "Desenvolver pensamento crítico e ético sobre avanços científicos.",
+      "perguntas_orientadoras": [
+        "Quem decidiria que características são 'melhores'?",
+        "Isso poderia criar desigualdade social?",
+        "Há diferença entre tratar uma doença e melhorar um ser humano saudável?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: dilema ético real com posição argumentada."
+    }
   }
 ]

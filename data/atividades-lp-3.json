@@ -438,5 +438,506 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: produção de gênero instrucional com estrutura formal."
     }
+  },
+  {
+    "id": "lp-3-u4-n1",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u4",
+    "unidade_titulo": "Notícia e Reportagem",
+    "habilidade_bncc_codigo": "EF35LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.06 — Leitura e análise de notícias",
+    "objetivo": "Identificar os elementos básicos de uma notícia (quem, o quê, quando, onde).",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Leia e marque o que responde 'O QUÊ aconteceu': 'Ontem, alunos da Escola Municipal Boa Esperança plantaram 200 árvores no parque central da cidade.'",
+    "conteudo_base": {
+      "opcoes": [
+        "Ontem",
+        "Alunos da Escola Municipal Boa Esperança",
+        "Plantaram 200 árvores no parque central",
+        "No parque central da cidade"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica a ação principal como resposta ao 'o quê'.",
+      "Distingue o quê de quando, quem e onde."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode escrever as perguntas jornalísticas no quadro.",
+      "resposta": "Marcar a opção correta.",
+      "engajamento": "Dica: 'o quê' é o fato, a ação que aconteceu. Não é a pessoa nem o lugar."
+    },
+    "modo_professor": {
+      "gabarito": "Plantaram 200 árvores no parque central — o fato principal.",
+      "objetivo_pedagogico": "Reconhecer as perguntas jornalísticas básicas numa notícia.",
+      "perguntas_orientadoras": [
+        "'Quem' é quem na notícia?",
+        "'Quando' é quando?",
+        "Por que toda notícia precisa responder a essas perguntas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação de elemento único com fragmento explícito."
+    }
+  },
+  {
+    "id": "lp-3-u4-n2",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u4",
+    "unidade_titulo": "Notícia e Reportagem",
+    "habilidade_bncc_codigo": "EF35LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.L.06 — Leitura e análise de notícias",
+    "objetivo": "Associar cada parte da notícia à sua função.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada parte da notícia à sua função.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Título",
+          "nome": "Chamar a atenção e resumir o fato"
+        },
+        {
+          "elemento": "Lide (1º parágrafo)",
+          "nome": "Responder quem, o quê, quando e onde"
+        },
+        {
+          "elemento": "Corpo do texto",
+          "nome": "Detalhar e explicar o fato"
+        },
+        {
+          "elemento": "Fonte",
+          "nome": "Indicar de onde vem a informação"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa título ao resumo.",
+      "Associa lide às perguntas básicas.",
+      "Associa fonte à credibilidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer uma notícia impressa e apontar cada parte.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: o lide é o parágrafo mais importante — ele deve conter tudo o que o leitor precisa saber."
+    },
+    "modo_professor": {
+      "gabarito": "Título→resumo | Lide→quem/o quê | Corpo→detalhes | Fonte→credibilidade.",
+      "objetivo_pedagogico": "Conhecer a estrutura interna de uma notícia jornalística.",
+      "perguntas_orientadoras": [
+        "Por que a fonte é importante?",
+        "Uma notícia sem título seria lida?",
+        "O que é 'notícia falsa' (fake news)?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: estrutura jornalística com 4 partes e funções."
+    }
+  },
+  {
+    "id": "lp-3-u4-n3",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u4",
+    "unidade_titulo": "Notícia e Reportagem",
+    "habilidade_bncc_codigo": "EF35LP08",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.P.05 — Produção de notícia escolar",
+    "objetivo": "Produzir uma notícia sobre um fato da escola ou comunidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreva uma notícia sobre algo que aconteceu na sua escola ou bairro.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "titulo",
+          "label": "Título da notícia:",
+          "max": 100
+        },
+        {
+          "id": "lide",
+          "label": "Primeiro parágrafo (quem, o quê, quando, onde):",
+          "max": 250
+        },
+        {
+          "id": "corpo",
+          "label": "Detalhes e explicações:",
+          "max": 300
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cria título chamativo.",
+      "Lide responde às 4 perguntas básicas.",
+      "Corpo acrescenta informações."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode propor um fato escolar recente como tema.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: sua notícia precisa de um título que chame a atenção e um primeiro parágrafo que conte tudo de uma vez."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: título, lide com quem/o quê/quando/onde, corpo com detalhes.",
+      "objetivo_pedagogico": "Produzir notícia com estrutura jornalística.",
+      "perguntas_orientadoras": [
+        "Seu título dá vontade de ler?",
+        "O lide responde as 4 perguntas?",
+        "Você citou alguma fonte?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção de notícia com estrutura jornalística."
+    }
+  },
+  {
+    "id": "lp-3-u4-n1",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u4",
+    "unidade_titulo": "Substantivos e Adjetivos",
+    "habilidade_bncc_codigo": "EF03LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.G.01 — Classes de palavras: substantivo e adjetivo",
+    "objetivo": "Distinguir substantivos de adjetivos numa frase.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Em 'O cachorro esperto encontrou o osso grande', qual palavra é um SUBSTANTIVO?",
+    "conteudo_base": {
+      "opcoes": [
+        "Esperto",
+        "Cachorro",
+        "Grande",
+        "Encontrou"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica 'cachorro' como substantivo (nome de ser).",
+      "Distingue substantivo de adjetivo e verbo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor escreve a frase no quadro e discute cada palavra.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: substantivo é o nome de uma coisa, ser ou lugar — o que tem nome próprio ou comum?"
+    },
+    "modo_professor": {
+      "gabarito": "Cachorro — nome de um animal, substantivo comum.",
+      "objetivo_pedagogico": "Reconhecer substantivo como classe de palavra que nomeia.",
+      "perguntas_orientadoras": [
+        "'Esperto' nomeia ou caracteriza?",
+        "O que é um adjetivo?",
+        "'Encontrou' é o quê?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: uma frase simples com contraste claro entre as classes."
+    }
+  },
+  {
+    "id": "lp-3-u4-n2",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u4",
+    "unidade_titulo": "Substantivos e Adjetivos",
+    "habilidade_bncc_codigo": "EF03LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.G.01 — Classes de palavras: substantivo e adjetivo",
+    "objetivo": "Classificar palavras em substantivos e adjetivos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada palavra: substantivo ou adjetivo?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Alegre",
+          "categoria": "Adjetivo"
+        },
+        {
+          "id": "i2",
+          "label": "Cidade",
+          "categoria": "Substantivo"
+        },
+        {
+          "id": "i3",
+          "label": "Pequeno",
+          "categoria": "Adjetivo"
+        },
+        {
+          "id": "i4",
+          "label": "Amizade",
+          "categoria": "Substantivo"
+        },
+        {
+          "id": "i5",
+          "label": "Azul",
+          "categoria": "Adjetivo"
+        },
+        {
+          "id": "i6",
+          "label": "Coragem",
+          "categoria": "Substantivo"
+        }
+      ],
+      "categorias": [
+        "Substantivo",
+        "Adjetivo"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente todos os 6 exemplos.",
+      "Reconhece substantivos abstratos (amizade, coragem)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar como testar: 'a ___ ' ou 'o ___' funciona para substantivo.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: se cabe 'o' ou 'a' antes, provavelmente é substantivo. Se caracteriza algo, é adjetivo."
+    },
+    "modo_professor": {
+      "gabarito": "Subst: cidade, amizade, coragem. Adj: alegre, pequeno, azul.",
+      "objetivo_pedagogico": "Classificar substantivos (incluindo abstratos) e adjetivos.",
+      "perguntas_orientadoras": [
+        "'Amizade' é coisa concreta ou abstrata?",
+        "O que torna 'azul' um adjetivo?",
+        "Que frase você criaria com 'coragem'?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: inclui substantivos abstratos como distratores mais difíceis."
+    }
+  },
+  {
+    "id": "lp-3-u4-n3",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u4",
+    "unidade_titulo": "Substantivos e Adjetivos",
+    "habilidade_bncc_codigo": "EF03LP05",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.G.02 — Concordância nominal",
+    "objetivo": "Usar adjetivos com concordância de gênero e número corretos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Reescreva as frases colocando o adjetivo entre parênteses na forma correta:\n1. As meninas são (esperto).\n2. Os livros estão (aberto).\n3. A cidade é (bonito).",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "f1",
+          "label": "Frase 1 corrigida:",
+          "max": 100
+        },
+        {
+          "id": "f2",
+          "label": "Frase 2 corrigida:",
+          "max": 100
+        },
+        {
+          "id": "f3",
+          "label": "Frase 3 corrigida:",
+          "max": 100
+        },
+        {
+          "id": "regra",
+          "label": "Qual é a regra que você usou?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escreve: espertas, abertos, bonita.",
+      "Articula a regra de concordância nominal."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer exemplos adicionais no quadro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o adjetivo tem que combinar com o substantivo em gênero (masculino/feminino) e número (singular/plural)."
+    },
+    "modo_professor": {
+      "gabarito": "1→espertas | 2→abertos | 3→bonita. Regra: adjetivo concorda em gênero e número com o substantivo.",
+      "objetivo_pedagogico": "Aplicar concordância nominal na produção escrita.",
+      "perguntas_orientadoras": [
+        "Por que 'esperto' vira 'espertas' na frase 1?",
+        "O número do adjetivo depende de quê?",
+        "O que muda quando o substantivo é masculino plural?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: aplicação da regra com metalinguagem."
+    }
+  },
+  {
+    "id": "lp-3-u5-n1",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u5",
+    "unidade_titulo": "Verbos e Tempo Verbal",
+    "habilidade_bncc_codigo": "EF03LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.G.03 — Verbos e tempos verbais",
+    "objetivo": "Reconhecer o verbo como palavra que indica ação.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual palavra indica uma ação na frase 'Maria CORREU até a escola'?",
+    "conteudo_base": {
+      "opcoes": [
+        "Maria",
+        "Correu",
+        "Escola",
+        "Até"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica 'correu' como verbo de ação.",
+      "Distingue verbo de substantivo, preposição e nome próprio."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor faz a ação de correr e pergunta como colocaria em palavras.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: verbo é a palavra que mostra o que alguém faz, sente ou é."
+    },
+    "modo_professor": {
+      "gabarito": "Correu — indica ação de deslocamento.",
+      "objetivo_pedagogico": "Reconhecer verbos de ação.",
+      "perguntas_orientadoras": [
+        "Troque 'correu' por outra ação. A frase ainda funciona?",
+        "Maria é verbo ou substantivo?",
+        "Que outros verbos de movimento você conhece?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: verbo de ação clara em frase simples."
+    }
+  },
+  {
+    "id": "lp-3-u5-n2",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u5",
+    "unidade_titulo": "Verbos e Tempo Verbal",
+    "habilidade_bncc_codigo": "EF03LP06",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.G.03 — Verbos e tempos verbais",
+    "objetivo": "Classificar verbos em passado, presente e futuro.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada frase no tempo verbal correto.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Eu estudei ontem.",
+          "categoria": "Passado"
+        },
+        {
+          "id": "i2",
+          "label": "Ela vai viajar amanhã.",
+          "categoria": "Futuro"
+        },
+        {
+          "id": "i3",
+          "label": "Eles brincam agora.",
+          "categoria": "Presente"
+        },
+        {
+          "id": "i4",
+          "label": "Nós comemos o bolo.",
+          "categoria": "Passado"
+        },
+        {
+          "id": "i5",
+          "label": "Você vai ganhar o jogo.",
+          "categoria": "Futuro"
+        },
+        {
+          "id": "i6",
+          "label": "O cachorro late muito.",
+          "categoria": "Presente"
+        }
+      ],
+      "categorias": [
+        "Passado",
+        "Presente",
+        "Futuro"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 exemplos nos três tempos.",
+      "Usa pistas como 'ontem', 'agora', 'amanhã'."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Linha do tempo desenhada no quadro: passado ← hoje → futuro.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: as palavras 'ontem', 'agora' e 'amanhã' são pistas sobre o tempo do verbo."
+    },
+    "modo_professor": {
+      "gabarito": "Passado: estudei, comemos. Presente: brincam, late. Futuro: vai viajar, vai ganhar.",
+      "objetivo_pedagogico": "Reconhecer os três tempos verbais em frases simples.",
+      "perguntas_orientadoras": [
+        "O que muda no verbo quando vai do passado para o presente?",
+        "Como você sabe que 'vai viajar' é futuro?",
+        "Que pista 'ontem' dá sobre o tempo verbal?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três tempos com pistas adverbiais e morfológicas."
+    }
+  },
+  {
+    "id": "lp-3-u5-n3",
+    "ano": 3,
+    "componente": "LP",
+    "unidade_id": "lp-3-u5",
+    "unidade_titulo": "Verbos e Tempo Verbal",
+    "habilidade_bncc_codigo": "EF03LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF3.G.04 — Uso dos tempos verbais na produção",
+    "objetivo": "Produzir um trecho usando os três tempos verbais.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreva três frases sobre você: uma no passado, uma no presente e uma no futuro.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "passado",
+          "label": "Uma coisa que você fez no passado:",
+          "max": 150
+        },
+        {
+          "id": "presente",
+          "label": "Uma coisa que você faz no presente:",
+          "max": 150
+        },
+        {
+          "id": "futuro",
+          "label": "Uma coisa que você quer fazer no futuro:",
+          "max": 150
+        },
+        {
+          "id": "reflexao",
+          "label": "Que verbo você usou em cada tempo?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa verbo no passado.",
+      "Usa verbo no presente.",
+      "Usa verbo no futuro.",
+      "Identifica os verbos usados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que cada aluno compartilhe uma frase.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: ontem eu ___ (passado). Hoje eu ___ (presente). Um dia eu vou ___ (futuro)."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: três tempos verbais distintos e verbo identificado em cada.",
+      "objetivo_pedagogico": "Usar os três tempos verbais com intencionalidade na produção.",
+      "perguntas_orientadoras": [
+        "Você consegue identificar que tempo verbal usou em cada frase?",
+        "O que muda no verbo 'brincar' nos três tempos?",
+        "Como você tornaria a frase do futuro mais específica?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção pessoal com três tempos verbais explicitados."
+    }
   }
 ]

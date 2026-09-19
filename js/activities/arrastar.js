@@ -121,12 +121,12 @@ function _renderPares(container, atividade, opts = {}) {
       const chip = sources.querySelector(`[data-id="${chipId}"]`)
                 ?? container.querySelector(`[data-id="${chipId}"]`);
       if (!chip || chip.classList.contains('placed')) return;
-      _placeChip(chip, slot);
+      _placeChip(chip, slot, sources);
     });
 
     zone.addEventListener('click', () => {
       if (!selRef.value || slot.children.length > 0) return;
-      _placeChip(selRef.value, slot);
+      _placeChip(selRef.value, slot, sources);
       selRef.value = null;
     });
   });
@@ -172,6 +172,20 @@ function _renderCategorias(container, atividade, opts = {}) {
     chip.setAttribute('role', 'button');
     chip.setAttribute('aria-label', item.label);
     expectedMap.set(item.id, item.categoria);
+
+    if (item.imagem) {
+      /* Chip com imagem: exibe foto + legenda */
+      chip.classList.add('drag-chip-imagem');
+      const img = document.createElement('img');
+      img.src = item.imagem;
+      img.alt = item.label;
+      img.draggable = false; /* o drag é no chip pai */
+      const lbl = document.createElement('span');
+      lbl.textContent = item.label;
+      chip.appendChild(img);
+      chip.appendChild(lbl);
+    }
+
     sources.appendChild(chip);
 
     chip.addEventListener('dragstart', (e) => {
@@ -227,12 +241,12 @@ function _renderCategorias(container, atividade, opts = {}) {
       const chip = sources.querySelector(`[data-id="${chipId}"]`)
                 ?? container.querySelector(`[data-id="${chipId}"]`);
       if (!chip || chip.classList.contains('placed')) return;
-      _placeChip(chip, slot);
+      _placeChip(chip, slot, sources);
     });
 
     zone.addEventListener('click', () => {
       if (!selRef.value) return;
-      _placeChip(selRef.value, slot);
+      _placeChip(selRef.value, slot, sources);
       selRef.value = null;
     });
   });
@@ -326,12 +340,12 @@ function _renderBlocos(container, atividade, opts = {}) {
       const chip = sources.querySelector(`[data-id="${chipId}"]`)
                 ?? container.querySelector(`[data-id="${chipId}"]`);
       if (!chip || chip.classList.contains('placed')) return;
-      _placeChip(chip, slot);
+      _placeChip(chip, slot, sources);
     });
 
     zone.addEventListener('click', () => {
       if (!selRef.value) return;
-      _placeChip(selRef.value, slot);
+      _placeChip(selRef.value, slot, sources);
       selRef.value = null;
     });
   });
@@ -344,11 +358,34 @@ function _renderBlocos(container, atividade, opts = {}) {
 
 /* ---- Helpers compartilhados ---- */
 
-function _placeChip(chip, slot) {
+/**
+ * Move o chip para o slot e registra handler de "un-place":
+ * clicar num chip já colocado devolve ele para a zona de fontes.
+ * @param {HTMLElement} chip
+ * @param {HTMLElement} slot
+ * @param {HTMLElement} sources  — zona de origem para devolução
+ */
+function _placeChip(chip, slot, sources) {
   chip.classList.add('placed');
   chip.classList.remove('sel-source');
   chip.draggable = false;
   slot.appendChild(chip);
+
+  /* Un-place: clicar no chip colocado devolve-o à origem */
+  chip._unplaceHandler = () => _unplaceChip(chip, sources);
+  chip.addEventListener('click', chip._unplaceHandler);
+}
+
+/**
+ * Devolve um chip individual à zona de fontes.
+ * Remove o handler de un-place para não acumular listeners.
+ */
+function _unplaceChip(chip, sources) {
+  chip.removeEventListener('click', chip._unplaceHandler);
+  delete chip._unplaceHandler;
+  chip.classList.remove('placed', 'sel-source');
+  chip.draggable = true;
+  sources.appendChild(chip);
 }
 
 /**
@@ -357,12 +394,7 @@ function _placeChip(chip, slot) {
  * Chamado quando o aluno erra para permitir nova tentativa.
  */
 function _returnAllChips(container, sources, selRef) {
-  container.querySelectorAll('.drag-chip.placed').forEach(chip => {
-    chip.classList.remove('placed', 'sel-source');
-    chip.draggable = true;
-    sources.appendChild(chip);
-  });
-  /* Limpa seleção pendente */
+  container.querySelectorAll('.drag-chip.placed').forEach(chip => _unplaceChip(chip, sources));
   sources.querySelectorAll('.drag-chip').forEach(c => c.classList.remove('sel-source'));
   selRef.value = null;
 }

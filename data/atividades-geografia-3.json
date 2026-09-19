@@ -473,5 +473,457 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: reflexão sobre identidade e cultura regional."
     }
+  },
+  {
+    "id": "geo-3-u4-n1",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u4",
+    "unidade_titulo": "Clima e Vegetação",
+    "habilidade_bncc_codigo": "EF03GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.N.02 — Relação entre clima e vegetação",
+    "objetivo": "Reconhecer a relação entre clima e tipo de vegetação.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual tipo de vegetação se desenvolve em regiões com muita chuva e calor?",
+    "conteudo_base": {
+      "opcoes": [
+        "Caatinga",
+        "Cerrado",
+        "Floresta tropical",
+        "Estepe gelada"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Associa floresta tropical a clima quente e chuvoso.",
+      "Distingue vegetações por clima."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar mapa de vegetação do Brasil com clima.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: onde tem muita água e calor, as plantas crescem muito e formam florestas densas."
+    },
+    "modo_professor": {
+      "gabarito": "Floresta tropical — adaptada ao clima quente e úmido.",
+      "objetivo_pedagogico": "Relacionar clima e vegetação.",
+      "perguntas_orientadoras": [
+        "Por que a caatinga tem plantas com espinhos?",
+        "O cerrado tem pouca ou muita chuva?",
+        "O que é vegetação?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: relação clima-vegetação com contraste claro."
+    }
+  },
+  {
+    "id": "geo-3-u4-n2",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u4",
+    "unidade_titulo": "Clima e Vegetação",
+    "habilidade_bncc_codigo": "EF03GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.N.02 — Relação entre clima e vegetação",
+    "objetivo": "Associar biomas brasileiros ao clima correspondente.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada bioma ao clima que predomina nele.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Amazônia",
+          "nome": "Equatorial: quente e muito úmido"
+        },
+        {
+          "elemento": "Caatinga",
+          "nome": "Semiárido: quente e seco"
+        },
+        {
+          "elemento": "Pampa",
+          "nome": "Subtropical: com 4 estações"
+        },
+        {
+          "elemento": "Pantanal",
+          "nome": "Continental: seco no inverno, cheias no verão"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa os 4 biomas aos climas corretamente.",
+      "Reconhece diversidade climática do Brasil."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mapa do Brasil com biomas e climas.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: o clima define o que pode crescer e viver num lugar — biomas e climas são parceiros."
+    },
+    "modo_professor": {
+      "gabarito": "Amazônia→equatorial | Caatinga→semiárido | Pampa→subtropical | Pantanal→continental.",
+      "objetivo_pedagogico": "Relacionar biomas brasileiros a seus climas característicos.",
+      "perguntas_orientadoras": [
+        "Por que o Brasil tem tantos biomas?",
+        "Qual bioma é o mais ameaçado?",
+        "Como o desmatamento afeta o clima?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de 4 biomas com climas distintos."
+    }
+  },
+  {
+    "id": "geo-3-u4-n3",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u4",
+    "unidade_titulo": "Clima e Vegetação",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.N.03 — Mudanças climáticas e seus efeitos",
+    "objetivo": "Explicar o que são mudanças climáticas e como afetam os biomas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O que são mudanças climáticas? Como elas afetam os animais e plantas de um bioma?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "definicao",
+          "label": "O que são mudanças climáticas?",
+          "max": 200
+        },
+        {
+          "id": "causas",
+          "label": "O que as causa?",
+          "max": 150
+        },
+        {
+          "id": "efeitos",
+          "label": "Como afetam animais e plantas de um bioma?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define mudanças climáticas relacionadas ao aquecimento.",
+      "Cita ao menos uma causa humana.",
+      "Descreve efeito em seres vivos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar notícias sobre eventos climáticos extremos.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: quando o clima muda, animais e plantas que estavam adaptados a ele têm dificuldade de sobreviver."
+    },
+    "modo_professor": {
+      "gabarito": "Mudanças: alterações no padrão climático global. Causas: queima de combustíveis, desmatamento. Efeitos: extinções, migração de espécies, derretimento de glaciares.",
+      "objetivo_pedagogico": "Compreender mudanças climáticas e seus impactos na biodiversidade.",
+      "perguntas_orientadoras": [
+        "Qual gás causa o efeito estufa?",
+        "Por que o desmatamento piora o aquecimento?",
+        "O que você pode fazer para reduzir emissões?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: conceito ambiental com causas e consequências."
+    }
+  },
+  {
+    "id": "geo-3-u4-n1",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u4",
+    "unidade_titulo": "Clima e Tempo Atmosférico",
+    "habilidade_bncc_codigo": "EF03GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.N.01 — Clima e tempo atmosférico",
+    "objetivo": "Distinguir clima de tempo atmosférico.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual afirmação descreve o CLIMA (e não o tempo)?",
+    "conteudo_base": {
+      "opcoes": [
+        "Hoje está chovendo em Florianópolis",
+        "Amanhã vai ventar forte",
+        "O Nordeste tem altas temperaturas e poucas chuvas durante o ano",
+        "Ontem fez muito frio aqui"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Distingue clima (padrão de longo prazo) de tempo (condição momentânea).",
+      "Identifica a opção que descreve padrão regional."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar diferença: previsão do tempo (hoje) vs. mapa climático (sempre).",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: clima é o que GERALMENTE acontece numa região. Tempo é o que está acontecendo AGORA."
+    },
+    "modo_professor": {
+      "gabarito": "Nordeste com altas temperaturas e poucas chuvas — padrão climático regional.",
+      "objetivo_pedagogico": "Distinguir clima de tempo atmosférico.",
+      "perguntas_orientadoras": [
+        "A previsão do tempo fala de clima ou de tempo?",
+        "Qual é o clima de Santa Catarina?",
+        "O tempo pode mudar em horas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste direto com exemplos momentâneos vs. permanentes."
+    }
+  },
+  {
+    "id": "geo-3-u4-n2",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u4",
+    "unidade_titulo": "Clima e Tempo Atmosférico",
+    "habilidade_bncc_codigo": "EF03GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.N.01 — Clima e tempo atmosférico",
+    "objetivo": "Associar climas do Brasil a suas características.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada tipo de clima à sua característica principal.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Equatorial",
+          "nome": "Quente e muito úmido o ano todo"
+        },
+        {
+          "elemento": "Semiárido",
+          "nome": "Chuvas escassas e irregulares"
+        },
+        {
+          "elemento": "Subtropical",
+          "nome": "Quatro estações bem definidas"
+        },
+        {
+          "elemento": "Tropical",
+          "nome": "Chuvas no verão e seca no inverno"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 tipos climáticos às características.",
+      "Distingue equatorial de tropical e subtropical."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mapa do Brasil com zonas climáticas coloridas.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: equatorial é o mais quente e úmido, próximo ao Equador. Subtropical tem inverno frio."
+    },
+    "modo_professor": {
+      "gabarito": "Equatorial→quente/úmido | Semiárido→pouca chuva | Subtropical→4 estações | Tropical→chuva no verão.",
+      "objetivo_pedagogico": "Caracterizar os principais tipos climáticos do Brasil.",
+      "perguntas_orientadoras": [
+        "Em qual clima você vive?",
+        "Por que Santa Catarina tem neve às vezes?",
+        "O clima influencia o que as pessoas comem e vestem?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro climas com características que podem confundir tropical e equatorial."
+    }
+  },
+  {
+    "id": "geo-3-u4-n3",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u4",
+    "unidade_titulo": "Clima e Tempo Atmosférico",
+    "habilidade_bncc_codigo": "EF03GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.N.02 — Influência do clima na vida humana",
+    "objetivo": "Explicar como o clima influencia o modo de vida das pessoas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Compare a vida de uma pessoa no semiárido nordestino com a de uma pessoa no Sul do Brasil. Como o clima influencia a alimentação, as roupas e o trabalho de cada uma?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "nordeste",
+          "label": "Vida no semiárido nordestino:",
+          "max": 250
+        },
+        {
+          "id": "sul",
+          "label": "Vida no Sul do Brasil:",
+          "max": 250
+        },
+        {
+          "id": "conclusao",
+          "label": "O que o clima explica sobre essas diferenças?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve influência do clima na alimentação, vestuário ou trabalho de cada região.",
+      "Relaciona diferenças climáticas às diferenças culturais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de cada região com cotidiano das pessoas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: no semiárido, a falta de chuva influencia o que se planta e o que se veste. No Sul frio, o que muda?"
+    },
+    "modo_professor": {
+      "gabarito": "Nordeste: roupas leves, cisterna, xique-xique, charque. Sul: casacos, vinho, agropecuária temperada, fondue.",
+      "objetivo_pedagogico": "Compreender a influência do clima no modo de vida regional.",
+      "perguntas_orientadoras": [
+        "O que é a transposição do São Francisco?",
+        "Por que o Sul produz mais vinho?",
+        "Que adaptações as pessoas do semiárido fazem para lidar com a seca?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: comparação regional com análise de influência climática."
+    }
+  },
+  {
+    "id": "geo-3-u5-n1",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u5",
+    "unidade_titulo": "Urbanização e Problemas Urbanos",
+    "habilidade_bncc_codigo": "EF03GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.S.04 — Problemas urbanos e soluções",
+    "objetivo": "Reconhecer problemas comuns nas cidades brasileiras.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é um problema típico das grandes cidades brasileiras?",
+    "conteudo_base": {
+      "opcoes": [
+        "Excesso de espaços verdes",
+        "Engarrafamentos e falta de transporte público eficiente",
+        "Muitos postos de saúde vazios",
+        "Pouca demanda por energia elétrica"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica engarrafamento e transporte como problemas urbanos reais.",
+      "Distingue de situações positivas ou fictícias."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de trânsito caótico em cidade brasileira.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o que mais incomoda quem vive em cidades grandes? Pense no que você já ouviu sobre São Paulo ou Rio."
+    },
+    "modo_professor": {
+      "gabarito": "Engarrafamentos e transporte público insuficiente — problema crônico das cidades brasileiras.",
+      "objetivo_pedagogico": "Reconhecer problemas urbanos reais.",
+      "perguntas_orientadoras": [
+        "Sua cidade tem problemas de trânsito?",
+        "O que é mobilidade urbana?",
+        "Como o metrô e o BRT ajudam?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: problema urbano real com opções claramente distintas."
+    }
+  },
+  {
+    "id": "geo-3-u5-n2",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u5",
+    "unidade_titulo": "Urbanização e Problemas Urbanos",
+    "habilidade_bncc_codigo": "EF03GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.S.04 — Problemas urbanos e soluções",
+    "objetivo": "Classificar problemas urbanos e possíveis soluções.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada problema à sua solução mais adequada.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Lixo nas ruas",
+          "nome": "Coleta seletiva e educação ambiental"
+        },
+        {
+          "elemento": "Enchentes urbanas",
+          "nome": "Obras de drenagem e arborização"
+        },
+        {
+          "elemento": "Falta de creches",
+          "nome": "Investimento em equipamentos públicos"
+        },
+        {
+          "elemento": "Engarrafamento",
+          "nome": "Ampliar transporte público e ciclovias"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 pares problema-solução.",
+      "Reconhece que cada problema tem soluções específicas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode discutir cada par antes da atividade.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: pense em que tipo de ação resolveria cada problema — individual ou do governo?"
+    },
+    "modo_professor": {
+      "gabarito": "Lixo→coleta | Enchente→drenagem | Falta de creche→investimento | Trânsito→transporte.",
+      "objetivo_pedagogico": "Relacionar problemas urbanos a soluções de planejamento.",
+      "perguntas_orientadoras": [
+        "Quem é responsável por resolver cada problema?",
+        "Você pode contribuir com alguma solução?",
+        "Por que arborizar ajuda nas enchentes?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: problemas e soluções que exigem distinção cuidadosa."
+    }
+  },
+  {
+    "id": "geo-3-u5-n3",
+    "ano": 3,
+    "componente": "Geografia",
+    "unidade_id": "geo-3-u5",
+    "unidade_titulo": "Urbanização e Problemas Urbanos",
+    "habilidade_bncc_codigo": "EF03GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF3.S.05 — Planejamento urbano e cidadania",
+    "objetivo": "Propor soluções para um problema urbano da própria cidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Identifique um problema urbano da sua cidade ou bairro. Explique o problema, sua causa e proponha uma solução.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "problema",
+          "label": "Qual problema você identificou?",
+          "max": 150
+        },
+        {
+          "id": "causa",
+          "label": "O que causa esse problema?",
+          "max": 200
+        },
+        {
+          "id": "solucao",
+          "label": "O que você propõe para resolver?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica problema real e local.",
+      "Explica causa com coerência.",
+      "Propõe solução viável."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer caminhada pelo bairro para observar problemas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: observe o caminho até a escola — o que te incomoda ou parece errado?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: problema real, causa identificada, solução viável.",
+      "objetivo_pedagogico": "Desenvolver olhar crítico sobre o espaço urbano e cidadania ativa.",
+      "perguntas_orientadoras": [
+        "Quem você poderia contactar com essa proposta?",
+        "A solução depende só do governo ou os moradores também podem agir?",
+        "Como você convenceria o prefeito?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: diagnóstico local + proposta de solução cidadã."
+    }
   }
 ]

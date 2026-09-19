@@ -418,5 +418,480 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: reflexão crítica sobre hábitos e impacto nos sistemas."
     }
+  },
+  {
+    "id": "cie-4-u4-n1",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u4",
+    "unidade_titulo": "Sistema Nervoso e Sentidos",
+    "habilidade_bncc_codigo": "EF04CI09",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.05 — Sistema nervoso e órgãos dos sentidos",
+    "objetivo": "Reconhecer os cinco sentidos e seus órgãos.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual órgão do sentido usamos para perceber cheiros?",
+    "conteudo_base": {
+      "opcoes": [
+        "Olhos",
+        "Ouvidos",
+        "Nariz",
+        "Língua"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Associa nariz ao olfato.",
+      "Distingue os cinco órgãos dos sentidos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que os alunos fechem os olhos e identifiquem um cheiro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: qual parte do seu rosto você usa quando sente o cheiro de uma comida gostosa?"
+    },
+    "modo_professor": {
+      "gabarito": "Nariz — responsável pelo olfato.",
+      "objetivo_pedagogico": "Associar cada sentido ao seu órgão receptor.",
+      "perguntas_orientadoras": [
+        "Qual sentido usamos com a língua?",
+        "E com a pele?",
+        "Uma pessoa pode compensar a perda de um sentido com outro?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: associação direta sentido-órgão."
+    }
+  },
+  {
+    "id": "cie-4-u4-n2",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u4",
+    "unidade_titulo": "Sistema Nervoso e Sentidos",
+    "habilidade_bncc_codigo": "EF04CI09",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.05 — Sistema nervoso e órgãos dos sentidos",
+    "objetivo": "Ordenar o caminho do estímulo nervoso do órgão ao cérebro.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Você encosta o dedo numa panela quente. Coloque em ordem o que acontece no seu corpo.",
+    "conteudo_base": {
+      "itens": [
+        "O cérebro interpreta o sinal como 'quente, perigo!'",
+        "O dedo toca a panela quente",
+        "Os nervos enviam sinal ao cérebro",
+        "Você retira o dedo rapidamente"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: toque→sinal nervoso→cérebro→reação.",
+      "Compreende a via do reflexo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode demonstrar com simulação em sala.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: primeiro acontece o contato, depois o corpo reage."
+    },
+    "modo_professor": {
+      "gabarito": "Toque→nervo envia sinal→cérebro interpreta→reação.",
+      "objetivo_pedagogico": "Compreender o arco reflexo e o papel do sistema nervoso.",
+      "perguntas_orientadoras": [
+        "Por que tiramos o dedo antes mesmo de sentir a dor?",
+        "O que é um reflexo?",
+        "Que parte do cérebro controla esses reflexos?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação do arco reflexo com 4 etapas."
+    }
+  },
+  {
+    "id": "cie-4-u4-n3",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u4",
+    "unidade_titulo": "Sistema Nervoso e Sentidos",
+    "habilidade_bncc_codigo": "EF04CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.06 — Cuidados com o sistema nervoso",
+    "objetivo": "Explicar como proteger o sistema nervoso e os órgãos dos sentidos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Nosso sistema nervoso e nossos sentidos podem ser danificados. Como podemos protegê-los? Dê exemplos práticos.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "olhos",
+          "label": "Como proteger a visão?",
+          "max": 150
+        },
+        {
+          "id": "ouvidos",
+          "label": "Como proteger a audição?",
+          "max": 150
+        },
+        {
+          "id": "cerebro",
+          "label": "Como proteger o cérebro?",
+          "max": 150
+        },
+        {
+          "id": "habito",
+          "label": "Qual desses cuidados você já pratica?",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Menciona proteção de visão (óculos, sol).",
+      "Menciona audição (volume, tampões).",
+      "Menciona cérebro (capacete, sono, alimentação)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar que hábitos os alunos já têm.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o capacete protege o cérebro no andar de bicicleta. O que protege seus ouvidos em shows?"
+    },
+    "modo_professor": {
+      "gabarito": "Visão: óculos de sol, luz adequada. Audição: evitar volume alto, tampões. Cérebro: capacete, sono, alimentação saudável.",
+      "objetivo_pedagogico": "Desenvolver hábitos de prevenção para o sistema nervoso e sentidos.",
+      "perguntas_orientadoras": [
+        "Por que o sono é importante para o cérebro?",
+        "A exposição prolongada a sons altos causa que dano?",
+        "Quais profissões exigem proteção especial para os sentidos?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: hábitos preventivos com reflexão pessoal."
+    }
+  },
+  {
+    "id": "cie-4-u4-n1",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u4",
+    "unidade_titulo": "Eletricidade e Magnetismo",
+    "habilidade_bncc_codigo": "EF04CI09",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.F.01 — Eletricidade e circuitos simples",
+    "objetivo": "Reconhecer componentes básicos de um circuito elétrico.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é necessário para que uma lâmpada acenda num circuito simples?",
+    "conteudo_base": {
+      "opcoes": [
+        "Apenas a lâmpada",
+        "Fonte de energia, fios condutores e a lâmpada formando um circuito fechado",
+        "Somente a bateria",
+        "Fios e imã"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica os três elementos: fonte, fios e carga (lâmpada).",
+      "Reconhece a necessidade do circuito fechado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar circuito simples com pilha, fio e LED.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: para a corrente elétrica fluir, ela precisa de um caminho completo — sem interrupção."
+    },
+    "modo_professor": {
+      "gabarito": "Fonte + fios + lâmpada em circuito fechado.",
+      "objetivo_pedagogico": "Identificar componentes essenciais de um circuito elétrico simples.",
+      "perguntas_orientadoras": [
+        "O que acontece se o fio for cortado?",
+        "Por que usamos fios de cobre?",
+        "Um interruptor abre ou fecha o circuito?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: componentes essenciais com foco em circuito fechado."
+    }
+  },
+  {
+    "id": "cie-4-u4-n2",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u4",
+    "unidade_titulo": "Eletricidade e Magnetismo",
+    "habilidade_bncc_codigo": "EF04CI09",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.F.01 — Eletricidade e circuitos simples",
+    "objetivo": "Classificar materiais em condutores e isolantes elétricos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: condutor ou isolante elétrico?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Fio de cobre",
+          "categoria": "Condutor"
+        },
+        {
+          "id": "i2",
+          "label": "Borracha do lápis",
+          "categoria": "Isolante"
+        },
+        {
+          "id": "i3",
+          "label": "Água salgada",
+          "categoria": "Condutor"
+        },
+        {
+          "id": "i4",
+          "label": "Madeira seca",
+          "categoria": "Isolante"
+        },
+        {
+          "id": "i5",
+          "label": "Alumínio",
+          "categoria": "Condutor"
+        },
+        {
+          "id": "i6",
+          "label": "Plástico",
+          "categoria": "Isolante"
+        }
+      ],
+      "categorias": [
+        "Condutor",
+        "Isolante"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica metais como condutores.",
+      "Classifica borracha, madeira, plástico como isolantes.",
+      "Reconhece água salgada como condutor."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode testar com circuito e cada material.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: metais conduzem. Plástico e borracha isolam — por isso os fios elétricos têm capa plástica."
+    },
+    "modo_professor": {
+      "gabarito": "Condutor: cobre, água salgada, alumínio. Isolante: borracha, madeira, plástico.",
+      "objetivo_pedagogico": "Distinguir condutores de isolantes elétricos.",
+      "perguntas_orientadoras": [
+        "Por que os fios têm capa plástica?",
+        "A água pura conduz eletricidade?",
+        "Por que trabalhar com eletricidade molhado é perigoso?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: inclui água salgada como caso não óbvio."
+    }
+  },
+  {
+    "id": "cie-4-u4-n3",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u4",
+    "unidade_titulo": "Eletricidade e Magnetismo",
+    "habilidade_bncc_codigo": "EF04CI10",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.F.02 — Segurança elétrica",
+    "objetivo": "Explicar regras de segurança elétrica e os riscos do uso incorreto.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que é perigoso colocar objetos em tomadas? Escreva três regras de segurança elétrica e explique cada uma.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "perigo",
+          "label": "Por que é perigoso colocar objetos em tomadas?",
+          "max": 200
+        },
+        {
+          "id": "r1",
+          "label": "Regra 1 + explicação:",
+          "max": 150
+        },
+        {
+          "id": "r2",
+          "label": "Regra 2 + explicação:",
+          "max": 150
+        },
+        {
+          "id": "r3",
+          "label": "Regra 3 + explicação:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Explica risco de choque elétrico.",
+      "Propõe 3 regras válidas com justificativa."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagens de situações de risco elétrico.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em situações do dia a dia que envolvem eletricidade e como evitar acidentes."
+    },
+    "modo_professor": {
+      "gabarito": "Perigo: choque elétrico pode matar. Regras: nunca mexa em tomada molhado; não sobrecarregue tomadas; use protetores de tomada com crianças.",
+      "objetivo_pedagogico": "Desenvolver consciência sobre segurança elétrica.",
+      "perguntas_orientadoras": [
+        "O que é um curto-circuito?",
+        "Por que o disjuntor existe?",
+        "Como você identificaria um fio elétrico com defeito?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão crítica sobre risco com proposta de segurança."
+    }
+  },
+  {
+    "id": "cie-4-u5-n1",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u5",
+    "unidade_titulo": "Evolução e Adaptação",
+    "habilidade_bncc_codigo": "EF04CI11",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.05 — Adaptações dos seres vivos ao ambiente",
+    "objetivo": "Reconhecer adaptações de animais ao ambiente onde vivem.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Por que o peixe tem guelras em vez de pulmões?",
+    "conteudo_base": {
+      "opcoes": [
+        "Para nadar mais rápido",
+        "Porque guelras captam oxigênio dissolvido na água",
+        "Porque pulmões não existiam antes",
+        "Porque o peixe escolheu viver na água"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Relaciona guelras à captação de oxigênio na água.",
+      "Compreende guelras como adaptação ao ambiente aquático."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de peixe com guelras destacadas.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o peixe vive num ambiente que tem oxigênio dissolvido na água — como ele capta esse oxigênio?"
+    },
+    "modo_professor": {
+      "gabarito": "Guelras captam O₂ dissolvido na água — adaptação ao ambiente aquático.",
+      "objetivo_pedagogico": "Compreender adaptação como solução evolutiva ao ambiente.",
+      "perguntas_orientadoras": [
+        "Um peixe sobreviveria fora da água? Por quê?",
+        "Que outros animais aquáticos têm guelras?",
+        "O boto (golfinho) tem guelras ou pulmões?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: adaptação funcional direta ao ambiente."
+    }
+  },
+  {
+    "id": "cie-4-u5-n2",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u5",
+    "unidade_titulo": "Evolução e Adaptação",
+    "habilidade_bncc_codigo": "EF04CI11",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.05 — Adaptações dos seres vivos ao ambiente",
+    "objetivo": "Associar adaptações de animais ao ambiente e à função que exercem.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada adaptação ao animal e ambiente correto.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Pelagem grossa e branca",
+          "nome": "Urso polar no Ártico"
+        },
+        {
+          "elemento": "Folhas transformadas em espinhos",
+          "nome": "Cacto no deserto"
+        },
+        {
+          "elemento": "Bico longo e curvo",
+          "nome": "Beija-flor em flores tropicais"
+        },
+        {
+          "elemento": "Pele impermeável e nadadeiras",
+          "nome": "Pinguim no Antártico"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 pares adaptação-organismo.",
+      "Compreende que cada adaptação é resposta ao ambiente específico."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar fotos de cada animal no habitat.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: pense em qual ambiente cada animal vive e o que ele precisa para sobreviver lá."
+    },
+    "modo_professor": {
+      "gabarito": "Pelagem branca→urso polar | Espinhos→cacto | Bico curvo→beija-flor | Nadadeiras→pinguim.",
+      "objetivo_pedagogico": "Relacionar adaptações específicas a ambientes e funções.",
+      "perguntas_orientadoras": [
+        "Por que a pelagem do urso polar é branca?",
+        "O cacto poderia sobreviver numa floresta úmida?",
+        "Por que o beija-flor tem bico comprido?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro pares com ambientes e organismos distintos."
+    }
+  },
+  {
+    "id": "cie-4-u5-n3",
+    "ano": 4,
+    "componente": "Ciências",
+    "unidade_id": "cie-4-u5",
+    "unidade_titulo": "Evolução e Adaptação",
+    "habilidade_bncc_codigo": "EF04CI12",
+    "referencia_cbtc": "CBTC-SC: CIE.EF4.V.06 — Seleção natural e diversidade biológica",
+    "objetivo": "Explicar o conceito de seleção natural com um exemplo.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Numa floresta, borboletas escuras sobrevivem mais que claras porque a casca das árvores é escura. Explique por que isso acontece e como isso se relaciona com seleção natural.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "sobrevivencia",
+          "label": "Por que borboletas escuras sobrevivem mais?",
+          "max": 200
+        },
+        {
+          "id": "selecao",
+          "label": "O que é seleção natural?",
+          "max": 200
+        },
+        {
+          "id": "resultado",
+          "label": "O que acontece com a população de borboletas ao longo do tempo?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona cor escura à camuflagem e menor predação.",
+      "Define seleção natural corretamente.",
+      "Prevê aumento de borboletas escuras na população."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de borboleta na casca de árvore.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: um pássaro caça as borboletas mais visíveis. Quem se camufla melhor escapa."
+    },
+    "modo_professor": {
+      "gabarito": "Escuras: camuflagem protege de predadores. Seleção natural: os mais adaptados sobrevivem e reproduzem. Resultado: proporção de escuras aumenta.",
+      "objetivo_pedagogico": "Compreender seleção natural como mecanismo evolutivo.",
+      "perguntas_orientadoras": [
+        "Darwin é o cientista associado à seleção natural — você conhece?",
+        "Se a cor das árvores mudasse, o que aconteceria?",
+        "O ser vivo 'escolhe' sua adaptação?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise de exemplo clássico de seleção natural."
+    }
   }
 ]

@@ -418,5 +418,450 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: produção criativa com estrutura orientada por campos."
     }
+  },
+  {
+    "id": "lp-2-u4-n1",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u4",
+    "unidade_titulo": "Fábula e Moral",
+    "habilidade_bncc_codigo": "EF02LP25",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.07 — Compreensão de fábulas e identificação da moral",
+    "objetivo": "Identificar a moral de uma fábula.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "A lebre dormiu e perdeu a corrida para a tartaruga. Qual é a moral dessa fábula?",
+    "conteudo_base": {
+      "opcoes": [
+        "Tartarugas são mais rápidas que lebres",
+        "Não se deve dormir durante o dia",
+        "Devagar e sempre se chega ao fim",
+        "Correr é ruim para a saúde"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica a moral como lição de comportamento.",
+      "Distingue moral de detalhe da história."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contar a fábula antes.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a moral não fala de tartarugas ou lebres — fala de algo que vale para a vida de todos."
+    },
+    "modo_professor": {
+      "gabarito": "Devagar e sempre se chega ao fim — persistência vence a arrogância.",
+      "objetivo_pedagogico": "Compreender o conceito de moral como lição universal da fábula.",
+      "perguntas_orientadoras": [
+        "A lebre perdeu por quê?",
+        "Onde você pode aplicar essa moral na sua vida?",
+        "Todas as fábulas têm moral?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: moral clássica conhecida com distratores literais."
+    }
+  },
+  {
+    "id": "lp-2-u4-n2",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u4",
+    "unidade_titulo": "Fábula e Moral",
+    "habilidade_bncc_codigo": "EF02LP25",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.07 — Compreensão de fábulas e identificação da moral",
+    "objetivo": "Ordenar as partes de uma fábula (início, conflito, desfecho, moral).",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as partes da fábula na ordem correta.",
+    "conteudo_base": {
+      "itens": [
+        "A moral: quem engana os outros perde a confiança de todos.",
+        "O lobo gritou 'Socorro, o lobo!' mas ninguém veio.",
+        "Um pastor vivia brincando de gritar que o lobo havia chegado.",
+        "Um dia o lobo de verdade apareceu."
+      ],
+      "ordem_correta": [
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: situação inicial → conflito → desfecho → moral.",
+      "Reconhece estrutura da fábula."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contar a fábula do Pedro e o Lobo.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: toda história começa com uma situação. O conflito muda tudo. O desfecho resolve. A moral ensina."
+    },
+    "modo_professor": {
+      "gabarito": "Pastor brinca → lobo de verdade → ninguém acredita → moral.",
+      "objetivo_pedagogico": "Reconhecer a estrutura narrativa da fábula.",
+      "perguntas_orientadoras": [
+        "Por que a moral vem por último?",
+        "O que é conflito em uma história?",
+        "Você já agiu como o pastor alguma vez?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação da estrutura da fábula com 4 partes."
+    }
+  },
+  {
+    "id": "lp-2-u4-n3",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u4",
+    "unidade_titulo": "Fábula e Moral",
+    "habilidade_bncc_codigo": "EF15LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.P.04 — Criação de fábula com moral",
+    "objetivo": "Criar uma fábula curta com personagens animais e uma moral.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Crie uma fábula com dois animais e uma moral no final.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "animais",
+          "label": "Quais são os dois animais?",
+          "max": 80
+        },
+        {
+          "id": "historia",
+          "label": "O que acontece entre eles?",
+          "max": 300
+        },
+        {
+          "id": "moral",
+          "label": "Qual é a moral da sua fábula?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa dois animais como personagens.",
+      "Conta uma história com início, conflito e desfecho.",
+      "Apresenta uma moral com sentido."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode dar exemplos de animais e conflitos para inspirar.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: nas fábulas, os animais têm personalidades humanas — um pode ser preguiçoso, outro esforçado."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: dois animais, narrativa com conflito, moral coerente com a história.",
+      "objetivo_pedagogico": "Criar texto narrativo com estrutura de fábula e intenção moral.",
+      "perguntas_orientadoras": [
+        "A moral combina com o que aconteceu na história?",
+        "Seus animais têm personalidades diferentes?",
+        "Você poderia ilustrar sua fábula?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação de fábula com estrutura e moral."
+    }
+  },
+  {
+    "id": "lp-2-u4-n1",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u4",
+    "unidade_titulo": "Pontuação e Entonação",
+    "habilidade_bncc_codigo": "EF02LP10",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.04 — Pontuação e sentido do texto",
+    "objetivo": "Reconhecer a função dos sinais de pontuação básicos.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual sinal usamos no final de uma pergunta?",
+    "conteudo_base": {
+      "opcoes": [
+        "Ponto final",
+        "Exclamação",
+        "Interrogação",
+        "Vírgula"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica a interrogação como marcador de pergunta.",
+      "Distingue pontuações básicas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Escrever no quadro exemplos de frase com cada pontuação.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando você quer perguntar algo, a voz sobe no final — qual sinal representa isso?"
+    },
+    "modo_professor": {
+      "gabarito": "Interrogação (?) — indica que a frase é uma pergunta.",
+      "objetivo_pedagogico": "Reconhecer sinais de pontuação e sua função comunicativa.",
+      "perguntas_orientadoras": [
+        "E quando estamos animados ou gritando, qual sinal usamos?",
+        "O ponto final serve para quê?",
+        "A vírgula separa o quê?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: pontuação mais intuitiva com exemplo cotidiano."
+    }
+  },
+  {
+    "id": "lp-2-u4-n2",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u4",
+    "unidade_titulo": "Pontuação e Entonação",
+    "habilidade_bncc_codigo": "EF02LP10",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.04 — Pontuação e sentido do texto",
+    "objetivo": "Associar cada sinal de pontuação à sua função.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada sinal à sua função.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": ".",
+          "nome": "Indicar fim de frase afirmativa"
+        },
+        {
+          "elemento": "?",
+          "nome": "Indicar pergunta"
+        },
+        {
+          "elemento": "!",
+          "nome": "Indicar emoção ou ordem"
+        },
+        {
+          "elemento": ",",
+          "nome": "Fazer uma pausa ou separar itens"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 sinais às funções.",
+      "Distingue interrogação de exclamação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Quadro com exemplos de frases usando cada sinal.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: leia cada frase com o sinal e perceba como muda a entonação da voz."
+    },
+    "modo_professor": {
+      "gabarito": "Ponto→afirmação | ?→pergunta | !→emoção | ,→pausa.",
+      "objetivo_pedagogico": "Sistematizar o conhecimento dos sinais de pontuação básicos.",
+      "perguntas_orientadoras": [
+        "Como sua voz muda quando você lê uma frase com '!'?",
+        "A vírgula pode mudar o sentido de uma frase?",
+        "Tente ler a mesma frase com ponto e com ponto de exclamação."
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro sinais com funções que exigem distinção cuidadosa."
+    }
+  },
+  {
+    "id": "lp-2-u4-n3",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u4",
+    "unidade_titulo": "Pontuação e Entonação",
+    "habilidade_bncc_codigo": "EF02LP11",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.P.02 — Uso correto de pontuação na produção",
+    "objetivo": "Reescrever frases adicionando a pontuação correta e justificar a escolha.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Reescreva as frases abaixo adicionando o sinal de pontuação correto e explique sua escolha:\n1. 'Você quer ir ao parque'\n2. 'Que dia lindo'\n3. 'Hoje vamos estudar matemática, ciências e história'",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "f1",
+          "label": "Frase 1 (com pontuação) + por quê:",
+          "max": 150
+        },
+        {
+          "id": "f2",
+          "label": "Frase 2 (com pontuação) + por quê:",
+          "max": 150
+        },
+        {
+          "id": "f3",
+          "label": "Frase 3 (com pontuação) + por quê:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa interrogação na frase 1.",
+      "Usa exclamação na frase 2.",
+      "Mantém vírgulas e adiciona ponto na frase 3."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê as frases em voz alta com entonação exagerada.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: leia em voz alta e perceba o que sua voz quer fazer no final — perguntar, exclamar ou encerrar?"
+    },
+    "modo_professor": {
+      "gabarito": "1→? (pergunta) | 2→! (admiração) | 3→. (afirmação com vírgulas na lista).",
+      "objetivo_pedagogico": "Aplicar pontuação com justificativa na produção escrita.",
+      "perguntas_orientadoras": [
+        "A pontuação muda o sentido da frase?",
+        "O que acontece se você trocar o '?' pelo '!'?",
+        "Você usaria ponto ou exclamação no final de 'Que dia lindo'?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: aplicação com justificativa — metalinguagem."
+    }
+  },
+  {
+    "id": "lp-2-u5-n1",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u5",
+    "unidade_titulo": "Descrição de Pessoas e Lugares",
+    "habilidade_bncc_codigo": "EF15LP09",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.05 — Leitura e produção de textos descritivos",
+    "objetivo": "Reconhecer características de um texto descritivo.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual trecho é uma descrição?",
+    "conteudo_base": {
+      "opcoes": [
+        "Joana foi à padaria comprar pão.",
+        "Joana tem cabelos cacheados, olhos castanhos e sempre usa uma mochila azul.",
+        "Joana pediu para ir à padaria e a mãe deixou.",
+        "Joana e a mãe discutiram sobre a padaria."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica descrição por enumerar características físicas.",
+      "Distingue descrição de narração."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê os quatro trechos em voz alta.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: um texto descritivo pinta uma imagem com palavras — você consegue visualizar o que está escrito?"
+    },
+    "modo_professor": {
+      "gabarito": "Opção B — lista características físicas sem ação ou conflito.",
+      "objetivo_pedagogico": "Diferenciar texto descritivo de texto narrativo.",
+      "perguntas_orientadoras": [
+        "O que acontece num texto narrativo?",
+        "A descrição precisa ter um verbo de ação?",
+        "Como você descreveria seu colega do lado?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste entre narrativo e descritivo."
+    }
+  },
+  {
+    "id": "lp-2-u5-n2",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u5",
+    "unidade_titulo": "Descrição de Pessoas e Lugares",
+    "habilidade_bncc_codigo": "EF15LP09",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.L.05 — Leitura e produção de textos descritivos",
+    "objetivo": "Identificar adjetivos usados em um texto descritivo.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Leia: 'A praça antiga tinha árvores altas, bancos azuis desgastados e um chafariz redondo.' Marque TODOS os adjetivos do trecho.",
+    "conteudo_base": {
+      "opcoes": [
+        "Antiga",
+        "Árvores",
+        "Alta",
+        "Azuis",
+        "Desgastados",
+        "Chafariz",
+        "Redondo"
+      ],
+      "respostas_corretas": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica os 5 adjetivos: antiga, alta, azuis, desgastados, redondo.",
+      "Exclui substantivos (árvores, chafariz)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sublinhar os adjetivos no quadro após a atividade.",
+      "resposta": "Marcar todas as opções corretas.",
+      "engajamento": "Dica: adjetivo é a palavra que caracteriza o substantivo — diz como ele é."
+    },
+    "modo_professor": {
+      "gabarito": "Antiga, alta, azuis, desgastados, redondo.",
+      "objetivo_pedagogico": "Identificar adjetivos no texto descritivo.",
+      "perguntas_orientadoras": [
+        "Como você sabe que 'árvores' não é adjetivo?",
+        "Retire os adjetivos — o que muda na frase?",
+        "Que adjetivos você usaria para descrever a escola?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: múltipla escolha com distratores substantivos no mesmo trecho."
+    }
+  },
+  {
+    "id": "lp-2-u5-n3",
+    "ano": 2,
+    "componente": "LP",
+    "unidade_id": "lp-2-u5",
+    "unidade_titulo": "Descrição de Pessoas e Lugares",
+    "habilidade_bncc_codigo": "EF15LP10",
+    "referencia_cbtc": "CBTC-SC: LP.EF2.P.04 — Produção de texto descritivo",
+    "objetivo": "Produzir uma descrição de um lugar usando adjetivos variados.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Descreva um lugar que você gosta muito — use pelo menos 5 adjetivos diferentes.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "lugar",
+          "label": "Qual é o lugar?",
+          "max": 80
+        },
+        {
+          "id": "descricao",
+          "label": "Descreva o lugar com detalhes:",
+          "max": 300
+        },
+        {
+          "id": "adjetivos",
+          "label": "Liste os adjetivos que você usou:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica o lugar.",
+      "Usa ao menos 5 adjetivos diferentes.",
+      "A descrição é coerente e detalhada."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que os alunos fechem os olhos e imaginem o lugar.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em cor, tamanho, cheiro, temperatura, som — cada um pode virar um adjetivo!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 5+ adjetivos usados, lugar descrito com detalhes visuais e sensoriais.",
+      "objetivo_pedagogico": "Produzir texto descritivo rico em adjetivos.",
+      "perguntas_orientadoras": [
+        "Sua descrição faz a pessoa sentir que está lá?",
+        "Você usou adjetivos de sentidos diferentes (visão, tato, olfato)?",
+        "Qual adjetivo foi mais difícil de encontrar?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção com meta quantitativa de adjetivos."
+    }
   }
 ]

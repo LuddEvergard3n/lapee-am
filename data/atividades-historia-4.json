@@ -447,5 +447,438 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: análise crítica de condições históricas e conquistas sociais."
     }
+  },
+  {
+    "id": "his-4-u4-n1",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u4",
+    "unidade_titulo": "Revolução e Mudanças Sociais",
+    "habilidade_bncc_codigo": "EF04HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.05 — Abolição da escravidão e movimentos sociais",
+    "objetivo": "Reconhecer a abolição da escravidão como conquista de um movimento social.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Quando a escravidão foi oficialmente abolida no Brasil?",
+    "conteudo_base": {
+      "opcoes": [
+        "1822",
+        "1888",
+        "1945",
+        "1964"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica 1888 como ano da abolição.",
+      "Relaciona abolição à Lei Áurea."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar linha do tempo da história do Brasil.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a lei que acabou com a escravidão no Brasil se chamava Lei Áurea."
+    },
+    "modo_professor": {
+      "gabarito": "1888 — assinatura da Lei Áurea pela Princesa Isabel.",
+      "objetivo_pedagogico": "Situar historicamente a abolição da escravidão no Brasil.",
+      "perguntas_orientadoras": [
+        "O que é a Lei Áurea?",
+        "A abolição resolveu todos os problemas dos ex-escravizados?",
+        "Quem lutou pela abolição?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: dado histórico factual."
+    }
+  },
+  {
+    "id": "his-4-u4-n2",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u4",
+    "unidade_titulo": "Revolução e Mudanças Sociais",
+    "habilidade_bncc_codigo": "EF04HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.05 — Abolição da escravidão e movimentos sociais",
+    "objetivo": "Ordenar eventos que levaram à abolição da escravidão no Brasil.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque em ordem os eventos que levaram ao fim da escravidão no Brasil.",
+    "conteudo_base": {
+      "itens": [
+        "Lei Áurea é assinada (1888)",
+        "Lei do Ventre Livre liberta filhos de escravizadas (1871)",
+        "Movimentos abolicionistas crescem no Brasil",
+        "Lei dos Sexagenários liberta escravizados acima de 60 anos (1885)"
+      ],
+      "ordem_correta": [
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: movimentos→Ventre Livre→Sexagenários→Lei Áurea.",
+      "Compreende abolição como processo gradual."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Linha do tempo no quadro com as datas.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: a abolição não aconteceu de uma hora para outra — foi um processo com várias etapas."
+    },
+    "modo_professor": {
+      "gabarito": "Movimentos→Lei do Ventre Livre(1871)→Sexagenários(1885)→Lei Áurea(1888).",
+      "objetivo_pedagogico": "Compreender a abolição como processo histórico gradual.",
+      "perguntas_orientadoras": [
+        "Por que a Lei Áurea demorou para ser aprovada?",
+        "Quem foram os abolicionistas?",
+        "Zumbi dos Palmares viveu antes ou depois da abolição?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de processo histórico com 4 marcos."
+    }
+  },
+  {
+    "id": "his-4-u4-n3",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u4",
+    "unidade_titulo": "Revolução e Mudanças Sociais",
+    "habilidade_bncc_codigo": "EF04HI09",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.06 — Racismo e desigualdade racial no Brasil",
+    "objetivo": "Refletir sobre o legado da escravidão e o racismo estrutural no Brasil.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "A escravidão acabou em 1888, mas suas consequências ainda existem hoje. Como o racismo ainda afeta a vida de pessoas negras no Brasil? O que pode ser feito?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "consequencias",
+          "label": "Quais são as consequências da escravidão que ainda existem?",
+          "max": 250
+        },
+        {
+          "id": "racismo",
+          "label": "Como o racismo se manifesta hoje?",
+          "max": 250
+        },
+        {
+          "id": "solucoes",
+          "label": "O que você acha que pode ser feito para mudar isso?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Menciona desigualdades como herança da escravidão.",
+      "Cita ao menos uma manifestação do racismo atual.",
+      "Propõe ao menos uma solução."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode apresentar dados de desigualdade racial no Brasil.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pensa em acesso à educação, saúde, trabalho — esses acessos são iguais para todos?"
+    },
+    "modo_professor": {
+      "gabarito": "Consequências: desigualdade econômica, menor acesso à educação/saúde. Racismo: discriminação no trabalho, violência policial. Soluções: políticas afirmativas, educação antirracista.",
+      "objetivo_pedagogico": "Desenvolver consciência sobre racismo estrutural e histórico.",
+      "perguntas_orientadoras": [
+        "O que é racismo estrutural?",
+        "Por que a pobreza no Brasil tem cor?",
+        "O que você pode fazer no cotidiano para combater o racismo?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise crítica de herança histórica e racismo."
+    }
+  },
+  {
+    "id": "his-4-u4-n1",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u4",
+    "unidade_titulo": "Ditadura e Redemocratização",
+    "habilidade_bncc_codigo": "EF04HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.05 — Ditadura militar e redemocratização no Brasil",
+    "objetivo": "Reconhecer o período da ditadura militar brasileira.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que caracterizou a ditadura militar no Brasil (1964–1985)?",
+    "conteudo_base": {
+      "opcoes": [
+        "Eleições livres e pluralidade política",
+        "Censura, repressão e ausência de eleições diretas",
+        "Total liberdade de imprensa",
+        "Governo do povo escolhido democraticamente"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica censura e repressão como características da ditadura.",
+      "Distingue de governo democrático."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagem de jornal censurado.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: durante a ditadura, jornais não podiam publicar certas notícias e as pessoas não podiam votar para presidente."
+    },
+    "modo_professor": {
+      "gabarito": "Censura, repressão e ausência de eleições diretas.",
+      "objetivo_pedagogico": "Caracterizar o período ditatorial brasileiro.",
+      "perguntas_orientadoras": [
+        "O que é censura?",
+        "Quem foi o primeiro presidente eleito depois da ditadura?",
+        "Por que 1985 é um ano importante?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: características diretas da ditadura militar."
+    }
+  },
+  {
+    "id": "his-4-u4-n2",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u4",
+    "unidade_titulo": "Ditadura e Redemocratização",
+    "habilidade_bncc_codigo": "EF04HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.05 — Ditadura militar e redemocratização no Brasil",
+    "objetivo": "Ordenar eventos da ditadura à redemocratização.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque os eventos em ordem cronológica.",
+    "conteudo_base": {
+      "itens": [
+        "Constituição de 1988 — Constituição Cidadã",
+        "Golpe militar de 1964",
+        "Movimento 'Diretas Já' (1984)",
+        "Eleição direta — Collor (1989)"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: golpe(64) → Diretas(84) → Constituição(88) → eleição(89).",
+      "Reconhece sequência da redemocratização."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Linha do tempo no quadro com as datas destacadas.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: use as datas entre parênteses para ordenar."
+    },
+    "modo_professor": {
+      "gabarito": "Golpe 1964 → Diretas Já 1984 → Constituição 1988 → eleição 1989.",
+      "objetivo_pedagogico": "Compreender a transição da ditadura para a democracia no Brasil.",
+      "perguntas_orientadoras": [
+        "O que as pessoas pediam nas Diretas Já?",
+        "Por que a Constituição de 1988 é chamada Cidadã?",
+        "Quem foi o primeiro presidente eleito diretamente após a ditadura?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro eventos com datas explícitas."
+    }
+  },
+  {
+    "id": "his-4-u4-n3",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u4",
+    "unidade_titulo": "Ditadura e Redemocratização",
+    "habilidade_bncc_codigo": "EF04HI09",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.06 — Memória, verdade e justiça",
+    "objetivo": "Refletir sobre a importância da memória histórica sobre a ditadura.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que é importante que o Brasil lembre o que aconteceu durante a ditadura militar? O que significa 'nunca mais' como compromisso histórico?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "importancia",
+          "label": "Por que lembrar a ditadura é importante?",
+          "max": 250
+        },
+        {
+          "id": "nuncamais",
+          "label": "O que significa 'nunca mais' como compromisso?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica com ao menos dois argumentos.",
+      "Relaciona memória à prevenção de repetição."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode apresentar Comissão Nacional da Verdade.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: muitos países que viveram ditaduras criaram comissões para contar a verdade — por quê?"
+    },
+    "modo_professor": {
+      "gabarito": "Importância: honrar vítimas, aprender com erros, fortalecer democracia. Nunca mais: compromisso de não repetir a violação de direitos.",
+      "objetivo_pedagogico": "Desenvolver consciência histórica e compromisso democrático.",
+      "perguntas_orientadoras": [
+        "O que foi a Comissão Nacional da Verdade?",
+        "Por que algumas famílias ainda buscam informações sobre desaparecidos?",
+        "O que você faria se vivesse numa ditadura?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre memória, verdade e democracia."
+    }
+  },
+  {
+    "id": "his-4-u5-n1",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u5",
+    "unidade_titulo": "Migrações e Imigração no Brasil",
+    "habilidade_bncc_codigo": "EF04HI10",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.07 — Imigração e formação cultural do Brasil",
+    "objetivo": "Reconhecer grupos imigrantes que colonizaram o Sul do Brasil.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Quais grupos imigrantes tiveram grande influência na formação cultural do Sul do Brasil?",
+    "conteudo_base": {
+      "opcoes": [
+        "Franceses e espanhóis",
+        "Alemães e italianos",
+        "Americanos e ingleses",
+        "Japoneses e coreanos"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica alemães e italianos como grupos predominantes no Sul.",
+      "Contextualiza imigração europeia no século XIX."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar mapa com cidades de origem alemã e italiana no Sul.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: muitas cidades do Sul têm nomes ou arquitetura que lembram a Europa — isso é herança de quem veio de lá."
+    },
+    "modo_professor": {
+      "gabarito": "Alemães e italianos — grandes grupos imigrantes do Sul a partir do século XIX.",
+      "objetivo_pedagogico": "Reconhecer a imigração europeia como fator formador do Sul brasileiro.",
+      "perguntas_orientadoras": [
+        "Por que eles vieram para o Brasil?",
+        "Que cidades do Sul têm nomes alemães?",
+        "Como essa imigração influencia a culinária e a arquitetura?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: grupo imigrante predominante no contexto regional."
+    }
+  },
+  {
+    "id": "his-4-u5-n2",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u5",
+    "unidade_titulo": "Migrações e Imigração no Brasil",
+    "habilidade_bncc_codigo": "EF04HI10",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.07 — Imigração e formação cultural do Brasil",
+    "objetivo": "Classificar contribuições de diferentes grupos imigrantes à cultura brasileira.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: qual grupo imigrante está mais associado a cada contribuição?",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Arquitetura com enxaimel e cerveja artesanal",
+          "nome": "Alemães"
+        },
+        {
+          "elemento": "Macarrão, pizza e uva vitis vinifera",
+          "nome": "Italianos"
+        },
+        {
+          "elemento": "Sushi, origami e haiku",
+          "nome": "Japoneses"
+        },
+        {
+          "elemento": "Culinária árabe e comércio",
+          "nome": "Libaneses e sírios"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente as quatro contribuições culturais aos grupos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de pratos e construções de cada grupo.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: pense em quais comidas ou tradições você associa a cada país."
+    },
+    "modo_professor": {
+      "gabarito": "Enxaimel/cerveja→alemães | Macarrão/uva→italianos | Sushi→japoneses | Culinária árabe→libaneses.",
+      "objetivo_pedagogico": "Reconhecer contribuições culturais de diferentes grupos imigrantes.",
+      "perguntas_orientadoras": [
+        "Onde no Brasil há maior concentração de japoneses?",
+        "A pizza é italiana mas virou comida brasileira também — como isso acontece?",
+        "Que outros grupos imigrantes vieram para o Brasil?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro grupos com contribuições culturais distintas."
+    }
+  },
+  {
+    "id": "his-4-u5-n3",
+    "ano": 4,
+    "componente": "História",
+    "unidade_id": "his-4-u5",
+    "unidade_titulo": "Migrações e Imigração no Brasil",
+    "habilidade_bncc_codigo": "EF04HI11",
+    "referencia_cbtc": "CBTC-SC: HIS.EF4.C.08 — Identidade cultural e diversidade",
+    "objetivo": "Refletir sobre como a imigração contribuiu para a identidade cultural brasileira.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O Brasil é formado por povos de muitas origens. Como essa diversidade enriquece nossa cultura? Dê exemplos concretos.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "exemplo1",
+          "label": "Um exemplo de contribuição cultural imigrante no Brasil:",
+          "max": 150
+        },
+        {
+          "id": "exemplo2",
+          "label": "Outro exemplo:",
+          "max": 150
+        },
+        {
+          "id": "reflexao",
+          "label": "Como a diversidade torna o Brasil mais rico culturalmente?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Dá dois exemplos concretos e reais.",
+      "Justifica a riqueza da diversidade com argumento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar contribuições de diferentes povos no quadro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o que você come, as músicas que ouve, as festas que frequenta — quantos povos diferentes contribuíram?"
+    },
+    "modo_professor": {
+      "gabarito": "Exemplos: pizza (italiano), samba (africano), churrasco (gaúcho com influência estrangeira), capoeira (africana). Riqueza: mistura cria cultura única.",
+      "objetivo_pedagogico": "Valorizar diversidade cultural como patrimônio nacional.",
+      "perguntas_orientadoras": [
+        "Existe algo puramente 'brasileiro' sem influência de outros povos?",
+        "A diversidade causa conflitos também? Como lidar com isso?",
+        "Por que o Brasil é chamado de 'caldeirão cultural'?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre identidade cultural e diversidade."
+    }
   }
 ]

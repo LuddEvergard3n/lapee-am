@@ -470,5 +470,499 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: conceito ambiental com causas e soluções."
     }
+  },
+  {
+    "id": "cie-3-u4-n1",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u4",
+    "unidade_titulo": "Luz e Som",
+    "habilidade_bncc_codigo": "EF03CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.04 — Propriedades do som e da luz",
+    "objetivo": "Reconhecer que o som se propaga em ondas e precisa de um meio.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Por que não existe som no espaço sideral (onde não há ar)?",
+    "conteudo_base": {
+      "opcoes": [
+        "Porque lá é muito frio",
+        "Porque o som precisa de um meio (ar, água, sólido) para se propagar",
+        "Porque os planetas absorvem o som",
+        "Porque o som só existe na Terra"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica meio de propagação como condição para o som.",
+      "Compreende que o vácuo não conduz som."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar se o aluno já ouviu algo embaixo da água.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o som é uma vibração que precisa 'sacudir' algo. No espaço, não há nada para vibrar."
+    },
+    "modo_professor": {
+      "gabarito": "O som precisa de meio material — no vácuo espacial não há partículas para transmitir a vibração.",
+      "objetivo_pedagogico": "Compreender som como onda mecânica que precisa de meio.",
+      "perguntas_orientadoras": [
+        "O som viaja mais rápido no ar ou na água?",
+        "Por que você ouve um trovão depois de ver o raio?",
+        "O que é vácuo?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: conceito com situação intuitiva do espaço."
+    }
+  },
+  {
+    "id": "cie-3-u4-n2",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u4",
+    "unidade_titulo": "Luz e Som",
+    "habilidade_bncc_codigo": "EF03CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.04 — Propriedades do som e da luz",
+    "objetivo": "Classificar fenômenos como relacionados à luz ou ao som.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada fenômeno: envolve principalmente luz ou som?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Arco-íris",
+          "categoria": "Luz"
+        },
+        {
+          "id": "i2",
+          "label": "Eco numa caverna",
+          "categoria": "Som"
+        },
+        {
+          "id": "i3",
+          "label": "Sombra de um objeto",
+          "categoria": "Luz"
+        },
+        {
+          "id": "i4",
+          "label": "Barulho de trovão",
+          "categoria": "Som"
+        },
+        {
+          "id": "i5",
+          "label": "Reflexo num espelho",
+          "categoria": "Luz"
+        },
+        {
+          "id": "i6",
+          "label": "Vibração de uma corda de violão",
+          "categoria": "Som"
+        }
+      ],
+      "categorias": [
+        "Luz",
+        "Som"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica fenômenos de luz corretamente.",
+      "Classifica fenômenos de som corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode demonstrar sombra com lanterna e eco batendo palma.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: luz viaja em linha reta e forma sombras. Som vibra e pode quicar nas paredes."
+    },
+    "modo_professor": {
+      "gabarito": "Luz: arco-íris, sombra, reflexo. Som: eco, trovão, violão.",
+      "objetivo_pedagogico": "Diferenciar fenômenos luminosos de sonoros.",
+      "perguntas_orientadoras": [
+        "O arco-íris é formado por luz decomposta — mas como?",
+        "O eco é o som indo e voltando — de onde?",
+        "Você consegue ouvir sem ar? E enxergar?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de fenômenos físicos."
+    }
+  },
+  {
+    "id": "cie-3-u4-n3",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u4",
+    "unidade_titulo": "Luz e Som",
+    "habilidade_bncc_codigo": "EF03CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.T.05 — Aplicações da luz e do som no cotidiano",
+    "objetivo": "Explicar como luz e som são usados em tecnologias do cotidiano.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha um aparelho que usa luz OU som e explique como ele funciona e como facilita sua vida.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "aparelho",
+          "label": "Qual aparelho você escolheu?",
+          "max": 80
+        },
+        {
+          "id": "luz_ou_som",
+          "label": "Ele usa luz, som ou os dois?",
+          "max": 80
+        },
+        {
+          "id": "funcionamento",
+          "label": "Como ele funciona (de forma simples)?",
+          "max": 250
+        },
+        {
+          "id": "uso",
+          "label": "Como ele facilita sua vida?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica aparelho com luz ou som.",
+      "Explica funcionamento minimamente.",
+      "Relaciona ao benefício cotidiano."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sugerir: lanterna, telefone, microfone, televisão.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: um telefone usa microfone (som) e tela (luz) ao mesmo tempo!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: aparelho identificado, relação com luz/som, explicação de funcionamento e uso.",
+      "objetivo_pedagogico": "Conectar conceitos de luz e som às tecnologias cotidianas.",
+      "perguntas_orientadoras": [
+        "Você conseguiria viver sem esse aparelho?",
+        "Que ciência está por trás do aparelho que você escolheu?",
+        "Quando foi inventado?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: aplicação tecnológica de fenômenos físicos."
+    }
+  },
+  {
+    "id": "cie-3-u4-n1",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u4",
+    "unidade_titulo": "Luz e Som",
+    "habilidade_bncc_codigo": "EF03CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.F.01 — Propriedades da luz e do som",
+    "objetivo": "Reconhecer que a luz viaja em linha reta.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Por que um objeto opaco cria sombra quando colocado na frente de uma fonte de luz?",
+    "conteudo_base": {
+      "opcoes": [
+        "Porque o objeto absorve toda a luz",
+        "Porque a luz viaja em linha reta e o objeto bloqueia seu caminho",
+        "Porque a sombra é um reflexo do objeto",
+        "Porque o objeto emite luz escura"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Relaciona sombra à propagação retilínea da luz.",
+      "Descarta explicações incorretas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Lanterna e objeto na sala escurecida para demonstrar.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a luz não consegue dobrar para contornar o objeto — ela vai em linha reta."
+    },
+    "modo_professor": {
+      "gabarito": "A luz viaja em linha reta e o objeto opaco bloqueia seu caminho, formando sombra.",
+      "objetivo_pedagogico": "Compreender propagação retilínea da luz.",
+      "perguntas_orientadoras": [
+        "A sombra fica do mesmo lado da luz ou do lado oposto?",
+        "O que acontece com objetos transparentes?",
+        "Por que a sombra muda de tamanho e posição ao longo do dia?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: explicação direta com conceito de propagação."
+    }
+  },
+  {
+    "id": "cie-3-u4-n2",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u4",
+    "unidade_titulo": "Luz e Som",
+    "habilidade_bncc_codigo": "EF03CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.F.01 — Propriedades da luz e do som",
+    "objetivo": "Classificar materiais quanto à passagem de luz.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada material: transparente, translúcido ou opaco?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Vidro de janela limpo",
+          "categoria": "Transparente"
+        },
+        {
+          "id": "i2",
+          "label": "Papel vegetal",
+          "categoria": "Translúcido"
+        },
+        {
+          "id": "i3",
+          "label": "Parede de concreto",
+          "categoria": "Opaco"
+        },
+        {
+          "id": "i4",
+          "label": "Vidro fosco do banheiro",
+          "categoria": "Translúcido"
+        },
+        {
+          "id": "i5",
+          "label": "Ar",
+          "categoria": "Transparente"
+        },
+        {
+          "id": "i6",
+          "label": "Papelão",
+          "categoria": "Opaco"
+        }
+      ],
+      "categorias": [
+        "Transparente",
+        "Translúcido",
+        "Opaco"
+      ]
+    },
+    "criterios_sucesso": [
+      "Distingue transparente (passa toda a luz) de translúcido (passa parcialmente) e opaco (bloqueia)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar amostras dos materiais com lanterna.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: transparente você vê através. Translúcido deixa a luz passar mas não dá para ver nitidamente. Opaco bloqueia tudo."
+    },
+    "modo_professor": {
+      "gabarito": "Transparente: vidro, ar. Translúcido: papel vegetal, vidro fosco. Opaco: parede, papelão.",
+      "objetivo_pedagogico": "Classificar materiais pela interação com a luz.",
+      "perguntas_orientadoras": [
+        "Por que o banheiro usa vidro fosco?",
+        "Um material pode ser ao mesmo tempo transparente e colorido?",
+        "O que é translúcido do ponto de vista físico?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias com exemplos do cotidiano."
+    }
+  },
+  {
+    "id": "cie-3-u4-n3",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u4",
+    "unidade_titulo": "Luz e Som",
+    "habilidade_bncc_codigo": "EF03CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.F.02 — Som: propagação e propriedades",
+    "objetivo": "Explicar como o som se propaga e o que é necessário para ouvirmos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O som precisa de um meio material para se propagar. O que isso significa? Por que no espaço sideral não há som?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "propagacao",
+          "label": "O que significa 'o som precisa de meio material'?",
+          "max": 200
+        },
+        {
+          "id": "espaco",
+          "label": "Por que no espaço sideral não há som?",
+          "max": 200
+        },
+        {
+          "id": "exemplo",
+          "label": "Dê um exemplo cotidiano de som se propagando:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Explica que o som precisa de matéria (ar, água, sólido) para se propagar.",
+      "Associa ausência de atmosfera no espaço à ausência de som.",
+      "Dá exemplo concreto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar vídeo de sino tocando dentro de redoma sem ar.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como o som viaja — ele 'empurra' as partículas do ar. E se não houver ar?"
+    },
+    "modo_professor": {
+      "gabarito": "Som é vibração que precisa de matéria para se propagar. No espaço: vácuo sem partículas. Exemplo: voz, música, trovão.",
+      "objetivo_pedagogico": "Compreender a necessidade de meio material para propagação do som.",
+      "perguntas_orientadoras": [
+        "O som viaja mais rápido no ar ou na água?",
+        "Por que num submarino você escuta sons externos?",
+        "Filmes de ficção científica mostram explosões no espaço com som — isso é correto?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: conceito físico com aplicação e questionamento crítico."
+    }
+  },
+  {
+    "id": "cie-3-u5-n1",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u5",
+    "unidade_titulo": "Cadeia Alimentar",
+    "habilidade_bncc_codigo": "EF03CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.01 — Cadeias e teias alimentares",
+    "objetivo": "Reconhecer os níveis de uma cadeia alimentar simples.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Em uma cadeia: grama → coelho → raposa. O que a raposa é nessa cadeia?",
+    "conteudo_base": {
+      "opcoes": [
+        "Produtor",
+        "Consumidor primário",
+        "Consumidor secundário",
+        "Decompositor"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica raposa como consumidor secundário (come o consumidor primário).",
+      "Compreende a hierarquia da cadeia."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar a cadeia com setas no quadro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quem come a planta é o 1º consumidor. Quem come quem come a planta é o 2º."
+    },
+    "modo_professor": {
+      "gabarito": "Consumidor secundário — a raposa come o coelho que come a grama.",
+      "objetivo_pedagogico": "Reconhecer posições na cadeia alimentar.",
+      "perguntas_orientadoras": [
+        "Quem é o produtor dessa cadeia?",
+        "O que acontece se os coelhos somem?",
+        "Acrescente um nível acima da raposa."
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: cadeia simples de três elos."
+    }
+  },
+  {
+    "id": "cie-3-u5-n2",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u5",
+    "unidade_titulo": "Cadeia Alimentar",
+    "habilidade_bncc_codigo": "EF03CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.01 — Cadeias e teias alimentares",
+    "objetivo": "Ordenar uma cadeia alimentar a partir de dados.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Monte a cadeia alimentar na ordem correta: do produtor ao consumidor final.",
+    "conteudo_base": {
+      "itens": [
+        "Cobra",
+        "Alga",
+        "Gafanhoto",
+        "Sapo"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: alga → gafanhoto → sapo → cobra.",
+      "Compreende a direção da energia na cadeia."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode explicar quem come quem antes da atividade.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: comece com quem faz o próprio alimento (produtor). O que come a alga? O que come esse ser?"
+    },
+    "modo_professor": {
+      "gabarito": "Alga (produtor) → gafanhoto (cons. 1°) → sapo (cons. 2°) → cobra (cons. 3°).",
+      "objetivo_pedagogico": "Montar cadeia alimentar identificando produtores e consumidores.",
+      "perguntas_orientadoras": [
+        "O que acontece com a cobra quando morre?",
+        "Se o sapo for retirado, o que muda?",
+        "As flechas da cadeia indicam o quê?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro elos, ambiente aquático."
+    }
+  },
+  {
+    "id": "cie-3-u5-n3",
+    "ano": 3,
+    "componente": "Ciências",
+    "unidade_id": "cie-3-u5",
+    "unidade_titulo": "Cadeia Alimentar",
+    "habilidade_bncc_codigo": "EF03CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF3.V.02 — Desequilíbrio ecológico e cadeias alimentares",
+    "objetivo": "Analisar o que acontece com a cadeia alimentar quando um elo é removido.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Imagine que todos os sapos de uma região desaparecem. Usando a cadeia 'insetos → sapos → cobras → gavião', explique o que aconteceria com cada ser vivo.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "insetos",
+          "label": "O que aconteceria com os insetos?",
+          "max": 150
+        },
+        {
+          "id": "cobras",
+          "label": "O que aconteceria com as cobras?",
+          "max": 150
+        },
+        {
+          "id": "gaviao",
+          "label": "E com os gaviões?",
+          "max": 150
+        },
+        {
+          "id": "conclusao",
+          "label": "O que isso mostra sobre os ecossistemas?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Prevê aumento de insetos.",
+      "Prevê diminuição de cobras.",
+      "Prevê diminuição de gaviões.",
+      "Generaliza sobre equilíbrio ecológico."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar a cadeia com setas e fazer a análise juntos.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: se o sapo some, quem ficou sem comida? E quem ficou com comida demais?"
+    },
+    "modo_professor": {
+      "gabarito": "Insetos aumentam (sem predador). Cobras diminuem (sem presa). Gaviões diminuem (menos cobras). Lição: cada elo depende dos outros.",
+      "objetivo_pedagogico": "Compreender equilíbrio e desequilíbrio ecológico.",
+      "perguntas_orientadoras": [
+        "O desequilíbrio se propaga para cima ou para baixo na cadeia?",
+        "Isso é chamado de efeito cascata. Por quê?",
+        "Quem pode causar o desaparecimento de uma espécie?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise de efeito cascata em ecossistema."
+    }
   }
 ]

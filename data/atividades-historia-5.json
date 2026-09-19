@@ -472,5 +472,507 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: análise comparativa entre regimes políticos."
     }
+  },
+  {
+    "id": "his-5-u4-n1",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u4",
+    "unidade_titulo": "Globalização e Conflitos Mundiais",
+    "habilidade_bncc_codigo": "EF05HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.05 — Globalização e interdependência",
+    "objetivo": "Reconhecer a globalização como processo de integração mundial.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que melhor define globalização?",
+    "conteudo_base": {
+      "opcoes": [
+        "Cada país vive isolado dos outros",
+        "Integração econômica, cultural e tecnológica entre os países",
+        "Apenas o comércio entre países vizinhos",
+        "Quando um país domina todos os outros"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica globalização como integração multidimensional.",
+      "Distingue globalização de isolacionismo e imperialismo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Perguntar de onde vêm os produtos que os alunos usam.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: seu tênis pode ter sido fabricado na China, com material do Brasil, projetado nos EUA — isso é globalização."
+    },
+    "modo_professor": {
+      "gabarito": "Integração econômica, cultural e tecnológica entre países.",
+      "objetivo_pedagogico": "Introduzir conceito de globalização.",
+      "perguntas_orientadoras": [
+        "Cite 3 produtos estrangeiros que você usa.",
+        "A globalização é boa ou ruim?",
+        "Quem ganha e quem perde com ela?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição de globalização com exemplo concreto."
+    }
+  },
+  {
+    "id": "his-5-u4-n2",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u4",
+    "unidade_titulo": "Globalização e Conflitos Mundiais",
+    "habilidade_bncc_codigo": "EF05HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.05 — Globalização e interdependência",
+    "objetivo": "Classificar impactos da globalização como positivos ou negativos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada impacto da globalização: positivo ou negativo?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Acesso a tecnologias do mundo todo",
+          "categoria": "Positivo"
+        },
+        {
+          "id": "i2",
+          "label": "Empresas fecham fábricas locais para ir a países mais baratos",
+          "categoria": "Negativo"
+        },
+        {
+          "id": "i3",
+          "label": "Comunicação instantânea entre continentes",
+          "categoria": "Positivo"
+        },
+        {
+          "id": "i4",
+          "label": "Homogeneização cultural (culturas locais desaparecem)",
+          "categoria": "Negativo"
+        },
+        {
+          "id": "i5",
+          "label": "Vacinas e medicamentos chegam mais rápido",
+          "categoria": "Positivo"
+        },
+        {
+          "id": "i6",
+          "label": "Crises econômicas se espalham pelo mundo",
+          "categoria": "Negativo"
+        }
+      ],
+      "categorias": [
+        "Positivo",
+        "Negativo"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica tecnologia, comunicação e vacinas como positivos.",
+      "Classifica desindustrialização, homogeneização e crises como negativos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar a pandemia de COVID como exemplo.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: a globalização conecta o mundo — mas o que é bom num lugar pode causar problemas em outro."
+    },
+    "modo_professor": {
+      "gabarito": "Positivos: tecnologia, comunicação, vacinas. Negativos: desindustrialização, homogeneização, crises.",
+      "objetivo_pedagogico": "Analisar a globalização de forma crítica.",
+      "perguntas_orientadoras": [
+        "Um vírus global é positivo ou negativo da globalização?",
+        "Por que culturas locais podem desaparecer?",
+        "Qual país se beneficia mais da globalização?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação crítica de impactos."
+    }
+  },
+  {
+    "id": "his-5-u4-n3",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u4",
+    "unidade_titulo": "Globalização e Conflitos Mundiais",
+    "habilidade_bncc_codigo": "EF05HI09",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.06 — Conflitos globais e direitos humanos",
+    "objetivo": "Analisar um conflito mundial e suas causas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Guerras e conflitos ainda existem no mundo hoje. Por que os países entram em guerra? O que poderia ser feito para evitar conflitos?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "causas",
+          "label": "Quais são as principais causas de guerras e conflitos?",
+          "max": 250
+        },
+        {
+          "id": "consequencias",
+          "label": "Quais são as consequências de uma guerra?",
+          "max": 200
+        },
+        {
+          "id": "solucoes",
+          "label": "O que poderia ser feito para evitar conflitos?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cita ao menos 2 causas de guerra.",
+      "Menciona ao menos 2 consequências.",
+      "Propõe solução como diplomacia ou organismos internacionais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar com conflito atual noticiado.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pensa em território, recursos, religião e poder — são motivos históricos de guerra."
+    },
+    "modo_professor": {
+      "gabarito": "Causas: disputa por território/recursos, conflito religioso/étnico, poder. Consequências: refugiados, mortes, destruição. Soluções: diplomacia, ONU, acordos de paz.",
+      "objetivo_pedagogico": "Analisar conflitos históricos e contemporâneos com pensamento crítico.",
+      "perguntas_orientadoras": [
+        "O que é a ONU e como ela atua em conflitos?",
+        "A guerra resolve os problemas?",
+        "Como o Brasil pode contribuir para a paz mundial?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise de conflito com causas, consequências e soluções."
+    }
+  },
+  {
+    "id": "his-5-u4-n1",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u4",
+    "unidade_titulo": "Grandes Guerras do Século XX",
+    "habilidade_bncc_codigo": "EF05HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.05 — Conflitos mundiais e seus impactos",
+    "objetivo": "Reconhecer causas e consequências da Segunda Guerra Mundial.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual foi uma das principais consequências da Segunda Guerra Mundial (1939–1945)?",
+    "conteudo_base": {
+      "opcoes": [
+        "A criação do Mercosul",
+        "A criação da ONU para promover a paz",
+        "O fim do colonialismo africano imediato",
+        "A independência do Brasil"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa criação da ONU à 2ª Guerra.",
+      "Distingue de eventos históricos de outros contextos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar linha do tempo da 2ª Guerra e criação da ONU.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: depois de uma guerra tão devastadora, os países decidiram criar uma organização para evitar novas guerras."
+    },
+    "modo_professor": {
+      "gabarito": "Criação da ONU em 1945 para promover paz e direitos humanos.",
+      "objetivo_pedagogico": "Relacionar 2ª Guerra à criação de instituições internacionais.",
+      "perguntas_orientadoras": [
+        "O que é a ONU?",
+        "O holocausto aconteceu durante qual guerra?",
+        "Por que a 2ª Guerra foi a mais mortal da história?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: consequência direta com opções de contextos distintos."
+    }
+  },
+  {
+    "id": "his-5-u4-n2",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u4",
+    "unidade_titulo": "Grandes Guerras do Século XX",
+    "habilidade_bncc_codigo": "EF05HI08",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.05 — Conflitos mundiais e seus impactos",
+    "objetivo": "Classificar características das duas guerras mundiais.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: essa característica pertence à 1ª Guerra, à 2ª Guerra, ou a ambas?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Uso de bombas atômicas",
+          "categoria": "2ª Guerra"
+        },
+        {
+          "id": "i2",
+          "label": "Holocausto e genocídio",
+          "categoria": "2ª Guerra"
+        },
+        {
+          "id": "i3",
+          "label": "Milhões de mortes civis e militares",
+          "categoria": "Ambas"
+        },
+        {
+          "id": "i4",
+          "label": "Uso de trincheiras e guerra química",
+          "categoria": "1ª Guerra"
+        },
+        {
+          "id": "i5",
+          "label": "Formação de alianças entre países",
+          "categoria": "Ambas"
+        },
+        {
+          "id": "i6",
+          "label": "Início com assassinato de arquiduque Franz Ferdinand",
+          "categoria": "1ª Guerra"
+        }
+      ],
+      "categorias": [
+        "1ª Guerra",
+        "2ª Guerra",
+        "Ambas"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 itens.",
+      "Distingue características específicas de cada conflito."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Linha do tempo com as duas guerras destacadas.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: a bomba atômica só foi inventada depois de 1939 — então não pode ser da 1ª Guerra."
+    },
+    "modo_professor": {
+      "gabarito": "1ª: trincheiras, Franz Ferdinand. 2ª: bombas atômicas, holocausto. Ambas: mortes em massa, alianças.",
+      "objetivo_pedagogico": "Distinguir características específicas dos dois conflitos.",
+      "perguntas_orientadoras": [
+        "Qual foi mais mortal?",
+        "O Brasil participou de alguma das guerras?",
+        "O que é holocausto?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias com eventos históricos específicos."
+    }
+  },
+  {
+    "id": "his-5-u4-n3",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u4",
+    "unidade_titulo": "Grandes Guerras do Século XX",
+    "habilidade_bncc_codigo": "EF05HI09",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.06 — Direitos humanos e ONU",
+    "objetivo": "Refletir sobre os direitos humanos a partir das lições das guerras mundiais.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "A Declaração Universal dos Direitos Humanos foi criada em 1948, após a 2ª Guerra Mundial. Por que esse documento surgiu nesse momento? Qual direito você considera mais fundamental?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "origem",
+          "label": "Por que a Declaração surgiu após a 2ª Guerra?",
+          "max": 250
+        },
+        {
+          "id": "direito",
+          "label": "Qual direito você considera mais fundamental e por quê?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona a Declaração às atrocidades da 2ª Guerra.",
+      "Escolhe e justifica um direito com argumento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o 1° artigo da Declaração.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: a guerra mostrou o que acontece quando direitos são ignorados — a Declaração tenta garantir que isso não se repita."
+    },
+    "modo_professor": {
+      "gabarito": "Origem: reação às atrocidades da guerra (genocídio, escravidão, tortura). Direito: resposta pessoal com justificativa.",
+      "objetivo_pedagogico": "Relacionar direitos humanos ao contexto histórico que os originou.",
+      "perguntas_orientadoras": [
+        "Quais direitos foram violados durante o holocausto?",
+        "Todos os países respeitam a Declaração?",
+        "O que acontece quando um governo viola direitos humanos?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise histórica + posicionamento pessoal fundamentado."
+    }
+  },
+  {
+    "id": "his-5-u5-n1",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u5",
+    "unidade_titulo": "Brasil Contemporâneo",
+    "habilidade_bncc_codigo": "EF05HI10",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.07 — Brasil contemporâneo e desafios",
+    "objetivo": "Reconhecer desafios do Brasil contemporâneo.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é um desafio atual do Brasil?",
+    "conteudo_base": {
+      "opcoes": [
+        "Falta de energia elétrica em todo o país",
+        "Desigualdade social com grandes diferenças de renda",
+        "Ausência total de indústria",
+        "Falta de território para a população"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica desigualdade social como desafio real e concreto.",
+      "Distingue de problemas fictícios ou superados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar comparativo de renda no Brasil.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o Brasil é um país grande e rico em recursos, mas com muita diferença entre ricos e pobres."
+    },
+    "modo_professor": {
+      "gabarito": "Desigualdade social — um dos maiores desafios do Brasil moderno.",
+      "objetivo_pedagogico": "Reconhecer desigualdade social como problema contemporâneo.",
+      "perguntas_orientadoras": [
+        "O que é Gini?",
+        "Por que o Brasil é desigual?",
+        "O que o governo pode fazer para reduzir a desigualdade?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação de desafio real com opções falsas ou superadas."
+    }
+  },
+  {
+    "id": "his-5-u5-n2",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u5",
+    "unidade_titulo": "Brasil Contemporâneo",
+    "habilidade_bncc_codigo": "EF05HI10",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.07 — Brasil contemporâneo e desafios",
+    "objetivo": "Classificar conquistas e desafios do Brasil contemporâneo.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: é uma conquista ou um desafio do Brasil contemporâneo?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Bolsa Família como política de redução da pobreza",
+          "categoria": "Conquista"
+        },
+        {
+          "id": "i2",
+          "label": "Alta taxa de desmatamento na Amazônia",
+          "categoria": "Desafio"
+        },
+        {
+          "id": "i3",
+          "label": "Expansão do ensino superior público",
+          "categoria": "Conquista"
+        },
+        {
+          "id": "i4",
+          "label": "Violência urbana nas grandes cidades",
+          "categoria": "Desafio"
+        },
+        {
+          "id": "i5",
+          "label": "Pré-sal: descoberta de petróleo offshore",
+          "categoria": "Conquista"
+        },
+        {
+          "id": "i6",
+          "label": "Crise hídrica em várias regiões",
+          "categoria": "Desafio"
+        }
+      ],
+      "categorias": [
+        "Conquista",
+        "Desafio"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 itens.",
+      "Reconhece que avanços e problemas coexistem."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar cada item brevemente.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: conquista é algo que avançou. Desafio é algo que ainda precisa ser resolvido."
+    },
+    "modo_professor": {
+      "gabarito": "Conquista: Bolsa Família, ensino superior, pré-sal. Desafio: desmatamento, violência, crise hídrica.",
+      "objetivo_pedagogico": "Analisar o Brasil contemporâneo com equilíbrio crítico.",
+      "perguntas_orientadoras": [
+        "O pré-sal foi um avanço para quem?",
+        "O desmatamento está aumentando ou diminuindo?",
+        "O que é Bolsa Família?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: seis itens com avaliação crítica do presente."
+    }
+  },
+  {
+    "id": "his-5-u5-n3",
+    "ano": 5,
+    "componente": "História",
+    "unidade_id": "his-5-u5",
+    "unidade_titulo": "Brasil Contemporâneo",
+    "habilidade_bncc_codigo": "EF05HI11",
+    "referencia_cbtc": "CBTC-SC: HIS.EF5.C.08 — Cidadania e futuro do Brasil",
+    "objetivo": "Refletir sobre o papel do cidadão na construção do futuro do Brasil.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Que tipo de país você quer que o Brasil seja quando você for adulto? O que você, como cidadão, pode fazer para contribuir com esse futuro?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "visao",
+          "label": "Que Brasil você quer no futuro?",
+          "max": 200
+        },
+        {
+          "id": "acao",
+          "label": "O que você pode fazer agora para contribuir?",
+          "max": 250
+        },
+        {
+          "id": "inspiracao",
+          "label": "Que pessoa ou movimento histórico te inspira?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve visão de Brasil com ao menos dois aspectos.",
+      "Propõe ação concreta e viável.",
+      "Cita inspiração histórica real."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar que problemas os alunos mais gostariam de resolver.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o presente está sendo construído pelas ações de hoje. O que você pode fazer agora, mesmo sendo estudante?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: visão concreta de futuro, ação viável, inspiração histórica real.",
+      "objetivo_pedagogico": "Desenvolver senso de agência histórica e cidadania ativa.",
+      "perguntas_orientadoras": [
+        "Você se vê como agente da história?",
+        "Que líder histórico você admira e por quê?",
+        "Pequenas ações cotidianas podem mudar o país?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: visão de futuro + ação cidadã + inspiração histórica."
+    }
   }
 ]

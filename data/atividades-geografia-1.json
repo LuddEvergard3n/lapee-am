@@ -463,5 +463,476 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: observação e descrição pessoal da paisagem."
     }
+  },
+  {
+    "id": "geo-1-u4-n1",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u4",
+    "unidade_titulo": "Tempo e Clima",
+    "habilidade_bncc_codigo": "EF01GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.N.04 — Tempo atmosférico e clima",
+    "objetivo": "Distinguir tempo (clima do dia) de clima (padrão de longo prazo).",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "'Hoje está chovendo' é uma informação sobre:",
+    "conteudo_base": {
+      "opcoes": [
+        "O clima da região",
+        "O tempo atmosférico do dia",
+        "A estação do ano",
+        "O relevo do lugar"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica chuva num dia específico como tempo atmosférico.",
+      "Distingue tempo de clima."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar previsão do tempo no celular.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: 'tempo' muda todo dia. 'Clima' é o padrão de muitos anos."
+    },
+    "modo_professor": {
+      "gabarito": "Tempo atmosférico — condição do dia.",
+      "objetivo_pedagogico": "Diferenciar tempo e clima.",
+      "perguntas_orientadoras": [
+        "E 'o nordeste é quente e seco' é tempo ou clima?",
+        "Quem prevê o tempo?",
+        "O clima pode mudar?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: distinção direta com exemplo cotidiano."
+    }
+  },
+  {
+    "id": "geo-1-u4-n2",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u4",
+    "unidade_titulo": "Tempo e Clima",
+    "habilidade_bncc_codigo": "EF01GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.N.04 — Tempo atmosférico e clima",
+    "objetivo": "Associar cada estação do ano às suas características.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada estação do ano à sua característica no Sul do Brasil.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Verão",
+          "nome": "Muito calor e chuvas frequentes"
+        },
+        {
+          "elemento": "Outono",
+          "nome": "Temperaturas amenas e folhas caindo"
+        },
+        {
+          "elemento": "Inverno",
+          "nome": "Frio intenso, possibilidade de geada"
+        },
+        {
+          "elemento": "Primavera",
+          "nome": "Temperaturas agradáveis e flores brotando"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa as 4 estações às características corretas no Sul.",
+      "Reconhece que as estações são bem definidas no Sul."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens das 4 estações.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: pense no que você usa de roupa em cada estação."
+    },
+    "modo_professor": {
+      "gabarito": "Verão→calor/chuva | Outono→ameno/folhas | Inverno→frio/geada | Primavera→flores.",
+      "objetivo_pedagogico": "Conhecer as estações do ano no clima subtropical.",
+      "perguntas_orientadoras": [
+        "O Norte do Brasil tem as mesmas estações?",
+        "Quando começa o inverno?",
+        "Por que as folhas caem no outono?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação das 4 estações com características regionais."
+    }
+  },
+  {
+    "id": "geo-1-u4-n3",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u4",
+    "unidade_titulo": "Tempo e Clima",
+    "habilidade_bncc_codigo": "EF01GE05",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.N.05 — Observação e registro do tempo atmosférico",
+    "objetivo": "Registrar e descrever o tempo atmosférico ao longo de uma semana.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Observe o tempo durante 5 dias e registre o que aconteceu. Depois, tire uma conclusão.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "dias",
+          "label": "Registre o tempo de segunda a sexta (ensolarado, nublado, chuva, frio, calor...):",
+          "max": 300
+        },
+        {
+          "id": "padrao",
+          "label": "Que padrão você observou na semana?",
+          "max": 150
+        },
+        {
+          "id": "conclusao",
+          "label": "O que você pode concluir sobre o clima nessa época do ano?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Registra 5 dias de observação.",
+      "Identifica padrão ou variação.",
+      "Tira conclusão sobre o clima."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode criar tabela de registro no quadro.",
+      "resposta": "Digitar os dados.",
+      "engajamento": "Dica: todo cientista observa, registra e depois tira conclusões — você vai fazer o mesmo!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 5 registros, padrão identificado, conclusão climática.",
+      "objetivo_pedagogico": "Desenvolver observação científica do tempo atmosférico.",
+      "perguntas_orientadoras": [
+        "Se você repetisse a observação no próximo mês, o resultado seria igual?",
+        "O que é uma estação do ano?",
+        "Como meteorologistas preveem o tempo?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: coleta de dados climáticos e conclusão científica."
+    }
+  },
+  {
+    "id": "geo-1-u4-n1",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u4",
+    "unidade_titulo": "Pontos Cardeais e Localização",
+    "habilidade_bncc_codigo": "EF01GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.S.01 — Orientação espacial e pontos cardeais",
+    "objetivo": "Reconhecer os quatro pontos cardeais.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O sol nasce no lado que chamamos de:",
+    "conteudo_base": {
+      "opcoes": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica Leste como a direção do nascer do sol.",
+      "Relaciona ponto cardeal ao movimento aparente do sol."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Levar a turma ao pátio de manhã e apontar onde o sol está.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: de manhã, de frente para o sol — à sua direita é o Sul, à sua esquerda é o Norte, atrás de você é o Oeste."
+    },
+    "modo_professor": {
+      "gabarito": "Leste — o sol nasce a leste e se põe a oeste.",
+      "objetivo_pedagogico": "Usar o sol como referência de orientação.",
+      "perguntas_orientadoras": [
+        "Onde o sol se põe?",
+        "Como a bússola indica o Norte?",
+        "Para que servem os pontos cardeais?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: ponto cardeal associado ao fenômeno cotidiano do nascer do sol."
+    }
+  },
+  {
+    "id": "geo-1-u4-n2",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u4",
+    "unidade_titulo": "Pontos Cardeais e Localização",
+    "habilidade_bncc_codigo": "EF01GE04",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.S.01 — Orientação espacial e pontos cardeais",
+    "objetivo": "Associar os quatro pontos cardeais às suas direções.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada ponto cardeal à sua característica.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Norte",
+          "nome": "Direção para a qual a bússola aponta"
+        },
+        {
+          "elemento": "Sul",
+          "nome": "Direção oposta ao Norte"
+        },
+        {
+          "elemento": "Leste",
+          "nome": "Onde o sol nasce"
+        },
+        {
+          "elemento": "Oeste",
+          "nome": "Onde o sol se põe"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa os quatro pontos às suas referências corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Rosa dos ventos desenhada no quadro.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: norte e sul são opostos, assim como leste e oeste."
+    },
+    "modo_professor": {
+      "gabarito": "Norte→bússola | Sul→oposto ao norte | Leste→nasce | Oeste→põe.",
+      "objetivo_pedagogico": "Fixar os quatro pontos cardeais e suas referências.",
+      "perguntas_orientadoras": [
+        "Quais são os pontos colaterais (entre os cardeais)?",
+        "Como você descobriria o norte sem bússola?",
+        "Em que situações os pontos cardeais são úteis?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação dos quatro pontos com referências distintas."
+    }
+  },
+  {
+    "id": "geo-1-u4-n3",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u4",
+    "unidade_titulo": "Pontos Cardeais e Localização",
+    "habilidade_bncc_codigo": "EF01GE05",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.S.02 — Localização no espaço cotidiano",
+    "objetivo": "Usar pontos cardeais para descrever a localização de lugares conhecidos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Use os pontos cardeais para descrever onde ficam três lugares da sua escola ou bairro em relação à sua casa.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "l1",
+          "label": "Lugar 1 e em que direção fica da sua casa:",
+          "max": 150
+        },
+        {
+          "id": "l2",
+          "label": "Lugar 2 e em que direção fica:",
+          "max": 150
+        },
+        {
+          "id": "l3",
+          "label": "Lugar 3 e em que direção fica:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cita três lugares reais.",
+      "Usa pontos cardeais para indicar direção.",
+      "As direções são coerentes com a realidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ajudar a identificar o norte da sala antes.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: use uma bússola ou o nascer do sol para descobrir o norte. Depois diga se o lugar está ao norte, sul, leste ou oeste de você."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: três lugares, pontos cardeais usados, coerência direcional.",
+      "objetivo_pedagogico": "Aplicar pontos cardeais à localização no espaço vivido.",
+      "perguntas_orientadoras": [
+        "Como você descobriu qual é o norte?",
+        "Se alguém seguisse sua descrição, chegaria no lugar certo?",
+        "O que você usaria se não soubesse os pontos cardeais?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: aplicação real de orientação com pontos cardeais."
+    }
+  },
+  {
+    "id": "geo-1-u5-n1",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u5",
+    "unidade_titulo": "Meu Bairro e Minha Cidade",
+    "habilidade_bncc_codigo": "EF01GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.S.03 — Espaço vivido: bairro e cidade",
+    "objetivo": "Distinguir bairro de cidade.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O bairro é:",
+    "conteudo_base": {
+      "opcoes": [
+        "Um país",
+        "Uma parte da cidade onde as pessoas moram",
+        "Um continente",
+        "O mesmo que uma cidade"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Define bairro como subdivisão da cidade.",
+      "Distingue bairro de unidades geográficas maiores."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar mapa da cidade com bairros coloridos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a cidade é o todo. O bairro é uma parte dela — como um pedaço de um quebra-cabeça."
+    },
+    "modo_professor": {
+      "gabarito": "Uma parte da cidade — subdivisão urbana.",
+      "objetivo_pedagogico": "Compreender a hierarquia espacial bairro-cidade.",
+      "perguntas_orientadoras": [
+        "Em qual bairro você mora?",
+        "Quantos bairros tem a sua cidade?",
+        "O que tem no seu bairro que não tem em outros?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição direta com opções de escalas distintas."
+    }
+  },
+  {
+    "id": "geo-1-u5-n2",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u5",
+    "unidade_titulo": "Meu Bairro e Minha Cidade",
+    "habilidade_bncc_codigo": "EF01GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.S.03 — Espaço vivido: bairro e cidade",
+    "objetivo": "Classificar lugares do cotidiano por função.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada lugar pela sua função principal.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Hospital",
+          "categoria": "Saúde"
+        },
+        {
+          "id": "i2",
+          "label": "Escola",
+          "categoria": "Educação"
+        },
+        {
+          "id": "i3",
+          "label": "Supermercado",
+          "categoria": "Comércio"
+        },
+        {
+          "id": "i4",
+          "label": "Posto de saúde",
+          "categoria": "Saúde"
+        },
+        {
+          "id": "i5",
+          "label": "Biblioteca",
+          "categoria": "Educação"
+        },
+        {
+          "id": "i6",
+          "label": "Mercadinho",
+          "categoria": "Comércio"
+        }
+      ],
+      "categorias": [
+        "Saúde",
+        "Educação",
+        "Comércio"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 lugares.",
+      "Reconhece função social de espaços urbanos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de cada lugar.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: pense no que as pessoas fazem em cada lugar — cuidar da saúde, aprender ou comprar?"
+    },
+    "modo_professor": {
+      "gabarito": "Saúde: hospital, posto. Educação: escola, biblioteca. Comércio: supermercado, mercadinho.",
+      "objetivo_pedagogico": "Reconhecer funções dos equipamentos urbanos do bairro.",
+      "perguntas_orientadoras": [
+        "Que outros lugares existem no seu bairro?",
+        "Para que serve um posto de saúde?",
+        "O que falta no seu bairro?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três funções com seis lugares do cotidiano."
+    }
+  },
+  {
+    "id": "geo-1-u5-n3",
+    "ano": 1,
+    "componente": "Geografia",
+    "unidade_id": "geo-1-u5",
+    "unidade_titulo": "Meu Bairro e Minha Cidade",
+    "habilidade_bncc_codigo": "EF01GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF1.S.04 — Percepção e descrição do espaço vivido",
+    "objetivo": "Descrever o próprio bairro identificando características e necessidades.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Descreva o seu bairro: o que tem lá, o que você gosta e o que você mudaria se pudesse.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "tem",
+          "label": "O que existe no seu bairro?",
+          "max": 200
+        },
+        {
+          "id": "gosta",
+          "label": "O que você mais gosta?",
+          "max": 150
+        },
+        {
+          "id": "muda",
+          "label": "O que você mudaria e por quê?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve equipamentos e características reais.",
+      "Expressa preferência pessoal.",
+      "Propõe melhoria com justificativa."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer uma roda de conversa sobre o bairro antes.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense no que você passa quando vai à escola — o que existe no caminho?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: lugares reais identificados, preferência expressa, proposta de melhoria justificada.",
+      "objetivo_pedagogico": "Desenvolver leitura crítica e afetiva do espaço vivido.",
+      "perguntas_orientadoras": [
+        "Por que você mudaria isso?",
+        "Sua proposta beneficiaria só você ou todos?",
+        "Como você apresentaria essa ideia ao prefeito?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: leitura crítica do espaço com proposta de transformação."
+    }
   }
 ]

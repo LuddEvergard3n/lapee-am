@@ -52,6 +52,16 @@ export async function renderCacaPalavras(container, atividade, opts = {}) {
 
   const puzzle = wf.gerar(palavrasOrig, { diagonais: false });
 
+  /*
+   * Mapa de busca: palavra normalizada -> { label original, dica }.
+   * O wordfind.js pode reordenar puzzle.palavras em relacao a palavrasOrig,
+   * tornando o indice i invalido para lookup direto e causando o bug em que
+   * o sistema exibia o label de uma palavra mas pontuava outra.
+   */
+  const _norm = s => s.normalize('NFD').replace(/\p{Mn}/gu, '').toUpperCase();
+  const infoMap = new Map();
+  palavrasOrig.forEach((p, i) => infoMap.set(_norm(p), { label: p, dica: dicas[i] ?? '' }));
+
   // Estado
   const encontradas  = new Set();
   const totalPalavras = puzzle.palavras.length;
@@ -68,12 +78,14 @@ export async function renderCacaPalavras(container, atividade, opts = {}) {
       <div class="caca-lista-area">
         <h3 class="caca-lista-titulo">Encontre as palavras</h3>
         <ul class="caca-lista" id="caca-lista">
-          ${puzzle.palavras.map((p, i) => `
-            <li class="caca-item" data-palavra="${p}" id="caca-item-${p}">
-              <span class="caca-palavra">${palavrasOrig[i] ?? p}</span>
-              ${dicas[i] ? `<span class="caca-dica">${dicas[i]}</span>` : ''}
-            </li>
-          `).join('')}
+          ${puzzle.palavras.map(p => {
+            const info = infoMap.get(_norm(p)) ?? { label: p, dica: '' };
+            return `
+              <li class="caca-item" data-palavra="${p}" id="caca-item-${p}">
+                <span class="caca-palavra">${info.label}</span>
+                ${info.dica ? `<span class="caca-dica">${info.dica}</span>` : ''}
+              </li>`;
+          }).join('')}
         </ul>
         <p class="caca-contagem" id="caca-contagem">0 / ${totalPalavras} encontradas</p>
       </div>

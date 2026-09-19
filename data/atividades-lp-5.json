@@ -496,5 +496,642 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: produção de gênero digital com restrições formais."
     }
+  },
+  {
+    "id": "lp-5-u4-n1",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u4",
+    "unidade_titulo": "Análise Crítica de Mídia",
+    "habilidade_bncc_codigo": "EF05LP14",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.07 — Leitura crítica de textos midiáticos",
+    "objetivo": "Identificar características de uma fake news.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual característica é típica de uma fake news (notícia falsa)?",
+    "conteudo_base": {
+      "opcoes": [
+        "Tem fonte identificada e verificável",
+        "Usa título exagerado para chocar e não menciona fontes",
+        "Foi publicada por um jornal conhecido",
+        "Tem data e autor claros"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica sensacionalismo e ausência de fontes como marcas de fake news.",
+      "Distingue notícia verificável de fake news."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos de títulos fake e reais.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: se o título te deixa com raiva ou assustado e não diz de onde vem a informação — desconfie!"
+    },
+    "modo_professor": {
+      "gabarito": "Título exagerado e sem fontes — marcas clássicas de fake news.",
+      "objetivo_pedagogico": "Desenvolver letramento midiático e ceticismo saudável.",
+      "perguntas_orientadoras": [
+        "Como você verifica se uma notícia é verdadeira?",
+        "Por que pessoas criam e compartilham fake news?",
+        "O que é checagem de fatos?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação de marca óbvia de fake news."
+    }
+  },
+  {
+    "id": "lp-5-u4-n2",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u4",
+    "unidade_titulo": "Análise Crítica de Mídia",
+    "habilidade_bncc_codigo": "EF05LP14",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.07 — Leitura crítica de textos midiáticos",
+    "objetivo": "Classificar estratégias de checagem de notícias.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada ação: é uma boa prática de checagem ou não?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Verificar se o site tem nome de jornal conhecido",
+          "categoria": "Boa prática"
+        },
+        {
+          "id": "i2",
+          "label": "Compartilhar imediatamente porque parece verdadeiro",
+          "categoria": "Não é boa prática"
+        },
+        {
+          "id": "i3",
+          "label": "Buscar a mesma notícia em outras fontes",
+          "categoria": "Boa prática"
+        },
+        {
+          "id": "i4",
+          "label": "Acreditar porque muitos amigos compartilharam",
+          "categoria": "Não é boa prática"
+        },
+        {
+          "id": "i5",
+          "label": "Verificar a data da publicação",
+          "categoria": "Boa prática"
+        },
+        {
+          "id": "i6",
+          "label": "Compartilhar se o título confirma o que você já acredita",
+          "categoria": "Não é boa prática"
+        }
+      ],
+      "categorias": [
+        "Boa prática",
+        "Não é boa prática"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica verificação de fonte, cruzamento e data como boas práticas.",
+      "Reconhece comportamento impulsivo como problema."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode simular o processo de verificar uma notícia.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: uma regra simples: nunca compartilhe antes de checar pelo menos duas fontes diferentes."
+    },
+    "modo_professor": {
+      "gabarito": "Boas práticas: verificar site, buscar outras fontes, checar data. Não: compartilhar sem checar, seguir a maioria, viés de confirmação.",
+      "objetivo_pedagogico": "Desenvolver hábitos de verificação de informação online.",
+      "perguntas_orientadoras": [
+        "O que é viés de confirmação?",
+        "Por que a data de uma notícia importa?",
+        "Você já compartilhou algo que depois descobriu ser falso?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de práticas de checagem."
+    }
+  },
+  {
+    "id": "lp-5-u4-n3",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u4",
+    "unidade_titulo": "Análise Crítica de Mídia",
+    "habilidade_bncc_codigo": "EF05LP15",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.P.06 — Produção de análise crítica de texto midiático",
+    "objetivo": "Analisar criticamente uma manchete e avaliar sua credibilidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Imagine que você recebeu essa mensagem: 'URGENTE: Cientistas provam que chocolate cura câncer! Compartilhe!' O que você faria? Como analisaria essa informação?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "suspeita",
+          "label": "O que nessa mensagem te deixa desconfiado?",
+          "max": 200
+        },
+        {
+          "id": "verificacao",
+          "label": "Como você verificaria se é verdade?",
+          "max": 250
+        },
+        {
+          "id": "decisao",
+          "label": "Você compartilharia? Por quê?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica ao menos um elemento suspeito.",
+      "Descreve processo de verificação.",
+      "Justifica decisão de compartilhar ou não."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode propor exemplos similares de notícias sensacionalistas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: 'URGENTE' e 'Compartilhe!' são sinais de alerta. Notícias reais não pedem para você repassar."
+    },
+    "modo_professor": {
+      "gabarito": "Suspeitos: urgência forçada, afirmação milagrosa, pedido de compartilhamento, sem fonte. Verificação: buscar em sites científicos, checar autores. Decisão: não compartilhar sem verificar.",
+      "objetivo_pedagogico": "Aplicar letramento midiático em situação concreta.",
+      "perguntas_orientadoras": [
+        "O que significa 'cientistas provam'?",
+        "Como você encontraria artigos científicos reais?",
+        "Quem se beneficia com a disseminação de fake news?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise crítica aplicada a caso concreto."
+    }
+  },
+  {
+    "id": "lp-5-u4-n1",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u4",
+    "unidade_titulo": "Variedades Linguísticas",
+    "habilidade_bncc_codigo": "EF05LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.G.02 — Variação linguística e adequação",
+    "objetivo": "Reconhecer que existem diferentes formas de falar o português.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Por que uma pessoa do Nordeste e uma do Sul do Brasil podem falar de formas diferentes?",
+    "conteudo_base": {
+      "opcoes": [
+        "Porque uma fala certo e a outra fala errado.",
+        "Porque cada região tem seu sotaque e suas expressões próprias.",
+        "Porque o português muda de país para país.",
+        "Porque uma tem mais estudo que a outra."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece variação regional como natural e legítima.",
+      "Descarta juízo de valor entre variantes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode reproduzir exemplos de sotaques distintos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: sotaque diferente não é erro — é uma característica da região e da cultura."
+    },
+    "modo_professor": {
+      "gabarito": "Variação regional — cada região tem sotaque e vocabulário próprios.",
+      "objetivo_pedagogico": "Introduzir variação linguística sem hierarquização.",
+      "perguntas_orientadoras": [
+        "Um sotaque carioca é mais correto que um gaúcho?",
+        "Que palavras diferentes você conhece para a mesma coisa?",
+        "A língua muda com o tempo também?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento da variação sem hierarquia."
+    }
+  },
+  {
+    "id": "lp-5-u4-n2",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u4",
+    "unidade_titulo": "Variedades Linguísticas",
+    "habilidade_bncc_codigo": "EF05LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.G.02 — Variação linguística e adequação",
+    "objetivo": "Classificar formas de uso da língua como formal ou informal.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: linguagem formal ou informal?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "'Oi, tá de boa?'",
+          "categoria": "Informal"
+        },
+        {
+          "id": "i2",
+          "label": "'Prezado senhor, venho por meio desta…'",
+          "categoria": "Formal"
+        },
+        {
+          "id": "i3",
+          "label": "'Cara, que massa esse jogo!'",
+          "categoria": "Informal"
+        },
+        {
+          "id": "i4",
+          "label": "'Solicito sua atenção para o seguinte…'",
+          "categoria": "Formal"
+        },
+        {
+          "id": "i5",
+          "label": "'Vou lá na firma do meu pai.'",
+          "categoria": "Informal"
+        },
+        {
+          "id": "i6",
+          "label": "'Informamos que a reunião foi remarcada.'",
+          "categoria": "Formal"
+        }
+      ],
+      "categorias": [
+        "Formal",
+        "Informal"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 exemplos.",
+      "Usa critério de contexto e vocabulário para diferenciar."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar em que situações cada tipo seria usado.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: pense em onde cada frase seria dita — com amigos ou numa situação oficial?"
+    },
+    "modo_professor": {
+      "gabarito": "Formal: carta, solicitação, informe. Informal: oi, cara, vou lá.",
+      "objetivo_pedagogico": "Reconhecer adequação linguística ao contexto.",
+      "perguntas_orientadoras": [
+        "Em qual situação você usaria linguagem formal?",
+        "Linguagem informal é errada?",
+        "Usar gíria numa entrevista de emprego é problema?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com exemplos realistas de cada registro."
+    }
+  },
+  {
+    "id": "lp-5-u4-n3",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u4",
+    "unidade_titulo": "Variedades Linguísticas",
+    "habilidade_bncc_codigo": "EF05LP05",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.G.03 — Adequação linguística e respeito à variação",
+    "objetivo": "Refletir sobre respeito às diferenças linguísticas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Preconceito linguístico é julgar alguém pelo jeito que fala. Você acha isso justo? Por quê? Dê um exemplo.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "opiniao",
+          "label": "Você acha o preconceito linguístico justo?",
+          "max": 80
+        },
+        {
+          "id": "argumento",
+          "label": "Argumento principal:",
+          "max": 250
+        },
+        {
+          "id": "exemplo",
+          "label": "Dê um exemplo de preconceito linguístico:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Apresenta posição clara.",
+      "Argumenta com base em conceito de variação.",
+      "Dá exemplo concreto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contar situação hipotética onde alguém é ridicularizado pelo sotaque.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como você se sentiria se rissem do seu jeito de falar."
+    },
+    "modo_professor": {
+      "gabarito": "Posição: não é justo. Argumento: variação é natural e não indica ignorância. Exemplo: zoar sotaque nordestino, corrigir alguém de forma humilhante.",
+      "objetivo_pedagogico": "Desenvolver consciência crítica sobre preconceito linguístico.",
+      "perguntas_orientadoras": [
+        "Falar diferente significa saber menos?",
+        "Como responder a alguém que critica seu sotaque?",
+        "O que é norma padrão e para que serve?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: argumentação crítica sobre questão sociolinguística."
+    }
+  },
+  {
+    "id": "lp-5-u5-n1",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u5",
+    "unidade_titulo": "Discurso Direto e Indireto",
+    "habilidade_bncc_codigo": "EF05LP08",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.G.04 — Discurso direto e indireto",
+    "objetivo": "Reconhecer o discurso direto pela presença de aspas e travessão.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual frase usa discurso direto?",
+    "conteudo_base": {
+      "opcoes": [
+        "Maria disse que estava feliz.",
+        "— Estou muito feliz! — disse Maria.",
+        "Maria falou sobre sua felicidade.",
+        "Maria expressou seus sentimentos."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica discurso direto pelo travessão e aspas.",
+      "Distingue de discurso indireto e paráfrase."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar exemplo de diálogo num livro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: no discurso direto você ouve a voz da personagem — ela fala com suas próprias palavras."
+    },
+    "modo_professor": {
+      "gabarito": "Opção B — usa travessão e reproduz as palavras exatas.",
+      "objetivo_pedagogico": "Reconhecer marcadores formais do discurso direto.",
+      "perguntas_orientadoras": [
+        "Como você sabe que é a fala da personagem?",
+        "O que mudaria se fosse discurso indireto?",
+        "Em que tipos de texto você encontra discurso direto?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento por marcadores formais claros."
+    }
+  },
+  {
+    "id": "lp-5-u5-n2",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u5",
+    "unidade_titulo": "Discurso Direto e Indireto",
+    "habilidade_bncc_codigo": "EF05LP08",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.G.04 — Discurso direto e indireto",
+    "objetivo": "Transformar discurso direto em indireto.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as partes na ordem certa para formar a versão em discurso INDIRETO da frase:\n— Amanhã vai chover! — avisou o professor.",
+    "conteudo_base": {
+      "itens": [
+        "avisaria",
+        "O professor",
+        "choveria",
+        "que no dia seguinte",
+        "disse"
+      ],
+      "ordem_correta": [
+        1,
+        4,
+        3,
+        2,
+        0
+      ]
+    },
+    "criterios_sucesso": [
+      "Monta: 'O professor disse que no dia seguinte choveria avisaria'.",
+      "Observa mudanças de tempo verbal e expressão temporal."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar a frase original e transformá-la passo a passo no quadro.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: no discurso indireto, 'amanhã' vira 'no dia seguinte' e os verbos mudam de tempo."
+    },
+    "modo_professor": {
+      "gabarito": "O professor disse/avisou que no dia seguinte choveria.",
+      "objetivo_pedagogico": "Transformar discurso direto em indireto com ajustes de tempo e referência.",
+      "perguntas_orientadoras": [
+        "Por que 'amanhã' vira 'no dia seguinte'?",
+        "O tempo verbal também muda — de 'vai chover' para o quê?",
+        "Em que tipo de texto é mais comum o discurso indireto?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: montagem guiada com atenção às mudanças linguísticas."
+    }
+  },
+  {
+    "id": "lp-5-u5-n3",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u5",
+    "unidade_titulo": "Discurso Direto e Indireto",
+    "habilidade_bncc_codigo": "EF05LP09",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.G.05 — Produção com discurso direto e indireto",
+    "objetivo": "Reescrever um diálogo transformando discurso direto em indireto.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Transforme o diálogo em discurso indireto:\n— Eu não vou à festa amanhã — disse Ana.\n— Por quê? — perguntou Luís.\n— Estou doente — respondeu ela.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "indireto",
+          "label": "Reescreva o diálogo em discurso indireto:",
+          "max": 300
+        },
+        {
+          "id": "mudancas",
+          "label": "O que você precisou mudar (pronomes, verbos, tempo)?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Reescreve com verbos de elocução corretos.",
+      "Ajusta pronomes e tempos verbais.",
+      "Identifica as mudanças necessárias."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer a primeira transformação junto com a turma.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: 'Eu não vou' vira 'ela disse que não iria'. O pronome e o tempo mudam!"
+    },
+    "modo_professor": {
+      "gabarito": "Ana disse que não iria à festa no dia seguinte. Luís perguntou por quê. Ela respondeu que estava doente.",
+      "objetivo_pedagogico": "Transformar discurso direto em indireto com ajustes sistemáticos.",
+      "perguntas_orientadoras": [
+        "Por que 'amanhã' muda?",
+        "O que acontece com o pronome 'eu'?",
+        "O verbo 'vou' muda para qual tempo?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: transformação sistemática de diálogo completo."
+    }
+  },
+  {
+    "id": "lp-5-u6-n1",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u6",
+    "unidade_titulo": "Sequência Narrativa",
+    "habilidade_bncc_codigo": "EF05LP15",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.07 — Estrutura narrativa e sequência",
+    "objetivo": "Reconhecer as cinco partes da estrutura narrativa clássica.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Numa narrativa, o momento em que o problema central da história aparece é chamado de:",
+    "conteudo_base": {
+      "opcoes": [
+        "Apresentação",
+        "Complicação",
+        "Clímax",
+        "Desfecho"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica 'complicação' como o surgimento do conflito.",
+      "Distingue das outras partes da estrutura."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar a pirâmide narrativa no quadro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a complicação é o momento em que algo dá errado — o nó da história."
+    },
+    "modo_professor": {
+      "gabarito": "Complicação — surgimento do conflito central.",
+      "objetivo_pedagogico": "Identificar as partes da estrutura narrativa clássica (Freytag).",
+      "perguntas_orientadoras": [
+        "O que é o clímax?",
+        "E o desfecho?",
+        "Que história tem uma complicação muito forte que você se lembra?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação direta de parte da estrutura narrativa."
+    }
+  },
+  {
+    "id": "lp-5-u6-n2",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u6",
+    "unidade_titulo": "Sequência Narrativa",
+    "habilidade_bncc_codigo": "EF05LP15",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.L.07 — Estrutura narrativa e sequência",
+    "objetivo": "Ordenar as partes de uma narrativa na sequência correta.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as partes da estrutura narrativa na ordem correta.",
+    "conteudo_base": {
+      "itens": [
+        "Clímax — momento de maior tensão",
+        "Apresentação — personagens e cenário",
+        "Resolução — consequências finais",
+        "Complicação — surge o conflito",
+        "Desfecho — encerramento da história"
+      ],
+      "ordem_correta": [
+        1,
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: apresentação → complicação → clímax → resolução → desfecho.",
+      "Compreende a progressão dramática da narrativa."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar exemplos de filmes conhecidos para cada parte.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: toda boa história começa calma, vai esquentando e termina resolvendo — a pergunta é em que ordem cada coisa acontece."
+    },
+    "modo_professor": {
+      "gabarito": "Apresentação → Complicação → Clímax → Resolução → Desfecho.",
+      "objetivo_pedagogico": "Compreender a progressão dramática da estrutura narrativa.",
+      "perguntas_orientadoras": [
+        "Em qual parte a tensão é máxima?",
+        "A resolução e o desfecho são a mesma coisa?",
+        "Existe narrativa sem clímax?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de 5 partes com nomes técnicos."
+    }
+  },
+  {
+    "id": "lp-5-u6-n3",
+    "ano": 5,
+    "componente": "LP",
+    "unidade_id": "lp-5-u6",
+    "unidade_titulo": "Sequência Narrativa",
+    "habilidade_bncc_codigo": "EF05LP16",
+    "referencia_cbtc": "CBTC-SC: LP.EF5.P.06 — Produção de narrativa com estrutura completa",
+    "objetivo": "Produzir uma narrativa curta com as cinco partes da estrutura narrativa.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 12,
+    "enunciado": "Escreva uma história curta usando as cinco partes da estrutura narrativa. Identifique cada parte.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "apresentacao",
+          "label": "Apresentação (personagem, lugar, tempo):",
+          "max": 200
+        },
+        {
+          "id": "complicacao",
+          "label": "Complicação (o problema que surge):",
+          "max": 200
+        },
+        {
+          "id": "climax",
+          "label": "Clímax (momento de maior tensão):",
+          "max": 200
+        },
+        {
+          "id": "resolucao",
+          "label": "Resolução (como o problema é enfrentado):",
+          "max": 200
+        },
+        {
+          "id": "desfecho",
+          "label": "Desfecho (como tudo termina):",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Preenche as cinco partes com coerência narrativa.",
+      "Mantém coesão entre as partes (personagens e conflito consistentes).",
+      "O clímax é claramente o momento de maior tensão."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar como adaptar uma história conhecida à estrutura.",
+      "resposta": "Digitar em cada campo.",
+      "engajamento": "Dica: invente um personagem com um problema grande — depois mostre o pior momento desse problema e como ele resolve."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: cinco partes preenchidas, coerência entre elas, clímax identificável como ponto de tensão máxima.",
+      "objetivo_pedagogico": "Produzir narrativa completa com consciência da estrutura dramática.",
+      "perguntas_orientadoras": [
+        "Seu clímax é realmente o momento mais tenso?",
+        "O desfecho resolve tudo ou deixa algo em aberto?",
+        "Eu conseguiria reconhecer cada parte sem o rótulo?"
+      ],
+      "tempo_estimado": "10 a 15 minutos",
+      "adaptacao_nivel": "N3: produção narrativa com estrutura consciente e campos orientadores."
+    }
   }
 ]

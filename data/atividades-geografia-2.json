@@ -487,5 +487,485 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: relação de interdependência com exemplos concretos."
     }
+  },
+  {
+    "id": "geo-2-u4-n1",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u4",
+    "unidade_titulo": "Mapas e Orientação",
+    "habilidade_bncc_codigo": "EF02GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.C.02 — Leitura de mapas simples e pontos cardeais",
+    "objetivo": "Identificar os pontos cardeais e usá-los para se orientar.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O sol nasce no:",
+    "conteudo_base": {
+      "opcoes": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Associa Leste ao nascer do sol.",
+      "Conhece os 4 pontos cardeais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode apontar para o nascer do sol pela janela.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: de manhã, vira o rosto para onde o sol nasce — esse é o Leste."
+    },
+    "modo_professor": {
+      "gabarito": "Leste — o sol nasce no leste e se põe no oeste.",
+      "objetivo_pedagogico": "Introduzir pontos cardeais a partir do movimento solar.",
+      "perguntas_orientadoras": [
+        "E o sol se põe em que direção?",
+        "O que fica ao Norte da sua cidade?",
+        "Para que serve saber os pontos cardeais?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: ponto cardeal associado ao movimento solar."
+    }
+  },
+  {
+    "id": "geo-2-u4-n2",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u4",
+    "unidade_titulo": "Mapas e Orientação",
+    "habilidade_bncc_codigo": "EF02GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.C.02 — Leitura de mapas simples e pontos cardeais",
+    "objetivo": "Usar pontos cardeais para descrever a localização de lugares num mapa simples.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Num mapa onde a escola está no centro, a praça está ao Norte e o mercado está ao Sul. Qual fica acima da escola?",
+    "conteudo_base": {
+      "pares": [
+        {
+          "situacao": "Fica acima (Norte) da escola",
+          "opcoes": [
+            "A praça",
+            "O mercado",
+            "Os dois",
+            "Nenhum"
+          ],
+          "correta": 0
+        },
+        {
+          "situacao": "Fica abaixo (Sul) da escola",
+          "opcoes": [
+            "A praça",
+            "O mercado",
+            "Os dois",
+            "Nenhum"
+          ],
+          "correta": 1
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa Norte ao topo do mapa.",
+      "Associa Sul à parte inferior do mapa."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar mapa simples no quadro com escola no centro.",
+      "resposta": "Marcar para cada situação.",
+      "engajamento": "Dica: nos mapas, o Norte fica no topo e o Sul fica embaixo."
+    },
+    "modo_professor": {
+      "gabarito": "Praça ao Norte (acima) | Mercado ao Sul (abaixo).",
+      "objetivo_pedagogico": "Relacionar pontos cardeais à posição no mapa.",
+      "perguntas_orientadoras": [
+        "O Leste fica à direita ou à esquerda no mapa?",
+        "E o Oeste?",
+        "Para que serve a bússola?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: localização relativa com pontos cardeais no mapa."
+    }
+  },
+  {
+    "id": "geo-2-u4-n3",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u4",
+    "unidade_titulo": "Mapas e Orientação",
+    "habilidade_bncc_codigo": "EF02GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.C.03 — Criação de mapa simples do cotidiano",
+    "objetivo": "Criar um mapa simples de um percurso conhecido.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Descreva o caminho de casa até a escola como se estivesse fazendo um mapa com palavras.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "inicio",
+          "label": "Onde começa o caminho?",
+          "max": 80
+        },
+        {
+          "id": "percurso",
+          "label": "O que você vê no caminho? (ruas, pontos de referência)",
+          "max": 300
+        },
+        {
+          "id": "fim",
+          "label": "Como você sabe que chegou?",
+          "max": 80
+        },
+        {
+          "id": "direcoes",
+          "label": "Em algum ponto você vira à direita ou à esquerda?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve ponto de partida e chegada.",
+      "Menciona ao menos 2 pontos de referência.",
+      "Indica alguma direção."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que o aluno faça o percurso de memória.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pensa como você explicaria o caminho para um amigo que nunca foi à sua escola."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: início e fim identificados, referências no percurso, alguma indicação de direção.",
+      "objetivo_pedagogico": "Desenvolver noção de orientação espacial e linguagem cartográfica.",
+      "perguntas_orientadoras": [
+        "Você poderia desenhar esse caminho?",
+        "Que ponto de referência é mais fácil de encontrar?",
+        "Como um GPS descreve um caminho?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: mapeamento verbal de percurso cotidiano."
+    }
+  },
+  {
+    "id": "geo-2-u4-n1",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u4",
+    "unidade_titulo": "Representação Cartográfica",
+    "habilidade_bncc_codigo": "EF02GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.S.04 — Leitura de mapas e plantas",
+    "objetivo": "Reconhecer elementos básicos de um mapa.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é a legenda de um mapa?",
+    "conteudo_base": {
+      "opcoes": [
+        "O título do mapa",
+        "A explicação dos símbolos e cores usados no mapa",
+        "A escala de distâncias",
+        "O nome do cartógrafo"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica legenda como decodificador dos símbolos.",
+      "Distingue de título, escala e autoria."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar um mapa real com legenda apontada.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: sem legenda, você não sabe o que cada cor ou símbolo do mapa significa."
+    },
+    "modo_professor": {
+      "gabarito": "Explicação dos símbolos e cores — a 'chave' do mapa.",
+      "objetivo_pedagogico": "Reconhecer os elementos básicos de leitura cartográfica.",
+      "perguntas_orientadoras": [
+        "O que é a escala de um mapa?",
+        "Um mapa sem legenda é útil?",
+        "O que o Norte indica num mapa?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: elemento cartográfico com definição direta."
+    }
+  },
+  {
+    "id": "geo-2-u4-n2",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u4",
+    "unidade_titulo": "Representação Cartográfica",
+    "habilidade_bncc_codigo": "EF02GE06",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.S.04 — Leitura de mapas e plantas",
+    "objetivo": "Associar elementos de um mapa às suas funções.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada elemento cartográfico à sua função.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Legenda",
+          "nome": "Explica os símbolos e cores"
+        },
+        {
+          "elemento": "Escala",
+          "nome": "Indica a proporção entre mapa e realidade"
+        },
+        {
+          "elemento": "Rosa dos ventos",
+          "nome": "Indica os pontos cardeais"
+        },
+        {
+          "elemento": "Título",
+          "nome": "Diz o que o mapa representa"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 elementos às funções."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mapa com cada elemento destacado em cores.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: cada elemento tem uma função específica — pense no que você usaria cada um."
+    },
+    "modo_professor": {
+      "gabarito": "Legenda→símbolos | Escala→proporção | Rosa dos ventos→cardeais | Título→tema.",
+      "objetivo_pedagogico": "Conhecer os elementos básicos da linguagem cartográfica.",
+      "perguntas_orientadoras": [
+        "Se a escala é 1:100.000, 1 cm no mapa vale quanto na realidade?",
+        "Por que a rosa dos ventos é importante?",
+        "Um mapa pode ter mais de um título?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro elementos com funções distintas."
+    }
+  },
+  {
+    "id": "geo-2-u4-n3",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u4",
+    "unidade_titulo": "Representação Cartográfica",
+    "habilidade_bncc_codigo": "EF02GE07",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.S.05 — Construção de mapas simples",
+    "objetivo": "Criar uma planta simples de um espaço conhecido.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Desenhe (descreva) uma planta simples da sua sala de aula: o que tem lá, onde fica cada coisa, e faça uma legenda.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "elementos",
+          "label": "O que existe na sala? Liste os elementos:",
+          "max": 200
+        },
+        {
+          "id": "posicao",
+          "label": "Descreva a posição de cada elemento:",
+          "max": 250
+        },
+        {
+          "id": "legenda",
+          "label": "Crie uma legenda (ex: = = quadro negro):",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Lista ao menos 5 elementos da sala.",
+      "Descreve posição relativa.",
+      "Cria legenda com ao menos 3 símbolos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode começar a planta no quadro junto com a turma.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: olhe ao redor — quadro, portas, janelas, mesas, armários. Onde cada um fica em relação à entrada?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 5+ elementos, posições relativas, legenda com 3+ símbolos.",
+      "objetivo_pedagogico": "Desenvolver representação cartográfica do espaço vivido.",
+      "perguntas_orientadoras": [
+        "Alguém que nunca entrou aqui conseguiria se localizar com sua planta?",
+        "O que é norte nessa planta?",
+        "Como você indicaria a escala?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação de representação cartográfica elementar."
+    }
+  },
+  {
+    "id": "geo-2-u5-n1",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u5",
+    "unidade_titulo": "Recursos Naturais do Cotidiano",
+    "habilidade_bncc_codigo": "EF02GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.N.01 — Uso dos recursos naturais no cotidiano",
+    "objetivo": "Reconhecer recursos naturais presentes no cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dos itens abaixo é um recurso natural?",
+    "conteudo_base": {
+      "opcoes": [
+        "Plástico",
+        "Madeira",
+        "Tecido sintético",
+        "Vidro"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica madeira como recurso natural (originado da natureza).",
+      "Distingue recursos naturais de produtos industrializados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar objetos feitos de materiais naturais e sintéticos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: recurso natural é o que vem diretamente da natureza, sem ser fabricado em fábrica."
+    },
+    "modo_professor": {
+      "gabarito": "Madeira — recurso natural obtido de árvores.",
+      "objetivo_pedagogico": "Distinguir recursos naturais de produtos industrializados.",
+      "perguntas_orientadoras": [
+        "O vidro é natural ou fabricado?",
+        "De onde vem o plástico?",
+        "Que outros recursos naturais você usa todo dia?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: recurso natural com contraste de produtos industrializados."
+    }
+  },
+  {
+    "id": "geo-2-u5-n2",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u5",
+    "unidade_titulo": "Recursos Naturais do Cotidiano",
+    "habilidade_bncc_codigo": "EF02GE08",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.N.01 — Uso dos recursos naturais no cotidiano",
+    "objetivo": "Classificar recursos naturais por origem.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada recurso pela sua origem.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Madeira",
+          "categoria": "Vegetal"
+        },
+        {
+          "id": "i2",
+          "label": "Carvão mineral",
+          "categoria": "Mineral"
+        },
+        {
+          "id": "i3",
+          "label": "Lã de ovelha",
+          "categoria": "Animal"
+        },
+        {
+          "id": "i4",
+          "label": "Ferro",
+          "categoria": "Mineral"
+        },
+        {
+          "id": "i5",
+          "label": "Borracha natural",
+          "categoria": "Vegetal"
+        },
+        {
+          "id": "i6",
+          "label": "Mel",
+          "categoria": "Animal"
+        }
+      ],
+      "categorias": [
+        "Vegetal",
+        "Animal",
+        "Mineral"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 recursos.",
+      "Reconhece origens distintas dos recursos naturais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar amostras ou imagens dos recursos.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: vegetal vem de plantas, animal vem de seres vivos animais, mineral vem do solo ou rocha."
+    },
+    "modo_professor": {
+      "gabarito": "Vegetal: madeira, borracha. Animal: lã, mel. Mineral: carvão, ferro.",
+      "objetivo_pedagogico": "Classificar recursos naturais por origem biológica ou geológica.",
+      "perguntas_orientadoras": [
+        "De onde vem a borracha natural?",
+        "O carvão é formado como?",
+        "Que recursos você usa hoje que são de origem animal?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três origens com seis recursos."
+    }
+  },
+  {
+    "id": "geo-2-u5-n3",
+    "ano": 2,
+    "componente": "Geografia",
+    "unidade_id": "geo-2-u5",
+    "unidade_titulo": "Recursos Naturais do Cotidiano",
+    "habilidade_bncc_codigo": "EF02GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF2.N.02 — Uso consciente e preservação de recursos",
+    "objetivo": "Propor formas de usar recursos naturais de forma responsável.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha dois recursos naturais que você usa no dia a dia e explique como pode usá-los de forma mais responsável.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "r1",
+          "label": "Recurso 1 e como usar de forma responsável:",
+          "max": 200
+        },
+        {
+          "id": "r2",
+          "label": "Recurso 2 e como usar de forma responsável:",
+          "max": 200
+        },
+        {
+          "id": "impacto",
+          "label": "O que acontece se esses recursos forem esgotados?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica dois recursos reais.",
+      "Propõe uso responsável coerente.",
+      "Reflete sobre consequências do esgotamento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar recursos do cotidiano (água, papel, energia).",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: água, papel, madeira, energia elétrica — como você poderia usar menos ou melhor?"
+    },
+    "modo_professor": {
+      "gabarito": "Exemplos: água→fechar torneira, papel→usar os dois lados. Esgotamento: falta de recursos essenciais para as próximas gerações.",
+      "objetivo_pedagogico": "Desenvolver consciência ambiental sobre uso de recursos.",
+      "perguntas_orientadoras": [
+        "Que recurso você acha que seu bairro mais desperdiça?",
+        "O que é consumo consciente?",
+        "Como reciclar ajuda a preservar recursos naturais?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: uso responsável + reflexão sobre consequências."
+    }
   }
 ]

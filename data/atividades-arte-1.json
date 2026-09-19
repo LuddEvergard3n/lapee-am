@@ -458,5 +458,488 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: criação artística imaginada com reflexão sobre material e tema."
     }
+  },
+  {
+    "id": "art-1-u4-n1",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u4",
+    "unidade_titulo": "Linha e Ponto na Arte",
+    "habilidade_bncc_codigo": "EF15AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.05 — Elementos visuais: ponto e linha",
+    "objetivo": "Reconhecer ponto e linha como elementos básicos da linguagem visual.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que acontece quando juntamos muitos pontos próximos uns dos outros?",
+    "conteudo_base": {
+      "opcoes": [
+        "Formam uma cor",
+        "Formam uma linha ou imagem",
+        "Formam um som",
+        "Formam um cubo"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Compreende que pontos próximos formam linha ou imagem.",
+      "Reconhece a relação ponto-linha."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagem pontilhista (Seurat).",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: pon, pon, pon — coloque muitos pontos perto e o que aparece?"
+    },
+    "modo_professor": {
+      "gabarito": "Formam uma linha ou imagem — base do pontilhismo.",
+      "objetivo_pedagogico": "Introduzir ponto e linha como elementos fundamentais da arte.",
+      "perguntas_orientadoras": [
+        "Como artistas fazem imagens só com pontos?",
+        "Uma linha é feita de quê?",
+        "Você consegue desenhar um rosto só com pontos?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: relação direta ponto-linha com exemplo visual."
+    }
+  },
+  {
+    "id": "art-1-u4-n2",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u4",
+    "unidade_titulo": "Linha e Ponto na Arte",
+    "habilidade_bncc_codigo": "EF15AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.05 — Elementos visuais: ponto e linha",
+    "objetivo": "Classificar tipos de linhas usadas na arte.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada tipo de linha.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Linha sem curvas, vai direto",
+          "categoria": "Reta"
+        },
+        {
+          "id": "i2",
+          "label": "Linha com ondas suaves",
+          "categoria": "Curva"
+        },
+        {
+          "id": "i3",
+          "label": "Linha em ziguezague",
+          "categoria": "Quebrada"
+        },
+        {
+          "id": "i4",
+          "label": "Linha em espiral",
+          "categoria": "Curva"
+        },
+        {
+          "id": "i5",
+          "label": "Linha com ângulos acentuados",
+          "categoria": "Quebrada"
+        },
+        {
+          "id": "i6",
+          "label": "Linha paralela ao horizonte",
+          "categoria": "Reta"
+        }
+      ],
+      "categorias": [
+        "Reta",
+        "Curva",
+        "Quebrada"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica os 6 tipos corretamente.",
+      "Distingue retas de curvas e quebradas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode traçar cada tipo no quadro.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: reta vai direto. Curva dobra suave. Quebrada faz ângulos."
+    },
+    "modo_professor": {
+      "gabarito": "Retas: sem curvas, paralela ao horizonte. Curvas: ondas, espiral. Quebradas: zigue-zague, ângulos.",
+      "objetivo_pedagogico": "Ampliar vocabulário visual com tipos de linhas.",
+      "perguntas_orientadoras": [
+        "Uma linha pode ser ao mesmo tempo reta e curva?",
+        "Que tipo de linha passa mais calma? E urgência?",
+        "Kandinsky usava linhas para expressar emoções — você tentaria?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de 3 tipos com 6 exemplos."
+    }
+  },
+  {
+    "id": "art-1-u4-n3",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u4",
+    "unidade_titulo": "Linha e Ponto na Arte",
+    "habilidade_bncc_codigo": "EF15AR02",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.06 — Criação com ponto e linha",
+    "objetivo": "Criar uma composição artística usando pontos e linhas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Imagine uma obra de arte feita só com pontos e linhas. Descreva o que você criaria.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "tema",
+          "label": "O que sua obra representaria?",
+          "max": 100
+        },
+        {
+          "id": "linhas",
+          "label": "Que tipos de linha você usaria e por quê?",
+          "max": 200
+        },
+        {
+          "id": "pontos",
+          "label": "Como você usaria os pontos?",
+          "max": 150
+        },
+        {
+          "id": "sensacao",
+          "label": "Que sensação você quer que a obra transmita?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define tema.",
+      "Descreve uso de pelo menos dois tipos de linha.",
+      "Relaciona elementos visuais à intenção expressiva."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar obras de Mondrian ou Kandinsky.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: linhas retas podem passar ordem. Linhas curvas podem passar suavidade. Pontos podem criar textura."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: tema definido, tipos de linha justificados, intenção expressiva.",
+      "objetivo_pedagogico": "Desenvolver intenção artística com elementos visuais básicos.",
+      "perguntas_orientadoras": [
+        "Por que você escolheu esses tipos de linha para esse tema?",
+        "Você poderia desenhar essa ideia?",
+        "Cor faria diferença na sua obra?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: projeto artístico com intenção expressiva."
+    }
+  },
+  {
+    "id": "art-1-u4-n1",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u4",
+    "unidade_titulo": "Cores e Misturas",
+    "habilidade_bncc_codigo": "EF15AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.01 — Cores primárias e secundárias",
+    "objetivo": "Reconhecer as cores primárias e o que se obtém ao misturá-las.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Quais são as cores primárias?",
+    "conteudo_base": {
+      "opcoes": [
+        "Verde, laranja e roxo",
+        "Vermelho, azul e amarelo",
+        "Branco, preto e cinza",
+        "Rosa, marrom e bege"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica as três cores primárias corretamente.",
+      "Distingue de cores secundárias e neutras."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar tinta das três cores e misturar na frente dos alunos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: cores primárias são aquelas que não podem ser feitas misturando outras cores."
+    },
+    "modo_professor": {
+      "gabarito": "Vermelho, azul e amarelo — as três cores primárias da pintura.",
+      "objetivo_pedagogico": "Identificar cores primárias como base do sistema de cores.",
+      "perguntas_orientadoras": [
+        "O que acontece quando você mistura vermelho e azul?",
+        "E vermelho com amarelo?",
+        "Por que são chamadas de primárias?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento direto das primárias com opções de conjuntos distintos."
+    }
+  },
+  {
+    "id": "art-1-u4-n2",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u4",
+    "unidade_titulo": "Cores e Misturas",
+    "habilidade_bncc_codigo": "EF15AR01",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.01 — Cores primárias e secundárias",
+    "objetivo": "Associar a mistura de cores primárias às cores secundárias resultantes.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue a mistura à cor secundária que ela produz.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Vermelho + Azul",
+          "nome": "Roxo"
+        },
+        {
+          "elemento": "Vermelho + Amarelo",
+          "nome": "Laranja"
+        },
+        {
+          "elemento": "Azul + Amarelo",
+          "nome": "Verde"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente as três misturas às cores secundárias.",
+      "Compreende mistura de cores como processo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Fazer a mistura ao vivo com guache para confirmar.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: tente imaginar (ou misturar de verdade) o que acontece com cada par."
+    },
+    "modo_professor": {
+      "gabarito": "Verm+Az→roxo | Verm+Am→laranja | Az+Am→verde.",
+      "objetivo_pedagogico": "Compreender a formação das cores secundárias.",
+      "perguntas_orientadoras": [
+        "Qual é a cor mais fria que você pode fazer misturando primárias?",
+        "O que acontece se misturar as três primárias juntas?",
+        "Onde você vê essas cores na natureza?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três pares de mistura com resultado não trivial."
+    }
+  },
+  {
+    "id": "art-1-u4-n3",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u4",
+    "unidade_titulo": "Cores e Misturas",
+    "habilidade_bncc_codigo": "EF15AR02",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.V.02 — Expressão com cores",
+    "objetivo": "Usar cores para expressar sentimentos em uma criação.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Que cores você usaria para representar alegria? E tristeza? E raiva? Explique suas escolhas.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "alegria",
+          "label": "Cores da alegria e por quê:",
+          "max": 150
+        },
+        {
+          "id": "tristeza",
+          "label": "Cores da tristeza e por quê:",
+          "max": 150
+        },
+        {
+          "id": "raiva",
+          "label": "Cores da raiva e por quê:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escolhe cores para cada sentimento.",
+      "Justifica com alguma razão (calor, frio, intensidade).",
+      "As escolhas são pessoalmente significativas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar obras de arte com paletas emocionais distintas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como cada cor te faz sentir — o amarelo é quentinho, o azul é calmo ou frio?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: cores escolhidas, justificativa com referência sensorial ou simbólica.",
+      "objetivo_pedagogico": "Desenvolver consciência do uso expressivo das cores.",
+      "perguntas_orientadoras": [
+        "Artistas como Van Gogh usavam cores para expressar sentimentos — você sabia?",
+        "Existe uma cor 'errada' para representar tristeza?",
+        "Por que culturas diferentes associam cores diferentes ao luto?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: uso expressivo e pessoal das cores com justificativa."
+    }
+  },
+  {
+    "id": "art-1-u5-n1",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u5",
+    "unidade_titulo": "Música e Movimento",
+    "habilidade_bncc_codigo": "EF15AR11",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.M.01 — Música e expressão corporal",
+    "objetivo": "Reconhecer que música e movimento corporal estão relacionados.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que a música provoca naturalmente no corpo?",
+    "conteudo_base": {
+      "opcoes": [
+        "Nada — música só é para os ouvidos",
+        "Vontade de se mover, bater o pé ou dançar",
+        "Obriga a dormir",
+        "Faz a pessoa ficar parada"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece que a música estimula movimento corporal.",
+      "Relaciona estímulo sonoro à resposta física."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Tocar uma música animada e observar as reações da turma.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando você escuta sua música favorita, o que seu corpo quer fazer?"
+    },
+    "modo_professor": {
+      "gabarito": "A música provoca vontade de se mover — resposta física ao estímulo rítmico.",
+      "objetivo_pedagogico": "Compreender a relação entre música e movimento.",
+      "perguntas_orientadoras": [
+        "Qual música te dá mais vontade de dançar?",
+        "A dança pode existir sem música?",
+        "Por que bebês balançam quando ouvem música?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: relação direta e experiencial entre música e movimento."
+    }
+  },
+  {
+    "id": "art-1-u5-n2",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u5",
+    "unidade_titulo": "Música e Movimento",
+    "habilidade_bncc_codigo": "EF15AR11",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.M.01 — Música e expressão corporal",
+    "objetivo": "Classificar movimentos corporais adequados a diferentes ritmos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada ritmo ao movimento que combina com ele.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Música lenta e suave",
+          "nome": "Movimentos lentos e fluidos"
+        },
+        {
+          "elemento": "Ritmo acelerado e animado",
+          "nome": "Movimentos rápidos e enérgicos"
+        },
+        {
+          "elemento": "Batida regular e marcada",
+          "nome": "Bater o pé no compasso"
+        },
+        {
+          "elemento": "Música sem ritmo definido",
+          "nome": "Movimentos improvisados e livres"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente ritmo a tipo de movimento.",
+      "Reconhece relação entre tempo musical e velocidade do movimento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Tocar cada tipo de música e pedir que os alunos se movam.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: deixe seu corpo responder à música — o que ele faz naturalmente?"
+    },
+    "modo_professor": {
+      "gabarito": "Lenta→fluida | Acelerada→enérgica | Marcada→pé no compasso | Livre→improvisado.",
+      "objetivo_pedagogico": "Relacionar características musicais a formas de expressão corporal.",
+      "perguntas_orientadoras": [
+        "Uma música de ninar provoca movimentos rápidos?",
+        "O que é dançar 'no compasso'?",
+        "Dança contemporânea pode ter movimentos livres?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro tipos de ritmo com respostas corporais correspondentes."
+    }
+  },
+  {
+    "id": "art-1-u5-n3",
+    "ano": 1,
+    "componente": "Arte",
+    "unidade_id": "art-1-u5",
+    "unidade_titulo": "Música e Movimento",
+    "habilidade_bncc_codigo": "EF15AR12",
+    "referencia_cbtc": "CBTC-SC: ART.EF1.M.02 — Criação de sequências de movimento",
+    "objetivo": "Criar e descrever uma sequência de movimentos inspirada em uma música.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Pense em uma música que você gosta. Crie uma sequência de 4 movimentos que combinem com ela e descreva cada um.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "musica",
+          "label": "Qual música você escolheu?",
+          "max": 80
+        },
+        {
+          "id": "m1",
+          "label": "Movimento 1:",
+          "max": 100
+        },
+        {
+          "id": "m2",
+          "label": "Movimento 2:",
+          "max": 100
+        },
+        {
+          "id": "m3",
+          "label": "Movimento 3:",
+          "max": 100
+        },
+        {
+          "id": "m4",
+          "label": "Movimento 4:",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escolhe uma música real.",
+      "Descreve 4 movimentos com coerência rítmica.",
+      "Os movimentos refletem o caráter da música."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode deixar os alunos ouvir músicas antes de escrever.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em como o ritmo e a melodia da música 'pedem' para o seu corpo se mover."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: música identificada, 4 movimentos descritos, coerência com o ritmo.",
+      "objetivo_pedagogico": "Criar coreografia elementar com intencionalidade musical.",
+      "perguntas_orientadoras": [
+        "Seus movimentos combinam com o ritmo rápido ou lento da música?",
+        "Você usaria esse movimento no início ou no final da música?",
+        "Como você ensinaria essa sequência a um colega?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação de sequência coreográfica com justificativa musical."
+    }
   }
 ]

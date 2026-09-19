@@ -474,5 +474,475 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: proposta de ação com justificativa — pensamento projetivo."
     }
+  },
+  {
+    "id": "geo-4-u4-n1",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u4",
+    "unidade_titulo": "Urbanização e Problemas Sociais",
+    "habilidade_bncc_codigo": "EF04GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.S.03 — Urbanização e problemas das cidades",
+    "objetivo": "Reconhecer problemas causados pelo crescimento desordenado das cidades.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual problema é causado pelo crescimento desordenado das cidades?",
+    "conteudo_base": {
+      "opcoes": [
+        "Mais áreas verdes",
+        "Favelas e falta de moradia digna",
+        "Melhores transportes",
+        "Mais empregos para todos"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa urbanização desordenada à falta de moradia.",
+      "Distingue crescimento planejado do desordenado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de contraste entre bairro planejado e favela.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando muitas pessoas chegam à cidade ao mesmo tempo, nem todas conseguem morar bem."
+    },
+    "modo_professor": {
+      "gabarito": "Favelas e falta de moradia digna.",
+      "objetivo_pedagogico": "Reconhecer problemas sociais gerados pela urbanização desordenada.",
+      "perguntas_orientadoras": [
+        "O que é uma favela?",
+        "Por que as pessoas vão morar em favelas?",
+        "Saneamento básico existe em todos os bairros?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: consequência direta e conhecida da urbanização."
+    }
+  },
+  {
+    "id": "geo-4-u4-n2",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u4",
+    "unidade_titulo": "Urbanização e Problemas Sociais",
+    "habilidade_bncc_codigo": "EF04GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.S.03 — Urbanização e problemas das cidades",
+    "objetivo": "Classificar problemas urbanos e possíveis soluções.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Associe cada problema urbano a uma solução possível.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Congestionamento de trânsito",
+          "nome": "Investir em transporte público"
+        },
+        {
+          "elemento": "Falta de moradia",
+          "nome": "Programas habitacionais populares"
+        },
+        {
+          "elemento": "Poluição do ar",
+          "nome": "Incentivar bicicletas e veículos elétricos"
+        },
+        {
+          "elemento": "Enchentes urbanas",
+          "nome": "Construir piscinões e aumentar áreas verdes"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 pares problema-solução.",
+      "Compreende que problemas urbanos têm soluções estruturais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode apresentar casos reais de cada solução.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: cada problema tem uma solução que ataca a causa — não só o sintoma."
+    },
+    "modo_professor": {
+      "gabarito": "Congestionamento→transporte público | Moradia→habitação | Poluição→veículos limpos | Enchentes→piscinões.",
+      "objetivo_pedagogico": "Relacionar problemas urbanos a soluções de planejamento.",
+      "perguntas_orientadoras": [
+        "O metrô de São Paulo resolveu o trânsito?",
+        "Por que as cidades têm enchentes?",
+        "Quem decide como uma cidade é planejada?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de 4 problemas urbanos a soluções."
+    }
+  },
+  {
+    "id": "geo-4-u4-n3",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u4",
+    "unidade_titulo": "Urbanização e Problemas Sociais",
+    "habilidade_bncc_codigo": "EF04GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.S.04 — Cidadania e participação na cidade",
+    "objetivo": "Propor melhorias para um problema do bairro ou cidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Identifique um problema na sua cidade ou bairro e proponha uma solução realista.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "problema",
+          "label": "Qual problema você identificou?",
+          "max": 150
+        },
+        {
+          "id": "causa",
+          "label": "Por que esse problema existe?",
+          "max": 200
+        },
+        {
+          "id": "solucao",
+          "label": "Qual solução você propõe?",
+          "max": 250
+        },
+        {
+          "id": "quem",
+          "label": "Quem teria que agir para resolver?",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica problema real e local.",
+      "Explica a causa.",
+      "Propõe solução viável.",
+      "Indica os responsáveis pela solução."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer diagnóstico coletivo do bairro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: observe seu caminho para a escola — o que poderia ser melhor?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: problema local, causa explicada, solução viável, responsável identificado.",
+      "objetivo_pedagogico": "Desenvolver olhar crítico sobre o espaço urbano e senso de cidadania.",
+      "perguntas_orientadoras": [
+        "Você pode fazer parte da solução?",
+        "Como chegar ao poder público com essa proposta?",
+        "Outros colegas têm o mesmo problema?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: proposta cidadã de melhoria urbana."
+    }
+  },
+  {
+    "id": "geo-4-u4-n1",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u4",
+    "unidade_titulo": "Globalização e Comércio",
+    "habilidade_bncc_codigo": "EF04GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.S.02 — Globalização e trocas comerciais",
+    "objetivo": "Reconhecer o que é globalização.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que melhor define globalização?",
+    "conteudo_base": {
+      "opcoes": [
+        "Cada país vive isolado dos outros",
+        "Integração econômica, cultural e tecnológica entre países do mundo",
+        "Somente a exportação de petróleo",
+        "Troca de idiomas entre países"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Define globalização como integração mundial.",
+      "Distingue de outros fenômenos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar etiqueta de produto feito em outro país.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: seu tênis pode ter sido feito na Ásia, seu celular foi projetado nos EUA — isso é globalização."
+    },
+    "modo_professor": {
+      "gabarito": "Integração econômica, cultural e tecnológica entre países.",
+      "objetivo_pedagogico": "Compreender globalização como integração mundial.",
+      "perguntas_orientadoras": [
+        "O que você usa que veio de outro país?",
+        "A globalização só tem vantagens?",
+        "O que é importação?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição direta com exemplo cotidiano."
+    }
+  },
+  {
+    "id": "geo-4-u4-n2",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u4",
+    "unidade_titulo": "Globalização e Comércio",
+    "habilidade_bncc_codigo": "EF04GE09",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.S.02 — Globalização e trocas comerciais",
+    "objetivo": "Classificar vantagens e desvantagens da globalização.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: é uma vantagem ou desvantagem da globalização?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Acesso a produtos de todo o mundo",
+          "categoria": "Vantagem"
+        },
+        {
+          "id": "i2",
+          "label": "Perda de culturas locais",
+          "categoria": "Desvantagem"
+        },
+        {
+          "id": "i3",
+          "label": "Comunicação instantânea entre países",
+          "categoria": "Vantagem"
+        },
+        {
+          "id": "i4",
+          "label": "Desemprego com fábricas indo para países mais baratos",
+          "categoria": "Desvantagem"
+        },
+        {
+          "id": "i5",
+          "label": "Intercâmbio científico e tecnológico",
+          "categoria": "Vantagem"
+        },
+        {
+          "id": "i6",
+          "label": "Dependência econômica de países mais ricos",
+          "categoria": "Desvantagem"
+        }
+      ],
+      "categorias": [
+        "Vantagem",
+        "Desvantagem"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 itens.",
+      "Reconhece ambivalência da globalização."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode debater cada ponto com a turma.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: pense em quem se beneficia e quem sofre com cada aspecto."
+    },
+    "modo_professor": {
+      "gabarito": "Vantagem: produtos, comunicação, ciência. Desvantagem: perda cultural, desemprego, dependência.",
+      "objetivo_pedagogico": "Analisar criticamente vantagens e desvantagens da globalização.",
+      "perguntas_orientadoras": [
+        "A globalização beneficia todos os países igualmente?",
+        "O que é homogeneização cultural?",
+        "Como proteger a cultura local da globalização?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: avaliação crítica com itens que exigem análise."
+    }
+  },
+  {
+    "id": "geo-4-u4-n3",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u4",
+    "unidade_titulo": "Globalização e Comércio",
+    "habilidade_bncc_codigo": "EF04GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.S.03 — Impactos da globalização no cotidiano",
+    "objetivo": "Identificar a globalização no próprio cotidiano e refletir criticamente.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Faça um levantamento dos objetos que você usa hoje (roupas, alimentos, tecnologia). Quantos foram produzidos em outros países? O que isso diz sobre a globalização?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "objetos",
+          "label": "Liste ao menos 5 objetos e de onde vieram:",
+          "max": 250
+        },
+        {
+          "id": "percentual",
+          "label": "Quantos são de outros países? (estimativa)",
+          "max": 80
+        },
+        {
+          "id": "reflexao",
+          "label": "O que isso revela sobre a globalização no seu dia a dia?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Lista 5+ objetos com origem identificada.",
+      "Faz estimativa percentual.",
+      "Reflete sobre presença da globalização."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que os alunos tragam etiquetas de roupas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: veja as etiquetas das suas roupas — onde foram feitas?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 5+ objetos com origem, estimativa, reflexão sobre dependência/integração global.",
+      "objetivo_pedagogico": "Identificar globalização no cotidiano pessoal.",
+      "perguntas_orientadoras": [
+        "Ficaria sem algum produto se o comércio global parasse?",
+        "Existe algo que você usa que é 100% brasileiro?",
+        "Por que países produzem onde é mais barato?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: pesquisa pessoal + reflexão crítica sobre globalização."
+    }
+  },
+  {
+    "id": "geo-4-u5-n1",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u5",
+    "unidade_titulo": "Desastres Naturais",
+    "habilidade_bncc_codigo": "EF04GE11",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.N.04 — Desastres naturais e prevenção",
+    "objetivo": "Reconhecer tipos de desastres naturais e suas causas.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que causa as enchentes urbanas?",
+    "conteudo_base": {
+      "opcoes": [
+        "Apenas a falta de chuva",
+        "Impermeabilização do solo e falta de drenagem em áreas com muita chuva",
+        "Excesso de árvores nas cidades",
+        "Terremoto submarino"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Relaciona enchente à impermeabilização + chuva intensa.",
+      "Distingue de outros fenômenos naturais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de rua impermeabilizada vs. área verde após chuva.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando a chuva cai num jardim, a água entra no solo. E quando cai no asfalto?"
+    },
+    "modo_professor": {
+      "gabarito": "Impermeabilização do solo + chuva intensa + falta de drenagem.",
+      "objetivo_pedagogico": "Compreender as causas das enchentes urbanas.",
+      "perguntas_orientadoras": [
+        "O que é solo impermeabilizado?",
+        "Como as árvores ajudam a evitar enchentes?",
+        "Por que as enchentes são mais graves nas cidades?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: causa principal da enchente com contraste de distratores."
+    }
+  },
+  {
+    "id": "geo-4-u5-n2",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u5",
+    "unidade_titulo": "Desastres Naturais",
+    "habilidade_bncc_codigo": "EF04GE11",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.N.04 — Desastres naturais e prevenção",
+    "objetivo": "Associar desastres naturais a regiões e medidas de prevenção.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada desastre natural à sua medida de prevenção.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Enchente",
+          "nome": "Sistemas de drenagem e alerta"
+        },
+        {
+          "elemento": "Seca",
+          "nome": "Cisternas e reuso de água"
+        },
+        {
+          "elemento": "Deslizamento de terra",
+          "nome": "Reflorestamento e obras de contenção"
+        },
+        {
+          "elemento": "Incêndio florestal",
+          "nome": "Aceiros e monitoramento aéreo"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 pares desastre-prevenção."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar com desastres ocorridos no Brasil.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: pense no que cada desastre causa e o que poderia evitá-lo ou reduzir o impacto."
+    },
+    "modo_professor": {
+      "gabarito": "Enchente→drenagem | Seca→cisternas | Deslizamento→reflorestamento | Incêndio→aceiros.",
+      "objetivo_pedagogico": "Relacionar tipos de desastre a medidas preventivas específicas.",
+      "perguntas_orientadoras": [
+        "O que é um aceiro?",
+        "Por que o desmatamento piora deslizamentos?",
+        "Santa Catarina sofre com quais desastres?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro tipos de desastre com soluções específicas."
+    }
+  },
+  {
+    "id": "geo-4-u5-n3",
+    "ano": 4,
+    "componente": "Geografia",
+    "unidade_id": "geo-4-u5",
+    "unidade_titulo": "Desastres Naturais",
+    "habilidade_bncc_codigo": "EF04GE12",
+    "referencia_cbtc": "CBTC-SC: GEO.EF4.N.05 — Vulnerabilidade social e desastres",
+    "objetivo": "Refletir sobre a relação entre desigualdade social e vulnerabilidade a desastres.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que pessoas mais pobres sofrem mais com desastres naturais como enchentes e deslizamentos? O que poderia mudar isso?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "motivo",
+          "label": "Por que pessoas mais pobres são mais vulneráveis?",
+          "max": 250
+        },
+        {
+          "id": "solucao",
+          "label": "O que poderia reduzir essa vulnerabilidade?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Relaciona vulnerabilidade à moradia em áreas de risco e falta de infraestrutura.",
+      "Propõe solução estrutural ou social."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar imagens de áreas de risco em encostas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: quem mora em encostas e beiras de rio? Por que essas áreas são de risco?"
+    },
+    "modo_professor": {
+      "gabarito": "Vulnerabilidade: moradias precárias em áreas de risco, sem infraestrutura de drenagem. Solução: urbanização de favelas, habitação social, sistemas de alerta.",
+      "objetivo_pedagogico": "Relacionar vulnerabilidade a desastres com desigualdade social.",
+      "perguntas_orientadoras": [
+        "O desastre é só natural ou também social?",
+        "O que é habitação social?",
+        "Por que ricos e pobres sofrem de forma diferente com as mesmas chuvas?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise crítica de vulnerabilidade social e ambiental."
+    }
   }
 ]

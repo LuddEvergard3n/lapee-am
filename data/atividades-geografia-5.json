@@ -476,5 +476,495 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: reflexão sobre agência pessoal em problema global."
     }
+  },
+  {
+    "id": "geo-5-u4-n1",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u4",
+    "unidade_titulo": "Geopolítica e Fronteiras",
+    "habilidade_bncc_codigo": "EF05GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.05 — Fronteiras e geopolítica",
+    "objetivo": "Reconhecer a função das fronteiras entre países.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Para que servem as fronteiras entre países?",
+    "conteudo_base": {
+      "opcoes": [
+        "Para impedir que as pessoas se comuniquem",
+        "Delimitar o território e a soberania de cada Estado",
+        "Separar pessoas de culturas diferentes para sempre",
+        "Para aumentar os impostos de quem passa entre países"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica função geopolítica da fronteira.",
+      "Distingue fronteira de barreira cultural permanente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar mapa político da América do Sul.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a fronteira diz onde termina um país e começa outro — é uma linha de soberania."
+    },
+    "modo_professor": {
+      "gabarito": "Delimitar território e soberania — função geopolítica da fronteira.",
+      "objetivo_pedagogico": "Compreender o conceito de fronteira e soberania estatal.",
+      "perguntas_orientadoras": [
+        "O Brasil faz fronteira com quantos países?",
+        "Uma fronteira pode mudar?",
+        "O que é soberania?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: função direta da fronteira."
+    }
+  },
+  {
+    "id": "geo-5-u4-n2",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u4",
+    "unidade_titulo": "Geopolítica e Fronteiras",
+    "habilidade_bncc_codigo": "EF05GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.05 — Fronteiras e geopolítica",
+    "objetivo": "Classificar tensões geopolíticas por suas causas.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Associe cada tensão geopolítica à sua principal causa.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Países disputam poço de petróleo na fronteira",
+          "nome": "Recursos naturais"
+        },
+        {
+          "elemento": "Dois povos reivindicam o mesmo território histórico",
+          "nome": "Território e história"
+        },
+        {
+          "elemento": "Conflito entre grupos de religiões diferentes",
+          "nome": "Religião e etnia"
+        },
+        {
+          "elemento": "País rico quer controlar rotas comerciais do mar",
+          "nome": "Poder e comércio"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa os 4 conflitos às causas corretas.",
+      "Reconhece diversidade de causas geopolíticas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contextualizar com conflito atual.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: por trás de toda guerra há um interesse — território, riqueza, poder ou crença."
+    },
+    "modo_professor": {
+      "gabarito": "Petróleo→recursos | Território histórico→história | Religiões→religião/etnia | Rotas→poder.",
+      "objetivo_pedagogico": "Analisar causas geopolíticas de conflitos internacionais.",
+      "perguntas_orientadoras": [
+        "Dois países podem querer o mesmo petróleo?",
+        "Por que rotas marítimas têm valor estratégico?",
+        "A ONU consegue resolver todos os conflitos?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de causas geopolíticas."
+    }
+  },
+  {
+    "id": "geo-5-u4-n3",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u4",
+    "unidade_titulo": "Geopolítica e Fronteiras",
+    "habilidade_bncc_codigo": "EF05GE11",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.06 — Cooperação internacional e organismos multilaterais",
+    "objetivo": "Refletir sobre o papel dos organismos internacionais na manutenção da paz.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "A ONU foi criada depois da Segunda Guerra Mundial para evitar novos conflitos. Como ela funciona? Ela consegue garantir a paz?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "onu",
+          "label": "O que é a ONU e qual sua função?",
+          "max": 200
+        },
+        {
+          "id": "funcionamento",
+          "label": "Como ela age em conflitos (de forma simplificada)?",
+          "max": 200
+        },
+        {
+          "id": "limites",
+          "label": "Por que nem sempre ela consegue evitar guerras?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Explica função da ONU.",
+      "Menciona ao menos um mecanismo de atuação.",
+      "Reconhece limitações."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar sede da ONU e emblema.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: a ONU reúne quase todos os países do mundo para conversar antes de brigar."
+    },
+    "modo_professor": {
+      "gabarito": "ONU: organização que promove paz, direitos humanos e desenvolvimento. Age com negociação, sanções e peacekeeping. Limite: veto do Conselho de Segurança.",
+      "objetivo_pedagogico": "Compreender papel e limitações dos organismos multilaterais.",
+      "perguntas_orientadoras": [
+        "O Brasil faz parte da ONU?",
+        "O que é o Conselho de Segurança?",
+        "Por que o veto é uma limitação?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise de organismo internacional com limitações."
+    }
+  },
+  {
+    "id": "geo-5-u4-n1",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u4",
+    "unidade_titulo": "Energia e Meio Ambiente",
+    "habilidade_bncc_codigo": "EF05GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.N.02 — Matriz energética e meio ambiente",
+    "objetivo": "Reconhecer a matriz energética brasileira.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é a principal fonte de energia elétrica do Brasil?",
+    "conteudo_base": {
+      "opcoes": [
+        "Carvão mineral",
+        "Energia nuclear",
+        "Energia hidrelétrica",
+        "Energia eólica"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica energia hidrelétrica como principal fonte da matriz brasileira.",
+      "Distingue das outras fontes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar gráfico da matriz energética brasileira.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o Brasil tem muitos rios caudalosos — como aproveitar a força da água para gerar energia?"
+    },
+    "modo_professor": {
+      "gabarito": "Energia hidrelétrica — cerca de 60% da matriz elétrica brasileira.",
+      "objetivo_pedagogico": "Conhecer a matriz energética do Brasil.",
+      "perguntas_orientadoras": [
+        "Por que o Brasil apostou tanto na energia hidrelétrica?",
+        "Quais são as desvantagens das hidrelétricas?",
+        "O Brasil usa energia solar?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: fonte predominante com contexto geográfico."
+    }
+  },
+  {
+    "id": "geo-5-u4-n2",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u4",
+    "unidade_titulo": "Energia e Meio Ambiente",
+    "habilidade_bncc_codigo": "EF05GE10",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.N.02 — Matriz energética e meio ambiente",
+    "objetivo": "Classificar fontes de energia por impacto ambiental.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada fonte de energia pelo seu impacto ambiental.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Carvão mineral",
+          "categoria": "Alto impacto"
+        },
+        {
+          "id": "i2",
+          "label": "Solar fotovoltaica",
+          "categoria": "Baixo impacto"
+        },
+        {
+          "id": "i3",
+          "label": "Petróleo",
+          "categoria": "Alto impacto"
+        },
+        {
+          "id": "i4",
+          "label": "Eólica",
+          "categoria": "Baixo impacto"
+        },
+        {
+          "id": "i5",
+          "label": "Hidrelétrica (grandes)",
+          "categoria": "Médio impacto"
+        },
+        {
+          "id": "i6",
+          "label": "Nuclear",
+          "categoria": "Médio impacto"
+        }
+      ],
+      "categorias": [
+        "Alto impacto",
+        "Médio impacto",
+        "Baixo impacto"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 itens.",
+      "Reconhece que nem toda energia limpa tem impacto zero."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Gráfico comparativo de emissões por fonte.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: carvão e petróleo emitem muito CO₂. Solar e eólica, quase nada. Hidrelétrica inunda áreas — qual impacto isso tem?"
+    },
+    "modo_professor": {
+      "gabarito": "Alto: carvão, petróleo. Médio: hidrelétrica, nuclear. Baixo: solar, eólica.",
+      "objetivo_pedagogico": "Analisar impacto ambiental de diferentes fontes energéticas.",
+      "perguntas_orientadoras": [
+        "A energia nuclear tem impacto zero?",
+        "Por que a hidrelétrica tem impacto médio?",
+        "Qual fonte você escolheria para um mundo sustentável?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias com casos ambíguos como nuclear e hidrelétrica."
+    }
+  },
+  {
+    "id": "geo-5-u4-n3",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u4",
+    "unidade_titulo": "Energia e Meio Ambiente",
+    "habilidade_bncc_codigo": "EF05GE11",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.N.03 — Transição energética e sustentabilidade",
+    "objetivo": "Analisar a transição energética e propor uma matriz mais sustentável.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O mundo está migrando para energias limpas. Por que essa transição é necessária? Proponha uma matriz energética ideal para o Brasil.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "necessidade",
+          "label": "Por que a transição energética é necessária?",
+          "max": 200
+        },
+        {
+          "id": "matriz",
+          "label": "Que fontes você incluiria na matriz ideal do Brasil?",
+          "max": 200
+        },
+        {
+          "id": "desafio",
+          "label": "Qual seria o maior desafio dessa transição?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica com impacto ambiental.",
+      "Propõe matriz com fontes variadas e coerentes.",
+      "Identifica desafio real."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos de países com energia 100% renovável.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o Brasil tem sol, vento e rios. Que combinação de energias faria sentido aqui?"
+    },
+    "modo_professor": {
+      "gabarito": "Necessidade: mudanças climáticas, finitude do petróleo. Matriz: hídrica + solar + eólica + biomassa. Desafio: armazenamento de energia, custo de transição.",
+      "objetivo_pedagogico": "Desenvolver pensamento sistêmico sobre transição energética.",
+      "perguntas_orientadoras": [
+        "Que países já são quase 100% renováveis?",
+        "O Brasil é líder em alguma fonte renovável?",
+        "Por que o armazenamento de energia é um desafio?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: proposta de política energética com justificativa."
+    }
+  },
+  {
+    "id": "geo-5-u5-n1",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u5",
+    "unidade_titulo": "Migrações Contemporâneas",
+    "habilidade_bncc_codigo": "EF05GE12",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.05 — Migrações contemporâneas e direitos",
+    "objetivo": "Reconhecer causas das migrações contemporâneas.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é uma causa ATUAL de migração forçada no mundo?",
+    "conteudo_base": {
+      "opcoes": [
+        "Abundância de empregos",
+        "Conflitos armados e perseguições políticas",
+        "Excesso de recursos naturais",
+        "Clima agradável em outros países"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica conflitos como causa de migração forçada.",
+      "Distingue migração voluntária de forçada."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar mapa de refugiados mundiais.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: um refugiado não sai de casa porque quer — ele foge de algo. O que seria esse algo?"
+    },
+    "modo_professor": {
+      "gabarito": "Conflitos armados e perseguições — causas principais do refúgio.",
+      "objetivo_pedagogico": "Distinguir migração voluntária de migração forçada.",
+      "perguntas_orientadoras": [
+        "O que é um refugiado?",
+        "Quais são os países com mais refugiados?",
+        "O Brasil recebe refugiados?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: causa direta de refúgio com contraste de situações positivas."
+    }
+  },
+  {
+    "id": "geo-5-u5-n2",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u5",
+    "unidade_titulo": "Migrações Contemporâneas",
+    "habilidade_bncc_codigo": "EF05GE12",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.05 — Migrações contemporâneas e direitos",
+    "objetivo": "Classificar tipos de migração por motivação.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada situação de migração.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Família foge de guerra civil",
+          "categoria": "Forçada"
+        },
+        {
+          "id": "i2",
+          "label": "Jovem vai estudar em outro país",
+          "categoria": "Voluntária"
+        },
+        {
+          "id": "i3",
+          "label": "Povo expulso por desastre ambiental",
+          "categoria": "Forçada"
+        },
+        {
+          "id": "i4",
+          "label": "Trabalhador vai para outra cidade por emprego melhor",
+          "categoria": "Voluntária"
+        },
+        {
+          "id": "i5",
+          "label": "Pessoa perseguida por religião foge do país",
+          "categoria": "Forçada"
+        },
+        {
+          "id": "i6",
+          "label": "Aposentado muda para cidade com clima mais quente",
+          "categoria": "Voluntária"
+        }
+      ],
+      "categorias": [
+        "Voluntária",
+        "Forçada"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 casos.",
+      "Distingue migração por escolha de migração por necessidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contar casos reais de cada tipo.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: forçada é quando você não tem outra escolha senão ir. Voluntária é quando você decide partir."
+    },
+    "modo_professor": {
+      "gabarito": "Forçada: guerra, desastre, perseguição. Voluntária: estudo, emprego, aposentadoria.",
+      "objetivo_pedagogico": "Classificar migrações por motivação e grau de escolha.",
+      "perguntas_orientadoras": [
+        "Migrações climáticas são forçadas ou voluntárias?",
+        "O que é xenofobia?",
+        "Como o Brasil pode acolher migrantes?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: distinção entre voluntária e forçada com casos variados."
+    }
+  },
+  {
+    "id": "geo-5-u5-n3",
+    "ano": 5,
+    "componente": "Geografia",
+    "unidade_id": "geo-5-u5",
+    "unidade_titulo": "Migrações Contemporâneas",
+    "habilidade_bncc_codigo": "EF05GE13",
+    "referencia_cbtc": "CBTC-SC: GEO.EF5.S.06 — Acolhimento e direitos dos migrantes",
+    "objetivo": "Refletir sobre o acolhimento de migrantes e os direitos humanos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Imagine que uma família de refugiados chega à sua cidade. O que sua comunidade poderia fazer para acolhê-la? E quais seriam os desafios?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "acolhimento",
+          "label": "O que sua comunidade poderia fazer?",
+          "max": 250
+        },
+        {
+          "id": "desafios",
+          "label": "Quais seriam os desafios do acolhimento?",
+          "max": 200
+        },
+        {
+          "id": "direitos",
+          "label": "Que direitos os refugiados têm?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Propõe ações concretas de acolhimento.",
+      "Identifica desafios reais.",
+      "Menciona ao menos um direito dos refugiados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode contar história de família refugiada.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense no que alguém precisaria quando chega num lugar novo sem nada — moradia, idioma, trabalho, escola."
+    },
+    "modo_professor": {
+      "gabarito": "Acolhimento: moradia, aulas de português, apoio psicológico, matrícula escolar. Desafios: idioma, preconceito, legalização. Direitos: proteção, trabalho, educação.",
+      "objetivo_pedagogico": "Desenvolver empatia e consciência sobre direitos dos migrantes.",
+      "perguntas_orientadoras": [
+        "O que é xenofobia e como combatê-la?",
+        "A Convenção de 1951 sobre Refugiados garante quais direitos?",
+        "Você já teve contato com pessoas de outros países?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: proposta de ação + reflexão sobre direitos humanos."
+    }
   }
 ]

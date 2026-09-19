@@ -460,5 +460,511 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: pesquisa e reflexão sobre música como identidade cultural."
     }
+  },
+  {
+    "id": "art-3-u4-n1",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u4",
+    "unidade_titulo": "Arte e Natureza",
+    "habilidade_bncc_codigo": "EF15AR07",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.04 — Natureza como inspiração artística",
+    "objetivo": "Reconhecer a natureza como fonte de inspiração para artistas.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual desses artistas ficou famoso por pintar flores enormes e detalhadas?",
+    "conteudo_base": {
+      "opcoes": [
+        "Pablo Picasso",
+        "Georgia O'Keeffe",
+        "Salvador Dalí",
+        "Claude Monet"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece Georgia O'Keeffe como artista das flores ampliadas.",
+      "Associa artista a estilo natureza."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar uma obra de Georgia O'Keeffe.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: essa artista americana pintava flores tão de perto que pareciam o próprio universo."
+    },
+    "modo_professor": {
+      "gabarito": "Georgia O'Keeffe — conhecida por flores ampliadas e paisagens do Novo México.",
+      "objetivo_pedagogico": "Apresentar artista que usa a natureza como tema central.",
+      "perguntas_orientadoras": [
+        "Por que ela amplificava as flores?",
+        "O que Claude Monet pintava?",
+        "Você já olhou de perto para uma flor?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação de artista com natureza como tema."
+    }
+  },
+  {
+    "id": "art-3-u4-n2",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u4",
+    "unidade_titulo": "Arte e Natureza",
+    "habilidade_bncc_codigo": "EF15AR07",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.04 — Natureza como inspiração artística",
+    "objetivo": "Classificar obras de arte pelo elemento natural que as inspirou.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada obra pelo elemento da natureza que a inspirou.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Pintura de ondas do mar",
+          "categoria": "Água"
+        },
+        {
+          "id": "i2",
+          "label": "Escultura de troncos entrelaçados",
+          "categoria": "Plantas"
+        },
+        {
+          "id": "i3",
+          "label": "Pintura de pôr do sol vermelho",
+          "categoria": "Céu"
+        },
+        {
+          "id": "i4",
+          "label": "Mosaico com folhas e sementes",
+          "categoria": "Plantas"
+        },
+        {
+          "id": "i5",
+          "label": "Fotografia de tempestade com raios",
+          "categoria": "Céu"
+        },
+        {
+          "id": "i6",
+          "label": "Instalação com pedras de rio",
+          "categoria": "Água"
+        }
+      ],
+      "categorias": [
+        "Água",
+        "Plantas",
+        "Céu"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 pares.",
+      "Reconhece elementos naturais como inspiração artística."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de cada obra descrita.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: cada obra carrega a essência de algo da natureza — o que você sente quando vê cada uma?"
+    },
+    "modo_professor": {
+      "gabarito": "Água: ondas, pedras de rio. Plantas: troncos, mosaico. Céu: pôr do sol, tempestade.",
+      "objetivo_pedagogico": "Identificar elementos naturais na inspiração artística.",
+      "perguntas_orientadoras": [
+        "A natureza pode ser arte?",
+        "Land art usa a própria natureza como material — você conhece?",
+        "Como um artista captura algo tão efêmero como uma tempestade?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de obras por elemento natural."
+    }
+  },
+  {
+    "id": "art-3-u4-n3",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u4",
+    "unidade_titulo": "Arte e Natureza",
+    "habilidade_bncc_codigo": "EF15AR08",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.05 — Criação artística inspirada na natureza",
+    "objetivo": "Planejar uma obra de arte inspirada em elemento da natureza.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha um elemento da natureza que te inspire e descreva a obra de arte que você criaria com base nele.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "elemento",
+          "label": "Qual elemento da natureza você escolheu?",
+          "max": 80
+        },
+        {
+          "id": "tecnica",
+          "label": "Que técnica ou material você usaria?",
+          "max": 150
+        },
+        {
+          "id": "obra",
+          "label": "Como seria a obra? O que ela mostraria?",
+          "max": 250
+        },
+        {
+          "id": "mensagem",
+          "label": "Que mensagem ou sentimento você quer transmitir?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define elemento natural.",
+      "Descreve técnica coerente.",
+      "Articula intenção expressiva."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Levar objetos da natureza para a sala (pedras, folhas, sementes).",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: observe o elemento escolhido de perto — sua textura, cor, forma. Deixe isso inspirar você."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: elemento natural, técnica plausível, obra descrita, mensagem.",
+      "objetivo_pedagogico": "Desenvolver processo criativo inspirado na natureza.",
+      "perguntas_orientadoras": [
+        "Por que esse elemento te inspirou?",
+        "Você poderia executar essa obra com materiais disponíveis?",
+        "A obra precisaria estar em museu para ser arte?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: projeto criativo com natureza como inspiração."
+    }
+  },
+  {
+    "id": "art-3-u4-n1",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u4",
+    "unidade_titulo": "Artes Cênicas",
+    "habilidade_bncc_codigo": "EF15AR21",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.T.01 — Artes cênicas: teatro e dança",
+    "objetivo": "Distinguir teatro de dança como linguagens cênicas.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que diferencia o teatro da dança?",
+    "conteudo_base": {
+      "opcoes": [
+        "O teatro usa cor e pintura, a dança não",
+        "No teatro há texto e diálogo entre personagens; na dança a expressão é principalmente pelo movimento",
+        "O teatro é silencioso, a dança usa música",
+        "Não existe diferença"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Distingue teatro pela centralidade do texto/diálogo.",
+      "Distingue dança pela primazia do movimento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar clipes curtos de peça e de espetáculo de dança.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: no teatro você ouve a história pelas falas. Na dança, o corpo conta a história."
+    },
+    "modo_professor": {
+      "gabarito": "Teatro: texto e diálogo. Dança: expressão pelo movimento.",
+      "objetivo_pedagogico": "Distinguir linguagens cênicas por seus elementos centrais.",
+      "perguntas_orientadoras": [
+        "Existe teatro sem fala (teatro físico)?",
+        "Existe dança que conta uma história com personagens?",
+        "O musical mistura as duas linguagens?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: distinção por elemento central de cada linguagem."
+    }
+  },
+  {
+    "id": "art-3-u4-n2",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u4",
+    "unidade_titulo": "Artes Cênicas",
+    "habilidade_bncc_codigo": "EF15AR21",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.T.01 — Artes cênicas: teatro e dança",
+    "objetivo": "Associar elementos específicos ao teatro ou à dança.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada elemento: pertence ao teatro, à dança, ou a ambos?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Roteiro com falas",
+          "categoria": "Teatro"
+        },
+        {
+          "id": "i2",
+          "label": "Coreografia ensaiada",
+          "categoria": "Dança"
+        },
+        {
+          "id": "i3",
+          "label": "Figurino",
+          "categoria": "Ambos"
+        },
+        {
+          "id": "i4",
+          "label": "Expressão facial e corporal",
+          "categoria": "Ambos"
+        },
+        {
+          "id": "i5",
+          "label": "Narrador que conta a história em voz alta",
+          "categoria": "Teatro"
+        },
+        {
+          "id": "i6",
+          "label": "Posições e sequências de movimentos",
+          "categoria": "Dança"
+        }
+      ],
+      "categorias": [
+        "Teatro",
+        "Dança",
+        "Ambos"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 elementos.",
+      "Reconhece que alguns elementos são compartilhados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode demonstrar cada elemento ao vivo.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: se o elemento pode existir nas duas linguagens, é 'ambos'."
+    },
+    "modo_professor": {
+      "gabarito": "Teatro: roteiro, narrador. Dança: coreografia, posições. Ambos: figurino, expressão.",
+      "objetivo_pedagogico": "Identificar elementos específicos e compartilhados das artes cênicas.",
+      "perguntas_orientadoras": [
+        "A expressão facial é importante na dança?",
+        "Um ator usa o corpo como um bailarino?",
+        "Que linguagem cênica te atrai mais?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias com elementos que exigem análise cuidadosa."
+    }
+  },
+  {
+    "id": "art-3-u4-n3",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u4",
+    "unidade_titulo": "Artes Cênicas",
+    "habilidade_bncc_codigo": "EF15AR22",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.T.02 — Criação e apreciação cênica",
+    "objetivo": "Planejar uma cena curta com personagem, conflito e resolução.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Planeje uma cena de 1 minuto para apresentar à turma. Defina o personagem, o problema e como ele é resolvido.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "personagem",
+          "label": "Quem é o personagem?",
+          "max": 120
+        },
+        {
+          "id": "problema",
+          "label": "Qual é o problema ou conflito?",
+          "max": 200
+        },
+        {
+          "id": "resolucao",
+          "label": "Como o problema é resolvido?",
+          "max": 200
+        },
+        {
+          "id": "mensagem",
+          "label": "Qual mensagem a cena transmite?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define personagem com características.",
+      "Estabelece conflito claro.",
+      "Propõe resolução.",
+      "Identifica mensagem."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplo de esquema de cena.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: toda boa cena tem começo (apresenta o personagem), meio (problema) e fim (resolução)."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: personagem, conflito, resolução e mensagem definidos com coerência.",
+      "objetivo_pedagogico": "Planejar cena com estrutura dramática básica.",
+      "perguntas_orientadoras": [
+        "Seu conflito é interessante o suficiente para prender a atenção?",
+        "A resolução é surpreendente ou esperada?",
+        "Que emoção você quer provocar na plateia?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: planejamento de cena com estrutura dramática completa."
+    }
+  },
+  {
+    "id": "art-3-u5-n1",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u5",
+    "unidade_titulo": "Leitura de Imagens",
+    "habilidade_bncc_codigo": "EF15AR09",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.04 — Leitura e análise de imagens",
+    "objetivo": "Identificar elementos visuais numa obra de arte.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é o primeiro elemento que você deve observar ao analisar uma pintura?",
+    "conteudo_base": {
+      "opcoes": [
+        "O preço da obra",
+        "O que está representado (o tema)",
+        "A moldura",
+        "O nome do museu"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece o tema como ponto de partida da leitura visual.",
+      "Distingue conteúdo de aspectos externos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar uma pintura e perguntar: o que você vê?",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: antes de analisar o estilo, os detalhes, veja o todo — o que essa imagem representa?"
+    },
+    "modo_professor": {
+      "gabarito": "O que está representado — o tema é o ponto de partida da leitura.",
+      "objetivo_pedagogico": "Introduzir método de leitura visual.",
+      "perguntas_orientadoras": [
+        "O que mais chama sua atenção nessa pintura?",
+        "As cores ajudam a entender o tema?",
+        "Que sentimento a obra transmite?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: primeira etapa do método de leitura visual."
+    }
+  },
+  {
+    "id": "art-3-u5-n2",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u5",
+    "unidade_titulo": "Leitura de Imagens",
+    "habilidade_bncc_codigo": "EF15AR09",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.04 — Leitura e análise de imagens",
+    "objetivo": "Ordenar as etapas de uma leitura visual de obra de arte.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as etapas de leitura de uma obra de arte na ordem mais adequada.",
+    "conteudo_base": {
+      "itens": [
+        "Interpretação: o que a obra significa e comunica",
+        "Descrição: o que você vê (cores, formas, personagens)",
+        "Análise: como os elementos se relacionam (composição, contraste)",
+        "Julgamento: sua opinião sobre a obra"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: descrição → análise → interpretação → julgamento.",
+      "Compreende a progressão da leitura visual."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode guiar a leitura de uma obra ao vivo seguindo as etapas.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: primeiro você descreve o que vê, depois analisa como está feito, depois interpreta o significado."
+    },
+    "modo_professor": {
+      "gabarito": "Descrição → análise → interpretação → julgamento.",
+      "objetivo_pedagogico": "Aplicar método sistemático de leitura de obra de arte.",
+      "perguntas_orientadoras": [
+        "Por que o julgamento vem por último?",
+        "Duas pessoas podem ter interpretações diferentes da mesma obra?",
+        "A análise precisa vir antes da interpretação?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de método com quatro etapas progressivas."
+    }
+  },
+  {
+    "id": "art-3-u5-n3",
+    "ano": 3,
+    "componente": "Arte",
+    "unidade_id": "art-3-u5",
+    "unidade_titulo": "Leitura de Imagens",
+    "habilidade_bncc_codigo": "EF15AR10",
+    "referencia_cbtc": "CBTC-SC: ART.EF3.V.05 — Análise e apreciação de obra",
+    "objetivo": "Realizar uma leitura completa de uma obra de arte usando as quatro etapas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha uma obra de arte que você conhece e faça a leitura completa: descrição, análise, interpretação e julgamento.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "obra",
+          "label": "Qual obra você escolheu?",
+          "max": 100
+        },
+        {
+          "id": "descricao",
+          "label": "Descrição (o que você vê):",
+          "max": 200
+        },
+        {
+          "id": "analise",
+          "label": "Análise (como os elementos se relacionam):",
+          "max": 200
+        },
+        {
+          "id": "interpretacao",
+          "label": "Interpretação (o que significa):",
+          "max": 200
+        },
+        {
+          "id": "julgamento",
+          "label": "Julgamento (sua opinião):",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica obra real.",
+      "Completa as quatro etapas com coerência.",
+      "O julgamento é fundamentado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sugerir obras: Monalisa, Abaporu, Noite Estrelada.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: use as quatro palavras-chave: VER (descrição), COMO (análise), SIGNIFICA (interpretação), ACHO (julgamento)."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: obra identificada, quatro etapas preenchidas com coerência crescente.",
+      "objetivo_pedagogico": "Aplicar método completo de leitura de obra de arte.",
+      "perguntas_orientadoras": [
+        "Sua interpretação está sustentada pela descrição e análise?",
+        "Sua opinião muda quando você aprende mais sobre o contexto da obra?",
+        "Que obras brasileiras você conhece?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: leitura sistemática e completa de obra com método de quatro etapas."
+    }
   }
 ]

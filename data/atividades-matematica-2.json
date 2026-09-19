@@ -418,5 +418,471 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: resolução de problema com registro e justificativa."
     }
+  },
+  {
+    "id": "mat-2-u4-n1",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u4",
+    "unidade_titulo": "Geometria Básica",
+    "habilidade_bncc_codigo": "EF02MA14",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.G.01 — Figuras planas e sólidos geométricos",
+    "objetivo": "Identificar figuras planas em objetos do cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual objeto tem a forma de um círculo?",
+    "conteudo_base": {
+      "opcoes": [
+        "Uma caixa de sapato",
+        "Uma moeda",
+        "Uma folha de papel",
+        "Uma porta"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa moeda à forma circular.",
+      "Distingue círculo de retângulo e quadrado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar as figuras geométricas básicas no quadro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o círculo não tem cantos — é completamente redondo."
+    },
+    "modo_professor": {
+      "gabarito": "Moeda — forma circular, sem ângulos.",
+      "objetivo_pedagogico": "Identificar formas geométricas em objetos do mundo real.",
+      "perguntas_orientadoras": [
+        "Que outros objetos têm forma de círculo?",
+        "Qual figura tem quatro lados iguais?",
+        "O que diferencia quadrado de retângulo?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação direta de figura em objeto cotidiano."
+    }
+  },
+  {
+    "id": "mat-2-u4-n2",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u4",
+    "unidade_titulo": "Geometria Básica",
+    "habilidade_bncc_codigo": "EF02MA14",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.G.01 — Figuras planas e sólidos geométricos",
+    "objetivo": "Classificar figuras geométricas planas pelo número de lados.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada figura pelo número de lados.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Triângulo",
+          "categoria": "3 lados"
+        },
+        {
+          "id": "i2",
+          "label": "Quadrado",
+          "categoria": "4 lados"
+        },
+        {
+          "id": "i3",
+          "label": "Pentágono",
+          "categoria": "5 lados"
+        },
+        {
+          "id": "i4",
+          "label": "Retângulo",
+          "categoria": "4 lados"
+        },
+        {
+          "id": "i5",
+          "label": "Hexágono",
+          "categoria": "6 lados"
+        },
+        {
+          "id": "i6",
+          "label": "Losango",
+          "categoria": "4 lados"
+        }
+      ],
+      "categorias": [
+        "3 lados",
+        "4 lados",
+        "5 lados",
+        "6 lados"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente as 6 figuras.",
+      "Reconhece que quadrado, retângulo e losango têm 4 lados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar cada figura no quadro e contar os lados.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: conte os cantos — cada canto é uma ponta de um lado."
+    },
+    "modo_professor": {
+      "gabarito": "3: triângulo | 4: quadrado, retângulo, losango | 5: pentágono | 6: hexágono.",
+      "objetivo_pedagogico": "Classificar polígonos pelo número de lados.",
+      "perguntas_orientadoras": [
+        "Quadrado e retângulo têm o mesmo número de lados — o que os diferencia?",
+        "Por que o círculo não está aqui?",
+        "O que é um polígono?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com 4 categorias e figuras agrupadas."
+    }
+  },
+  {
+    "id": "mat-2-u4-n3",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u4",
+    "unidade_titulo": "Geometria Básica",
+    "habilidade_bncc_codigo": "EF02MA15",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.G.02 — Sólidos geométricos no cotidiano",
+    "objetivo": "Descrever um sólido geométrico e encontrar objetos com essa forma.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha um sólido geométrico (cubo, esfera, cilindro, cone ou pirâmide) e descreva-o. Depois, cite 3 objetos do dia a dia com essa forma.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "solido",
+          "label": "Qual sólido você escolheu?",
+          "max": 60
+        },
+        {
+          "id": "descricao",
+          "label": "Como ele é? (faces, arestas, vértices)",
+          "max": 200
+        },
+        {
+          "id": "objetos",
+          "label": "3 objetos com essa forma:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escolhe sólido e o descreve minimamente.",
+      "Cita 3 objetos reais com essa forma."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer modelos físicos dos sólidos.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: uma lata de leite tem forma de cilindro. Uma bola de futebol é uma esfera."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Cubo: 6 faces, 12 arestas, 8 vértices. Esfera: sem faces planas. Cilindro: 2 círculos, 1 face curva.",
+      "objetivo_pedagogico": "Descrever sólidos geométricos e relacioná-los ao cotidiano.",
+      "perguntas_orientadoras": [
+        "Quantas faces tem o sólido que você escolheu?",
+        "Existe algum sólido sem vértices?",
+        "Como arquitetos usam sólidos geométricos?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: descrição de sólido com conexão ao mundo real."
+    }
+  },
+  {
+    "id": "mat-2-u4-n1",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u4",
+    "unidade_titulo": "Geometria: Sólidos e Figuras",
+    "habilidade_bncc_codigo": "EF02MA14",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.G.01 — Sólidos geométricos e figuras planas",
+    "objetivo": "Reconhecer sólidos geométricos por suas características.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual sólido tem todas as faces quadradas?",
+    "conteudo_base": {
+      "opcoes": [
+        "Esfera",
+        "Cubo",
+        "Cone",
+        "Cilindro"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o cubo pelo critério de faces quadradas.",
+      "Distingue cubo dos outros sólidos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer um cubo (dado) para mostrar.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: um dado de jogo é um cubo — quantas faces ele tem e qual a forma delas?"
+    },
+    "modo_professor": {
+      "gabarito": "Cubo — 6 faces, todas quadradas.",
+      "objetivo_pedagogico": "Reconhecer cubo por suas características formais.",
+      "perguntas_orientadoras": [
+        "Quantas faces tem um cubo?",
+        "Uma esfera tem faces?",
+        "Que objeto do dia a dia é um cubo?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento de sólido por característica exclusiva."
+    }
+  },
+  {
+    "id": "mat-2-u4-n2",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u4",
+    "unidade_titulo": "Geometria: Sólidos e Figuras",
+    "habilidade_bncc_codigo": "EF02MA14",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.G.01 — Sólidos geométricos e figuras planas",
+    "objetivo": "Associar sólidos geométricos a objetos do cotidiano.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada objeto ao sólido geométrico que representa.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Lata de refrigerante",
+          "nome": "Cilindro"
+        },
+        {
+          "elemento": "Bola de futebol",
+          "nome": "Esfera"
+        },
+        {
+          "elemento": "Caixa de sapato",
+          "nome": "Paralelepípedo"
+        },
+        {
+          "elemento": "Sorvete de casquinha",
+          "nome": "Cone"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 objetos aos sólidos.",
+      "Identifica sólidos presentes no cotidiano."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer os objetos reais.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: olhe a forma de cada objeto — tem pontas, é redondo, tem quantas faces?"
+    },
+    "modo_professor": {
+      "gabarito": "Lata→cilindro | Bola→esfera | Caixa→paralelepípedo | Sorvete→cone.",
+      "objetivo_pedagogico": "Relacionar sólidos geométricos a formas do cotidiano.",
+      "perguntas_orientadoras": [
+        "Você consegue pensar em outros objetos para cada sólido?",
+        "O que diferencia o cilindro do cone?",
+        "O paralelepípedo é parecido com o cubo? O que muda?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro sólidos com objetos familiares."
+    }
+  },
+  {
+    "id": "mat-2-u4-n3",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u4",
+    "unidade_titulo": "Geometria: Sólidos e Figuras",
+    "habilidade_bncc_codigo": "EF02MA15",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.G.02 — Faces, vértices e arestas",
+    "objetivo": "Contar faces, vértices e arestas de um cubo e de um paralelepípedo.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Observe um cubo (dado) e uma caixa retangular. Complete a tabela descrevendo faces, vértices e arestas de cada um, e explique o que eles têm em comum.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "cubo",
+          "label": "Cubo: faces, vértices, arestas:",
+          "max": 150
+        },
+        {
+          "id": "caixa",
+          "label": "Paralelepípedo: faces, vértices, arestas:",
+          "max": 150
+        },
+        {
+          "id": "comum",
+          "label": "O que os dois têm em comum?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cubo: 6 faces, 8 vértices, 12 arestas.",
+      "Paralelepípedo: 6 faces, 8 vértices, 12 arestas.",
+      "Observa que os números são iguais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor traz um dado e uma caixa de leite para a atividade.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: conta cada face com o dedo, depois os cantos (vértices) e as bordas (arestas)."
+    },
+    "modo_professor": {
+      "gabarito": "Ambos: 6 faces, 8 vértices, 12 arestas. Em comum: mesma estrutura topológica.",
+      "objetivo_pedagogico": "Explorar faces, vértices e arestas de sólidos elementares.",
+      "perguntas_orientadoras": [
+        "Por que o cubo e o paralelepípedo têm os mesmos números mesmo sendo diferentes?",
+        "O que é uma aresta?",
+        "Como você contou para não repetir?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: contagem sistemática e comparação de dois sólidos."
+    }
+  },
+  {
+    "id": "mat-2-u5-n1",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u5",
+    "unidade_titulo": "Dinheiro e Troco",
+    "habilidade_bncc_codigo": "EF02MA20",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.06 — Sistema monetário brasileiro",
+    "objetivo": "Reconhecer cédulas e moedas do sistema monetário brasileiro.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual conjunto de moedas totaliza R$ 1,00?",
+    "conteudo_base": {
+      "opcoes": [
+        "4 moedas de 10 centavos",
+        "2 moedas de 50 centavos",
+        "5 moedas de 25 centavos",
+        "3 moedas de 20 centavos"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Calcula 50+50=100 centavos=R$1,00.",
+      "Verifica que os outros conjuntos não totalizam R$1,00."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer moedas reais ou imagens.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: some o valor das moedas de cada opção e veja qual dá R$1,00 (100 centavos)."
+    },
+    "modo_professor": {
+      "gabarito": "2×50=100 centavos=R$1,00. A: 4×10=40¢ | C: 5×25=125¢ | D: 3×20=60¢.",
+      "objetivo_pedagogico": "Operar com valores monetários do sistema brasileiro.",
+      "perguntas_orientadoras": [
+        "Quantos centavos tem R$1,00?",
+        "Por que a opção C passa de R$1,00?",
+        "Com que moedas você pagaria R$0,80?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: cálculo direto com denominações comuns."
+    }
+  },
+  {
+    "id": "mat-2-u5-n2",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u5",
+    "unidade_titulo": "Dinheiro e Troco",
+    "habilidade_bncc_codigo": "EF02MA20",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.06 — Sistema monetário brasileiro",
+    "objetivo": "Calcular o troco numa compra simples.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Você comprou um suco por R$2,50 e pagou com uma nota de R$5,00. Qual é o troco?",
+    "conteudo_base": {
+      "opcoes": [
+        "R$2,00",
+        "R$2,50",
+        "R$3,50",
+        "R$1,50"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Calcula troco = 5,00 − 2,50 = 2,50.",
+      "Aplica subtração em contexto monetário."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode simular a compra com dinheiro didático.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: troco é o que você recebe de volta. Quanto falta para completar R$5,00 a partir de R$2,50?"
+    },
+    "modo_professor": {
+      "gabarito": "R$2,50 (5,00−2,50).",
+      "objetivo_pedagogico": "Aplicar subtração para calcular troco.",
+      "perguntas_orientadoras": [
+        "Como você verifica? 2,50+2,50=?",
+        "Se o suco custasse R$3,00, qual seria o troco?",
+        "O que acontece se você não tiver troco?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: subtração com números decimais em contexto de compra."
+    }
+  },
+  {
+    "id": "mat-2-u5-n3",
+    "ano": 2,
+    "componente": "Matemática",
+    "unidade_id": "mat-2-u5",
+    "unidade_titulo": "Dinheiro e Troco",
+    "habilidade_bncc_codigo": "EF02MA21",
+    "referencia_cbtc": "CBTC-SC: MAT.EF2.N.07 — Problemas com dinheiro e troco",
+    "objetivo": "Resolver problema de compra com múltiplos itens e calcular troco.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Na cantina: suco R$2,50, sanduíche R$4,00, biscoito R$1,50. Você tem R$10,00. Compre pelo menos 2 itens e calcule quanto sobrará.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "itens",
+          "label": "O que você comprou?",
+          "max": 100
+        },
+        {
+          "id": "total",
+          "label": "Total gasto:",
+          "max": 60
+        },
+        {
+          "id": "troco",
+          "label": "O que sobrou:",
+          "max": 60
+        },
+        {
+          "id": "conta",
+          "label": "Mostre a conta:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escolhe ao menos 2 itens.",
+      "Soma os preços corretamente.",
+      "Calcula 10,00 menos o total."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode criar cardápio visual.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: some os preços dos itens escolhidos, depois calcule 10,00 menos esse total."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Ex: suco+sanduíche=6,50; troco=3,50. Verificar: soma correta e subtração de R$10.",
+      "objetivo_pedagogico": "Resolver problema de múltiplos passos com dinheiro.",
+      "perguntas_orientadoras": [
+        "Como você verificou que a soma está certa?",
+        "Qual combinação de 3 itens deixaria mais troco?",
+        "Se quisesse gastar o mínimo possível, o que compraria?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: escolha livre + dois cálculos encadeados."
+    }
   }
 ]

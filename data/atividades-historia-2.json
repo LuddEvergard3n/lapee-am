@@ -449,5 +449,464 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: pesquisa local e valorização do patrimônio."
     }
+  },
+  {
+    "id": "his-2-u4-n1",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u4",
+    "unidade_titulo": "Migrações e Mudanças",
+    "habilidade_bncc_codigo": "EF02HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.05 — Migrações e diversidade cultural",
+    "objetivo": "Reconhecer migração como deslocamento de pessoas entre lugares.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é migração?",
+    "conteudo_base": {
+      "opcoes": [
+        "Ficar no mesmo lugar a vida toda",
+        "Mudar de um lugar para morar em outro",
+        "Viajar de férias e voltar",
+        "Trabalhar num lugar diferente por um dia"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Define migração como mudança definitiva ou de longa duração de residência.",
+      "Distingue migração de viagem turística."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar se alguém da turma veio de outra cidade.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: migrar é mais do que visitar — é ir morar em outro lugar."
+    },
+    "modo_professor": {
+      "gabarito": "Mudar de um lugar para morar em outro.",
+      "objetivo_pedagogico": "Introduzir o conceito de migração.",
+      "perguntas_orientadoras": [
+        "Alguém da sua família migrou?",
+        "Por que as pessoas migram?",
+        "O que elas carregam quando se mudam?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição direta com distratores próximos."
+    }
+  },
+  {
+    "id": "his-2-u4-n2",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u4",
+    "unidade_titulo": "Migrações e Mudanças",
+    "habilidade_bncc_codigo": "EF02HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.05 — Migrações e diversidade cultural",
+    "objetivo": "Classificar motivos que levam as pessoas a migrar.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada motivo: leva uma pessoa a migrar (ir embora) ou a ficar?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Encontrar trabalho em outra cidade",
+          "categoria": "Migrar"
+        },
+        {
+          "id": "i2",
+          "label": "Ter família e amigos no lugar",
+          "categoria": "Ficar"
+        },
+        {
+          "id": "i3",
+          "label": "Fugir de uma guerra ou seca",
+          "categoria": "Migrar"
+        },
+        {
+          "id": "i4",
+          "label": "Ter casa própria e estável",
+          "categoria": "Ficar"
+        },
+        {
+          "id": "i5",
+          "label": "Buscar estudo em universidade longe",
+          "categoria": "Migrar"
+        },
+        {
+          "id": "i6",
+          "label": "Ter raízes culturais e afetivas",
+          "categoria": "Ficar"
+        }
+      ],
+      "categorias": [
+        "Migrar",
+        "Ficar"
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica falta de trabalho, guerra e estudo como motivos para migrar.",
+      "Reconhece vínculos como razão para ficar."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar o que faria os alunos saírem ou ficarem na cidade.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: as pessoas migram quando algo importante está faltando onde elas vivem."
+    },
+    "modo_professor": {
+      "gabarito": "Migrar: trabalho, guerra/seca, estudo. Ficar: família, casa, raízes.",
+      "objetivo_pedagogico": "Compreender os motivos sociais, econômicos e afetivos da migração.",
+      "perguntas_orientadoras": [
+        "Um migrante é bom ou mau?",
+        "Quais sentimentos uma pessoa tem ao migrar?",
+        "O que é um refugiado?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de fatores push/pull de migração."
+    }
+  },
+  {
+    "id": "his-2-u4-n3",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u4",
+    "unidade_titulo": "Migrações e Mudanças",
+    "habilidade_bncc_codigo": "EF02HI07",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.06 — Diversidade cultural das migrações",
+    "objetivo": "Descrever como a migração transforma os lugares que recebem pessoas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Quando pessoas de outros lugares chegam a uma cidade, elas trazem suas culturas. Como isso muda a cidade? Dê exemplos.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "exemplos",
+          "label": "Que exemplos de cultura trazida por migrantes você conhece?",
+          "max": 200
+        },
+        {
+          "id": "mudancas",
+          "label": "Como a cidade fica diferente com a chegada de migrantes?",
+          "max": 200
+        },
+        {
+          "id": "opiniao",
+          "label": "Você acha que a diversidade enriquece ou complica a cidade?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cita ao menos 2 exemplos culturais de migrantes.",
+      "Descreve mudança positiva ou desafio.",
+      "Apresenta opinião fundamentada."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mencionar bairros de imigrantes na história brasileira.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pensa na comida, nas festas, nas línguas que chegam com quem migra."
+    },
+    "modo_professor": {
+      "gabarito": "Exemplos: comida, música, idioma, festas. Mudanças: mais diversidade cultural, novos sabores, desafios de integração.",
+      "objetivo_pedagogico": "Valorizar diversidade cultural trazida pelos processos migratórios.",
+      "perguntas_orientadoras": [
+        "A pizza chegou ao Brasil como?",
+        "Por que algumas cidades do Sul têm sotaque alemão?",
+        "Diversidade pode gerar conflitos? Como resolver?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão crítica sobre impactos culturais da migração."
+    }
+  },
+  {
+    "id": "his-2-u4-n1",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u4",
+    "unidade_titulo": "Feriados e Datas Comemorativas",
+    "habilidade_bncc_codigo": "EF02HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.02 — Feriados nacionais e seu significado histórico",
+    "objetivo": "Reconhecer o significado histórico de um feriado nacional.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que comemoramos no dia 7 de setembro no Brasil?",
+    "conteudo_base": {
+      "opcoes": [
+        "O fim da escravidão",
+        "A Independência do Brasil",
+        "A proclamação da República",
+        "O Dia das Crianças"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa 7 de setembro à Independência do Brasil.",
+      "Distingue de outras datas comemorativas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem do Grito do Ipiranga.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: em 1822, um príncipe proclamou a separação do Brasil de Portugal às margens de um rio."
+    },
+    "modo_professor": {
+      "gabarito": "Independência do Brasil — 7 de setembro de 1822.",
+      "objetivo_pedagogico": "Relacionar data comemorativa a evento histórico.",
+      "perguntas_orientadoras": [
+        "Quem proclamou a independência?",
+        "O que é independência política?",
+        "Como o Brasil era antes de 1822?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: data nacional conhecida com contexto histórico."
+    }
+  },
+  {
+    "id": "his-2-u4-n2",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u4",
+    "unidade_titulo": "Feriados e Datas Comemorativas",
+    "habilidade_bncc_codigo": "EF02HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.02 — Feriados nacionais e seu significado histórico",
+    "objetivo": "Associar datas comemorativas aos seus significados históricos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada data ao que ela comemora.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "7 de setembro",
+          "nome": "Independência do Brasil"
+        },
+        {
+          "elemento": "13 de maio",
+          "nome": "Abolição da escravidão"
+        },
+        {
+          "elemento": "15 de novembro",
+          "nome": "Proclamação da República"
+        },
+        {
+          "elemento": "19 de novembro",
+          "nome": "Dia da Consciência Negra"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente as 4 datas aos eventos.",
+      "Distingue independência de abolição e república."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Calendário histórico no quadro.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: cada data marca um momento em que o Brasil mudou de forma importante."
+    },
+    "modo_professor": {
+      "gabarito": "7/9→independência | 13/5→abolição | 15/11→república | 19/11→consciência negra.",
+      "objetivo_pedagogico": "Memorizar e compreender datas comemorativas nacionais.",
+      "perguntas_orientadoras": [
+        "Por que o Dia da Consciência Negra é importante?",
+        "O que mudou no Brasil com a República?",
+        "Qual dessas mudanças afetou mais a vida das pessoas?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro datas com eventos de natureza distinta."
+    }
+  },
+  {
+    "id": "his-2-u4-n3",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u4",
+    "unidade_titulo": "Feriados e Datas Comemorativas",
+    "habilidade_bncc_codigo": "EF02HI03",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.03 — Importância de datas históricas",
+    "objetivo": "Explicar por que é importante lembrar datas históricas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que o Brasil comemora datas como a Abolição da Escravidão e a Independência? O que aconteceria se esquecêssemos essas datas?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "importancia",
+          "label": "Por que é importante lembrar essas datas?",
+          "max": 250
+        },
+        {
+          "id": "esquecimento",
+          "label": "O que aconteceria se esquecêssemos?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica importância com argumento histórico ou cívico.",
+      "Reflete sobre consequências do esquecimento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode questionar: 'Você lembraria do aniversário da sua avó se ninguém te contasse?'",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: lembrar é valorizar. Esquecer pode ser apagar a luta de pessoas que sofreram muito."
+    },
+    "modo_professor": {
+      "gabarito": "Importância: honrar quem lutou, aprender com o passado, construir identidade. Esquecimento: risco de repetir erros, perda de identidade.",
+      "objetivo_pedagogico": "Desenvolver senso de memória histórica coletiva.",
+      "perguntas_orientadoras": [
+        "Alguém sofreu para que essas datas existissem?",
+        "A história pode se repetir se for esquecida?",
+        "Qual dessas datas você considera mais importante?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre memória coletiva e identidade nacional."
+    }
+  },
+  {
+    "id": "his-2-u5-n1",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u5",
+    "unidade_titulo": "Diferentes Formas de Morar",
+    "habilidade_bncc_codigo": "EF02HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.05 — Moradia e transformações históricas",
+    "objetivo": "Reconhecer que as formas de morar mudaram ao longo da história.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Como os primeiros seres humanos se abrigavam antes de construírem casas?",
+    "conteudo_base": {
+      "opcoes": [
+        "Em apartamentos",
+        "Em cavernas e sob árvores",
+        "Em prédios de alvenaria",
+        "Em casas de tijolos"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece cavernas como abrigo pré-histórico.",
+      "Compreende que a habitação evoluiu historicamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de caverna com pinturas rupestres.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: antes de construírem, as pessoas usavam o que a natureza já oferecia como abrigo."
+    },
+    "modo_professor": {
+      "gabarito": "Cavernas e árvores — primeiros abrigos naturais da humanidade.",
+      "objetivo_pedagogico": "Introduzir evolução histórica da habitação humana.",
+      "perguntas_orientadoras": [
+        "Por que as pessoas deixaram de viver em cavernas?",
+        "Como era uma casa na Grécia antiga?",
+        "O que há de diferente entre uma casa de hoje e uma de 100 anos atrás?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: contraste entre habitação primitiva e moderna."
+    }
+  },
+  {
+    "id": "his-2-u5-n2",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u5",
+    "unidade_titulo": "Diferentes Formas de Morar",
+    "habilidade_bncc_codigo": "EF02HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.05 — Moradia e transformações históricas",
+    "objetivo": "Ordenar formas de habitação ao longo da história.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as habitações humanas em ordem histórica, da mais antiga à mais recente.",
+    "conteudo_base": {
+      "itens": [
+        "Apartamento com elevador",
+        "Caverna natural",
+        "Casa de barro e palha",
+        "Mansão de pedra medieval"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: caverna → barro/palha → pedra medieval → apartamento.",
+      "Compreende evolução tecnológica da habitação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de cada tipo de habitação.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: a caverna veio antes porque não precisava ser construída. O que veio depois?"
+    },
+    "modo_professor": {
+      "gabarito": "Caverna → barro/palha → pedra medieval → apartamento.",
+      "objetivo_pedagogico": "Compreender evolução histórica das formas de habitar.",
+      "perguntas_orientadoras": [
+        "O que cada material de construção exigia em termos de tecnologia?",
+        "Por que só recentemente temos elevadores?",
+        "Que outros tipos de moradia existem hoje além do apartamento?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro tipos em quatro épocas históricas."
+    }
+  },
+  {
+    "id": "his-2-u5-n3",
+    "ano": 2,
+    "componente": "História",
+    "unidade_id": "his-2-u5",
+    "unidade_titulo": "Diferentes Formas de Morar",
+    "habilidade_bncc_codigo": "EF02HI07",
+    "referencia_cbtc": "CBTC-SC: HIS.EF2.C.06 — Diversidade de moradias e identidade cultural",
+    "objetivo": "Descrever diferentes tipos de moradia no Brasil e o que cada uma reflete da cultura local.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha dois tipos de moradia que existem no Brasil (ex: palafita, iglu, casa de adobe, apartamento, oca indígena, casa germânica do Sul). Descreva cada uma e explique por que ela é assim.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "m1",
+          "label": "1ª moradia e por que é assim:",
+          "max": 200
+        },
+        {
+          "id": "m2",
+          "label": "2ª moradia e por que é assim:",
+          "max": 200
+        },
+        {
+          "id": "diversidade",
+          "label": "O que a diversidade de moradias mostra sobre o Brasil?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve dois tipos reais de moradia.",
+      "Relaciona cada tipo ao clima, cultura ou material disponível.",
+      "Reflete sobre diversidade cultural."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de diferentes moradias brasileiras.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: a palafita fica sobre a água por quê? A oca indígena é redonda por quê? Pense no ambiente e na cultura."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: dois tipos reais, justificativa cultural ou ambiental, reflexão sobre diversidade.",
+      "objetivo_pedagogico": "Compreender a relação entre moradia, ambiente e cultura.",
+      "perguntas_orientadoras": [
+        "Por que a palafita é construída sobre água?",
+        "Como o clima influencia o tipo de moradia?",
+        "O que as moradias dizem sobre a história das pessoas que as construíram?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: análise cultural de formas de habitação diversas."
+    }
   }
 ]

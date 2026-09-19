@@ -478,5 +478,518 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: reflexão pessoal sobre práticas de saúde."
     }
+  },
+  {
+    "id": "cie-1-u4-n1",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u4",
+    "unidade_titulo": "Animais e seus Habitats",
+    "habilidade_bncc_codigo": "EF01CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.04 — Habitats e adaptações dos animais",
+    "objetivo": "Reconhecer que animais vivem em habitats diferentes.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Onde vive o peixe?",
+    "conteudo_base": {
+      "opcoes": [
+        "Na floresta",
+        "Na água",
+        "No deserto",
+        "No ar"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa peixe ao habitat aquático.",
+      "Distingue habitats diferentes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de animais em seus habitats.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o peixe precisa do que para respirar e se mover?"
+    },
+    "modo_professor": {
+      "gabarito": "Na água — habitat aquático do peixe.",
+      "objetivo_pedagogico": "Relacionar animal ao habitat.",
+      "perguntas_orientadoras": [
+        "O peixe sobreviveria fora da água?",
+        "Onde vivem os pássaros?",
+        "Qual animal vive tanto na água quanto em terra?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: habitat óbvio com distratores claros."
+    }
+  },
+  {
+    "id": "cie-1-u4-n2",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u4",
+    "unidade_titulo": "Animais e seus Habitats",
+    "habilidade_bncc_codigo": "EF01CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.04 — Habitats e adaptações dos animais",
+    "objetivo": "Associar animais aos seus habitats.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Leve cada animal para onde ele vive.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Tubarão",
+          "nome": "Mar"
+        },
+        {
+          "elemento": "Macaco",
+          "nome": "Floresta"
+        },
+        {
+          "elemento": "Camelo",
+          "nome": "Deserto"
+        },
+        {
+          "elemento": "Pingüim",
+          "nome": "Polo"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa cada animal ao habitat correto.",
+      "Reconhece diversidade de habitats."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de cada animal em seu habitat.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: pensa no corpo de cada animal — ele parece adaptado a que tipo de lugar?"
+    },
+    "modo_professor": {
+      "gabarito": "Tubarão→mar | Macaco→floresta | Camelo→deserto | Pinguim→polo.",
+      "objetivo_pedagogico": "Relacionar características do animal ao seu habitat.",
+      "perguntas_orientadoras": [
+        "O que o camelo tem que o ajuda a viver no deserto?",
+        "Por que o pinguim não viveria no deserto?",
+        "O que é adaptação?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de 4 animais com habitats diversos."
+    }
+  },
+  {
+    "id": "cie-1-u4-n3",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u4",
+    "unidade_titulo": "Animais e seus Habitats",
+    "habilidade_bncc_codigo": "EF01CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.V.04 — Habitats e adaptações dos animais",
+    "objetivo": "Descrever um animal e explicar como ele está adaptado ao seu habitat.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha um animal e explique como ele está adaptado para viver onde vive.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "animal",
+          "label": "Qual animal você escolheu?",
+          "max": 60
+        },
+        {
+          "id": "habitat",
+          "label": "Onde ele vive?",
+          "max": 80
+        },
+        {
+          "id": "adaptacao",
+          "label": "O que o corpo dele tem que ajuda a viver nesse lugar?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica animal e habitat.",
+      "Descreve ao menos uma adaptação física."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode dar exemplos de adaptações (nadadeiras, pelo espesso, cor da pele).",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: um peixe tem nadadeiras para nadar. Isso é uma adaptação. O que seu animal tem?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: animal, habitat, adaptação relevante.",
+      "objetivo_pedagogico": "Desenvolver conceito de adaptação biológica.",
+      "perguntas_orientadoras": [
+        "O animal mudaria muito se vivesse em outro lugar?",
+        "Você tem alguma característica que seria uma adaptação?",
+        "O que acontece com animais quando o habitat muda?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre adaptação com exemplo pessoal."
+    }
+  },
+  {
+    "id": "cie-1-u4-n1",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u4",
+    "unidade_titulo": "Dia e Noite",
+    "habilidade_bncc_codigo": "EF01CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.T.01 — Rotação da Terra e ciclo dia/noite",
+    "objetivo": "Reconhecer que o dia e a noite resultam da rotação da Terra.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Por que temos dia e noite?",
+    "conteudo_base": {
+      "opcoes": [
+        "O sol some embaixo da terra",
+        "A Terra gira e ora fica de frente para o sol, ora de costas",
+        "A lua apaga o sol",
+        "O sol viaja pelo céu e descansa"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa dia/noite à rotação da Terra.",
+      "Descarta explicações ingênuas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Usar lanterna (sol) e bola (Terra) para demonstrar.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: segure uma bola e gire ela devagarzinho. O lado virado para a lanterna tem 'dia'."
+    },
+    "modo_professor": {
+      "gabarito": "Rotação da Terra — em ~24h a Terra dá uma volta sobre si mesma.",
+      "objetivo_pedagogico": "Compreender rotação terrestre como causa do ciclo dia/noite.",
+      "perguntas_orientadoras": [
+        "Quanto tempo dura uma volta completa da Terra?",
+        "É o sol que se move ou somos nós?",
+        "Por que em outros países é dia quando aqui é noite?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: explicação direta com demonstração prática."
+    }
+  },
+  {
+    "id": "cie-1-u4-n2",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u4",
+    "unidade_titulo": "Dia e Noite",
+    "habilidade_bncc_codigo": "EF01CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.T.01 — Rotação da Terra e ciclo dia/noite",
+    "objetivo": "Ordenar eventos do dia associando ao ciclo solar.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque os momentos do dia na ordem correta.",
+    "conteudo_base": {
+      "itens": [
+        "Sol a pino — meio-dia",
+        "Amanhecer — sol nasce",
+        "Anoitecer — sol se põe",
+        "Madrugada — céu escuro"
+      ],
+      "ordem_correta": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: amanhecer → meio-dia → anoitecer → madrugada.",
+      "Associa posição do sol a cada momento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar arco do sol no quadro.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: o sol nasce no leste (manhã) e se põe no oeste (tarde). O meio-dia é quando está mais alto."
+    },
+    "modo_professor": {
+      "gabarito": "Amanhecer → meio-dia → anoitecer → madrugada.",
+      "objetivo_pedagogico": "Relacionar posição solar ao ciclo do dia.",
+      "perguntas_orientadoras": [
+        "Em qual direção o sol nasce?",
+        "Por que o meio-dia é quando faz mais calor?",
+        "O que acontece com as sombras ao longo do dia?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação temporal com referência ao movimento solar."
+    }
+  },
+  {
+    "id": "cie-1-u4-n3",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u4",
+    "unidade_titulo": "Dia e Noite",
+    "habilidade_bncc_codigo": "EF01CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.T.02 — Observação do céu diurno e noturno",
+    "objetivo": "Descrever diferenças entre o céu durante o dia e durante a noite.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O que você vê no céu durante o dia? E à noite? Por que esses elementos mudam?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "dia",
+          "label": "O que você vê no céu durante o dia?",
+          "max": 200
+        },
+        {
+          "id": "noite",
+          "label": "O que você vê no céu à noite?",
+          "max": 200
+        },
+        {
+          "id": "porque",
+          "label": "Por que esses elementos mudam?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Menciona sol, nuvens no dia e estrelas, lua à noite.",
+      "Explica que é a rotação/posição da Terra que causa a mudança."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que os alunos observem o céu antes da aula.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense no que você nunca vê durante o dia mas vê à noite — e vice-versa."
+    },
+    "modo_professor": {
+      "gabarito": "Dia: sol, nuvens, céu azul. Noite: lua, estrelas, céu escuro. Causa: rotação da Terra e luminosidade solar.",
+      "objetivo_pedagogico": "Desenvolver observação científica do céu e relacionar ao ciclo terrestre.",
+      "perguntas_orientadoras": [
+        "As estrelas existem durante o dia? Por que não as vemos?",
+        "A lua aparece sempre à noite?",
+        "Por que o céu é azul durante o dia?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: observação e explicação do ciclo dia/noite."
+    }
+  },
+  {
+    "id": "cie-1-u5-n1",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u5",
+    "unidade_titulo": "Estações do Ano",
+    "habilidade_bncc_codigo": "EF01CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.T.03 — Estações do ano e mudanças na natureza",
+    "objetivo": "Reconhecer as quatro estações do ano e uma característica de cada.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Em qual estação do ano as árvores perdem mais folhas no Sul do Brasil?",
+    "conteudo_base": {
+      "opcoes": [
+        "Verão",
+        "Primavera",
+        "Outono",
+        "Inverno"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica o outono como estação de queda das folhas.",
+      "Relaciona estação a fenômeno natural."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens das quatro estações.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: as folhas secas que caem no chão e a cor alaranjada das árvores — em que estação isso acontece?"
+    },
+    "modo_professor": {
+      "gabarito": "Outono — queda das folhas (especialmente em regiões de clima temperado).",
+      "objetivo_pedagogico": "Associar fenômenos naturais às estações do ano.",
+      "perguntas_orientadoras": [
+        "Que estação vem depois do outono?",
+        "O verão é quente ou frio?",
+        "Por que as estações existem?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: associação direta de estação a fenômeno visual."
+    }
+  },
+  {
+    "id": "cie-1-u5-n2",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u5",
+    "unidade_titulo": "Estações do Ano",
+    "habilidade_bncc_codigo": "EF01CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.T.03 — Estações do ano e mudanças na natureza",
+    "objetivo": "Associar características a cada estação do ano.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada característica à estação correta.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Calor intenso e férias escolares",
+          "nome": "Verão"
+        },
+        {
+          "elemento": "Flores brotando e dias mais longos",
+          "nome": "Primavera"
+        },
+        {
+          "elemento": "Frio e noites mais longas",
+          "nome": "Inverno"
+        },
+        {
+          "elemento": "Folhas amareladas caindo",
+          "nome": "Outono"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 pares estação-característica.",
+      "Distingue primavera de verão, outono de inverno."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar fotos de cada estação com as características.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: pense no que cada estação representa para você — o que muda na natureza e na sua rotina?"
+    },
+    "modo_professor": {
+      "gabarito": "Verão→calor | Primavera→flores | Inverno→frio | Outono→folhas caindo.",
+      "objetivo_pedagogico": "Identificar características de cada estação.",
+      "perguntas_orientadoras": [
+        "Qual estação você mais gosta? Por quê?",
+        "Por que no Sul do Brasil as estações são mais marcadas?",
+        "No Norte do Brasil as estações são diferentes?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro pares com características que podem confundir primavera/verão."
+    }
+  },
+  {
+    "id": "cie-1-u5-n3",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u5",
+    "unidade_titulo": "Estações do Ano",
+    "habilidade_bncc_codigo": "EF01CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.T.04 — Adaptações de animais e plantas às estações",
+    "objetivo": "Descrever como animais e plantas se adaptam a cada estação.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha uma estação e descreva como dois seres vivos (um animal e uma planta) se adaptam a ela.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "estacao",
+          "label": "Qual estação você escolheu?",
+          "max": 60
+        },
+        {
+          "id": "animal",
+          "label": "Como o animal se adapta a essa estação?",
+          "max": 200
+        },
+        {
+          "id": "planta",
+          "label": "Como a planta se adapta a essa estação?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica estação.",
+      "Descreve adaptação do animal com coerência biológica.",
+      "Descreve adaptação da planta."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode dar exemplos: urso hiberna no inverno, árvores perdem folhas.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense no que muda para os seres vivos quando o clima muda."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Ex: inverno→urso hiberna, árvores perdem folhas. Verificar: adaptações coerentes com a estação escolhida.",
+      "objetivo_pedagogico": "Compreender adaptações sazonais de seres vivos.",
+      "perguntas_orientadoras": [
+        "O que é hibernação?",
+        "Por que algumas plantas perdem folhas no inverno?",
+        "Algum animal muda de cor ou pelagem nas estações?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre adaptações com escolha livre."
+    }
+  },
+  {
+    "id": "cie-1-u6-n2",
+    "ano": 1,
+    "componente": "Ciências",
+    "unidade_id": "cie-1-u6",
+    "unidade_titulo": "Identificando as Estações",
+    "habilidade_bncc_codigo": "EF01CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF1.T.03 — Estações do ano e mudanças na natureza",
+    "objetivo": "Identificar as quatro estações do ano a partir de imagens da natureza.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 8,
+    "enunciado": "Olhe as fotos e arraste cada imagem para o nome da estação do ano que ela mostra.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "est-inverno",
+          "imagem": "assets/img/estacoes/inverno.jpg",
+          "label": "❄️ foto",
+          "categoria": "Inverno"
+        },
+        {
+          "id": "est-verao",
+          "imagem": "assets/img/estacoes/verao.jpg",
+          "label": "☀️ foto",
+          "categoria": "Verão"
+        },
+        {
+          "id": "est-outono",
+          "imagem": "assets/img/estacoes/outono.jpg",
+          "label": "🍂 foto",
+          "categoria": "Outono"
+        },
+        {
+          "id": "est-primavera",
+          "imagem": "assets/img/estacoes/primavera.jpg",
+          "label": "🌸 foto",
+          "categoria": "Primavera"
+        }
+      ],
+      "categorias": [
+        "Inverno",
+        "Verão",
+        "Outono",
+        "Primavera"
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica corretamente as quatro estações pelas imagens.",
+      "Relaciona características visuais (neve, folhas secas, flores, praia) à estação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode nomear as características de cada foto antes: 'Olha a neve! Isso é inverno!'",
+      "resposta": "Arrastar a foto para o nome da estação, ou clicar na foto e depois no nome.",
+      "engajamento": "Dica: olhe as cores e o que aparece em cada foto — tem neve, folhas secas, flores ou calor?"
+    },
+    "modo_professor": {
+      "gabarito": "Inverno→foto com neve e árvores geladas | Verão→foto de praia e sol | Outono→foto de folhas alaranjadas | Primavera→foto com flores cor-de-rosa.",
+      "objetivo_pedagogico": "Desenvolver reconhecimento visual das estações do ano a partir de paisagens reais.",
+      "perguntas_orientadoras": [
+        "O que você vê na foto do inverno?",
+        "Por que as folhas ficam coloridas no outono?",
+        "Qual estação tem mais flores?"
+      ],
+      "tempo_estimado": "6 a 10 minutos",
+      "adaptacao_nivel": "N2: identificação com imagens reais, sem texto de apoio nas fotos."
+    }
   }
 ]

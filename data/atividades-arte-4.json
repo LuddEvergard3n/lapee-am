@@ -463,5 +463,492 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: reflexão ética sobre patrimônio e cidadania cultural."
     }
+  },
+  {
+    "id": "art-4-u4-n1",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u4",
+    "unidade_titulo": "Cinema e Fotografia",
+    "habilidade_bncc_codigo": "EF15AR22",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.A.01 — Cinema e fotografia como linguagens artísticas",
+    "objetivo": "Reconhecer cinema e fotografia como formas de arte.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que o cinema e a fotografia têm em comum como formas de arte?",
+    "conteudo_base": {
+      "opcoes": [
+        "Ambos usam só preto e branco",
+        "Ambos capturam e expressam momentos com imagem",
+        "Ambos precisam de música para funcionar",
+        "Ambos são formas de arte apenas modernas"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica captura de imagem como característica comum.",
+      "Reconhece cinema e fotografia como artes visuais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar foto clássica e cena de filme icônico.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: uma foto captura um instante. Um filme captura uma sequência de instantes."
+    },
+    "modo_professor": {
+      "gabarito": "Ambos capturam momentos com imagem — linguagens visuais.",
+      "objetivo_pedagogico": "Reconhecer cinema e fotografia como formas de expressão artística.",
+      "perguntas_orientadoras": [
+        "Uma foto pode contar uma história?",
+        "O cinema é mais arte do que um quadro?",
+        "Qual foi o primeiro filme da história?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: característica comum entre duas linguagens."
+    }
+  },
+  {
+    "id": "art-4-u4-n2",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u4",
+    "unidade_titulo": "Cinema e Fotografia",
+    "habilidade_bncc_codigo": "EF15AR22",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.A.01 — Cinema e fotografia como linguagens artísticas",
+    "objetivo": "Identificar elementos que compõem uma boa fotografia artística.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Associe cada elemento fotográfico ao que ele contribui para a imagem.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Luz (iluminação)",
+          "nome": "Define sombras, volume e atmosfera"
+        },
+        {
+          "elemento": "Enquadramento",
+          "nome": "Decide o que entra e o que fica fora da foto"
+        },
+        {
+          "elemento": "Foco",
+          "nome": "Destaca o objeto principal e deixa o resto borrado"
+        },
+        {
+          "elemento": "Composição",
+          "nome": "Organiza os elementos dentro da imagem"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa os 4 elementos às funções corretas.",
+      "Compreende que fotografia é uma escolha artística."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar fotos com boa e má composição para comparar.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: uma foto não é tirada — ela é construída. Cada escolha é artística."
+    },
+    "modo_professor": {
+      "gabarito": "Luz→atmosfera | Enquadramento→recorte | Foco→destaque | Composição→organização.",
+      "objetivo_pedagogico": "Compreender fotografia como arte intencional.",
+      "perguntas_orientadoras": [
+        "Por que duas fotos do mesmo objeto podem ser completamente diferentes?",
+        "O fotógrafo é um artista?",
+        "Filtros do celular são arte?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: elementos técnicos da fotografia artística."
+    }
+  },
+  {
+    "id": "art-4-u4-n3",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u4",
+    "unidade_titulo": "Cinema e Fotografia",
+    "habilidade_bncc_codigo": "EF15AR23",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.A.02 — Criação e apreciação de imagens fotográficas",
+    "objetivo": "Planejar uma fotografia artística descrevendo suas escolhas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Você vai tirar uma foto artística. Descreva o que você fotografaria e como faria para criar uma imagem significativa.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "tema",
+          "label": "O que você fotografaria?",
+          "max": 100
+        },
+        {
+          "id": "luz",
+          "label": "Como você usaria a luz?",
+          "max": 150
+        },
+        {
+          "id": "enquadramento",
+          "label": "De que ângulo ou distância você fotografaria?",
+          "max": 150
+        },
+        {
+          "id": "mensagem",
+          "label": "O que você quer que quem veja a foto sinta?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define tema.",
+      "Considera luz e enquadramento.",
+      "Articula intenção expressiva."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer câmera ou usar celular para demonstrar.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: a melhor foto não é a tecnicamente perfeita — é a que tem algo a dizer."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: tema definido, luz e enquadramento considerados, mensagem articulada.",
+      "objetivo_pedagogico": "Desenvolver processo criativo fotográfico com intenção.",
+      "perguntas_orientadoras": [
+        "Você poderia executar essa foto?",
+        "Como você saberia se ficou boa?",
+        "Uma foto pode ser mentirosa?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: planejamento de fotografia artística com intenção."
+    }
+  },
+  {
+    "id": "art-4-u4-n1",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u4",
+    "unidade_titulo": "Fotografia como Arte",
+    "habilidade_bncc_codigo": "EF15AR07",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.01 — Fotografia e linguagem visual contemporânea",
+    "objetivo": "Reconhecer a fotografia como linguagem artística.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que torna uma fotografia uma obra de arte?",
+    "conteudo_base": {
+      "opcoes": [
+        "Ser tirada com câmera cara",
+        "Ter boa iluminação, composição e intenção artística do fotógrafo",
+        "Ser editada no computador",
+        "Ter muitas cores vibrantes"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica intenção artística e elementos técnicos como critério.",
+      "Distingue fotografia artística de fotografia comum."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Comparar foto de celular casual com foto artística de fotojornalismo.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: não é o equipamento, é o olhar do fotógrafo — o que ele escolheu fotografar e como."
+    },
+    "modo_professor": {
+      "gabarito": "Composição, iluminação e intenção artística do fotógrafo.",
+      "objetivo_pedagogico": "Compreender fotografia como linguagem artística com intencionalidade.",
+      "perguntas_orientadoras": [
+        "Qualquer foto é uma obra de arte?",
+        "O que é enquadramento?",
+        "Fotografia pode contar uma história?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: critério de artisticidade com contraste de aspectos técnicos e intencionais."
+    }
+  },
+  {
+    "id": "art-4-u4-n2",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u4",
+    "unidade_titulo": "Fotografia como Arte",
+    "habilidade_bncc_codigo": "EF15AR07",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.01 — Fotografia e linguagem visual contemporânea",
+    "objetivo": "Identificar elementos de composição fotográfica.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada elemento de composição à sua definição.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Enquadramento",
+          "nome": "A escolha do que entra e o que fica fora da foto"
+        },
+        {
+          "elemento": "Plano",
+          "nome": "A distância entre câmera e sujeito (close, geral)"
+        },
+        {
+          "elemento": "Ângulo",
+          "nome": "A posição da câmera (de cima, de baixo, frontal)"
+        },
+        {
+          "elemento": "Iluminação",
+          "nome": "A luz que cria atmosfera e destaca elementos"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa corretamente os 4 elementos às definições.",
+      "Compreende que cada escolha afeta o resultado artístico."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar exemplos de cada elemento em fotos reais.",
+      "resposta": "Arrastar chip ao destino correto.",
+      "engajamento": "Dica: o fotógrafo toma centenas de decisões antes de apertar o botão — enquadrar, escolher o plano, o ângulo e a luz."
+    },
+    "modo_professor": {
+      "gabarito": "Enquadramento→o que entra | Plano→distância | Ângulo→posição | Iluminação→luz.",
+      "objetivo_pedagogico": "Identificar elementos técnicos e expressivos da fotografia.",
+      "perguntas_orientadoras": [
+        "Por que tirar uma foto de baixo para cima muda a impressão?",
+        "O que é close-up?",
+        "Como a luz muda o humor de uma foto?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro elementos técnicos com definições precisas."
+    }
+  },
+  {
+    "id": "art-4-u4-n3",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u4",
+    "unidade_titulo": "Fotografia como Arte",
+    "habilidade_bncc_codigo": "EF15AR08",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.02 — Criação fotográfica com intencionalidade",
+    "objetivo": "Planejar uma fotografia com intenção artística definida.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Planeje uma foto artística que você gostaria de tirar. Defina o tema, o ângulo, o plano e o que você quer que o observador sinta.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "tema",
+          "label": "Qual é o tema da foto?",
+          "max": 100
+        },
+        {
+          "id": "angulo",
+          "label": "Que ângulo você usaria e por quê?",
+          "max": 150
+        },
+        {
+          "id": "plano",
+          "label": "Que plano (close, médio, geral) e por quê?",
+          "max": 150
+        },
+        {
+          "id": "sentimento",
+          "label": "O que você quer provocar em quem vê?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define tema com clareza.",
+      "Justifica ângulo e plano com intenção.",
+      "Relaciona escolhas ao sentimento desejado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que os alunos 'enquadrem' com as mãos antes de escrever.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense numa imagem que te marcou — por que ela era tão poderosa? O que o fotógrafo fez?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: tema definido, ângulo e plano justificados com intenção, sentimento articulado.",
+      "objetivo_pedagogico": "Planejar fotografia com intenção artística e decisões técnicas conscientes.",
+      "perguntas_orientadoras": [
+        "Se alguém visse sua foto sem legenda, entenderia o tema?",
+        "Você mudaria alguma coisa no plano ou ângulo para reforçar o sentimento?",
+        "Que fotógrafo ou fotografia te inspirou?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: planejamento fotográfico com intencionalidade artística."
+    }
+  },
+  {
+    "id": "art-4-u5-n1",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u5",
+    "unidade_titulo": "Design e Arte",
+    "habilidade_bncc_codigo": "EF15AR06",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.03 — Design e arte aplicada",
+    "objetivo": "Distinguir arte de design pela função predominante.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que diferencia design de arte?",
+    "conteudo_base": {
+      "opcoes": [
+        "Design é mais caro que arte",
+        "Design resolve problemas com função, arte expressa sentimentos e ideias",
+        "Arte é sempre pintada, design é sempre digital",
+        "Não há diferença entre os dois"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica função como característica central do design.",
+      "Identifica expressão como característica central da arte."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Comparar cadeira de design com escultura abstrata.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: uma cadeira bonita e confortável é design. Uma escultura que te faz pensar é arte. E às vezes é os dois!"
+    },
+    "modo_professor": {
+      "gabarito": "Design resolve problemas com função; arte expressa e comunica.",
+      "objetivo_pedagogico": "Distinguir arte de design por sua função predominante.",
+      "perguntas_orientadoras": [
+        "Uma embalagem bonita é arte ou design?",
+        "Pode ser os dois ao mesmo tempo?",
+        "O que é design de moda?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: distinção conceitual com exemplo concreto."
+    }
+  },
+  {
+    "id": "art-4-u5-n2",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u5",
+    "unidade_titulo": "Design e Arte",
+    "habilidade_bncc_codigo": "EF15AR06",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.03 — Design e arte aplicada",
+    "objetivo": "Classificar objetos como arte, design ou ambos.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada objeto.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Cadeira Eames (bela e funcional)",
+          "categoria": "Ambos"
+        },
+        {
+          "id": "i2",
+          "label": "Pintura abstrata de Kandinsky",
+          "categoria": "Arte"
+        },
+        {
+          "id": "i3",
+          "label": "Logotipo da Nike",
+          "categoria": "Design"
+        },
+        {
+          "id": "i4",
+          "label": "Escultura sem uso prático",
+          "categoria": "Arte"
+        },
+        {
+          "id": "i5",
+          "label": "Cartaz de campanha social",
+          "categoria": "Design"
+        },
+        {
+          "id": "i6",
+          "label": "Joia com forma de borboleta",
+          "categoria": "Ambos"
+        }
+      ],
+      "categorias": [
+        "Arte",
+        "Design",
+        "Ambos"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 objetos.",
+      "Reconhece que alguns objetos combinam estética e função."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de cada objeto.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: se só for belo sem função prática, é arte. Se resolver um problema, é design. Se for os dois, é ambos."
+    },
+    "modo_professor": {
+      "gabarito": "Arte: Kandinsky, escultura. Design: Nike, cartaz. Ambos: cadeira Eames, joia.",
+      "objetivo_pedagogico": "Aplicar distinção arte/design em objetos reais.",
+      "perguntas_orientadoras": [
+        "O que torna a cadeira Eames um exemplo de 'ambos'?",
+        "Um cartaz publicitário pode ser arte?",
+        "Onde está o limite entre arte e design?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias com casos limítrofes intencionais."
+    }
+  },
+  {
+    "id": "art-4-u5-n3",
+    "ano": 4,
+    "componente": "Arte",
+    "unidade_id": "art-4-u5",
+    "unidade_titulo": "Design e Arte",
+    "habilidade_bncc_codigo": "EF15AR06",
+    "referencia_cbtc": "CBTC-SC: ART.EF4.V.04 — Criação com intenção estética e funcional",
+    "objetivo": "Criar um objeto que combine função e estética e justificar as escolhas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Projete um objeto que seja ao mesmo tempo útil (design) e belo (arte). Descreva o objeto, sua função e suas escolhas estéticas.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "objeto",
+          "label": "Que objeto você projetou?",
+          "max": 100
+        },
+        {
+          "id": "funcao",
+          "label": "Qual é a função do objeto?",
+          "max": 150
+        },
+        {
+          "id": "estetica",
+          "label": "Que escolhas estéticas você fez (forma, cor, material)?",
+          "max": 200
+        },
+        {
+          "id": "justificativa",
+          "label": "Por que essas escolhas combinam com a função?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define objeto com função clara.",
+      "Faz escolhas estéticas conscientes.",
+      "Justifica relação entre estética e função."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar objetos de design contemporâneo como inspiração.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense num objeto que você usa todo dia — como ele poderia ser mais bonito sem perder a utilidade?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: objeto com função, escolhas estéticas justificadas em relação à função.",
+      "objetivo_pedagogico": "Desenvolver pensamento projetual que integra arte e design.",
+      "perguntas_orientadoras": [
+        "A forma que você escolheu facilita ou dificulta o uso?",
+        "Por que você escolheu esse material?",
+        "Um designer famoso que te inspira?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: projeto integrado de arte e design com justificativa."
+    }
   }
 ]

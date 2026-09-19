@@ -441,5 +441,466 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: conversão com justificativa em contexto de dinheiro."
     }
+  },
+  {
+    "id": "mat-4-u4-n1",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u4",
+    "unidade_titulo": "Estatística e Gráficos",
+    "habilidade_bncc_codigo": "EF04MA27",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.P.01 — Leitura e interpretação de gráficos",
+    "objetivo": "Ler e interpretar dados em gráfico de barras.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Em uma pesquisa, 8 alunos preferem futebol, 5 preferem natação e 3 preferem judô. Qual esporte foi o mais escolhido?",
+    "conteudo_base": {
+      "opcoes": [
+        "Natação",
+        "Judô",
+        "Futebol",
+        "Todos foram iguais"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica o maior valor (8) como o esporte mais escolhido.",
+      "Lê dados de tabela ou gráfico corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar um gráfico de barras no quadro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o mais escolhido é o que tem o número maior de alunos."
+    },
+    "modo_professor": {
+      "gabarito": "Futebol com 8 alunos.",
+      "objetivo_pedagogico": "Interpretar dados simples em contexto de pesquisa.",
+      "perguntas_orientadoras": [
+        "Quantos alunos foram pesquisados no total?",
+        "Qual esporte foi o menos escolhido?",
+        "Como ficaria esse dado num gráfico de barras?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: leitura de dado máximo em tabela simples."
+    }
+  },
+  {
+    "id": "mat-4-u4-n2",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u4",
+    "unidade_titulo": "Estatística e Gráficos",
+    "habilidade_bncc_codigo": "EF04MA27",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.P.01 — Leitura e interpretação de gráficos",
+    "objetivo": "Ordenar dados de uma pesquisa do maior para o menor.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ordene as frutas preferidas da turma do maior para o menor número de votos: Manga (6), Banana (12), Melancia (9), Uva (4).",
+    "conteudo_base": {
+      "itens": [
+        "Manga — 6 votos",
+        "Banana — 12 votos",
+        "Melancia — 9 votos",
+        "Uva — 4 votos"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: banana > melancia > manga > uva.",
+      "Interpreta dados numéricos corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Escrever os valores no quadro.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: começa pelo maior número. Qual tem mais votos?"
+    },
+    "modo_professor": {
+      "gabarito": "Banana(12) > Melancia(9) > Manga(6) > Uva(4).",
+      "objetivo_pedagogico": "Ordenar dados de pesquisa e interpretar resultados.",
+      "perguntas_orientadoras": [
+        "Quantos alunos votaram no total?",
+        "A fruta com menos votos seria eliminada do cardápio?",
+        "Como você apresentaria esses dados num gráfico?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de dados de pesquisa."
+    }
+  },
+  {
+    "id": "mat-4-u4-n3",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u4",
+    "unidade_titulo": "Estatística e Gráficos",
+    "habilidade_bncc_codigo": "EF04MA28",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.P.02 — Coleta e organização de dados",
+    "objetivo": "Planejar e realizar uma pesquisa simples e organizar os dados.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Faça uma pesquisa com 5 colegas: qual é o animal favorito de cada um? Registre os dados e tire uma conclusão.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "dados",
+          "label": "Anote os resultados (colega e animal escolhido):",
+          "max": 300
+        },
+        {
+          "id": "mais_votado",
+          "label": "Qual animal apareceu mais?",
+          "max": 80
+        },
+        {
+          "id": "conclusao",
+          "label": "O que você concluiu com a pesquisa?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Registra dados de 5 colegas.",
+      "Identifica o mais frequente.",
+      "Apresenta conclusão baseada nos dados."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode organizar a pesquisa como atividade de sala.",
+      "resposta": "Digitar os dados e conclusão.",
+      "engajamento": "Dica: uma pesquisa serve para entender o que um grupo pensa — seus dados são a voz do grupo."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 5 entrevistados, animal mais frequente identificado, conclusão baseada nos dados.",
+      "objetivo_pedagogico": "Desenvolver coleta, organização e interpretação de dados.",
+      "perguntas_orientadoras": [
+        "Sua conclusão está baseada nos dados ou na sua opinião?",
+        "Como você poderia mostrar isso num gráfico?",
+        "Se pesquisasse 50 alunos, o resultado mudaria?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: pesquisa real com coleta e interpretação."
+    }
+  },
+  {
+    "id": "mat-4-u4-n1",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u4",
+    "unidade_titulo": "Ângulos e Classificação",
+    "habilidade_bncc_codigo": "EF04MA22",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.G.02 — Ângulos: reto, agudo e obtuso",
+    "objetivo": "Classificar ângulos em reto, agudo e obtuso.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Um ângulo de 120° é classificado como:",
+    "conteudo_base": {
+      "opcoes": [
+        "Reto",
+        "Agudo",
+        "Obtuso",
+        "Nulo"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica 120° > 90° → obtuso.",
+      "Aplica corretamente a classificação de ângulos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar a classificação numa linha: agudo < 90° | reto = 90° | obtuso > 90°.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: reto é exatamente 90°. Maior que 90° é obtuso. Menor é agudo."
+    },
+    "modo_professor": {
+      "gabarito": "Obtuso — 120° > 90°.",
+      "objetivo_pedagogico": "Classificar ângulos pelos limites numéricos.",
+      "perguntas_orientadoras": [
+        "Um ângulo de 45° é o quê?",
+        "E de 90°?",
+        "Onde você vê um ângulo reto na sala de aula?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: classificação direta com valor numérico claro."
+    }
+  },
+  {
+    "id": "mat-4-u4-n2",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u4",
+    "unidade_titulo": "Ângulos e Classificação",
+    "habilidade_bncc_codigo": "EF04MA22",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.G.02 — Ângulos: reto, agudo e obtuso",
+    "objetivo": "Classificar ângulos presentes em figuras geométricas.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique os ângulos de cada figura.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Ângulo interno de um quadrado",
+          "categoria": "Reto"
+        },
+        {
+          "id": "i2",
+          "label": "Ângulo da ponta de uma estrela",
+          "categoria": "Agudo"
+        },
+        {
+          "id": "i3",
+          "label": "Ângulo interno de um hexágono regular",
+          "categoria": "Obtuso"
+        },
+        {
+          "id": "i4",
+          "label": "Ângulo formado por dois lados de um triângulo equilátero",
+          "categoria": "Agudo"
+        },
+        {
+          "id": "i5",
+          "label": "Ângulo de canto de uma folha de papel",
+          "categoria": "Reto"
+        },
+        {
+          "id": "i6",
+          "label": "Ângulo maior que 90° num triângulo obtusângulo",
+          "categoria": "Obtuso"
+        }
+      ],
+      "categorias": [
+        "Reto",
+        "Agudo",
+        "Obtuso"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 ângulos.",
+      "Aplica critério numérico a contextos geométricos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar as figuras desenhadas no quadro.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: o quadrado tem ângulos retos (90°). O triângulo equilátero tem 60° em cada vértice."
+    },
+    "modo_professor": {
+      "gabarito": "Reto: quadrado, folha. Agudo: estrela, triângulo equilátero. Obtuso: hexágono, triângulo obtusângulo.",
+      "objetivo_pedagogico": "Identificar tipos de ângulos em figuras geométricas conhecidas.",
+      "perguntas_orientadoras": [
+        "Quantos graus tem cada ângulo de um triângulo equilátero?",
+        "O hexágono regular tem ângulos iguais?",
+        "Como você mede um ângulo?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação em contexto geométrico real."
+    }
+  },
+  {
+    "id": "mat-4-u4-n3",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u4",
+    "unidade_titulo": "Ângulos e Classificação",
+    "habilidade_bncc_codigo": "EF04MA23",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.G.03 — Soma dos ângulos de triângulos",
+    "objetivo": "Descobrir que a soma dos ângulos internos de um triângulo é 180°.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Um triângulo tem ângulos de 60°, 80° e ___°. Qual é o ângulo que falta? Como você descobriu? O que isso te diz sobre todos os triângulos?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "angulo",
+          "label": "O ângulo que falta é:",
+          "max": 50
+        },
+        {
+          "id": "como",
+          "label": "Como você descobriu?",
+          "max": 200
+        },
+        {
+          "id": "regra",
+          "label": "O que isso diz sobre todos os triângulos?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula 180−60−80=40°.",
+      "Explica usando soma dos ângulos = 180°.",
+      "Generaliza para todos os triângulos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar um triângulo de papel com os ângulos rasgados e juntados numa linha reta.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: a soma dos três ângulos de qualquer triângulo é sempre 180°. Quanto falta para chegar lá?"
+    },
+    "modo_professor": {
+      "gabarito": "40° (180−60−80). Regra: soma dos ângulos internos de qualquer triângulo = 180°.",
+      "objetivo_pedagogico": "Descobrir e aplicar a propriedade da soma dos ângulos do triângulo.",
+      "perguntas_orientadoras": [
+        "Você pode verificar rasgando os cantos do triângulo e alinhando numa reta?",
+        "E num quadrado? Qual seria a soma?",
+        "E num pentágono?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: dedução de propriedade geométrica com generalização."
+    }
+  },
+  {
+    "id": "mat-4-u5-n1",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u5",
+    "unidade_titulo": "Problemas de Múltiplos Passos",
+    "habilidade_bncc_codigo": "EF04MA12",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.07 — Resolução de problemas com múltiplas operações",
+    "objetivo": "Identificar as operações necessárias num problema de múltiplos passos.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Para resolver 'João ganhou 3 caixas com 12 balas cada e deu 10 balas para um amigo. Quantas ficou?', que operações usar nessa ordem?",
+    "conteudo_base": {
+      "opcoes": [
+        "Adição, depois subtração",
+        "Multiplicação, depois subtração",
+        "Divisão, depois adição",
+        "Subtração, depois multiplicação"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica multiplicação (3×12) como primeiro passo.",
+      "Identifica subtração (−10) como segundo passo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o problema pausadamente, pedindo que os alunos identifiquem a ação de cada parte.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: leia de novo e identifique o que acontece primeiro e o que acontece depois."
+    },
+    "modo_professor": {
+      "gabarito": "Multiplicação (3×12=36) depois subtração (36−10=26).",
+      "objetivo_pedagogico": "Planejar resolução de problemas de múltiplos passos.",
+      "perguntas_orientadoras": [
+        "Por que multiplicação vem primeiro?",
+        "O que acontece se você fizer as operações na ordem errada?",
+        "Quais são os dados do problema?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação das operações sem calcular."
+    }
+  },
+  {
+    "id": "mat-4-u5-n2",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u5",
+    "unidade_titulo": "Problemas de Múltiplos Passos",
+    "habilidade_bncc_codigo": "EF04MA12",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.07 — Resolução de problemas com múltiplas operações",
+    "objetivo": "Resolver problema de dois passos com operações distintas.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ana comprou 4 cadernos por R$7,00 cada e 2 canetas por R$3,00 cada. Quanto gastou no total?",
+    "conteudo_base": {
+      "opcoes": [
+        "R$28,00",
+        "R$34,00",
+        "R$30,00",
+        "R$22,00"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Calcula 4×7=28 e 2×3=6.",
+      "Soma 28+6=34.",
+      "Reconhece problema de dois passos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode resolver o primeiro passo no quadro e deixar o segundo para o aluno.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: calcule o custo dos cadernos separado. Depois das canetas. Por fim some os dois."
+    },
+    "modo_professor": {
+      "gabarito": "R$34,00 (4×7=28 + 2×3=6 = 34).",
+      "objetivo_pedagogico": "Resolver problema com duas multiplicações e uma adição.",
+      "perguntas_orientadoras": [
+        "Você poderia resolver em uma única conta?",
+        "Como você verifica a resposta?",
+        "Se as canetas custassem R$5,00, o total mudaria para quanto?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: dois passos encadeados com contexto de compras."
+    }
+  },
+  {
+    "id": "mat-4-u5-n3",
+    "ano": 4,
+    "componente": "Matemática",
+    "unidade_id": "mat-4-u5",
+    "unidade_titulo": "Problemas de Múltiplos Passos",
+    "habilidade_bncc_codigo": "EF04MA13",
+    "referencia_cbtc": "CBTC-SC: MAT.EF4.N.08 — Criação e resolução de problemas complexos",
+    "objetivo": "Criar um problema de múltiplos passos e resolvê-lo.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Crie um problema de matemática que precise de pelo menos 2 operações diferentes para ser resolvido. Resolva e explique cada passo.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "problema",
+          "label": "Seu problema:",
+          "max": 250
+        },
+        {
+          "id": "passo1",
+          "label": "1º passo (operação e resultado):",
+          "max": 120
+        },
+        {
+          "id": "passo2",
+          "label": "2º passo (operação e resultado):",
+          "max": 120
+        },
+        {
+          "id": "resposta",
+          "label": "Resposta final:",
+          "max": 80
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cria problema com contexto real.",
+      "Usa ao menos 2 operações diferentes.",
+      "Resolve corretamente cada passo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode sugerir contextos: escola, mercado, viagem.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense numa situação que envolva comprar, dividir entre amigos, ou comparar quantidades."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 2+ operações distintas, passos corretos, resposta coerente.",
+      "objetivo_pedagogico": "Criar e resolver problema de múltiplos passos com clareza matemática.",
+      "perguntas_orientadoras": [
+        "Seu problema faz sentido no mundo real?",
+        "As operações que você escolheu são as certas?",
+        "Como alguém verificaria sua resposta?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação de problema + resolução documentada."
+    }
   }
 ]

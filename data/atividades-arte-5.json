@@ -455,5 +455,535 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: projeto artístico autobiográfico com reflexão sobre identidade."
     }
+  },
+  {
+    "id": "art-5-u4-n1",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u4",
+    "unidade_titulo": "Arte Abstrata e Conceitual",
+    "habilidade_bncc_codigo": "EF15AR20",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.05 — Arte abstrata e arte conceitual",
+    "objetivo": "Reconhecer a diferença entre arte figurativa e arte abstrata.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que caracteriza a arte abstrata?",
+    "conteudo_base": {
+      "opcoes": [
+        "Representa objetos e pessoas de forma realista",
+        "Não representa objetos reconhecíveis — usa formas, cores e linhas livres",
+        "É feita apenas com computador",
+        "Só existe em museus caros"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica arte abstrata como não figurativa.",
+      "Distingue abstrato de figurativo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar uma obra abstrata (Kandinsky) ao lado de uma figurativa (Renoir).",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: arte abstrata não precisa parecer com nada — ela expressa emoções com formas e cores."
+    },
+    "modo_professor": {
+      "gabarito": "Não representa objetos reconhecíveis — arte abstrata.",
+      "objetivo_pedagogico": "Introduzir o conceito de arte abstrata.",
+      "perguntas_orientadoras": [
+        "Você entende arte abstrata?",
+        "A arte precisa representar algo real?",
+        "Kandinsky acreditava que formas e cores tinham sons — o que você acha?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição de arte abstrata com contraste."
+    }
+  },
+  {
+    "id": "art-5-u4-n2",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u4",
+    "unidade_titulo": "Arte Abstrata e Conceitual",
+    "habilidade_bncc_codigo": "EF15AR20",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.05 — Arte abstrata e arte conceitual",
+    "objetivo": "Classificar obras como figurativas, abstratas ou conceituais.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada obra pelo tipo de arte.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Retrato realista de uma pessoa",
+          "categoria": "Figurativa"
+        },
+        {
+          "id": "i2",
+          "label": "Tela com manchas de cor sem forma definida",
+          "categoria": "Abstrata"
+        },
+        {
+          "id": "i3",
+          "label": "Uma cadeira vazia com legenda 'Ausência'",
+          "categoria": "Conceitual"
+        },
+        {
+          "id": "i4",
+          "label": "Pintura de paisagem de montanhas",
+          "categoria": "Figurativa"
+        },
+        {
+          "id": "i5",
+          "label": "Linhas e círculos sem representar nada",
+          "categoria": "Abstrata"
+        },
+        {
+          "id": "i6",
+          "label": "Caixas de supermercado empilhadas como arte",
+          "categoria": "Conceitual"
+        }
+      ],
+      "categorias": [
+        "Figurativa",
+        "Abstrata",
+        "Conceitual"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica as 6 obras corretamente.",
+      "Distingue os três tipos de arte."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar exemplos reais de cada tipo.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: conceitual é quando a ideia é a obra — mais do que o objeto em si."
+    },
+    "modo_professor": {
+      "gabarito": "Figurativa: retrato, paisagem. Abstrata: manchas, linhas. Conceitual: cadeira/ausência, caixas.",
+      "objetivo_pedagogico": "Distinguir três categorias fundamentais da arte contemporânea.",
+      "perguntas_orientadoras": [
+        "Por que a cadeira vazia com legenda é arte?",
+        "Arte conceitual exige mais do artista ou do observador?",
+        "Warhol fez arte com latas de sopa — é figurativo ou conceitual?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação com três categorias artísticas."
+    }
+  },
+  {
+    "id": "art-5-u4-n3",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u4",
+    "unidade_titulo": "Arte Abstrata e Conceitual",
+    "habilidade_bncc_codigo": "EF15AR21",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.06 — Criação e apreciação de arte abstrata",
+    "objetivo": "Criar e descrever uma obra abstrata com intenção expressiva.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Projete uma obra abstrata que expresse uma emoção — sem desenhar nada reconhecível. Descreva como você usaria cores, formas e linhas para transmitir essa emoção.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "emocao",
+          "label": "Qual emoção você quer expressar?",
+          "max": 80
+        },
+        {
+          "id": "cores",
+          "label": "Quais cores você usaria e por quê?",
+          "max": 200
+        },
+        {
+          "id": "formas",
+          "label": "Que formas e linhas expressariam essa emoção?",
+          "max": 200
+        },
+        {
+          "id": "resultado",
+          "label": "O que você espera que o observador sinta?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define emoção.",
+      "Relaciona cores à expressão.",
+      "Relaciona formas/linhas à emoção.",
+      "Articula intenção com o observador."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar como Kandinsky associava cores a emoções.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: vermelho pode ser raiva ou amor. Linhas agitadas passam urgência. O que sua emoção parece?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: emoção definida, cores justificadas, formas coerentes, intenção com observador.",
+      "objetivo_pedagogico": "Desenvolver expressão artística abstrata com intenção emocional.",
+      "perguntas_orientadoras": [
+        "Por que você escolheu essas cores?",
+        "Alguém que não conhecesse você entenderia a emoção?",
+        "A arte abstrata é universal ou depende do observador?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação abstrata com intenção emocional articulada."
+    }
+  },
+  {
+    "id": "art-5-u4-n1",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u4",
+    "unidade_titulo": "Arte Digital e Mídias",
+    "habilidade_bncc_codigo": "EF15AR08",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.01 — Arte digital e novas mídias",
+    "objetivo": "Reconhecer a arte digital como linguagem contemporânea.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que é arte digital?",
+    "conteudo_base": {
+      "opcoes": [
+        "Arte feita apenas com tinta e papel",
+        "Arte criada com ferramentas digitais como computador, tablet ou software",
+        "Arte vendida pela internet",
+        "Arte sobre tecnologia"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Define arte digital pela ferramenta usada.",
+      "Distingue de outros tipos de arte ou de arte sobre tecnologia."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar exemplo de ilustração digital e foto digital.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: se foi feita com computador, tablet, mouse ou software, é arte digital."
+    },
+    "modo_professor": {
+      "gabarito": "Arte criada com ferramentas digitais — computador, tablet, software.",
+      "objetivo_pedagogico": "Definir arte digital como linguagem contemporânea.",
+      "perguntas_orientadoras": [
+        "Arte digital é menos arte que pintura a óleo?",
+        "Você já criou algum arte digital?",
+        "NFT é arte digital?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: definição por ferramenta com contraste de opções."
+    }
+  },
+  {
+    "id": "art-5-u4-n2",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u4",
+    "unidade_titulo": "Arte Digital e Mídias",
+    "habilidade_bncc_codigo": "EF15AR08",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.01 — Arte digital e novas mídias",
+    "objetivo": "Classificar formas de arte digital por linguagem.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada manifestação de arte digital.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Ilustração feita em tablet",
+          "categoria": "Artes visuais digitais"
+        },
+        {
+          "id": "i2",
+          "label": "Animação 3D de filme",
+          "categoria": "Artes visuais digitais"
+        },
+        {
+          "id": "i3",
+          "label": "Música produzida em computador",
+          "categoria": "Música digital"
+        },
+        {
+          "id": "i4",
+          "label": "Podcast com edição de áudio",
+          "categoria": "Música digital"
+        },
+        {
+          "id": "i5",
+          "label": "Websérie gravada e editada",
+          "categoria": "Audiovisual"
+        },
+        {
+          "id": "i6",
+          "label": "Videogame com narrativa",
+          "categoria": "Audiovisual"
+        }
+      ],
+      "categorias": [
+        "Artes visuais digitais",
+        "Música digital",
+        "Audiovisual"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 itens nas três categorias digitais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar exemplo de cada categoria.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: visual = imagem. Música = som. Audiovisual = imagem + som + movimento juntos."
+    },
+    "modo_professor": {
+      "gabarito": "Visual: ilustração, animação. Música: produção musical, podcast. Audiovisual: websérie, videogame.",
+      "objetivo_pedagogico": "Reconhecer diversidade de linguagens na arte digital.",
+      "perguntas_orientadoras": [
+        "Um videogame pode ser considerado arte?",
+        "Por que o podcast está na categoria musical e não audiovisual?",
+        "Que tipo de arte digital você já consumiu hoje?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias com fronteiras que exigem análise."
+    }
+  },
+  {
+    "id": "art-5-u4-n3",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u4",
+    "unidade_titulo": "Arte Digital e Mídias",
+    "habilidade_bncc_codigo": "EF15AR09",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.02 — Criação em arte digital",
+    "objetivo": "Planejar uma criação em arte digital com intenção comunicativa.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Planeje uma obra de arte digital (pode ser uma ilustração, música, animação ou vídeo). Defina o tema, a linguagem, o público e o que você quer comunicar.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "linguagem",
+          "label": "Que tipo de arte digital você criaria?",
+          "max": 80
+        },
+        {
+          "id": "tema",
+          "label": "Qual é o tema?",
+          "max": 100
+        },
+        {
+          "id": "publico",
+          "label": "Para quem é essa obra?",
+          "max": 100
+        },
+        {
+          "id": "mensagem",
+          "label": "O que você quer comunicar?",
+          "max": 200
+        },
+        {
+          "id": "ferramenta",
+          "label": "Que ferramenta ou aplicativo usaria?",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define linguagem, tema e público.",
+      "Articula mensagem com clareza.",
+      "Escolhe ferramenta pertinente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos de projetos digitais de estudantes.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em algo que você quer dizer para o mundo — qual linguagem digital seria mais poderosa para isso?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: linguagem digital escolhida, tema e público definidos, mensagem articulada, ferramenta coerente.",
+      "objetivo_pedagogico": "Planejar criação em arte digital com intenção comunicativa.",
+      "perguntas_orientadoras": [
+        "Por que essa linguagem é mais adequada para sua mensagem?",
+        "Seu público entenderia o que você quer comunicar?",
+        "Como você compartilharia essa obra?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: planejamento de projeto de arte digital com intencionalidade."
+    }
+  },
+  {
+    "id": "art-5-u5-n1",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u5",
+    "unidade_titulo": "Crítica e Curadoria",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.03 — Apreciação crítica e curadoria",
+    "objetivo": "Reconhecer o papel do crítico de arte.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que faz um crítico de arte?",
+    "conteudo_base": {
+      "opcoes": [
+        "Cria obras de arte para vender",
+        "Analisa e comenta obras de arte com base em conhecimento estético",
+        "Pinta retratos por encomenda",
+        "Escolhe quais artistas podem expor"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica análise e comentário fundamentado como função do crítico.",
+      "Distingue crítico de artista e curador."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar exemplo de resenha crítica de uma exposição.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o crítico de arte é para as obras o que o crítico gastronômico é para os restaurantes — analisa e comenta."
+    },
+    "modo_professor": {
+      "gabarito": "Analisa e comenta obras com base em conhecimento estético.",
+      "objetivo_pedagogico": "Reconhecer a função da crítica na arte.",
+      "perguntas_orientadoras": [
+        "Crítica negativa pode ser útil para um artista?",
+        "Quem define se uma obra é boa?",
+        "O público pode ser crítico de arte?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: função do crítico com distinção de papéis do campo artístico."
+    }
+  },
+  {
+    "id": "art-5-u5-n2",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u5",
+    "unidade_titulo": "Crítica e Curadoria",
+    "habilidade_bncc_codigo": "EF15AR25",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.03 — Apreciação crítica e curadoria",
+    "objetivo": "Distinguir os papéis de artista, curador e crítico no campo da arte.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada ação: quem a realiza no campo da arte?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Escolher as obras que integram uma exposição",
+          "categoria": "Curador"
+        },
+        {
+          "id": "i2",
+          "label": "Escrever resenha crítica sobre uma exposição",
+          "categoria": "Crítico"
+        },
+        {
+          "id": "i3",
+          "label": "Pintar um mural numa galeria",
+          "categoria": "Artista"
+        },
+        {
+          "id": "i4",
+          "label": "Organizar o espaço e a narrativa da exposição",
+          "categoria": "Curador"
+        },
+        {
+          "id": "i5",
+          "label": "Publicar artigo sobre o estilo de um pintor",
+          "categoria": "Crítico"
+        },
+        {
+          "id": "i6",
+          "label": "Criar uma escultura para expor",
+          "categoria": "Artista"
+        }
+      ],
+      "categorias": [
+        "Artista",
+        "Curador",
+        "Crítico"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente as 6 ações.",
+      "Distingue os três papéis do campo artístico."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode comparar com papéis em outras áreas (jogador/técnico/comentarista).",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: artista cria. Curador seleciona e organiza. Crítico analisa e escreve."
+    },
+    "modo_professor": {
+      "gabarito": "Artista: mural, escultura. Curador: selecionar, organizar. Crítico: resenha, artigo.",
+      "objetivo_pedagogico": "Mapear os papéis do campo artístico contemporâneo.",
+      "perguntas_orientadoras": [
+        "Um artista pode também ser curador?",
+        "O crítico precisa gostar da obra para escrevê-la?",
+        "O curador tem poder sobre a carreira dos artistas?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três papéis com ações que exigem distinção cuidadosa."
+    }
+  },
+  {
+    "id": "art-5-u5-n3",
+    "ano": 5,
+    "componente": "Arte",
+    "unidade_id": "art-5-u5",
+    "unidade_titulo": "Crítica e Curadoria",
+    "habilidade_bncc_codigo": "EF15AR26",
+    "referencia_cbtc": "CBTC-SC: ART.EF5.V.04 — Produção de texto crítico sobre arte",
+    "objetivo": "Escrever uma crítica fundamentada sobre uma obra ou exposição.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha uma obra de arte que você conhece e escreva uma crítica sobre ela: descreva, analise e dê sua opinião fundamentada.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "obra",
+          "label": "Qual obra você escolheu e de quem é?",
+          "max": 120
+        },
+        {
+          "id": "descricao",
+          "label": "Descrição da obra:",
+          "max": 200
+        },
+        {
+          "id": "analise",
+          "label": "Análise (o que o artista quis comunicar e como):",
+          "max": 200
+        },
+        {
+          "id": "critica",
+          "label": "Sua crítica fundamentada (o que funciona e o que você acha):",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica obra e artista reais.",
+      "Descreve e analisa com coerência.",
+      "Apresenta crítica com argumento, não apenas opinião vaga."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplo de crítica de arte publicada.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: crítica não é só dizer se gostou — é explicar POR QUE funciona ou não, usando o que você sabe sobre arte."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: obra e artista identificados, descrição e análise coerentes, crítica com argumento fundamentado.",
+      "objetivo_pedagogico": "Produzir texto crítico sobre arte com estrutura de análise estética.",
+      "perguntas_orientadoras": [
+        "Sua crítica poderia ser publicada num jornal?",
+        "O que diferencia sua crítica de uma simples opinião?",
+        "Você mudaria sua opinião depois de aprender mais sobre o artista?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção de crítica estética estruturada."
+    }
   }
 ]

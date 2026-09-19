@@ -457,5 +457,453 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: criação de problema com verificação por operação inversa."
     }
+  },
+  {
+    "id": "mat-3-u4-n1",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u4",
+    "unidade_titulo": "Sistema Monetário",
+    "habilidade_bncc_codigo": "EF03MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.06 — Sistema monetário brasileiro",
+    "objetivo": "Identificar cédulas e moedas do real.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Quanto vale uma cédula de R$5,00 em moedas de R$1,00?",
+    "conteudo_base": {
+      "opcoes": [
+        "3 moedas",
+        "4 moedas",
+        "5 moedas",
+        "10 moedas"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Calcula 5÷1=5 moedas.",
+      "Relaciona cédula a moedas equivalentes."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer notas e moedas reais ou impressas.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: se cada moeda vale R$1,00 e a cédula vale R$5,00, quantas moedas fazem R$5,00?"
+    },
+    "modo_professor": {
+      "gabarito": "5 moedas de R$1,00 = R$5,00.",
+      "objetivo_pedagogico": "Operar com o sistema monetário brasileiro.",
+      "perguntas_orientadoras": [
+        "E em moedas de R$0,50, quantas seriam?",
+        "Como você daria troco de R$5,00 para uma compra de R$3,00?",
+        "Por que usamos cédulas em vez de só moedas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: equivalência direta com divisão simples."
+    }
+  },
+  {
+    "id": "mat-3-u4-n2",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u4",
+    "unidade_titulo": "Sistema Monetário",
+    "habilidade_bncc_codigo": "EF03MA08",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.06 — Sistema monetário brasileiro",
+    "objetivo": "Calcular troco e valor total de compras simples.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Você comprou um lápis por R$2,50 e uma borracha por R$1,50. Pagou com R$10,00. Qual é o troco?",
+    "conteudo_base": {
+      "pares": [
+        {
+          "situacao": "Total da compra",
+          "opcoes": [
+            "R$3,00",
+            "R$4,00",
+            "R$5,00"
+          ],
+          "correta": 1
+        },
+        {
+          "situacao": "Troco recebido",
+          "opcoes": [
+            "R$5,00",
+            "R$6,00",
+            "R$7,00"
+          ],
+          "correta": 1
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula R$2,50+R$1,50=R$4,00.",
+      "Calcula R$10,00-R$4,00=R$6,00 de troco."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Simular compra em sala com cédulas didáticas.",
+      "resposta": "Marcar as respostas corretas.",
+      "engajamento": "Dica: primeiro soma os preços, depois subtrai do que você pagou."
+    },
+    "modo_professor": {
+      "gabarito": "Total: R$4,00. Troco: R$6,00.",
+      "objetivo_pedagogico": "Aplicar adição e subtração no contexto monetário.",
+      "perguntas_orientadoras": [
+        "Como você confere se o troco está certo?",
+        "E se você pagasse com R$5,00?",
+        "Como isso se relaciona com o trabalho de um caixa?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: dois cálculos encadeados no contexto de compra."
+    }
+  },
+  {
+    "id": "mat-3-u4-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u4",
+    "unidade_titulo": "Sistema Monetário",
+    "habilidade_bncc_codigo": "EF03MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.07 — Problemas com sistema monetário",
+    "objetivo": "Resolver problema de planejamento financeiro simples.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Você quer comprar um livro de R$18,00. Você já tem R$7,00. Quanto falta? Se você economizar R$2,00 por semana, em quantas semanas consegue comprar?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "falta",
+          "label": "Quanto falta para comprar o livro?",
+          "max": 60
+        },
+        {
+          "id": "semanas",
+          "label": "Em quantas semanas você consegue economizar?",
+          "max": 60
+        },
+        {
+          "id": "calculo",
+          "label": "Mostre seus cálculos:",
+          "max": 150
+        },
+        {
+          "id": "reflexao",
+          "label": "Poupando R$2 por semana, o que você aprendeu sobre economizar?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula R$18-R$7=R$11.",
+      "Calcula R$11÷R$2=5,5 semanas (6 semanas completas).",
+      "Apresenta os cálculos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ajudar a desenhar uma tabela de economia.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: primeiro descubra quanto falta. Depois, divida esse valor pela economia semanal."
+    },
+    "modo_professor": {
+      "gabarito": "Falta: R$11,00. Semanas: R$11÷R$2=5,5 → 6 semanas. Aprende: economia requer paciência e planejamento.",
+      "objetivo_pedagogico": "Aplicar operações no contexto de planejamento financeiro.",
+      "perguntas_orientadoras": [
+        "Por que arredondamos para 6 semanas e não 5?",
+        "O que é poupar?",
+        "Se você economizasse R$3 por semana, mudaria o resultado?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: problema em dois passos com reflexão sobre educação financeira."
+    }
+  },
+  {
+    "id": "mat-3-u4-n1",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u4",
+    "unidade_titulo": "Leitura de Gráficos e Tabelas",
+    "habilidade_bncc_codigo": "EF03MA27",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.E.01 — Leitura e interpretação de gráficos",
+    "objetivo": "Ler informação em gráfico de barras simples.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Num gráfico de barras, a turma A tem barra na altura 25 e a turma B na altura 18. Qual turma tem mais alunos?",
+    "conteudo_base": {
+      "opcoes": [
+        "Turma B",
+        "As duas têm igual",
+        "Turma A",
+        "Não é possível saber"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Compara alturas das barras e conclui que 25 > 18.",
+      "Interpreta a altura como quantidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar o gráfico no quadro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: no gráfico de barras, a barra mais alta representa o maior valor."
+    },
+    "modo_professor": {
+      "gabarito": "Turma A — barra na altura 25 > 18.",
+      "objetivo_pedagogico": "Ler e comparar dados em gráfico de barras.",
+      "perguntas_orientadoras": [
+        "Qual é o eixo vertical do gráfico?",
+        "Quantos alunos a mais a turma A tem?",
+        "Em qual tipo de texto você encontra gráficos?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: leitura direta de gráfico com comparação simples."
+    }
+  },
+  {
+    "id": "mat-3-u4-n2",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u4",
+    "unidade_titulo": "Leitura de Gráficos e Tabelas",
+    "habilidade_bncc_codigo": "EF03MA27",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.E.01 — Leitura e interpretação de gráficos",
+    "objetivo": "Calcular total e diferença a partir de dados de tabela.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Tabela de frutas vendidas: Maçã 45, Banana 30, Laranja 25. Qual é o total de frutas vendidas?",
+    "conteudo_base": {
+      "opcoes": [
+        "95",
+        "100",
+        "105",
+        "90"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Soma 45+30+25=100 corretamente.",
+      "Identifica que deve somar todos os valores."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Escrever a tabela no quadro.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: leia todos os valores da tabela e some um a um."
+    },
+    "modo_professor": {
+      "gabarito": "100 (45+30+25=100).",
+      "objetivo_pedagogico": "Extrair dados de tabela e calcular total.",
+      "perguntas_orientadoras": [
+        "Qual fruta foi menos vendida?",
+        "Quantas maçãs a mais que bananas foram vendidas?",
+        "Como você verifica a soma?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: soma de três valores de tabela com distratores próximos."
+    }
+  },
+  {
+    "id": "mat-3-u4-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u4",
+    "unidade_titulo": "Leitura de Gráficos e Tabelas",
+    "habilidade_bncc_codigo": "EF03MA28",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.E.02 — Construção e análise de gráficos",
+    "objetivo": "Organizar dados coletados em tabela e analisar resultados.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Pergunte a 5 colegas qual é a fruta favorita deles. Organize os dados e responda as questões.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "dados",
+          "label": "Fruta e quantidade de votos (ex: Maçã: 2):",
+          "max": 200
+        },
+        {
+          "id": "favorita",
+          "label": "Qual fruta teve mais votos?",
+          "max": 80
+        },
+        {
+          "id": "total",
+          "label": "Total de respostas coletadas:",
+          "max": 40
+        },
+        {
+          "id": "analise",
+          "label": "O que mais te surpreendeu nos dados?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Coleta e organiza dados de 5 colegas.",
+      "Identifica valor modal.",
+      "Totaliza corretamente."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer a pesquisa com a turma toda no quadro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: anote cada resposta dos colegas com marcas (/// //) para não esquecer nenhum."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: total = 5, moda identificada, análise coerente.",
+      "objetivo_pedagogico": "Coletar, organizar e analisar dados em tabela simples.",
+      "perguntas_orientadoras": [
+        "O total bate com o número de colegas que você perguntou?",
+        "Qual fruta foi a favorita da sua turma toda?",
+        "Se você pesquisasse outras turmas, o resultado seria diferente?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: coleta real de dados com análise."
+    }
+  },
+  {
+    "id": "mat-3-u5-n1",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u5",
+    "unidade_titulo": "Estimativa e Arredondamento",
+    "habilidade_bncc_codigo": "EF03MA06",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.06 — Estimativa e arredondamento",
+    "objetivo": "Arredondar número para a dezena mais próxima.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é o arredondamento de 47 para a dezena mais próxima?",
+    "conteudo_base": {
+      "opcoes": [
+        "40",
+        "45",
+        "50",
+        "47"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Arredonda 47 para 50 (dígito das unidades ≥ 5).",
+      "Aplica a regra de arredondamento."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar na reta numérica que 47 está mais perto de 50 que de 40.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: o dígito das unidades é 7. Se for 5 ou mais, arredonda para cima."
+    },
+    "modo_professor": {
+      "gabarito": "50 — unidade 7 ≥ 5, arredonda para cima.",
+      "objetivo_pedagogico": "Aplicar regra de arredondamento para dezena.",
+      "perguntas_orientadoras": [
+        "Como você arredondaria 43?",
+        "Para que serve arredondar?",
+        "Na vida real, quando você usa estimativas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: arredondamento com regra padrão e número próximo ao ponto de corte."
+    }
+  },
+  {
+    "id": "mat-3-u5-n2",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u5",
+    "unidade_titulo": "Estimativa e Arredondamento",
+    "habilidade_bncc_codigo": "EF03MA06",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.06 — Estimativa e arredondamento",
+    "objetivo": "Estimar resultado de operação antes de calcular exatamente.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Sem calcular exatamente, qual é a melhor estimativa para 48 + 53?",
+    "conteudo_base": {
+      "opcoes": [
+        "Perto de 80",
+        "Perto de 100",
+        "Perto de 120",
+        "Perto de 60"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Estima 50+50=100 como aproximação razoável.",
+      "Aplica arredondamento para facilitar o cálculo mental."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor demonstra como arredondar antes de somar.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: arredonde cada número para a dezena mais próxima, depois some."
+    },
+    "modo_professor": {
+      "gabarito": "Perto de 100 — 48≈50 e 53≈50, então 50+50=100. Exato: 101.",
+      "objetivo_pedagogico": "Usar arredondamento para estimativa de operações.",
+      "perguntas_orientadoras": [
+        "Por que estimar é útil?",
+        "O resultado exato confirma sua estimativa?",
+        "Em qual situação você preferiria estimar a calcular exatamente?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: estimativa por arredondamento, sem calcular o exato."
+    }
+  },
+  {
+    "id": "mat-3-u5-n3",
+    "ano": 3,
+    "componente": "Matemática",
+    "unidade_id": "mat-3-u5",
+    "unidade_titulo": "Estimativa e Arredondamento",
+    "habilidade_bncc_codigo": "EF03MA07",
+    "referencia_cbtc": "CBTC-SC: MAT.EF3.N.07 — Resolução de problemas com estimativa",
+    "objetivo": "Usar estimativa para resolver problema do cotidiano e comparar com o exato.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Uma escola tem 312 alunos no período da manhã e 287 à tarde. Primeiro estime o total, depois calcule o exato e explique a diferença.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "estimativa",
+          "label": "Sua estimativa e como você pensou:",
+          "max": 150
+        },
+        {
+          "id": "exato",
+          "label": "Cálculo exato:",
+          "max": 80
+        },
+        {
+          "id": "diferenca",
+          "label": "Diferença entre estimativa e exato:",
+          "max": 80
+        },
+        {
+          "id": "utilidade",
+          "label": "Quando a estimativa basta? Quando precisa do exato?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Apresenta estimativa razoável (próxima de 600).",
+      "Calcula 312+287=599 corretamente.",
+      "Reflete sobre quando cada abordagem é adequada."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode discutir exemplos de uso de estimativa no cotidiano.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: arredonde 312 para 300 e 287 para 300 — qual é a estimativa?"
+    },
+    "modo_professor": {
+      "gabarito": "Estimativa: ≈600. Exato: 599. Diferença: 1. Estimativa basta para comparações; exato necessário para registros oficiais.",
+      "objetivo_pedagogico": "Distinguir situações que requerem estimativa vs. cálculo exato.",
+      "perguntas_orientadoras": [
+        "Sua estimativa ficou próxima do exato?",
+        "Um gerente de supermercado precisa do exato ou da estimativa para o estoque?",
+        "E para decidir se precisa comprar mais produto?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: dois métodos + reflexão sobre adequação ao contexto."
+    }
   }
 ]

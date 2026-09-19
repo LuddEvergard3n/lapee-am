@@ -452,5 +452,467 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: produção escrita com estrutura definida mas conteúdo livre."
     }
+  },
+  {
+    "id": "lp-1-u4-n1",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u4",
+    "unidade_titulo": "Poesia e Rimas",
+    "habilidade_bncc_codigo": "EF01LP20",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.08 — Apreciação de poemas e rimas",
+    "objetivo": "Identificar palavras que rimam num poema.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual palavra rima com GATO?",
+    "conteudo_base": {
+      "opcoes": [
+        "Cachorro",
+        "Pato",
+        "Girafa",
+        "Elefante"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica 'pato' como rima de 'gato'.",
+      "Distingue rima de semelhança de significado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê as palavras em voz alta.",
+      "resposta": "Marcar a opção correta.",
+      "engajamento": "Dica: duas palavras rimam quando terminam com o mesmo som. Fala 'gato' e 'pato' — o que você percebe?"
+    },
+    "modo_professor": {
+      "gabarito": "Pato — mesma terminação sonora '-ato'.",
+      "objetivo_pedagogico": "Desenvolver consciência fonológica por meio da rima.",
+      "perguntas_orientadoras": [
+        "O que é rima?",
+        "Cite outras palavras que rimam com gato.",
+        "Uma história pode ter rimas?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação direta de rima com par óbvio."
+    }
+  },
+  {
+    "id": "lp-1-u4-n2",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u4",
+    "unidade_titulo": "Poesia e Rimas",
+    "habilidade_bncc_codigo": "EF01LP20",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.08 — Apreciação de poemas e rimas",
+    "objetivo": "Associar pares de palavras que rimam.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada palavra à palavra que rima com ela.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Sol",
+          "nome": "Girassol"
+        },
+        {
+          "elemento": "Mar",
+          "nome": "Voar"
+        },
+        {
+          "elemento": "Lua",
+          "nome": "Rua"
+        },
+        {
+          "elemento": "Flor",
+          "nome": "Cor"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa todos os pares de rima corretamente.",
+      "Reconhece rima pelo som final."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê cada palavra em voz alta.",
+      "resposta": "Arrastar chip ao par correto.",
+      "engajamento": "Dica: diz as duas palavras em voz alta. Se o final soa igual, rimam!"
+    },
+    "modo_professor": {
+      "gabarito": "Sol↔girassol | Mar↔voar | Lua↔rua | Flor↔cor.",
+      "objetivo_pedagogico": "Fixar o conceito de rima por meio de associação auditiva.",
+      "perguntas_orientadoras": [
+        "Por que 'sol' e 'girassol' rimam?",
+        "'Mar' e 'voar' rimam mas são coisas bem diferentes — por quê ainda rimam?",
+        "Você conhece algum poema com essas palavras?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de pares com rimas não triviais."
+    }
+  },
+  {
+    "id": "lp-1-u4-n3",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u4",
+    "unidade_titulo": "Poesia e Rimas",
+    "habilidade_bncc_codigo": "EF15LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.P.04 — Produção de versos rimados",
+    "objetivo": "Completar versos de um poema com palavras que rimem.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Complete o poema com palavras que rimem e façam sentido.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "v1",
+          "label": "O sapo sentou no _____ (rima com 'galho')",
+          "max": 50
+        },
+        {
+          "id": "v2",
+          "label": "E pulou com muito _____ (rima com 'galho')",
+          "max": 50
+        },
+        {
+          "id": "v3",
+          "label": "A borboleta voou pelo _____ (rima com 'ar')",
+          "max": 50
+        },
+        {
+          "id": "v4",
+          "label": "E foi descansar no _____ (rima com 'ar')",
+          "max": 50
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Completa com palavras que rimam.",
+      "As palavras fazem sentido nos versos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler o poema incompleto em voz alta.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: fala a última palavra do verso anterior e pensa num som parecido para completar."
+    },
+    "modo_professor": {
+      "gabarito": "Exemplos: galho/trabalho, espalho | ar/mar, pomar, lugar. Aceitar qualquer rima correta e com sentido.",
+      "objetivo_pedagogico": "Praticar criação de rimas em contexto poético.",
+      "perguntas_orientadoras": [
+        "Sua palavra rima com a que veio antes?",
+        "Faz sentido na história do poema?",
+        "Você pode criar mais dois versos para o poema?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: completar verso com rima e coerência semântica."
+    }
+  },
+  {
+    "id": "lp-1-u4-n1",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u4",
+    "unidade_titulo": "Poesia e Rima",
+    "habilidade_bncc_codigo": "EF01LP19",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.08 — Identificação de rimas em poemas",
+    "objetivo": "Identificar palavras que rimam.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual palavra rima com GATO?",
+    "conteudo_base": {
+      "opcoes": [
+        "Livro",
+        "Pato",
+        "Casa",
+        "Bola"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica rima por semelhança sonora final.",
+      "Distingue rima de associação temática (gato ≠ cachorro)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê as opções em voz alta, enfatizando o som final.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: fala as duas palavras e escuta o final — GATO… PATO. Soou igual?"
+    },
+    "modo_professor": {
+      "gabarito": "Pato — terminação -ato igual a gato.",
+      "objetivo_pedagogico": "Desenvolver consciência fonológica por meio de rimas.",
+      "perguntas_orientadoras": [
+        "O que tem igual em 'gato' e 'pato'?",
+        "Você conhece mais palavras que rimam com gato?",
+        "Qual parte da palavra precisa ser igual para rimar?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: rima direta e sonora com apenas uma sílaba de diferença."
+    }
+  },
+  {
+    "id": "lp-1-u4-n2",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u4",
+    "unidade_titulo": "Poesia e Rima",
+    "habilidade_bncc_codigo": "EF01LP19",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.08 — Identificação de rimas em poemas",
+    "objetivo": "Completar pares de rima em um poema simples.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada palavra à que rima com ela.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Flor",
+          "nome": "Amor"
+        },
+        {
+          "elemento": "Chuva",
+          "nome": "Luva"
+        },
+        {
+          "elemento": "Leão",
+          "nome": "Coração"
+        },
+        {
+          "elemento": "Terra",
+          "nome": "Guerra"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa pares de rima por semelhança sonora final.",
+      "Não confunde rima com significado."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê cada par em voz alta antes da atividade.",
+      "resposta": "Arrastar chip ao par correto.",
+      "engajamento": "Dica: diz as duas palavras seguidas e ouça se o final soa igual."
+    },
+    "modo_professor": {
+      "gabarito": "Flor→Amor | Chuva→Luva | Leão→Coração | Terra→Guerra.",
+      "objetivo_pedagogico": "Consolidar identificação de rimas em contexto poético.",
+      "perguntas_orientadoras": [
+        "Você consegue criar um verso com um desses pares?",
+        "Rima sempre tem que ter o mesmo número de letras?",
+        "Qual par você acharia num poema de amor?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro pares simultâneos exigem discriminação sonora mais precisa."
+    }
+  },
+  {
+    "id": "lp-1-u4-n3",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u4",
+    "unidade_titulo": "Poesia e Rima",
+    "habilidade_bncc_codigo": "EF15LP04",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.P.04 — Produção de versos com rima",
+    "objetivo": "Completar versos de um poema usando palavras que rimam.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Complete o poema com palavras que rimem:\n'O sol nasceu lá no ___\nE iluminou o jardim tão ___'\nDepois escreva mais dois versos seus que rimem entre si.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "v1",
+          "label": "Complete o 1º verso (rima com 'jardim'):",
+          "max": 60
+        },
+        {
+          "id": "v2",
+          "label": "Complete o 2º verso (rima com a palavra que você escolheu):",
+          "max": 60
+        },
+        {
+          "id": "verso3",
+          "label": "Seu 3º verso:",
+          "max": 80
+        },
+        {
+          "id": "verso4",
+          "label": "Seu 4º verso (rima com o 3º):",
+          "max": 80
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Completa os versos com rimas coerentes.",
+      "Cria ao menos dois versos próprios que rimam entre si."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor lê o poema em voz alta antes.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: 'lindo', 'bonito', 'florido' rimam com 'jardim'? Teste falando em voz alta!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: rima no 1º par (jardim/rim) e no par criado pelo aluno.",
+      "objetivo_pedagogico": "Produzir versos com rima consciente.",
+      "perguntas_orientadoras": [
+        "Sua palavra rima mesmo? Fala em voz alta.",
+        "Seus versos fazem sentido juntos?",
+        "Como seria diferente sem a rima?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: produção de versos com rima explícita e criação livre."
+    }
+  },
+  {
+    "id": "lp-1-u5-n1",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u5",
+    "unidade_titulo": "Alfabeto e Ordem Alfabética",
+    "habilidade_bncc_codigo": "EF01LP02",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Ordenação alfabética",
+    "objetivo": "Reconhecer a posição das letras no alfabeto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual letra vem depois do M no alfabeto?",
+    "conteudo_base": {
+      "opcoes": [
+        "L",
+        "N",
+        "P",
+        "O"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica N como letra seguinte ao M.",
+      "Demonstra conhecimento da sequência do alfabeto."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Alfabeto exposto na sala. Professor pode cantá-lo antes.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: cante o alfabeto devagarzinho até chegar no M e veja o que vem depois."
+    },
+    "modo_professor": {
+      "gabarito": "N vem após M na sequência A B C D E F G H I J K L M N…",
+      "objetivo_pedagogico": "Fixar sequência do alfabeto.",
+      "perguntas_orientadoras": [
+        "Qual letra vem antes do M?",
+        "E depois do Z?",
+        "Para que serve conhecer a ordem do alfabeto?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: posição imediata no alfabeto com referência visual."
+    }
+  },
+  {
+    "id": "lp-1-u5-n2",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u5",
+    "unidade_titulo": "Alfabeto e Ordem Alfabética",
+    "habilidade_bncc_codigo": "EF01LP02",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.02 — Ordenação alfabética",
+    "objetivo": "Ordenar palavras em ordem alfabética pela letra inicial.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as palavras em ordem alfabética (pela primeira letra).",
+    "conteudo_base": {
+      "itens": [
+        "Uva",
+        "Bola",
+        "Mela",
+        "Abacaxi",
+        "Pera"
+      ],
+      "ordem_correta": [
+        3,
+        1,
+        2,
+        4,
+        0
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: Abacaxi → Bola → Melão → Pera → Uva.",
+      "Usa a primeira letra como critério de ordenação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Alfabeto visível na sala para consulta.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: olhe a primeira letra de cada palavra e veja qual vem antes no alfabeto."
+    },
+    "modo_professor": {
+      "gabarito": "A(bacaxi) → B(ola) → M(ela) → P(era) → U(va).",
+      "objetivo_pedagogico": "Aplicar ordenação alfabética pela primeira letra.",
+      "perguntas_orientadoras": [
+        "Se duas palavras começam com a mesma letra, o que você faz?",
+        "Para que usamos a ordem alfabética?",
+        "Onde você encontra palavras em ordem alfabética no dia a dia?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: cinco palavras com letras iniciais distintas."
+    }
+  },
+  {
+    "id": "lp-1-u5-n3",
+    "ano": 1,
+    "componente": "LP",
+    "unidade_id": "lp-1-u5",
+    "unidade_titulo": "Alfabeto e Ordem Alfabética",
+    "habilidade_bncc_codigo": "EF01LP03",
+    "referencia_cbtc": "CBTC-SC: LP.EF1.L.03 — Uso do dicionário e ordem alfabética",
+    "objetivo": "Explicar para que serve a ordem alfabética e onde ela aparece no dia a dia.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Para que serve a ordem alfabética? Cite dois lugares onde você encontra palavras em ordem alfabética e explique por que isso é útil.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "pra_que",
+          "label": "Para que serve a ordem alfabética?",
+          "max": 150
+        },
+        {
+          "id": "lugar1",
+          "label": "1º lugar onde você encontra:",
+          "max": 100
+        },
+        {
+          "id": "lugar2",
+          "label": "2º lugar onde você encontra:",
+          "max": 100
+        },
+        {
+          "id": "utilidade",
+          "label": "Por que é útil nesses lugares?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Explica a função da ordenação alfabética.",
+      "Cita dois contextos reais.",
+      "Justifica a utilidade."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar um dicionário e uma lista telefônica.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: dicionário, lista de presença, catálogo — onde você já precisou procurar algo em ordem?"
+    },
+    "modo_professor": {
+      "gabarito": "Função: facilitar busca. Exemplos: dicionário, lista telefônica, índice de livro, catálogo. Utilidade: localizar rapidamente sem ler tudo.",
+      "objetivo_pedagogico": "Compreender a ordem alfabética como ferramenta prática.",
+      "perguntas_orientadoras": [
+        "O que seria mais difícil sem a ordem alfabética?",
+        "Você já usou um dicionário?",
+        "Por que a agenda telefônica usa ordem alfabética?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre função prática do alfabeto."
+    }
   }
 ]

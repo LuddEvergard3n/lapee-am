@@ -449,5 +449,514 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: leitura crítica com produção de opinião argumentada."
     }
+  },
+  {
+    "id": "lp-4-u4-n1",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u4",
+    "unidade_titulo": "Variação Linguística",
+    "habilidade_bncc_codigo": "EF04LP14",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.05 — Variação linguística e preconceito",
+    "objetivo": "Reconhecer que a língua portuguesa varia conforme a região e o contexto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "'Mandioca', 'aipim' e 'macaxeira' são nomes diferentes para o mesmo alimento em regiões diferentes do Brasil. O que isso mostra?",
+    "conteudo_base": {
+      "opcoes": [
+        "Que as pessoas erram ao falar",
+        "Que a língua portuguesa varia de região para região",
+        "Que só um nome está correto",
+        "Que não existe língua certa no Brasil"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece variação regional como fenômeno natural da língua.",
+      "Rejeita a ideia de erro linguístico."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar que palavras regionais os alunos conhecem.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: não existe uma forma 'certa' — existe a forma usada em cada lugar."
+    },
+    "modo_professor": {
+      "gabarito": "A língua varia de região para região — fenômeno de variação diatópica.",
+      "objetivo_pedagogico": "Desenvolver respeito pelas variedades linguísticas.",
+      "perguntas_orientadoras": [
+        "Você conhece palavras usadas só na sua cidade?",
+        "Um mineiro e um gaúcho falam a mesma língua?",
+        "O que é preconceito linguístico?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: variação lexical evidente com exemplo cotidiano."
+    }
+  },
+  {
+    "id": "lp-4-u4-n2",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u4",
+    "unidade_titulo": "Variação Linguística",
+    "habilidade_bncc_codigo": "EF04LP14",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.05 — Variação linguística e preconceito",
+    "objetivo": "Classificar situações de uso da linguagem formal e informal.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada situação: exige linguagem formal ou informal?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Escrever uma redação para o professor",
+          "categoria": "Formal"
+        },
+        {
+          "id": "i2",
+          "label": "Mandar mensagem para um amigo no celular",
+          "categoria": "Informal"
+        },
+        {
+          "id": "i3",
+          "label": "Falar em público na formatura",
+          "categoria": "Formal"
+        },
+        {
+          "id": "i4",
+          "label": "Contar uma piada para o primo",
+          "categoria": "Informal"
+        },
+        {
+          "id": "i5",
+          "label": "Escrever uma carta para a prefeitura",
+          "categoria": "Formal"
+        },
+        {
+          "id": "i6",
+          "label": "Bater papo no recreio",
+          "categoria": "Informal"
+        }
+      ],
+      "categorias": [
+        "Formal",
+        "Informal"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica situações públicas/escritas como formais.",
+      "Classifica situações privadas/orais/com conhecidos como informais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode dramatizar os dois registros com a mesma mensagem.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: formal é para situações mais sérias ou públicas. Informal é para amigos e família."
+    },
+    "modo_professor": {
+      "gabarito": "Formal: redação, formatura, carta. Informal: mensagem, piada, recreio.",
+      "objetivo_pedagogico": "Reconhecer a adequação do registro linguístico ao contexto.",
+      "perguntas_orientadoras": [
+        "Por que não escrevemos cartas para a prefeitura com gírias?",
+        "O informal é errado?",
+        "A mesma pessoa pode usar os dois registros?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação de registro por contexto."
+    }
+  },
+  {
+    "id": "lp-4-u4-n3",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u4",
+    "unidade_titulo": "Variação Linguística",
+    "habilidade_bncc_codigo": "EF04LP15",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.06 — Reflexão sobre preconceito linguístico",
+    "objetivo": "Refletir sobre o preconceito linguístico e como combatê-lo.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Uma criança foi ridicularizada por falar diferente por ser de outra região. O que é preconceito linguístico? Isso é certo? O que você faria nessa situação?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "definicao",
+          "label": "O que é preconceito linguístico?",
+          "max": 200
+        },
+        {
+          "id": "opiniao",
+          "label": "Isso é correto? Por quê?",
+          "max": 250
+        },
+        {
+          "id": "acao",
+          "label": "O que você faria se presenciasse isso?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Define preconceito linguístico com clareza.",
+      "Argumenta contra o preconceito.",
+      "Propõe ação concreta."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode ler relato real de preconceito linguístico.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: julgar alguém pela forma de falar é como julgar pela roupa — não diz nada sobre seu valor."
+    },
+    "modo_professor": {
+      "gabarito": "Preconceito linguístico: julgar alguém como inferior por sua variedade linguística. Não é correto: todas as variedades têm valor. Ação: defender, explicar, incluir.",
+      "objetivo_pedagogico": "Desenvolver empatia linguística e postura crítica contra o preconceito.",
+      "perguntas_orientadoras": [
+        "Uma variedade é melhor que outra?",
+        "Quem decide o que é 'falar certo'?",
+        "Como a escola pode combater o preconceito linguístico?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão crítica e ética sobre linguagem e preconceito."
+    }
+  },
+  {
+    "id": "lp-4-u4-n1",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u4",
+    "unidade_titulo": "Coesão e Conectivos",
+    "habilidade_bncc_codigo": "EF04LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.G.03 — Coesão textual e uso de conectivos",
+    "objetivo": "Reconhecer conectivos que ligam ideias em um texto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual conectivo indica uma CONCLUSÃO ou consequência?",
+    "conteudo_base": {
+      "opcoes": [
+        "Mas",
+        "Portanto",
+        "Embora",
+        "Além disso"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica 'portanto' como conectivo de conclusão.",
+      "Distingue de contraste (mas), concessão (embora) e adição (além disso)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Quadro com exemplos de cada conectivo em frases.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: 'portanto' aparece depois de uma explicação e apresenta a conclusão dessa ideia."
+    },
+    "modo_professor": {
+      "gabarito": "Portanto — conectivo conclusivo.",
+      "objetivo_pedagogico": "Reconhecer conectivos conclusivos para uso na produção textual.",
+      "perguntas_orientadoras": [
+        "'Mas' indica o quê?",
+        "Crie uma frase com 'portanto'.",
+        "Por que os conectivos são importantes para o texto?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento direto de função de conectivo."
+    }
+  },
+  {
+    "id": "lp-4-u4-n2",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u4",
+    "unidade_titulo": "Coesão e Conectivos",
+    "habilidade_bncc_codigo": "EF04LP07",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.G.03 — Coesão textual e uso de conectivos",
+    "objetivo": "Classificar conectivos pela função que exercem no texto.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada conectivo pela sua função.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Porque",
+          "categoria": "Causa"
+        },
+        {
+          "id": "i2",
+          "label": "Mas",
+          "categoria": "Contraste"
+        },
+        {
+          "id": "i3",
+          "label": "Logo",
+          "categoria": "Conclusão"
+        },
+        {
+          "id": "i4",
+          "label": "Além disso",
+          "categoria": "Adição"
+        },
+        {
+          "id": "i5",
+          "label": "Embora",
+          "categoria": "Contraste"
+        },
+        {
+          "id": "i6",
+          "label": "Então",
+          "categoria": "Conclusão"
+        }
+      ],
+      "categorias": [
+        "Causa",
+        "Contraste",
+        "Conclusão",
+        "Adição"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 conectivos.",
+      "Reconhece que 'mas' e 'embora' ambos indicam contraste."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor faz exemplos com frases para cada conectivo.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: tente usar cada conectivo numa frase e veja que relação ele cria entre as ideias."
+    },
+    "modo_professor": {
+      "gabarito": "Causa:porque | Contraste:mas,embora | Conclusão:logo,então | Adição:além disso.",
+      "objetivo_pedagogico": "Sistematizar funções dos conectivos mais usados.",
+      "perguntas_orientadoras": [
+        "'Embora' e 'mas' têm exatamente a mesma função?",
+        "Em que tipo de texto você usa mais conectivos?",
+        "Retire os conectivos de um parágrafo — o que muda?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro categorias com seis conectivos, incluindo pares similares."
+    }
+  },
+  {
+    "id": "lp-4-u4-n3",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u4",
+    "unidade_titulo": "Coesão e Conectivos",
+    "habilidade_bncc_codigo": "EF04LP08",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.P.03 — Produção com coesão e conectivos",
+    "objetivo": "Reescrever um trecho usando conectivos para melhorar a coesão.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Reescreva este trecho usando conectivos para melhorá-lo:\n'Faz calor. Fico com sede. Bebo água. A água está gelada. Fico satisfeito.'",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "reescrita",
+          "label": "Reescreva o trecho com conectivos:",
+          "max": 300
+        },
+        {
+          "id": "conectivos",
+          "label": "Quais conectivos você usou e por quê?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Usa ao menos 3 conectivos diferentes.",
+      "O texto reescrito é mais fluido que o original.",
+      "Identifica os conectivos e justifica a escolha."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar como conectar as duas primeiras frases como exemplo.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: 'Faz calor, portanto fico com sede…' já é uma forma de começar. Continue!"
+    },
+    "modo_professor": {
+      "gabarito": "Exemplo: 'Como faz muito calor, fico com sede. Então bebo água, que está gelada, e finalmente fico satisfeito.' Verificar: 3+ conectivos com fluidez.",
+      "objetivo_pedagogico": "Aplicar conectivos para melhorar coesão textual.",
+      "perguntas_orientadoras": [
+        "O texto original é difícil de ler? Por quê?",
+        "Quais conectivos você escolheria para ligar a 3ª e a 4ª frase?",
+        "A ordem das frases pode mudar com o conectivo certo?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reescrita com foco em coesão e metalinguagem."
+    }
+  },
+  {
+    "id": "lp-4-u5-n1",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u5",
+    "unidade_titulo": "Figuras de Linguagem",
+    "habilidade_bncc_codigo": "EF04LP09",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.05 — Figuras de linguagem: comparação e metáfora",
+    "objetivo": "Reconhecer uma comparação (símile) em um texto.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual frase contém uma comparação?",
+    "conteudo_base": {
+      "opcoes": [
+        "O cachorro latiu.",
+        "Ela correu como o vento.",
+        "A chuva molhou a rua.",
+        "O menino comeu a maçã."
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica a comparação pela presença de 'como'.",
+      "Distingue de frases descritivas e narrativas simples."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir exemplos de comparações do cotidiano.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: comparações geralmente usam as palavras 'como' ou 'igual a'."
+    },
+    "modo_professor": {
+      "gabarito": "'Ela correu como o vento' — símile com 'como'.",
+      "objetivo_pedagogico": "Reconhecer a comparação como figura de linguagem.",
+      "perguntas_orientadoras": [
+        "O que significa 'correu como o vento'?",
+        "A pessoa virou vento de verdade?",
+        "Crie uma comparação para dizer que alguém é muito inteligente."
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: identificação direta pela presença de 'como'."
+    }
+  },
+  {
+    "id": "lp-4-u5-n2",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u5",
+    "unidade_titulo": "Figuras de Linguagem",
+    "habilidade_bncc_codigo": "EF04LP09",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.L.05 — Figuras de linguagem: comparação e metáfora",
+    "objetivo": "Distinguir comparação de metáfora.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: é uma comparação (usa 'como') ou uma metáfora (diz diretamente)?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Seus olhos são estrelas.",
+          "categoria": "Metáfora"
+        },
+        {
+          "id": "i2",
+          "label": "Ele é forte como um touro.",
+          "categoria": "Comparação"
+        },
+        {
+          "id": "i3",
+          "label": "A vida é uma viagem.",
+          "categoria": "Metáfora"
+        },
+        {
+          "id": "i4",
+          "label": "Ela é doce como mel.",
+          "categoria": "Comparação"
+        },
+        {
+          "id": "i5",
+          "label": "O tempo é dinheiro.",
+          "categoria": "Metáfora"
+        },
+        {
+          "id": "i6",
+          "label": "Rápido como uma bala.",
+          "categoria": "Comparação"
+        }
+      ],
+      "categorias": [
+        "Comparação",
+        "Metáfora"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica comparações pela presença de 'como'.",
+      "Identifica metáforas pela ausência de 'como' e afirmação direta."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor exemplifica no quadro.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: na comparação você usa 'como'. Na metáfora, você afirma diretamente — sem comparar explicitamente."
+    },
+    "modo_professor": {
+      "gabarito": "Comparação: touro, mel, bala. Metáfora: estrelas, viagem, dinheiro.",
+      "objetivo_pedagogico": "Distinguir símile de metáfora.",
+      "perguntas_orientadoras": [
+        "'A vida é uma viagem' significa que a vida viaja?",
+        "Por que a metáfora é mais poderosa que a comparação?",
+        "Crie uma metáfora para descrever a amizade."
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: distinção entre duas figuras com critério formal."
+    }
+  },
+  {
+    "id": "lp-4-u5-n3",
+    "ano": 4,
+    "componente": "LP",
+    "unidade_id": "lp-4-u5",
+    "unidade_titulo": "Figuras de Linguagem",
+    "habilidade_bncc_codigo": "EF04LP10",
+    "referencia_cbtc": "CBTC-SC: LP.EF4.P.04 — Uso de figuras de linguagem na produção",
+    "objetivo": "Criar metáforas e comparações para enriquecer um texto.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Crie uma comparação e uma metáfora para cada situação:\n1. Uma pessoa muito corajosa.\n2. Um dia muito quente.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "comp1",
+          "label": "Comparação para 'pessoa corajosa':",
+          "max": 120
+        },
+        {
+          "id": "meta1",
+          "label": "Metáfora para 'pessoa corajosa':",
+          "max": 120
+        },
+        {
+          "id": "comp2",
+          "label": "Comparação para 'dia quente':",
+          "max": 120
+        },
+        {
+          "id": "meta2",
+          "label": "Metáfora para 'dia quente':",
+          "max": 120
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cria duas comparações com 'como'.",
+      "Cria duas metáforas sem 'como'.",
+      "As figuras são coerentes com a situação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer exemplos de temas diferentes na lousa.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: na comparação, use 'como'. Na metáfora, diga diretamente o que a pessoa/coisa 'é'."
+    },
+    "modo_professor": {
+      "gabarito": "Ex: Comparação: corajosa como um leão | Metáfora: é um leão. Dia quente como brasa | O dia era uma fornalha.",
+      "objetivo_pedagogico": "Criar figuras de linguagem com intencionalidade.",
+      "perguntas_orientadoras": [
+        "Qual das suas figuras é mais expressiva?",
+        "A mesma imagem pode virar comparação e metáfora?",
+        "Como as figuras de linguagem tornam o texto mais interessante?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação de figuras com distinção formal."
+    }
   }
 ]

@@ -434,5 +434,505 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: criação artística imaginada com intenção e reflexão."
     }
+  },
+  {
+    "id": "art-2-u4-n1",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u4",
+    "unidade_titulo": "Dança e Expressão Corporal",
+    "habilidade_bncc_codigo": "EF15AR09",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.D.01 — Dança como linguagem artística",
+    "objetivo": "Reconhecer a dança como forma de expressão artística e cultural.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que diferencia a dança de um simples movimento aleatório do corpo?",
+    "conteudo_base": {
+      "opcoes": [
+        "A velocidade dos movimentos",
+        "A intenção e a expressão: a dança comunica algo",
+        "O número de pessoas que participam",
+        "O tipo de roupa usada"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica intenção e expressão como características da dança.",
+      "Distingue movimento cotidiano de dança artística."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que um aluno 'dance' e outro 'apenas se mova'.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando você dança, está contando algo com o corpo — mesmo sem palavras."
+    },
+    "modo_professor": {
+      "gabarito": "Intenção e expressão — a dança é comunicação pelo corpo.",
+      "objetivo_pedagogico": "Compreender dança como linguagem artística.",
+      "perguntas_orientadoras": [
+        "Você se expressa quando dança?",
+        "Uma dança pode contar uma história?",
+        "O que é expressão corporal?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: distinção entre movimento e dança artística."
+    }
+  },
+  {
+    "id": "art-2-u4-n2",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u4",
+    "unidade_titulo": "Dança e Expressão Corporal",
+    "habilidade_bncc_codigo": "EF15AR09",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.D.01 — Dança como linguagem artística",
+    "objetivo": "Associar estilos de dança às culturas ou regiões de origem.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada dança à sua origem.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Balé clássico",
+          "nome": "Europa (séc. XV-XVII)"
+        },
+        {
+          "elemento": "Samba",
+          "nome": "Brasil, com raízes africanas"
+        },
+        {
+          "elemento": "Flamenco",
+          "nome": "Espanha"
+        },
+        {
+          "elemento": "Capoeira",
+          "nome": "Brasil, resistência africana"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa os 4 estilos às origens corretas.",
+      "Reconhece influências culturais na dança."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar trechos em vídeo de cada dança.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: a capoeira foi criada por escravizados africanos no Brasil como forma de resistência disfarçada."
+    },
+    "modo_professor": {
+      "gabarito": "Balé→Europa | Samba→Brasil/África | Flamenco→Espanha | Capoeira→Brasil/resistência africana.",
+      "objetivo_pedagogico": "Relacionar estilos de dança a seus contextos culturais.",
+      "perguntas_orientadoras": [
+        "O que as roupas da dança revelam sobre a cultura?",
+        "Por que a capoeira era disfarçada de dança?",
+        "Você sabe alguma dança?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de estilos de dança a origens culturais."
+    }
+  },
+  {
+    "id": "art-2-u4-n3",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u4",
+    "unidade_titulo": "Dança e Expressão Corporal",
+    "habilidade_bncc_codigo": "EF15AR10",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.D.02 — Criação e fruição da dança",
+    "objetivo": "Descrever uma dança que você conhece e o que ela expressa.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha uma dança que você conhece ou gosta e descreva o que ela representa para quem dança.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "danca",
+          "label": "Qual dança você escolheu?",
+          "max": 80
+        },
+        {
+          "id": "origem",
+          "label": "De onde ela vem?",
+          "max": 150
+        },
+        {
+          "id": "expressao",
+          "label": "O que essa dança expressa? O que quem dança está comunicando?",
+          "max": 250
+        },
+        {
+          "id": "pessoal",
+          "label": "Você já dançou ou gostaria de aprender?",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica dança real.",
+      "Descreve a expressão cultural ou emocional.",
+      "Apresenta reflexão pessoal."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode deixar o aluno escolher qualquer dança, inclusive popular.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pode ser funk, forró, ballet, hip hop — qualquer dança que você conhece conta!"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: dança identificada, expressão descrita, reflexão pessoal.",
+      "objetivo_pedagogico": "Desenvolver apreciação estética e reflexão sobre a dança como linguagem.",
+      "perguntas_orientadoras": [
+        "A dança muda quando a música muda?",
+        "Você pode dançar sem música?",
+        "Uma dança pode ser protesto?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: apreciação e reflexão pessoal sobre dança."
+    }
+  },
+  {
+    "id": "art-2-u4-n1",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u4",
+    "unidade_titulo": "Teatro e Expressão",
+    "habilidade_bncc_codigo": "EF15AR19",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.T.01 — Elementos do teatro",
+    "objetivo": "Reconhecer os elementos básicos de uma peça de teatro.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual elemento é ESSENCIAL para uma peça de teatro?",
+    "conteudo_base": {
+      "opcoes": [
+        "Uma câmera de vídeo",
+        "Atores representando personagens",
+        "Um estúdio de gravação",
+        "Instrumentos musicais ao vivo"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica atores como elemento central do teatro.",
+      "Distingue teatro de cinema e música."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer uma breve encenação improvisada na sala.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: no teatro, o que você assiste acontece ao vivo, com pessoas reais no palco."
+    },
+    "modo_professor": {
+      "gabarito": "Atores representando personagens — elemento central do teatro.",
+      "objetivo_pedagogico": "Identificar os elementos fundamentais da linguagem teatral.",
+      "perguntas_orientadoras": [
+        "O teatro pode existir sem cenário?",
+        "Qual a diferença entre ator de teatro e de cinema?",
+        "Você já assistiu a uma peça de teatro?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: elemento central com contraste de outras linguagens artísticas."
+    }
+  },
+  {
+    "id": "art-2-u4-n2",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u4",
+    "unidade_titulo": "Teatro e Expressão",
+    "habilidade_bncc_codigo": "EF15AR19",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.T.01 — Elementos do teatro",
+    "objetivo": "Identificar elementos que compõem uma encenação teatral.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada elemento: faz parte do teatro?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Texto (roteiro)",
+          "categoria": "Faz parte"
+        },
+        {
+          "id": "i2",
+          "label": "Edição de vídeo",
+          "categoria": "Não faz parte"
+        },
+        {
+          "id": "i3",
+          "label": "Figurino dos atores",
+          "categoria": "Faz parte"
+        },
+        {
+          "id": "i4",
+          "label": "Câmera lenta",
+          "categoria": "Não faz parte"
+        },
+        {
+          "id": "i5",
+          "label": "Iluminação do palco",
+          "categoria": "Faz parte"
+        },
+        {
+          "id": "i6",
+          "label": "Filtros digitais",
+          "categoria": "Não faz parte"
+        }
+      ],
+      "categorias": [
+        "Faz parte",
+        "Não faz parte"
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica elementos teatrais reais.",
+      "Distingue teatro de linguagens digitais."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagem de palco com os elementos apontados.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: teatro é ao vivo — o que só existe no computador ou na câmera não é do teatro."
+    },
+    "modo_professor": {
+      "gabarito": "Faz parte: texto, figurino, iluminação. Não faz parte: edição, câmera lenta, filtros.",
+      "objetivo_pedagogico": "Reconhecer a especificidade da linguagem teatral.",
+      "perguntas_orientadoras": [
+        "O teatro pode usar microfones?",
+        "Uma peça de rua precisa de iluminação?",
+        "Qual a diferença entre roteiro de teatro e roteiro de filme?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: classificação que exige distinguir teatral de digital."
+    }
+  },
+  {
+    "id": "art-2-u4-n3",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u4",
+    "unidade_titulo": "Teatro e Expressão",
+    "habilidade_bncc_codigo": "EF15AR20",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.T.02 — Criação e representação de personagem",
+    "objetivo": "Criar e descrever um personagem teatral com características definidas.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Crie um personagem para uma peça de teatro. Dê um nome, descreva como ele é e qual é o seu papel na história.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "nome",
+          "label": "Nome do personagem:",
+          "max": 80
+        },
+        {
+          "id": "aparencia",
+          "label": "Como ele é (aparência e jeito de ser):",
+          "max": 200
+        },
+        {
+          "id": "papel",
+          "label": "Qual é o papel dele na história?",
+          "max": 200
+        },
+        {
+          "id": "frase",
+          "label": "Uma frase que ele diria:",
+          "max": 120
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Cria personagem com nome e características.",
+      "Define papel na narrativa.",
+      "Cria uma fala coerente com o personagem."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos de personagens clássicos do teatro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: um personagem precisa de história — de onde veio, o que quer e o que o atrapalha?"
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: personagem nomeado, características físicas e psicológicas, papel na história, fala coerente.",
+      "objetivo_pedagogico": "Desenvolver criação de personagem com intencionalidade teatral.",
+      "perguntas_orientadoras": [
+        "Seu personagem é herói, vilão ou personagem comum?",
+        "Como você representaria ele com o corpo e a voz?",
+        "O que torna esse personagem interessante?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: criação de personagem teatral completo."
+    }
+  },
+  {
+    "id": "art-2-u5-n1",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u5",
+    "unidade_titulo": "Arte no Cotidiano",
+    "habilidade_bncc_codigo": "EF15AR23",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.V.05 — Arte no espaço cotidiano",
+    "objetivo": "Reconhecer manifestações artísticas no cotidiano.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual dos itens abaixo é uma manifestação artística?",
+    "conteudo_base": {
+      "opcoes": [
+        "Comprar um pão na padaria",
+        "Uma música tocando no rádio",
+        "Ir ao banco",
+        "Ligar um ventilador"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica música como manifestação artística.",
+      "Distingue de atividades cotidianas não artísticas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode tocar uma música e perguntar o que ela provoca.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: arte provoca sentimentos e transmite significados — o que dentre esses faz isso?"
+    },
+    "modo_professor": {
+      "gabarito": "Música — manifestação artística presente no cotidiano.",
+      "objetivo_pedagogico": "Identificar arte no cotidiano.",
+      "perguntas_orientadoras": [
+        "Você encontra arte na rua?",
+        "A embalagem de um produto pode ser arte?",
+        "Arte só existe em museus?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento direto com contraste de atividades não artísticas."
+    }
+  },
+  {
+    "id": "art-2-u5-n2",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u5",
+    "unidade_titulo": "Arte no Cotidiano",
+    "habilidade_bncc_codigo": "EF15AR23",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.V.05 — Arte no espaço cotidiano",
+    "objetivo": "Classificar manifestações artísticas por linguagem.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada manifestação pela sua linguagem artística.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Pintura na parede da escola",
+          "categoria": "Artes visuais"
+        },
+        {
+          "id": "i2",
+          "label": "Canto de pássaros numa composição",
+          "categoria": "Música"
+        },
+        {
+          "id": "i3",
+          "label": "Bailarinos num espetáculo",
+          "categoria": "Dança"
+        },
+        {
+          "id": "i4",
+          "label": "Atores numa peça escolar",
+          "categoria": "Teatro"
+        },
+        {
+          "id": "i5",
+          "label": "Mosaico na calçada",
+          "categoria": "Artes visuais"
+        },
+        {
+          "id": "i6",
+          "label": "Percussão em desfile",
+          "categoria": "Música"
+        }
+      ],
+      "categorias": [
+        "Artes visuais",
+        "Música",
+        "Dança",
+        "Teatro"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 itens nas quatro linguagens."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar um exemplo de cada linguagem.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: artes visuais = ver. Música = ouvir. Dança = mover. Teatro = representar."
+    },
+    "modo_professor": {
+      "gabarito": "Visual: pintura, mosaico. Música: canto, percussão. Dança: bailarinos. Teatro: atores.",
+      "objetivo_pedagogico": "Distinguir as quatro linguagens artísticas.",
+      "perguntas_orientadoras": [
+        "Uma ópera pertence à música, ao teatro ou a ambos?",
+        "O circo é uma linguagem artística?",
+        "Você pratica alguma linguagem artística?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro linguagens com exemplos do cotidiano."
+    }
+  },
+  {
+    "id": "art-2-u5-n3",
+    "ano": 2,
+    "componente": "Arte",
+    "unidade_id": "art-2-u5",
+    "unidade_titulo": "Arte no Cotidiano",
+    "habilidade_bncc_codigo": "EF15AR24",
+    "referencia_cbtc": "CBTC-SC: ART.EF2.V.06 — Apreciação e fruição artística",
+    "objetivo": "Descrever uma experiência pessoal de contato com a arte e o que ela provocou.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Conte sobre uma vez em que você teve contato com alguma forma de arte (música, dança, teatro, pintura, cinema) e como você se sentiu.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "obra",
+          "label": "Que obra ou manifestação artística foi?",
+          "max": 120
+        },
+        {
+          "id": "contexto",
+          "label": "Onde e quando você teve esse contato?",
+          "max": 150
+        },
+        {
+          "id": "sentimento",
+          "label": "O que você sentiu e por quê?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve experiência artística real.",
+      "Contextualiza o momento.",
+      "Expressa sentimento com alguma reflexão."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode compartilhar uma experiência própria primeiro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pode ser um show, uma música no rádio, um filme, uma peça, um quadro — qualquer coisa que te tocou."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: obra identificada, contexto descrito, sentimento expresso com reflexão.",
+      "objetivo_pedagogico": "Desenvolver fruição artística e linguagem de apreciação.",
+      "perguntas_orientadoras": [
+        "O que fez essa experiência ser marcante?",
+        "Arte pode mudar o jeito de você ver o mundo?",
+        "Você falaria sobre essa obra para um amigo?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: narrativa pessoal de fruição artística."
+    }
   }
 ]

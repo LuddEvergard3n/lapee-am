@@ -438,5 +438,475 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: pesquisa familiar e reflexão sobre mudanças culturais."
     }
+  },
+  {
+    "id": "his-1-u4-n1",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u4",
+    "unidade_titulo": "Trabalho e Profissões",
+    "habilidade_bncc_codigo": "EF01HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.04 — Profissões e trabalho na comunidade",
+    "objetivo": "Reconhecer diferentes profissões e sua importância para a comunidade.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual profissional cuida da saúde das pessoas quando estão doentes?",
+    "conteudo_base": {
+      "opcoes": [
+        "Pedreiro",
+        "Médico",
+        "Professor",
+        "Motorista"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Associa médico ao cuidado com a saúde.",
+      "Reconhece diversidade de profissões."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens de diferentes profissionais.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quem você visita quando está muito doente e precisa de remédio?"
+    },
+    "modo_professor": {
+      "gabarito": "Médico — profissional de saúde.",
+      "objetivo_pedagogico": "Reconhecer profissões e suas funções sociais.",
+      "perguntas_orientadoras": [
+        "O que o pedreiro faz?",
+        "Qual profissional te ensina na escola?",
+        "Você sabe o que seus pais fazem no trabalho?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: função profissional direta e conhecida."
+    }
+  },
+  {
+    "id": "his-1-u4-n2",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u4",
+    "unidade_titulo": "Trabalho e Profissões",
+    "habilidade_bncc_codigo": "EF01HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.04 — Profissões e trabalho na comunidade",
+    "objetivo": "Associar cada profissional ao seu instrumento de trabalho.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Ligue cada profissional ao seu principal instrumento de trabalho.",
+    "conteudo_base": {
+      "pares": [
+        {
+          "elemento": "Médico",
+          "nome": "Estetoscópio"
+        },
+        {
+          "elemento": "Professor",
+          "nome": "Giz e lousa"
+        },
+        {
+          "elemento": "Cozinheiro",
+          "nome": "Panela e fogão"
+        },
+        {
+          "elemento": "Bombeiro",
+          "nome": "Mangueira de água"
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Associa os 4 pares corretamente.",
+      "Relaciona instrumento à função profissional."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar imagens dos instrumentos.",
+      "resposta": "Arrastar chip ao destino.",
+      "engajamento": "Dica: pensa no que cada profissional usa para fazer seu trabalho todo dia."
+    },
+    "modo_professor": {
+      "gabarito": "Médico→estetoscópio | Professor→giz | Cozinheiro→panela | Bombeiro→mangueira.",
+      "objetivo_pedagogico": "Relacionar profissões a instrumentos de trabalho.",
+      "perguntas_orientadoras": [
+        "Um médico só usa estetoscópio?",
+        "O que aconteceria se não houvesse bombeiros?",
+        "Qual profissão você gostaria de ter?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: associação de 4 pares profissão-instrumento."
+    }
+  },
+  {
+    "id": "his-1-u4-n3",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u4",
+    "unidade_titulo": "Trabalho e Profissões",
+    "habilidade_bncc_codigo": "EF01HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.05 — Importância social das profissões",
+    "objetivo": "Descrever uma profissão e sua importância para a comunidade.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escolha uma profissão que você admira e explique por que ela é importante.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "profissao",
+          "label": "Qual profissão você escolheu?",
+          "max": 80
+        },
+        {
+          "id": "funcao",
+          "label": "O que esse profissional faz?",
+          "max": 200
+        },
+        {
+          "id": "importancia",
+          "label": "Por que essa profissão é importante para a comunidade?",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica a profissão.",
+      "Descreve a função com ao menos uma atividade.",
+      "Justifica a importância social."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer um profissional para uma visita à turma.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pensa numa profissão sem a qual sua vida seria muito mais difícil."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: profissão, função e justificativa de importância.",
+      "objetivo_pedagogico": "Desenvolver valorização das profissões e do trabalho humano.",
+      "perguntas_orientadoras": [
+        "Todas as profissões são importantes?",
+        "O que aconteceria se não houvesse lixeiros por um mês?",
+        "Como você escolheria sua profissão?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: reflexão sobre valor social do trabalho."
+    }
+  },
+  {
+    "id": "his-1-u4-n1",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u4",
+    "unidade_titulo": "Linha do Tempo Pessoal",
+    "habilidade_bncc_codigo": "EF01HI01",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.01 — Noções de tempo: passado, presente, futuro",
+    "objetivo": "Ordenar eventos da própria vida em linha do tempo.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual evento aconteceu PRIMEIRO na vida de uma criança de 7 anos?",
+    "conteudo_base": {
+      "opcoes": [
+        "Entrar na escola",
+        "Aprender a andar de bicicleta",
+        "Nascer",
+        "Fazer amigos na turma"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica o nascimento como primeiro evento da vida.",
+      "Compreende a ordem cronológica pessoal."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Desenhar linha do tempo no quadro com idades.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: antes de qualquer coisa, o que acontece? Antes de andar, falar, brincar…"
+    },
+    "modo_professor": {
+      "gabarito": "Nascer — precede todos os outros eventos.",
+      "objetivo_pedagogico": "Construir noção de cronologia pessoal.",
+      "perguntas_orientadoras": [
+        "Você se lembra do seu primeiro dia de escola?",
+        "Que outras coisas importantes aconteceram na sua vida?",
+        "O que você espera que aconteça no futuro?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: evento óbvio (nascimento) como marco zero da vida."
+    }
+  },
+  {
+    "id": "his-1-u4-n2",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u4",
+    "unidade_titulo": "Linha do Tempo Pessoal",
+    "habilidade_bncc_codigo": "EF01HI01",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.01 — Noções de tempo: passado, presente, futuro",
+    "objetivo": "Ordenar eventos pessoais em sequência cronológica.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque os eventos da vida de uma criança em ordem cronológica.",
+    "conteudo_base": {
+      "itens": [
+        "Começar a falar",
+        "Nascer",
+        "Entrar na escola",
+        "Engatinhar"
+      ],
+      "ordem_correta": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: nascer → engatinhar → falar → escola.",
+      "Compreende desenvolvimento infantil como sequência."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar fotos de bebê crescendo.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: um bebê não fala antes de nascer. Depois que nasce, o quê vem primeiro — engatinhar ou ir à escola?"
+    },
+    "modo_professor": {
+      "gabarito": "Nascer → engatinhar → falar → escola.",
+      "objetivo_pedagogico": "Ordenar eventos biográficos com noção de desenvolvimento.",
+      "perguntas_orientadoras": [
+        "Todos os bebês engatinham antes de andar?",
+        "Por que a escola vem depois das outras etapas?",
+        "Você tem foto de quando era bebê?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro etapas do desenvolvimento infantil."
+    }
+  },
+  {
+    "id": "his-1-u4-n3",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u4",
+    "unidade_titulo": "Linha do Tempo Pessoal",
+    "habilidade_bncc_codigo": "EF01HI02",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.C.02 — História pessoal e familiar",
+    "objetivo": "Construir uma linha do tempo com eventos importantes da própria vida.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Escreva quatro momentos importantes da sua vida em ordem do mais antigo ao mais recente.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "e1",
+          "label": "1º evento (mais antigo) — quando e o quê:",
+          "max": 150
+        },
+        {
+          "id": "e2",
+          "label": "2º evento:",
+          "max": 150
+        },
+        {
+          "id": "e3",
+          "label": "3º evento:",
+          "max": 150
+        },
+        {
+          "id": "e4",
+          "label": "4º evento (mais recente):",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Registra 4 eventos com indicação temporal.",
+      "Mantém ordem cronológica.",
+      "Os eventos são pessoalmente significativos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode perguntar que fotos os alunos têm em casa.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pode ser aniversário, primeiro dia de escola, nascimento de irmão, viagem — qualquer coisa que foi importante para você."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: 4 eventos com referência temporal, ordem cronológica.",
+      "objetivo_pedagogico": "Construir narrativa histórica pessoal em linha do tempo.",
+      "perguntas_orientadoras": [
+        "Como você sabe em que ordem aconteceram?",
+        "Você tem alguma prova (foto, documento) desses eventos?",
+        "Que evento você mais gostaria de reviver?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: construção de linha do tempo autobiográfica."
+    }
+  },
+  {
+    "id": "his-1-u5-n1",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u5",
+    "unidade_titulo": "Fontes Históricas",
+    "habilidade_bncc_codigo": "EF01HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.M.01 — Fontes históricas e memória",
+    "objetivo": "Reconhecer objetos e documentos como fontes de informação histórica.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "O que pode contar a história de uma família?",
+    "conteudo_base": {
+      "opcoes": [
+        "Somente o que a televisão mostra",
+        "Fotos antigas, cartas e objetos guardados",
+        "Apenas o que os adultos inventam",
+        "Somente livros da escola"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece fotos, cartas e objetos como fontes históricas familiares.",
+      "Distingue fontes primárias de outras mídias."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode trazer uma foto antiga como exemplo.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: quando sua vovó guarda a fotografia do seu bisavô, isso conta a história da família?"
+    },
+    "modo_professor": {
+      "gabarito": "Fotos, cartas e objetos — fontes primárias da história familiar.",
+      "objetivo_pedagogico": "Introduzir o conceito de fonte histórica.",
+      "perguntas_orientadoras": [
+        "O que é uma fonte primária?",
+        "Você tem algum objeto antigo em casa?",
+        "Por que guardamos objetos e fotos?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: fontes familiares com exemplos concretos."
+    }
+  },
+  {
+    "id": "his-1-u5-n2",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u5",
+    "unidade_titulo": "Fontes Históricas",
+    "habilidade_bncc_codigo": "EF01HI05",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.M.01 — Fontes históricas e memória",
+    "objetivo": "Classificar itens em fontes históricas ou não.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique: é uma fonte histórica ou não é?",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Fotografia de avó quando era criança",
+          "categoria": "Fonte histórica"
+        },
+        {
+          "id": "i2",
+          "label": "Um sonho que você teve",
+          "categoria": "Não é fonte histórica"
+        },
+        {
+          "id": "i3",
+          "label": "Carta escrita por bisavô em 1950",
+          "categoria": "Fonte histórica"
+        },
+        {
+          "id": "i4",
+          "label": "Uma história inventada sem base real",
+          "categoria": "Não é fonte histórica"
+        },
+        {
+          "id": "i5",
+          "label": "Objeto pessoal de familiar falecido",
+          "categoria": "Fonte histórica"
+        },
+        {
+          "id": "i6",
+          "label": "Cheiro de comida que lembra alguém",
+          "categoria": "Não é fonte histórica"
+        }
+      ],
+      "categorias": [
+        "Fonte histórica",
+        "Não é fonte histórica"
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica documentos e objetos concretos como fontes.",
+      "Distingue fontes de memórias subjetivas."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar exemplos reais de fontes.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: fonte histórica é algo concreto que sobreviveu ao tempo e pode ser consultado por outros."
+    },
+    "modo_professor": {
+      "gabarito": "Fontes: foto, carta, objeto. Não fontes: sonho, história inventada, cheiro.",
+      "objetivo_pedagogico": "Distinguir fontes históricas de memórias subjetivas.",
+      "perguntas_orientadoras": [
+        "Por que um sonho não é fonte histórica?",
+        "A memória oral (o que avós contam) pode ser fonte?",
+        "O que faz um objeto virar fonte histórica?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: inclui casos limítrofes como memória oral."
+    }
+  },
+  {
+    "id": "his-1-u5-n3",
+    "ano": 1,
+    "componente": "História",
+    "unidade_id": "his-1-u5",
+    "unidade_titulo": "Fontes Históricas",
+    "habilidade_bncc_codigo": "EF01HI06",
+    "referencia_cbtc": "CBTC-SC: HIS.EF1.M.02 — Preservação da memória familiar",
+    "objetivo": "Descrever uma fonte histórica da própria família e o que ela revela.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Procure em casa uma foto, carta, objeto ou documento antigo da sua família. Descreva-o e explique o que ele conta sobre sua história.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "objeto",
+          "label": "O que você encontrou?",
+          "max": 100
+        },
+        {
+          "id": "descricao",
+          "label": "Como ele é? Descreva:",
+          "max": 200
+        },
+        {
+          "id": "historia",
+          "label": "O que esse item conta sobre sua família?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica um item real da família.",
+      "Descreve com detalhes.",
+      "Interpreta o item como fonte histórica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode pedir que os alunos tragam um item de casa.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pode ser uma foto, uma medalha, um documento, uma receita escrita à mão — qualquer coisa antiga."
+    },
+    "modo_professor": {
+      "gabarito": "Resposta pessoal. Verificar: item identificado, descrito e interpretado como fonte.",
+      "objetivo_pedagogico": "Desenvolver o olhar histórico sobre o cotidiano familiar.",
+      "perguntas_orientadoras": [
+        "Quem guardou esse objeto e por quê?",
+        "O que você aprendeu sobre sua família com ele?",
+        "Se você perdesse esse objeto, o que seria perdido?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: pesquisa familiar real com interpretação histórica."
+    }
   }
 ]

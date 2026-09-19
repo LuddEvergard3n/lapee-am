@@ -435,5 +435,475 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: observação e registro científico a partir de escolha pessoal."
     }
+  },
+  {
+    "id": "cie-2-u4-n1",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u4",
+    "unidade_titulo": "Ciclo de Vida dos Animais",
+    "habilidade_bncc_codigo": "EF02CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.05 — Ciclo de vida dos animais",
+    "objetivo": "Reconhecer que animais passam por fases de vida.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é a fase que vem depois do ovo na vida da borboleta?",
+    "conteudo_base": {
+      "opcoes": [
+        "Borboleta adulta",
+        "Crisálida",
+        "Lagarta",
+        "Nenhuma, borboleta nasce do ovo"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Identifica lagarta como segundo estágio da metamorfose.",
+      "Conhece a ordem da metamorfose."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar as 4 fases da borboleta em cartaz.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a borboleta passa por grandes transformações antes de ter asas."
+    },
+    "modo_professor": {
+      "gabarito": "Lagarta — ovo→lagarta→crisálida→borboleta.",
+      "objetivo_pedagogico": "Reconhecer ciclo de vida da borboleta como metamorfose completa.",
+      "perguntas_orientadoras": [
+        "Você já viu uma lagarta se tornar borboleta?",
+        "O que é metamorfose?",
+        "Outros animais também passam por metamorfose?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: segunda fase do ciclo bem estabelecido."
+    }
+  },
+  {
+    "id": "cie-2-u4-n2",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u4",
+    "unidade_titulo": "Ciclo de Vida dos Animais",
+    "habilidade_bncc_codigo": "EF02CI06",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.05 — Ciclo de vida dos animais",
+    "objetivo": "Ordenar as fases do ciclo de vida de uma borboleta.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as fases do ciclo de vida da borboleta na ordem correta.",
+    "conteudo_base": {
+      "itens": [
+        "Crisálida (casulo)",
+        "Lagarta",
+        "Borboleta adulta",
+        "Ovo"
+      ],
+      "ordem_correta": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: ovo→lagarta→crisálida→borboleta.",
+      "Compreende metamorfose como sequência."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar cartões com imagens de cada fase.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: tudo começa pelo ovo. O que nasce do ovo?"
+    },
+    "modo_professor": {
+      "gabarito": "Ovo→Lagarta→Crisálida→Borboleta.",
+      "objetivo_pedagogico": "Consolidar sequência da metamorfose completa.",
+      "perguntas_orientadoras": [
+        "Quanto tempo dura cada fase?",
+        "Por que a fase da crisálida é importante?",
+        "Você consegue criar um desenho dessa sequência?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: ordenação de metamorfose com 4 fases."
+    }
+  },
+  {
+    "id": "cie-2-u4-n3",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u4",
+    "unidade_titulo": "Ciclo de Vida dos Animais",
+    "habilidade_bncc_codigo": "EF02CI07",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.V.06 — Comparação de ciclos de vida",
+    "objetivo": "Comparar ciclos de vida de dois animais diferentes.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Compare o ciclo de vida de uma borboleta com o de um cachorro. O que é diferente? O que é parecido?",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "borboleta",
+          "label": "Fases da borboleta:",
+          "max": 150
+        },
+        {
+          "id": "cachorro",
+          "label": "Fases do cachorro:",
+          "max": 150
+        },
+        {
+          "id": "diferenca",
+          "label": "O que é diferente nos dois ciclos?",
+          "max": 200
+        },
+        {
+          "id": "semelhanca",
+          "label": "O que é parecido?",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Descreve as fases de cada animal.",
+      "Identifica diferença (metamorfose vs. crescimento direto).",
+      "Identifica semelhança (nascem, crescem, reproduzem, morrem)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar os dois ciclos no quadro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o cachorro nasce parecido com um adulto, só menor. A borboleta não — ela muda completamente."
+    },
+    "modo_professor": {
+      "gabarito": "Borboleta: ovo→lagarta→crisálida→adulta. Cachorro: filhote→jovem→adulto→velho. Diferença: metamorfose. Semelhança: todos nascem, crescem, reproduzem e morrem.",
+      "objetivo_pedagogico": "Comparar ciclos de vida com e sem metamorfose.",
+      "perguntas_orientadoras": [
+        "Qual animal muda mais durante a vida?",
+        "Todos os animais têm as mesmas fases?",
+        "O ser humano tem fases de vida?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: comparação analítica de dois ciclos."
+    }
+  },
+  {
+    "id": "cie-2-u4-n1",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u4",
+    "unidade_titulo": "Água na Natureza",
+    "habilidade_bncc_codigo": "EF02CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.T.01 — Ciclo da água e estados físicos",
+    "objetivo": "Reconhecer os três estados físicos da água.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual é o estado físico da água na chuva?",
+    "conteudo_base": {
+      "opcoes": [
+        "Sólido",
+        "Líquido",
+        "Gasoso",
+        "Plasma"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica chuva como água no estado líquido.",
+      "Distingue líquido de sólido e gasoso."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar gelo (sólido), água (líquido), vapor (gasoso).",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: a chuva cai em gotinhas que você pode tocar — que estado é esse?"
+    },
+    "modo_professor": {
+      "gabarito": "Líquido — chuva é água em estado líquido.",
+      "objetivo_pedagogico": "Reconhecer estados físicos da água em contexto cotidiano.",
+      "perguntas_orientadoras": [
+        "Como o gelo se chama no estado sólido da água?",
+        "O vapor é visível?",
+        "O que acontece quando a água líquida é aquecida?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento direto de estado físico com exemplo cotidiano."
+    }
+  },
+  {
+    "id": "cie-2-u4-n2",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u4",
+    "unidade_titulo": "Água na Natureza",
+    "habilidade_bncc_codigo": "EF02CI01",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.T.01 — Ciclo da água e estados físicos",
+    "objetivo": "Ordenar as etapas do ciclo da água.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque as etapas do ciclo da água na ordem correta.",
+    "conteudo_base": {
+      "itens": [
+        "Precipitação (chuva ou neve)",
+        "Evaporação da água dos rios e mares",
+        "Condensação formando nuvens",
+        "Infiltração ou escoamento para rios"
+      ],
+      "ordem_correta": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: evaporação → condensação → precipitação → escoamento.",
+      "Compreende o ciclo como processo contínuo."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar diagrama do ciclo da água.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: tudo começa com o calor do sol que evapora a água. O que vem depois?"
+    },
+    "modo_professor": {
+      "gabarito": "Evaporação → condensação → precipitação → escoamento/infiltração.",
+      "objetivo_pedagogico": "Compreender o ciclo hidrológico em suas etapas.",
+      "perguntas_orientadoras": [
+        "O que é condensação?",
+        "Por que a água sobe para o céu?",
+        "O ciclo da água tem início ou é contínuo?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: quatro etapas do ciclo com nomenclatura científica."
+    }
+  },
+  {
+    "id": "cie-2-u4-n3",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u4",
+    "unidade_titulo": "Água na Natureza",
+    "habilidade_bncc_codigo": "EF02CI02",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.T.02 — Importância da água e conservação",
+    "objetivo": "Explicar a importância da água e propor formas de economizá-la.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Por que a água é essencial para a vida? Proponha três hábitos para economizar água em casa ou na escola.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "importancia",
+          "label": "Por que a água é essencial?",
+          "max": 200
+        },
+        {
+          "id": "h1",
+          "label": "Hábito 1:",
+          "max": 120
+        },
+        {
+          "id": "h2",
+          "label": "Hábito 2:",
+          "max": 120
+        },
+        {
+          "id": "h3",
+          "label": "Hábito 3:",
+          "max": 120
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Justifica importância com ao menos dois usos essenciais.",
+      "Propõe três hábitos concretos e viáveis."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode listar usos da água no quadro.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em tudo que você usou de água hoje desde que acordou."
+    },
+    "modo_professor": {
+      "gabarito": "Importância: beber, cozinhar, higiene, produção de alimentos. Hábitos: fechar torneira ao escovar dentes, banho rápido, reaproveitar água da chuva.",
+      "objetivo_pedagogico": "Desenvolver consciência sobre o valor e a escassez da água.",
+      "perguntas_orientadoras": [
+        "Onde a água potável vem antes de chegar em casa?",
+        "O que acontece com regiões sem água?",
+        "Um gota que pinga por minuto desperdicia quanto por dia?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: argumentação + proposta de ação."
+    }
+  },
+  {
+    "id": "cie-2-u5-n1",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u5",
+    "unidade_titulo": "Materiais e suas Propriedades",
+    "habilidade_bncc_codigo": "EF02CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.T.03 — Propriedades dos materiais",
+    "objetivo": "Reconhecer propriedades dos materiais como dureza e transparência.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual material é transparente E rígido ao mesmo tempo?",
+    "conteudo_base": {
+      "opcoes": [
+        "Pano",
+        "Vidro",
+        "Borracha",
+        "Papel"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica o vidro como transparente e rígido.",
+      "Distingue transparente de flexível e opaco."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar amostras dos materiais.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: transparente = você enxerga pelo material. Rígido = não dobra. Qual material tem as duas propriedades?"
+    },
+    "modo_professor": {
+      "gabarito": "Vidro — transparente e rígido.",
+      "objetivo_pedagogico": "Identificar materiais por combinação de propriedades.",
+      "perguntas_orientadoras": [
+        "O plástico pode ser transparente? E rígido?",
+        "Que material é flexível e opaco?",
+        "Por que a janela é feita de vidro?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: duas propriedades combinadas com quatro opções."
+    }
+  },
+  {
+    "id": "cie-2-u5-n2",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u5",
+    "unidade_titulo": "Materiais e suas Propriedades",
+    "habilidade_bncc_codigo": "EF02CI03",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.T.03 — Propriedades dos materiais",
+    "objetivo": "Classificar materiais por suas propriedades.",
+    "nivel": 2,
+    "tipo_evidencia": "arrastar",
+    "tempo_medio_min": 7,
+    "enunciado": "Classifique cada material pela propriedade mais marcante.",
+    "conteudo_base": {
+      "itens": [
+        {
+          "id": "i1",
+          "label": "Esponja",
+          "categoria": "Flexível"
+        },
+        {
+          "id": "i2",
+          "label": "Ferro",
+          "categoria": "Condutor de calor"
+        },
+        {
+          "id": "i3",
+          "label": "Madeira",
+          "categoria": "Isolante"
+        },
+        {
+          "id": "i4",
+          "label": "Borracha",
+          "categoria": "Flexível"
+        },
+        {
+          "id": "i5",
+          "label": "Cobre (fio elétrico)",
+          "categoria": "Condutor de calor"
+        },
+        {
+          "id": "i6",
+          "label": "Isopor",
+          "categoria": "Isolante"
+        }
+      ],
+      "categorias": [
+        "Flexível",
+        "Condutor de calor",
+        "Isolante"
+      ]
+    },
+    "criterios_sucesso": [
+      "Classifica corretamente os 6 materiais.",
+      "Reconhece condutores e isolantes térmicos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode tocar nos materiais e perguntar o que os alunos sentem.",
+      "resposta": "Arrastar para a categoria correta.",
+      "engajamento": "Dica: condutor transmite calor (fica quente). Isolante bloqueia (mantém temperatura)."
+    },
+    "modo_professor": {
+      "gabarito": "Flexível: esponja, borracha. Condutor: ferro, cobre. Isolante: madeira, isopor.",
+      "objetivo_pedagogico": "Classificar materiais por propriedades físicas relevantes.",
+      "perguntas_orientadoras": [
+        "Por que a panela tem alça de madeira?",
+        "O isopor mantém bebida quente ou fria?",
+        "Que material seria bom para fazer um casaco de inverno?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: três categorias com materiais comuns do cotidiano."
+    }
+  },
+  {
+    "id": "cie-2-u5-n3",
+    "ano": 2,
+    "componente": "Ciências",
+    "unidade_id": "cie-2-u5",
+    "unidade_titulo": "Materiais e suas Propriedades",
+    "habilidade_bncc_codigo": "EF02CI04",
+    "referencia_cbtc": "CBTC-SC: CIE.EF2.T.04 — Escolha de materiais para construção de objetos",
+    "objetivo": "Justificar a escolha de material adequado para uma função.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "Você precisa construir um objeto para cada situação. Explique qual material escolheria e por quê:\n1. Uma colher para mexer comida quente.\n2. Uma janela.\n3. Uma boia para nadar.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "colher",
+          "label": "Material da colher e por quê:",
+          "max": 150
+        },
+        {
+          "id": "janela",
+          "label": "Material da janela e por quê:",
+          "max": 150
+        },
+        {
+          "id": "boia",
+          "label": "Material da boia e por quê:",
+          "max": 150
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Escolhe material isolante para a colher.",
+      "Escolhe material transparente para janela.",
+      "Escolhe material flutuante para boia.",
+      "Justifica com propriedade do material."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar cada objeto real.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: pense em que propriedade cada objeto precisa ter — resistência ao calor, transparência, leveza?"
+    },
+    "modo_professor": {
+      "gabarito": "Colher: madeira ou silicone (isolante). Janela: vidro (transparente). Boia: isopor ou plástico leve (flutua).",
+      "objetivo_pedagogico": "Relacionar propriedades dos materiais à sua função.",
+      "perguntas_orientadoras": [
+        "Por que uma colher de metal queima a mão?",
+        "O que aconteceria com janela de madeira opaca?",
+        "Por que a boia precisa flutuar?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: justificativa de escolha baseada em propriedade."
+    }
   }
 ]

@@ -430,5 +430,445 @@
       "tempo_estimado": "8 a 12 minutos",
       "adaptacao_nivel": "N3: resolução de problema real com explicação conceitual."
     }
+  },
+  {
+    "id": "mat-5-u4-n1",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u4",
+    "unidade_titulo": "Álgebra Introdutória",
+    "habilidade_bncc_codigo": "EF05MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.05 — Introdução ao pensamento algébrico",
+    "objetivo": "Identificar o valor de uma incógnita em uma equação simples.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Se □ + 7 = 15, qual é o valor de □?",
+    "conteudo_base": {
+      "opcoes": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "resposta_correta": 2
+    },
+    "criterios_sucesso": [
+      "Calcula 15-7=8.",
+      "Compreende o quadrado como valor desconhecido."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode usar uma caixinha física para representar a incógnita.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: se □ mais 7 é 15, então □ é 15 menos 7."
+    },
+    "modo_professor": {
+      "gabarito": "□=8 (15-7=8).",
+      "objetivo_pedagogico": "Introduzir o conceito de incógnita e equação.",
+      "perguntas_orientadoras": [
+        "O que significa a caixinha?",
+        "Como você verifica sua resposta?",
+        "Se fosse □ × 3 = 15, qual seria □?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: equação de adição com incógnita isolada."
+    }
+  },
+  {
+    "id": "mat-5-u4-n2",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u4",
+    "unidade_titulo": "Álgebra Introdutória",
+    "habilidade_bncc_codigo": "EF05MA09",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.05 — Introdução ao pensamento algébrico",
+    "objetivo": "Resolver equações simples e verificar a solução.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Marque todas as equações cujo valor de N é 6.",
+    "conteudo_base": {
+      "opcoes": [
+        "N + 4 = 10",
+        "N × 2 = 10",
+        "N + N = 12",
+        "18 ÷ N = 3"
+      ],
+      "respostas_corretas": [
+        0,
+        2,
+        3
+      ]
+    },
+    "criterios_sucesso": [
+      "Identifica as 3 equações com N=6.",
+      "Verifica substituindo N=6 em cada equação."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode demonstrar a substituição para uma das opções.",
+      "resposta": "Marcar todas as corretas.",
+      "engajamento": "Dica: substitua N por 6 em cada equação e veja se a igualdade é verdadeira."
+    },
+    "modo_professor": {
+      "gabarito": "N+4=10 (6+4=10✓) | N×2=10 (6×2=12≠10✗) | N+N=12 (12=12✓) | 18÷N=3 (18÷6=3✓).",
+      "objetivo_pedagogico": "Verificar solução de equações por substituição.",
+      "perguntas_orientadoras": [
+        "Como você sabe que N×2=10 está errada?",
+        "O que significa verificar uma solução?",
+        "Pode existir mais de um valor de N que satisfaz uma equação?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: múltipla escolha com verificação por substituição."
+    }
+  },
+  {
+    "id": "mat-5-u4-n3",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u4",
+    "unidade_titulo": "Álgebra Introdutória",
+    "habilidade_bncc_codigo": "EF05MA10",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.06 — Resolução de problemas algébricos",
+    "objetivo": "Montar e resolver equação a partir de situação-problema.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "O dobro de um número somado com 5 é igual a 21. Qual é esse número? Escreva a equação e resolva.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "equacao",
+          "label": "Escreva a equação usando N:",
+          "max": 80
+        },
+        {
+          "id": "resolucao",
+          "label": "Resolução passo a passo:",
+          "max": 200
+        },
+        {
+          "id": "resposta",
+          "label": "O número é:",
+          "max": 40
+        },
+        {
+          "id": "verificacao",
+          "label": "Verifique substituindo na equação:",
+          "max": 100
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Monta 2×N+5=21.",
+      "Resolve N=8.",
+      "Verifica: 2×8+5=21."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode fazer problema similar no quadro antes.",
+      "resposta": "Digitar os passos.",
+      "engajamento": "Dica: 'o dobro de um número' é N×2. 'Somado com 5 é 21' completa a equação."
+    },
+    "modo_professor": {
+      "gabarito": "2N+5=21 → 2N=16 → N=8. Verificação: 2×8+5=16+5=21✓.",
+      "objetivo_pedagogico": "Traduzir situação em equação e resolver com justificativa.",
+      "perguntas_orientadoras": [
+        "Por que subtraímos 5 antes de dividir por 2?",
+        "A ordem das operações importa?",
+        "Se o enunciado dissesse 'o triplo', como ficaria a equação?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: modelagem de problema em equação com verificação."
+    }
+  },
+  {
+    "id": "mat-5-u4-n1",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u4",
+    "unidade_titulo": "Números Negativos",
+    "habilidade_bncc_codigo": "EF05MA05",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.02 — Números inteiros negativos",
+    "objetivo": "Reconhecer situações que envolvem números negativos.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Qual situação é representada por um número NEGATIVO?",
+    "conteudo_base": {
+      "opcoes": [
+        "Temperatura de 10°C",
+        "Temperatura de −5°C abaixo de zero",
+        "Um saldo bancário de R$50",
+        "Um andar do elevador: 3° andar"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Identifica temperatura abaixo de zero como número negativo.",
+      "Distingue contextos positivos de negativos."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Mostrar termômetro com valores negativos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: números negativos aparecem em situações 'abaixo do zero' — temperatura, dívida, andar subsolo."
+    },
+    "modo_professor": {
+      "gabarito": "−5°C — temperatura abaixo de zero.",
+      "objetivo_pedagogico": "Reconhecer números negativos em contexto real.",
+      "perguntas_orientadoras": [
+        "O que significa −5°C?",
+        "Um saldo de −R$20 significa que você tem ou deve?",
+        "Onde mais aparecem números negativos?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: reconhecimento de contexto negativo com exemplo cotidiano."
+    }
+  },
+  {
+    "id": "mat-5-u4-n2",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u4",
+    "unidade_titulo": "Números Negativos",
+    "habilidade_bncc_codigo": "EF05MA05",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.02 — Números inteiros negativos",
+    "objetivo": "Ordenar números inteiros (positivos e negativos) na reta numérica.",
+    "nivel": 2,
+    "tipo_evidencia": "ordenar",
+    "tempo_medio_min": 7,
+    "enunciado": "Coloque em ordem do menor para o maior: −3, 5, 0, −7, 2.",
+    "conteudo_base": {
+      "itens": [
+        "−3",
+        "5",
+        "0",
+        "−7",
+        "2"
+      ],
+      "ordem_correta": [
+        3,
+        0,
+        2,
+        4,
+        1
+      ]
+    },
+    "criterios_sucesso": [
+      "Ordena: −7 < −3 < 0 < 2 < 5.",
+      "Reconhece que números negativos menores estão mais à esquerda na reta."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor desenha reta numérica com negativos no quadro.",
+      "resposta": "Ordenar com drag ou botões.",
+      "engajamento": "Dica: na reta numérica, quanto mais à esquerda, menor o número — mesmo que pareça grande."
+    },
+    "modo_professor": {
+      "gabarito": "−7 < −3 < 0 < 2 < 5.",
+      "objetivo_pedagogico": "Ordenar inteiros em contexto de reta numérica.",
+      "perguntas_orientadoras": [
+        "Por que −7 é menor que −3?",
+        "Onde fica o 0 em relação aos negativos?",
+        "Como você localizaria −10 na reta?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: cinco inteiros mistos (neg/pos/zero) para ordenar."
+    }
+  },
+  {
+    "id": "mat-5-u4-n3",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u4",
+    "unidade_titulo": "Números Negativos",
+    "habilidade_bncc_codigo": "EF05MA06",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.03 — Operações com inteiros em contexto",
+    "objetivo": "Resolver problemas envolvendo adição com números negativos.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "A temperatura estava em −2°C e subiu 8 graus. Depois caiu 5 graus. Qual é a temperatura final? Explique cada passo.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "passo1",
+          "label": "Depois de subir 8°C:",
+          "max": 80
+        },
+        {
+          "id": "passo2",
+          "label": "Depois de cair 5°C:",
+          "max": 80
+        },
+        {
+          "id": "final",
+          "label": "Temperatura final:",
+          "max": 50
+        },
+        {
+          "id": "explicacao",
+          "label": "Explique como você pensou:",
+          "max": 200
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Calcula −2+8=6.",
+      "Calcula 6−5=1.",
+      "Explica usando contexto da reta numérica."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar o termômetro no quadro para acompanhar.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: comece em −2 e ande 8 casas para cima na reta numérica. Onde você chegou?"
+    },
+    "modo_professor": {
+      "gabarito": "−2+8=6°C; 6−5=1°C. Temperatura final: 1°C.",
+      "objetivo_pedagogico": "Resolver problema de dois passos com inteiros positivos e negativos.",
+      "perguntas_orientadoras": [
+        "O que 'subir 8 graus' significa matematicamente?",
+        "E 'cair 5 graus'?",
+        "Se tivesse caído 10 graus em vez de 5, qual seria a temperatura?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: dois passos com inteiros e justificativa."
+    }
+  },
+  {
+    "id": "mat-5-u5-n1",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u5",
+    "unidade_titulo": "Razão e Proporção",
+    "habilidade_bncc_codigo": "EF05MA11",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.04 — Razão e proporção",
+    "objetivo": "Reconhecer uma situação de proporcionalidade.",
+    "nivel": 1,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 5,
+    "enunciado": "Se 2 camisetas custam R$30, quanto custam 4 camisetas (mesmo preço)?",
+    "conteudo_base": {
+      "opcoes": [
+        "R$45",
+        "R$60",
+        "R$50",
+        "R$55"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Reconhece proporcionalidade direta: dobrou a quantidade, dobrou o preço.",
+      "Calcula 30×2=60."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode mostrar com 2 objetos = R$30 e depois 4 objetos.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: se 2 custam R$30, 1 custa R$15. Então 4 custam quanto?"
+    },
+    "modo_professor": {
+      "gabarito": "R$60 — 30÷2=15 por camiseta; 15×4=60.",
+      "objetivo_pedagogico": "Identificar e resolver situação de proporcionalidade direta.",
+      "perguntas_orientadoras": [
+        "O preço por unidade mudou?",
+        "E se quisesse 6 camisetas, quanto pagaria?",
+        "O que é proporcionalidade direta?"
+      ],
+      "tempo_estimado": "4 a 6 minutos",
+      "adaptacao_nivel": "N1: dobro da quantidade = dobro do preço."
+    }
+  },
+  {
+    "id": "mat-5-u5-n2",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u5",
+    "unidade_titulo": "Razão e Proporção",
+    "habilidade_bncc_codigo": "EF05MA11",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.04 — Razão e proporção",
+    "objetivo": "Calcular o valor unitário para resolver problema de proporção.",
+    "nivel": 2,
+    "tipo_evidencia": "marcar",
+    "tempo_medio_min": 7,
+    "enunciado": "Um carro percorre 300 km em 5 horas. Quantos km percorre em 3 horas (mesma velocidade)?",
+    "conteudo_base": {
+      "opcoes": [
+        "150 km",
+        "180 km",
+        "200 km",
+        "120 km"
+      ],
+      "resposta_correta": 1
+    },
+    "criterios_sucesso": [
+      "Calcula velocidade: 300÷5=60 km/h.",
+      "Aplica: 60×3=180 km."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode desenhar tabela: horas × km/h = km.",
+      "resposta": "Marcar e confirmar.",
+      "engajamento": "Dica: primeiro descubra quantos km o carro faz por hora. Depois multiplique pelas 3 horas."
+    },
+    "modo_professor": {
+      "gabarito": "180 km (300÷5=60 km/h; 60×3=180).",
+      "objetivo_pedagogico": "Aplicar valor unitário em contexto de velocidade.",
+      "perguntas_orientadoras": [
+        "O que é velocidade média?",
+        "Se a viagem durasse 10 horas, quanto percorreria?",
+        "Velocidade é uma razão?"
+      ],
+      "tempo_estimado": "6 a 8 minutos",
+      "adaptacao_nivel": "N2: dois passos com cálculo de valor unitário e aplicação."
+    }
+  },
+  {
+    "id": "mat-5-u5-n3",
+    "ano": 5,
+    "componente": "Matemática",
+    "unidade_id": "mat-5-u5",
+    "unidade_titulo": "Razão e Proporção",
+    "habilidade_bncc_codigo": "EF05MA12",
+    "referencia_cbtc": "CBTC-SC: MAT.EF5.N.05 — Problemas de proporção no cotidiano",
+    "objetivo": "Resolver problema de proporção inversa no cotidiano.",
+    "nivel": 3,
+    "tipo_evidencia": "escrever",
+    "tempo_medio_min": 10,
+    "enunciado": "4 pedreiros constroem um muro em 6 dias. Quantos dias levariam 8 pedreiros para construir o mesmo muro? Explique por que o raciocínio muda em relação à proporção direta.",
+    "conteudo_base": {
+      "campos": [
+        {
+          "id": "resposta",
+          "label": "Quantos dias levariam?",
+          "max": 80
+        },
+        {
+          "id": "calculo",
+          "label": "Mostre a conta:",
+          "max": 150
+        },
+        {
+          "id": "diferenca",
+          "label": "Por que o raciocínio é diferente da proporção direta?",
+          "max": 250
+        }
+      ]
+    },
+    "criterios_sucesso": [
+      "Responde 3 dias (4×6÷8=3).",
+      "Explica que mais pedreiros = menos dias (proporcionalidade inversa)."
+    ],
+    "adaptacoes_dua": {
+      "apresentacao": "Professor pode explicar: mais mãos = trabalho mais rápido.",
+      "resposta": "Digitar nos campos.",
+      "engajamento": "Dica: o total de trabalho é 4×6=24 pedreiro-dias. Com 8 pedreiros, divida esse total por 8."
+    },
+    "modo_professor": {
+      "gabarito": "3 dias (4×6=24 pedreiro-dias; 24÷8=3). Inversa: quando uma grandeza aumenta, a outra diminui.",
+      "objetivo_pedagogico": "Distinguir proporcionalidade direta de inversa.",
+      "perguntas_orientadoras": [
+        "Por que dobrando os pedreiros o tempo cai pela metade?",
+        "Dê outro exemplo de proporção inversa.",
+        "Em que contextos você usaria esse tipo de raciocínio?"
+      ],
+      "tempo_estimado": "8 a 12 minutos",
+      "adaptacao_nivel": "N3: proporção inversa com distinção conceitual."
+    }
   }
 ]
