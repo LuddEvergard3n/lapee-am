@@ -1,452 +1,69 @@
-# LAPEE AM — Plataforma de Atividades Pedagógicas
+# LAPEE AM
 
-Produto educacional estático para o Laboratório de Práticas Educativas e Extensão Amos Comenius.  
-Funciona sem internet, roda direto no navegador e pode ser publicado no GitHub Pages sem configuração adicional.
+![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-F7DF1E?logo=javascript&logoColor=111111)
+![Activities](https://img.shields.io/badge/Activities-180-7C3AED)
+![Curriculum](https://img.shields.io/badge/Curriculum-BNCC_and_CBTC--SC-2563EB)
+![License](https://img.shields.io/badge/License-MIT-0F766E)
 
----
+Static educational activity platform created for the Amos Comenius Laboratory of Educational Practices and Extension.
 
-## Sumário
+## Scope
 
-1. [O que é](#1-o-que-é)
-2. [Como rodar localmente](#2-como-rodar-localmente)
-3. [Como publicar no GitHub Pages](#3-como-publicar-no-github-pages)
-4. [Como editar conteúdo via JSON](#4-como-editar-conteúdo-via-json)
-5. [Como adicionar atividades, unidades ou anos](#5-como-adicionar-atividades-unidades-ou-anos)
-6. [Estrutura do projeto](#6-estrutura-do-projeto)
-7. [Arquitetura técnica](#7-arquitetura-técnica)
-8. [Motores de atividade](#8-motores-de-atividade)
-9. [Sistema de engajamento](#9-sistema-de-engajamento)
-10. [BNCC e CBTC-SC](#10-bncc-e-cbtc-sc)
-11. [Acessibilidade e DUA](#11-acessibilidade-e-dua)
-12. [Decisões técnicas](#12-decisões-técnicas)
-13. [Limitações conhecidas](#13-limitações-conhecidas)
-14. [Licença](#14-licença)
+LAPEE AM provides 180 activities for Brazilian elementary-school years 1 through 5 across Portuguese, Mathematics, Science, History, Geography, and Art. Activities are organized by school year, subject, thematic unit, and three depth levels.
 
----
+The pedagogical content is written in Portuguese and references BNCC and CBTC-SC curriculum identifiers. This README is in English to keep the public repository consistent with the rest of the portfolio.
 
-## 1. O que é
+## Features
 
-Uma aplicação web estática (HTML + CSS + JavaScript puro, sem framework nem bundler) que oferece **180 atividades pedagógicas** organizadas por:
+- Seven interactive activity engines: selection, ordering, dragging, writing, drawing, word search, and crosswords.
+- Text-to-speech through the Web Speech API.
+- Local oral-response recording through MediaRecorder, with no upload.
+- Teacher answers, objectives, mediation questions, and timing.
+- Student progress and accessibility preferences stored in `localStorage`.
+- Animated mascot and subject-based achievement badges.
+- Worksheet and lesson-plan generation, including 445 embedded BNCC skills.
+- Static deployment and offline-compatible assets.
 
-- **Ano escolar** — 1º ao 5º do Ensino Fundamental I
-- **Componente curricular** — LP, Matemática, Ciências, História, Geografia, Arte
-- **Unidade temática** — 2 unidades por componente por ano
-- **Nível de aprofundamento** — N1 (Apoio), N2 (Básico), N3 (Ampliação)
+## Run locally
 
-Cada atividade inclui:
-
-- Motor interativo específico (`marcar`, `ordenar`, `arrastar`, `escrever`, `desenhar`)
-- Leitura em voz alta via Web Speech API
-- Gravação de resposta oral via MediaRecorder (local, sem upload)
-- Dica pedagógica que orienta sem entregar a resposta
-- Painel do professor com gabarito, objetivo e perguntas de mediação
-- Progresso salvo em `localStorage`
-- Mascote Lua (coruja SVG animada) com reação a acertos, erros e conquistas
-- Sistema de emblemas por componente curricular
-
----
-
-## 2. Como rodar localmente
-
-### Requisito obrigatório
-
-ES Modules nativos (`import`/`export`) exigem protocolo HTTP. **Não funcionam com `file://`.**
-
-### Opção A — Python (sem instalar nada)
+Native ES modules require HTTP:
 
 ```bash
-cd lapee/
 python3 -m http.server 8080
-# Acesse: http://localhost:8080
 ```
 
-### Opção B — Node.js
+Open `http://localhost:8080`.
 
-```bash
-npx serve .
+## Content model
+
+Thirty JSON files under `data/` separate activities by subject and school year:
+
+```text
+data/atividades-{subject}-{year}.json
 ```
 
-### Opção C — VSCode Live Server
+Each activity declares its curriculum identifiers, learning objective, depth level, evidence type, estimated time, content payload, success criteria, Universal Design for Learning adaptations, and teacher guidance.
 
-1. Instale a extensão "Live Server" (Ritwick Dey)
-2. Clique com o botão direito em `index.html` → "Open with Live Server"
+## Structure
 
-### Opção D — Qualquer servidor HTTP estático
-
-Nginx, Apache, Caddy — basta apontar a raiz para a pasta `lapee/`.
-
----
-
-## 3. Como publicar no GitHub Pages
-
-```bash
-git init
-git add .
-git commit -m "init: LAPEE AM"
-git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
-git push -u origin main
+```text
+css/main.css       Design system, activity engines, themes, and print rules
+js/                Router, store, accessibility, audio, exports, and UI
+js/activities/     Seven interactive activity engines
+js/dataLoader/     JSON resolution, cache, and queries
+data/              Curriculum activity files
+assets/            Local document, puzzle, icon, and font assets
+docs/              Detailed architecture and content documentation
 ```
 
-No GitHub: **Settings → Pages → Source: Deploy from branch `main` / `/ (root)`**.
+## Design decisions
 
-Aguarde 1–3 minutos. O site estará em `https://SEU_USUARIO.github.io/NOME_DO_REPO/`.
+- No framework, bundler, or application server.
+- Hash routing works on GitHub Pages without rewrite rules.
+- Curriculum data remains separate from rendering logic.
+- Audio, microphone, and animation resources are released during navigation.
+- Progress is device-local and does not synchronize automatically.
 
-### Por que funciona sem configuração
+## License
 
-O arquivo `.nojekyll` na raiz do projeto instrui o GitHub Pages a **não processar o repositório com Jekyll**. Sem ele, o Jekyll ignora arquivos e pastas que começam com `_` ou `.`, e pode interferir no carregamento dos módulos JS. Com `.nojekyll`, os arquivos são servidos exatamente como estão no repositório.
-
-Todos os caminhos de recurso no projeto usam `./` (relativo ao `index.html`), por isso funcionam corretamente tanto na raiz de um domínio (`usuario.github.io/repo/`) quanto em subpastas.
-
----
-
-## 4. Como editar conteúdo via JSON
-
-O conteúdo está dividido em **30 arquivos JSON** em `data/`, um por componente por ano:
-
-```
-data/atividades-lp-1.json          (6 atividades: 2 unidades x 3 níveis)
-data/atividades-lp-2.json
-...
-data/atividades-arte-5.json
-```
-
-### Convenção de nome de arquivo
-
-```
-atividades-{slug}-{ano}.json
-```
-
-| Componente  | Slug         |
-|-------------|--------------|
-| LP          | `lp`         |
-| Matemática  | `matematica` |
-| Ciências    | `ciencias`   |
-| História    | `historia`   |
-| Geografia   | `geografia`  |
-| Arte        | `arte`       |
-
-### Estrutura obrigatória de um objeto de atividade
-
-```json
-{
-  "id": "lp-1-u1-n1",
-  "ano": 1,
-  "componente": "LP",
-  "unidade_id": "lp-1-u1",
-  "unidade_titulo": "Letras e Sons",
-  "habilidade_bncc_codigo": "EF01LP01",
-  "referencia_cbtc": "CBTC-SC: LP.EF1.L.01 — Descrição",
-  "objetivo": "O que o aluno vai aprender.",
-  "nivel": 1,
-  "tipo_evidencia": "marcar",
-  "tempo_medio_min": 5,
-  "enunciado": "Texto do enunciado exibido ao aluno.",
-  "conteudo_base": { ... },
-  "criterios_sucesso": ["Critério 1"],
-  "adaptacoes_dua": {
-    "apresentacao": "Como o conteúdo é apresentado.",
-    "resposta": "Como o aluno pode responder.",
-    "engajamento": "Texto da dica exibida ao aluno."
-  },
-  "modo_professor": {
-    "gabarito": "Resposta correta.",
-    "objetivo_pedagogico": "Para que serve esta atividade.",
-    "perguntas_orientadoras": ["Pergunta 1?", "Pergunta 2?"],
-    "tempo_estimado": "5 a 7 minutos",
-    "adaptacao_nivel": "Descrição do que muda neste nível."
-  }
-}
-```
-
-### `tipo_evidencia` e estrutura de `conteudo_base`
-
-| Tipo        | Estrutura de `conteudo_base`                                      | Observações                          |
-|-------------|-------------------------------------------------------------------|--------------------------------------|
-| `marcar`    | `{ opcoes[], resposta_correta }`                                  | Índice base zero                     |
-| `marcar`    | `{ opcoes[], respostas_corretas[] }`                              | Múltipla escolha                     |
-| `marcar`    | `{ pares[] }`                                                     | `pares[i].{ situacao, opcoes[], correta }` |
-| `ordenar`   | `{ itens[], ordem_correta[] }`                                    | `ordem_correta` é permutação de índices |
-| `arrastar`  | `{ pares[] }`                                                     | `pares[i].{ elemento, nome }`        |
-| `arrastar`  | `{ itens[], categorias[] }`                                       | `itens[i].{ label, categoria }`      |
-| `arrastar`  | `{ blocos[], colunas[] }`                                         | `blocos[i].{ id, label, posicao }`   |
-| `escrever`  | `{ campos[], texto?, palavras_obrigatorias?, banco_eventos? }`    | `campos[i].{ id, label, max? }`      |
-| `desenhar`  | `{ prompt_desenho, tema }`                                        | Canvas Paint completo                |
-
-**Todos os índices de resposta são base zero e devem ser números, nunca strings.**
-
----
-
-## 5. Como adicionar atividades, unidades ou anos
-
-### Nova atividade em unidade existente
-
-Adicione um objeto com o mesmo `unidade_id` e um `nivel` diferente no JSON correspondente.
-
-### Nova unidade em componente existente
-
-Use um `unidade_id` novo (ex.: `"lp-1-u3"`). A unidade aparece automaticamente no navegador.
-
-### Novo componente curricular
-
-1. Adicione a entrada no mapa `COMPONENTE_SLUG` em `js/dataLoader/resolver.js`
-2. Adicione a entrada em `COMPONENTE_LABEL` em `js/ui/componentes.js`
-3. Adicione o SVG do emblema em `EMBLEMA_SVG` em `js/conquistas.js`
-4. Crie os arquivos `data/atividades-{slug}-{ano}.json`
-
-### Novo ano escolar
-
-Crie os arquivos `data/atividades-{slug}-{ano}.json` para todos os componentes desejados. O seletor de ano detecta automaticamente os anos presentes no cache.
-
-**Nenhuma outra alteração em código JavaScript é necessária para adicionar conteúdo.**
-
----
-
-## 6. Estrutura do projeto
-
-```
-lapee/
-├── index.html
-├── css/
-│   └── main.css                Sistema de design completo — 3659 linhas
-│                               (tokens, layout, motores, temas, print,
-│                               planos, guia, gerador, caca-palavras, cruzadas)
-├── js/
-│   ├── app.js                  Inicializacao, 8 rotas, subscriber do store
-│   ├── router.js               Roteamento por hash (#/rota)
-│   ├── store.js                Estado global + persistencia em localStorage
-│   ├── tts.js                  Sintese de fala (Web Speech API)
-│   ├── recorder.js             Gravacao de audio (MediaRecorder)
-│   ├── a11y.js                 Acessibilidade: prefs visuais + som + atalhos
-│   ├── mascote.js              Lua — coruja SVG animada com 4 estados
-│   ├── conquistas.js           Emblemas por componente derivados do progresso
-│   ├── notificacoes.js         Sistema de toasts (4 tipos, auto-dismiss)
-│   ├── sound.js                Efeitos sonoros via Web Audio API
-│   ├── exportar.js             Exportacao DOCX/PDF compartilhada (planos + gerador)
-│   ├── activities/
-│   │   ├── marcar.js           Motor: multipla escolha (simples, multipla, pares)
-│   │   ├── ordenar.js          Motor: ordenacao drag-and-drop + teclado
-│   │   ├── arrastar.js         Motor: arrastar (pares, categorias, blocos)
-│   │   ├── escrever.js         Motor: escrita livre + resposta oral
-│   │   ├── desenhar.js         Motor: Paint (24 cores, 6 pinceis, undo, PNG)
-│   │   ├── cacapalavras.js     Motor: caca-palavras interativo (wordfind.js)
-│   │   └── cruzadas.js         Motor: palavras cruzadas interativo (crossword.js)
-│   ├── dataLoader/
-│   │   ├── index.js            API publica (load, loadAll, re-exporta queries)
-│   │   ├── resolver.js         (componente, ano) → caminho do arquivo JSON
-│   │   ├── cache.js            Cache em memoria dos JSONs carregados
-│   │   └── queries.js          Funcoes de consulta sobre o cache
-│   └── ui/
-│       ├── index.js            Orquestrador da UI (init, renderPage)
-│       ├── componentes.js      Sidebar, breadcrumb, constantes, esc()
-│       ├── home.js             Pagina inicial com mascote e emblemas
-│       ├── navegador.js        Seletor de ano/materia + trilha de estrelas
-│       ├── atividade.js        Tela de atividade + despacho de 7 motores
-│       ├── guia.js             Guia do Professor (sidebar sticky + cards)
-│       ├── gerador.js          Gerador de folhas de atividades para impressao
-│       ├── planos.js           Gerador de planos de aula (445 habilidades BNCC)
-│       └── paginas.js          Paginas Sobre e Acessibilidade
-├── assets/
-│   ├── js/
-│   │   ├── docx.umd.js         Bundle UMD do pacote docx (exportacao Word)
-│   │   ├── wordfind.js         Gerador de caca-palavras (algoritmo proprio)
-│   │   └── crossword.js        Gerador de palavras cruzadas (algoritmo proprio)
-│   ├── icons/
-│   └── fonts/
-├── data/
-│   ├── atividades-lp-{1..5}.json           (30 arquivos, 180 atividades)
-│   ├── atividades-matematica-{1..5}.json
-│   ├── atividades-ciencias-{1..5}.json
-│   ├── atividades-historia-{1..5}.json
-│   ├── atividades-geografia-{1..5}.json
-│   ├── atividades-arte-{1..5}.json
-│   └── atividades-extras-3.json            (3 atividades demo: caca/cruzadas)
-├── docs/
-│   ├── pendencias.md           LEIA PRIMEIRO — estado atual e proximos passos
-│   ├── dados.md                Schema completo dos JSONs de atividades
-│   ├── activities.md           Documentacao dos 7 motores
-│   ├── ui.md                   Documentacao dos modulos de UI
-│   ├── app.md                  Inicializacao e rotas
-│   ├── store.md                Estado global e persistencia
-│   ├── css.md                  Guia do CSS (tokens, secoes, breakpoints)
-│   ├── dataLoader.md           API de carregamento de dados
-│   ├── a11y.md                 Acessibilidade
-│   ├── tts.md                  Sintese de fala
-│   ├── sound.md                Efeitos sonoros
-│   ├── notificacoes.md         Sistema de toasts
-│   ├── recorder.md             Gravacao de audio
-│   ├── router.md               Roteamento por hash
-│   └── instrucao-geracao-atividades.md   Instrucao para LLM gerar JSONs
-├── CHANGELOG.md
-├── LICENSE
-├── .nojekyll                   Desativa Jekyll no GitHub Pages (obrigatorio)
-└── README.md
-```
-
----
-
-## 7. Arquitetura técnica
-
-### Fluxo de inicialização
-
-```
-index.html
-  └─ app.js (main)
-       ├─ store.init()               carrega localStorage
-       ├─ a11y.applyAll()            aplica prefs ao <html>
-       ├─ data.loadAll()             fetch eager de todos os 30 JSONs
-       ├─ ui.init()                  monta sidebar, menu toggle
-       ├─ store.subscribe(renderPage) re-renderiza quando navKey muda
-       ├─ router.on(...)             registra handlers de rota
-       └─ router.start()             resolve rota inicial pelo hash
-```
-
-### Controle de re-render (navKey)
-
-O subscriber compara um `navKey` antes de chamar `renderPage`:
-
-```js
-const navKey = `${pagina}|${atividade_id}|${ano}|${componente}|${unidade_id}`;
-```
-
-Mudanças de `prefs` (acessibilidade) não disparam re-render — `a11y.applyAll()` aplica classes no `<html>` diretamente, preservando o motor de atividade em andamento.
-
-### Persistência
-
-| Dado                          | Armazenamento                    |
-|-------------------------------|----------------------------------|
-| Preferências de acessibilidade | `localStorage['lapee_prefs']`   |
-| Progresso do aluno            | `localStorage['lapee_progress']` |
-| Estado de navegação           | Memória (perdido ao fechar)      |
-| Conteúdo JSON                 | Memória (recarregado na inicialização) |
-
-### Snapshot do store
-
-`getState()` retorna uma cópia explícita dos campos públicos do estado, sem expor o array interno `_listeners`. O spread `{..._state}` é evitado deliberadamente para prevenir vazamento de referência interna.
-
----
-
-## 8. Motores de atividade
-
-Todos os motores seguem a mesma interface:
-
-```js
-render(container, atividade, opts)
-// opts: { onConcluida, onAcerto, onErro }
-```
-
-| Motor      | Arquivo                      | Comportamento                                                |
-|------------|------------------------------|--------------------------------------------------------------|
-| `marcar`   | `activities/marcar.js`       | Escolha única, múltipla ou pares de situações               |
-| `ordenar`  | `activities/ordenar.js`      | Reordenação via drag-and-drop ou botões para cima/baixo      |
-| `arrastar` | `activities/arrastar.js`     | Associação chip → destino (pares, categorias, blocos)        |
-| `escrever` | `activities/escrever.js`     | Texto livre + resposta oral via MediaRecorder                |
-| `desenhar` | `activities/desenhar.js`     | Canvas Paint: 24 cores, 6 pincéis, desfazer, salvar PNG      |
-
-Os callbacks `onAcerto` e `onErro` acionam animações do mascote. `onConcluida` exibe o banner de conclusão.
-
----
-
-## 9. Sistema de engajamento
-
-### Mascote Lua (`js/mascote.js`)
-
-SVG inline com 4 estados animados via CSS puro:
-
-| Estado      | Gatilho                  | Animação                                    |
-|-------------|--------------------------|---------------------------------------------|
-| `idle`      | padrão                   | respiração suave, piscada espontânea        |
-| `acerto`    | resposta correta         | pulo com rotação, bochechas rosas, estrelinhas |
-| `erro`      | resposta errada          | chacoalhada encorajadora, lágrima           |
-| `conquista` | emblema desbloqueado     | rotação completa com brilho dourado         |
-
-### Trilha de estrelas (`js/ui/navegador.js`)
-
-Três estrelas por unidade refletem o progresso lido do store:
-
-- Vazia (cinza) — não tentada
-- Tentativa (âmbar) — tentada, não concluída
-- Concluída (dourado pulsante) — concluída com êxito
-
-### Conquistas (`js/conquistas.js`)
-
-Um emblema por componente curricular por ano, derivado do `store.progress`. Desbloqueado quando todas as atividades do componente naquele ano têm status `concluida`. Exibido na home com progresso em porcentagem no tooltip.
-
----
-
-## 10. BNCC e CBTC-SC
-
-### BNCC
-
-O código de habilidade (ex.: `EF03LP06`) é um metadado de classificação, não prescrição de conteúdo. Exibido como tag nas telas de unidade e atividade. Sem lógica de negócio atrelada ao código.
-
-### CBTC-SC
-
-O campo `referencia_cbtc` segue o formato:
-
-```
-"CBTC-SC: COMPONENTE.ANO.AREA.NUMERO — Descrição resumida"
-```
-
-Exibido como tag visual. Não afeta a lógica da aplicação.
-
----
-
-## 11. Acessibilidade e DUA
-
-| Camada DUA    | Implementação                                                                 |
-|---------------|-------------------------------------------------------------------------------|
-| Apresentação  | Texto claro, TTS (Web Speech API), fonte ajustável, alto contraste, tema escuro |
-| Resposta      | Clique, arrastar, ordenar, escrever ou gravar oralmente                        |
-| Engajamento   | Missões curtas (3–7 min), feedback sem punição, dica que orienta sem entregar  |
-
-### Atalhos de teclado
-
-| Ação                   | Tecla      |
-|------------------------|------------|
-| Alternar fonte grande  | Alt + F    |
-| Alternar alto contraste | Alt + C   |
-| Alternar tema escuro   | Alt + D    |
-| Fechar menu / drawer   | Esc        |
-| Desfazer (motor Paint) | Ctrl + Z   |
-
-### Reset de progresso
-
-Em **Acessibilidade → Dados e progresso**, o botão "Apagar progresso" exige confirmação em dois cliques e remove `localStorage['lapee_progress']` completamente.
-
----
-
-## 12. Decisões técnicas
-
-**Sem framework, sem bundler, sem TypeScript.** Elimina etapas de build e dependências externas. Roda em qualquer servidor HTTP estático.
-
-**Roteamento por hash.** Funciona sem configuração de servidor. Compatível com GitHub Pages. O botão Voltar do navegador funciona corretamente porque `navigate()` sempre atualiza o histórico via `window.location.hash`.
-
-**ES Modules nativos.** Separação de responsabilidades sem transpilação. Suportado por todos os navegadores modernos desde 2018.
-
-**30 arquivos JSON separados por componente e ano.** Permite expansão de conteúdo sem tocar em código. Carregamento eager na inicialização (`loadAll()`) popula o cache de uma vez; arquivos inexistentes são ignorados silenciosamente.
-
-**`store.getState()` não expõe `_listeners`.** O snapshot retornado é uma cópia explícita dos campos públicos, sem spread do estado interno inteiro.
-
-**Gerador de planos de aula 100% client-side.** Dados BNCC embutidos diretamente no JS (`planos.js`) — zero fetch, funciona offline, sem chave de API. 445 habilidades reais extraídas do PDF oficial do MEC. A alternativa (chamar uma API de LLM) exigiria chave exposta no frontend ou um backend.
-
-**Efeitos sonoros via Web Audio API.** Síntese procedural — sem arquivos de áudio externos. `AudioContext` criado lazily após interação do usuário (obrigação dos browsers modernos). Mute controlado por `store.prefs.somAtivado` e aplicado via `a11y.applyAll()`.
-
-**Listeners descartados no `hashchange { once: true }`.** Teclado (Ctrl+Z no Paint), TTS (`isSpeaking`), microfone (`recClean`), `IntersectionObserver` do guia — todos liberados ao navegar para outra página. Evita acumulação entre visitas à mesma página.
-
----
-
-## 13. Limitações conhecidas
-
-- **ES Modules exigem servidor HTTP.** Não funcionam com `file://`. Veja seção 2.
-- **TTS:** qualidade varia por browser. Chrome/Edge têm melhor suporte em pt-BR. O bug do Chrome que travava a síntese após ~15s de inatividade está corrigido com o workaround `pause()/resume()` em `tts.js`. O botão "Ouvir" muda para "Ouvindo..." durante a leitura e pode ser clicado novamente para cancelar.
-- **Gravação oral:** requer permissão de microfone. Bloqueada em conexões não-HTTPS (GitHub Pages usa HTTPS — sem problema em produção).
-- **Progresso por dispositivo:** `localStorage` não sincroniza entre dispositivos ou navegadores.
-- **Conquistas exigem 100% do componente:** o emblema de Arte exige concluir todas as 6 atividades (inclusive o desenho livre do N3-U2), o que pode demorar mais que outras matérias.
-
----
-
-## 14. Licença
-
-MIT License — veja o arquivo `LICENSE`.
-
-O conteúdo pedagógico (textos, enunciados, critérios) pode ser adaptado e redistribuído desde que mantida a atribuição ao LAPEE AM.
+MIT License. Pedagogical content may be adapted and redistributed with attribution to LAPEE AM.
